@@ -1,0 +1,2393 @@
+Variable,Categoría,Comuna,Valor
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",No,Comuna 01,31918
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",Sí,Comuna 01,2885
+Fuente para preparar los alimentos,Acueducto público?,Comuna 01,34065
+Fuente para preparar los alimentos,Acueducto veredal?,Comuna 01,24
+Fuente para preparar los alimentos,Agua embotellada o en bolsa?,Comuna 01,11
+Fuente para preparar los alimentos,Agua lluvia?,Comuna 01,2
+Fuente para preparar los alimentos,Aguatero?,Comuna 01,13
+Fuente para preparar los alimentos,Carrotanque?,Comuna 01,0
+Fuente para preparar los alimentos,No informa,Comuna 01,453
+Fuente para preparar los alimentos,Pila pública?,Comuna 01,5
+Fuente para preparar los alimentos,Pozo con bomba?,Comuna 01,12
+Fuente para preparar los alimentos,"Pozo sin bomba, aljibe, jaguey o barreno?",Comuna 01,8
+Fuente para preparar los alimentos,Red de distribución comunitaria?,Comuna 01,36
+Fuente para preparar los alimentos,"RÍo, quebrada, manantial, nacimiento?",Comuna 01,123
+Lugar donde preparan los alimentos,En un cuarto usado solo para cocinar?,Comuna 01,33291
+Lugar donde preparan los alimentos,En un cuarto usado también para dormir?,Comuna 01,220
+Lugar donde preparan los alimentos,"En un patio, corredor, enramada o al aire libre?",Comuna 01,56
+Lugar donde preparan los alimentos,En una sala-comedor con lavaplatos?,Comuna 01,847
+Lugar donde preparan los alimentos,En una sala-comedor sin lavaplatos?,Comuna 01,46
+Lugar donde preparan los alimentos,No informa,Comuna 01,292
+Lugar donde preparan los alimentos,No preparan alimentos en la vivienda?,Comuna 01,51
+¿En general considera que la calidad de la prestación del servicio de salud reci,Bueno,Comuna 01,1877
+¿En general considera que la calidad de la prestación del servicio de salud reci,Malo,Comuna 01,437
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy Malo,Comuna 01,193
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy bueno,Comuna 01,726
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No,Comuna 01,24352
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No informa,Comuna 01,790
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",Sí,Comuna 01,8248
+Ha tenido algún hijo(a) nacido vivo(a),No,Comuna 01,6205
+Ha tenido algún hijo(a) nacido vivo(a),No informa,Comuna 01,486
+Ha tenido algún hijo(a) nacido vivo(a),Sí,Comuna 01,10843
+¿Lo atendieron?,No,Comuna 01,74
+¿Lo atendieron?,No informa,Comuna 01,1
+¿Lo atendieron?,Sí,Comuna 01,3233
+¿Donde nacio?,En este mpio,Comuna 01,21570
+¿Donde nacio?,En otro mpio Colombiano,Comuna 01,12167
+¿Donde nacio?,En otro país,Comuna 01,301
+¿Donde nacio?,No Informa,Comuna 01,765
+¿En donde vivía hace 12 meses ?,En este mpio,Comuna 01,32753
+¿En donde vivía hace 12 meses ?,En otro mpio colombiano,Comuna 01,856
+¿En donde vivía hace 12 meses ?,En otro país,Comuna 01,169
+¿En donde vivía hace 12 meses ?,No Informa,Comuna 01,768
+¿En donde vivía hace 12 meses ?,No había nacido,Comuna 01,257
+¿En donde vivía hace 5 años ?,En este mpio,Comuna 01,29412
+¿En donde vivía hace 5 años ?,En otro mpio Colombiano,Comuna 01,2775
+¿En donde vivía hace 5 años ?,En otro país,Comuna 01,438
+¿En donde vivía hace 5 años ?,No Informa,Comuna 01,899
+¿En donde vivía hace 5 años ?,No había nacido,Comuna 01,1279
+¿Sabe leer y escribir?,No,Comuna 01,691
+¿Sabe leer y escribir?,No informa,Comuna 01,781
+¿Sabe leer y escribir?,Sí,Comuna 01,31918
+¿Cuantos años cumplidos tiene?,de 00 A 04 Años,Comuna 01,1413
+¿Cuantos años cumplidos tiene?,de 05 A 09 Años,Comuna 01,1483
+¿Cuantos años cumplidos tiene?,de 10 A 14 Años,Comuna 01,1717
+¿Cuantos años cumplidos tiene?,de 100 y más Años,Comuna 01,13
+¿Cuantos años cumplidos tiene?,de 15 A 19 Años,Comuna 01,2375
+¿Cuantos años cumplidos tiene?,de 20 A 24 Años,Comuna 01,2861
+¿Cuantos años cumplidos tiene?,de 25 A 29 Años,Comuna 01,2764
+¿Cuantos años cumplidos tiene?,de 30 A 34 Años,Comuna 01,2530
+¿Cuantos años cumplidos tiene?,de 35 A 39 Años,Comuna 01,2627
+¿Cuantos años cumplidos tiene?,de 40 A 44 Años,Comuna 01,2122
+¿Cuantos años cumplidos tiene?,de 45 A 49 Años,Comuna 01,2224
+¿Cuantos años cumplidos tiene?,de 50 A 54 Años,Comuna 01,2598
+¿Cuantos años cumplidos tiene?,de 55 A 59 Años,Comuna 01,2654
+¿Cuantos años cumplidos tiene?,de 60 A 64 Años,Comuna 01,2362
+¿Cuantos años cumplidos tiene?,de 65 A 69 Años,Comuna 01,1844
+¿Cuantos años cumplidos tiene?,de 70 A 74 Años,Comuna 01,1217
+¿Cuantos años cumplidos tiene?,de 75 A 79 Años,Comuna 01,873
+¿Cuantos años cumplidos tiene?,de 80 A 84 Años,Comuna 01,578
+¿Cuantos años cumplidos tiene?,de 85 A 89 Años,Comuna 01,366
+¿Cuantos años cumplidos tiene?,de 90 A 94 Años,Comuna 01,146
+¿Cuantos años cumplidos tiene?,de 95 A 99 Años,Comuna 01,36
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No,Comuna 01,29994
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No informa,Comuna 01,752
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",Sí,Comuna 01,4057
+"Actualmente, ¿Su estado civil es?",Casado(a)?,Comuna 01,8982
+"Actualmente, ¿Su estado civil es?",Divorciado(a)?,Comuna 01,627
+"Actualmente, ¿Su estado civil es?",No Informa,Comuna 01,711
+"Actualmente, ¿Su estado civil es?",Separado(a) de matrimonio?,Comuna 01,1415
+"Actualmente, ¿Su estado civil es?",Separado(a) de unión libre?,Comuna 01,1233
+"Actualmente, ¿Su estado civil es?","Soltero(a)?(Nunca se ha casado, ni ha vivido en unión libre)",Comuna 01,12130
+"Actualmente, ¿Su estado civil es?",Unión libre?,Comuna 01,4916
+"Actualmente, ¿Su estado civil es?",Viudo(a)?,Comuna 01,1893
+¿Cuál es el nivel educativo más alto alcanzado?,Básica primaria,Comuna 01,5776
+¿Cuál es el nivel educativo más alto alcanzado?,Básica secundaria,Comuna 01,4201
+Material predominante de los pisos de esta vivienda,Alfombra,Comuna 01,234
+¿Cuál es el nivel educativo más alto alcanzado?,"Especialización, maestría, doctorado",Comuna 01,2595
+¿Cuál es el nivel educativo más alto alcanzado?,Media academica o clasica,Comuna 01,7468
+¿Cuál es el nivel educativo más alto alcanzado?,Media tecnica,Comuna 01,601
+¿Cuál es el nivel educativo más alto alcanzado?,Ninguno,Comuna 01,489
+¿Cuál es el nivel educativo más alto alcanzado?,No informa,Comuna 01,885
+¿Cuál es el nivel educativo más alto alcanzado?,Normalista,Comuna 01,174
+¿Cuál es el nivel educativo más alto alcanzado?,Preescolar,Comuna 01,429
+¿Cuál es el nivel educativo más alto alcanzado?,Técnica profesional o Tecnológica,Comuna 01,3660
+¿Cuál es el nivel educativo más alto alcanzado?,Universitario,Comuna 01,7112
+Parentesco con el jefe del hogar,"Hijo(a), Hijastro(a)",Comuna 01,10523
+Parentesco con el jefe del hogar,Jefe(a) del hogar,Comuna 01,12769
+Parentesco con el jefe del hogar,Otros NO parientes,Comuna 01,557
+Parentesco con el jefe del hogar,Otros Parientes,Comuna 01,4849
+Parentesco con el jefe del hogar,"Pareja (Conyuge, compañero(a), esposo(a))",Comuna 01,6105
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a la entidad de seguridad social en salud de la cual es filiado(a)?,Comuna 01,3308
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a otro médico de un grupo étnico? (curandero, yerbatero, etc.)",Comuna 01,2
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un boticario, farmacéuta, droguista?",Comuna 01,64
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un médico particular? (general, especialista, odontólogo, terapeuta u otro)",Comuna 01,338
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a una autoridad indígena espiritual?,Comuna 01,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Asistió a terapias alternativas? (acupuntura, esencias florales, musicoterapias, homeópata, etc.)",Comuna 01,2
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No Informa,Comuna 01,5
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No hizo nada,Comuna 01,78
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Se autorrecetó,Comuna 01,72
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Usó remedios caseros?,Comuna 01,188
+¿Cual es el sexo de...?,Hombre,Comuna 01,15880
+¿Cual es el sexo de...?,Mujer,Comuna 01,18923
+¿Actividad durante la semana pasada . . . :?,Busco trabajo?,Comuna 01,1146
+¿Actividad durante la semana pasada . . . :?,Estudió?,Comuna 01,5080
+¿Actividad durante la semana pasada . . . :?,Estuvo en otra situación?,Comuna 01,1671
+¿Actividad durante la semana pasada . . . :?,Está incapacitado(a) permanentemente para trabajar?,Comuna 01,301
+¿Actividad durante la semana pasada . . . :?,No Informa,Comuna 01,836
+¿Actividad durante la semana pasada . . . :?,"No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos?",Comuna 01,768
+¿Actividad durante la semana pasada . . . :?,Realizó oficios del hogar?,Comuna 01,4859
+¿Actividad durante la semana pasada . . . :?,Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran?,Comuna 01,208
+¿Actividad durante la semana pasada . . . :?,Trabajó por lo menos una hora en una actividad que le generó algún ingreso?,Comuna 01,13886
+¿Actividad durante la semana pasada . . . :?,"Vivió de jubilación, pensión o renta?",Comuna 01,3152
+Uso de la Unidad (Espacio independiente y separado),Lugar Especial de Alojamiento - LEA,Comuna 01,0
+Uso de la Unidad (Espacio independiente y separado),Mixto (Espacio independiente y separado que combina vivienda con otro uso no residencial),Comuna 01,376
+Uso de la Unidad (Espacio independiente y separado),Vivienda,Comuna 01,34427
+Estrato de esta vivienda,Estrato 1,Comuna 01,2328
+Estrato de esta vivienda,Estrato 2,Comuna 01,7092
+Estrato de esta vivienda,Estrato 3,Comuna 01,5538
+Estrato de esta vivienda,Estrato 4,Comuna 01,18347
+Estrato de esta vivienda,Estrato 5,Comuna 01,673
+Estrato de esta vivienda,Estrato 6,Comuna 01,736
+Estrato de esta vivienda,No sabe el estrato,Comuna 01,32
+Estrato de esta vivienda,Sin estrato,Comuna 01,12
+La vivienda cuenta con servicio de Energía Eléctrica,No,Comuna 01,45
+La vivienda cuenta con servicio de Energía Eléctrica,Si,Comuna 01,34758
+La vivienda cuenta con servicios de Acueducto?,No,Comuna 01,156
+La vivienda cuenta con servicios de Acueducto?,Si,Comuna 01,34647
+La vivienda cuenta con servicio de Alcantarillado?,No,Comuna 01,353
+La vivienda cuenta con servicio de Alcantarillado?,Si,Comuna 01,34450
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No,Comuna 01,4184
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No informa,Comuna 01,466
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,Si,Comuna 01,30153
+¿Cuántas veces por semana?,1 vez,Comuna 01,198
+¿Cuántas veces por semana?,2 veces,Comuna 01,33001
+¿Cuántas veces por semana?,3 veces,Comuna 01,763
+¿Cuántas veces por semana?,4 veces,Comuna 01,69
+¿Cuántas veces por semana?,5 veces,Comuna 01,38
+¿Cuántas veces por semana?,6 veces,Comuna 01,38
+¿Cuántas veces por semana?,7 veces,Comuna 01,111
+¿Cuántas veces por semana?,Mayor periodicidad,Comuna 01,35
+¿Cuántas veces por semana?,No sabe,Comuna 01,171
+La vivienda cuenta con servicio de Recolección de basuras?,No,Comuna 01,379
+La vivienda cuenta con servicio de Recolección de basuras?,Si,Comuna 01,34424
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No,Comuna 01,6842
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No informa,Comuna 01,461
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,Si,Comuna 01,27500
+Condición de ocupación de la Vivienda,Ocupada con personas presentes,Comuna 01,34803
+Material predominante de las paredes exteriores de la vivienda,"Bloque, ladrillo, piedra, madera pulida",Comuna 01,26251
+Material predominante de las paredes exteriores de la vivienda,"Caña, esterilla, otros vegetales",Comuna 01,229
+Material predominante de las paredes exteriores de la vivienda,Concreto vaciado,Comuna 01,6833
+Material predominante de las paredes exteriores de la vivienda,Guadua,Comuna 01,140
+Material predominante de las paredes exteriores de la vivienda,"Madera burda, tabla, tablon",Comuna 01,233
+Material predominante de las paredes exteriores de la vivienda,Material prefabricado,Comuna 01,234
+Material predominante de las paredes exteriores de la vivienda,"Materiales de deshecho (Zinc, tela, carton, latas, plásticos, otros)",Comuna 01,25
+Material predominante de las paredes exteriores de la vivienda,No tiene paredes,Comuna 01,0
+Material predominante de las paredes exteriores de la vivienda,"Tapia pisada, bahareque, adobe",Comuna 01,858
+Material predominante de los pisos de esta vivienda,"Baldosa, vinilo, tableta, ladrillo, laminado",Comuna 01,28373
+Material predominante de los pisos de esta vivienda,"Cemento, gravilla",Comuna 01,1282
+Material predominante de los pisos de esta vivienda,"Madera burda, tabla, tablon, otro vegetal",Comuna 01,1979
+Material predominante de los pisos de esta vivienda,"Marmol, parque, madera pulida y lacada",Comuna 01,2912
+Material predominante de los pisos de esta vivienda,"Tierra, arena, barro",Comuna 01,23
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Esta vivienda No tiene servicio sanitario?,Comuna 01,35
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro con descarga directa a fuentes de agua (bajamar)?,Comuna 01,115
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado a pozo séptico?,Comuna 01,387
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado al alcantarillado?,Comuna 01,33768
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro sin conexión?,Comuna 01,55
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Letrina?,Comuna 01,0
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,No informa,Comuna 01,443
+Tipo vivienda,Apartamento,Comuna 01,18217
+Tipo vivienda,Casa,Comuna 01,16473
+Tipo vivienda,"Otro (Contenedor, carpa, embarcación, vagon, cueva, refugio natural, etc",Comuna 01,11
+Tipo vivienda,Tipo cuarto,Comuna 01,102
+Tipo vivienda,Vivienda tradicional Indígena,Comuna 01,0
+Tipo vivienda,"Vivienda tradicional Étnica (Afrocolombiana, Isleña, Rrom)",Comuna 01,0
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",No,Comuna 02,9342
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",Sí,Comuna 02,1075
+Fuente para preparar los alimentos,Acueducto público?,Comuna 02,9900
+Fuente para preparar los alimentos,Acueducto veredal?,Comuna 02,31
+Fuente para preparar los alimentos,Agua embotellada o en bolsa?,Comuna 02,7
+Fuente para preparar los alimentos,Agua lluvia?,Comuna 02,39
+Fuente para preparar los alimentos,Aguatero?,Comuna 02,18
+Fuente para preparar los alimentos,Carrotanque?,Comuna 02,8
+Fuente para preparar los alimentos,No informa,Comuna 02,38
+Fuente para preparar los alimentos,Pila pública?,Comuna 02,3
+Fuente para preparar los alimentos,Pozo con bomba?,Comuna 02,3
+Fuente para preparar los alimentos,"Pozo sin bomba, aljibe, jaguey o barreno?",Comuna 02,8
+Fuente para preparar los alimentos,Red de distribución comunitaria?,Comuna 02,80
+Fuente para preparar los alimentos,"RÍo, quebrada, manantial, nacimiento?",Comuna 02,57
+Lugar donde preparan los alimentos,En un cuarto usado solo para cocinar?,Comuna 02,9562
+Lugar donde preparan los alimentos,En un cuarto usado también para dormir?,Comuna 02,193
+Lugar donde preparan los alimentos,"En un patio, corredor, enramada o al aire libre?",Comuna 02,52
+Lugar donde preparan los alimentos,En una sala-comedor con lavaplatos?,Comuna 02,335
+Lugar donde preparan los alimentos,En una sala-comedor sin lavaplatos?,Comuna 02,17
+Lugar donde preparan los alimentos,No informa,Comuna 02,33
+Lugar donde preparan los alimentos,No preparan alimentos en la vivienda?,Comuna 02,225
+¿En general considera que la calidad de la prestación del servicio de salud reci,Bueno,Comuna 02,700
+¿En general considera que la calidad de la prestación del servicio de salud reci,Malo,Comuna 02,187
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy Malo,Comuna 02,87
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy bueno,Comuna 02,208
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No,Comuna 02,7541
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No informa,Comuna 02,148
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",Sí,Comuna 02,2151
+Ha tenido algún hijo(a) nacido vivo(a),No,Comuna 02,1441
+Ha tenido algún hijo(a) nacido vivo(a),No informa,Comuna 02,121
+Ha tenido algún hijo(a) nacido vivo(a),Sí,Comuna 02,3183
+¿Lo atendieron?,No,Comuna 02,52
+¿Lo atendieron?,No informa,Comuna 02,0
+¿Lo atendieron?,Sí,Comuna 02,1182
+¿Donde nacio?,En este mpio,Comuna 02,7078
+¿Donde nacio?,En otro mpio Colombiano,Comuna 02,3107
+¿Donde nacio?,En otro país,Comuna 02,90
+¿Donde nacio?,No Informa,Comuna 02,142
+¿En donde vivía hace 12 meses ?,En este mpio,Comuna 02,10010
+¿En donde vivía hace 12 meses ?,En otro mpio colombiano,Comuna 02,114
+¿En donde vivía hace 12 meses ?,En otro país,Comuna 02,56
+¿En donde vivía hace 12 meses ?,No Informa,Comuna 02,144
+¿En donde vivía hace 12 meses ?,No había nacido,Comuna 02,93
+¿En donde vivía hace 5 años ?,En este mpio,Comuna 02,9204
+¿En donde vivía hace 5 años ?,En otro mpio Colombiano,Comuna 02,394
+¿En donde vivía hace 5 años ?,En otro país,Comuna 02,97
+¿En donde vivía hace 5 años ?,No Informa,Comuna 02,153
+¿En donde vivía hace 5 años ?,No había nacido,Comuna 02,569
+¿Sabe leer y escribir?,No,Comuna 02,629
+¿Sabe leer y escribir?,No informa,Comuna 02,148
+¿Sabe leer y escribir?,Sí,Comuna 02,9063
+¿Cuantos años cumplidos tiene?,de 00 A 04 Años,Comuna 02,577
+¿Cuantos años cumplidos tiene?,de 05 A 09 Años,Comuna 02,636
+¿Cuantos años cumplidos tiene?,de 10 A 14 Años,Comuna 02,744
+¿Cuantos años cumplidos tiene?,de 100 y más Años,Comuna 02,2
+¿Cuantos años cumplidos tiene?,de 15 A 19 Años,Comuna 02,841
+¿Cuantos años cumplidos tiene?,de 20 A 24 Años,Comuna 02,923
+¿Cuantos años cumplidos tiene?,de 25 A 29 Años,Comuna 02,888
+¿Cuantos años cumplidos tiene?,de 30 A 34 Años,Comuna 02,778
+¿Cuantos años cumplidos tiene?,de 35 A 39 Años,Comuna 02,668
+¿Cuantos años cumplidos tiene?,de 40 A 44 Años,Comuna 02,600
+¿Cuantos años cumplidos tiene?,de 45 A 49 Años,Comuna 02,614
+¿Cuantos años cumplidos tiene?,de 50 A 54 Años,Comuna 02,688
+¿Cuantos años cumplidos tiene?,de 55 A 59 Años,Comuna 02,637
+¿Cuantos años cumplidos tiene?,de 60 A 64 Años,Comuna 02,529
+¿Cuantos años cumplidos tiene?,de 65 A 69 Años,Comuna 02,458
+¿Cuantos años cumplidos tiene?,de 70 A 74 Años,Comuna 02,332
+¿Cuantos años cumplidos tiene?,de 75 A 79 Años,Comuna 02,248
+¿Cuantos años cumplidos tiene?,de 80 A 84 Años,Comuna 02,140
+¿Cuantos años cumplidos tiene?,de 85 A 89 Años,Comuna 02,75
+¿Cuantos años cumplidos tiene?,de 90 A 94 Años,Comuna 02,28
+¿Cuantos años cumplidos tiene?,de 95 A 99 Años,Comuna 02,11
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No,Comuna 02,8773
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No informa,Comuna 02,143
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",Sí,Comuna 02,1501
+"Actualmente, ¿Su estado civil es?",Casado(a)?,Comuna 02,1273
+"Actualmente, ¿Su estado civil es?",Divorciado(a)?,Comuna 02,51
+"Actualmente, ¿Su estado civil es?",No Informa,Comuna 02,139
+"Actualmente, ¿Su estado civil es?",Separado(a) de matrimonio?,Comuna 02,312
+"Actualmente, ¿Su estado civil es?",Separado(a) de unión libre?,Comuna 02,583
+"Actualmente, ¿Su estado civil es?","Soltero(a)?(Nunca se ha casado, ni ha vivido en unión libre)",Comuna 02,3988
+"Actualmente, ¿Su estado civil es?",Unión libre?,Comuna 02,2377
+"Actualmente, ¿Su estado civil es?",Viudo(a)?,Comuna 02,481
+¿Cuál es el nivel educativo más alto alcanzado?,Básica primaria,Comuna 02,3555
+¿Cuál es el nivel educativo más alto alcanzado?,Básica secundaria,Comuna 02,2084
+Material predominante de los pisos de esta vivienda,Alfombra,Comuna 02,23
+¿Cuál es el nivel educativo más alto alcanzado?,"Especialización, maestría, doctorado",Comuna 02,62
+¿Cuál es el nivel educativo más alto alcanzado?,Media academica o clasica,Comuna 02,2263
+¿Cuál es el nivel educativo más alto alcanzado?,Media tecnica,Comuna 02,67
+¿Cuál es el nivel educativo más alto alcanzado?,Ninguno,Comuna 02,417
+¿Cuál es el nivel educativo más alto alcanzado?,No informa,Comuna 02,158
+¿Cuál es el nivel educativo más alto alcanzado?,Normalista,Comuna 02,20
+¿Cuál es el nivel educativo más alto alcanzado?,Preescolar,Comuna 02,199
+¿Cuál es el nivel educativo más alto alcanzado?,Técnica profesional o Tecnológica,Comuna 02,572
+¿Cuál es el nivel educativo más alto alcanzado?,Universitario,Comuna 02,443
+Parentesco con el jefe del hogar,"Hijo(a), Hijastro(a)",Comuna 02,3370
+Parentesco con el jefe del hogar,Jefe(a) del hogar,Comuna 02,3606
+Parentesco con el jefe del hogar,Otros NO parientes,Comuna 02,190
+Parentesco con el jefe del hogar,Otros Parientes,Comuna 02,1733
+Parentesco con el jefe del hogar,"Pareja (Conyuge, compañero(a), esposo(a))",Comuna 02,1518
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a la entidad de seguridad social en salud de la cual es filiado(a)?,Comuna 02,1234
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a otro médico de un grupo étnico? (curandero, yerbatero, etc.)",Comuna 02,1
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un boticario, farmacéuta, droguista?",Comuna 02,43
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un médico particular? (general, especialista, odontólogo, terapeuta u otro)",Comuna 02,28
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a una autoridad indígena espiritual?,Comuna 02,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Asistió a terapias alternativas? (acupuntura, esencias florales, musicoterapias, homeópata, etc.)",Comuna 02,3
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No Informa,Comuna 02,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No hizo nada,Comuna 02,48
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Se autorrecetó,Comuna 02,64
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Usó remedios caseros?,Comuna 02,80
+¿Cual es el sexo de...?,Hombre,Comuna 02,5061
+¿Cual es el sexo de...?,Mujer,Comuna 02,5356
+¿Actividad durante la semana pasada . . . :?,Busco trabajo?,Comuna 02,545
+¿Actividad durante la semana pasada . . . :?,Estudió?,Comuna 02,1358
+¿Actividad durante la semana pasada . . . :?,Estuvo en otra situación?,Comuna 02,587
+¿Actividad durante la semana pasada . . . :?,Está incapacitado(a) permanentemente para trabajar?,Comuna 02,137
+¿Actividad durante la semana pasada . . . :?,No Informa,Comuna 02,213
+¿Actividad durante la semana pasada . . . :?,"No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos?",Comuna 02,158
+¿Actividad durante la semana pasada . . . :?,Realizó oficios del hogar?,Comuna 02,1758
+¿Actividad durante la semana pasada . . . :?,Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran?,Comuna 02,76
+¿Actividad durante la semana pasada . . . :?,Trabajó por lo menos una hora en una actividad que le generó algún ingreso?,Comuna 02,4048
+¿Actividad durante la semana pasada . . . :?,"Vivió de jubilación, pensión o renta?",Comuna 02,324
+Uso de la Unidad (Espacio independiente y separado),Lugar Especial de Alojamiento - LEA,Comuna 02,0
+Uso de la Unidad (Espacio independiente y separado),Mixto (Espacio independiente y separado que combina vivienda con otro uso no residencial),Comuna 02,100
+Uso de la Unidad (Espacio independiente y separado),Vivienda,Comuna 02,10317
+Estrato de esta vivienda,Estrato 1,Comuna 02,4587
+Estrato de esta vivienda,Estrato 2,Comuna 02,2878
+Estrato de esta vivienda,Estrato 3,Comuna 02,2702
+Estrato de esta vivienda,Estrato 4,Comuna 02,148
+Estrato de esta vivienda,Estrato 5,Comuna 02,13
+Estrato de esta vivienda,Estrato 6,Comuna 02,12
+Estrato de esta vivienda,No sabe el estrato,Comuna 02,1
+Estrato de esta vivienda,Sin estrato,Comuna 02,17
+La vivienda cuenta con servicio de Energía Eléctrica,No,Comuna 02,59
+La vivienda cuenta con servicio de Energía Eléctrica,Si,Comuna 02,10358
+La vivienda cuenta con servicios de Acueducto?,No,Comuna 02,206
+La vivienda cuenta con servicios de Acueducto?,Si,Comuna 02,10211
+La vivienda cuenta con servicio de Alcantarillado?,No,Comuna 02,250
+La vivienda cuenta con servicio de Alcantarillado?,Si,Comuna 02,10167
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No,Comuna 02,7059
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No informa,Comuna 02,33
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,Si,Comuna 02,3325
+¿Cuántas veces por semana?,1 vez,Comuna 02,127
+¿Cuántas veces por semana?,2 veces,Comuna 02,9541
+¿Cuántas veces por semana?,3 veces,Comuna 02,222
+¿Cuántas veces por semana?,4 veces,Comuna 02,0
+¿Cuántas veces por semana?,5 veces,Comuna 02,14
+¿Cuántas veces por semana?,6 veces,Comuna 02,4
+¿Cuántas veces por semana?,7 veces,Comuna 02,65
+¿Cuántas veces por semana?,Mayor periodicidad,Comuna 02,7
+¿Cuántas veces por semana?,No sabe,Comuna 02,10
+La vivienda cuenta con servicio de Recolección de basuras?,No,Comuna 02,427
+La vivienda cuenta con servicio de Recolección de basuras?,Si,Comuna 02,9990
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No,Comuna 02,6365
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No informa,Comuna 02,33
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,Si,Comuna 02,4019
+Condición de ocupación de la Vivienda,Ocupada con personas presentes,Comuna 02,10417
+Material predominante de las paredes exteriores de la vivienda,"Bloque, ladrillo, piedra, madera pulida",Comuna 02,4675
+Material predominante de las paredes exteriores de la vivienda,"Caña, esterilla, otros vegetales",Comuna 02,689
+Material predominante de las paredes exteriores de la vivienda,Concreto vaciado,Comuna 02,798
+Material predominante de las paredes exteriores de la vivienda,Guadua,Comuna 02,184
+Material predominante de las paredes exteriores de la vivienda,"Madera burda, tabla, tablon",Comuna 02,410
+Material predominante de las paredes exteriores de la vivienda,Material prefabricado,Comuna 02,162
+Material predominante de las paredes exteriores de la vivienda,"Materiales de deshecho (Zinc, tela, carton, latas, plásticos, otros)",Comuna 02,18
+Material predominante de las paredes exteriores de la vivienda,No tiene paredes,Comuna 02,0
+Material predominante de las paredes exteriores de la vivienda,"Tapia pisada, bahareque, adobe",Comuna 02,3481
+Material predominante de los pisos de esta vivienda,"Baldosa, vinilo, tableta, ladrillo, laminado",Comuna 02,3601
+Material predominante de los pisos de esta vivienda,"Cemento, gravilla",Comuna 02,996
+Material predominante de los pisos de esta vivienda,"Madera burda, tabla, tablon, otro vegetal",Comuna 02,5063
+Material predominante de los pisos de esta vivienda,"Marmol, parque, madera pulida y lacada",Comuna 02,701
+Material predominante de los pisos de esta vivienda,"Tierra, arena, barro",Comuna 02,33
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Esta vivienda No tiene servicio sanitario?,Comuna 02,29
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro con descarga directa a fuentes de agua (bajamar)?,Comuna 02,27
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado a pozo séptico?,Comuna 02,194
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado al alcantarillado?,Comuna 02,10092
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro sin conexión?,Comuna 02,38
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Letrina?,Comuna 02,4
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,No informa,Comuna 02,33
+Tipo vivienda,Apartamento,Comuna 02,4068
+Tipo vivienda,Casa,Comuna 02,5583
+Tipo vivienda,"Otro (Contenedor, carpa, embarcación, vagon, cueva, refugio natural, etc",Comuna 02,8
+Tipo vivienda,Tipo cuarto,Comuna 02,753
+Tipo vivienda,Vivienda tradicional Indígena,Comuna 02,5
+Tipo vivienda,"Vivienda tradicional Étnica (Afrocolombiana, Isleña, Rrom)",Comuna 02,0
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",No,Comuna 03,20572
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",Sí,Comuna 03,2292
+Fuente para preparar los alimentos,Acueducto público?,Comuna 03,22120
+Fuente para preparar los alimentos,Acueducto veredal?,Comuna 03,13
+Fuente para preparar los alimentos,Agua embotellada o en bolsa?,Comuna 03,6
+Fuente para preparar los alimentos,Agua lluvia?,Comuna 03,17
+Fuente para preparar los alimentos,Aguatero?,Comuna 03,6
+Fuente para preparar los alimentos,Carrotanque?,Comuna 03,6
+Fuente para preparar los alimentos,No informa,Comuna 03,131
+Fuente para preparar los alimentos,Pila pública?,Comuna 03,17
+Fuente para preparar los alimentos,Pozo con bomba?,Comuna 03,42
+Fuente para preparar los alimentos,"Pozo sin bomba, aljibe, jaguey o barreno?",Comuna 03,49
+Fuente para preparar los alimentos,Red de distribución comunitaria?,Comuna 03,43
+Fuente para preparar los alimentos,"RÍo, quebrada, manantial, nacimiento?",Comuna 03,19
+Lugar donde preparan los alimentos,En un cuarto usado solo para cocinar?,Comuna 03,21452
+Lugar donde preparan los alimentos,En un cuarto usado también para dormir?,Comuna 03,217
+Lugar donde preparan los alimentos,"En un patio, corredor, enramada o al aire libre?",Comuna 03,137
+Lugar donde preparan los alimentos,En una sala-comedor con lavaplatos?,Comuna 03,595
+Lugar donde preparan los alimentos,En una sala-comedor sin lavaplatos?,Comuna 03,12
+Lugar donde preparan los alimentos,No informa,Comuna 03,56
+Lugar donde preparan los alimentos,No preparan alimentos en la vivienda?,Comuna 03,395
+¿En general considera que la calidad de la prestación del servicio de salud reci,Bueno,Comuna 03,1990
+¿En general considera que la calidad de la prestación del servicio de salud reci,Malo,Comuna 03,455
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy Malo,Comuna 03,195
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy bueno,Comuna 03,683
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No,Comuna 03,16942
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No informa,Comuna 03,296
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",Sí,Comuna 03,4652
+Ha tenido algún hijo(a) nacido vivo(a),No,Comuna 03,3904
+Ha tenido algún hijo(a) nacido vivo(a),No informa,Comuna 03,221
+Ha tenido algún hijo(a) nacido vivo(a),Sí,Comuna 03,7001
+¿Lo atendieron?,No,Comuna 03,83
+¿Lo atendieron?,No informa,Comuna 03,0
+¿Lo atendieron?,Sí,Comuna 03,3323
+¿Donde nacio?,En este mpio,Comuna 03,14240
+¿Donde nacio?,En otro mpio Colombiano,Comuna 03,8124
+¿Donde nacio?,En otro país,Comuna 03,218
+¿Donde nacio?,No Informa,Comuna 03,282
+¿En donde vivía hace 12 meses ?,En este mpio,Comuna 03,21785
+¿En donde vivía hace 12 meses ?,En otro mpio colombiano,Comuna 03,477
+¿En donde vivía hace 12 meses ?,En otro país,Comuna 03,156
+¿En donde vivía hace 12 meses ?,No Informa,Comuna 03,283
+¿En donde vivía hace 12 meses ?,No había nacido,Comuna 03,163
+¿En donde vivía hace 5 años ?,En este mpio,Comuna 03,19601
+¿En donde vivía hace 5 años ?,En otro mpio Colombiano,Comuna 03,1694
+¿En donde vivía hace 5 años ?,En otro país,Comuna 03,307
+¿En donde vivía hace 5 años ?,No Informa,Comuna 03,356
+¿En donde vivía hace 5 años ?,No había nacido,Comuna 03,906
+¿Sabe leer y escribir?,No,Comuna 03,585
+¿Sabe leer y escribir?,No informa,Comuna 03,295
+¿Sabe leer y escribir?,Sí,Comuna 03,21010
+¿Cuantos años cumplidos tiene?,de 00 A 04 Años,Comuna 03,974
+¿Cuantos años cumplidos tiene?,de 05 A 09 Años,Comuna 03,1018
+¿Cuantos años cumplidos tiene?,de 10 A 14 Años,Comuna 03,1181
+¿Cuantos años cumplidos tiene?,de 100 y más Años,Comuna 03,2
+¿Cuantos años cumplidos tiene?,de 15 A 19 Años,Comuna 03,1543
+¿Cuantos años cumplidos tiene?,de 20 A 24 Años,Comuna 03,1905
+¿Cuantos años cumplidos tiene?,de 25 A 29 Años,Comuna 03,1837
+¿Cuantos años cumplidos tiene?,de 30 A 34 Años,Comuna 03,1553
+¿Cuantos años cumplidos tiene?,de 35 A 39 Años,Comuna 03,1468
+¿Cuantos años cumplidos tiene?,de 40 A 44 Años,Comuna 03,1237
+¿Cuantos años cumplidos tiene?,de 45 A 49 Años,Comuna 03,1512
+¿Cuantos años cumplidos tiene?,de 50 A 54 Años,Comuna 03,1732
+¿Cuantos años cumplidos tiene?,de 55 A 59 Años,Comuna 03,1682
+¿Cuantos años cumplidos tiene?,de 60 A 64 Años,Comuna 03,1503
+¿Cuantos años cumplidos tiene?,de 65 A 69 Años,Comuna 03,1190
+¿Cuantos años cumplidos tiene?,de 70 A 74 Años,Comuna 03,866
+¿Cuantos años cumplidos tiene?,de 75 A 79 Años,Comuna 03,734
+¿Cuantos años cumplidos tiene?,de 80 A 84 Años,Comuna 03,500
+¿Cuantos años cumplidos tiene?,de 85 A 89 Años,Comuna 03,272
+¿Cuantos años cumplidos tiene?,de 90 A 94 Años,Comuna 03,125
+¿Cuantos años cumplidos tiene?,de 95 A 99 Años,Comuna 03,30
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No,Comuna 03,18699
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No informa,Comuna 03,280
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",Sí,Comuna 03,3885
+"Actualmente, ¿Su estado civil es?",Casado(a)?,Comuna 03,4358
+"Actualmente, ¿Su estado civil es?",Divorciado(a)?,Comuna 03,291
+"Actualmente, ¿Su estado civil es?",No Informa,Comuna 03,269
+"Actualmente, ¿Su estado civil es?",Separado(a) de matrimonio?,Comuna 03,1104
+"Actualmente, ¿Su estado civil es?",Separado(a) de unión libre?,Comuna 03,1011
+"Actualmente, ¿Su estado civil es?","Soltero(a)?(Nunca se ha casado, ni ha vivido en unión libre)",Comuna 03,8794
+"Actualmente, ¿Su estado civil es?",Unión libre?,Comuna 03,3679
+"Actualmente, ¿Su estado civil es?",Viudo(a)?,Comuna 03,1366
+¿Cuál es el nivel educativo más alto alcanzado?,Básica primaria,Comuna 03,5360
+¿Cuál es el nivel educativo más alto alcanzado?,Básica secundaria,Comuna 03,3661
+Material predominante de los pisos de esta vivienda,Alfombra,Comuna 03,124
+¿Cuál es el nivel educativo más alto alcanzado?,"Especialización, maestría, doctorado",Comuna 03,582
+¿Cuál es el nivel educativo más alto alcanzado?,Media academica o clasica,Comuna 03,5996
+¿Cuál es el nivel educativo más alto alcanzado?,Media tecnica,Comuna 03,315
+¿Cuál es el nivel educativo más alto alcanzado?,Ninguno,Comuna 03,387
+¿Cuál es el nivel educativo más alto alcanzado?,No informa,Comuna 03,341
+¿Cuál es el nivel educativo más alto alcanzado?,Normalista,Comuna 03,101
+¿Cuál es el nivel educativo más alto alcanzado?,Preescolar,Comuna 03,314
+¿Cuál es el nivel educativo más alto alcanzado?,Técnica profesional o Tecnológica,Comuna 03,2163
+¿Cuál es el nivel educativo más alto alcanzado?,Universitario,Comuna 03,2670
+Parentesco con el jefe del hogar,"Hijo(a), Hijastro(a)",Comuna 03,6640
+Parentesco con el jefe del hogar,Jefe(a) del hogar,Comuna 03,8438
+Parentesco con el jefe del hogar,Otros NO parientes,Comuna 03,549
+Parentesco con el jefe del hogar,Otros Parientes,Comuna 03,3879
+Parentesco con el jefe del hogar,"Pareja (Conyuge, compañero(a), esposo(a))",Comuna 03,3358
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a la entidad de seguridad social en salud de la cual es filiado(a)?,Comuna 03,3406
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a otro médico de un grupo étnico? (curandero, yerbatero, etc.)",Comuna 03,1
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un boticario, farmacéuta, droguista?",Comuna 03,67
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un médico particular? (general, especialista, odontólogo, terapeuta u otro)",Comuna 03,175
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a una autoridad indígena espiritual?,Comuna 03,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Asistió a terapias alternativas? (acupuntura, esencias florales, musicoterapias, homeópata, etc.)",Comuna 03,3
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No Informa,Comuna 03,1
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No hizo nada,Comuna 03,48
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Se autorrecetó,Comuna 03,52
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Usó remedios caseros?,Comuna 03,132
+¿Cual es el sexo de...?,Hombre,Comuna 03,10714
+¿Cual es el sexo de...?,Mujer,Comuna 03,12150
+¿Actividad durante la semana pasada . . . :?,Busco trabajo?,Comuna 03,994
+¿Actividad durante la semana pasada . . . :?,Estudió?,Comuna 03,2753
+¿Actividad durante la semana pasada . . . :?,Estuvo en otra situación?,Comuna 03,1559
+¿Actividad durante la semana pasada . . . :?,Está incapacitado(a) permanentemente para trabajar?,Comuna 03,234
+¿Actividad durante la semana pasada . . . :?,No Informa,Comuna 03,377
+¿Actividad durante la semana pasada . . . :?,"No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos?",Comuna 03,496
+¿Actividad durante la semana pasada . . . :?,Realizó oficios del hogar?,Comuna 03,3455
+¿Actividad durante la semana pasada . . . :?,Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran?,Comuna 03,101
+¿Actividad durante la semana pasada . . . :?,Trabajó por lo menos una hora en una actividad que le generó algún ingreso?,Comuna 03,8865
+¿Actividad durante la semana pasada . . . :?,"Vivió de jubilación, pensión o renta?",Comuna 03,2038
+Uso de la Unidad (Espacio independiente y separado),Lugar Especial de Alojamiento - LEA,Comuna 03,0
+Uso de la Unidad (Espacio independiente y separado),Mixto (Espacio independiente y separado que combina vivienda con otro uso no residencial),Comuna 03,379
+Uso de la Unidad (Espacio independiente y separado),Vivienda,Comuna 03,22485
+Estrato de esta vivienda,Estrato 1,Comuna 03,312
+Estrato de esta vivienda,Estrato 2,Comuna 03,1238
+Estrato de esta vivienda,Estrato 3,Comuna 03,18722
+Estrato de esta vivienda,Estrato 4,Comuna 03,2231
+Estrato de esta vivienda,Estrato 5,Comuna 03,193
+Estrato de esta vivienda,Estrato 6,Comuna 03,46
+Estrato de esta vivienda,No sabe el estrato,Comuna 03,18
+Estrato de esta vivienda,Sin estrato,Comuna 03,7
+La vivienda cuenta con servicio de Energía Eléctrica,No,Comuna 03,97
+La vivienda cuenta con servicio de Energía Eléctrica,Si,Comuna 03,22767
+La vivienda cuenta con servicios de Acueducto?,No,Comuna 03,194
+La vivienda cuenta con servicios de Acueducto?,Si,Comuna 03,22670
+La vivienda cuenta con servicio de Alcantarillado?,No,Comuna 03,221
+La vivienda cuenta con servicio de Alcantarillado?,Si,Comuna 03,22643
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No,Comuna 03,6417
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No informa,Comuna 03,107
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,Si,Comuna 03,16340
+¿Cuántas veces por semana?,1 vez,Comuna 03,112
+¿Cuántas veces por semana?,2 veces,Comuna 03,20386
+¿Cuántas veces por semana?,3 veces,Comuna 03,1229
+¿Cuántas veces por semana?,4 veces,Comuna 03,58
+¿Cuántas veces por semana?,5 veces,Comuna 03,183
+¿Cuántas veces por semana?,6 veces,Comuna 03,31
+¿Cuántas veces por semana?,7 veces,Comuna 03,430
+¿Cuántas veces por semana?,Mayor periodicidad,Comuna 03,52
+¿Cuántas veces por semana?,No sabe,Comuna 03,65
+La vivienda cuenta con servicio de Recolección de basuras?,No,Comuna 03,318
+La vivienda cuenta con servicio de Recolección de basuras?,Si,Comuna 03,22546
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No,Comuna 03,7711
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No informa,Comuna 03,107
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,Si,Comuna 03,15046
+Condición de ocupación de la Vivienda,Ocupada con personas presentes,Comuna 03,22864
+Material predominante de las paredes exteriores de la vivienda,"Bloque, ladrillo, piedra, madera pulida",Comuna 03,13905
+Material predominante de las paredes exteriores de la vivienda,"Caña, esterilla, otros vegetales",Comuna 03,358
+Material predominante de las paredes exteriores de la vivienda,Concreto vaciado,Comuna 03,2587
+Material predominante de las paredes exteriores de la vivienda,Guadua,Comuna 03,231
+Material predominante de las paredes exteriores de la vivienda,"Madera burda, tabla, tablon",Comuna 03,311
+Material predominante de las paredes exteriores de la vivienda,Material prefabricado,Comuna 03,370
+Material predominante de las paredes exteriores de la vivienda,"Materiales de deshecho (Zinc, tela, carton, latas, plásticos, otros)",Comuna 03,12
+Material predominante de las paredes exteriores de la vivienda,No tiene paredes,Comuna 03,0
+Material predominante de las paredes exteriores de la vivienda,"Tapia pisada, bahareque, adobe",Comuna 03,5090
+Material predominante de los pisos de esta vivienda,"Baldosa, vinilo, tableta, ladrillo, laminado",Comuna 03,13464
+Material predominante de los pisos de esta vivienda,"Cemento, gravilla",Comuna 03,487
+Material predominante de los pisos de esta vivienda,"Madera burda, tabla, tablon, otro vegetal",Comuna 03,7012
+Material predominante de los pisos de esta vivienda,"Marmol, parque, madera pulida y lacada",Comuna 03,1674
+Material predominante de los pisos de esta vivienda,"Tierra, arena, barro",Comuna 03,103
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Esta vivienda No tiene servicio sanitario?,Comuna 03,106
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro con descarga directa a fuentes de agua (bajamar)?,Comuna 03,22
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado a pozo séptico?,Comuna 03,136
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado al alcantarillado?,Comuna 03,22468
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro sin conexión?,Comuna 03,6
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Letrina?,Comuna 03,12
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,No informa,Comuna 03,114
+Tipo vivienda,Apartamento,Comuna 03,13467
+Tipo vivienda,Casa,Comuna 03,8445
+Tipo vivienda,"Otro (Contenedor, carpa, embarcación, vagon, cueva, refugio natural, etc",Comuna 03,12
+Tipo vivienda,Tipo cuarto,Comuna 03,901
+Tipo vivienda,Vivienda tradicional Indígena,Comuna 03,39
+Tipo vivienda,"Vivienda tradicional Étnica (Afrocolombiana, Isleña, Rrom)",Comuna 03,0
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",No,Comuna 04,20107
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",Sí,Comuna 04,2731
+Fuente para preparar los alimentos,Acueducto público?,Comuna 04,21892
+Fuente para preparar los alimentos,Acueducto veredal?,Comuna 04,161
+Fuente para preparar los alimentos,Agua embotellada o en bolsa?,Comuna 04,15
+Fuente para preparar los alimentos,Agua lluvia?,Comuna 04,52
+Fuente para preparar los alimentos,Aguatero?,Comuna 04,16
+Fuente para preparar los alimentos,Carrotanque?,Comuna 04,8
+Fuente para preparar los alimentos,No informa,Comuna 04,162
+Fuente para preparar los alimentos,Pila pública?,Comuna 04,0
+Fuente para preparar los alimentos,Pozo con bomba?,Comuna 04,47
+Fuente para preparar los alimentos,"Pozo sin bomba, aljibe, jaguey o barreno?",Comuna 04,98
+Fuente para preparar los alimentos,Red de distribución comunitaria?,Comuna 04,86
+Fuente para preparar los alimentos,"RÍo, quebrada, manantial, nacimiento?",Comuna 04,212
+Lugar donde preparan los alimentos,En un cuarto usado solo para cocinar?,Comuna 04,21956
+Lugar donde preparan los alimentos,En un cuarto usado también para dormir?,Comuna 04,112
+Lugar donde preparan los alimentos,"En un patio, corredor, enramada o al aire libre?",Comuna 04,122
+Lugar donde preparan los alimentos,En una sala-comedor con lavaplatos?,Comuna 04,460
+Lugar donde preparan los alimentos,En una sala-comedor sin lavaplatos?,Comuna 04,66
+Lugar donde preparan los alimentos,No informa,Comuna 04,33
+Lugar donde preparan los alimentos,No preparan alimentos en la vivienda?,Comuna 04,89
+¿En general considera que la calidad de la prestación del servicio de salud reci,Bueno,Comuna 04,1686
+¿En general considera que la calidad de la prestación del servicio de salud reci,Malo,Comuna 04,342
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy Malo,Comuna 04,108
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy bueno,Comuna 04,653
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No,Comuna 04,16173
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No informa,Comuna 04,230
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",Sí,Comuna 04,5626
+Ha tenido algún hijo(a) nacido vivo(a),No,Comuna 04,4417
+Ha tenido algún hijo(a) nacido vivo(a),No informa,Comuna 04,184
+Ha tenido algún hijo(a) nacido vivo(a),Sí,Comuna 04,7213
+¿Lo atendieron?,No,Comuna 04,49
+¿Lo atendieron?,No informa,Comuna 04,0
+¿Lo atendieron?,Sí,Comuna 04,2789
+¿Donde nacio?,En este mpio,Comuna 04,13109
+¿Donde nacio?,En otro mpio Colombiano,Comuna 04,9239
+¿Donde nacio?,En otro país,Comuna 04,259
+¿Donde nacio?,No Informa,Comuna 04,231
+¿En donde vivía hace 12 meses ?,En este mpio,Comuna 04,21817
+¿En donde vivía hace 12 meses ?,En otro mpio colombiano,Comuna 04,487
+¿En donde vivía hace 12 meses ?,En otro país,Comuna 04,152
+¿En donde vivía hace 12 meses ?,No Informa,Comuna 04,222
+¿En donde vivía hace 12 meses ?,No había nacido,Comuna 04,160
+¿En donde vivía hace 5 años ?,En este mpio,Comuna 04,19377
+¿En donde vivía hace 5 años ?,En otro mpio Colombiano,Comuna 04,2078
+¿En donde vivía hace 5 años ?,En otro país,Comuna 04,338
+¿En donde vivía hace 5 años ?,No Informa,Comuna 04,303
+¿En donde vivía hace 5 años ?,No había nacido,Comuna 04,742
+¿Sabe leer y escribir?,No,Comuna 04,421
+¿Sabe leer y escribir?,No informa,Comuna 04,230
+¿Sabe leer y escribir?,Sí,Comuna 04,21378
+¿Cuantos años cumplidos tiene?,de 00 A 04 Años,Comuna 04,809
+¿Cuantos años cumplidos tiene?,de 05 A 09 Años,Comuna 04,944
+¿Cuantos años cumplidos tiene?,de 10 A 14 Años,Comuna 04,1058
+¿Cuantos años cumplidos tiene?,de 100 y más Años,Comuna 04,6
+¿Cuantos años cumplidos tiene?,de 15 A 19 Años,Comuna 04,1619
+¿Cuantos años cumplidos tiene?,de 20 A 24 Años,Comuna 04,2073
+¿Cuantos años cumplidos tiene?,de 25 A 29 Años,Comuna 04,1830
+¿Cuantos años cumplidos tiene?,de 30 A 34 Años,Comuna 04,1482
+¿Cuantos años cumplidos tiene?,de 35 A 39 Años,Comuna 04,1559
+¿Cuantos años cumplidos tiene?,de 40 A 44 Años,Comuna 04,1363
+¿Cuantos años cumplidos tiene?,de 45 A 49 Años,Comuna 04,1473
+¿Cuantos años cumplidos tiene?,de 50 A 54 Años,Comuna 04,1672
+¿Cuantos años cumplidos tiene?,de 55 A 59 Años,Comuna 04,1736
+¿Cuantos años cumplidos tiene?,de 60 A 64 Años,Comuna 04,1546
+¿Cuantos años cumplidos tiene?,de 65 A 69 Años,Comuna 04,1229
+¿Cuantos años cumplidos tiene?,de 70 A 74 Años,Comuna 04,901
+¿Cuantos años cumplidos tiene?,de 75 A 79 Años,Comuna 04,687
+¿Cuantos años cumplidos tiene?,de 80 A 84 Años,Comuna 04,459
+¿Cuantos años cumplidos tiene?,de 85 A 89 Años,Comuna 04,263
+¿Cuantos años cumplidos tiene?,de 90 A 94 Años,Comuna 04,92
+¿Cuantos años cumplidos tiene?,de 95 A 99 Años,Comuna 04,37
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No,Comuna 04,19011
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No informa,Comuna 04,220
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",Sí,Comuna 04,3607
+"Actualmente, ¿Su estado civil es?",Casado(a)?,Comuna 04,5813
+"Actualmente, ¿Su estado civil es?",Divorciado(a)?,Comuna 04,507
+"Actualmente, ¿Su estado civil es?",No Informa,Comuna 04,206
+"Actualmente, ¿Su estado civil es?",Separado(a) de matrimonio?,Comuna 04,908
+"Actualmente, ¿Su estado civil es?",Separado(a) de unión libre?,Comuna 04,497
+"Actualmente, ¿Su estado civil es?","Soltero(a)?(Nunca se ha casado, ni ha vivido en unión libre)",Comuna 04,9014
+"Actualmente, ¿Su estado civil es?",Unión libre?,Comuna 04,2821
+"Actualmente, ¿Su estado civil es?",Viudo(a)?,Comuna 04,1319
+¿Cuál es el nivel educativo más alto alcanzado?,Básica primaria,Comuna 04,3804
+¿Cuál es el nivel educativo más alto alcanzado?,Básica secundaria,Comuna 04,2710
+Material predominante de los pisos de esta vivienda,Alfombra,Comuna 04,165
+¿Cuál es el nivel educativo más alto alcanzado?,"Especialización, maestría, doctorado",Comuna 04,1617
+¿Cuál es el nivel educativo más alto alcanzado?,Media academica o clasica,Comuna 04,4904
+¿Cuál es el nivel educativo más alto alcanzado?,Media tecnica,Comuna 04,336
+¿Cuál es el nivel educativo más alto alcanzado?,Ninguno,Comuna 04,344
+¿Cuál es el nivel educativo más alto alcanzado?,No informa,Comuna 04,292
+¿Cuál es el nivel educativo más alto alcanzado?,Normalista,Comuna 04,132
+¿Cuál es el nivel educativo más alto alcanzado?,Preescolar,Comuna 04,297
+¿Cuál es el nivel educativo más alto alcanzado?,Técnica profesional o Tecnológica,Comuna 04,2651
+¿Cuál es el nivel educativo más alto alcanzado?,Universitario,Comuna 04,4942
+Parentesco con el jefe del hogar,"Hijo(a), Hijastro(a)",Comuna 04,7034
+Parentesco con el jefe del hogar,Jefe(a) del hogar,Comuna 04,8549
+Parentesco con el jefe del hogar,Otros NO parientes,Comuna 04,414
+Parentesco con el jefe del hogar,Otros Parientes,Comuna 04,3018
+Parentesco con el jefe del hogar,"Pareja (Conyuge, compañero(a), esposo(a))",Comuna 04,3823
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a la entidad de seguridad social en salud de la cual es filiado(a)?,Comuna 04,2838
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a otro médico de un grupo étnico? (curandero, yerbatero, etc.)",Comuna 04,2
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un boticario, farmacéuta, droguista?",Comuna 04,83
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un médico particular? (general, especialista, odontólogo, terapeuta u otro)",Comuna 04,351
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a una autoridad indígena espiritual?,Comuna 04,4
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Asistió a terapias alternativas? (acupuntura, esencias florales, musicoterapias, homeópata, etc.)",Comuna 04,5
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No Informa,Comuna 04,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No hizo nada,Comuna 04,53
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Se autorrecetó,Comuna 04,96
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Usó remedios caseros?,Comuna 04,175
+¿Cual es el sexo de...?,Hombre,Comuna 04,10137
+¿Cual es el sexo de...?,Mujer,Comuna 04,12701
+¿Actividad durante la semana pasada . . . :?,Busco trabajo?,Comuna 04,860
+¿Actividad durante la semana pasada . . . :?,Estudió?,Comuna 04,3251
+¿Actividad durante la semana pasada . . . :?,Estuvo en otra situación?,Comuna 04,1157
+¿Actividad durante la semana pasada . . . :?,Está incapacitado(a) permanentemente para trabajar?,Comuna 04,193
+¿Actividad durante la semana pasada . . . :?,No Informa,Comuna 04,287
+¿Actividad durante la semana pasada . . . :?,"No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos?",Comuna 04,257
+¿Actividad durante la semana pasada . . . :?,Realizó oficios del hogar?,Comuna 04,3118
+¿Actividad durante la semana pasada . . . :?,Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran?,Comuna 04,80
+¿Actividad durante la semana pasada . . . :?,Trabajó por lo menos una hora en una actividad que le generó algún ingreso?,Comuna 04,9317
+¿Actividad durante la semana pasada . . . :?,"Vivió de jubilación, pensión o renta?",Comuna 04,2565
+Uso de la Unidad (Espacio independiente y separado),Lugar Especial de Alojamiento - LEA,Comuna 04,0
+Uso de la Unidad (Espacio independiente y separado),Mixto (Espacio independiente y separado que combina vivienda con otro uso no residencial),Comuna 04,328
+Uso de la Unidad (Espacio independiente y separado),Vivienda,Comuna 04,22510
+Estrato de esta vivienda,Estrato 1,Comuna 04,1131
+Estrato de esta vivienda,Estrato 2,Comuna 04,916
+Estrato de esta vivienda,Estrato 3,Comuna 04,12409
+Estrato de esta vivienda,Estrato 4,Comuna 04,5874
+Estrato de esta vivienda,Estrato 5,Comuna 04,1365
+Estrato de esta vivienda,Estrato 6,Comuna 04,961
+Estrato de esta vivienda,No sabe el estrato,Comuna 04,20
+Estrato de esta vivienda,Sin estrato,Comuna 04,26
+La vivienda cuenta con servicio de Energía Eléctrica,No,Comuna 04,136
+La vivienda cuenta con servicio de Energía Eléctrica,Si,Comuna 04,22702
+La vivienda cuenta con servicios de Acueducto?,No,Comuna 04,516
+La vivienda cuenta con servicios de Acueducto?,Si,Comuna 04,22322
+La vivienda cuenta con servicio de Alcantarillado?,No,Comuna 04,822
+La vivienda cuenta con servicio de Alcantarillado?,Si,Comuna 04,22016
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No,Comuna 04,2618
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No informa,Comuna 04,181
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,Si,Comuna 04,20039
+¿Cuántas veces por semana?,1 vez,Comuna 04,187
+¿Cuántas veces por semana?,2 veces,Comuna 04,20004
+¿Cuántas veces por semana?,3 veces,Comuna 04,1747
+¿Cuántas veces por semana?,4 veces,Comuna 04,20
+¿Cuántas veces por semana?,5 veces,Comuna 04,25
+¿Cuántas veces por semana?,6 veces,Comuna 04,13
+¿Cuántas veces por semana?,7 veces,Comuna 04,32
+¿Cuántas veces por semana?,Mayor periodicidad,Comuna 04,18
+¿Cuántas veces por semana?,No sabe,Comuna 04,108
+La vivienda cuenta con servicio de Recolección de basuras?,No,Comuna 04,684
+La vivienda cuenta con servicio de Recolección de basuras?,Si,Comuna 04,22154
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No,Comuna 04,4393
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No informa,Comuna 04,181
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,Si,Comuna 04,18264
+Condición de ocupación de la Vivienda,Ocupada con personas presentes,Comuna 04,22838
+Material predominante de las paredes exteriores de la vivienda,"Bloque, ladrillo, piedra, madera pulida",Comuna 04,17174
+Material predominante de las paredes exteriores de la vivienda,"Caña, esterilla, otros vegetales",Comuna 04,28
+Material predominante de las paredes exteriores de la vivienda,Concreto vaciado,Comuna 04,4550
+Material predominante de las paredes exteriores de la vivienda,Guadua,Comuna 04,24
+Material predominante de las paredes exteriores de la vivienda,"Madera burda, tabla, tablon",Comuna 04,212
+Material predominante de las paredes exteriores de la vivienda,Material prefabricado,Comuna 04,121
+Material predominante de las paredes exteriores de la vivienda,"Materiales de deshecho (Zinc, tela, carton, latas, plásticos, otros)",Comuna 04,28
+Material predominante de las paredes exteriores de la vivienda,No tiene paredes,Comuna 04,0
+Material predominante de las paredes exteriores de la vivienda,"Tapia pisada, bahareque, adobe",Comuna 04,701
+Material predominante de los pisos de esta vivienda,"Baldosa, vinilo, tableta, ladrillo, laminado",Comuna 04,17764
+Material predominante de los pisos de esta vivienda,"Cemento, gravilla",Comuna 04,808
+Material predominante de los pisos de esta vivienda,"Madera burda, tabla, tablon, otro vegetal",Comuna 04,1658
+Material predominante de los pisos de esta vivienda,"Marmol, parque, madera pulida y lacada",Comuna 04,2244
+Material predominante de los pisos de esta vivienda,"Tierra, arena, barro",Comuna 04,199
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Esta vivienda No tiene servicio sanitario?,Comuna 04,157
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro con descarga directa a fuentes de agua (bajamar)?,Comuna 04,40
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado a pozo séptico?,Comuna 04,598
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado al alcantarillado?,Comuna 04,21781
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro sin conexión?,Comuna 04,69
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Letrina?,Comuna 04,29
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,No informa,Comuna 04,164
+Tipo vivienda,Apartamento,Comuna 04,13182
+Tipo vivienda,Casa,Comuna 04,9443
+Tipo vivienda,"Otro (Contenedor, carpa, embarcación, vagon, cueva, refugio natural, etc",Comuna 04,5
+Tipo vivienda,Tipo cuarto,Comuna 04,163
+Tipo vivienda,Vivienda tradicional Indígena,Comuna 04,45
+Tipo vivienda,"Vivienda tradicional Étnica (Afrocolombiana, Isleña, Rrom)",Comuna 04,0
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",No,Comuna 05,42876
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",Sí,Comuna 05,4576
+Fuente para preparar los alimentos,Acueducto público?,Comuna 05,44427
+Fuente para preparar los alimentos,Acueducto veredal?,Comuna 05,648
+Fuente para preparar los alimentos,Agua embotellada o en bolsa?,Comuna 05,47
+Fuente para preparar los alimentos,Agua lluvia?,Comuna 05,203
+Fuente para preparar los alimentos,Aguatero?,Comuna 05,33
+Fuente para preparar los alimentos,Carrotanque?,Comuna 05,25
+Fuente para preparar los alimentos,No informa,Comuna 05,207
+Fuente para preparar los alimentos,Pila pública?,Comuna 05,9
+Fuente para preparar los alimentos,Pozo con bomba?,Comuna 05,220
+Fuente para preparar los alimentos,"Pozo sin bomba, aljibe, jaguey o barreno?",Comuna 05,305
+Fuente para preparar los alimentos,Red de distribución comunitaria?,Comuna 05,470
+Fuente para preparar los alimentos,"RÍo, quebrada, manantial, nacimiento?",Comuna 05,705
+Lugar donde preparan los alimentos,En un cuarto usado solo para cocinar?,Comuna 05,44093
+Lugar donde preparan los alimentos,En un cuarto usado también para dormir?,Comuna 05,337
+Lugar donde preparan los alimentos,"En un patio, corredor, enramada o al aire libre?",Comuna 05,719
+Lugar donde preparan los alimentos,En una sala-comedor con lavaplatos?,Comuna 05,1918
+Lugar donde preparan los alimentos,En una sala-comedor sin lavaplatos?,Comuna 05,160
+Lugar donde preparan los alimentos,No informa,Comuna 05,72
+Lugar donde preparan los alimentos,No preparan alimentos en la vivienda?,Comuna 05,153
+¿En general considera que la calidad de la prestación del servicio de salud reci,Bueno,Comuna 05,3265
+¿En general considera que la calidad de la prestación del servicio de salud reci,Malo,Comuna 05,841
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy Malo,Comuna 05,330
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy bueno,Comuna 05,881
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No,Comuna 05,32409
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No informa,Comuna 05,358
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",Sí,Comuna 05,12056
+Ha tenido algún hijo(a) nacido vivo(a),No,Comuna 05,7113
+Ha tenido algún hijo(a) nacido vivo(a),No informa,Comuna 05,328
+Ha tenido algún hijo(a) nacido vivo(a),Sí,Comuna 05,14703
+¿Lo atendieron?,No,Comuna 05,112
+¿Lo atendieron?,No informa,Comuna 05,0
+¿Lo atendieron?,Sí,Comuna 05,5317
+¿Donde nacio?,En este mpio,Comuna 05,30623
+¿Donde nacio?,En otro mpio Colombiano,Comuna 05,16212
+¿Donde nacio?,En otro país,Comuna 05,310
+¿Donde nacio?,No Informa,Comuna 05,307
+¿En donde vivía hace 12 meses ?,En este mpio,Comuna 05,45751
+¿En donde vivía hace 12 meses ?,En otro mpio colombiano,Comuna 05,732
+¿En donde vivía hace 12 meses ?,En otro país,Comuna 05,181
+¿En donde vivía hace 12 meses ?,No Informa,Comuna 05,318
+¿En donde vivía hace 12 meses ?,No había nacido,Comuna 05,470
+¿En donde vivía hace 5 años ?,En este mpio,Comuna 05,41321
+¿En donde vivía hace 5 años ?,En otro mpio Colombiano,Comuna 05,2783
+¿En donde vivía hace 5 años ?,En otro país,Comuna 05,388
+¿En donde vivía hace 5 años ?,No Informa,Comuna 05,443
+¿En donde vivía hace 5 años ?,No había nacido,Comuna 05,2517
+¿Sabe leer y escribir?,No,Comuna 05,1935
+¿Sabe leer y escribir?,No informa,Comuna 05,358
+¿Sabe leer y escribir?,Sí,Comuna 05,42530
+¿Cuantos años cumplidos tiene?,de 00 A 04 Años,Comuna 05,2629
+¿Cuantos años cumplidos tiene?,de 05 A 09 Años,Comuna 05,2998
+¿Cuantos años cumplidos tiene?,de 10 A 14 Años,Comuna 05,3638
+¿Cuantos años cumplidos tiene?,de 100 y más Años,Comuna 05,5
+¿Cuantos años cumplidos tiene?,de 15 A 19 Años,Comuna 05,4126
+¿Cuantos años cumplidos tiene?,de 20 A 24 Años,Comuna 05,4326
+¿Cuantos años cumplidos tiene?,de 25 A 29 Años,Comuna 05,4083
+¿Cuantos años cumplidos tiene?,de 30 A 34 Años,Comuna 05,3873
+¿Cuantos años cumplidos tiene?,de 35 A 39 Años,Comuna 05,3733
+¿Cuantos años cumplidos tiene?,de 40 A 44 Años,Comuna 05,3078
+¿Cuantos años cumplidos tiene?,de 45 A 49 Años,Comuna 05,3123
+¿Cuantos años cumplidos tiene?,de 50 A 54 Años,Comuna 05,3076
+¿Cuantos años cumplidos tiene?,de 55 A 59 Años,Comuna 05,2731
+¿Cuantos años cumplidos tiene?,de 60 A 64 Años,Comuna 05,2135
+¿Cuantos años cumplidos tiene?,de 65 A 69 Años,Comuna 05,1479
+¿Cuantos años cumplidos tiene?,de 70 A 74 Años,Comuna 05,1068
+¿Cuantos años cumplidos tiene?,de 75 A 79 Años,Comuna 05,637
+¿Cuantos años cumplidos tiene?,de 80 A 84 Años,Comuna 05,422
+¿Cuantos años cumplidos tiene?,de 85 A 89 Años,Comuna 05,205
+¿Cuantos años cumplidos tiene?,de 90 A 94 Años,Comuna 05,74
+¿Cuantos años cumplidos tiene?,de 95 A 99 Años,Comuna 05,13
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No,Comuna 05,40549
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No informa,Comuna 05,311
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",Sí,Comuna 05,6592
+"Actualmente, ¿Su estado civil es?",Casado(a)?,Comuna 05,9623
+"Actualmente, ¿Su estado civil es?",Divorciado(a)?,Comuna 05,356
+"Actualmente, ¿Su estado civil es?",No Informa,Comuna 05,300
+"Actualmente, ¿Su estado civil es?",Separado(a) de matrimonio?,Comuna 05,1388
+"Actualmente, ¿Su estado civil es?",Separado(a) de unión libre?,Comuna 05,1738
+"Actualmente, ¿Su estado civil es?","Soltero(a)?(Nunca se ha casado, ni ha vivido en unión libre)",Comuna 05,16948
+"Actualmente, ¿Su estado civil es?",Unión libre?,Comuna 05,9790
+"Actualmente, ¿Su estado civil es?",Viudo(a)?,Comuna 05,1682
+¿Cuál es el nivel educativo más alto alcanzado?,Básica primaria,Comuna 05,12531
+¿Cuál es el nivel educativo más alto alcanzado?,Básica secundaria,Comuna 05,8057
+Material predominante de los pisos de esta vivienda,Alfombra,Comuna 05,81
+¿Cuál es el nivel educativo más alto alcanzado?,"Especialización, maestría, doctorado",Comuna 05,585
+¿Cuál es el nivel educativo más alto alcanzado?,Media academica o clasica,Comuna 05,12104
+¿Cuál es el nivel educativo más alto alcanzado?,Media tecnica,Comuna 05,502
+¿Cuál es el nivel educativo más alto alcanzado?,Ninguno,Comuna 05,1170
+¿Cuál es el nivel educativo más alto alcanzado?,No informa,Comuna 05,471
+¿Cuál es el nivel educativo más alto alcanzado?,Normalista,Comuna 05,95
+¿Cuál es el nivel educativo más alto alcanzado?,Preescolar,Comuna 05,862
+¿Cuál es el nivel educativo más alto alcanzado?,Técnica profesional o Tecnológica,Comuna 05,4623
+¿Cuál es el nivel educativo más alto alcanzado?,Universitario,Comuna 05,3823
+Parentesco con el jefe del hogar,"Hijo(a), Hijastro(a)",Comuna 05,17134
+Parentesco con el jefe del hogar,Jefe(a) del hogar,Comuna 05,15020
+Parentesco con el jefe del hogar,Otros NO parientes,Comuna 05,606
+Parentesco con el jefe del hogar,Otros Parientes,Comuna 05,6211
+Parentesco con el jefe del hogar,"Pareja (Conyuge, compañero(a), esposo(a))",Comuna 05,8481
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a la entidad de seguridad social en salud de la cual es filiado(a)?,Comuna 05,5429
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a otro médico de un grupo étnico? (curandero, yerbatero, etc.)",Comuna 05,1
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un boticario, farmacéuta, droguista?",Comuna 05,138
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un médico particular? (general, especialista, odontólogo, terapeuta u otro)",Comuna 05,222
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a una autoridad indígena espiritual?,Comuna 05,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Asistió a terapias alternativas? (acupuntura, esencias florales, musicoterapias, homeópata, etc.)",Comuna 05,1
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No Informa,Comuna 05,1
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No hizo nada,Comuna 05,163
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Se autorrecetó,Comuna 05,206
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Usó remedios caseros?,Comuna 05,431
+¿Cual es el sexo de...?,Hombre,Comuna 05,22486
+¿Cual es el sexo de...?,Mujer,Comuna 05,24966
+¿Actividad durante la semana pasada . . . :?,Busco trabajo?,Comuna 05,2095
+¿Actividad durante la semana pasada . . . :?,Estudió?,Comuna 05,7044
+¿Actividad durante la semana pasada . . . :?,Estuvo en otra situación?,Comuna 05,2703
+¿Actividad durante la semana pasada . . . :?,Está incapacitado(a) permanentemente para trabajar?,Comuna 05,536
+¿Actividad durante la semana pasada . . . :?,No Informa,Comuna 05,489
+¿Actividad durante la semana pasada . . . :?,"No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos?",Comuna 05,826
+¿Actividad durante la semana pasada . . . :?,Realizó oficios del hogar?,Comuna 05,7275
+¿Actividad durante la semana pasada . . . :?,Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran?,Comuna 05,254
+¿Actividad durante la semana pasada . . . :?,Trabajó por lo menos una hora en una actividad que le generó algún ingreso?,Comuna 05,18863
+¿Actividad durante la semana pasada . . . :?,"Vivió de jubilación, pensión o renta?",Comuna 05,1740
+Uso de la Unidad (Espacio independiente y separado),Lugar Especial de Alojamiento - LEA,Comuna 05,0
+Uso de la Unidad (Espacio independiente y separado),Mixto (Espacio independiente y separado que combina vivienda con otro uso no residencial),Comuna 05,808
+Uso de la Unidad (Espacio independiente y separado),Vivienda,Comuna 05,46644
+Estrato de esta vivienda,Estrato 1,Comuna 05,14621
+Estrato de esta vivienda,Estrato 2,Comuna 05,25226
+Estrato de esta vivienda,Estrato 3,Comuna 05,6164
+Estrato de esta vivienda,Estrato 4,Comuna 05,581
+Estrato de esta vivienda,Estrato 5,Comuna 05,74
+Estrato de esta vivienda,Estrato 6,Comuna 05,91
+Estrato de esta vivienda,No sabe el estrato,Comuna 05,31
+Estrato de esta vivienda,Sin estrato,Comuna 05,188
+La vivienda cuenta con servicio de Energía Eléctrica,No,Comuna 05,476
+La vivienda cuenta con servicio de Energía Eléctrica,Si,Comuna 05,46976
+La vivienda cuenta con servicios de Acueducto?,No,Comuna 05,1844
+La vivienda cuenta con servicios de Acueducto?,Si,Comuna 05,45608
+La vivienda cuenta con servicio de Alcantarillado?,No,Comuna 05,2737
+La vivienda cuenta con servicio de Alcantarillado?,Si,Comuna 05,44715
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No,Comuna 05,4519
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No informa,Comuna 05,178
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,Si,Comuna 05,42755
+¿Cuántas veces por semana?,1 vez,Comuna 05,1876
+¿Cuántas veces por semana?,2 veces,Comuna 05,39549
+¿Cuántas veces por semana?,3 veces,Comuna 05,3473
+¿Cuántas veces por semana?,4 veces,Comuna 05,46
+¿Cuántas veces por semana?,5 veces,Comuna 05,16
+¿Cuántas veces por semana?,6 veces,Comuna 05,14
+¿Cuántas veces por semana?,7 veces,Comuna 05,19
+¿Cuántas veces por semana?,Mayor periodicidad,Comuna 05,10
+¿Cuántas veces por semana?,No sabe,Comuna 05,30
+La vivienda cuenta con servicio de Recolección de basuras?,No,Comuna 05,2419
+La vivienda cuenta con servicio de Recolección de basuras?,Si,Comuna 05,45033
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No,Comuna 05,16127
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No informa,Comuna 05,178
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,Si,Comuna 05,31147
+Condición de ocupación de la Vivienda,Ocupada con personas presentes,Comuna 05,47452
+Material predominante de las paredes exteriores de la vivienda,"Bloque, ladrillo, piedra, madera pulida",Comuna 05,35573
+Material predominante de las paredes exteriores de la vivienda,"Caña, esterilla, otros vegetales",Comuna 05,398
+Material predominante de las paredes exteriores de la vivienda,Concreto vaciado,Comuna 05,9193
+Material predominante de las paredes exteriores de la vivienda,Guadua,Comuna 05,75
+Material predominante de las paredes exteriores de la vivienda,"Madera burda, tabla, tablon",Comuna 05,733
+Material predominante de las paredes exteriores de la vivienda,Material prefabricado,Comuna 05,451
+Material predominante de las paredes exteriores de la vivienda,"Materiales de deshecho (Zinc, tela, carton, latas, plásticos, otros)",Comuna 05,132
+Material predominante de las paredes exteriores de la vivienda,No tiene paredes,Comuna 05,0
+Material predominante de las paredes exteriores de la vivienda,"Tapia pisada, bahareque, adobe",Comuna 05,897
+Material predominante de los pisos de esta vivienda,"Baldosa, vinilo, tableta, ladrillo, laminado",Comuna 05,37408
+Material predominante de los pisos de esta vivienda,"Cemento, gravilla",Comuna 05,6097
+Material predominante de los pisos de esta vivienda,"Madera burda, tabla, tablon, otro vegetal",Comuna 05,1366
+Material predominante de los pisos de esta vivienda,"Marmol, parque, madera pulida y lacada",Comuna 05,1443
+Material predominante de los pisos de esta vivienda,"Tierra, arena, barro",Comuna 05,1057
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Esta vivienda No tiene servicio sanitario?,Comuna 05,571
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro con descarga directa a fuentes de agua (bajamar)?,Comuna 05,257
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado a pozo séptico?,Comuna 05,1859
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado al alcantarillado?,Comuna 05,44385
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro sin conexión?,Comuna 05,147
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Letrina?,Comuna 05,63
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,No informa,Comuna 05,170
+Tipo vivienda,Apartamento,Comuna 05,17391
+Tipo vivienda,Casa,Comuna 05,29471
+Tipo vivienda,"Otro (Contenedor, carpa, embarcación, vagon, cueva, refugio natural, etc",Comuna 05,22
+Tipo vivienda,Tipo cuarto,Comuna 05,353
+Tipo vivienda,Vivienda tradicional Indígena,Comuna 05,215
+Tipo vivienda,"Vivienda tradicional Étnica (Afrocolombiana, Isleña, Rrom)",Comuna 05,0
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",No,Comuna 06,29446
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",Sí,Comuna 06,2159
+Fuente para preparar los alimentos,Acueducto público?,Comuna 06,30121
+Fuente para preparar los alimentos,Acueducto veredal?,Comuna 06,258
+Fuente para preparar los alimentos,Agua embotellada o en bolsa?,Comuna 06,41
+Fuente para preparar los alimentos,Agua lluvia?,Comuna 06,72
+Fuente para preparar los alimentos,Aguatero?,Comuna 06,24
+Fuente para preparar los alimentos,Carrotanque?,Comuna 06,0
+Fuente para preparar los alimentos,No informa,Comuna 06,327
+Fuente para preparar los alimentos,Pila pública?,Comuna 06,2
+Fuente para preparar los alimentos,Pozo con bomba?,Comuna 06,93
+Fuente para preparar los alimentos,"Pozo sin bomba, aljibe, jaguey o barreno?",Comuna 06,180
+Fuente para preparar los alimentos,Red de distribución comunitaria?,Comuna 06,146
+Fuente para preparar los alimentos,"RÍo, quebrada, manantial, nacimiento?",Comuna 06,239
+Lugar donde preparan los alimentos,En un cuarto usado solo para cocinar?,Comuna 06,29832
+Lugar donde preparan los alimentos,En un cuarto usado también para dormir?,Comuna 06,146
+Lugar donde preparan los alimentos,"En un patio, corredor, enramada o al aire libre?",Comuna 06,252
+Lugar donde preparan los alimentos,En una sala-comedor con lavaplatos?,Comuna 06,1163
+Lugar donde preparan los alimentos,En una sala-comedor sin lavaplatos?,Comuna 06,56
+Lugar donde preparan los alimentos,No informa,Comuna 06,54
+Lugar donde preparan los alimentos,No preparan alimentos en la vivienda?,Comuna 06,102
+¿En general considera que la calidad de la prestación del servicio de salud reci,Bueno,Comuna 06,1984
+¿En general considera que la calidad de la prestación del servicio de salud reci,Malo,Comuna 06,326
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy Malo,Comuna 06,118
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy bueno,Comuna 06,582
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No,Comuna 06,22354
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No informa,Comuna 06,279
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",Sí,Comuna 06,7583
+Ha tenido algún hijo(a) nacido vivo(a),No,Comuna 06,5623
+Ha tenido algún hijo(a) nacido vivo(a),No informa,Comuna 06,209
+Ha tenido algún hijo(a) nacido vivo(a),Sí,Comuna 06,9739
+¿Lo atendieron?,No,Comuna 06,51
+¿Lo atendieron?,No informa,Comuna 06,0
+¿Lo atendieron?,Sí,Comuna 06,3010
+¿Donde nacio?,En este mpio,Comuna 06,20092
+¿Donde nacio?,En otro mpio Colombiano,Comuna 06,10926
+¿Donde nacio?,En otro país,Comuna 06,344
+¿Donde nacio?,No Informa,Comuna 06,243
+¿En donde vivía hace 12 meses ?,En este mpio,Comuna 06,30304
+¿En donde vivía hace 12 meses ?,En otro mpio colombiano,Comuna 06,599
+¿En donde vivía hace 12 meses ?,En otro país,Comuna 06,219
+¿En donde vivía hace 12 meses ?,No Informa,Comuna 06,247
+¿En donde vivía hace 12 meses ?,No había nacido,Comuna 06,236
+¿En donde vivía hace 5 años ?,En este mpio,Comuna 06,27386
+¿En donde vivía hace 5 años ?,En otro mpio Colombiano,Comuna 06,2180
+¿En donde vivía hace 5 años ?,En otro país,Comuna 06,398
+¿En donde vivía hace 5 años ?,No Informa,Comuna 06,376
+¿En donde vivía hace 5 años ?,No había nacido,Comuna 06,1265
+¿Sabe leer y escribir?,No,Comuna 06,729
+¿Sabe leer y escribir?,No informa,Comuna 06,273
+¿Sabe leer y escribir?,Sí,Comuna 06,29214
+¿Cuantos años cumplidos tiene?,de 00 A 04 Años,Comuna 06,1389
+¿Cuantos años cumplidos tiene?,de 05 A 09 Años,Comuna 06,1513
+¿Cuantos años cumplidos tiene?,de 10 A 14 Años,Comuna 06,1793
+¿Cuantos años cumplidos tiene?,de 100 y más Años,Comuna 06,9
+¿Cuantos años cumplidos tiene?,de 15 A 19 Años,Comuna 06,2220
+¿Cuantos años cumplidos tiene?,de 20 A 24 Años,Comuna 06,2680
+¿Cuantos años cumplidos tiene?,de 25 A 29 Años,Comuna 06,2526
+¿Cuantos años cumplidos tiene?,de 30 A 34 Años,Comuna 06,2364
+¿Cuantos años cumplidos tiene?,de 35 A 39 Años,Comuna 06,2367
+¿Cuantos años cumplidos tiene?,de 40 A 44 Años,Comuna 06,2035
+¿Cuantos años cumplidos tiene?,de 45 A 49 Años,Comuna 06,2256
+¿Cuantos años cumplidos tiene?,de 50 A 54 Años,Comuna 06,2404
+¿Cuantos años cumplidos tiene?,de 55 A 59 Años,Comuna 06,2290
+¿Cuantos años cumplidos tiene?,de 60 A 64 Años,Comuna 06,1770
+¿Cuantos años cumplidos tiene?,de 65 A 69 Años,Comuna 06,1357
+¿Cuantos años cumplidos tiene?,de 70 A 74 Años,Comuna 06,1059
+¿Cuantos años cumplidos tiene?,de 75 A 79 Años,Comuna 06,708
+¿Cuantos años cumplidos tiene?,de 80 A 84 Años,Comuna 06,473
+¿Cuantos años cumplidos tiene?,de 85 A 89 Años,Comuna 06,264
+¿Cuantos años cumplidos tiene?,de 90 A 94 Años,Comuna 06,101
+¿Cuantos años cumplidos tiene?,de 95 A 99 Años,Comuna 06,27
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No,Comuna 06,27542
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No informa,Comuna 06,232
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",Sí,Comuna 06,3831
+"Actualmente, ¿Su estado civil es?",Casado(a)?,Comuna 06,8409
+"Actualmente, ¿Su estado civil es?",Divorciado(a)?,Comuna 06,563
+"Actualmente, ¿Su estado civil es?",No Informa,Comuna 06,233
+"Actualmente, ¿Su estado civil es?",Separado(a) de matrimonio?,Comuna 06,1162
+"Actualmente, ¿Su estado civil es?",Separado(a) de unión libre?,Comuna 06,686
+"Actualmente, ¿Su estado civil es?","Soltero(a)?(Nunca se ha casado, ni ha vivido en unión libre)",Comuna 06,11834
+"Actualmente, ¿Su estado civil es?",Unión libre?,Comuna 06,4250
+"Actualmente, ¿Su estado civil es?",Viudo(a)?,Comuna 06,1566
+¿Cuál es el nivel educativo más alto alcanzado?,Básica primaria,Comuna 06,5252
+¿Cuál es el nivel educativo más alto alcanzado?,Básica secundaria,Comuna 06,3963
+Material predominante de los pisos de esta vivienda,Alfombra,Comuna 06,105
+¿Cuál es el nivel educativo más alto alcanzado?,"Especialización, maestría, doctorado",Comuna 06,2201
+¿Cuál es el nivel educativo más alto alcanzado?,Media academica o clasica,Comuna 06,7192
+¿Cuál es el nivel educativo más alto alcanzado?,Media tecnica,Comuna 06,599
+¿Cuál es el nivel educativo más alto alcanzado?,Ninguno,Comuna 06,564
+¿Cuál es el nivel educativo más alto alcanzado?,No informa,Comuna 06,371
+¿Cuál es el nivel educativo más alto alcanzado?,Normalista,Comuna 06,117
+¿Cuál es el nivel educativo más alto alcanzado?,Preescolar,Comuna 06,444
+¿Cuál es el nivel educativo más alto alcanzado?,Técnica profesional o Tecnológica,Comuna 06,3531
+¿Cuál es el nivel educativo más alto alcanzado?,Universitario,Comuna 06,5982
+Parentesco con el jefe del hogar,"Hijo(a), Hijastro(a)",Comuna 06,10202
+Parentesco con el jefe del hogar,Jefe(a) del hogar,Comuna 06,11137
+Parentesco con el jefe del hogar,Otros NO parientes,Comuna 06,452
+Parentesco con el jefe del hogar,Otros Parientes,Comuna 06,4198
+Parentesco con el jefe del hogar,"Pareja (Conyuge, compañero(a), esposo(a))",Comuna 06,5616
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a la entidad de seguridad social en salud de la cual es filiado(a)?,Comuna 06,3061
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a otro médico de un grupo étnico? (curandero, yerbatero, etc.)",Comuna 06,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un boticario, farmacéuta, droguista?",Comuna 06,73
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un médico particular? (general, especialista, odontólogo, terapeuta u otro)",Comuna 06,300
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a una autoridad indígena espiritual?,Comuna 06,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Asistió a terapias alternativas? (acupuntura, esencias florales, musicoterapias, homeópata, etc.)",Comuna 06,6
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No Informa,Comuna 06,1
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No hizo nada,Comuna 06,73
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Se autorrecetó,Comuna 06,89
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Usó remedios caseros?,Comuna 06,228
+¿Cual es el sexo de...?,Hombre,Comuna 06,14623
+¿Cual es el sexo de...?,Mujer,Comuna 06,16982
+¿Actividad durante la semana pasada . . . :?,Busco trabajo?,Comuna 06,1096
+¿Actividad durante la semana pasada . . . :?,Estudió?,Comuna 06,4616
+¿Actividad durante la semana pasada . . . :?,Estuvo en otra situación?,Comuna 06,1554
+¿Actividad durante la semana pasada . . . :?,Está incapacitado(a) permanentemente para trabajar?,Comuna 06,245
+¿Actividad durante la semana pasada . . . :?,No Informa,Comuna 06,332
+¿Actividad durante la semana pasada . . . :?,"No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos?",Comuna 06,723
+¿Actividad durante la semana pasada . . . :?,Realizó oficios del hogar?,Comuna 06,4249
+¿Actividad durante la semana pasada . . . :?,Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran?,Comuna 06,121
+¿Actividad durante la semana pasada . . . :?,Trabajó por lo menos una hora en una actividad que le generó algún ingreso?,Comuna 06,12947
+¿Actividad durante la semana pasada . . . :?,"Vivió de jubilación, pensión o renta?",Comuna 06,2820
+Uso de la Unidad (Espacio independiente y separado),Lugar Especial de Alojamiento - LEA,Comuna 06,0
+Uso de la Unidad (Espacio independiente y separado),Mixto (Espacio independiente y separado que combina vivienda con otro uso no residencial),Comuna 06,507
+Uso de la Unidad (Espacio independiente y separado),Vivienda,Comuna 06,31098
+Estrato de esta vivienda,Estrato 1,Comuna 06,1348
+Estrato de esta vivienda,Estrato 2,Comuna 06,6193
+Estrato de esta vivienda,Estrato 3,Comuna 06,15279
+Estrato de esta vivienda,Estrato 4,Comuna 06,5747
+Estrato de esta vivienda,Estrato 5,Comuna 06,1858
+Estrato de esta vivienda,Estrato 6,Comuna 06,835
+Estrato de esta vivienda,No sabe el estrato,Comuna 06,29
+Estrato de esta vivienda,Sin estrato,Comuna 06,24
+La vivienda cuenta con servicio de Energía Eléctrica,No,Comuna 06,292
+La vivienda cuenta con servicio de Energía Eléctrica,Si,Comuna 06,31313
+La vivienda cuenta con servicios de Acueducto?,No,Comuna 06,769
+La vivienda cuenta con servicios de Acueducto?,Si,Comuna 06,30836
+La vivienda cuenta con servicio de Alcantarillado?,No,Comuna 06,1129
+La vivienda cuenta con servicio de Alcantarillado?,Si,Comuna 06,30476
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No,Comuna 06,2639
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No informa,Comuna 06,311
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,Si,Comuna 06,28655
+¿Cuántas veces por semana?,1 vez,Comuna 06,309
+¿Cuántas veces por semana?,2 veces,Comuna 06,28088
+¿Cuántas veces por semana?,3 veces,Comuna 06,2074
+¿Cuántas veces por semana?,4 veces,Comuna 06,45
+¿Cuántas veces por semana?,5 veces,Comuna 06,24
+¿Cuántas veces por semana?,6 veces,Comuna 06,23
+¿Cuántas veces por semana?,7 veces,Comuna 06,40
+¿Cuántas veces por semana?,Mayor periodicidad,Comuna 06,3
+¿Cuántas veces por semana?,No sabe,Comuna 06,88
+La vivienda cuenta con servicio de Recolección de basuras?,No,Comuna 06,911
+La vivienda cuenta con servicio de Recolección de basuras?,Si,Comuna 06,30694
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No,Comuna 06,5942
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No informa,Comuna 06,311
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,Si,Comuna 06,25352
+Condición de ocupación de la Vivienda,Ocupada con personas presentes,Comuna 06,31605
+Material predominante de las paredes exteriores de la vivienda,"Bloque, ladrillo, piedra, madera pulida",Comuna 06,26951
+Material predominante de las paredes exteriores de la vivienda,"Caña, esterilla, otros vegetales",Comuna 06,48
+Material predominante de las paredes exteriores de la vivienda,Concreto vaciado,Comuna 06,3769
+Material predominante de las paredes exteriores de la vivienda,Guadua,Comuna 06,6
+Material predominante de las paredes exteriores de la vivienda,"Madera burda, tabla, tablon",Comuna 06,410
+Material predominante de las paredes exteriores de la vivienda,Material prefabricado,Comuna 06,179
+Material predominante de las paredes exteriores de la vivienda,"Materiales de deshecho (Zinc, tela, carton, latas, plásticos, otros)",Comuna 06,30
+Material predominante de las paredes exteriores de la vivienda,No tiene paredes,Comuna 06,0
+Material predominante de las paredes exteriores de la vivienda,"Tapia pisada, bahareque, adobe",Comuna 06,212
+Material predominante de los pisos de esta vivienda,"Baldosa, vinilo, tableta, ladrillo, laminado",Comuna 06,26258
+Material predominante de los pisos de esta vivienda,"Cemento, gravilla",Comuna 06,1297
+Material predominante de los pisos de esta vivienda,"Madera burda, tabla, tablon, otro vegetal",Comuna 06,812
+Material predominante de los pisos de esta vivienda,"Marmol, parque, madera pulida y lacada",Comuna 06,2776
+Material predominante de los pisos de esta vivienda,"Tierra, arena, barro",Comuna 06,357
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Esta vivienda No tiene servicio sanitario?,Comuna 06,253
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro con descarga directa a fuentes de agua (bajamar)?,Comuna 06,81
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado a pozo séptico?,Comuna 06,774
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado al alcantarillado?,Comuna 06,30065
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro sin conexión?,Comuna 06,96
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Letrina?,Comuna 06,13
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,No informa,Comuna 06,323
+Tipo vivienda,Apartamento,Comuna 06,14879
+Tipo vivienda,Casa,Comuna 06,16360
+Tipo vivienda,"Otro (Contenedor, carpa, embarcación, vagon, cueva, refugio natural, etc",Comuna 06,17
+Tipo vivienda,Tipo cuarto,Comuna 06,248
+Tipo vivienda,Vivienda tradicional Indígena,Comuna 06,99
+Tipo vivienda,"Vivienda tradicional Étnica (Afrocolombiana, Isleña, Rrom)",Comuna 06,2
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",No,Comuna 07,20771
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",Sí,Comuna 07,2084
+Fuente para preparar los alimentos,Acueducto público?,Comuna 07,21478
+Fuente para preparar los alimentos,Acueducto veredal?,Comuna 07,519
+Fuente para preparar los alimentos,Agua embotellada o en bolsa?,Comuna 07,19
+Fuente para preparar los alimentos,Agua lluvia?,Comuna 07,9
+Fuente para preparar los alimentos,Aguatero?,Comuna 07,0
+Fuente para preparar los alimentos,Carrotanque?,Comuna 07,0
+Fuente para preparar los alimentos,No informa,Comuna 07,161
+Fuente para preparar los alimentos,Pila pública?,Comuna 07,2
+Fuente para preparar los alimentos,Pozo con bomba?,Comuna 07,90
+Fuente para preparar los alimentos,"Pozo sin bomba, aljibe, jaguey o barreno?",Comuna 07,40
+Fuente para preparar los alimentos,Red de distribución comunitaria?,Comuna 07,146
+Fuente para preparar los alimentos,"RÍo, quebrada, manantial, nacimiento?",Comuna 07,245
+Lugar donde preparan los alimentos,En un cuarto usado solo para cocinar?,Comuna 07,21577
+Lugar donde preparan los alimentos,En un cuarto usado también para dormir?,Comuna 07,114
+Lugar donde preparan los alimentos,"En un patio, corredor, enramada o al aire libre?",Comuna 07,36
+Lugar donde preparan los alimentos,En una sala-comedor con lavaplatos?,Comuna 07,909
+Lugar donde preparan los alimentos,En una sala-comedor sin lavaplatos?,Comuna 07,25
+Lugar donde preparan los alimentos,No informa,Comuna 07,48
+Lugar donde preparan los alimentos,No preparan alimentos en la vivienda?,Comuna 07,146
+¿En general considera que la calidad de la prestación del servicio de salud reci,Bueno,Comuna 07,1663
+¿En general considera que la calidad de la prestación del servicio de salud reci,Malo,Comuna 07,329
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy Malo,Comuna 07,72
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy bueno,Comuna 07,773
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No,Comuna 07,15887
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No informa,Comuna 07,194
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",Sí,Comuna 07,5755
+Ha tenido algún hijo(a) nacido vivo(a),No,Comuna 07,3501
+Ha tenido algún hijo(a) nacido vivo(a),No informa,Comuna 07,152
+Ha tenido algún hijo(a) nacido vivo(a),Sí,Comuna 07,7285
+¿Lo atendieron?,No,Comuna 07,52
+¿Lo atendieron?,No informa,Comuna 07,0
+¿Lo atendieron?,Sí,Comuna 07,2837
+¿Donde nacio?,En este mpio,Comuna 07,13679
+¿Donde nacio?,En otro mpio Colombiano,Comuna 07,8758
+¿Donde nacio?,En otro país,Comuna 07,255
+¿Donde nacio?,No Informa,Comuna 07,163
+¿En donde vivía hace 12 meses ?,En este mpio,Comuna 07,21718
+¿En donde vivía hace 12 meses ?,En otro mpio colombiano,Comuna 07,637
+¿En donde vivía hace 12 meses ?,En otro país,Comuna 07,145
+¿En donde vivía hace 12 meses ?,No Informa,Comuna 07,170
+¿En donde vivía hace 12 meses ?,No había nacido,Comuna 07,185
+¿En donde vivía hace 5 años ?,En este mpio,Comuna 07,19350
+¿En donde vivía hace 5 años ?,En otro mpio Colombiano,Comuna 07,1961
+¿En donde vivía hace 5 años ?,En otro país,Comuna 07,338
+¿En donde vivía hace 5 años ?,No Informa,Comuna 07,275
+¿En donde vivía hace 5 años ?,No había nacido,Comuna 07,931
+¿Sabe leer y escribir?,No,Comuna 07,464
+¿Sabe leer y escribir?,No informa,Comuna 07,186
+¿Sabe leer y escribir?,Sí,Comuna 07,21186
+¿Cuantos años cumplidos tiene?,de 00 A 04 Años,Comuna 07,1019
+¿Cuantos años cumplidos tiene?,de 05 A 09 Años,Comuna 07,1137
+¿Cuantos años cumplidos tiene?,de 10 A 14 Años,Comuna 07,1341
+¿Cuantos años cumplidos tiene?,de 100 y más Años,Comuna 07,3
+¿Cuantos años cumplidos tiene?,de 15 A 19 Años,Comuna 07,1600
+¿Cuantos años cumplidos tiene?,de 20 A 24 Años,Comuna 07,1884
+¿Cuantos años cumplidos tiene?,de 25 A 29 Años,Comuna 07,1593
+¿Cuantos años cumplidos tiene?,de 30 A 34 Años,Comuna 07,1609
+¿Cuantos años cumplidos tiene?,de 35 A 39 Años,Comuna 07,1858
+¿Cuantos años cumplidos tiene?,de 40 A 44 Años,Comuna 07,1591
+¿Cuantos años cumplidos tiene?,de 45 A 49 Años,Comuna 07,1596
+¿Cuantos años cumplidos tiene?,de 50 A 54 Años,Comuna 07,1587
+¿Cuantos años cumplidos tiene?,de 55 A 59 Años,Comuna 07,1475
+¿Cuantos años cumplidos tiene?,de 60 A 64 Años,Comuna 07,1425
+¿Cuantos años cumplidos tiene?,de 65 A 69 Años,Comuna 07,1170
+¿Cuantos años cumplidos tiene?,de 70 A 74 Años,Comuna 07,846
+¿Cuantos años cumplidos tiene?,de 75 A 79 Años,Comuna 07,561
+¿Cuantos años cumplidos tiene?,de 80 A 84 Años,Comuna 07,308
+¿Cuantos años cumplidos tiene?,de 85 A 89 Años,Comuna 07,168
+¿Cuantos años cumplidos tiene?,de 90 A 94 Años,Comuna 07,73
+¿Cuantos años cumplidos tiene?,de 95 A 99 Años,Comuna 07,11
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No,Comuna 07,19318
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No informa,Comuna 07,161
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",Sí,Comuna 07,3376
+"Actualmente, ¿Su estado civil es?",Casado(a)?,Comuna 07,6684
+"Actualmente, ¿Su estado civil es?",Divorciado(a)?,Comuna 07,390
+"Actualmente, ¿Su estado civil es?",No Informa,Comuna 07,158
+"Actualmente, ¿Su estado civil es?",Separado(a) de matrimonio?,Comuna 07,721
+"Actualmente, ¿Su estado civil es?",Separado(a) de unión libre?,Comuna 07,534
+"Actualmente, ¿Su estado civil es?","Soltero(a)?(Nunca se ha casado, ni ha vivido en unión libre)",Comuna 07,8109
+"Actualmente, ¿Su estado civil es?",Unión libre?,Comuna 07,3035
+"Actualmente, ¿Su estado civil es?",Viudo(a)?,Comuna 07,1068
+¿Cuál es el nivel educativo más alto alcanzado?,Básica primaria,Comuna 07,4369
+¿Cuál es el nivel educativo más alto alcanzado?,Básica secundaria,Comuna 07,3061
+Material predominante de los pisos de esta vivienda,Alfombra,Comuna 07,67
+¿Cuál es el nivel educativo más alto alcanzado?,"Especialización, maestría, doctorado",Comuna 07,1470
+¿Cuál es el nivel educativo más alto alcanzado?,Media academica o clasica,Comuna 07,5071
+¿Cuál es el nivel educativo más alto alcanzado?,Media tecnica,Comuna 07,307
+¿Cuál es el nivel educativo más alto alcanzado?,Ninguno,Comuna 07,330
+¿Cuál es el nivel educativo más alto alcanzado?,No informa,Comuna 07,249
+¿Cuál es el nivel educativo más alto alcanzado?,Normalista,Comuna 07,72
+¿Cuál es el nivel educativo más alto alcanzado?,Preescolar,Comuna 07,330
+¿Cuál es el nivel educativo más alto alcanzado?,Técnica profesional o Tecnológica,Comuna 07,2875
+¿Cuál es el nivel educativo más alto alcanzado?,Universitario,Comuna 07,3702
+Parentesco con el jefe del hogar,"Hijo(a), Hijastro(a)",Comuna 07,7573
+Parentesco con el jefe del hogar,Jefe(a) del hogar,Comuna 07,7720
+Parentesco con el jefe del hogar,Otros NO parientes,Comuna 07,330
+Parentesco con el jefe del hogar,Otros Parientes,Comuna 07,2938
+Parentesco con el jefe del hogar,"Pareja (Conyuge, compañero(a), esposo(a))",Comuna 07,4294
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a la entidad de seguridad social en salud de la cual es filiado(a)?,Comuna 07,2889
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a otro médico de un grupo étnico? (curandero, yerbatero, etc.)",Comuna 07,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un boticario, farmacéuta, droguista?",Comuna 07,41
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un médico particular? (general, especialista, odontólogo, terapeuta u otro)",Comuna 07,219
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a una autoridad indígena espiritual?,Comuna 07,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Asistió a terapias alternativas? (acupuntura, esencias florales, musicoterapias, homeópata, etc.)",Comuna 07,3
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No Informa,Comuna 07,2
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No hizo nada,Comuna 07,67
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Se autorrecetó,Comuna 07,64
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Usó remedios caseros?,Comuna 07,91
+¿Cual es el sexo de...?,Hombre,Comuna 07,10842
+¿Cual es el sexo de...?,Mujer,Comuna 07,12013
+¿Actividad durante la semana pasada . . . :?,Busco trabajo?,Comuna 07,830
+¿Actividad durante la semana pasada . . . :?,Estudió?,Comuna 07,3355
+¿Actividad durante la semana pasada . . . :?,Estuvo en otra situación?,Comuna 07,892
+¿Actividad durante la semana pasada . . . :?,Está incapacitado(a) permanentemente para trabajar?,Comuna 07,184
+¿Actividad durante la semana pasada . . . :?,No Informa,Comuna 07,207
+¿Actividad durante la semana pasada . . . :?,"No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos?",Comuna 07,1929
+¿Actividad durante la semana pasada . . . :?,Realizó oficios del hogar?,Comuna 07,3178
+¿Actividad durante la semana pasada . . . :?,Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran?,Comuna 07,89
+¿Actividad durante la semana pasada . . . :?,Trabajó por lo menos una hora en una actividad que le generó algún ingreso?,Comuna 07,7865
+¿Actividad durante la semana pasada . . . :?,"Vivió de jubilación, pensión o renta?",Comuna 07,2170
+Uso de la Unidad (Espacio independiente y separado),Lugar Especial de Alojamiento - LEA,Comuna 07,0
+Uso de la Unidad (Espacio independiente y separado),Mixto (Espacio independiente y separado que combina vivienda con otro uso no residencial),Comuna 07,674
+Uso de la Unidad (Espacio independiente y separado),Vivienda,Comuna 07,22181
+Estrato de esta vivienda,Estrato 1,Comuna 07,971
+Estrato de esta vivienda,Estrato 2,Comuna 07,1660
+Estrato de esta vivienda,Estrato 3,Comuna 07,15765
+Estrato de esta vivienda,Estrato 4,Comuna 07,1760
+Estrato de esta vivienda,Estrato 5,Comuna 07,397
+Estrato de esta vivienda,Estrato 6,Comuna 07,2139
+Estrato de esta vivienda,No sabe el estrato,Comuna 07,24
+Estrato de esta vivienda,Sin estrato,Comuna 07,41
+La vivienda cuenta con servicio de Energía Eléctrica,No,Comuna 07,98
+La vivienda cuenta con servicio de Energía Eléctrica,Si,Comuna 07,22757
+La vivienda cuenta con servicios de Acueducto?,No,Comuna 07,453
+La vivienda cuenta con servicios de Acueducto?,Si,Comuna 07,22402
+La vivienda cuenta con servicio de Alcantarillado?,No,Comuna 07,786
+La vivienda cuenta con servicio de Alcantarillado?,Si,Comuna 07,22069
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No,Comuna 07,1644
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No informa,Comuna 07,135
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,Si,Comuna 07,21076
+¿Cuántas veces por semana?,1 vez,Comuna 07,69
+¿Cuántas veces por semana?,2 veces,Comuna 07,20945
+¿Cuántas veces por semana?,3 veces,Comuna 07,1167
+¿Cuántas veces por semana?,4 veces,Comuna 07,7
+¿Cuántas veces por semana?,5 veces,Comuna 07,13
+¿Cuántas veces por semana?,6 veces,Comuna 07,32
+¿Cuántas veces por semana?,7 veces,Comuna 07,78
+¿Cuántas veces por semana?,Mayor periodicidad,Comuna 07,21
+¿Cuántas veces por semana?,No sabe,Comuna 07,52
+La vivienda cuenta con servicio de Recolección de basuras?,No,Comuna 07,471
+La vivienda cuenta con servicio de Recolección de basuras?,Si,Comuna 07,22384
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No,Comuna 07,3733
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No informa,Comuna 07,135
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,Si,Comuna 07,18987
+Condición de ocupación de la Vivienda,Ocupada con personas presentes,Comuna 07,22855
+Material predominante de las paredes exteriores de la vivienda,"Bloque, ladrillo, piedra, madera pulida",Comuna 07,20736
+Material predominante de las paredes exteriores de la vivienda,"Caña, esterilla, otros vegetales",Comuna 07,48
+Material predominante de las paredes exteriores de la vivienda,Concreto vaciado,Comuna 07,1460
+Material predominante de las paredes exteriores de la vivienda,Guadua,Comuna 07,47
+Material predominante de las paredes exteriores de la vivienda,"Madera burda, tabla, tablon",Comuna 07,219
+Material predominante de las paredes exteriores de la vivienda,Material prefabricado,Comuna 07,147
+Material predominante de las paredes exteriores de la vivienda,"Materiales de deshecho (Zinc, tela, carton, latas, plásticos, otros)",Comuna 07,25
+Material predominante de las paredes exteriores de la vivienda,No tiene paredes,Comuna 07,0
+Material predominante de las paredes exteriores de la vivienda,"Tapia pisada, bahareque, adobe",Comuna 07,173
+Material predominante de los pisos de esta vivienda,"Baldosa, vinilo, tableta, ladrillo, laminado",Comuna 07,19628
+Material predominante de los pisos de esta vivienda,"Cemento, gravilla",Comuna 07,761
+Material predominante de los pisos de esta vivienda,"Madera burda, tabla, tablon, otro vegetal",Comuna 07,765
+Material predominante de los pisos de esta vivienda,"Marmol, parque, madera pulida y lacada",Comuna 07,1473
+Material predominante de los pisos de esta vivienda,"Tierra, arena, barro",Comuna 07,161
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Esta vivienda No tiene servicio sanitario?,Comuna 07,48
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro con descarga directa a fuentes de agua (bajamar)?,Comuna 07,216
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado a pozo séptico?,Comuna 07,488
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado al alcantarillado?,Comuna 07,21838
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro sin conexión?,Comuna 07,132
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Letrina?,Comuna 07,4
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,No informa,Comuna 07,129
+Tipo vivienda,Apartamento,Comuna 07,5736
+Tipo vivienda,Casa,Comuna 07,16804
+Tipo vivienda,"Otro (Contenedor, carpa, embarcación, vagon, cueva, refugio natural, etc",Comuna 07,0
+Tipo vivienda,Tipo cuarto,Comuna 07,291
+Tipo vivienda,Vivienda tradicional Indígena,Comuna 07,24
+Tipo vivienda,"Vivienda tradicional Étnica (Afrocolombiana, Isleña, Rrom)",Comuna 07,0
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",No,Comuna 08,25338
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",Sí,Comuna 08,1955
+Fuente para preparar los alimentos,Acueducto público?,Comuna 08,26033
+Fuente para preparar los alimentos,Acueducto veredal?,Comuna 08,129
+Fuente para preparar los alimentos,Agua embotellada o en bolsa?,Comuna 08,38
+Fuente para preparar los alimentos,Agua lluvia?,Comuna 08,91
+Fuente para preparar los alimentos,Aguatero?,Comuna 08,12
+Fuente para preparar los alimentos,Carrotanque?,Comuna 08,1
+Fuente para preparar los alimentos,No informa,Comuna 08,281
+Fuente para preparar los alimentos,Pila pública?,Comuna 08,2
+Fuente para preparar los alimentos,Pozo con bomba?,Comuna 08,148
+Fuente para preparar los alimentos,"Pozo sin bomba, aljibe, jaguey o barreno?",Comuna 08,98
+Fuente para preparar los alimentos,Red de distribución comunitaria?,Comuna 08,126
+Fuente para preparar los alimentos,"RÍo, quebrada, manantial, nacimiento?",Comuna 08,86
+Lugar donde preparan los alimentos,En un cuarto usado solo para cocinar?,Comuna 08,25612
+Lugar donde preparan los alimentos,En un cuarto usado también para dormir?,Comuna 08,162
+Lugar donde preparan los alimentos,"En un patio, corredor, enramada o al aire libre?",Comuna 08,132
+Lugar donde preparan los alimentos,En una sala-comedor con lavaplatos?,Comuna 08,1032
+Lugar donde preparan los alimentos,En una sala-comedor sin lavaplatos?,Comuna 08,26
+Lugar donde preparan los alimentos,No informa,Comuna 08,81
+Lugar donde preparan los alimentos,No preparan alimentos en la vivienda?,Comuna 08,248
+¿En general considera que la calidad de la prestación del servicio de salud reci,Bueno,Comuna 08,1144
+¿En general considera que la calidad de la prestación del servicio de salud reci,Malo,Comuna 08,245
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy Malo,Comuna 08,90
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy bueno,Comuna 08,677
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No,Comuna 08,19085
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No informa,Comuna 08,429
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",Sí,Comuna 08,6929
+Ha tenido algún hijo(a) nacido vivo(a),No,Comuna 08,5608
+Ha tenido algún hijo(a) nacido vivo(a),No informa,Comuna 08,297
+Ha tenido algún hijo(a) nacido vivo(a),Sí,Comuna 08,8304
+¿Lo atendieron?,No,Comuna 08,46
+¿Lo atendieron?,No informa,Comuna 08,0
+¿Lo atendieron?,Sí,Comuna 08,2156
+¿Donde nacio?,En este mpio,Comuna 08,14731
+¿Donde nacio?,En otro mpio Colombiano,Comuna 08,11639
+¿Donde nacio?,En otro país,Comuna 08,524
+¿Donde nacio?,No Informa,Comuna 08,399
+¿En donde vivía hace 12 meses ?,En este mpio,Comuna 08,25518
+¿En donde vivía hace 12 meses ?,En otro mpio colombiano,Comuna 08,961
+¿En donde vivía hace 12 meses ?,En otro país,Comuna 08,238
+¿En donde vivía hace 12 meses ?,No Informa,Comuna 08,418
+¿En donde vivía hace 12 meses ?,No había nacido,Comuna 08,158
+¿En donde vivía hace 5 años ?,En este mpio,Comuna 08,22241
+¿En donde vivía hace 5 años ?,En otro mpio Colombiano,Comuna 08,3141
+¿En donde vivía hace 5 años ?,En otro país,Comuna 08,635
+¿En donde vivía hace 5 años ?,No Informa,Comuna 08,566
+¿En donde vivía hace 5 años ?,No había nacido,Comuna 08,710
+¿Sabe leer y escribir?,No,Comuna 08,381
+¿Sabe leer y escribir?,No informa,Comuna 08,418
+¿Sabe leer y escribir?,Sí,Comuna 08,25644
+¿Cuantos años cumplidos tiene?,de 00 A 04 Años,Comuna 08,850
+¿Cuantos años cumplidos tiene?,de 05 A 09 Años,Comuna 08,902
+¿Cuantos años cumplidos tiene?,de 10 A 14 Años,Comuna 08,1001
+¿Cuantos años cumplidos tiene?,de 100 y más Años,Comuna 08,12
+¿Cuantos años cumplidos tiene?,de 15 A 19 Años,Comuna 08,1656
+¿Cuantos años cumplidos tiene?,de 20 A 24 Años,Comuna 08,2282
+¿Cuantos años cumplidos tiene?,de 25 A 29 Años,Comuna 08,2021
+¿Cuantos años cumplidos tiene?,de 30 A 34 Años,Comuna 08,1820
+¿Cuantos años cumplidos tiene?,de 35 A 39 Años,Comuna 08,1773
+¿Cuantos años cumplidos tiene?,de 40 A 44 Años,Comuna 08,1520
+¿Cuantos años cumplidos tiene?,de 45 A 49 Años,Comuna 08,1558
+¿Cuantos años cumplidos tiene?,de 50 A 54 Años,Comuna 08,2004
+¿Cuantos años cumplidos tiene?,de 55 A 59 Años,Comuna 08,2280
+¿Cuantos años cumplidos tiene?,de 60 A 64 Años,Comuna 08,2213
+¿Cuantos años cumplidos tiene?,de 65 A 69 Años,Comuna 08,1844
+¿Cuantos años cumplidos tiene?,de 70 A 74 Años,Comuna 08,1347
+¿Cuantos años cumplidos tiene?,de 75 A 79 Años,Comuna 08,917
+¿Cuantos años cumplidos tiene?,de 80 A 84 Años,Comuna 08,663
+¿Cuantos años cumplidos tiene?,de 85 A 89 Años,Comuna 08,400
+¿Cuantos años cumplidos tiene?,de 90 A 94 Años,Comuna 08,191
+¿Cuantos años cumplidos tiene?,de 95 A 99 Años,Comuna 08,39
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No,Comuna 08,23725
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No informa,Comuna 08,403
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",Sí,Comuna 08,3165
+"Actualmente, ¿Su estado civil es?",Casado(a)?,Comuna 08,9154
+"Actualmente, ¿Su estado civil es?",Divorciado(a)?,Comuna 08,865
+"Actualmente, ¿Su estado civil es?",No Informa,Comuna 08,400
+"Actualmente, ¿Su estado civil es?",Separado(a) de matrimonio?,Comuna 08,990
+"Actualmente, ¿Su estado civil es?",Separado(a) de unión libre?,Comuna 08,443
+"Actualmente, ¿Su estado civil es?","Soltero(a)?(Nunca se ha casado, ni ha vivido en unión libre)",Comuna 08,9605
+"Actualmente, ¿Su estado civil es?",Unión libre?,Comuna 08,2385
+"Actualmente, ¿Su estado civil es?",Viudo(a)?,Comuna 08,1699
+¿Cuál es el nivel educativo más alto alcanzado?,Básica primaria,Comuna 08,2501
+¿Cuál es el nivel educativo más alto alcanzado?,Básica secundaria,Comuna 08,2075
+Material predominante de los pisos de esta vivienda,Alfombra,Comuna 08,705
+¿Cuál es el nivel educativo más alto alcanzado?,"Especialización, maestría, doctorado",Comuna 08,5254
+¿Cuál es el nivel educativo más alto alcanzado?,Media academica o clasica,Comuna 08,4189
+¿Cuál es el nivel educativo más alto alcanzado?,Media tecnica,Comuna 08,322
+¿Cuál es el nivel educativo más alto alcanzado?,Ninguno,Comuna 08,439
+¿Cuál es el nivel educativo más alto alcanzado?,No informa,Comuna 08,518
+¿Cuál es el nivel educativo más alto alcanzado?,Normalista,Comuna 08,139
+¿Cuál es el nivel educativo más alto alcanzado?,Preescolar,Comuna 08,272
+¿Cuál es el nivel educativo más alto alcanzado?,Técnica profesional o Tecnológica,Comuna 08,2046
+¿Cuál es el nivel educativo más alto alcanzado?,Universitario,Comuna 08,8688
+Parentesco con el jefe del hogar,"Hijo(a), Hijastro(a)",Comuna 08,7124
+Parentesco con el jefe del hogar,Jefe(a) del hogar,Comuna 08,11772
+Parentesco con el jefe del hogar,Otros NO parientes,Comuna 08,724
+Parentesco con el jefe del hogar,Otros Parientes,Comuna 08,2425
+Parentesco con el jefe del hogar,"Pareja (Conyuge, compañero(a), esposo(a))",Comuna 08,5248
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a la entidad de seguridad social en salud de la cual es filiado(a)?,Comuna 08,2202
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a otro médico de un grupo étnico? (curandero, yerbatero, etc.)",Comuna 08,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un boticario, farmacéuta, droguista?",Comuna 08,29
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un médico particular? (general, especialista, odontólogo, terapeuta u otro)",Comuna 08,636
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a una autoridad indígena espiritual?,Comuna 08,1
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Asistió a terapias alternativas? (acupuntura, esencias florales, musicoterapias, homeópata, etc.)",Comuna 08,11
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No Informa,Comuna 08,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No hizo nada,Comuna 08,61
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Se autorrecetó,Comuna 08,73
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Usó remedios caseros?,Comuna 08,152
+¿Cual es el sexo de...?,Hombre,Comuna 08,12234
+¿Cual es el sexo de...?,Mujer,Comuna 08,15059
+¿Actividad durante la semana pasada . . . :?,Busco trabajo?,Comuna 08,639
+¿Actividad durante la semana pasada . . . :?,Estudió?,Comuna 08,3691
+¿Actividad durante la semana pasada . . . :?,Estuvo en otra situación?,Comuna 08,1452
+¿Actividad durante la semana pasada . . . :?,Está incapacitado(a) permanentemente para trabajar?,Comuna 08,235
+¿Actividad durante la semana pasada . . . :?,No Informa,Comuna 08,481
+¿Actividad durante la semana pasada . . . :?,"No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos?",Comuna 08,874
+¿Actividad durante la semana pasada . . . :?,Realizó oficios del hogar?,Comuna 08,2778
+¿Actividad durante la semana pasada . . . :?,Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran?,Comuna 08,155
+¿Actividad durante la semana pasada . . . :?,Trabajó por lo menos una hora en una actividad que le generó algún ingreso?,Comuna 08,11185
+¿Actividad durante la semana pasada . . . :?,"Vivió de jubilación, pensión o renta?",Comuna 08,4051
+Uso de la Unidad (Espacio independiente y separado),Lugar Especial de Alojamiento - LEA,Comuna 08,0
+Uso de la Unidad (Espacio independiente y separado),Mixto (Espacio independiente y separado que combina vivienda con otro uso no residencial),Comuna 08,241
+Uso de la Unidad (Espacio independiente y separado),Vivienda,Comuna 08,27052
+Estrato de esta vivienda,Estrato 1,Comuna 08,998
+Estrato de esta vivienda,Estrato 2,Comuna 08,835
+Estrato de esta vivienda,Estrato 3,Comuna 08,1178
+Estrato de esta vivienda,Estrato 4,Comuna 08,1813
+Estrato de esta vivienda,Estrato 5,Comuna 08,7497
+Estrato de esta vivienda,Estrato 6,Comuna 08,14641
+Estrato de esta vivienda,No sabe el estrato,Comuna 08,89
+Estrato de esta vivienda,Sin estrato,Comuna 08,42
+La vivienda cuenta con servicio de Energía Eléctrica,No,Comuna 08,200
+La vivienda cuenta con servicio de Energía Eléctrica,Si,Comuna 08,27093
+La vivienda cuenta con servicios de Acueducto?,No,Comuna 08,501
+La vivienda cuenta con servicios de Acueducto?,Si,Comuna 08,26792
+La vivienda cuenta con servicio de Alcantarillado?,No,Comuna 08,755
+La vivienda cuenta con servicio de Alcantarillado?,Si,Comuna 08,26538
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No,Comuna 08,2409
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No informa,Comuna 08,268
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,Si,Comuna 08,24616
+¿Cuántas veces por semana?,1 vez,Comuna 08,361
+¿Cuántas veces por semana?,2 veces,Comuna 08,23478
+¿Cuántas veces por semana?,3 veces,Comuna 08,1953
+¿Cuántas veces por semana?,4 veces,Comuna 08,90
+¿Cuántas veces por semana?,5 veces,Comuna 08,86
+¿Cuántas veces por semana?,6 veces,Comuna 08,69
+¿Cuántas veces por semana?,7 veces,Comuna 08,103
+¿Cuántas veces por semana?,Mayor periodicidad,Comuna 08,20
+¿Cuántas veces por semana?,No sabe,Comuna 08,465
+La vivienda cuenta con servicio de Recolección de basuras?,No,Comuna 08,668
+La vivienda cuenta con servicio de Recolección de basuras?,Si,Comuna 08,26625
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No,Comuna 08,2722
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No informa,Comuna 08,270
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,Si,Comuna 08,24301
+Condición de ocupación de la Vivienda,Ocupada con personas presentes,Comuna 08,27293
+Material predominante de las paredes exteriores de la vivienda,"Bloque, ladrillo, piedra, madera pulida",Comuna 08,23107
+Material predominante de las paredes exteriores de la vivienda,"Caña, esterilla, otros vegetales",Comuna 08,44
+Material predominante de las paredes exteriores de la vivienda,Concreto vaciado,Comuna 08,3588
+Material predominante de las paredes exteriores de la vivienda,Guadua,Comuna 08,8
+Material predominante de las paredes exteriores de la vivienda,"Madera burda, tabla, tablon",Comuna 08,308
+Material predominante de las paredes exteriores de la vivienda,Material prefabricado,Comuna 08,68
+Material predominante de las paredes exteriores de la vivienda,"Materiales de deshecho (Zinc, tela, carton, latas, plásticos, otros)",Comuna 08,30
+Material predominante de las paredes exteriores de la vivienda,No tiene paredes,Comuna 08,0
+Material predominante de las paredes exteriores de la vivienda,"Tapia pisada, bahareque, adobe",Comuna 08,140
+Material predominante de los pisos de esta vivienda,"Baldosa, vinilo, tableta, ladrillo, laminado",Comuna 08,16950
+Material predominante de los pisos de esta vivienda,"Cemento, gravilla",Comuna 08,769
+Material predominante de los pisos de esta vivienda,"Madera burda, tabla, tablon, otro vegetal",Comuna 08,1142
+Material predominante de los pisos de esta vivienda,"Marmol, parque, madera pulida y lacada",Comuna 08,7480
+Material predominante de los pisos de esta vivienda,"Tierra, arena, barro",Comuna 08,247
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Esta vivienda No tiene servicio sanitario?,Comuna 08,150
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro con descarga directa a fuentes de agua (bajamar)?,Comuna 08,32
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado a pozo séptico?,Comuna 08,578
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado al alcantarillado?,Comuna 08,26193
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro sin conexión?,Comuna 08,40
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Letrina?,Comuna 08,37
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,No informa,Comuna 08,263
+Tipo vivienda,Apartamento,Comuna 08,17098
+Tipo vivienda,Casa,Comuna 08,9617
+Tipo vivienda,"Otro (Contenedor, carpa, embarcación, vagon, cueva, refugio natural, etc",Comuna 08,18
+Tipo vivienda,Tipo cuarto,Comuna 08,484
+Tipo vivienda,Vivienda tradicional Indígena,Comuna 08,69
+Tipo vivienda,"Vivienda tradicional Étnica (Afrocolombiana, Isleña, Rrom)",Comuna 08,7
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",No,Comuna 09,30325
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",Sí,Comuna 09,3665
+Fuente para preparar los alimentos,Acueducto público?,Comuna 09,32726
+Fuente para preparar los alimentos,Acueducto veredal?,Comuna 09,229
+Fuente para preparar los alimentos,Agua embotellada o en bolsa?,Comuna 09,30
+Fuente para preparar los alimentos,Agua lluvia?,Comuna 09,73
+Fuente para preparar los alimentos,Aguatero?,Comuna 09,8
+Fuente para preparar los alimentos,Carrotanque?,Comuna 09,24
+Fuente para preparar los alimentos,No informa,Comuna 09,112
+Fuente para preparar los alimentos,Pila pública?,Comuna 09,3
+Fuente para preparar los alimentos,Pozo con bomba?,Comuna 09,143
+Fuente para preparar los alimentos,"Pozo sin bomba, aljibe, jaguey o barreno?",Comuna 09,71
+Fuente para preparar los alimentos,Red de distribución comunitaria?,Comuna 09,193
+Fuente para preparar los alimentos,"RÍo, quebrada, manantial, nacimiento?",Comuna 09,265
+Lugar donde preparan los alimentos,En un cuarto usado solo para cocinar?,Comuna 09,32388
+Lugar donde preparan los alimentos,En un cuarto usado también para dormir?,Comuna 09,264
+Lugar donde preparan los alimentos,"En un patio, corredor, enramada o al aire libre?",Comuna 09,183
+Lugar donde preparan los alimentos,En una sala-comedor con lavaplatos?,Comuna 09,923
+Lugar donde preparan los alimentos,En una sala-comedor sin lavaplatos?,Comuna 09,76
+Lugar donde preparan los alimentos,No informa,Comuna 09,43
+Lugar donde preparan los alimentos,No preparan alimentos en la vivienda?,Comuna 09,113
+¿En general considera que la calidad de la prestación del servicio de salud reci,Bueno,Comuna 09,2197
+¿En general considera que la calidad de la prestación del servicio de salud reci,Malo,Comuna 09,530
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy Malo,Comuna 09,128
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy bueno,Comuna 09,815
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No,Comuna 09,23773
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No informa,Comuna 09,281
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",Sí,Comuna 09,8218
+Ha tenido algún hijo(a) nacido vivo(a),No,Comuna 09,5382
+Ha tenido algún hijo(a) nacido vivo(a),No informa,Comuna 09,241
+Ha tenido algún hijo(a) nacido vivo(a),Sí,Comuna 09,10857
+¿Lo atendieron?,No,Comuna 09,86
+¿Lo atendieron?,No informa,Comuna 09,0
+¿Lo atendieron?,Sí,Comuna 09,3670
+¿Donde nacio?,En este mpio,Comuna 09,21735
+¿Donde nacio?,En otro mpio Colombiano,Comuna 09,11746
+¿Donde nacio?,En otro país,Comuna 09,253
+¿Donde nacio?,No Informa,Comuna 09,256
+¿En donde vivía hace 12 meses ?,En este mpio,Comuna 09,32606
+¿En donde vivía hace 12 meses ?,En otro mpio colombiano,Comuna 09,663
+¿En donde vivía hace 12 meses ?,En otro país,Comuna 09,141
+¿En donde vivía hace 12 meses ?,No Informa,Comuna 09,268
+¿En donde vivía hace 12 meses ?,No había nacido,Comuna 09,312
+¿En donde vivía hace 5 años ?,En este mpio,Comuna 09,29362
+¿En donde vivía hace 5 años ?,En otro mpio Colombiano,Comuna 09,2320
+¿En donde vivía hace 5 años ?,En otro país,Comuna 09,312
+¿En donde vivía hace 5 años ?,No Informa,Comuna 09,367
+¿En donde vivía hace 5 años ?,No había nacido,Comuna 09,1629
+¿Sabe leer y escribir?,No,Comuna 09,1235
+¿Sabe leer y escribir?,No informa,Comuna 09,279
+¿Sabe leer y escribir?,Sí,Comuna 09,30758
+¿Cuantos años cumplidos tiene?,de 00 A 04 Años,Comuna 09,1718
+¿Cuantos años cumplidos tiene?,de 05 A 09 Años,Comuna 09,1787
+¿Cuantos años cumplidos tiene?,de 10 A 14 Años,Comuna 09,1984
+¿Cuantos años cumplidos tiene?,de 100 y más Años,Comuna 09,5
+¿Cuantos años cumplidos tiene?,de 15 A 19 Años,Comuna 09,2593
+¿Cuantos años cumplidos tiene?,de 20 A 24 Años,Comuna 09,3344
+¿Cuantos años cumplidos tiene?,de 25 A 29 Años,Comuna 09,2878
+¿Cuantos años cumplidos tiene?,de 30 A 34 Años,Comuna 09,2268
+¿Cuantos años cumplidos tiene?,de 35 A 39 Años,Comuna 09,2289
+¿Cuantos años cumplidos tiene?,de 40 A 44 Años,Comuna 09,2044
+¿Cuantos años cumplidos tiene?,de 45 A 49 Años,Comuna 09,2343
+¿Cuantos años cumplidos tiene?,de 50 A 54 Años,Comuna 09,2542
+¿Cuantos años cumplidos tiene?,de 55 A 59 Años,Comuna 09,2151
+¿Cuantos años cumplidos tiene?,de 60 A 64 Años,Comuna 09,1798
+¿Cuantos años cumplidos tiene?,de 65 A 69 Años,Comuna 09,1407
+¿Cuantos años cumplidos tiene?,de 70 A 74 Años,Comuna 09,1014
+¿Cuantos años cumplidos tiene?,de 75 A 79 Años,Comuna 09,772
+¿Cuantos años cumplidos tiene?,de 80 A 84 Años,Comuna 09,575
+¿Cuantos años cumplidos tiene?,de 85 A 89 Años,Comuna 09,316
+¿Cuantos años cumplidos tiene?,de 90 A 94 Años,Comuna 09,136
+¿Cuantos años cumplidos tiene?,de 95 A 99 Años,Comuna 09,26
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No,Comuna 09,29129
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No informa,Comuna 09,248
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",Sí,Comuna 09,4613
+"Actualmente, ¿Su estado civil es?",Casado(a)?,Comuna 09,7191
+"Actualmente, ¿Su estado civil es?",Divorciado(a)?,Comuna 09,283
+"Actualmente, ¿Su estado civil es?",No Informa,Comuna 09,235
+"Actualmente, ¿Su estado civil es?",Separado(a) de matrimonio?,Comuna 09,1265
+"Actualmente, ¿Su estado civil es?",Separado(a) de unión libre?,Comuna 09,835
+"Actualmente, ¿Su estado civil es?","Soltero(a)?(Nunca se ha casado, ni ha vivido en unión libre)",Comuna 09,13306
+"Actualmente, ¿Su estado civil es?",Unión libre?,Comuna 09,5692
+"Actualmente, ¿Su estado civil es?",Viudo(a)?,Comuna 09,1678
+¿Cuál es el nivel educativo más alto alcanzado?,Básica primaria,Comuna 09,8612
+¿Cuál es el nivel educativo más alto alcanzado?,Básica secundaria,Comuna 09,5196
+Material predominante de los pisos de esta vivienda,Alfombra,Comuna 09,80
+¿Cuál es el nivel educativo más alto alcanzado?,"Especialización, maestría, doctorado",Comuna 09,502
+¿Cuál es el nivel educativo más alto alcanzado?,Media academica o clasica,Comuna 09,8579
+¿Cuál es el nivel educativo más alto alcanzado?,Media tecnica,Comuna 09,296
+¿Cuál es el nivel educativo más alto alcanzado?,Ninguno,Comuna 09,784
+¿Cuál es el nivel educativo más alto alcanzado?,No informa,Comuna 09,347
+¿Cuál es el nivel educativo más alto alcanzado?,Normalista,Comuna 09,118
+¿Cuál es el nivel educativo más alto alcanzado?,Preescolar,Comuna 09,531
+¿Cuál es el nivel educativo más alto alcanzado?,Técnica profesional o Tecnológica,Comuna 09,3589
+¿Cuál es el nivel educativo más alto alcanzado?,Universitario,Comuna 09,3718
+Parentesco con el jefe del hogar,"Hijo(a), Hijastro(a)",Comuna 09,11277
+Parentesco con el jefe del hogar,Jefe(a) del hogar,Comuna 09,11108
+Parentesco con el jefe del hogar,Otros NO parientes,Comuna 09,608
+Parentesco con el jefe del hogar,Otros Parientes,Comuna 09,5390
+Parentesco con el jefe del hogar,"Pareja (Conyuge, compañero(a), esposo(a))",Comuna 09,5607
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a la entidad de seguridad social en salud de la cual es filiado(a)?,Comuna 09,3756
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a otro médico de un grupo étnico? (curandero, yerbatero, etc.)",Comuna 09,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un boticario, farmacéuta, droguista?",Comuna 09,84
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un médico particular? (general, especialista, odontólogo, terapeuta u otro)",Comuna 09,191
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a una autoridad indígena espiritual?,Comuna 09,2
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Asistió a terapias alternativas? (acupuntura, esencias florales, musicoterapias, homeópata, etc.)",Comuna 09,2
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No Informa,Comuna 09,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No hizo nada,Comuna 09,154
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Se autorrecetó,Comuna 09,142
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Usó remedios caseros?,Comuna 09,282
+¿Cual es el sexo de...?,Hombre,Comuna 09,15783
+¿Cual es el sexo de...?,Mujer,Comuna 09,18207
+¿Actividad durante la semana pasada . . . :?,Busco trabajo?,Comuna 09,1507
+¿Actividad durante la semana pasada . . . :?,Estudió?,Comuna 09,5050
+¿Actividad durante la semana pasada . . . :?,Estuvo en otra situación?,Comuna 09,1788
+¿Actividad durante la semana pasada . . . :?,Está incapacitado(a) permanentemente para trabajar?,Comuna 09,372
+¿Actividad durante la semana pasada . . . :?,No Informa,Comuna 09,350
+¿Actividad durante la semana pasada . . . :?,"No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos?",Comuna 09,508
+¿Actividad durante la semana pasada . . . :?,Realizó oficios del hogar?,Comuna 09,5470
+¿Actividad durante la semana pasada . . . :?,Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran?,Comuna 09,74
+¿Actividad durante la semana pasada . . . :?,Trabajó por lo menos una hora en una actividad que le generó algún ingreso?,Comuna 09,13237
+¿Actividad durante la semana pasada . . . :?,"Vivió de jubilación, pensión o renta?",Comuna 09,2129
+Uso de la Unidad (Espacio independiente y separado),Lugar Especial de Alojamiento - LEA,Comuna 09,0
+Uso de la Unidad (Espacio independiente y separado),Mixto (Espacio independiente y separado que combina vivienda con otro uso no residencial),Comuna 09,774
+Uso de la Unidad (Espacio independiente y separado),Vivienda,Comuna 09,33216
+Estrato de esta vivienda,Estrato 1,Comuna 09,3957
+Estrato de esta vivienda,Estrato 2,Comuna 09,12021
+Estrato de esta vivienda,Estrato 3,Comuna 09,17476
+Estrato de esta vivienda,Estrato 4,Comuna 09,57
+Estrato de esta vivienda,Estrato 5,Comuna 09,35
+Estrato de esta vivienda,Estrato 6,Comuna 09,158
+Estrato de esta vivienda,No sabe el estrato,Comuna 09,31
+Estrato de esta vivienda,Sin estrato,Comuna 09,44
+La vivienda cuenta con servicio de Energía Eléctrica,No,Comuna 09,211
+La vivienda cuenta con servicio de Energía Eléctrica,Si,Comuna 09,33779
+La vivienda cuenta con servicios de Acueducto?,No,Comuna 09,727
+La vivienda cuenta con servicios de Acueducto?,Si,Comuna 09,33263
+La vivienda cuenta con servicio de Alcantarillado?,No,Comuna 09,1194
+La vivienda cuenta con servicio de Alcantarillado?,Si,Comuna 09,32796
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No,Comuna 09,4517
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No informa,Comuna 09,101
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,Si,Comuna 09,29372
+¿Cuántas veces por semana?,1 vez,Comuna 09,195
+¿Cuántas veces por semana?,2 veces,Comuna 09,31213
+¿Cuántas veces por semana?,3 veces,Comuna 09,1516
+¿Cuántas veces por semana?,4 veces,Comuna 09,31
+¿Cuántas veces por semana?,5 veces,Comuna 09,32
+¿Cuántas veces por semana?,6 veces,Comuna 09,0
+¿Cuántas veces por semana?,7 veces,Comuna 09,15
+¿Cuántas veces por semana?,Mayor periodicidad,Comuna 09,0
+¿Cuántas veces por semana?,No sabe,Comuna 09,19
+La vivienda cuenta con servicio de Recolección de basuras?,No,Comuna 09,969
+La vivienda cuenta con servicio de Recolección de basuras?,Si,Comuna 09,33021
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No,Comuna 09,10399
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No informa,Comuna 09,114
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,Si,Comuna 09,23477
+Condición de ocupación de la Vivienda,Ocupada con personas presentes,Comuna 09,33990
+Material predominante de las paredes exteriores de la vivienda,"Bloque, ladrillo, piedra, madera pulida",Comuna 09,31262
+Material predominante de las paredes exteriores de la vivienda,"Caña, esterilla, otros vegetales",Comuna 09,337
+Material predominante de las paredes exteriores de la vivienda,Concreto vaciado,Comuna 09,531
+Material predominante de las paredes exteriores de la vivienda,Guadua,Comuna 09,10
+Material predominante de las paredes exteriores de la vivienda,"Madera burda, tabla, tablon",Comuna 09,606
+Material predominante de las paredes exteriores de la vivienda,Material prefabricado,Comuna 09,260
+Material predominante de las paredes exteriores de la vivienda,"Materiales de deshecho (Zinc, tela, carton, latas, plásticos, otros)",Comuna 09,59
+Material predominante de las paredes exteriores de la vivienda,No tiene paredes,Comuna 09,0
+Material predominante de las paredes exteriores de la vivienda,"Tapia pisada, bahareque, adobe",Comuna 09,925
+Material predominante de los pisos de esta vivienda,"Baldosa, vinilo, tableta, ladrillo, laminado",Comuna 09,27598
+Material predominante de los pisos de esta vivienda,"Cemento, gravilla",Comuna 09,2770
+Material predominante de los pisos de esta vivienda,"Madera burda, tabla, tablon, otro vegetal",Comuna 09,1941
+Material predominante de los pisos de esta vivienda,"Marmol, parque, madera pulida y lacada",Comuna 09,1216
+Material predominante de los pisos de esta vivienda,"Tierra, arena, barro",Comuna 09,385
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Esta vivienda No tiene servicio sanitario?,Comuna 09,207
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro con descarga directa a fuentes de agua (bajamar)?,Comuna 09,98
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado a pozo séptico?,Comuna 09,863
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado al alcantarillado?,Comuna 09,32608
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro sin conexión?,Comuna 09,69
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Letrina?,Comuna 09,49
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,No informa,Comuna 09,96
+Tipo vivienda,Apartamento,Comuna 09,17965
+Tipo vivienda,Casa,Comuna 09,15587
+Tipo vivienda,"Otro (Contenedor, carpa, embarcación, vagon, cueva, refugio natural, etc",Comuna 09,1
+Tipo vivienda,Tipo cuarto,Comuna 09,361
+Tipo vivienda,Vivienda tradicional Indígena,Comuna 09,74
+Tipo vivienda,"Vivienda tradicional Étnica (Afrocolombiana, Isleña, Rrom)",Comuna 09,2
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",No,Comuna 10,40009
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",Sí,Comuna 10,3210
+Fuente para preparar los alimentos,Acueducto público?,Comuna 10,41125
+Fuente para preparar los alimentos,Acueducto veredal?,Comuna 10,228
+Fuente para preparar los alimentos,Agua embotellada o en bolsa?,Comuna 10,41
+Fuente para preparar los alimentos,Agua lluvia?,Comuna 10,228
+Fuente para preparar los alimentos,Aguatero?,Comuna 10,14
+Fuente para preparar los alimentos,Carrotanque?,Comuna 10,7
+Fuente para preparar los alimentos,No informa,Comuna 10,152
+Fuente para preparar los alimentos,Pila pública?,Comuna 10,18
+Fuente para preparar los alimentos,Pozo con bomba?,Comuna 10,138
+Fuente para preparar los alimentos,"Pozo sin bomba, aljibe, jaguey o barreno?",Comuna 10,88
+Fuente para preparar los alimentos,Red de distribución comunitaria?,Comuna 10,424
+Fuente para preparar los alimentos,"RÍo, quebrada, manantial, nacimiento?",Comuna 10,528
+Lugar donde preparan los alimentos,En un cuarto usado solo para cocinar?,Comuna 10,40611
+Lugar donde preparan los alimentos,En un cuarto usado también para dormir?,Comuna 10,460
+Lugar donde preparan los alimentos,"En un patio, corredor, enramada o al aire libre?",Comuna 10,248
+Lugar donde preparan los alimentos,En una sala-comedor con lavaplatos?,Comuna 10,1496
+Lugar donde preparan los alimentos,En una sala-comedor sin lavaplatos?,Comuna 10,116
+Lugar donde preparan los alimentos,No informa,Comuna 10,60
+Lugar donde preparan los alimentos,No preparan alimentos en la vivienda?,Comuna 10,228
+¿En general considera que la calidad de la prestación del servicio de salud reci,Bueno,Comuna 10,2702
+¿En general considera que la calidad de la prestación del servicio de salud reci,Malo,Comuna 10,586
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy Malo,Comuna 10,205
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy bueno,Comuna 10,910
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No,Comuna 10,30907
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No informa,Comuna 10,377
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",Sí,Comuna 10,9786
+Ha tenido algún hijo(a) nacido vivo(a),No,Comuna 10,7168
+Ha tenido algún hijo(a) nacido vivo(a),No informa,Comuna 10,311
+Ha tenido algún hijo(a) nacido vivo(a),Sí,Comuna 10,13436
+¿Lo atendieron?,No,Comuna 10,118
+¿Lo atendieron?,No informa,Comuna 10,0
+¿Lo atendieron?,Sí,Comuna 10,4403
+¿Donde nacio?,En este mpio,Comuna 10,27952
+¿Donde nacio?,En otro mpio Colombiano,Comuna 10,14480
+¿Donde nacio?,En otro país,Comuna 10,432
+¿Donde nacio?,No Informa,Comuna 10,355
+¿En donde vivía hace 12 meses ?,En este mpio,Comuna 10,41538
+¿En donde vivía hace 12 meses ?,En otro mpio colombiano,Comuna 10,686
+¿En donde vivía hace 12 meses ?,En otro país,Comuna 10,246
+¿En donde vivía hace 12 meses ?,No Informa,Comuna 10,361
+¿En donde vivía hace 12 meses ?,No había nacido,Comuna 10,388
+¿En donde vivía hace 5 años ?,En este mpio,Comuna 10,37783
+¿En donde vivía hace 5 años ?,En otro mpio Colombiano,Comuna 10,2448
+¿En donde vivía hace 5 años ?,En otro país,Comuna 10,483
+¿En donde vivía hace 5 años ?,No Informa,Comuna 10,471
+¿En donde vivía hace 5 años ?,No había nacido,Comuna 10,2034
+¿Sabe leer y escribir?,No,Comuna 10,1548
+¿Sabe leer y escribir?,No informa,Comuna 10,373
+¿Sabe leer y escribir?,Sí,Comuna 10,39149
+¿Cuantos años cumplidos tiene?,de 00 A 04 Años,Comuna 10,2149
+¿Cuantos años cumplidos tiene?,de 05 A 09 Años,Comuna 10,2347
+¿Cuantos años cumplidos tiene?,de 10 A 14 Años,Comuna 10,2750
+¿Cuantos años cumplidos tiene?,de 100 y más Años,Comuna 10,7
+¿Cuantos años cumplidos tiene?,de 15 A 19 Años,Comuna 10,3162
+¿Cuantos años cumplidos tiene?,de 20 A 24 Años,Comuna 10,3820
+¿Cuantos años cumplidos tiene?,de 25 A 29 Años,Comuna 10,3611
+¿Cuantos años cumplidos tiene?,de 30 A 34 Años,Comuna 10,3274
+¿Cuantos años cumplidos tiene?,de 35 A 39 Años,Comuna 10,3074
+¿Cuantos años cumplidos tiene?,de 40 A 44 Años,Comuna 10,2611
+¿Cuantos años cumplidos tiene?,de 45 A 49 Años,Comuna 10,2822
+¿Cuantos años cumplidos tiene?,de 50 A 54 Años,Comuna 10,3025
+¿Cuantos años cumplidos tiene?,de 55 A 59 Años,Comuna 10,2891
+¿Cuantos años cumplidos tiene?,de 60 A 64 Años,Comuna 10,2424
+¿Cuantos años cumplidos tiene?,de 65 A 69 Años,Comuna 10,1810
+¿Cuantos años cumplidos tiene?,de 70 A 74 Años,Comuna 10,1387
+¿Cuantos años cumplidos tiene?,de 75 A 79 Años,Comuna 10,892
+¿Cuantos años cumplidos tiene?,de 80 A 84 Años,Comuna 10,650
+¿Cuantos años cumplidos tiene?,de 85 A 89 Años,Comuna 10,338
+¿Cuantos años cumplidos tiene?,de 90 A 94 Años,Comuna 10,155
+¿Cuantos años cumplidos tiene?,de 95 A 99 Años,Comuna 10,20
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No,Comuna 10,37362
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No informa,Comuna 10,349
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",Sí,Comuna 10,5508
+"Actualmente, ¿Su estado civil es?",Casado(a)?,Comuna 10,9110
+"Actualmente, ¿Su estado civil es?",Divorciado(a)?,Comuna 10,479
+"Actualmente, ¿Su estado civil es?",No Informa,Comuna 10,336
+"Actualmente, ¿Su estado civil es?",Separado(a) de matrimonio?,Comuna 10,1409
+"Actualmente, ¿Su estado civil es?",Separado(a) de unión libre?,Comuna 10,1570
+"Actualmente, ¿Su estado civil es?","Soltero(a)?(Nunca se ha casado, ni ha vivido en unión libre)",Comuna 10,16057
+"Actualmente, ¿Su estado civil es?",Unión libre?,Comuna 10,7657
+"Actualmente, ¿Su estado civil es?",Viudo(a)?,Comuna 10,2105
+¿Cuál es el nivel educativo más alto alcanzado?,Básica primaria,Comuna 10,10566
+¿Cuál es el nivel educativo más alto alcanzado?,Básica secundaria,Comuna 10,6638
+Material predominante de los pisos de esta vivienda,Alfombra,Comuna 10,62
+¿Cuál es el nivel educativo más alto alcanzado?,"Especialización, maestría, doctorado",Comuna 10,980
+¿Cuál es el nivel educativo más alto alcanzado?,Media academica o clasica,Comuna 10,10466
+¿Cuál es el nivel educativo más alto alcanzado?,Media tecnica,Comuna 10,682
+¿Cuál es el nivel educativo más alto alcanzado?,Ninguno,Comuna 10,1002
+¿Cuál es el nivel educativo más alto alcanzado?,No informa,Comuna 10,475
+¿Cuál es el nivel educativo más alto alcanzado?,Normalista,Comuna 10,133
+¿Cuál es el nivel educativo más alto alcanzado?,Preescolar,Comuna 10,745
+¿Cuál es el nivel educativo más alto alcanzado?,Técnica profesional o Tecnológica,Comuna 10,4505
+¿Cuál es el nivel educativo más alto alcanzado?,Universitario,Comuna 10,4878
+Parentesco con el jefe del hogar,"Hijo(a), Hijastro(a)",Comuna 10,14451
+Parentesco con el jefe del hogar,Jefe(a) del hogar,Comuna 10,14760
+Parentesco con el jefe del hogar,Otros NO parientes,Comuna 10,569
+Parentesco con el jefe del hogar,Otros Parientes,Comuna 10,6120
+Parentesco con el jefe del hogar,"Pareja (Conyuge, compañero(a), esposo(a))",Comuna 10,7319
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a la entidad de seguridad social en salud de la cual es filiado(a)?,Comuna 10,4521
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a otro médico de un grupo étnico? (curandero, yerbatero, etc.)",Comuna 10,5
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un boticario, farmacéuta, droguista?",Comuna 10,98
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un médico particular? (general, especialista, odontólogo, terapeuta u otro)",Comuna 10,249
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a una autoridad indígena espiritual?,Comuna 10,1
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Asistió a terapias alternativas? (acupuntura, esencias florales, musicoterapias, homeópata, etc.)",Comuna 10,6
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No Informa,Comuna 10,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No hizo nada,Comuna 10,98
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Se autorrecetó,Comuna 10,161
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Usó remedios caseros?,Comuna 10,369
+¿Cual es el sexo de...?,Hombre,Comuna 10,20118
+¿Cual es el sexo de...?,Mujer,Comuna 10,23101
+¿Actividad durante la semana pasada . . . :?,Busco trabajo?,Comuna 10,2115
+¿Actividad durante la semana pasada . . . :?,Estudió?,Comuna 10,6107
+¿Actividad durante la semana pasada . . . :?,Estuvo en otra situación?,Comuna 10,1370
+¿Actividad durante la semana pasada . . . :?,Está incapacitado(a) permanentemente para trabajar?,Comuna 10,398
+¿Actividad durante la semana pasada . . . :?,No Informa,Comuna 10,445
+¿Actividad durante la semana pasada . . . :?,"No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos?",Comuna 10,1075
+¿Actividad durante la semana pasada . . . :?,Realizó oficios del hogar?,Comuna 10,6861
+¿Actividad durante la semana pasada . . . :?,Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran?,Comuna 10,160
+¿Actividad durante la semana pasada . . . :?,Trabajó por lo menos una hora en una actividad que le generó algún ingreso?,Comuna 10,17184
+¿Actividad durante la semana pasada . . . :?,"Vivió de jubilación, pensión o renta?",Comuna 10,3008
+Uso de la Unidad (Espacio independiente y separado),Lugar Especial de Alojamiento - LEA,Comuna 10,0
+Uso de la Unidad (Espacio independiente y separado),Mixto (Espacio independiente y separado que combina vivienda con otro uso no residencial),Comuna 10,687
+Uso de la Unidad (Espacio independiente y separado),Vivienda,Comuna 10,42532
+Estrato de esta vivienda,Estrato 1,Comuna 10,10706
+Estrato de esta vivienda,Estrato 2,Comuna 10,8265
+Estrato de esta vivienda,Estrato 3,Comuna 10,19563
+Estrato de esta vivienda,Estrato 4,Comuna 10,3784
+Estrato de esta vivienda,Estrato 5,Comuna 10,94
+Estrato de esta vivienda,Estrato 6,Comuna 10,207
+Estrato de esta vivienda,No sabe el estrato,Comuna 10,53
+Estrato de esta vivienda,Sin estrato,Comuna 10,109
+La vivienda cuenta con servicio de Energía Eléctrica,No,Comuna 10,438
+La vivienda cuenta con servicio de Energía Eléctrica,Si,Comuna 10,42781
+La vivienda cuenta con servicios de Acueducto?,No,Comuna 10,1365
+La vivienda cuenta con servicios de Acueducto?,Si,Comuna 10,41854
+La vivienda cuenta con servicio de Alcantarillado?,No,Comuna 10,1892
+La vivienda cuenta con servicio de Alcantarillado?,Si,Comuna 10,41327
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No,Comuna 10,6625
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No informa,Comuna 10,132
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,Si,Comuna 10,36462
+¿Cuántas veces por semana?,1 vez,Comuna 10,427
+¿Cuántas veces por semana?,2 veces,Comuna 10,37768
+¿Cuántas veces por semana?,3 veces,Comuna 10,3003
+¿Cuántas veces por semana?,4 veces,Comuna 10,11
+¿Cuántas veces por semana?,5 veces,Comuna 10,171
+¿Cuántas veces por semana?,6 veces,Comuna 10,5
+¿Cuántas veces por semana?,7 veces,Comuna 10,27
+¿Cuántas veces por semana?,Mayor periodicidad,Comuna 10,12
+¿Cuántas veces por semana?,No sabe,Comuna 10,33
+La vivienda cuenta con servicio de Recolección de basuras?,No,Comuna 10,1762
+La vivienda cuenta con servicio de Recolección de basuras?,Si,Comuna 10,41457
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No,Comuna 10,14614
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No informa,Comuna 10,132
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,Si,Comuna 10,28473
+Condición de ocupación de la Vivienda,Ocupada con personas presentes,Comuna 10,43219
+Material predominante de las paredes exteriores de la vivienda,"Bloque, ladrillo, piedra, madera pulida",Comuna 10,32983
+Material predominante de las paredes exteriores de la vivienda,"Caña, esterilla, otros vegetales",Comuna 10,646
+Material predominante de las paredes exteriores de la vivienda,Concreto vaciado,Comuna 10,3234
+Material predominante de las paredes exteriores de la vivienda,Guadua,Comuna 10,175
+Material predominante de las paredes exteriores de la vivienda,"Madera burda, tabla, tablon",Comuna 10,959
+Material predominante de las paredes exteriores de la vivienda,Material prefabricado,Comuna 10,2159
+Material predominante de las paredes exteriores de la vivienda,"Materiales de deshecho (Zinc, tela, carton, latas, plásticos, otros)",Comuna 10,87
+Material predominante de las paredes exteriores de la vivienda,No tiene paredes,Comuna 10,1
+Material predominante de las paredes exteriores de la vivienda,"Tapia pisada, bahareque, adobe",Comuna 10,2975
+Material predominante de los pisos de esta vivienda,"Baldosa, vinilo, tableta, ladrillo, laminado",Comuna 10,31713
+Material predominante de los pisos de esta vivienda,"Cemento, gravilla",Comuna 10,3498
+Material predominante de los pisos de esta vivienda,"Madera burda, tabla, tablon, otro vegetal",Comuna 10,5097
+Material predominante de los pisos de esta vivienda,"Marmol, parque, madera pulida y lacada",Comuna 10,2266
+Material predominante de los pisos de esta vivienda,"Tierra, arena, barro",Comuna 10,583
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Esta vivienda No tiene servicio sanitario?,Comuna 10,515
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro con descarga directa a fuentes de agua (bajamar)?,Comuna 10,187
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado a pozo séptico?,Comuna 10,1130
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado al alcantarillado?,Comuna 10,41073
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro sin conexión?,Comuna 10,132
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Letrina?,Comuna 10,46
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,No informa,Comuna 10,136
+Tipo vivienda,Apartamento,Comuna 10,20614
+Tipo vivienda,Casa,Comuna 10,22001
+Tipo vivienda,"Otro (Contenedor, carpa, embarcación, vagon, cueva, refugio natural, etc",Comuna 10,3
+Tipo vivienda,Tipo cuarto,Comuna 10,437
+Tipo vivienda,Vivienda tradicional Indígena,Comuna 10,164
+Tipo vivienda,"Vivienda tradicional Étnica (Afrocolombiana, Isleña, Rrom)",Comuna 10,0
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",No,Comuna 11,32576
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",Sí,Comuna 11,2971
+Fuente para preparar los alimentos,Acueducto público?,Comuna 11,32951
+Fuente para preparar los alimentos,Acueducto veredal?,Comuna 11,481
+Fuente para preparar los alimentos,Agua embotellada o en bolsa?,Comuna 11,70
+Fuente para preparar los alimentos,Agua lluvia?,Comuna 11,360
+Fuente para preparar los alimentos,Aguatero?,Comuna 11,12
+Fuente para preparar los alimentos,Carrotanque?,Comuna 11,108
+Fuente para preparar los alimentos,No informa,Comuna 11,124
+Fuente para preparar los alimentos,Pila pública?,Comuna 11,12
+Fuente para preparar los alimentos,Pozo con bomba?,Comuna 11,156
+Fuente para preparar los alimentos,"Pozo sin bomba, aljibe, jaguey o barreno?",Comuna 11,350
+Fuente para preparar los alimentos,Red de distribución comunitaria?,Comuna 11,306
+Fuente para preparar los alimentos,"RÍo, quebrada, manantial, nacimiento?",Comuna 11,380
+Lugar donde preparan los alimentos,En un cuarto usado solo para cocinar?,Comuna 11,33277
+Lugar donde preparan los alimentos,En un cuarto usado también para dormir?,Comuna 11,362
+Lugar donde preparan los alimentos,"En un patio, corredor, enramada o al aire libre?",Comuna 11,549
+Lugar donde preparan los alimentos,En una sala-comedor con lavaplatos?,Comuna 11,957
+Lugar donde preparan los alimentos,En una sala-comedor sin lavaplatos?,Comuna 11,125
+Lugar donde preparan los alimentos,No informa,Comuna 11,40
+Lugar donde preparan los alimentos,No preparan alimentos en la vivienda?,Comuna 11,237
+¿En general considera que la calidad de la prestación del servicio de salud reci,Bueno,Comuna 11,1901
+¿En general considera que la calidad de la prestación del servicio de salud reci,Malo,Comuna 11,493
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy Malo,Comuna 11,264
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy bueno,Comuna 11,533
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No,Comuna 11,25089
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No informa,Comuna 11,240
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",Sí,Comuna 11,8352
+Ha tenido algún hijo(a) nacido vivo(a),No,Comuna 11,5600
+Ha tenido algún hijo(a) nacido vivo(a),No informa,Comuna 11,233
+Ha tenido algún hijo(a) nacido vivo(a),Sí,Comuna 11,10935
+¿Lo atendieron?,No,Comuna 11,108
+¿Lo atendieron?,No informa,Comuna 11,0
+¿Lo atendieron?,Sí,Comuna 11,3191
+¿Donde nacio?,En este mpio,Comuna 11,23360
+¿Donde nacio?,En otro mpio Colombiano,Comuna 11,11539
+¿Donde nacio?,En otro país,Comuna 11,433
+¿Donde nacio?,No Informa,Comuna 11,215
+¿En donde vivía hace 12 meses ?,En este mpio,Comuna 11,34303
+¿En donde vivía hace 12 meses ?,En otro mpio colombiano,Comuna 11,469
+¿En donde vivía hace 12 meses ?,En otro país,Comuna 11,217
+¿En donde vivía hace 12 meses ?,No Informa,Comuna 11,226
+¿En donde vivía hace 12 meses ?,No había nacido,Comuna 11,332
+¿En donde vivía hace 5 años ?,En este mpio,Comuna 11,31198
+¿En donde vivía hace 5 años ?,En otro mpio Colombiano,Comuna 11,1815
+¿En donde vivía hace 5 años ?,En otro país,Comuna 11,443
+¿En donde vivía hace 5 años ?,No Informa,Comuna 11,301
+¿En donde vivía hace 5 años ?,No había nacido,Comuna 11,1790
+¿Sabe leer y escribir?,No,Comuna 11,1353
+¿Sabe leer y escribir?,No informa,Comuna 11,238
+¿Sabe leer y escribir?,Sí,Comuna 11,32090
+¿Cuantos años cumplidos tiene?,de 00 A 04 Años,Comuna 11,1866
+¿Cuantos años cumplidos tiene?,de 05 A 09 Años,Comuna 11,2097
+¿Cuantos años cumplidos tiene?,de 10 A 14 Años,Comuna 11,2431
+¿Cuantos años cumplidos tiene?,de 100 y más Años,Comuna 11,8
+¿Cuantos años cumplidos tiene?,de 15 A 19 Años,Comuna 11,2791
+¿Cuantos años cumplidos tiene?,de 20 A 24 Años,Comuna 11,3083
+¿Cuantos años cumplidos tiene?,de 25 A 29 Años,Comuna 11,2905
+¿Cuantos años cumplidos tiene?,de 30 A 34 Años,Comuna 11,2603
+¿Cuantos años cumplidos tiene?,de 35 A 39 Años,Comuna 11,2575
+¿Cuantos años cumplidos tiene?,de 40 A 44 Años,Comuna 11,2181
+¿Cuantos años cumplidos tiene?,de 45 A 49 Años,Comuna 11,2227
+¿Cuantos años cumplidos tiene?,de 50 A 54 Años,Comuna 11,2365
+¿Cuantos años cumplidos tiene?,de 55 A 59 Años,Comuna 11,2334
+¿Cuantos años cumplidos tiene?,de 60 A 64 Años,Comuna 11,1969
+¿Cuantos años cumplidos tiene?,de 65 A 69 Años,Comuna 11,1486
+¿Cuantos años cumplidos tiene?,de 70 A 74 Años,Comuna 11,1069
+¿Cuantos años cumplidos tiene?,de 75 A 79 Años,Comuna 11,670
+¿Cuantos años cumplidos tiene?,de 80 A 84 Años,Comuna 11,488
+¿Cuantos años cumplidos tiene?,de 85 A 89 Años,Comuna 11,269
+¿Cuantos años cumplidos tiene?,de 90 A 94 Años,Comuna 11,112
+¿Cuantos años cumplidos tiene?,de 95 A 99 Años,Comuna 11,18
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No,Comuna 11,30933
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No informa,Comuna 11,215
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",Sí,Comuna 11,4399
+"Actualmente, ¿Su estado civil es?",Casado(a)?,Comuna 11,6846
+"Actualmente, ¿Su estado civil es?",Divorciado(a)?,Comuna 11,361
+"Actualmente, ¿Su estado civil es?",No Informa,Comuna 11,200
+"Actualmente, ¿Su estado civil es?",Separado(a) de matrimonio?,Comuna 11,1204
+"Actualmente, ¿Su estado civil es?",Separado(a) de unión libre?,Comuna 11,1408
+"Actualmente, ¿Su estado civil es?","Soltero(a)?(Nunca se ha casado, ni ha vivido en unión libre)",Comuna 11,13177
+"Actualmente, ¿Su estado civil es?",Unión libre?,Comuna 11,6750
+"Actualmente, ¿Su estado civil es?",Viudo(a)?,Comuna 11,1638
+¿Cuál es el nivel educativo más alto alcanzado?,Básica primaria,Comuna 11,9012
+¿Cuál es el nivel educativo más alto alcanzado?,Básica secundaria,Comuna 11,5997
+Material predominante de los pisos de esta vivienda,Alfombra,Comuna 11,61
+¿Cuál es el nivel educativo más alto alcanzado?,"Especialización, maestría, doctorado",Comuna 11,555
+¿Cuál es el nivel educativo más alto alcanzado?,Media academica o clasica,Comuna 11,8927
+¿Cuál es el nivel educativo más alto alcanzado?,Media tecnica,Comuna 11,364
+¿Cuál es el nivel educativo más alto alcanzado?,Ninguno,Comuna 11,873
+¿Cuál es el nivel educativo más alto alcanzado?,No informa,Comuna 11,324
+¿Cuál es el nivel educativo más alto alcanzado?,Normalista,Comuna 11,99
+¿Cuál es el nivel educativo más alto alcanzado?,Preescolar,Comuna 11,687
+¿Cuál es el nivel educativo más alto alcanzado?,Técnica profesional o Tecnológica,Comuna 11,3460
+¿Cuál es el nivel educativo más alto alcanzado?,Universitario,Comuna 11,3383
+Parentesco con el jefe del hogar,"Hijo(a), Hijastro(a)",Comuna 11,12024
+Parentesco con el jefe del hogar,Jefe(a) del hogar,Comuna 11,11858
+Parentesco con el jefe del hogar,Otros NO parientes,Comuna 11,454
+Parentesco con el jefe del hogar,Otros Parientes,Comuna 11,5292
+Parentesco con el jefe del hogar,"Pareja (Conyuge, compañero(a), esposo(a))",Comuna 11,5919
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a la entidad de seguridad social en salud de la cual es filiado(a)?,Comuna 11,3299
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a otro médico de un grupo étnico? (curandero, yerbatero, etc.)",Comuna 11,1
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un boticario, farmacéuta, droguista?",Comuna 11,126
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un médico particular? (general, especialista, odontólogo, terapeuta u otro)",Comuna 11,230
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a una autoridad indígena espiritual?,Comuna 11,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Asistió a terapias alternativas? (acupuntura, esencias florales, musicoterapias, homeópata, etc.)",Comuna 11,10
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No Informa,Comuna 11,0
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No hizo nada,Comuna 11,142
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Se autorrecetó,Comuna 11,182
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Usó remedios caseros?,Comuna 11,409
+¿Cual es el sexo de...?,Hombre,Comuna 11,16886
+¿Cual es el sexo de...?,Mujer,Comuna 11,18661
+¿Actividad durante la semana pasada . . . :?,Busco trabajo?,Comuna 11,1568
+¿Actividad durante la semana pasada . . . :?,Estudió?,Comuna 11,5381
+¿Actividad durante la semana pasada . . . :?,Estuvo en otra situación?,Comuna 11,1531
+¿Actividad durante la semana pasada . . . :?,Está incapacitado(a) permanentemente para trabajar?,Comuna 11,324
+¿Actividad durante la semana pasada . . . :?,No Informa,Comuna 11,393
+¿Actividad durante la semana pasada . . . :?,"No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos?",Comuna 11,901
+¿Actividad durante la semana pasada . . . :?,Realizó oficios del hogar?,Comuna 11,5826
+¿Actividad durante la semana pasada . . . :?,Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran?,Comuna 11,123
+¿Actividad durante la semana pasada . . . :?,Trabajó por lo menos una hora en una actividad que le generó algún ingreso?,Comuna 11,13487
+¿Actividad durante la semana pasada . . . :?,"Vivió de jubilación, pensión o renta?",Comuna 11,2050
+Uso de la Unidad (Espacio independiente y separado),Lugar Especial de Alojamiento - LEA,Comuna 11,0
+Uso de la Unidad (Espacio independiente y separado),Mixto (Espacio independiente y separado que combina vivienda con otro uso no residencial),Comuna 11,471
+Uso de la Unidad (Espacio independiente y separado),Vivienda,Comuna 11,35076
+Estrato de esta vivienda,Estrato 1,Comuna 11,9131
+Estrato de esta vivienda,Estrato 2,Comuna 11,8900
+Estrato de esta vivienda,Estrato 3,Comuna 11,15774
+Estrato de esta vivienda,Estrato 4,Comuna 11,698
+Estrato de esta vivienda,Estrato 5,Comuna 11,136
+Estrato de esta vivienda,Estrato 6,Comuna 11,200
+Estrato de esta vivienda,No sabe el estrato,Comuna 11,18
+Estrato de esta vivienda,Sin estrato,Comuna 11,82
+La vivienda cuenta con servicio de Energía Eléctrica,No,Comuna 11,608
+La vivienda cuenta con servicio de Energía Eléctrica,Si,Comuna 11,34939
+La vivienda cuenta con servicios de Acueducto?,No,Comuna 11,1582
+La vivienda cuenta con servicios de Acueducto?,Si,Comuna 11,33965
+La vivienda cuenta con servicio de Alcantarillado?,No,Comuna 11,2542
+La vivienda cuenta con servicio de Alcantarillado?,Si,Comuna 11,33005
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No,Comuna 11,7906
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No informa,Comuna 11,110
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,Si,Comuna 11,27531
+¿Cuántas veces por semana?,1 vez,Comuna 11,487
+¿Cuántas veces por semana?,2 veces,Comuna 11,28019
+¿Cuántas veces por semana?,3 veces,Comuna 11,4671
+¿Cuántas veces por semana?,4 veces,Comuna 11,128
+¿Cuántas veces por semana?,5 veces,Comuna 11,190
+¿Cuántas veces por semana?,6 veces,Comuna 11,10
+¿Cuántas veces por semana?,7 veces,Comuna 11,49
+¿Cuántas veces por semana?,Mayor periodicidad,Comuna 11,16
+¿Cuántas veces por semana?,No sabe,Comuna 11,66
+La vivienda cuenta con servicio de Recolección de basuras?,No,Comuna 11,1911
+La vivienda cuenta con servicio de Recolección de basuras?,Si,Comuna 11,33636
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No,Comuna 11,13746
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No informa,Comuna 11,110
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,Si,Comuna 11,21691
+Condición de ocupación de la Vivienda,Ocupada con personas presentes,Comuna 11,35547
+Material predominante de las paredes exteriores de la vivienda,"Bloque, ladrillo, piedra, madera pulida",Comuna 11,27433
+Material predominante de las paredes exteriores de la vivienda,"Caña, esterilla, otros vegetales",Comuna 11,442
+Material predominante de las paredes exteriores de la vivienda,Concreto vaciado,Comuna 11,2679
+Material predominante de las paredes exteriores de la vivienda,Guadua,Comuna 11,196
+Material predominante de las paredes exteriores de la vivienda,"Madera burda, tabla, tablon",Comuna 11,900
+Material predominante de las paredes exteriores de la vivienda,Material prefabricado,Comuna 11,277
+Material predominante de las paredes exteriores de la vivienda,"Materiales de deshecho (Zinc, tela, carton, latas, plásticos, otros)",Comuna 11,134
+Material predominante de las paredes exteriores de la vivienda,No tiene paredes,Comuna 11,0
+Material predominante de las paredes exteriores de la vivienda,"Tapia pisada, bahareque, adobe",Comuna 11,3486
+Material predominante de los pisos de esta vivienda,"Baldosa, vinilo, tableta, ladrillo, laminado",Comuna 11,24340
+Material predominante de los pisos de esta vivienda,"Cemento, gravilla",Comuna 11,3539
+Material predominante de los pisos de esta vivienda,"Madera burda, tabla, tablon, otro vegetal",Comuna 11,5108
+Material predominante de los pisos de esta vivienda,"Marmol, parque, madera pulida y lacada",Comuna 11,1506
+Material predominante de los pisos de esta vivienda,"Tierra, arena, barro",Comuna 11,993
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Esta vivienda No tiene servicio sanitario?,Comuna 11,720
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro con descarga directa a fuentes de agua (bajamar)?,Comuna 11,269
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado a pozo séptico?,Comuna 11,1521
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado al alcantarillado?,Comuna 11,32774
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro sin conexión?,Comuna 11,94
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Letrina?,Comuna 11,59
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,No informa,Comuna 11,110
+Tipo vivienda,Apartamento,Comuna 11,14467
+Tipo vivienda,Casa,Comuna 11,20116
+Tipo vivienda,"Otro (Contenedor, carpa, embarcación, vagon, cueva, refugio natural, etc",Comuna 11,11
+Tipo vivienda,Tipo cuarto,Comuna 11,675
+Tipo vivienda,Vivienda tradicional Indígena,Comuna 11,258
+Tipo vivienda,"Vivienda tradicional Étnica (Afrocolombiana, Isleña, Rrom)",Comuna 11,20
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",No,Comuna 12,35544
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",Sí,Comuna 12,3209
+Fuente para preparar los alimentos,Acueducto público?,Comuna 12,35301
+Fuente para preparar los alimentos,Acueducto veredal?,Comuna 12,625
+Fuente para preparar los alimentos,Agua embotellada o en bolsa?,Comuna 12,87
+Fuente para preparar los alimentos,Agua lluvia?,Comuna 12,569
+Fuente para preparar los alimentos,Aguatero?,Comuna 12,64
+Fuente para preparar los alimentos,Carrotanque?,Comuna 12,75
+Fuente para preparar los alimentos,No informa,Comuna 12,157
+Fuente para preparar los alimentos,Pila pública?,Comuna 12,11
+Fuente para preparar los alimentos,Pozo con bomba?,Comuna 12,288
+Fuente para preparar los alimentos,"Pozo sin bomba, aljibe, jaguey o barreno?",Comuna 12,421
+Fuente para preparar los alimentos,Red de distribución comunitaria?,Comuna 12,373
+Fuente para preparar los alimentos,"RÍo, quebrada, manantial, nacimiento?",Comuna 12,596
+Lugar donde preparan los alimentos,En un cuarto usado solo para cocinar?,Comuna 12,35832
+Lugar donde preparan los alimentos,En un cuarto usado también para dormir?,Comuna 12,354
+Lugar donde preparan los alimentos,"En un patio, corredor, enramada o al aire libre?",Comuna 12,948
+Lugar donde preparan los alimentos,En una sala-comedor con lavaplatos?,Comuna 12,1209
+Lugar donde preparan los alimentos,En una sala-comedor sin lavaplatos?,Comuna 12,171
+Lugar donde preparan los alimentos,No informa,Comuna 12,53
+Lugar donde preparan los alimentos,No preparan alimentos en la vivienda?,Comuna 12,186
+¿En general considera que la calidad de la prestación del servicio de salud reci,Bueno,Comuna 12,2308
+¿En general considera que la calidad de la prestación del servicio de salud reci,Malo,Comuna 12,559
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy Malo,Comuna 12,299
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy bueno,Comuna 12,555
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No,Comuna 12,27077
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No informa,Comuna 12,258
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",Sí,Comuna 12,9299
+Ha tenido algún hijo(a) nacido vivo(a),No,Comuna 12,5826
+Ha tenido algún hijo(a) nacido vivo(a),No informa,Comuna 12,244
+Ha tenido algún hijo(a) nacido vivo(a),Sí,Comuna 12,11986
+¿Lo atendieron?,No,Comuna 12,125
+¿Lo atendieron?,No informa,Comuna 12,0
+¿Lo atendieron?,Sí,Comuna 12,3721
+¿Donde nacio?,En este mpio,Comuna 12,25339
+¿Donde nacio?,En otro mpio Colombiano,Comuna 12,12691
+¿Donde nacio?,En otro país,Comuna 12,487
+¿Donde nacio?,No Informa,Comuna 12,236
+¿En donde vivía hace 12 meses ?,En este mpio,Comuna 12,37413
+¿En donde vivía hace 12 meses ?,En otro mpio colombiano,Comuna 12,461
+¿En donde vivía hace 12 meses ?,En otro país,Comuna 12,252
+¿En donde vivía hace 12 meses ?,No Informa,Comuna 12,247
+¿En donde vivía hace 12 meses ?,No había nacido,Comuna 12,380
+¿En donde vivía hace 5 años ?,En este mpio,Comuna 12,34231
+¿En donde vivía hace 5 años ?,En otro mpio Colombiano,Comuna 12,1625
+¿En donde vivía hace 5 años ?,En otro país,Comuna 12,528
+¿En donde vivía hace 5 años ?,No Informa,Comuna 12,318
+¿En donde vivía hace 5 años ?,No había nacido,Comuna 12,2051
+¿Sabe leer y escribir?,No,Comuna 12,1845
+¿Sabe leer y escribir?,No informa,Comuna 12,257
+¿Sabe leer y escribir?,Sí,Comuna 12,34532
+¿Cuantos años cumplidos tiene?,de 00 A 04 Años,Comuna 12,2119
+¿Cuantos años cumplidos tiene?,de 05 A 09 Años,Comuna 12,2465
+¿Cuantos años cumplidos tiene?,de 10 A 14 Años,Comuna 12,2814
+¿Cuantos años cumplidos tiene?,de 100 y más Años,Comuna 12,8
+¿Cuantos años cumplidos tiene?,de 15 A 19 Años,Comuna 12,3107
+¿Cuantos años cumplidos tiene?,de 20 A 24 Años,Comuna 12,3457
+¿Cuantos años cumplidos tiene?,de 25 A 29 Años,Comuna 12,3192
+¿Cuantos años cumplidos tiene?,de 30 A 34 Años,Comuna 12,2850
+¿Cuantos años cumplidos tiene?,de 35 A 39 Años,Comuna 12,2920
+¿Cuantos años cumplidos tiene?,de 40 A 44 Años,Comuna 12,2555
+¿Cuantos años cumplidos tiene?,de 45 A 49 Años,Comuna 12,2500
+¿Cuantos años cumplidos tiene?,de 50 A 54 Años,Comuna 12,2420
+¿Cuantos años cumplidos tiene?,de 55 A 59 Años,Comuna 12,2349
+¿Cuantos años cumplidos tiene?,de 60 A 64 Años,Comuna 12,1910
+¿Cuantos años cumplidos tiene?,de 65 A 69 Años,Comuna 12,1484
+¿Cuantos años cumplidos tiene?,de 70 A 74 Años,Comuna 12,1076
+¿Cuantos años cumplidos tiene?,de 75 A 79 Años,Comuna 12,728
+¿Cuantos años cumplidos tiene?,de 80 A 84 Años,Comuna 12,434
+¿Cuantos años cumplidos tiene?,de 85 A 89 Años,Comuna 12,242
+¿Cuantos años cumplidos tiene?,de 90 A 94 Años,Comuna 12,107
+¿Cuantos años cumplidos tiene?,de 95 A 99 Años,Comuna 12,16
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No,Comuna 12,33633
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No informa,Comuna 12,235
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",Sí,Comuna 12,4885
+"Actualmente, ¿Su estado civil es?",Casado(a)?,Comuna 12,7899
+"Actualmente, ¿Su estado civil es?",Divorciado(a)?,Comuna 12,297
+"Actualmente, ¿Su estado civil es?",No Informa,Comuna 12,220
+"Actualmente, ¿Su estado civil es?",Separado(a) de matrimonio?,Comuna 12,1104
+"Actualmente, ¿Su estado civil es?",Separado(a) de unión libre?,Comuna 12,1517
+"Actualmente, ¿Su estado civil es?","Soltero(a)?(Nunca se ha casado, ni ha vivido en unión libre)",Comuna 12,13863
+"Actualmente, ¿Su estado civil es?",Unión libre?,Comuna 12,7617
+"Actualmente, ¿Su estado civil es?",Viudo(a)?,Comuna 12,1652
+¿Cuál es el nivel educativo más alto alcanzado?,Básica primaria,Comuna 12,10510
+¿Cuál es el nivel educativo más alto alcanzado?,Básica secundaria,Comuna 12,6381
+Material predominante de los pisos de esta vivienda,Alfombra,Comuna 12,107
+¿Cuál es el nivel educativo más alto alcanzado?,"Especialización, maestría, doctorado",Comuna 12,706
+¿Cuál es el nivel educativo más alto alcanzado?,Media academica o clasica,Comuna 12,9390
+¿Cuál es el nivel educativo más alto alcanzado?,Media tecnica,Comuna 12,380
+¿Cuál es el nivel educativo más alto alcanzado?,Ninguno,Comuna 12,1255
+¿Cuál es el nivel educativo más alto alcanzado?,No informa,Comuna 12,311
+¿Cuál es el nivel educativo más alto alcanzado?,Normalista,Comuna 12,93
+¿Cuál es el nivel educativo más alto alcanzado?,Preescolar,Comuna 12,769
+¿Cuál es el nivel educativo más alto alcanzado?,Técnica profesional o Tecnológica,Comuna 12,3338
+¿Cuál es el nivel educativo más alto alcanzado?,Universitario,Comuna 12,3501
+Parentesco con el jefe del hogar,"Hijo(a), Hijastro(a)",Comuna 12,13714
+Parentesco con el jefe del hogar,Jefe(a) del hogar,Comuna 12,12368
+Parentesco con el jefe del hogar,Otros NO parientes,Comuna 12,456
+Parentesco con el jefe del hogar,Otros Parientes,Comuna 12,5448
+Parentesco con el jefe del hogar,"Pareja (Conyuge, compañero(a), esposo(a))",Comuna 12,6767
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a la entidad de seguridad social en salud de la cual es filiado(a)?,Comuna 12,3846
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a otro médico de un grupo étnico? (curandero, yerbatero, etc.)",Comuna 12,1
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un boticario, farmacéuta, droguista?",Comuna 12,110
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un médico particular? (general, especialista, odontólogo, terapeuta u otro)",Comuna 12,252
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a una autoridad indígena espiritual?,Comuna 12,1
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Asistió a terapias alternativas? (acupuntura, esencias florales, musicoterapias, homeópata, etc.)",Comuna 12,3
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No Informa,Comuna 12,3
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No hizo nada,Comuna 12,128
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Se autorrecetó,Comuna 12,180
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Usó remedios caseros?,Comuna 12,361
+¿Cual es el sexo de...?,Hombre,Comuna 12,18421
+¿Cual es el sexo de...?,Mujer,Comuna 12,20332
+¿Actividad durante la semana pasada . . . :?,Busco trabajo?,Comuna 12,2025
+¿Actividad durante la semana pasada . . . :?,Estudió?,Comuna 12,5881
+¿Actividad durante la semana pasada . . . :?,Estuvo en otra situación?,Comuna 12,1506
+¿Actividad durante la semana pasada . . . :?,Está incapacitado(a) permanentemente para trabajar?,Comuna 12,448
+¿Actividad durante la semana pasada . . . :?,No Informa,Comuna 12,459
+¿Actividad durante la semana pasada . . . :?,"No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos?",Comuna 12,847
+¿Actividad durante la semana pasada . . . :?,Realizó oficios del hogar?,Comuna 12,6305
+¿Actividad durante la semana pasada . . . :?,Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran?,Comuna 12,214
+¿Actividad durante la semana pasada . . . :?,Trabajó por lo menos una hora en una actividad que le generó algún ingreso?,Comuna 12,14604
+¿Actividad durante la semana pasada . . . :?,"Vivió de jubilación, pensión o renta?",Comuna 12,1880
+Uso de la Unidad (Espacio independiente y separado),Lugar Especial de Alojamiento - LEA,Comuna 12,0
+Uso de la Unidad (Espacio independiente y separado),Mixto (Espacio independiente y separado que combina vivienda con otro uso no residencial),Comuna 12,745
+Uso de la Unidad (Espacio independiente y separado),Vivienda,Comuna 12,38008
+Estrato de esta vivienda,Estrato 1,Comuna 12,6955
+Estrato de esta vivienda,Estrato 2,Comuna 12,21403
+Estrato de esta vivienda,Estrato 3,Comuna 12,8889
+Estrato de esta vivienda,Estrato 4,Comuna 12,318
+Estrato de esta vivienda,Estrato 5,Comuna 12,186
+Estrato de esta vivienda,Estrato 6,Comuna 12,149
+Estrato de esta vivienda,No sabe el estrato,Comuna 12,8
+Estrato de esta vivienda,Sin estrato,Comuna 12,128
+La vivienda cuenta con servicio de Energía Eléctrica,No,Comuna 12,717
+La vivienda cuenta con servicio de Energía Eléctrica,Si,Comuna 12,38036
+La vivienda cuenta con servicios de Acueducto?,No,Comuna 12,2333
+La vivienda cuenta con servicios de Acueducto?,Si,Comuna 12,36420
+La vivienda cuenta con servicio de Alcantarillado?,No,Comuna 12,3536
+La vivienda cuenta con servicio de Alcantarillado?,Si,Comuna 12,35217
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No,Comuna 12,5302
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No informa,Comuna 12,132
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,Si,Comuna 12,33319
+¿Cuántas veces por semana?,1 vez,Comuna 12,482
+¿Cuántas veces por semana?,2 veces,Comuna 12,30177
+¿Cuántas veces por semana?,3 veces,Comuna 12,5052
+¿Cuántas veces por semana?,4 veces,Comuna 12,70
+¿Cuántas veces por semana?,5 veces,Comuna 12,9
+¿Cuántas veces por semana?,6 veces,Comuna 12,64
+¿Cuántas veces por semana?,7 veces,Comuna 12,13
+¿Cuántas veces por semana?,Mayor periodicidad,Comuna 12,2
+¿Cuántas veces por semana?,No sabe,Comuna 12,19
+La vivienda cuenta con servicio de Recolección de basuras?,No,Comuna 12,2865
+La vivienda cuenta con servicio de Recolección de basuras?,Si,Comuna 12,35888
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No,Comuna 12,14885
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No informa,Comuna 12,132
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,Si,Comuna 12,23736
+Condición de ocupación de la Vivienda,Ocupada con personas presentes,Comuna 12,38753
+Material predominante de las paredes exteriores de la vivienda,"Bloque, ladrillo, piedra, madera pulida",Comuna 12,33267
+Material predominante de las paredes exteriores de la vivienda,"Caña, esterilla, otros vegetales",Comuna 12,279
+Material predominante de las paredes exteriores de la vivienda,Concreto vaciado,Comuna 12,3051
+Material predominante de las paredes exteriores de la vivienda,Guadua,Comuna 12,195
+Material predominante de las paredes exteriores de la vivienda,"Madera burda, tabla, tablon",Comuna 12,958
+Material predominante de las paredes exteriores de la vivienda,Material prefabricado,Comuna 12,178
+Material predominante de las paredes exteriores de la vivienda,"Materiales de deshecho (Zinc, tela, carton, latas, plásticos, otros)",Comuna 12,125
+Material predominante de las paredes exteriores de la vivienda,No tiene paredes,Comuna 12,2
+Material predominante de las paredes exteriores de la vivienda,"Tapia pisada, bahareque, adobe",Comuna 12,698
+Material predominante de los pisos de esta vivienda,"Baldosa, vinilo, tableta, ladrillo, laminado",Comuna 12,27842
+Material predominante de los pisos de esta vivienda,"Cemento, gravilla",Comuna 12,6443
+Material predominante de los pisos de esta vivienda,"Madera burda, tabla, tablon, otro vegetal",Comuna 12,1727
+Material predominante de los pisos de esta vivienda,"Marmol, parque, madera pulida y lacada",Comuna 12,1138
+Material predominante de los pisos de esta vivienda,"Tierra, arena, barro",Comuna 12,1496
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Esta vivienda No tiene servicio sanitario?,Comuna 12,877
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro con descarga directa a fuentes de agua (bajamar)?,Comuna 12,202
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado a pozo séptico?,Comuna 12,2226
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado al alcantarillado?,Comuna 12,34972
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro sin conexión?,Comuna 12,217
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Letrina?,Comuna 12,134
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,No informa,Comuna 12,125
+Tipo vivienda,Apartamento,Comuna 12,9578
+Tipo vivienda,Casa,Comuna 12,28413
+Tipo vivienda,"Otro (Contenedor, carpa, embarcación, vagon, cueva, refugio natural, etc",Comuna 12,5
+Tipo vivienda,Tipo cuarto,Comuna 12,463
+Tipo vivienda,Vivienda tradicional Indígena,Comuna 12,281
+Tipo vivienda,"Vivienda tradicional Étnica (Afrocolombiana, Isleña, Rrom)",Comuna 12,13
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",No,Zona Rural,21629
+"¿En su vida diaria tiene dificultades para: Oir,hablar,ver,moverse,caminar, agar",Sí,Zona Rural,2527
+Fuente para preparar los alimentos,Acueducto público?,Zona Rural,14013
+Fuente para preparar los alimentos,Acueducto veredal?,Zona Rural,2543
+Fuente para preparar los alimentos,Agua embotellada o en bolsa?,Zona Rural,43
+Fuente para preparar los alimentos,Agua lluvia?,Zona Rural,214
+Fuente para preparar los alimentos,Aguatero?,Zona Rural,34
+Fuente para preparar los alimentos,Carrotanque?,Zona Rural,0
+Fuente para preparar los alimentos,No informa,Zona Rural,78
+Fuente para preparar los alimentos,Pila pública?,Zona Rural,8
+Fuente para preparar los alimentos,Pozo con bomba?,Zona Rural,492
+Fuente para preparar los alimentos,"Pozo sin bomba, aljibe, jaguey o barreno?",Zona Rural,379
+Fuente para preparar los alimentos,Red de distribución comunitaria?,Zona Rural,1260
+Fuente para preparar los alimentos,"RÍo, quebrada, manantial, nacimiento?",Zona Rural,4882
+Lugar donde preparan los alimentos,En un cuarto usado solo para cocinar?,Zona Rural,22123
+Lugar donde preparan los alimentos,En un cuarto usado también para dormir?,Zona Rural,373
+Lugar donde preparan los alimentos,"En un patio, corredor, enramada o al aire libre?",Zona Rural,688
+Lugar donde preparan los alimentos,En una sala-comedor con lavaplatos?,Zona Rural,624
+Lugar donde preparan los alimentos,En una sala-comedor sin lavaplatos?,Zona Rural,82
+Lugar donde preparan los alimentos,No informa,Zona Rural,56
+Lugar donde preparan los alimentos,No preparan alimentos en la vivienda?,Zona Rural,210
+¿En general considera que la calidad de la prestación del servicio de salud reci,Bueno,Zona Rural,2078
+¿En general considera que la calidad de la prestación del servicio de salud reci,Malo,Zona Rural,457
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy Malo,Zona Rural,119
+¿En general considera que la calidad de la prestación del servicio de salud reci,Muy bueno,Zona Rural,777
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No,Zona Rural,17484
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",No informa,Zona Rural,204
+"¿Actualmente asiste a algún preescolar, escuela, colegio o universidad, de forma",Sí,Zona Rural,5128
+Ha tenido algún hijo(a) nacido vivo(a),No,Zona Rural,3152
+Ha tenido algún hijo(a) nacido vivo(a),No informa,Zona Rural,178
+Ha tenido algún hijo(a) nacido vivo(a),Sí,Zona Rural,6873
+¿Lo atendieron?,No,Zona Rural,93
+¿Lo atendieron?,No informa,Zona Rural,0
+¿Lo atendieron?,Sí,Zona Rural,3431
+¿Donde nacio?,En este mpio,Zona Rural,13828
+¿Donde nacio?,En otro mpio Colombiano,Zona Rural,10811
+¿Donde nacio?,En otro país,Zona Rural,191
+¿Donde nacio?,No Informa,Zona Rural,174
+¿En donde vivía hace 12 meses ?,En este mpio,Zona Rural,22465
+¿En donde vivía hace 12 meses ?,En otro mpio colombiano,Zona Rural,1163
+¿En donde vivía hace 12 meses ?,En otro país,Zona Rural,105
+¿En donde vivía hace 12 meses ?,No Informa,Zona Rural,182
+¿En donde vivía hace 12 meses ?,No había nacido,Zona Rural,241
+¿En donde vivía hace 5 años ?,En este mpio,Zona Rural,19404
+¿En donde vivía hace 5 años ?,En otro mpio Colombiano,Zona Rural,3007
+¿En donde vivía hace 5 años ?,En otro país,Zona Rural,218
+¿En donde vivía hace 5 años ?,No Informa,Zona Rural,221
+¿En donde vivía hace 5 años ?,No había nacido,Zona Rural,1306
+¿Sabe leer y escribir?,No,Zona Rural,1936
+¿Sabe leer y escribir?,No informa,Zona Rural,283
+¿Sabe leer y escribir?,Sí,Zona Rural,21432
+¿Cuantos años cumplidos tiene?,de 00 A 04 Años,Zona Rural,1353
+¿Cuantos años cumplidos tiene?,de 05 A 09 Años,Zona Rural,1498
+¿Cuantos años cumplidos tiene?,de 10 A 14 Años,Zona Rural,1946
+¿Cuantos años cumplidos tiene?,de 100 y más Años,Zona Rural,8
+¿Cuantos años cumplidos tiene?,de 15 A 19 Años,Zona Rural,2280
+¿Cuantos años cumplidos tiene?,de 20 A 24 Años,Zona Rural,1912
+¿Cuantos años cumplidos tiene?,de 25 A 29 Años,Zona Rural,1806
+¿Cuantos años cumplidos tiene?,de 30 A 34 Años,Zona Rural,1576
+¿Cuantos años cumplidos tiene?,de 35 A 39 Años,Zona Rural,1759
+¿Cuantos años cumplidos tiene?,de 40 A 44 Años,Zona Rural,1546
+¿Cuantos años cumplidos tiene?,de 45 A 49 Años,Zona Rural,1723
+¿Cuantos años cumplidos tiene?,de 50 A 54 Años,Zona Rural,1668
+¿Cuantos años cumplidos tiene?,de 55 A 59 Años,Zona Rural,1599
+¿Cuantos años cumplidos tiene?,de 60 A 64 Años,Zona Rural,1360
+¿Cuantos años cumplidos tiene?,de 65 A 69 Años,Zona Rural,1052
+¿Cuantos años cumplidos tiene?,de 70 A 74 Años,Zona Rural,774
+¿Cuantos años cumplidos tiene?,de 75 A 79 Años,Zona Rural,512
+¿Cuantos años cumplidos tiene?,de 80 A 84 Años,Zona Rural,361
+¿Cuantos años cumplidos tiene?,de 85 A 89 Años,Zona Rural,185
+¿Cuantos años cumplidos tiene?,de 90 A 94 Años,Zona Rural,68
+¿Cuantos años cumplidos tiene?,de 95 A 99 Años,Zona Rural,18
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No,Zona Rural,19888
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",No informa,Zona Rural,176
+"¿En los últimos 30 días, tuvo alguna enfermedad, accidente, problema odontológic",Sí,Zona Rural,4092
+"Actualmente, ¿Su estado civil es?",Casado(a)?,Zona Rural,5085
+"Actualmente, ¿Su estado civil es?",Divorciado(a)?,Zona Rural,158
+"Actualmente, ¿Su estado civil es?",No Informa,Zona Rural,185
+"Actualmente, ¿Su estado civil es?",Separado(a) de matrimonio?,Zona Rural,534
+"Actualmente, ¿Su estado civil es?",Separado(a) de unión libre?,Zona Rural,639
+"Actualmente, ¿Su estado civil es?","Soltero(a)?(Nunca se ha casado, ni ha vivido en unión libre)",Zona Rural,8745
+"Actualmente, ¿Su estado civil es?",Unión libre?,Zona Rural,5793
+"Actualmente, ¿Su estado civil es?",Viudo(a)?,Zona Rural,1014
+¿Cuál es el nivel educativo más alto alcanzado?,Básica primaria,Zona Rural,9788
+¿Cuál es el nivel educativo más alto alcanzado?,Básica secundaria,Zona Rural,4386
+Material predominante de los pisos de esta vivienda,Alfombra,Zona Rural,30
+¿Cuál es el nivel educativo más alto alcanzado?,"Especialización, maestría, doctorado",Zona Rural,347
+¿Cuál es el nivel educativo más alto alcanzado?,Media academica o clasica,Zona Rural,4478
+¿Cuál es el nivel educativo más alto alcanzado?,Media tecnica,Zona Rural,195
+¿Cuál es el nivel educativo más alto alcanzado?,Ninguno,Zona Rural,1308
+¿Cuál es el nivel educativo más alto alcanzado?,No informa,Zona Rural,342
+¿Cuál es el nivel educativo más alto alcanzado?,Normalista,Zona Rural,32
+¿Cuál es el nivel educativo más alto alcanzado?,Preescolar,Zona Rural,443
+¿Cuál es el nivel educativo más alto alcanzado?,Técnica profesional o Tecnológica,Zona Rural,1112
+¿Cuál es el nivel educativo más alto alcanzado?,Universitario,Zona Rural,1220
+Parentesco con el jefe del hogar,"Hijo(a), Hijastro(a)",Zona Rural,7999
+Parentesco con el jefe del hogar,Jefe(a) del hogar,Zona Rural,7694
+Parentesco con el jefe del hogar,Otros NO parientes,Zona Rural,676
+Parentesco con el jefe del hogar,Otros Parientes,Zona Rural,3057
+Parentesco con el jefe del hogar,"Pareja (Conyuge, compañero(a), esposo(a))",Zona Rural,4730
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a la entidad de seguridad social en salud de la cual es filiado(a)?,Zona Rural,3524
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a otro médico de un grupo étnico? (curandero, yerbatero, etc.)",Zona Rural,3
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un boticario, farmacéuta, droguista?",Zona Rural,57
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Acudió a un médico particular? (general, especialista, odontólogo, terapeuta u otro)",Zona Rural,158
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Acudió a una autoridad indígena espiritual?,Zona Rural,1
+"Para tratar ese problema de salud, ¿qué hizo principalmente","Asistió a terapias alternativas? (acupuntura, esencias florales, musicoterapias, homeópata, etc.)",Zona Rural,2
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No Informa,Zona Rural,2
+"Para tratar ese problema de salud, ¿qué hizo principalmente",No hizo nada,Zona Rural,61
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Se autorrecetó,Zona Rural,87
+"Para tratar ese problema de salud, ¿qué hizo principalmente",Usó remedios caseros?,Zona Rural,197
+¿Cual es el sexo de...?,Hombre,Zona Rural,13134
+¿Cual es el sexo de...?,Mujer,Zona Rural,11870
+¿Actividad durante la semana pasada . . . :?,Busco trabajo?,Zona Rural,489
+¿Actividad durante la semana pasada . . . :?,Estudió?,Zona Rural,3213
+¿Actividad durante la semana pasada . . . :?,Estuvo en otra situación?,Zona Rural,1040
+¿Actividad durante la semana pasada . . . :?,Está incapacitado(a) permanentemente para trabajar?,Zona Rural,288
+¿Actividad durante la semana pasada . . . :?,No Informa,Zona Rural,275
+¿Actividad durante la semana pasada . . . :?,"No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos?",Zona Rural,632
+¿Actividad durante la semana pasada . . . :?,Realizó oficios del hogar?,Zona Rural,5375
+¿Actividad durante la semana pasada . . . :?,Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran?,Zona Rural,168
+¿Actividad durante la semana pasada . . . :?,Trabajó por lo menos una hora en una actividad que le generó algún ingreso?,Zona Rural,9101
+¿Actividad durante la semana pasada . . . :?,"Vivió de jubilación, pensión o renta?",Zona Rural,742
+Uso de la Unidad (Espacio independiente y separado),Lugar Especial de Alojamiento - LEA,Zona Rural,848
+Uso de la Unidad (Espacio independiente y separado),Mixto (Espacio independiente y separado que combina vivienda con otro uso no residencial),Zona Rural,2638
+Uso de la Unidad (Espacio independiente y separado),Vivienda,Zona Rural,21518
+Estrato de esta vivienda,Estrato 1,Zona Rural,9167
+Estrato de esta vivienda,Estrato 2,Zona Rural,9499
+Estrato de esta vivienda,Estrato 3,Zona Rural,1646
+Estrato de esta vivienda,Estrato 4,Zona Rural,248
+Estrato de esta vivienda,Estrato 5,Zona Rural,123
+Estrato de esta vivienda,Estrato 6,Zona Rural,292
+Estrato de esta vivienda,No sabe el estrato,Zona Rural,2113
+Estrato de esta vivienda,Sin estrato,Zona Rural,226
+La vivienda cuenta con servicio de Energía Eléctrica,No,Zona Rural,842
+La vivienda cuenta con servicio de Energía Eléctrica,Si,Zona Rural,23314
+La vivienda cuenta con servicios de Acueducto?,No,Zona Rural,6337
+La vivienda cuenta con servicios de Acueducto?,Si,Zona Rural,17819
+La vivienda cuenta con servicio de Alcantarillado?,No,Zona Rural,11164
+La vivienda cuenta con servicio de Alcantarillado?,Si,Zona Rural,12992
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No,Zona Rural,18338
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,No informa,Zona Rural,115
+La vivienda cuenta con servicio de Gas Natural conectado a red pública?,Si,Zona Rural,5703
+¿Cuántas veces por semana?,1 vez,Zona Rural,9733
+¿Cuántas veces por semana?,2 veces,Zona Rural,7076
+¿Cuántas veces por semana?,3 veces,Zona Rural,163
+¿Cuántas veces por semana?,4 veces,Zona Rural,6
+¿Cuántas veces por semana?,5 veces,Zona Rural,2
+¿Cuántas veces por semana?,6 veces,Zona Rural,0
+¿Cuántas veces por semana?,7 veces,Zona Rural,0
+¿Cuántas veces por semana?,Mayor periodicidad,Zona Rural,538
+¿Cuántas veces por semana?,No sabe,Zona Rural,30
+La vivienda cuenta con servicio de Recolección de basuras?,No,Zona Rural,6608
+La vivienda cuenta con servicio de Recolección de basuras?,Si,Zona Rural,17548
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No,Zona Rural,19463
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,No informa,Zona Rural,126
+La vivienda cuenta con servicio de internet (Fijo o Movil)?,Si,Zona Rural,4567
+Condición de ocupación de la Vivienda,Ocupada con personas presentes,Zona Rural,24156
+Material predominante de las paredes exteriores de la vivienda,"Bloque, ladrillo, piedra, madera pulida",Zona Rural,15718
+Material predominante de las paredes exteriores de la vivienda,"Caña, esterilla, otros vegetales",Zona Rural,1682
+Material predominante de las paredes exteriores de la vivienda,Concreto vaciado,Zona Rural,908
+Material predominante de las paredes exteriores de la vivienda,Guadua,Zona Rural,288
+Material predominante de las paredes exteriores de la vivienda,"Madera burda, tabla, tablon",Zona Rural,1287
+Material predominante de las paredes exteriores de la vivienda,Material prefabricado,Zona Rural,854
+Material predominante de las paredes exteriores de la vivienda,"Materiales de deshecho (Zinc, tela, carton, latas, plásticos, otros)",Zona Rural,147
+Material predominante de las paredes exteriores de la vivienda,No tiene paredes,Zona Rural,10
+Material predominante de las paredes exteriores de la vivienda,"Tapia pisada, bahareque, adobe",Zona Rural,3262
+Material predominante de los pisos de esta vivienda,"Baldosa, vinilo, tableta, ladrillo, laminado",Zona Rural,10277
+Material predominante de los pisos de esta vivienda,"Cemento, gravilla",Zona Rural,8802
+Material predominante de los pisos de esta vivienda,"Madera burda, tabla, tablon, otro vegetal",Zona Rural,3147
+Material predominante de los pisos de esta vivienda,"Marmol, parque, madera pulida y lacada",Zona Rural,510
+Material predominante de los pisos de esta vivienda,"Tierra, arena, barro",Zona Rural,1390
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Esta vivienda No tiene servicio sanitario?,Zona Rural,800
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro con descarga directa a fuentes de agua (bajamar)?,Zona Rural,646
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado a pozo séptico?,Zona Rural,11334
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro conectado al alcantarillado?,Zona Rural,10645
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Inodoro sin conexión?,Zona Rural,531
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,Letrina?,Zona Rural,113
+¿Qué tipo de servicio sanitario (inodoro) tiene esta vivienda:,No informa,Zona Rural,87
+Tipo vivienda,Apartamento,Zona Rural,1195
+Tipo vivienda,Casa,Zona Rural,22533
+Tipo vivienda,"Otro (Contenedor, carpa, embarcación, vagon, cueva, refugio natural, etc",Zona Rural,20
+Tipo vivienda,Tipo cuarto,Zona Rural,217
+Tipo vivienda,Vivienda tradicional Indígena,Zona Rural,178
+Tipo vivienda,"Vivienda tradicional Étnica (Afrocolombiana, Isleña, Rrom)",Zona Rural,13
