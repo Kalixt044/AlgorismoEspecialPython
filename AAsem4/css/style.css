@@ -1,0 +1,71 @@
+/* Estilos base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+background-color: bisque;
+}
+
+header {
+    width: 100%; /* Hacer el header responsive */
+    max-width: 1600px; /* Limitar el ancho máximo */
+    height: auto; /* Altura automática */
+    position: static;
+    top: 0;
+    background-color: #81dcc5; /* Añadir fondo para mejor visualización */
+    z-index: 1000; /* Asegurar que esté por encima de otros elementos */
+    padding: 1rem; /* Añadir padding para mejor visualización */
+    margin: 0 auto; /* Centrar el header */
+    display: flex; /* Convertir el header en un contenedor flex */
+    justify-content: space-between; /* Alinear elementos a los extremos */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+/* Párrafo alineado a la izquierda */
+header p {
+    margin: 0; /* Eliminar margen por defecto */
+    padding: 0 1rem; /* Añadir padding horizontal para separación */
+    text-align: left; /* Alinear texto a la izquierda */
+    flex-grow: 1; /* Ocupar el espacio restante */
+}
+
+/* Nav con elementos alineados a la derecha */
+nav.right1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right {
+    width: auto;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Eliminar padding por defecto */
+    margin: 0; /* Eliminar margen por defecto */
+}
+
+.sect-a {
+    margin-right: 10px;
+    color: #000000;
+    width: 80px;
+    height: 80px;
+    margin-left: 8px;
+}
+
+.img01 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Usar 50% para círculos perfectos */
+    margin-left: 10px;
+}
+
+.img02 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Usar 50% para círculos perfectos */
+    margin-left: 10px;
+}
