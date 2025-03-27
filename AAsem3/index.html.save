@@ -237,8 +237,7 @@ br br br
 -->
 </article>
 <article class="Volumen">
-    <p> <img src="./img/Volumen.png" alt=""></p>
-    <class="textoVol">
+    < class="textoVol">
     <h1 class="act1">Algorismos para hallar area y Volumen de figuras  solidas</h1>
     <h2 class="Subtitulo">area</h2>
     
@@ -246,65 +245,46 @@ br br br
         <code></code><img src="" alt="">
         <p></p>
         <code></code><img src="" alt=""></div>
-<br>        <div class="textoVol">
-        <h1 class="act1">Algorismos para hallar area y Volumen de figuras  solidas</h1>
-        <h2 class="Subtitulo">area</h2>
-            <p>lorem</p>
-            <code></code><img src="" alt="">
-            <p></p>
-            <code></code><img src="" alt=""></div>
-<br>            <div class="textoVol">
-                <h1 class="act1">Algorismos para hallar area y Volumen de figuras  solidas</h1>
-                <h2 class="Subtitulo">area</h2>
-                    <p class="Voltex">lorem</p>
-                    <code></code><img src="" alt="">
-                    <p></p>
-                    <code></code><img src="" alt=""></div>
-                 <br>   <div class="textoVol">
-                        <h1 class="act1">Algorismos para hallar area y Volumen de figuras  solidas</h1>
-                        <h2 class="Subtitulo">area</h2>
-                         <p>lorem</p>
-                            <code></code><img src="" alt="">
-                            <p></p>
-                            <code></code><img src="" alt="">
-</div>
+</article>
+<div class="textoVol">
+<h1 class="act1">Algorismos para hallar area y Volumen de figuras  solidas</h1>
+<h2 class="Subtitulo">area</h2>
 
-                <br>
-                  <div class="textoVol">
-                                <h1 class="act1">Algorismos para hallar area y Volumen de figuras  solidas</h1>
-                                <h2 class="Subtitulo">area</h2>
-                                <div class="textoVol">
-                                    <p>lorem</p>
-                                    <code></code><img src="" alt="">
-                                    <p>lorem</p>
-                                   <code></code>
-<img src="" alt="">
-</div>
+    <p>lorem</p>
+    <code></code><img src="" alt="">
+    <p></p>
+    <code></code><img src="" alt=""></div>
+<article class="Volumen">
+</article>
+<article class="Volumen">
+<div class="textoVol">
+    <h1 class="act1">Algorismos para hallar area y Volumen de figuras  solidas</h1>
+    <h2 class="Subtitulo">area</h2>
+    <div class="text
+        <p class="Voltex">lorem</p>
+        <code></code><img src="" alt="">
+        <p></p>
+        <code></code><img src="" alt=""></div>
+</article>
+<article class="Volumen">
+    <h1 class="act1">Algorismos para hallar area y Volumen de figuras  solidas</h1>
+    <h2 class="Subtitulo">area</h2>
+    <div class="textoVol">
+        <p>lorem</p>
+        <code></code><img src="" alt="">
+        <p></p>
+        <code></code><img src="" alt=""></div>
+</article>
 
-                            <br>
-                             <div class="textoVol">
-                                <h1 class="act1">Algorismos para hallar area y Volumen de figuras  solidas</h1>
-                                <h2 class="Subtitulo">area</h2> 
-<p>lorem</p>
-                                     <code></code>
-                                 <img src="" alt="">
-                                     <p>lorem</p>
-                                     <code></code>
-                                     <img src="" alt="">
-
-</div>
-
-                                
-<br> <div class="textoVol">
-
-                                    <p>lorem</p>
-                                    <code></code>
-				<img src="" alt="">
-                                    <p>lorem</p>
-                                    <code></code>
-                                    <img src="" alt="">
-</div>
-                 </article>
+<article class="Volumen">
+    <h1 class="act1">Algorismos para hallar area y Volumen de figuras  solidas</h1>
+    <h2 class="Subtitulo">area</h2>
+    <div class="textoVol">
+        <p>lorem</p>
+        <code></code><img src="" alt="">
+        <p></p>
+        <code></code><img src="" alt=""></div>
+</article>
 
 </body>
 
