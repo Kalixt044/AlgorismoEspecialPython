@@ -1,3 +1,75 @@
-- **EV01** - Taller para la determinación de las especif>
- - **EV02** - Informe de evaluación de los requerimientos
+220501092- AA5 **EV01** - Taller para la determinación de las especif>
+Seleccionar una herramienta de gestión de requisitos de acuerdo con la metodología
+seleccionada Utiliza adecuadamente la herramienta de gestión de requisitos para la
+gestión del proyecto, la herramienta para la gestión de requisitos es Trello, también
+se tomarán en cuenta otra herramienta como "Simplenote" para la ampliación de los
+contextos de desarrollo, el módulo a desarrollar será el de inicio de sesión de
+usuario, se debe crear una interfaz la cual solicite al usuario su nombre, rol de
+empresa y una contraseña, manejando de esta manera los niveles de privilegio
+dentro del sistema teniendo en cuenta el prototipo
+
+El desarrollo de este prototipo será gestionado a través de Trello,
+asignando pequeñas tareas por módulos, la cuales será evaluada
+diariamente el desarrollo con un límite semanal para terminar con la
+gestión de un tablero de tarea, esto se ajusta a la metodología XP
+elegida para abordar este proyecto 
+
+
+
+
+
+
+-------------------------------------------
+
+- **EV02** - Informe de evaluación de los requerimientos
+
+Desarrollo de la actividad Informe de evaluación de los requerimientos
+GA1-220501092-AA5-EV02, la cual toma como referencia las anteriores evidencias de
+recolección de requisitos e historias de usuarios con el fin de poder gestionar nuestro
+proyecto a través de una metodología agil la cual nos permita abordar el desarrollo de
+módulos en nuestro proyecto teniendo como referencia las prioridades del cliente enfocado
+en dar pequeñas entregas de los módulos. Especificación de los requerimientos funcionales
+y no funcionales del software - GA1-220501092-AA4-EV01, Documento con especificación
+de requerimientos GA1- 220501092-AA4-EV02, DISEÑO DEL INSTRUMENTO DE
+RECOLECCIÓN DE INFORMACIÓN GA1-220501092-AA3-EV01, Formulario de
+recolección de información. GA1-220501092-AA3-EV03.
+Para el desarrollo de esta actividad de prototipado se ha decidido provisionalmente utilizar
+una extensión de Google Drive la cual se llama; “Draw.io”, allí desarrollaremos nuestro
+prototipo y acompañaremos los prototipos con los atributos que se utilizan para lograr esa
+apariencia, el ámbito del sistema debe cubrir los siguientes requerimientos: Gestión de
+usuarios, Interfaz de usuario intuitiva, Gestión de categorías, Recepción de Mercancías,
+Gestión de pagos, Gestión de archivos, Gestión de Estadísticas y análisis.
+En esta actividad nos ocuparemos de cubrir el prototipado de la interfaz de inicio de sesión
+del usuario, para el empleado receptor de la factura y cubrir ámbitos de accesibilidad y
+seguridad los cuales cubran los requerimientos del software a construir, para este módulo
+se trabajará en específico las Funcionalidades Gestión de Usuarios Funcionalidades
+Principales:
+● Registro y autenticación de usuarios
+● Creación de cuentas con
+validación de correo electrónico
+● Inicio de sesión seguro con
+autenticación de dos factores
+● Recuperación y restablecimiento
+de contraseñas
+● Gestión de perfiles
+Interfaz de usuario
+¿Hay alguna preferencia respecto al diseño o la interfaz? (colores, disposición de
+elementos, etc.)
+¿Quiénes serán los usuarios principales de la interfaz?
+¿Habrá usuarios con discapacidades o necesidades especiales?
+¿Existen ejemplos de software que les parezca intuitivo o bien diseñado?
+Requerimientos Funcionales Gestión de Usuarios:
+1. El sistema debe permitir la creación de cuentas para los usuarios con los siguientes
+datos obligatorios:
+- Nombre completo.
+- Documento de identidad.
+- Departamento dentro de la empresa.
+- Cargo.
+2. Los usuarios deben autenticarse mediante un sistema de inicio de sesión con:
+- Nombre de usuario (único, basado en el correo electrónico corporativo o similar).
+- Contraseña segura.
+3. El sistema debe permitir la recuperación de contraseñas mediante un mecanismo
+seguro, por ejemplo, envío de un enlace al correo electrónico registrado.
+4. El sistema debe registrar las sesiones activas y permitir cerrar sesiones desde
+cualquier dispositivo
 
