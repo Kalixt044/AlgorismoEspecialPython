@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "9Lq55lyqkwxjbvshzgh27",
+      "type": "text",
+      "x": 338,
+      "y": 176,
+      "width": 675.0000000000001,
+      "height": 1225,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a2",
+      "roundness": null,
+      "seed": 129484480,
+      "version": 72,
+      "versionNonce": 854429376,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1748288007900,
+      "link": null,
+      "locked": false,
+      "text": "Vencimiento de Taller aplicando funciones y procedimientos en la\nsolución de algoritmos GA3-220501093-AA2-EV03\nHoy, 11:59 PM\nEvento de curso\nTECNOLOGÍA EN ANÁLISIS Y DESARROLLO DE SOFTWARE\n \n\nGA3-220501093-AA2. Desarrollar soluciones algorítmicas a través\nde estructuras de control.\n\n Taller aplicando funciones y procedimientos en la solución de\nalgoritmos GA3-220501093-AA2-EV03.\n\n \n \n\nClic aquí para acceder al instrumento de evaluación y/o anexo\n\nANALISIS Y DESARROLLO DE SOFTWARE. (3070299)\nAgregar entrega\nCerrar vista previa\nSe cierra Cuestionario GA3-220201501-AA1-EV01\nHoy, 11:59 PM\n\nEvento de curso\nTECNOLOGÍA EN ANÁLISIS Y DESARROLLO DE SOFTWARE\nGA3-220201501-AA1. Reconocer los principios y leyes físicas\naplicados al contexto productivo.\n\n Cuestionario GA3-220201501-AA1-EV01.\n\n \n \nANALISIS Y DESARROLLO DE SOFTWARE. (3070299)\nIntente resolver el prueba de conocimiento ahora\nEvento de actividad\nVencimiento de Video-expositivo sobre experimento de aplicación\nGA3-220201501-AA2-EV01\nHoy, 11:59 PM\nEvento de curso\nTECNOLOGÍA EN ANÁLISIS Y DESARROLLO DE SOFTWARE\n \n\nGA3-220201501-AA2. Interpretar y explicar los cambios físicos de\nlos cuerpos según las teorías, leyes y principios.\n\n Video-expositivo sobre experimento de aplicación GA3-220201501-\nAA2-EV01.\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Vencimiento de Taller aplicando funciones y procedimientos en la solución de algoritmos GA3-220501093-AA2-EV03\nHoy, 11:59 PM\nEvento de curso\nTECNOLOGÍA EN ANÁLISIS Y DESARROLLO DE SOFTWARE\n \n\nGA3-220501093-AA2. Desarrollar soluciones algorítmicas a través de estructuras de control.\n\n Taller aplicando funciones y procedimientos en la solución de algoritmos GA3-220501093-AA2-EV03.\n\n \n \n\nClic aquí para acceder al instrumento de evaluación y/o anexo\n\nANALISIS Y DESARROLLO DE SOFTWARE. (3070299)\nAgregar entrega\nCerrar vista previa\nSe cierra Cuestionario GA3-220201501-AA1-EV01\nHoy, 11:59 PM\n\nEvento de curso\nTECNOLOGÍA EN ANÁLISIS Y DESARROLLO DE SOFTWARE\nGA3-220201501-AA1. Reconocer los principios y leyes físicas aplicados al contexto productivo.\n\n Cuestionario GA3-220201501-AA1-EV01.\n\n \n \nANALISIS Y DESARROLLO DE SOFTWARE. (3070299)\nIntente resolver el prueba de conocimiento ahora\nEvento de actividad\nVencimiento de Video-expositivo sobre experimento de aplicación GA3-220201501-AA2-EV01\nHoy, 11:59 PM\nEvento de curso\nTECNOLOGÍA EN ANÁLISIS Y DESARROLLO DE SOFTWARE\n \n\nGA3-220201501-AA2. Interpretar y explicar los cambios físicos de los cuerpos según las teorías, leyes y principios.\n\n Video-expositivo sobre experimento de aplicación GA3-220201501-AA2-EV01.\n",
+      "autoResize": false,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
