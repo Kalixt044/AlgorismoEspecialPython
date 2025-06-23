@@ -1,4 +1,5 @@
 220501092- AA5 **EV01** - Taller para la determinación de las especif>
+
 Seleccionar una herramienta de gestión de requisitos de acuerdo con la metodología
 seleccionada Utiliza adecuadamente la herramienta de gestión de requisitos para la
 gestión del proyecto, la herramienta para la gestión de requisitos es Trello, también
