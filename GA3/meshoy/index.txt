@@ -1,0 +1,187 @@
+A3-220501093-AA3 - Solucionar planteamientos aplicando el 
+concepto de arreglos (vectores y matrices).
+
+1. El documento presenta las diferencias entre lenguaje 
+compilados e interpretados. 15%
+Los lenguajes de programación se pueden clasificar atendiendo a varios criterios:
+según el nivel de abstracción, la forma de ejecución o el paradigma de programación que
+utiliza cada uno de ellos. 
+Nivel de abstracción
+Según el nivel de abstracción los lenguajes de programación se clasifican en:
+3.1.1. Lenguajes de bajo nivel
+En este tipo se encuentran los lenguajes máquina directamente entendible por la
+máquina (el ordenador), siendo sus instrucciones cadenas binarias (de 0 y 1). El lenguaje
+máquina es el lenguaje en el que hay que expresar cualquier cosa que se desee que realice
+un ordenador. Es obvio que para los humanos expresarse en estos términos es muy
+complicado, y por eso este tipo de lenguaje dejó de utilizarse, a causa de su complejidad y de
+la facilidad para cometer errores al utilizarlo.
+El lenguaje ensamblador fue el primer lenguaje de programación que trató de
+sustituir al lenguaje máquina por uno mucho más parecido al de los seres humanos. Las
+instrucciones en lenguaje ensamblador son instrucciones conocidas como nemónicos: por
+ejemplo, para indicar que se quiere realizar una suma se usa una instrucción llamada ADD.
+Para que el programa escrito en lenguaje ensamblador pueda ejecutarse es necesario
+traducirlo a lenguaje máquina mediante un programa intérprete denominado también
+ensamblador (assembler). El principal inconveniente del lenguaje ensamblador es que está
+muy ligado al tipo de máquina en que se ejecuta, lo que impide su portabilidad. Además,
+aunque constituye un importante paso para liberarse del código binario, se necesitan
+muchas instrucciones para realizar tareas simples y exige grandes conocimientos sobre los
+componentes hardware de la máquina, por lo que programar en ensamblador resulta aún
+muy complejo.
+
+3.1.2. Lenguajes de alto nivel
+Estos lenguajes están diseñados para que los programadores escriban y entiendan
+instrucciones lo más parecidas al lenguaje humano (normalmente el inglés), lo cual hace que
+se necesite menos tiempo para aprender a programar; por ello son los más utilizados por los
+programadores. Además, los lenguajes de programación de alto nivel son independientes de
+la máquina y se pueden ejecutar, prácticamente sin modificaciones en diferentes tipos de
+ordenadores. Como es lógico, el código fuente escrito en un lenguaje de alto nivel debe ser
+traducido a código máquina mediante un compilador o un intérprete
+Lenguajes compilados
+
+Antes de poder ejecutar un programa escrito en un lenguaje de programación
+compilado es necesario invocar a un traductor denominado compilador que se encarga de
+traducir (compilar) el programa original (código fuente) al programa equivalente escrito en
+lenguaje máquina o ensamblador (código objeto). Los binarios son los programas ejecutables
+y los únicos necesarios para el funcionamiento del programa.
+Lenguajes interpretados
+
+Cada vez que se usa el programa debe invocarse a un traductor llamado intérprete
+que se encarga de traducir (interpretar) las instrucciones del programa original (código
+fuente) a código máquina según van siendo utilizadas. Para el funcionamiento del programa
+siempre es necesario disponer del código original y del intérprete.
+
+Las principales diferencias entre los lenguajes compilados e interpretados son:
+
+• Los programas escritos en lenguajes compilados se compilan una vez y se utilizan
+cuantas veces se desee sin necesidad de volver a utilizar el compilador. Los lenguajes
+interpretados son interpretados, valga la redundancia, cada vez que se ejecutan y
+necesitan siempre del intérprete.
+
+• Los compiladores analizan todo el programa y no generan resultados si no es correcto
+todo el código. Los intérpretes analizan las instrucciones según las necesitan y
+pueden iniciar la ejecución de un programa con errores e incluso terminar
+Compilador
+Código fuente Código objeto
+Intérprete
+Código Fuente
+Módulo II: Software Tema 5: Fundamentos de programación
+ Introducción a la Informática
+
+13
+correctamente una ejecución de un programa con errores siempre que no haya sido
+necesario el uso de las instrucciones que contienen dichos errores.
+
+• Un compilador traduce cada instrucción una sola vez. Un intérprete debe traducir
+una instrucción cada vez que la encuentra.
+
+• Los códigos objeto son compilados para una arquitectura específica y no se pueden
+utilizar en otras arquitecturas no compatibles (aunque pueden existir distintos
+compiladores para generar códigos objeto para diferentes arquitecturas). Un
+lenguaje interpretado puede ser utilizado en cualquier arquitectura que disponga de
+un intérprete sin necesidad de cambios.
+
+• Los lenguajes compilados son más eficientes que los interpretados y además
+permiten distribuir el programa en forma confidencial mediante código binario
+2. El documento presenta las características de JavaScript 15%
+
+para el manejo de las caracteristicas del lenguaje vainilla Js abordare el uso de la memoria 
+con los array's
+
+process.argv = [
+  '/usr/bin/node',        // [0] - Ruta completa del ejecutable de Node.js
+  '/ruta/a/tu/index.js',  // [1] - Ruta completa de tu archivo
+  '4',                    // [2] - Primer argumento que tú pasaste
+  '3'                     // [3] - Segundo argumento que tú pasaste
+]
+
+process.argv[0]  // Ruta de Node.js (no la necesitas)
+process.argv[1]  // Ruta de tu archivo (no la necesitas)
+process.argv[2]  // Tu primer argumento: '4'
+process.argv[3]  // Tu segundo argumento: '3'
+
+code:
+// Function definition
+function myFunction(a, b) {
+    // Function returns the product of a and b
+    return a * b;
+}
+
+// Get arguments from command line
+const a = process.argv[2];
+const b = process.argv[3];
+
+// Function is called, the return value will end up in x
+let x = myFunction(a, b);
+
+// Display the result
+console.log(x);
+
+3. El documento presenta los tipos de datos primitivos en JavaScript y uso.20%
+
+Sistemas de tipos
+En [91] se define un sistema de tipos, en un lenguaje de programación, como un sistema lógico que
+comprende un conjunto de reglas que asignan una propiedad llamada tipo a diversas construcciones
+de un programa, tales como variables, expresiones, funciones o módulos. Por ejemplo, una variable
+de programa es una forma de asignar un nombre a un valor, que puede modificarse o no durante el
+transcurso de la ejecución, y dicho valor ha de pertenecer al conjunto de valores denotados por un
+tipo. Con los tipos formalizamos las categorías implícitas que se usan en los programas para implementar tipos de datos algebraicos, estructuras de datos u otros componentes (tales como números,
+cadenas de texto, arrays, funciones, etcétera). El principal propósito que se busca con un sistema de
+tipos [14], es reducir al máximo posible los errores que hay en un programa definiendo interfaces entre las diferentes partes del mismo programa, de modo que luego se pueda comprobar que dichas
+
+partes han sido conectadas de forma consistente. Estas comprobaciones pueden realizarse durante la
+compilación (estáticas), en tiempo de ejecución (dinámicas) o mediante una combinación de ambas.
+Como esta distinción entre tipado estático y tipado dinámico es importante, vamos a desarrollarla a
+continuación.
+
+Los lenguajes de tipado estático son aquellos en los que la comprobación que realiza el sistema de
+tipos está implementada en el compilador, para que sea en tiempo de compilación cuando se realicen
+estas comprobaciones y después de compilar se presenten al usuario los errores obtenidos en caso
+de fallar la comprobación. Hay muchos lenguajes de tipado estático conocidos en el mundo de la
+programación, como es el caso de C [56], C++ [112], C# [4], Haskell [48, 47, 63], Java [40], Pascal [121],
+Rust [76], Scala [88], etcétera. Para entenderlo mejor veamos el siguiente ejemplo escrito en lenguaje
+
+
+void mostrar(const char * mensaje);
+void prueba() {
+mostrar("Practical Forms of Type Theory");
+mostrar("Alan M. Turing");
+mostrar(1948);
+}
+Aquí tenemos una función mostrar que acepta como argumento valores que son cadenas de caracteres, seguida de una función prueba que está llamando a mostrar tres veces, los argumentos de las
+dos primeras llamadas son valores constantes de cadenas y el de la última es una constante numérica.
+Al compilar este código se genera un mensaje, que varía dependiendo del compilador usado, similar
+al siguiente:
+
+error C2664: ’void mostrar(const char *)’: cannot convert
+argument 1 from ’int’ to ’const char *’
+El primer mensaje indica que se ha provocado un error de compilación relativo a los tipos que estamos
+usando, ya que no puede convertir el argumento primero en la aplicación de mostrar de int (número
+entero) a const char * (cadena de texto constante). Esto es así porque mostrar solo acepta cadenas
+de texto como parámetro de entrada y no puede manejar un número entero. Para solucionar esto, el
+programador, o bien define una nueva función que haga lo mismo que mostrar pero recibiendo un
+número como parámetro, o bien define o utiliza alguna función que convierta números enteros a
+cadenas de texto.
+Algunos lenguajes de tipado estático requieren que el programador defina correctamente los tipos y
+programe las conversiones entre estructuras de tipos de forma explícita en multitud de ocasiones. De
+lo contrario, los programas no compilarán porque podría haber discrepancias entre tipos y, en ese
+
+1.1. SISTEMAS DE TIPOS 3
+caso, la comprobación del sistema de tipos implementado devolverá errores. Esto hace más seguros
+los programas, pero al mismo tiempo requiere un mayor esfuerzo al tener que detallar explícitamente
+todo comportamiento relacionado con los tipos
+4. El documento presenta los operadores en JavaScript. 20%
+
+5. El documento integra representaciones graficas útiles 
+para complementar los textos. 10%
+
+6.El documento incluye ejemplos para complementar la información expuesta. 10%
+
+7. En el documento se referencia las fuentes de información utilizadas
+https://www.w3schools.com/nodejs/nodejs_command_line.asp - process.argv
+https://nodejs.org/api/process.html#processargv 
+https://www.w3schools.com/js/js_datatypes.asp - typos de datos
+https://www.youtube.com/watch?v=y9tu-vGYXCk - multiplicar cadena con int. Why TY?
+https://campusvirtual.ull.es/ocw/file.php/40/temas/IIT05.pdf - typos de lenguajes,
+compilados e interpretados, de alto nivel y de bajo nivel
+https://www.youtube.com/watch?v=T5IlWQgGIz4 - que es el maldito desarrollo web, interprete de 
+codigo node js
