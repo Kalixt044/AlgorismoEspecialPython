@@ -1,0 +1,181 @@
+Evidencia GA2-220501093-AA3-EV01: Mapa Conceptual sobre Validación de Documentos - Censo Rural
+Objetivo General
+Verificar y mejorar los modelos de análisis, y elaborar un prototipo inicial del software para el sistema de Censo Rural, mediante la creación de un mapa conceptual que represente el dominio del proyecto.
+
+1. Metodología de Desarrollo (20%)
+Metodología Seleccionada: Extreme Programming (XP)
+El proyecto "Censo Rural" adoptará la metodología Extreme Programming (XP) por las siguientes razones estratégicas:
+Características de XP aplicadas al proyecto:
+
+Entregas frecuentes: Módulos funcionales independientes que se integran progresivamente
+Desarrollo incremental: Permite entregar valor temprano con módulos como:
+
+Módulo de captura de datos en campo
+Módulo de validación y sincronización
+Módulo de análisis y reportes
+
+
+Flexibilidad: Adaptación rápida a cambios en requisitos del censo
+Calidad: Pruebas continuas garantizan la integridad de los datos censales
+Colaboración: Trabajo estrecho con stakeholders (DANE, encuestadores, comunidades)
+
+Justificación para Censo Rural:
+La naturaleza distribuida del censo rural, con recolección de datos en zonas remotas y la necesidad de sincronización posterior, hace ideal el enfoque de XP para entregas modulares que se pueden probar independientemente antes de la integración final.
+
+2. Conceptos Clave del Dominio para Validación de Documentos (20%)
+2.1 Sujetos del Censo
+
+Habitantes rurales: Personas en zonas apartadas
+Familias: Unidades familiares con características específicas
+Comunidades: Agrupaciones geográficas y sociales
+
+2.2 Recolección de Datos
+
+Formularios dinámicos: Estructuras adaptables según tipo de población
+Preguntas del censo: Conjunto estandarizado de consultas
+Validación en campo: Verificación inmediata de datos
+Georreferenciación: Ubicación GPS de cada registro
+Documentos adjuntos: Fotografías y documentos de soporte
+
+2.3 Agentes de Recolección
+
+Encuestadores: Personal capacitado para recolección
+Supervisores de campo: Coordinadores regionales
+Roles y permisos: Sistema de autorización por niveles
+Trazabilidad: Seguimiento de actividades por usuario
+
+2.4 Gestión de Datos
+
+Almacenamiento seguro: Base de datos encriptada
+Centralización: Plataforma única de consolidación
+Categorización: Organización por región, comunidad, grupo etario
+Sincronización: Proceso de unificación de datos offline/online
+
+2.5 Análisis y Reportes
+
+Dashboards: Visualizaciones interactivas
+KPIs: Indicadores clave de desempeño
+Informes automatizados: Generación programada de reportes
+Visualización geográfica: Mapas temáticos y análisis espacial
+
+2.6 Documentos a Validar
+
+Especificaciones de requisitos funcionales y no funcionales
+Historias de usuario del sistema
+Casos de uso detallados
+Diagramas de actividades y casos de uso
+Formularios y plantillas de recolección
+Prototipos de interfaz de usuario
+
+
+3. Formatos de Aceptación (20%)
+3.1 Lista de Chequeo para Documentos de Análisis
+Especificaciones de Requisitos
+
+ Completitud: Todos los requisitos funcionales están documentados
+ Claridad: Lenguaje preciso y sin ambigüedades
+ Trazabilidad: Vinculación clara con objetivos del censo
+ Verificabilidad: Criterios de aceptación medibles
+ Consistencia: Coherencia entre requisitos
+
+Historias de Usuario
+
+ Formato estándar: "Como [rol], quiero [funcionalidad], para [beneficio]"
+ Criterios de aceptación: Condiciones específicas de cumplimiento
+ Priorización: Clasificación por valor e importancia
+ Estimación: Complejidad y esfuerzo definidos
+ Dependencias: Relaciones entre historias identificadas
+
+Casos de Uso
+
+ Actores definidos: Roles claramente identificados
+ Flujo principal: Secuencia normal de interacción
+ Flujos alternativos: Escenarios de excepción
+ Precondiciones: Estados iniciales requeridos
+ Postcondiciones: Resultados esperados
+
+3.2 Lista de Chequeo para Prototipo Inicial
+Funcionalidad
+
+ Captura de datos: Formularios operativos
+ Validación: Reglas de negocio implementadas
+ Sincronización: Funcionalidad offline/online
+ Georreferenciación: Captura de coordenadas GPS
+ Adjuntos: Carga de fotos y documentos
+
+Usabilidad
+
+ Interfaz intuitiva: Navegación clara para encuestadores
+ Responsive: Adaptación a dispositivos móviles
+ Accesibilidad: Cumplimiento de estándares de accesibilidad
+ Performance: Tiempos de respuesta aceptables
+ Robustez: Manejo de errores y excepciones
+
+3.3 Criterios de Calidad General
+
+ Alineación: Correspondencia con objetivos del censo rural
+ Estándares: Cumplimiento de normas técnicas establecidas
+ Documentación: Información suficiente para implementación
+ Revisión: Validación por expertos del dominio
+ Aprobación: Visto bueno de stakeholders clave
+
+
+4. Diagrama Conceptual del Dominio (30%)
+Descripción del Modelo Conceptual
+El siguiente diagrama representa las entidades principales del sistema de Censo Rural y sus relacione
+Relaciones Principales del Dominio:
+
+ENCUESTADORES utilizan DISPOSITIVOS MÓVILES para recolectar datos
+FORMULARIOS capturan información de HABITANTES organizados en FAMILIAS
+GEORREFERENCIACIÓN ubica espacialmente a COMUNIDADES en ZONAS RURALES
+VALIDACIÓN aplica REGLAS DE NEGOCIO a los datos capturados
+SINCRONIZACIÓN transfiere datos a la PLATAFORMA CENTRAL
+BASE DE DATOS almacena información con SEGURIDAD implementada
+ANÁLISIS genera DASHBOARDS e INFORMES para STAKEHOLDERS
+VISUALIZACIÓN GEOGRÁFICA presenta INDICADORES (KPIs) en mapas
+EXPORTACIÓN permite compartir resultados con entidades externas
+
+
+5. Características del Diagrama de Dominio (20%)
+5.1 Cumplimiento de Instrucciones
+El modelo conceptual presentado cumple con los siguientes criterios:
+Claridad y Legibilidad
+
+Jerarquía visual: Organización lógica de componentes
+Etiquetas precisas: Nomenclatura técnica y comprensible
+Conexiones explícitas: Relaciones claramente definidas
+Agrupación lógica: Conceptos relacionados agrupados visualmente
+
+Estructura del Diagrama de Dominio
+
+Entidades principales: Elementos centrales del sistema identificados
+Relaciones bidireccionales: Interacciones mutuas representadas
+Flujo de información: Dirección de datos claramente indicada
+Límites del sistema: Alcance del dominio delimitado
+
+Facilidad de Interpretación
+
+Convenciones estándar: Uso de notación reconocida
+Niveles de detalle: Información suficiente sin sobrecarga
+Coherencia visual: Estilo uniforme en todo el diagrama
+Documentación complementaria: Explicaciones textuales de apoyo
+
+5.2 Validación del Modelo
+El diagrama conceptual ha sido diseñado considerando:
+
+Stakeholders identificados: Todos los actores del censo representados
+Procesos críticos: Flujos principales del sistema modelados
+Restricciones técnicas: Limitaciones de conectividad rural consideradas
+Requisitos normativos: Cumplimiento de estándares gubernamentales
+
+
+Conclusiones
+Este documento presenta un marco integral para la validación de documentos del proyecto Censo Rural, estableciendo:
+
+Una metodología de desarrollo robusta (XP) adaptada al contexto rural
+Conceptos clave del dominio claramente definidos y relacionados
+Formatos de aceptación específicos para garantizar calidad
+Un modelo conceptual comprensible que representa el dominio completo
+Un diagrama ordenado y de fácil lectura que cumple estándares técnicos
+
+La implementación de este marco asegurará que el prototipo inicial del software cumpla con los objetivos establecidos y proporcione una base sólida para el desarrollo completo del sistema de Censo Rural.

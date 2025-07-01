@@ -51,3 +51,30 @@ Claridad en la representación de los procesos
 Coherencia entre los diagramas y los requisitos
 Documentación detallada y bien estructurada
 Uso de metodología XP como base del análisis
+Los diagramas de actividades trazan flujos de procesos de 
+una forma que es sencilla de entender. El Lenguaje Unificado 
+de Modelado incluye varios subconjuntos de diagramas, 
+incluidos los diagramas de estructuras, los diagramas de 
+interacción y los diagramas de comportamiento. Los 
+diagramas de actividades, junto con los diagramas de casos de 
+uso y los diagramas de máquina de estados, son considerados 
+diagramas de comportamiento porque describen lo que debe 
+suceder en el sistema que se está modelando. Las partes 
+interesadas tienen muchos asuntos que manejar, por lo que es 
+importante una comunicación clara y concisa. Los diagramas 
+de actividades ayudan a que las personas en las áreas de 
+negocios y desarrollo de una organización se integren para 
+comprender el mismo proceso y comportamiento. Usarás un 
+conjunto de símbolos especializados —incluidos aquellos para 
+pasos de inicio, finalización, fusión y recepción en el flujo—
+para crear un diagrama de actividades, lo cual cubriremos con 
+más detalle dentro de esta guía de diagramas de actividades. 
+Teniendo en cuenta las actividades y el diagrama de 
+actividades desarrollados anteriormente, se realiza el diagrama 
+con actividades del proyecto, enfocada en las actividades de la
+distribuidora de consumo masivo llamada
+
+
+Perspectiva del producto   El sistema de información de agenda para citas médicas tiene como fin agilizar el proceso para tomar horas médicas; queremos brindar un sistema que sea autogestionable, donde el  usuario  principal (stakeholder)  que requiera  agendar una  cita  médica lo  pueda realizar a través de internet, donde no le tome más de cinco (5) minutos el agendamiento.  Sera un sistema que le brindara confianza tanto al usuario principal como al centro médico (también stakeholder) ya que ambos serán notificados de cada gestión que se realice en sistema de información.  Funciones del producto - Seguridad, para acceder al sistema será necesario ingresar a través de un usuario y una contraseña. - Agendamiento: o Calendario, el usuario podrá consultar la disponibilidad (días y horas) del médico o profesional de la salud seleccionado. o Agendar, el usuario podrá reservar la hora seleccionada. o Modificar, el usuario podrá cambiar la hora seleccionada. o Confirmar, el usuario podrá ratificar que asistirá a la hora seleccionada. o Anular, el usuario podrá cancelar la hora seleccionada, notificándole así al centro médico que no asistirá y la hora quedará de nuevo disponible para otro usuario. - Comprobante, cada gestión que se realice generará un documento el cual será enviado al correo electrónico de los usuarios (personas que agendan la cita médica y centro médico donde se realizara la atención).  Características de los usuarios (stakeholders)   El sistema de información contara con tres (3) tipos de usuarios (stakeholders) que se relacionan a continuación y se nombran sus respectivas características: - Usuario administrador, aplica para el encargado del sistema de información, este tendrá la labor de poner a disposición y/o modificar el calendario para los demás usuarios,  podrá  crear,  modificar  y  eliminar  centros  médicos  y/o  doctores  o profesionales de la salud del sistema de información. - Usuario normal, aplica para las personas que requieren agendar horas médicas, estos podrán consultar el calendario, agendar, modificar y/o anular una cita médica. La creación del usuario normal es autogestionable. - Usuario  centro  médico,  aplica  para  los  centros  médicos  donde  se  realizará  la atención al usuario normal, este tipo de usuario podrá consultar el calendario y/o anular una cita médica. 
+
+5  Restricciones Entre las restricciones que se pueden presentar en el sistema de información de agenda para citas médicas tenemos: - Se debe contar con acceso a internet para poder hacer uso del sistema de información. - Se debe contar con un manejo básico de las herramientas de internet. - El sistema de información debe ser desarrollado en versión web, pues el acceso al sistema debe ser en línea y estar disponible para cualquier dispositivo con acceso a internet. - Es  obligatorio  acceder  al  sistema  de  información  a  través  de  un  usuario  y  una contraseña. - Para los usuarios es obligatorio tener un correo electrónico para todos los procesos.  Requisitos Funcionales El sistema debe permitir: - Validar el usuario y la contraseña del usuario que desea ingresar al sistema. - Crear el calendario con la agenda de los médicos y/o profesionales de la salud. - Crear centros médicos. - Crear médicos y/o profesionales de la salud. - Modificar centros médicos. - Modificar médicos y/o profesionales de la salud. - Eliminar centros médicos. - Eliminar médicos y/o profesionales de la salud. - Consultar la disponibilidad de los médicos y/o profesionales de la salud de acuerdo a su calendario. - Agendar la cita médica seleccionada. - Bloquear la hora medica seleccionada para que otro usuario no pueda seleccionar de nuevo la misma hora. - Modificar la cita médica seleccionada. - Anular o cancelar la cita médica seleccionada. - Confirmar la cita médica seleccionada. - Generar comprobantes de los registros realizados en el sistema. - Enviar a través de correo electrónico los comprobantes generados.  

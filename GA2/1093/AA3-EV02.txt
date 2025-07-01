@@ -1,1 +1,95 @@
-informe analisis con listas de chequeo para validacion de artefactos
+Informe de Análisis con Listas de Chequeo para la Validación de Artefactos
+Proyecto: "Censo Rural"
+Evidencia GA2-220501093-AA3-EV02
+
+I. Introducción
+El proyecto "Censo Rural" tiene como objetivo optimizar la recolección, gestión y análisis de datos personales en zonas rurales mediante una solución tecnológica adaptada a entornos con conectividad limitada. Este informe evalúa la calidad de los artefactos generados durante el análisis de requisitos, valida su cumplimiento y propone mejoras para la documentación.
+
+Metodología de desarrollo:
+
+Extreme Programming (XP): Se prioriza la retroalimentación continua con los usuarios y la iteración rápida.
+
+II. Interpretación del Informe de Requisitos
+Requisitos Funcionales
+Gestión de usuarios:
+
+Roles: encuestadores, supervisores, administradores.
+
+Interfaz intuitiva:
+
+Adaptada para uso offline y en campo.
+
+Gestión de categorías:
+
+Región, comunidad, datos demográficos.
+
+Captura de datos en campo:
+
+Formularios digitales, georreferenciación, adjuntar fotos.
+
+Gestión de archivos:
+
+Almacenamiento seguro y sincronización posterior.
+
+Análisis y estadísticas:
+
+Dashboards e informes para toma de decisiones.
+
+Requisitos No Funcionales
+Alta disponibilidad:
+
+Funcionamiento offline y sincronización cuando haya conexión.
+
+Escalabilidad:
+
+Soporte para alto volumen de datos y múltiples regiones.
+
+Seguridad:
+
+Encriptación de datos y protección de información personal.
+
+Usabilidad:
+
+Diseño accesible para usuarios con bajo nivel de alfabetización digital.
+
+Compatibilidad:
+
+Dispositivos móviles Android y navegadores web.
+
+III. Descripción de los Artefactos Generados
+Artefacto	Descripción	Contribución al Proyecto
+Diagrama de Casos de Uso	Describe las interacciones entre usuarios y sistema (ej: registro, captura de datos).	Clarifica funcionalidades clave.
+Diagrama de Actividades	Detalla flujos de procesos (ej: sincronización de datos offline).	Ayuda a optimizar procesos operativos.
+Historias de Usuario	Ej: "Como encuestador, quiero guardar datos sin conexión para evitar pérdidas."	Alinea el desarrollo con necesidades reales.
+IV. Validación de Artefactos (Listas de Chequeo)
+Hallazgos y No Conformidades
+Criterio	Evaluación (✔️ / ❌ / ⚠️)	Observaciones
+Completitud	✔️	Todos los campos críticos están definidos.
+Consistencia	⚠️	Algunos términos varían en historias de usuario.
+Claridad	❌	Flujos de sincronización poco detallados.
+Seguridad	✔️	Cumple con encriptación de datos.
+Oportunidades de Mejora
+Revisar terminología en historias de usuario para uniformidad.
+
+Ampliar descripción de flujos offline en diagramas.
+
+V. Mejoras Propuestas
+Documentación:
+
+Unificar glosario de términos en requisitos.
+
+Prototipo:
+
+Incluir pantallas de confirmación post-sincronización.
+
+VI. Prototipo Inicial del Software
+Alcance:
+
+Muestra formularios de censo, geolocalización y modo offline.
+
+Alineación con requisitos:
+
+Cubre el 80% de los casos de uso priorizados.
+
+VII. Conclusión
+La validación mediante listas de chequeo asegura que los artefactos cumplan con los estándares de calidad y las necesidades del Censo Rural. Las mejoras identificadas garantizarán una solución robusta y adaptable al contexto rural.
