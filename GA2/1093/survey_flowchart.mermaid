@@ -1,0 +1,19 @@
+flowchart TD
+    A[Inicio] --> B[Mostrar formulario de encuesta al usuario]
+    B --> C[Usuario ingresa datos personales]
+    C --> D[Validar campos del formulario]
+    D --> E{¿Datos válidos?}
+    E -->|No| F[Mostrar mensaje de error]
+    F --> G[Solicitar corrección]
+    G --> H[Reingresar datos]
+    H --> D
+    E -->|Sí| I[Guardar datos en archivo CSV]
+    I --> J[Verificar existencia del archivo]
+    J --> K{¿Archivo existe?}
+    K -->|No| L[Crear archivo CSV]
+    K -->|Sí| M[Abrir archivo]
+    L --> N[Escribir datos en archivo CSV]
+    M --> N
+    N --> O[Cerrar archivo CSV]
+    O --> P[Mostrar mensaje de éxito]
+    P --> Q[Fin del proceso]

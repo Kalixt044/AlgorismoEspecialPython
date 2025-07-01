@@ -1,0 +1,53 @@
+Diagramas y documentaciopn de actividades del proyecto
+
+1. 🎯 Objetivo General de la Evidencia
+El propósito de esta evidencia es representar gráficamente y documentar las funciones clave del software mediante diagramas de actividades UML y un informe de análisis. Esto permite comprender el flujo de trabajo del sistema, facilitar la comunicación entre los involucrados y sentar las bases para una especificación formal del software.
+2. 🧩 Parte 1: Diagramas de Actividades UML
+a. ¿Qué debes incluir?
+Para cada función principal del sistema, elabora un diagrama de actividades que muestre:
+Inicio del proceso
+Acciones o actividades
+Decisiones (condiciones)
+Flujo alternativo (si aplica)
+Finalización del proceso
+b. Casos de uso sugeridos:
+Puedes elegir entre los siguientes (o incluir otros relevantes al proyecto):
+Registro y autenticación de usuarios
+Creación de cuentas
+Recuperación de contraseñas
+Registro de sesiones activas
+Registro de llegada de mercancías
+Validación de pedidos
+Notificación al departamento de inventarios
+Gestión de pagos a proveedores
+c. Herramientas recomendadas:
+Draw.io
+Lucidchart
+StarUML
+Visual Paradigm
+
+3. 📝 Parte 2: Informe de Análisis
+a. Estructura sugerida del informe:
+I. Introducción
+Breve descripción del proyecto
+Objetivo del informe
+II. Interpretación del informe de requisitos
+¿Qué requerimientos funcionales y no funcionales se están abordando?
+Ejemplo: Gestión de usuarios, control de inventario, pagos, etc.
+III. Metodología de desarrollo
+Se sigue la metodología XP (Extreme Programming), enfocada en entregas frecuentes de módulos funcionales independientes.
+IV. Descripción de los diagramas
+Para cada diagrama, incluye:
+Nombre del proceso
+Descripción del flujo
+Relación con los requisitos funcionales
+Justificación de decisiones tomadas en el modelado
+V. Conclusión
+Cómo estos diagramas y el análisis contribuyen a una mejor comprensión del sistema
+Importancia de esta documentación para futuras fases del desarrollo
+4. ✅ Criterios de Evaluación que estás cumpliendo
+Aplicación correcta del lenguaje UML
+Claridad en la representación de los procesos
+Coherencia entre los diagramas y los requisitos
+Documentación detallada y bien estructurada
+Uso de metodología XP como base del análisis
