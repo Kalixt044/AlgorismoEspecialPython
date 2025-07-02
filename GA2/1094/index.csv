@@ -1,3 +1,321 @@
+Dise~o de ficha tecnica para recoleccion de la informacion
+..
+
+
+Diseño de fichas técnicas para la recolección de la información se enmarca dentro del proyecto "Censo Rural". Este proyecto tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [conversación previa, 223]. El sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [conversación previa, 187, 207, 223].
+En este marco, las "fichas técnicas para la recolección de la información" se refieren a los instrumentos diseñados para la elicitación de requerimientos del propio software "Censo Rural". El propósito principal de esta elicitación es obtener conocimientos relevantes del problema para producir una especificación formal del software necesario para resolverlo.
+Para la elaboración de estas fichas, se utilizarán las encuestas y entrevistas como técnicas principales de elicitación de requisitos. Específicamente:
+•
+Se implementará un cuestionario mixto, que combinará preguntas abiertas para obtener información cualitativa y una mayor profundidad en las respuestas, con preguntas cerradas para recabar datos más específicos y cuantificables. Este cuestionario, idealmente de entre 8 y 10 preguntas para mantener la atención del encuestado, busca diagnosticar las necesidades tecnológicas y las posibles soluciones de software de los clientes, además de evaluar la madurez tecnológica actual, identificar necesidades de automatización y medir la disposición al cambio. Incluirá formatos como escalas Likert, preguntas dicotómicas y de opción múltiple.
+•
+Se complementará con entrevistas de profundización. El objetivo de estas entrevistas es entender en detalle los requerimientos para desarrollar un software que facilite el trabajo diario de los usuarios. Estas entrevistas son cruciales para asegurar que el sistema se ajuste a las necesidades reales del usuario.
+Las fichas técnicas resultantes, ya sean cuestionarios o guiones de entrevista, permitirán recopilar información fundamental sobre:
+•
+Contexto y perfil del usuario: Identificando a los usuarios que interactuarán con el software (como encuestadores, supervisores y administradores), sus roles, las tareas que realizan diariamente, las herramientas que usan actualmente y las limitaciones que enfrentan.
+•
+Objetivos y necesidades: Abordando el principal problema que el software debe resolver y las necesidades específicas que debe cubrir.
+•
+Requerimientos funcionales: Precisando las funciones y características específicas que el software debe tener (ej., formularios dinámicos, generación de reportes, almacenamiento de datos, notificaciones). Para el "Censo Rural", esto incluye la gestión de usuarios, la interfaz de usuario intuitiva (adaptada para uso offline y en campo), la gestión de categorías, la captura de datos en campo (con georreferenciación y adjunto de fotos), la gestión de archivos y el análisis de estadísticas.
+•
+Requerimientos no funcionales: Estableciendo las expectativas sobre el rendimiento (tiempos de respuesta), la seguridad y privacidad de los datos (lo cual es vital para la información personal del censo), la usabilidad (diseño, facilidad de uso, accesibilidad), y la escalabilidad del sistema. Es crucial considerar la alta disponibilidad y el funcionamiento offline para las zonas rurales con conectividad limitada.
+•
+Interfaz de usuario: Determinando preferencias de diseño y si habrá usuarios con discapacidades o necesidades especiales.
+•
+Restricciones y limitaciones: Identificando limitaciones técnicas, de presupuesto o de tiempo, así como políticas internas o requisitos legales relevantes (como normativas de protección de datos).
+En síntesis, estas "fichas técnicas para la recolección de la información" serán herramientas esenciales para diagnosticar el estado actual de los procesos, entender el cumplimiento normativo necesario y buscar oportunidades de mejora y optimización para el software del "Censo Rural"
+
+Resumen Técnico y Práctico del Repositorio DBInterface
+
+El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
+
+Características Principales
+
+Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
+
+Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
+
+Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
+
+Estructura del Repositorio
+
+Archivos Clave:
+
+README.md: Documentación del proyecto.
+busca.py: Script para buscar datos en la base de datos.
+database.py: Manejo de la base de datos SQLite.
+genero.py: Funciones relacionadas con la gestión de datos.
+index.py: Archivo principal que ejecuta la aplicación.
+statisk.ipynb: Notebook de Jupyter para análisis de datos.
+Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
+
+Instalación y Uso
+
+Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
+
+Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
+
+Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
+
+Conclusión
+
+El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
+
+
+
+
+Dise~o de ficha tecnica para recoleccion de la informacion
+..
+
+
+Diseño de fichas técnicas para la recolección de la información se enmarca dentro del proyecto "Censo Rural". Este proyecto tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [conversación previa, 223]. El sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [conversación previa, 187, 207, 223].
+En este marco, las "fichas técnicas para la recolección de la información" se refieren a los instrumentos diseñados para la elicitación de requerimientos del propio software "Censo Rural". El propósito principal de esta elicitación es obtener conocimientos relevantes del problema para producir una especificación formal del software necesario para resolverlo.
+Para la elaboración de estas fichas, se utilizarán las encuestas y entrevistas como técnicas principales de elicitación de requisitos. Específicamente:
+•
+Se implementará un cuestionario mixto, que combinará preguntas abiertas para obtener información cualitativa y una mayor profundidad en las respuestas, con preguntas cerradas para recabar datos más específicos y cuantificables. Este cuestionario, idealmente de entre 8 y 10 preguntas para mantener la atención del encuestado, busca diagnosticar las necesidades tecnológicas y las posibles soluciones de software de los clientes, además de evaluar la madurez tecnológica actual, identificar necesidades de automatización y medir la disposición al cambio. Incluirá formatos como escalas Likert, preguntas dicotómicas y de opción múltiple.
+•
+Se complementará con entrevistas de profundización. El objetivo de estas entrevistas es entender en detalle los requerimientos para desarrollar un software que facilite el trabajo diario de los usuarios. Estas entrevistas son cruciales para asegurar que el sistema se ajuste a las necesidades reales del usuario.
+Las fichas técnicas resultantes, ya sean cuestionarios o guiones de entrevista, permitirán recopilar información fundamental sobre:
+•
+Contexto y perfil del usuario: Identificando a los usuarios que interactuarán con el software (como encuestadores, supervisores y administradores), sus roles, las tareas que realizan diariamente, las herramientas que usan actualmente y las limitaciones que enfrentan.
+•
+Objetivos y necesidades: Abordando el principal problema que el software debe resolver y las necesidades específicas que debe cubrir.
+•
+Requerimientos funcionales: Precisando las funciones y características específicas que el software debe tener (ej., formularios dinámicos, generación de reportes, almacenamiento de datos, notificaciones). Para el "Censo Rural", esto incluye la gestión de usuarios, la interfaz de usuario intuitiva (adaptada para uso offline y en campo), la gestión de categorías, la captura de datos en campo (con georreferenciación y adjunto de fotos), la gestión de archivos y el análisis de estadísticas.
+•
+Requerimientos no funcionales: Estableciendo las expectativas sobre el rendimiento (tiempos de respuesta), la seguridad y privacidad de los datos (lo cual es vital para la información personal del censo), la usabilidad (diseño, facilidad de uso, accesibilidad), y la escalabilidad del sistema. Es crucial considerar la alta disponibilidad y el funcionamiento offline para las zonas rurales con conectividad limitada.
+•
+Interfaz de usuario: Determinando preferencias de diseño y si habrá usuarios con discapacidades o necesidades especiales.
+•
+Restricciones y limitaciones: Identificando limitaciones técnicas, de presupuesto o de tiempo, así como políticas internas o requisitos legales relevantes (como normativas de protección de datos).
+En síntesis, estas "fichas técnicas para la recolección de la información" serán herramientas esenciales para diagnosticar el estado actual de los procesos, entender el cumplimiento normativo necesario y buscar oportunidades de mejora y optimización para el software del "Censo Rural"
+
+Resumen Técnico y Práctico del Repositorio DBInterface
+
+El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
+
+Características Principales
+
+Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
+
+Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
+
+Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
+
+Estructura del Repositorio
+
+Archivos Clave:
+
+README.md: Documentación del proyecto.
+busca.py: Script para buscar datos en la base de datos.
+database.py: Manejo de la base de datos SQLite.
+genero.py: Funciones relacionadas con la gestión de datos.
+index.py: Archivo principal que ejecuta la aplicación.
+statisk.ipynb: Notebook de Jupyter para análisis de datos.
+Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
+
+Instalación y Uso
+
+Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
+
+Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
+
+Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
+
+Conclusión
+
+El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
+
+
+
+
+Dise~o de ficha tecnica para recoleccion de la informacion
+..
+
+
+Diseño de fichas técnicas para la recolección de la información se enmarca dentro del proyecto "Censo Rural". Este proyecto tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [conversación previa, 223]. El sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [conversación previa, 187, 207, 223].
+En este marco, las "fichas técnicas para la recolección de la información" se refieren a los instrumentos diseñados para la elicitación de requerimientos del propio software "Censo Rural". El propósito principal de esta elicitación es obtener conocimientos relevantes del problema para producir una especificación formal del software necesario para resolverlo.
+Para la elaboración de estas fichas, se utilizarán las encuestas y entrevistas como técnicas principales de elicitación de requisitos. Específicamente:
+•
+Se implementará un cuestionario mixto, que combinará preguntas abiertas para obtener información cualitativa y una mayor profundidad en las respuestas, con preguntas cerradas para recabar datos más específicos y cuantificables. Este cuestionario, idealmente de entre 8 y 10 preguntas para mantener la atención del encuestado, busca diagnosticar las necesidades tecnológicas y las posibles soluciones de software de los clientes, además de evaluar la madurez tecnológica actual, identificar necesidades de automatización y medir la disposición al cambio. Incluirá formatos como escalas Likert, preguntas dicotómicas y de opción múltiple.
+•
+Se complementará con entrevistas de profundización. El objetivo de estas entrevistas es entender en detalle los requerimientos para desarrollar un software que facilite el trabajo diario de los usuarios. Estas entrevistas son cruciales para asegurar que el sistema se ajuste a las necesidades reales del usuario.
+Las fichas técnicas resultantes, ya sean cuestionarios o guiones de entrevista, permitirán recopilar información fundamental sobre:
+•
+Contexto y perfil del usuario: Identificando a los usuarios que interactuarán con el software (como encuestadores, supervisores y administradores), sus roles, las tareas que realizan diariamente, las herramientas que usan actualmente y las limitaciones que enfrentan.
+•
+Objetivos y necesidades: Abordando el principal problema que el software debe resolver y las necesidades específicas que debe cubrir.
+•
+Requerimientos funcionales: Precisando las funciones y características específicas que el software debe tener (ej., formularios dinámicos, generación de reportes, almacenamiento de datos, notificaciones). Para el "Censo Rural", esto incluye la gestión de usuarios, la interfaz de usuario intuitiva (adaptada para uso offline y en campo), la gestión de categorías, la captura de datos en campo (con georreferenciación y adjunto de fotos), la gestión de archivos y el análisis de estadísticas.
+•
+Requerimientos no funcionales: Estableciendo las expectativas sobre el rendimiento (tiempos de respuesta), la seguridad y privacidad de los datos (lo cual es vital para la información personal del censo), la usabilidad (diseño, facilidad de uso, accesibilidad), y la escalabilidad del sistema. Es crucial considerar la alta disponibilidad y el funcionamiento offline para las zonas rurales con conectividad limitada.
+•
+Interfaz de usuario: Determinando preferencias de diseño y si habrá usuarios con discapacidades o necesidades especiales.
+•
+Restricciones y limitaciones: Identificando limitaciones técnicas, de presupuesto o de tiempo, así como políticas internas o requisitos legales relevantes (como normativas de protección de datos).
+En síntesis, estas "fichas técnicas para la recolección de la información" serán herramientas esenciales para diagnosticar el estado actual de los procesos, entender el cumplimiento normativo necesario y buscar oportunidades de mejora y optimización para el software del "Censo Rural"
+
+Resumen Técnico y Práctico del Repositorio DBInterface
+
+El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
+
+Características Principales
+
+Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
+
+Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
+
+Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
+
+Estructura del Repositorio
+
+Archivos Clave:
+
+README.md: Documentación del proyecto.
+busca.py: Script para buscar datos en la base de datos.
+database.py: Manejo de la base de datos SQLite.
+genero.py: Funciones relacionadas con la gestión de datos.
+index.py: Archivo principal que ejecuta la aplicación.
+statisk.ipynb: Notebook de Jupyter para análisis de datos.
+Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
+
+Instalación y Uso
+
+Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
+
+Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
+
+Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
+
+Conclusión
+
+El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
+
+
+
+
+Dise~o de ficha tecnica para recoleccion de la informacion
+..
+
+
+Diseño de fichas técnicas para la recolección de la información se enmarca dentro del proyecto "Censo Rural". Este proyecto tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [conversación previa, 223]. El sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [conversación previa, 187, 207, 223].
+En este marco, las "fichas técnicas para la recolección de la información" se refieren a los instrumentos diseñados para la elicitación de requerimientos del propio software "Censo Rural". El propósito principal de esta elicitación es obtener conocimientos relevantes del problema para producir una especificación formal del software necesario para resolverlo.
+Para la elaboración de estas fichas, se utilizarán las encuestas y entrevistas como técnicas principales de elicitación de requisitos. Específicamente:
+•
+Se implementará un cuestionario mixto, que combinará preguntas abiertas para obtener información cualitativa y una mayor profundidad en las respuestas, con preguntas cerradas para recabar datos más específicos y cuantificables. Este cuestionario, idealmente de entre 8 y 10 preguntas para mantener la atención del encuestado, busca diagnosticar las necesidades tecnológicas y las posibles soluciones de software de los clientes, además de evaluar la madurez tecnológica actual, identificar necesidades de automatización y medir la disposición al cambio. Incluirá formatos como escalas Likert, preguntas dicotómicas y de opción múltiple.
+•
+Se complementará con entrevistas de profundización. El objetivo de estas entrevistas es entender en detalle los requerimientos para desarrollar un software que facilite el trabajo diario de los usuarios. Estas entrevistas son cruciales para asegurar que el sistema se ajuste a las necesidades reales del usuario.
+Las fichas técnicas resultantes, ya sean cuestionarios o guiones de entrevista, permitirán recopilar información fundamental sobre:
+•
+Contexto y perfil del usuario: Identificando a los usuarios que interactuarán con el software (como encuestadores, supervisores y administradores), sus roles, las tareas que realizan diariamente, las herramientas que usan actualmente y las limitaciones que enfrentan.
+•
+Objetivos y necesidades: Abordando el principal problema que el software debe resolver y las necesidades específicas que debe cubrir.
+•
+Requerimientos funcionales: Precisando las funciones y características específicas que el software debe tener (ej., formularios dinámicos, generación de reportes, almacenamiento de datos, notificaciones). Para el "Censo Rural", esto incluye la gestión de usuarios, la interfaz de usuario intuitiva (adaptada para uso offline y en campo), la gestión de categorías, la captura de datos en campo (con georreferenciación y adjunto de fotos), la gestión de archivos y el análisis de estadísticas.
+•
+Requerimientos no funcionales: Estableciendo las expectativas sobre el rendimiento (tiempos de respuesta), la seguridad y privacidad de los datos (lo cual es vital para la información personal del censo), la usabilidad (diseño, facilidad de uso, accesibilidad), y la escalabilidad del sistema. Es crucial considerar la alta disponibilidad y el funcionamiento offline para las zonas rurales con conectividad limitada.
+•
+Interfaz de usuario: Determinando preferencias de diseño y si habrá usuarios con discapacidades o necesidades especiales.
+•
+Restricciones y limitaciones: Identificando limitaciones técnicas, de presupuesto o de tiempo, así como políticas internas o requisitos legales relevantes (como normativas de protección de datos).
+En síntesis, estas "fichas técnicas para la recolección de la información" serán herramientas esenciales para diagnosticar el estado actual de los procesos, entender el cumplimiento normativo necesario y buscar oportunidades de mejora y optimización para el software del "Censo Rural"
+
+Resumen Técnico y Práctico del Repositorio DBInterface
+
+El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
+
+Características Principales
+
+Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
+
+Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
+
+Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
+
+Estructura del Repositorio
+
+Archivos Clave:
+
+README.md: Documentación del proyecto.
+busca.py: Script para buscar datos en la base de datos.
+database.py: Manejo de la base de datos SQLite.
+genero.py: Funciones relacionadas con la gestión de datos.
+index.py: Archivo principal que ejecuta la aplicación.
+statisk.ipynb: Notebook de Jupyter para análisis de datos.
+Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
+
+Instalación y Uso
+
+Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
+
+Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
+
+Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
+
+Conclusión
+
+El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
+
+
+
+
+Componentes relacionados con GA2-220501094
+Diseño de fichas técnicas para la recolección de la información – GA2-220501094-AA1-EV02
+Especificación de referentes técnicos de hardware/software y estimación de condiciones económicas – GA2-220501094-AA1-EV03
+Ficha técnica de productos, términos de referencia y lista de chequeo de proveedores – GA2-220501094-AA2-EV01
+Diseño de tablas comparativas sobre presupuestos de hardware y software – GA2-220501094-AA3-EV01
+Propuesta técnica y económica para la implementación del proyecto – GA2-220501094-AA3-EV02
+Taller del modelo conceptual y estructuración de la propuesta técnica del software – GA2-220501094-AA4-EV01
+Propuestas técnica y económica ajustadas por negociación tecnológica – GA2-220501094-AA4-EV02
+Foro temático: Licenciamiento de software – GA2-220501094-AA1-EV01
+Otros componentes y información general
+Diagramas del modelo de dominio del proyecto – GA2-220501093-AA2-EV01
+Planteamiento de ecuación – GA2-240201528-AA2-EV01
+Video de sustentación – GA2-240201528-AA3-EV01
+Algoritmo para cálculo de áreas y volúmenes – GA2-240201528-AA4-EV01
+Bases conceptuales de lógica proposicional – GA3-220501093-AA1-EV01
+
+
+/***
+*****************************************************************
+**/
+
+/*** descricion del proyecto
+Resumen Técnico y Práctico del Repositorio DBInterface
+
+El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
+
+Características Principales
+
+Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
+
+Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
+
+Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
+
+Estructura del Repositorio
+
+Archivos Clave:
+
+README.md: Documentación del proyecto.
+busca.py: Script para buscar datos en la base de datos.
+database.py: Manejo de la base de datos SQLite.
+genero.py: Funciones relacionadas con la gestión de datos.
+index.py: Archivo principal que ejecuta la aplicación.
+statisk.ipynb: Notebook de Jupyter para análisis de datos.
+Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
+
+Instalación y Uso
+
+Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
+
+Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
+
+Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
+
+Conclusión
+
+El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
+**/
 Elaboracion de diagramas y plantillas para casos de uso del proyecto
 
 Elaboracion de historia de usuarios del proyecto
@@ -495,9 +813,9 @@ informe analisis con listas de chequeo para validacion de artefactos
 
 - 6 -       Requisitos No funcionales  Los  requisitos  no  funcionales  para  un  software  son  aquellos  que  describen  las cualidades  o  características  que  el  sistema  debe  tener,  pero  que  no  están directamente  relacionadas  con  su  funcionalidad.  Estos  requisitos  suelen  estar relacionados con aspectos de rendimiento, seguridad, usabilidad, confiabilidad y otros aspectos  importantes  para  la  calidad  del  software.  Algunos  ejemplos  comunes  de requisitos no funcionales incluyen:  ✓  Rendimiento: Define cómo debe comportarse el sistema en términos de tiempo de respuesta, capacidad de procesamiento, uso de recursos (como memoria o CPU), y tolerancia a la carga.  ✓  Seguridad: Especifica los requisitos para proteger el sistema contra accesos no autorizados,  ataques  maliciosos,  pérdida  de  datos  y  otras  amenazas  de seguridad.  ✓  Usabilidad:  Describe  la  facilidad  de  uso  del  sistema,  incluida  la  interfaz  de usuario,  la  accesibilidad,  la  capacidad  de  aprendizaje  y  la  satisfacción  del usuario.  ✓  Disponibilidad:  Define  la  disponibilidad  del  sistema,  incluido  el  tiempo  de actividad esperado, la capacidad de recuperación ante fallos y los mecanismos de respaldo.  ✓  Mantenibilidad: Describe la facilidad con la que el sistema puede ser mantenido y modificado, incluida la claridad del código, la documentación y la facilidad de prueba.  ✓  Portabilidad:  Especifica  la  capacidad  del  sistema  para  ser  utilizado  en diferentes  entornos,  como  diferentes  sistemas  operativos,  plataformas  de hardware o configuraciones de red.  ✓  Confiabilidad:  Describe  la  capacidad  del  sistema  para  funcionar  de  manera consistente  y  predecible,  incluida  la  tolerancia  a  fallos  y  la  capacidad  de recuperación. 
 - 7 -    Documentos de listas de Chequeo   Las  listas  de  chequeo  consisten  en  un  formato  (analógico  o  digital)  para  realizar acciones  repetitivas  que  hay  que  verificar.  Con  la  ayuda  de  esta  lista  vamos  a comprobar de una forma ordenada y sistemática el cumplimiento de los requisitos que contiene la lista. Esta técnica de recogida de datos se prepara para que su uso sea fácil, e interfiera lo menos posible con la actividad de quien realiza el registro  PASOS PARA ELABORAR UNA LISTA DE CHEQUEO.  DETERMINAR EL ÁREA QUE SE QUIERE EVALUAR Los integrantes deben enfocar su atención hacia el análisis de las características del proceso,  además  deben  tener  claras  las  partes  del  proceso  a  observar  para  no perderse. Esta determinación es muy importante cuando una compañía cuenta con varias sedes o localizaciones. ✓  Diseñar el formato de verificación escribir las categorías o variables posibles establecer la escala de ocurrencias. diseñar la cuadrícula. Asegurarse de que todas  las  partes  del  checklist  estén  claramente  descritas.  Esta  herramienta busca quitar problemas y que tengamos un formato claro y fácil de usar.  ✓  Tomar nota de la información en el formato de la verificación registrarlo en una base de datos para su tratamiento estadístico y análisis de los resultados.  ✓  Asegúrate  de  que  se  dedique  el  tiempo  necesario  para  esta  actividad.  El encargado o encargada de recopilar los datos, debe tomarse su tiempo, a veces hay procesos que son un poco repetitivos y tediosos y pueden llegar a cansar
+
+
 Elaboracion de diagramas y plantillas para casos de uso del proyecto
-
-
 Elaboracion de historia de usuarios del proyecto
 Diagramas y documentaciopn de actividades del proyecto
 informe analisis con listas de chequeo para validacion de artefactos

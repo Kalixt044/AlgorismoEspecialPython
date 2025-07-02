@@ -1,0 +1,55 @@
+Se complementará con entrevistas de profundización. El objetivo de estas entrevistas es entender en detalle los requerimientos para desarrollar un software que facilite el trabajo diario de los usuarios. Estas entrevistas son cruciales para asegurar que el sistema se ajuste a las necesidades reales del usuario.
+Las fichas técnicas resultantes, ya sean cuestionarios o guiones de entrevista, permitirán recopilar información fundamental sobre:
+•
+Contexto y perfil del usuario: Identificando a los usuarios que interactuarán con el software (como encuestadores, supervisores y administradores), sus roles, las tareas que realizan diariamente, las herramientas que usan actualmente y las limitaciones que enfrentan.
+•
+Objetivos y necesidades: Abordando el principal problema que el software debe resolver y las necesidades específicas que debe cubrir.
+•
+Requerimientos funcionales: Precisando las funciones y características específicas que el software debe tener (ej., formularios dinámicos, generación de reportes, almacenamiento de datos, notificaciones). Para el "Censo Rural", esto incluye la gestión de usuarios, la interfaz de usuario intuitiva (adaptada para uso offline y en campo), la gestión de categorías, la captura de datos en campo (con georreferenciación y adjunto de fotos), la gestión de archivos y el análisis de estadísticas.
+•
+Requerimientos no funcionales: Estableciendo las expectativas sobre el rendimiento (tiempos de respuesta), la seguridad y privacidad de los datos (lo cual es vital para la información personal del censo), la usabilidad (diseño, facilidad de uso, accesibilidad), y la escalabilidad del sistema. Es crucial considerar la alta disponibilidad y el funcionamiento offline para las zonas rurales con conectividad limitada.
+•
+Interfaz de usuario: Determinando preferencias de diseño y si habrá usuarios con discapacidades o necesidades especiales.
+•
+Restricciones y limitaciones: Identificando limitaciones técnicas, de presupuesto o de tiempo, así como políticas internas o requisitos legales relevantes (como normativas de protección de datos).
+En síntesis, estas "fichas técnicas para la recolección de la información" serán herramientas esenciales para diagnosticar el estado actual de los procesos, entender el cumplimiento normativo necesario y buscar oportunidades de mejora y optimización para el software del "Censo Rural"
+
+Resumen Técnico y Práctico del Repositorio DBInterface
+
+El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
+
+Características Principales
+
+Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
+
+Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
+
+Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
+
+Estructura del Repositorio
+
+Archivos Clave:
+
+README.md: Documentación del proyecto.
+busca.py: Script para buscar datos en la base de datos.
+database.py: Manejo de la base de datos SQLite.
+genero.py: Funciones relacionadas con la gestión de datos.
+index.py: Archivo principal que ejecuta la aplicación.
+statisk.ipynb: Notebook de Jupyter para análisis de datos.
+Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
+
+Instalación y Uso
+
+Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
+
+Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
+
+Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
+
+Conclusión
+
+El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
+
+
+
+

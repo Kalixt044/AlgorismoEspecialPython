@@ -1,0 +1,59 @@
+220501094-01 - Definir especificaciones técnicas de acuerdo 
+con las características del software a construir.
+Actividad de aprendizaje: GA2-220501094-AA1 - Determinar las especificaciones 
+técnicas a partir del diagnóstico de necesidades informáticas.
+Evidencia de conocimiento: Foro temático: Licenciamiento de software. GA2-220501094-
+AA1-EV01
+Criterios de evaluación:
+● Dimensiona las licencias de software de acuerdo con las características de la solución y las 
+necesidades de la empresa.
+● Estima condiciones técnicas y económicas de acuerdo con las características de la solución de 
+software y las necesidades de la empresa.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones SÍ NO
+1. Su concepto sobre las licencias de software es claro. 40%
+
+2. Da una opinión coherente a las respuestas de 30 
+
+compañeros.30%
+
+3.Cumple con todas las normas de ortografía al contestar 
+el foro temático.10%
+
+4.Da respuesta correctamente a las 4 preguntas 
+propuestas para el foro, utilizando un lenguaje técnico 
+y coherente con la temática.
+
+Resumen Técnico y Práctico del Repositorio DBInterface
+
+El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
+
+Características Principales
+
+Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
+
+Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
+
+Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
+
+Estructura del Repositorio
+
+Archivos Clave:
+
+README.md: Documentación del proyecto.
+busca.py: Script para buscar datos en la base de datos.
+database.py: Manejo de la base de datos SQLite.
+genero.py: Funciones relacionadas con la gestión de datos.
+index.py: Archivo principal que ejecuta la aplicación.
+statisk.ipynb: Notebook de Jupyter para análisis de datos.
+Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
+
+Instalación y Uso
+
+Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
+
+Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
+
+Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
+
+https://zajuna.sena.edu.co/zajuna/mod/forum/view.php?id=2251176 
