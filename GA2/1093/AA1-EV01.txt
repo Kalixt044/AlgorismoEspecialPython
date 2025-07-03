@@ -1,0 +1,26 @@
+
+/***
+Foro temático: Lenguaje Unificado de Modelado (UML). GA2-
+220501093-AA1-EV01
+Criterios de evaluación:
+ Interpreta el informe de requisitos para modelar las funciones del software.
+ Elabora diagramas de casos de uso de acuerdo con los estándares actuales, mediante
+Lenguaje Unificado de Modelado (UML).
+ Genera plantillas extendidas de casos de uso expresando la intención de las acciones a
+desarrollar.
+ Realiza diagramas de actividades exponiendo detalles de los casos de uso.
+ Documenta las actividades de análisis a través de un informe.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. Indica los tipos de símbolos existentes en UML. 30%
+2. Da ejemplos claros de tipos de diagramas que se
+pueden crear con UML.
+30%
+3. Da una opinión satisfactoria a las respuestas de 3
+compañeros acerca de UML.
+30%
+4. Cumple con todas las normas de ortografía al
+contestar el foro temático.
+10%
+**/

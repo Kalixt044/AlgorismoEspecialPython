@@ -1,2 +1,69 @@
 Propuesta técnica y económica para la implementación del proyecto. GA2-220501094-AA3-EV02
 https://zajuna.sena.edu.co/zajuna/mod/assign/view.php?id=2251194
+
+
+/***
+
+Lista de chequeo:
+
+Propuesta técnica y económica para la implementación del
+proyecto GA2-220501094-AA3-EV02
+Criterios de evaluación:
+● Estima costos de software y hardware de acuerdo con las características del negocio.
+● Documenta la propuesta técnica según las especificaciones de la solución de software.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. El documento cumple con las normas básicas de
+presentación de documentos escritos definidas.
+20%
+2. Elabora la propuesta técnica y económica para la
+implementación del proyecto según especificaciones.
+50%
+3. En la solución propuesta, se detalla la estrategia que
+permitirá darle solución al problema existente por
+medio de una solución de software y en linealidad con
+todos los lineamientos generales de la evidencia a
+entregar.
+30%
+
+**/
+
+
+/***
+Resumen Técnico y Práctico del Repositorio DBInterface
+
+El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
+
+Características Principales
+
+Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
+
+Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
+
+Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
+
+Estructura del Repositorio
+
+Archivos Clave:
+
+README.md: Documentación del proyecto.
+busca.py: Script para buscar datos en la base de datos.
+database.py: Manejo de la base de datos SQLite.
+genero.py: Funciones relacionadas con la gestión de datos.
+index.py: Archivo principal que ejecuta la aplicación.
+statisk.ipynb: Notebook de Jupyter para análisis de datos.
+Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
+
+Instalación y Uso
+
+Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
+
+Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
+
+Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
+
+Conclusión
+
+El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
+**/

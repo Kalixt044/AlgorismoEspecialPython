@@ -1,6 +1,177 @@
-Dise~o de ficha tecnica para recoleccion de la informacion
+Foro temático: Licenciamiento de software. GA2-220501094-
+AA1-EV01
+Criterios de evaluación:
+● Dimensiona las licencias de software de acuerdo con las características de la solución y las
+necesidades de la empresa.
+● Estima condiciones técnicas y económicas de acuerdo con las características de la solución de
+software y las necesidades de la empresa.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. Su concepto sobre las licencias de software es claro. 40%
+2. Da una opinión coherente a las respuestas de 3
+compañeros.
+30%
+3
+.
+.
+Cumple con todas las normas de ortografía al contestar
+el foro temático.
+10%
+4
+.
+Da respuesta correctamente a las 4 preguntas
+propuestas para el foro, utilizando un lenguaje técnico
+y coherente con la temática.
+20%
+Estima condiciones técnicas y económicas de acuerdo con las características de la solución de 
+software y las necesidades de la empresa.
+
+Características Principales
+
+Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
+
+Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
+
+Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
+
+Estructura del Repositorio
+
+Archivos Clave:
+
+README.md: Documentación del proyecto.
+busca.py: Script para buscar datos en la base de datos.
+database.py: Manejo de la base de datos SQLite.
+genero.py: Funciones relacionadas con la gestión de datos.
+index.py: Archivo principal que ejecuta la aplicación.
+statisk.ipynb: Notebook de Jupyter para análisis de datos.
+Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
+
+Instalación y Uso
+
+Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
+
+Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
+
+Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
+
+https://zajuna.sena.edu.co/zajuna/mod/forum/view.php?id=2251176 
+Diseño de las fichas técnicas para la recolección de la
+información. GA2-220501094-AA1-EV02
+https://zajuna.sena.edu.co/zajuna/mod/assign/view.php?id=2251179
 ..
 
+/**
+lista de chequeo:
+Diseño de las fichas técnicas para la recolección de la
+información. GA2-220501094-AA1-EV02.
+Criterios de evaluación:
+● Diseña formatos de fichas técnicas de acuerdo con estándares.
+● Elabora referentes técnicos de acuerdo con la normatividad legal vigente.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. Identifica cada uno de los elementos que intervienen en
+el sistema de información.
+30%
+2. Evidencia el uso de técnicas de análisis de procesos. 20%
+3. Usa las metodologías establecidas para el análisis de
+procesos.
+30%
+4. Presenta el informe cumpliendo con las normas básicas
+de presentación de documentos.
+10%
+5. La ficha técnica presentada tiene como referencia la
+Norma NTC ISO 9000 Sistema de Gestión de Calidad
+**/
+
+Diseño de fichas técnicas para la recolección de la información se enmarca dentro del proyecto "Censo Rural". Este proyecto tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas. El sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [conversación previa, 187, 207, 223].
+En este marco, las "fichas técnicas para la recolección de la información" se refieren a los instrumentos diseñados para la elicitación de requerimientos del propio software "Censo Rural". El propósito principal de esta elicitación es obtener conocimientos relevantes del problema para producir una especificación formal del software necesario para resolverlo.
+Para la elaboración de estas fichas, se utilizarán las encuestas y entrevistas como técnicas principales de elicitación de requisitos. Específicamente:
+•
+Se implementará un cuestionario mixto, que combinará preguntas abiertas para obtener información cualitativa y una mayor profundidad en las respuestas, con preguntas cerradas para recabar datos más específicos y cuantificables. Este cuestionario, idealmente de entre 8 y 10 preguntas para mantener la atención del encuestado, busca diagnosticar las necesidades tecnológicas y las posibles soluciones de software de los clientes, además de evaluar la madurez tecnológica actual, identificar necesidades de automatización y medir la disposición al cambio. Incluirá formatos como escalas Likert, preguntas dicotómicas y de opción múltiple.
+•
+Se complementará con entrevistas de profundización. El objetivo de estas entrevistas es entender en detalle los requerimientos para desarrollar un software que facilite el trabajo diario de los usuarios. Estas entrevistas son cruciales para asegurar que el sistema se ajuste a las necesidades reales del usuario.
+Las fichas técnicas resultantes, ya sean cuestionarios o guiones de entrevista, permitirán recopilar información fundamental sobre:
+•
+Contexto y perfil del usuario: Identificando a los usuarios que interactuarán con el software (como encuestadores, supervisores y administradores), sus roles, las tareas que realizan diariamente, las herramientas que usan actualmente y las limitaciones que enfrentan.
+•
+Objetivos y necesidades: Abordando el principal problema que el software debe resolver y las necesidades específicas que debe cubrir.
+•
+Requerimientos funcionales: Precisando las funciones y características específicas que el software debe tener (ej., formularios dinámicos, generación de reportes, almacenamiento de datos, notificaciones). Para el "Censo Rural", esto incluye la gestión de usuarios, la interfaz de usuario intuitiva (adaptada para uso offline y en campo), la gestión de categorías, la captura de datos en campo (con georreferenciación y adjunto de fotos), la gestión de archivos y el análisis de estadísticas.
+•
+Requerimientos no funcionales: Estableciendo las expectativas sobre el rendimiento (tiempos de respuesta), la seguridad y privacidad de los datos (lo cual es vital para la información personal del censo), la usabilidad (diseño, facilidad de uso, accesibilidad), y la escalabilidad del sistema. Es crucial considerar la alta disponibilidad y el funcionamiento offline para las zonas rurales con conectividad limitada.
+•
+Interfaz de usuario: Determinando preferencias de diseño y si habrá usuarios con discapacidades o necesidades especiales.
+•
+Restricciones y limitaciones: Identificando limitaciones técnicas, de presupuesto o de tiempo, así como políticas internas o requisitos legales relevantes (como normativas de protección de datos).
+En síntesis, estas "fichas técnicas para la recolección de la información" serán herramientas esenciales para diagnosticar el estado actual de los procesos, entender el cumplimiento normativo necesario y buscar oportunidades de mejora y optimización para el software del "Censo Rural"
+
+Resumen Técnico y Práctico del Repositorio DBInterface
+
+El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
+
+Características Principales
+
+Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
+
+Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
+
+Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
+
+Estructura del Repositorio
+
+Archivos Clave:
+
+README.md: Documentación del proyecto.
+busca.py: Script para buscar datos en la base de datos.
+database.py: Manejo de la base de datos SQLite.
+genero.py: Funciones relacionadas con la gestión de datos.
+index.py: Archivo principal que ejecuta la aplicación.
+statisk.ipynb: Notebook de Jupyter para análisis de datos.
+Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
+
+Instalación y Uso
+
+Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
+
+Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
+
+Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
+
+Conclusión
+
+El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
+
+
+
+
+Especificación de los referentes técnicos del hardware -
+software y estimación de las condiciones económicas. GA2-
+220501094-AA1-EV03
+https://zajuna.sena.edu.co/zajuna/mod/assign/view.php?id=2251182
+..
+/***
+lista de chequeo:
+Criterios de evaluación:
+ Dimensiona las licencias de software de acuerdo con las características de la solución y las
+necesidades de la empresa.
+ Estima condiciones técnicas y económicas de acuerdo con las características de la solución de
+software y las necesidades de la empresa.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+Sí NO
+1. El documento cumple con las normas básicas de
+presentación de documentos escritos definidas.
+10%
+2. El informe dimensiona claramente las licencias de
+software de acuerdo con las características de la
+solución y las necesidades de la empresa.
+50%
+3. El documento estima las condiciones técnicas y
+económicas de acuerdo con las características de la
+solución de software y las necesidades de la empresa
+**/
 
 Diseño de fichas técnicas para la recolección de la información se enmarca dentro del proyecto "Censo Rural". Este proyecto tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [conversación previa, 223]. El sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [conversación previa, 187, 207, 223].
 En este marco, las "fichas técnicas para la recolección de la información" se refieren a los instrumentos diseñados para la elicitación de requerimientos del propio software "Censo Rural". El propósito principal de esta elicitación es obtener conocimientos relevantes del problema para producir una especificación formal del software necesario para resolverlo.
@@ -63,10 +234,29 @@ El repositorio DBInterface es una herramienta útil para la recolección y gesti
 
 
 
-Dise~o de ficha tecnica para recoleccion de la informacion
+Ficha técnica de los productos requeridos, los términos de referencia para el contrato y lista de chequeo para
+evaluación de proveedores.
+GA2-220501094-AA2-EV01
+https://zajuna.sena.edu.co/zajuna/mod/assign/view.php?id=2251187 
 ..
-
-
+/***
+lista de chequeo:
+Elabora análisis comparativo de proveedores, considerando costos, cantidad y especificaciones
+técnicas definidas.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. El documento cumple con las normas básicas de
+presentación de documentos escritos definidas.
+10%
+2. Elabora la ficha técnica de los productos requeridos. 30%
+3. Elabora la lista de chequeo para evaluación de
+proveedores.
+40%
+4. La ficha técnica presentada contiene: descripción,
+características y funciones de un determinado
+producto, del cual se parte el desarrollo.
+**/
 Diseño de fichas técnicas para la recolección de la información se enmarca dentro del proyecto "Censo Rural". Este proyecto tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [conversación previa, 223]. El sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [conversación previa, 187, 207, 223].
 En este marco, las "fichas técnicas para la recolección de la información" se refieren a los instrumentos diseñados para la elicitación de requerimientos del propio software "Censo Rural". El propósito principal de esta elicitación es obtener conocimientos relevantes del problema para producir una especificación formal del software necesario para resolverlo.
 Para la elaboración de estas fichas, se utilizarán las encuestas y entrevistas como técnicas principales de elicitación de requisitos. Específicamente:
@@ -126,160 +316,48 @@ Conclusión
 El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
 
 
-
-
-Dise~o de ficha tecnica para recoleccion de la informacion
-..
-
-
-Diseño de fichas técnicas para la recolección de la información se enmarca dentro del proyecto "Censo Rural". Este proyecto tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [conversación previa, 223]. El sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [conversación previa, 187, 207, 223].
-En este marco, las "fichas técnicas para la recolección de la información" se refieren a los instrumentos diseñados para la elicitación de requerimientos del propio software "Censo Rural". El propósito principal de esta elicitación es obtener conocimientos relevantes del problema para producir una especificación formal del software necesario para resolverlo.
-Para la elaboración de estas fichas, se utilizarán las encuestas y entrevistas como técnicas principales de elicitación de requisitos. Específicamente:
-•
-Se implementará un cuestionario mixto, que combinará preguntas abiertas para obtener información cualitativa y una mayor profundidad en las respuestas, con preguntas cerradas para recabar datos más específicos y cuantificables. Este cuestionario, idealmente de entre 8 y 10 preguntas para mantener la atención del encuestado, busca diagnosticar las necesidades tecnológicas y las posibles soluciones de software de los clientes, además de evaluar la madurez tecnológica actual, identificar necesidades de automatización y medir la disposición al cambio. Incluirá formatos como escalas Likert, preguntas dicotómicas y de opción múltiple.
-•
-Se complementará con entrevistas de profundización. El objetivo de estas entrevistas es entender en detalle los requerimientos para desarrollar un software que facilite el trabajo diario de los usuarios. Estas entrevistas son cruciales para asegurar que el sistema se ajuste a las necesidades reales del usuario.
-Las fichas técnicas resultantes, ya sean cuestionarios o guiones de entrevista, permitirán recopilar información fundamental sobre:
-•
-Contexto y perfil del usuario: Identificando a los usuarios que interactuarán con el software (como encuestadores, supervisores y administradores), sus roles, las tareas que realizan diariamente, las herramientas que usan actualmente y las limitaciones que enfrentan.
-•
-Objetivos y necesidades: Abordando el principal problema que el software debe resolver y las necesidades específicas que debe cubrir.
-•
-Requerimientos funcionales: Precisando las funciones y características específicas que el software debe tener (ej., formularios dinámicos, generación de reportes, almacenamiento de datos, notificaciones). Para el "Censo Rural", esto incluye la gestión de usuarios, la interfaz de usuario intuitiva (adaptada para uso offline y en campo), la gestión de categorías, la captura de datos en campo (con georreferenciación y adjunto de fotos), la gestión de archivos y el análisis de estadísticas.
-•
-Requerimientos no funcionales: Estableciendo las expectativas sobre el rendimiento (tiempos de respuesta), la seguridad y privacidad de los datos (lo cual es vital para la información personal del censo), la usabilidad (diseño, facilidad de uso, accesibilidad), y la escalabilidad del sistema. Es crucial considerar la alta disponibilidad y el funcionamiento offline para las zonas rurales con conectividad limitada.
-•
-Interfaz de usuario: Determinando preferencias de diseño y si habrá usuarios con discapacidades o necesidades especiales.
-•
-Restricciones y limitaciones: Identificando limitaciones técnicas, de presupuesto o de tiempo, así como políticas internas o requisitos legales relevantes (como normativas de protección de datos).
-En síntesis, estas "fichas técnicas para la recolección de la información" serán herramientas esenciales para diagnosticar el estado actual de los procesos, entender el cumplimiento normativo necesario y buscar oportunidades de mejora y optimización para el software del "Censo Rural"
-
-Resumen Técnico y Práctico del Repositorio DBInterface
-
-El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
-
-Características Principales
-
-Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
-
-Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
-
-Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
-
-Estructura del Repositorio
-
-Archivos Clave:
-
-README.md: Documentación del proyecto.
-busca.py: Script para buscar datos en la base de datos.
-database.py: Manejo de la base de datos SQLite.
-genero.py: Funciones relacionadas con la gestión de datos.
-index.py: Archivo principal que ejecuta la aplicación.
-statisk.ipynb: Notebook de Jupyter para análisis de datos.
-Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
-
-Instalación y Uso
-
-Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
-
-Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
-
-Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
-
-Conclusión
-
-El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
-
-
-
-
-Dise~o de ficha tecnica para recoleccion de la informacion
-..
-
-
-Diseño de fichas técnicas para la recolección de la información se enmarca dentro del proyecto "Censo Rural". Este proyecto tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [conversación previa, 223]. El sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [conversación previa, 187, 207, 223].
-En este marco, las "fichas técnicas para la recolección de la información" se refieren a los instrumentos diseñados para la elicitación de requerimientos del propio software "Censo Rural". El propósito principal de esta elicitación es obtener conocimientos relevantes del problema para producir una especificación formal del software necesario para resolverlo.
-Para la elaboración de estas fichas, se utilizarán las encuestas y entrevistas como técnicas principales de elicitación de requisitos. Específicamente:
-•
-Se implementará un cuestionario mixto, que combinará preguntas abiertas para obtener información cualitativa y una mayor profundidad en las respuestas, con preguntas cerradas para recabar datos más específicos y cuantificables. Este cuestionario, idealmente de entre 8 y 10 preguntas para mantener la atención del encuestado, busca diagnosticar las necesidades tecnológicas y las posibles soluciones de software de los clientes, además de evaluar la madurez tecnológica actual, identificar necesidades de automatización y medir la disposición al cambio. Incluirá formatos como escalas Likert, preguntas dicotómicas y de opción múltiple.
-•
-Se complementará con entrevistas de profundización. El objetivo de estas entrevistas es entender en detalle los requerimientos para desarrollar un software que facilite el trabajo diario de los usuarios. Estas entrevistas son cruciales para asegurar que el sistema se ajuste a las necesidades reales del usuario.
-Las fichas técnicas resultantes, ya sean cuestionarios o guiones de entrevista, permitirán recopilar información fundamental sobre:
-•
-Contexto y perfil del usuario: Identificando a los usuarios que interactuarán con el software (como encuestadores, supervisores y administradores), sus roles, las tareas que realizan diariamente, las herramientas que usan actualmente y las limitaciones que enfrentan.
-•
-Objetivos y necesidades: Abordando el principal problema que el software debe resolver y las necesidades específicas que debe cubrir.
-•
-Requerimientos funcionales: Precisando las funciones y características específicas que el software debe tener (ej., formularios dinámicos, generación de reportes, almacenamiento de datos, notificaciones). Para el "Censo Rural", esto incluye la gestión de usuarios, la interfaz de usuario intuitiva (adaptada para uso offline y en campo), la gestión de categorías, la captura de datos en campo (con georreferenciación y adjunto de fotos), la gestión de archivos y el análisis de estadísticas.
-•
-Requerimientos no funcionales: Estableciendo las expectativas sobre el rendimiento (tiempos de respuesta), la seguridad y privacidad de los datos (lo cual es vital para la información personal del censo), la usabilidad (diseño, facilidad de uso, accesibilidad), y la escalabilidad del sistema. Es crucial considerar la alta disponibilidad y el funcionamiento offline para las zonas rurales con conectividad limitada.
-•
-Interfaz de usuario: Determinando preferencias de diseño y si habrá usuarios con discapacidades o necesidades especiales.
-•
-Restricciones y limitaciones: Identificando limitaciones técnicas, de presupuesto o de tiempo, así como políticas internas o requisitos legales relevantes (como normativas de protección de datos).
-En síntesis, estas "fichas técnicas para la recolección de la información" serán herramientas esenciales para diagnosticar el estado actual de los procesos, entender el cumplimiento normativo necesario y buscar oportunidades de mejora y optimización para el software del "Censo Rural"
-
-Resumen Técnico y Práctico del Repositorio DBInterface
-
-El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
-
-Características Principales
-
-Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
-
-Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
-
-Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
-
-Estructura del Repositorio
-
-Archivos Clave:
-
-README.md: Documentación del proyecto.
-busca.py: Script para buscar datos en la base de datos.
-database.py: Manejo de la base de datos SQLite.
-genero.py: Funciones relacionadas con la gestión de datos.
-index.py: Archivo principal que ejecuta la aplicación.
-statisk.ipynb: Notebook de Jupyter para análisis de datos.
-Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
-
-Instalación y Uso
-
-Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
-
-Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
-
-Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
-
-Conclusión
-
-El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
-
-
-
-
-Componentes relacionados con GA2-220501094
-Diseño de fichas técnicas para la recolección de la información – GA2-220501094-AA1-EV02
-Especificación de referentes técnicos de hardware/software y estimación de condiciones económicas – GA2-220501094-AA1-EV03
-Ficha técnica de productos, términos de referencia y lista de chequeo de proveedores – GA2-220501094-AA2-EV01
-Diseño de tablas comparativas sobre presupuestos de hardware y software – GA2-220501094-AA3-EV01
-Propuesta técnica y económica para la implementación del proyecto – GA2-220501094-AA3-EV02
-Taller del modelo conceptual y estructuración de la propuesta técnica del software – GA2-220501094-AA4-EV01
-Propuestas técnica y económica ajustadas por negociación tecnológica – GA2-220501094-AA4-EV02
-Foro temático: Licenciamiento de software – GA2-220501094-AA1-EV01
-Otros componentes y información general
-Diagramas del modelo de dominio del proyecto – GA2-220501093-AA2-EV01
-Planteamiento de ecuación – GA2-240201528-AA2-EV01
-Video de sustentación – GA2-240201528-AA3-EV01
-Algoritmo para cálculo de áreas y volúmenes – GA2-240201528-AA4-EV01
-Bases conceptuales de lógica proposicional – GA3-220501093-AA1-EV01
 
 
 /***
-*****************************************************************
-**/
+Lista de chequeo:
+Diseño de tablas comparativas sobre presupuestos de hardware
+y software GA2-220501094-AA3-EV01.
+Criterios de evaluación:
+● Estima costos de software y hardware de acuerdo con las características del negocio.
+● Documenta la propuesta técnica según las especificaciones de la solución de software.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. El documento cumple con las normas básicas de
+presentación de documentos escritos definidas.
+20%
+2. Elabora el diseño de tablas comparativas sobre
+presupuestos de hardware y software.
+40%
+3. Las variables presentadas en la tabla permiten
+determinar un valor que se aproxima lo más real
+posible a la problemática.
+40%
 
-/*** descricion del proyecto
+
+
+**/
+Se complementará con entrevistas de profundización. El objetivo de estas entrevistas es entender en detalle los requerimientos para desarrollar un software que facilite el trabajo diario de los usuarios. Estas entrevistas son cruciales para asegurar que el sistema se ajuste a las necesidades reales del usuario.
+Las fichas técnicas resultantes, ya sean cuestionarios o guiones de entrevista, permitirán recopilar información fundamental sobre:
+•
+Contexto y perfil del usuario: Identificando a los usuarios que interactuarán con el software (como encuestadores, supervisores y administradores), sus roles, las tareas que realizan diariamente, las herramientas que usan actualmente y las limitaciones que enfrentan.
+•
+Objetivos y necesidades: Abordando el principal problema que el software debe resolver y las necesidades específicas que debe cubrir.
+•
+Requerimientos funcionales: Precisando las funciones y características específicas que el software debe tener (ej., formularios dinámicos, generación de reportes, almacenamiento de datos, notificaciones). Para el "Censo Rural", esto incluye la gestión de usuarios, la interfaz de usuario intuitiva (adaptada para uso offline y en campo), la gestión de categorías, la captura de datos en campo (con georreferenciación y adjunto de fotos), la gestión de archivos y el análisis de estadísticas.
+•
+Requerimientos no funcionales: Estableciendo las expectativas sobre el rendimiento (tiempos de respuesta), la seguridad y privacidad de los datos (lo cual es vital para la información personal del censo), la usabilidad (diseño, facilidad de uso, accesibilidad), y la escalabilidad del sistema. Es crucial considerar la alta disponibilidad y el funcionamiento offline para las zonas rurales con conectividad limitada.
+•
+Interfaz de usuario: Determinando preferencias de diseño y si habrá usuarios con discapacidades o necesidades especiales.
+•
+Restricciones y limitaciones: Identificando limitaciones técnicas, de presupuesto o de tiempo, así como políticas internas o requisitos legales relevantes (como normativas de protección de datos).
+En síntesis, estas "fichas técnicas para la recolección de la información" serán herramientas esenciales para diagnosticar el estado actual de los procesos, entender el cumplimiento normativo necesario y buscar oportunidades de mejora y optimización para el software del "Censo Rural"
+
 Resumen Técnico y Práctico del Repositorio DBInterface
 
 El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
@@ -315,511 +393,90 @@ Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuar
 Conclusión
 
 El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
+
+
+
+
+Propuesta técnica y económica para la implementación del proyecto. GA2-220501094-AA3-EV02
+https://zajuna.sena.edu.co/zajuna/mod/assign/view.php?id=2251194
+
+
+/***
+
+Lista de chequeo:
+
+Propuesta técnica y económica para la implementación del
+proyecto GA2-220501094-AA3-EV02
+Criterios de evaluación:
+● Estima costos de software y hardware de acuerdo con las características del negocio.
+● Documenta la propuesta técnica según las especificaciones de la solución de software.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. El documento cumple con las normas básicas de
+presentación de documentos escritos definidas.
+20%
+2. Elabora la propuesta técnica y económica para la
+implementación del proyecto según especificaciones.
+50%
+3. En la solución propuesta, se detalla la estrategia que
+permitirá darle solución al problema existente por
+medio de una solución de software y en linealidad con
+todos los lineamientos generales de la evidencia a
+entregar.
+30%
+
 **/
-Elaboracion de diagramas y plantillas para casos de uso del proyecto
+Taller de especificación del modelo conceptual y estructurar la propuesta técnica del proyecto de software. GA2-220501094-AA4-EV01
+https://zajuna.sena.edu.co/zajuna/mod/assign/view.php?id=2251197
+/***
+lista de chequeo
+Taller de especificación del modelo conceptual y estructurar la
+propuesta técnica del proyecto de software. GA2-220501094-
+AA4-EV01.
+Criterios de evaluación:
+ Documenta las sugerencias del cliente según la necesidad del negocio.
+ Ajusta los parámetros técnicos de acuerdo con los resultados de la negociación.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. El documento cumple con las normas básicas de
+presentación de documentos escritos definidas.
+10%
+2. Elabora el taller de especificación del modelo
+conceptual y estructurar la propuesta técnica del
+proyecto de software.
+50%
+3. Maneja conceptos claros y bien definidos sobre el
+componente formativo relacionado.
+20%
+4. El informe técnico proporciona una solución
+de software que resuelve el problema del negocio de
+forma automática y en diferentes formatos,
+dependiendo del proyecto y del objetivo previsto
 
-Elaboracion de historia de usuarios del proyecto
-Diagramas y documentaciopn de actividades del proyecto
+**/
+Propuestas técnica y económica con ajustes de acuerdo a la negociación tecnológica. GA2-220501094-AA4-EV02
+https://zajuna.sena.edu.co/zajuna/mod/assign/view.php?id=2251200 
 
-1. 🎯 Objetivo General de la Evidencia
-El propósito de esta evidencia es representar gráficamente y documentar las funciones clave del software mediante diagramas de actividades UML y un informe de análisis. Esto permite comprender el flujo de trabajo del sistema, facilitar la comunicación entre los involucrados y sentar las bases para una especificación formal del software.
-2. 🧩 Parte 1: Diagramas de Actividades UML
-a. ¿Qué debes incluir?
-Para cada función principal del sistema, elabora un diagrama de actividades que muestre:
-Inicio del proceso
-Acciones o actividades
-Decisiones (condiciones)
-Flujo alternativo (si aplica)
-Finalización del proceso
-b. Casos de uso sugeridos:
-Puedes elegir entre los siguientes (o incluir otros relevantes al proyecto):
-Registro y autenticación de usuarios
-Creación de cuentas
-Recuperación de contraseñas
-Registro de sesiones activas
-Registro de llegada de mercancías
-Validación de pedidos
-Notificación al departamento de inventarios
-Gestión de pagos a proveedores
-c. Herramientas recomendadas:
-Draw.io
-Lucidchart
-StarUML
-Visual Paradigm
-
-3. 📝 Parte 2: Informe de Análisis
-a. Estructura sugerida del informe:
-I. Introducción
-Breve descripción del proyecto
-Objetivo del informe
-II. Interpretación del informe de requisitos
-¿Qué requerimientos funcionales y no funcionales se están abordando?
-Ejemplo: Gestión de usuarios, control de inventario, pagos, etc.
-III. Metodología de desarrollo
-Se sigue la metodología XP (Extreme Programming), enfocada en entregas frecuentes de módulos funcionales independientes.
-IV. Descripción de los diagramas
-Para cada diagrama, incluye:
-Nombre del proceso
-Descripción del flujo
-Relación con los requisitos funcionales
-Justificación de decisiones tomadas en el modelado
-V. Conclusión
-Cómo estos diagramas y el análisis contribuyen a una mejor comprensión del sistema
-Importancia de esta documentación para futuras fases del desarrollo
-4. ✅ Criterios de Evaluación que estás cumpliendo
-Aplicación correcta del lenguaje UML
-Claridad en la representación de los procesos
-Coherencia entre los diagramas y los requisitos
-Documentación detallada y bien estructurada
-Uso de metodología XP como base del análisis
-Los diagramas de actividades trazan flujos de procesos de 
-una forma que es sencilla de entender. El Lenguaje Unificado 
-de Modelado incluye varios subconjuntos de diagramas, 
-incluidos los diagramas de estructuras, los diagramas de 
-interacción y los diagramas de comportamiento. Los 
-diagramas de actividades, junto con los diagramas de casos de 
-uso y los diagramas de máquina de estados, son considerados 
-diagramas de comportamiento porque describen lo que debe 
-suceder en el sistema que se está modelando. Las partes 
-interesadas tienen muchos asuntos que manejar, por lo que es 
-importante una comunicación clara y concisa. Los diagramas 
-de actividades ayudan a que las personas en las áreas de 
-negocios y desarrollo de una organización se integren para 
-comprender el mismo proceso y comportamiento. Usarás un 
-conjunto de símbolos especializados —incluidos aquellos para 
-pasos de inicio, finalización, fusión y recepción en el flujo—
-para crear un diagrama de actividades, lo cual cubriremos con 
-más detalle dentro de esta guía de diagramas de actividades. 
-Teniendo en cuenta las actividades y el diagrama de 
-actividades desarrollados anteriormente, se realiza el diagrama 
-con actividades del proyecto, enfocada en las actividades de la
-distribuidora de consumo masivo llamada
-
-
-Perspectiva del producto   El sistema de información de agenda para citas médicas tiene como fin agilizar el proceso para tomar horas médicas; queremos brindar un sistema que sea autogestionable, donde el  usuario  principal (stakeholder)  que requiera  agendar una  cita  médica lo  pueda realizar a través de internet, donde no le tome más de cinco (5) minutos el agendamiento.  Sera un sistema que le brindara confianza tanto al usuario principal como al centro médico (también stakeholder) ya que ambos serán notificados de cada gestión que se realice en sistema de información.  Funciones del producto - Seguridad, para acceder al sistema será necesario ingresar a través de un usuario y una contraseña. - Agendamiento: o Calendario, el usuario podrá consultar la disponibilidad (días y horas) del médico o profesional de la salud seleccionado. o Agendar, el usuario podrá reservar la hora seleccionada. o Modificar, el usuario podrá cambiar la hora seleccionada. o Confirmar, el usuario podrá ratificar que asistirá a la hora seleccionada. o Anular, el usuario podrá cancelar la hora seleccionada, notificándole así al centro médico que no asistirá y la hora quedará de nuevo disponible para otro usuario. - Comprobante, cada gestión que se realice generará un documento el cual será enviado al correo electrónico de los usuarios (personas que agendan la cita médica y centro médico donde se realizara la atención).  Características de los usuarios (stakeholders)   El sistema de información contara con tres (3) tipos de usuarios (stakeholders) que se relacionan a continuación y se nombran sus respectivas características: - Usuario administrador, aplica para el encargado del sistema de información, este tendrá la labor de poner a disposición y/o modificar el calendario para los demás usuarios,  podrá  crear,  modificar  y  eliminar  centros  médicos  y/o  doctores  o profesionales de la salud del sistema de información. - Usuario normal, aplica para las personas que requieren agendar horas médicas, estos podrán consultar el calendario, agendar, modificar y/o anular una cita médica. La creación del usuario normal es autogestionable. - Usuario  centro  médico,  aplica  para  los  centros  médicos  donde  se  realizará  la atención al usuario normal, este tipo de usuario podrá consultar el calendario y/o anular una cita médica. 
-
-5  Restricciones Entre las restricciones que se pueden presentar en el sistema de información de agenda para citas médicas tenemos: - Se debe contar con acceso a internet para poder hacer uso del sistema de información. - Se debe contar con un manejo básico de las herramientas de internet. - El sistema de información debe ser desarrollado en versión web, pues el acceso al sistema debe ser en línea y estar disponible para cualquier dispositivo con acceso a internet. - Es  obligatorio  acceder  al  sistema  de  información  a  través  de  un  usuario  y  una contraseña. - Para los usuarios es obligatorio tener un correo electrónico para todos los procesos.  Requisitos Funcionales El sistema debe permitir: - Validar el usuario y la contraseña del usuario que desea ingresar al sistema. - Crear el calendario con la agenda de los médicos y/o profesionales de la salud. - Crear centros médicos. - Crear médicos y/o profesionales de la salud. - Modificar centros médicos. - Modificar médicos y/o profesionales de la salud. - Eliminar centros médicos. - Eliminar médicos y/o profesionales de la salud. - Consultar la disponibilidad de los médicos y/o profesionales de la salud de acuerdo a su calendario. - Agendar la cita médica seleccionada. - Bloquear la hora medica seleccionada para que otro usuario no pueda seleccionar de nuevo la misma hora. - Modificar la cita médica seleccionada. - Anular o cancelar la cita médica seleccionada. - Confirmar la cita médica seleccionada. - Generar comprobantes de los registros realizados en el sistema. - Enviar a través de correo electrónico los comprobantes generados.  
-Evidencia GA2-220501093-AA3-EV01: Mapa conceptual sobre validación de documentos
-Objetivo general: Verificar y mejorar los modelos de análisis, y elaborar un prototipo inicial del software [Conversación previa]. El producto principal será un mapa conceptual que represente el dominio del proyecto.
-Forma de abordaje según lista de chequeo:
-•
-1. Identifica la metodología de desarrollo a seguir:
-◦
-Se debe indicar claramente que el proyecto sigue la metodología XP (Extreme Programming). Esta metodología se enfoca en entregas frecuentes de módulos funcionales independientes, los cuales se fusionarán una vez superen las pruebas. Para el "Censo Rural", esto es ideal, ya que permite entregas rápidas de módulos, por ejemplo, primero el de captura de datos y luego el de análisis.
-•
-2. Identifica los conceptos para relacionar los documentos a validar:
-◦
-En el contexto del "Censo Rural", se identificarán los conceptos clave del dominio y cómo se relacionan con la validación de la información y los documentos. Los conceptos principales incluyen:
-▪
-Sujetos del censo: Habitantes, familias en zonas rurales apartadas.
-▪
-Recolección de datos: Formularios dinámicos, preguntas del censo, validación de datos en campo, georreferenciación, carga de fotos/documentos.
-▪
-Agentes de recolección: Encuestadores (con sus roles y trazabilidad de actividades).
-▪
-Gestión de datos: Almacenamiento seguro, centralización en plataforma, organización por categorías (región, comunidad, grupo etario).
-▪
-Análisis: Dashboards, indicadores clave (KPIs), informes automatizados, visualización geográfica.
-▪
-Documentos a validar: Especificaciones de requisitos, historias de usuario, casos de uso, diagramas (de actividades, de casos de uso), y los propios formularios o plantillas de recolección de datos que se usarán en el censo.
-•
-3. Construye formatos de aceptación:
-◦
-Se deben diseñar formatos (listas de chequeo o criterios) que permitan aceptar la calidad y cumplimiento de los documentos de análisis y del prototipo inicial. Estos formatos deben basarse en los requisitos funcionales y no funcionales del software de "Censo Rural". Por ejemplo, para los formularios de censo, se puede verificar la claridad de las preguntas, los tipos de datos esperados, y las reglas de validación. Para el prototipo, se verificaría la usabilidad, el flujo de captura de datos, y la alineación con los casos de uso definidos.
-•
-4. Elabora el documento con diagrama conceptual:
-◦
-Este será el Mapa Conceptual principal. Debe representar visualmente los conceptos identificados en el punto 2, mostrando sus relaciones en un diagrama de dominio del proyecto. Por ejemplo, cómo los "Encuestadores" utilizan "Dispositivos Móviles" para la "Captura de Datos" de "Habitantes" en "Zonas Rurales", y cómo estos datos se relacionan con el "Análisis y Estadísticas" en una "Plataforma Central". Se puede usar Draw.io para este modelado.
-•
-5. El mapa resultante sigue las instrucciones para la elaboración de un diagrama de dominio del proyecto y el modelo conceptual resultante se presenta ordenado y de fácil lectura:
-◦
-Se debe asegurar que el mapa conceptual sea claro, coherente y fácil de interpretar. Las conexiones entre los conceptos deben ser lógicas y las etiquetas precisas, facilitando la comprensión del dominio del "Censo Rural" por parte de todos los interesado
-Informe de Análisis con Listas de Chequeo para la Validación de Artefactos
-Proyecto: "Censo Rural"
-Evidencia GA2-220501093-AA3-EV02
-
-I. Introducción
-El proyecto "Censo Rural" tiene como objetivo optimizar la recolección, gestión y análisis de datos personales en zonas rurales mediante una solución tecnológica adaptada a entornos con conectividad limitada. Este informe evalúa la calidad de los artefactos generados durante el análisis de requisitos, valida su cumplimiento y propone mejoras para la documentación.
-
-Metodología de desarrollo:
-
-Extreme Programming (XP): Se prioriza la retroalimentación continua con los usuarios y la iteración rápida.
-
-II. Interpretación del Informe de Requisitos
-Requisitos Funcionales
-Gestión de usuarios:
-
-Roles: encuestadores, supervisores, administradores.
-
-Interfaz intuitiva:
-
-Adaptada para uso offline y en campo.
-
-Gestión de categorías:
-
-Región, comunidad, datos demográficos.
-
-Captura de datos en campo:
-
-Formularios digitales, georreferenciación, adjuntar fotos.
-
-Gestión de archivos:
-
-Almacenamiento seguro y sincronización posterior.
-
-Análisis y estadísticas:
-
-Dashboards e informes para toma de decisiones.
-
-Requisitos No Funcionales
-Alta disponibilidad:
-
-Funcionamiento offline y sincronización cuando haya conexión.
-
-Escalabilidad:
-
-Soporte para alto volumen de datos y múltiples regiones.
-
-Seguridad:
-
-Encriptación de datos y protección de información personal.
-
-Usabilidad:
-
-Diseño accesible para usuarios con bajo nivel de alfabetización digital.
-
-Compatibilidad:
-
-Dispositivos móviles Android y navegadores web.
-
-III. Descripción de los Artefactos Generados
-Artefacto	Descripción	Contribución al Proyecto
-Diagrama de Casos de Uso	Describe las interacciones entre usuarios y sistema (ej: registro, captura de datos).	Clarifica funcionalidades clave.
-Diagrama de Actividades	Detalla flujos de procesos (ej: sincronización de datos offline).	Ayuda a optimizar procesos operativos.
-Historias de Usuario	Ej: "Como encuestador, quiero guardar datos sin conexión para evitar pérdidas."	Alinea el desarrollo con necesidades reales.
-IV. Validación de Artefactos (Listas de Chequeo)
-Hallazgos y No Conformidades
-Criterio	Evaluación (✔️ / ❌ / ⚠️)	Observaciones
-Completitud	✔️	Todos los campos críticos están definidos.
-Consistencia	⚠️	Algunos términos varían en historias de usuario.
-Claridad	❌	Flujos de sincronización poco detallados.
-Seguridad	✔️	Cumple con encriptación de datos.
-Oportunidades de Mejora
-Revisar terminología en historias de usuario para uniformidad.
-
-Ampliar descripción de flujos offline en diagramas.
-
-V. Mejoras Propuestas
-Documentación:
-
-Unificar glosario de términos en requisitos.
-
-Prototipo:
-
-Incluir pantallas de confirmación post-sincronización.
-
-VI. Prototipo Inicial del Software
-Alcance:
-
-Muestra formularios de censo, geolocalización y modo offline.
-
-Alineación con requisitos:
-
-Cubre el 80% de los casos de uso priorizados.
-
-VII. Conclusión
-La validación mediante listas de chequeo asegura que los artefactos cumplan con los estándares de calidad y las necesidades del Censo Rural. Las mejoras identificadas garantizarán una solución robusta y adaptable al contexto rural.
-Elaboracion de diagramas y plantillas para casos de uso del proyecto
-
-Elaboracion de historia de usuarios del proyecto
-Diagramas y documentaciopn de actividades del proyecto
-
-1. 🎯 Objetivo General de la Evidencia
-El propósito de esta evidencia es representar gráficamente y documentar las funciones clave del software mediante diagramas de actividades UML y un informe de análisis. Esto permite comprender el flujo de trabajo del sistema, facilitar la comunicación entre los involucrados y sentar las bases para una especificación formal del software.
-2. 🧩 Parte 1: Diagramas de Actividades UML
-a. ¿Qué debes incluir?
-Para cada función principal del sistema, elabora un diagrama de actividades que muestre:
-Inicio del proceso
-Acciones o actividades
-Decisiones (condiciones)
-Flujo alternativo (si aplica)
-Finalización del proceso
-b. Casos de uso sugeridos:
-Puedes elegir entre los siguientes (o incluir otros relevantes al proyecto):
-Registro y autenticación de usuarios
-Creación de cuentas
-Recuperación de contraseñas
-Registro de sesiones activas
-Registro de llegada de mercancías
-Validación de pedidos
-Notificación al departamento de inventarios
-Gestión de pagos a proveedores
-c. Herramientas recomendadas:
-Draw.io
-Lucidchart
-StarUML
-Visual Paradigm
-
-3. 📝 Parte 2: Informe de Análisis
-a. Estructura sugerida del informe:
-I. Introducción
-Breve descripción del proyecto
-Objetivo del informe
-II. Interpretación del informe de requisitos
-¿Qué requerimientos funcionales y no funcionales se están abordando?
-Ejemplo: Gestión de usuarios, control de inventario, pagos, etc.
-III. Metodología de desarrollo
-Se sigue la metodología XP (Extreme Programming), enfocada en entregas frecuentes de módulos funcionales independientes.
-IV. Descripción de los diagramas
-Para cada diagrama, incluye:
-Nombre del proceso
-Descripción del flujo
-Relación con los requisitos funcionales
-Justificación de decisiones tomadas en el modelado
-V. Conclusión
-Cómo estos diagramas y el análisis contribuyen a una mejor comprensión del sistema
-Importancia de esta documentación para futuras fases del desarrollo
-4. ✅ Criterios de Evaluación que estás cumpliendo
-Aplicación correcta del lenguaje UML
-Claridad en la representación de los procesos
-Coherencia entre los diagramas y los requisitos
-Documentación detallada y bien estructurada
-Uso de metodología XP como base del análisis
-Los diagramas de actividades trazan flujos de procesos de 
-una forma que es sencilla de entender. El Lenguaje Unificado 
-de Modelado incluye varios subconjuntos de diagramas, 
-incluidos los diagramas de estructuras, los diagramas de 
-interacción y los diagramas de comportamiento. Los 
-diagramas de actividades, junto con los diagramas de casos de 
-uso y los diagramas de máquina de estados, son considerados 
-diagramas de comportamiento porque describen lo que debe 
-suceder en el sistema que se está modelando. Las partes 
-interesadas tienen muchos asuntos que manejar, por lo que es 
-importante una comunicación clara y concisa. Los diagramas 
-de actividades ayudan a que las personas en las áreas de 
-negocios y desarrollo de una organización se integren para 
-comprender el mismo proceso y comportamiento. Usarás un 
-conjunto de símbolos especializados —incluidos aquellos para 
-pasos de inicio, finalización, fusión y recepción en el flujo—
-para crear un diagrama de actividades, lo cual cubriremos con 
-más detalle dentro de esta guía de diagramas de actividades. 
-Teniendo en cuenta las actividades y el diagrama de 
-actividades desarrollados anteriormente, se realiza el diagrama 
-con actividades del proyecto, enfocada en las actividades de la
-distribuidora de consumo masivo llamada
-
-
-Perspectiva del producto   El sistema de información de agenda para citas médicas tiene como fin agilizar el proceso para tomar horas médicas; queremos brindar un sistema que sea autogestionable, donde el  usuario  principal (stakeholder)  que requiera  agendar una  cita  médica lo  pueda realizar a través de internet, donde no le tome más de cinco (5) minutos el agendamiento.  Sera un sistema que le brindara confianza tanto al usuario principal como al centro médico (también stakeholder) ya que ambos serán notificados de cada gestión que se realice en sistema de información.  Funciones del producto - Seguridad, para acceder al sistema será necesario ingresar a través de un usuario y una contraseña. - Agendamiento: o Calendario, el usuario podrá consultar la disponibilidad (días y horas) del médico o profesional de la salud seleccionado. o Agendar, el usuario podrá reservar la hora seleccionada. o Modificar, el usuario podrá cambiar la hora seleccionada. o Confirmar, el usuario podrá ratificar que asistirá a la hora seleccionada. o Anular, el usuario podrá cancelar la hora seleccionada, notificándole así al centro médico que no asistirá y la hora quedará de nuevo disponible para otro usuario. - Comprobante, cada gestión que se realice generará un documento el cual será enviado al correo electrónico de los usuarios (personas que agendan la cita médica y centro médico donde se realizara la atención).  Características de los usuarios (stakeholders)   El sistema de información contara con tres (3) tipos de usuarios (stakeholders) que se relacionan a continuación y se nombran sus respectivas características: - Usuario administrador, aplica para el encargado del sistema de información, este tendrá la labor de poner a disposición y/o modificar el calendario para los demás usuarios,  podrá  crear,  modificar  y  eliminar  centros  médicos  y/o  doctores  o profesionales de la salud del sistema de información. - Usuario normal, aplica para las personas que requieren agendar horas médicas, estos podrán consultar el calendario, agendar, modificar y/o anular una cita médica. La creación del usuario normal es autogestionable. - Usuario  centro  médico,  aplica  para  los  centros  médicos  donde  se  realizará  la atención al usuario normal, este tipo de usuario podrá consultar el calendario y/o anular una cita médica. 
-
-5  Restricciones Entre las restricciones que se pueden presentar en el sistema de información de agenda para citas médicas tenemos: - Se debe contar con acceso a internet para poder hacer uso del sistema de información. - Se debe contar con un manejo básico de las herramientas de internet. - El sistema de información debe ser desarrollado en versión web, pues el acceso al sistema debe ser en línea y estar disponible para cualquier dispositivo con acceso a internet. - Es  obligatorio  acceder  al  sistema  de  información  a  través  de  un  usuario  y  una contraseña. - Para los usuarios es obligatorio tener un correo electrónico para todos los procesos.  Requisitos Funcionales El sistema debe permitir: - Validar el usuario y la contraseña del usuario que desea ingresar al sistema. - Crear el calendario con la agenda de los médicos y/o profesionales de la salud. - Crear centros médicos. - Crear médicos y/o profesionales de la salud. - Modificar centros médicos. - Modificar médicos y/o profesionales de la salud. - Eliminar centros médicos. - Eliminar médicos y/o profesionales de la salud. - Consultar la disponibilidad de los médicos y/o profesionales de la salud de acuerdo a su calendario. - Agendar la cita médica seleccionada. - Bloquear la hora medica seleccionada para que otro usuario no pueda seleccionar de nuevo la misma hora. - Modificar la cita médica seleccionada. - Anular o cancelar la cita médica seleccionada. - Confirmar la cita médica seleccionada. - Generar comprobantes de los registros realizados en el sistema. - Enviar a través de correo electrónico los comprobantes generados.  
-1. Evidencia GA2-220501093-AA3-EV01: Mapa conceptual sobre validación de documentos
-Objetivo general: Verificar y mejorar los modelos de análisis, y elaborar un prototipo inicial del software [Conversación previa]. El producto principal será un mapa conceptual que represente el dominio del proyecto.
-Forma de abordaje según lista de chequeo:
-•
-1. Identifica la metodología de desarrollo a seguir:
-◦
-Se debe indicar claramente que el proyecto sigue la metodología XP (Extreme Programming). Esta metodología se enfoca en entregas frecuentes de módulos funcionales independientes, los cuales se fusionarán una vez superen las pruebas. Para el "Censo Rural", esto es ideal, ya que permite entregas rápidas de módulos, por ejemplo, primero el de captura de datos y luego el de análisis.
-•
-2. Identifica los conceptos para relacionar los documentos a validar:
-◦
-En el contexto del "Censo Rural", se identificarán los conceptos clave del dominio y cómo se relacionan con la validación de la información y los documentos. Los conceptos principales incluyen:
-▪
-Sujetos del censo: Habitantes, familias en zonas rurales apartadas.
-▪
-Recolección de datos: Formularios dinámicos, preguntas del censo, validación de datos en campo, georreferenciación, carga de fotos/documentos.
-▪
-Agentes de recolección: Encuestadores (con sus roles y trazabilidad de actividades).
-▪
-Gestión de datos: Almacenamiento seguro, centralización en plataforma, organización por categorías (región, comunidad, grupo etario).
-▪
-Análisis: Dashboards, indicadores clave (KPIs), informes automatizados, visualización geográfica.
-▪
-Documentos a validar: Especificaciones de requisitos, historias de usuario, casos de uso, diagramas (de actividades, de casos de uso), y los propios formularios o plantillas de recolección de datos que se usarán en el censo.
-•
-3. Construye formatos de aceptación:
-◦
-Se deben diseñar formatos (listas de chequeo o criterios) que permitan aceptar la calidad y cumplimiento de los documentos de análisis y del prototipo inicial. Estos formatos deben basarse en los requisitos funcionales y no funcionales del software de "Censo Rural". Por ejemplo, para los formularios de censo, se puede verificar la claridad de las preguntas, los tipos de datos esperados, y las reglas de validación. Para el prototipo, se verificaría la usabilidad, el flujo de captura de datos, y la alineación con los casos de uso definidos.
-•
-4. Elabora el documento con diagrama conceptual:
-◦
-Este será el Mapa Conceptual principal. Debe representar visualmente los conceptos identificados en el punto 2, mostrando sus relaciones en un diagrama de dominio del proyecto. Por ejemplo, cómo los "Encuestadores" utilizan "Dispositivos Móviles" para la "Captura de Datos" de "Habitantes" en "Zonas Rurales", y cómo estos datos se relacionan con el "Análisis y Estadísticas" en una "Plataforma Central". Se puede usar Draw.io para este modelado.
-•
-5. El mapa resultante sigue las instrucciones para la elaboración de un diagrama de dominio del proyecto y el modelo conceptual resultante se presenta ordenado y de fácil lectura:
-◦
-Se debe asegurar que el mapa conceptual sea claro, coherente y fácil de interpretar. Las conexiones entre los conceptos deben ser lógicas y las etiquetas precisas, facilitando la comprensión del dominio del "Censo Rural" por parte de todos los interesad
-2. Evidencia GA2-220501093-AA3-EV02: Informe de análisis con listas de chequeo para la validación de artefactos
-Objetivo general: Evaluar el informe de análisis, considerando la calidad de los artefactos generados y su cumplimiento de los requisitos, y realizar mejoras a la documentación.
-Forma de abordaje según lista de chequeo:
-•
-1. Construye el documento de informe de artefactos entregados:
-◦
-Este informe documentará todos los artefactos de análisis generados para el proyecto de "Censo Rural". La estructura sugerida para este informe incluye:
-▪
-I. Introducción: Breve descripción del proyecto "Censo Rural" (su objetivo de optimizar la recolección, gestión y análisis de datos personales en zonas rurales), el propósito del informe y la metodología de desarrollo (XP).
-▪
-II. Interpretación del informe de requisitos: Describir los requisitos funcionales y no funcionales abordados por el software del censo.
-•
-Requisitos Funcionales: Gestión de usuarios (encuestadores, administradores), interfaz de usuario intuitiva (adaptada para campo, offline), gestión de categorías (región, comunidad), captura de datos en campo (formularios, georreferenciación, fotos), gestión de archivos (almacenamiento de formularios), análisis y estadísticas (dashboards, informes).
-•
-Requisitos No Funcionales: Alta disponibilidad (y funcionamiento offline), escalabilidad (para volumen de datos y regiones), seguridad (encriptación, protección de datos personales), usabilidad (para bajo nivel de alfabetización digital), compatibilidad (dispositivos móviles Android, navegadores web).
-▪
-III. Descripción de los artefactos generados: Referenciar y resumir los diagramas (casos de uso, actividades) y las historias de usuario que se han elaborado para el proyecto, explicando cómo cada uno contribuye a la comprensión del sistema del censo.
-▪
-IV. Validación de artefactos (Aplicación de listas de chequeo): Aquí se detallará la aplicación de las listas de chequeo (creadas en el punto 4) a los artefactos. Se presentarán los hallazgos, las no conformidades y las oportunidades de mejora identificadas.
-▪
-V. Mejoras propuestas: Basado en la validación, se especificarán las mejoras a realizar en la documentación de análisis.
-▪
-VI. Prototipo inicial del software: Describir el prototipo inicial del "Censo Rural" y cómo se alinea con los casos de uso y requisitos identificados.
-▪
-VII. Conclusión: Resumir la importancia de la validación y cómo contribuye a una mejor comprensión y calidad del sistema.
-•
-2. Identifica los procesos y usuarios interesados:
-◦
-Se deben detallar los procesos clave del "Censo Rural" (e.g., registro de encuestadores, despliegue de formularios, captura de datos offline, sincronización de datos, generación de reportes) y los usuarios (stakeholders) involucrados. Estos incluyen: Encuestadores, Supervisores, Administradores del sistema, y posiblemente Analistas de datos o personal de entidades gubernamentales que usarán los informes para políticas públicas.
-•
-3. Valida con los usuarios los requerimientos encontrados:
-◦
-Esta etapa es fundamental. Implica confirmar los requisitos y procesos documentados con los usuarios reales o representantes de los usuarios del "Censo Rural". Esto se puede realizar a través de entrevistas de profundización o sesiones de revisión, donde se presenten los artefactos (diagramas, historias de usuario, prototipo) para obtener su retroalimentación. El objetivo es asegurar que el software en construcción se ajuste a sus necesidades diarias y a la realidad del censo en zonas rurales.
-•
-4. Elabora el documento de lista de chequeo paso a paso:
-◦
-Se deben construir listas de chequeo específicas y detalladas para la validación de cada artefacto de análisis. Estas listas deben ser fáciles de usar y sistemáticas. Los pasos para elaborarlas son:
-1.
-Determinar el área a evaluar: Para cada artefacto (ej. informe de requisitos, casos de uso, prototipo del formulario del censo).
-2.
-Diseñar el formato de verificación: Con categorías o variables posibles, y una escala de ocurrencias (ej. Cumple/No Cumple/Parcialmente Cumple).
-3.
-Asegurarse de que todas las partes estén claramente descritas.
-4.
-Definir qué información se registrará para su análisis.
-◦
-Ejemplos de criterios en las listas de chequeo para el "Censo Rural" podrían ser:
-▪
-Completitud: ¿Están todos los campos de datos necesarios para el censo definidos?
-▪
-Consistencia: ¿Los datos de usuario (encuestador) son consistentes en todas las funcionalidades?
-▪
-Claridad: ¿Las descripciones de las funcionalidades son fáciles de entender para los encuestadores y administradores?
-▪
-Correctitud: ¿Los flujos de captura de datos reflejan el proceso real del censo?
-▪
-Trazabilidad: ¿Es posible rastrear un requisito de censo hasta su implementación en una historia de usuario o un diagrama?
-▪
-Adherencia a estándares: ¿Los diagramas siguen las normas UML?
-▪
-Seguridad y Privacidad: ¿Se consideran los aspectos de encriptación y protección de datos personales de los habitantes, conforme a la normativa?
-Elaboracion de diagramas y plantillas para casos de uso del proyecto
-
-Elaboracion de historia de usuarios del proyecto
-Diagramas y documentaciopn de actividades del proyecto
-
-1. 🎯 Objetivo General de la Evidencia
-El propósito de esta evidencia es representar gráficamente y documentar las funciones clave del software mediante diagramas de actividades UML y un informe de análisis. Esto permite comprender el flujo de trabajo del sistema, facilitar la comunicación entre los involucrados y sentar las bases para una especificación formal del software.
-2. 🧩 Parte 1: Diagramas de Actividades UML
-a. ¿Qué debes incluir?
-Para cada función principal del sistema, elabora un diagrama de actividades que muestre:
-Inicio del proceso
-Acciones o actividades
-Decisiones (condiciones)
-Flujo alternativo (si aplica)
-Finalización del proceso
-b. Casos de uso sugeridos:
-Puedes elegir entre los siguientes (o incluir otros relevantes al proyecto):
-Registro y autenticación de usuarios
-Creación de cuentas
-Recuperación de contraseñas
-Registro de sesiones activas
-Registro de llegada de mercancías
-Validación de pedidos
-Notificación al departamento de inventarios
-Gestión de pagos a proveedores
-c. Herramientas recomendadas:
-Draw.io
-Lucidchart
-StarUML
-Visual Paradigm
-
-3. 📝 Parte 2: Informe de Análisis
-a. Estructura sugerida del informe:
-I. Introducción
-Breve descripción del proyecto
-Objetivo del informe
-II. Interpretación del informe de requisitos
-¿Qué requerimientos funcionales y no funcionales se están abordando?
-Ejemplo: Gestión de usuarios, control de inventario, pagos, etc.
-III. Metodología de desarrollo
-Se sigue la metodología XP (Extreme Programming), enfocada en entregas frecuentes de módulos funcionales independientes.
-IV. Descripción de los diagramas
-Para cada diagrama, incluye:
-Nombre del proceso
-Descripción del flujo
-Relación con los requisitos funcionales
-Justificación de decisiones tomadas en el modelado
-V. Conclusión
-Cómo estos diagramas y el análisis contribuyen a una mejor comprensión del sistema
-Importancia de esta documentación para futuras fases del desarrollo
-4. ✅ Criterios de Evaluación que estás cumpliendo
-Aplicación correcta del lenguaje UML
-Claridad en la representación de los procesos
-Coherencia entre los diagramas y los requisitos
-Documentación detallada y bien estructurada
-Uso de metodología XP como base del análisis
-Los diagramas de actividades trazan flujos de procesos de 
-una forma que es sencilla de entender. El Lenguaje Unificado 
-de Modelado incluye varios subconjuntos de diagramas, 
-incluidos los diagramas de estructuras, los diagramas de 
-interacción y los diagramas de comportamiento. Los 
-diagramas de actividades, junto con los diagramas de casos de 
-uso y los diagramas de máquina de estados, son considerados 
-diagramas de comportamiento porque describen lo que debe 
-suceder en el sistema que se está modelando. Las partes 
-interesadas tienen muchos asuntos que manejar, por lo que es 
-importante una comunicación clara y concisa. Los diagramas 
-de actividades ayudan a que las personas en las áreas de 
-negocios y desarrollo de una organización se integren para 
-comprender el mismo proceso y comportamiento. Usarás un 
-conjunto de símbolos especializados —incluidos aquellos para 
-pasos de inicio, finalización, fusión y recepción en el flujo—
-para crear un diagrama de actividades, lo cual cubriremos con 
-más detalle dentro de esta guía de diagramas de actividades. 
-Teniendo en cuenta las actividades y el diagrama de 
-actividades desarrollados anteriormente, se realiza el diagrama 
-con actividades del proyecto, enfocada en las actividades de la
-distribuidora de consumo masivo llamada
-
-
-Perspectiva del producto   El sistema de información de agenda para citas médicas tiene como fin agilizar el proceso para tomar horas médicas; queremos brindar un sistema que sea autogestionable, donde el  usuario  principal (stakeholder)  que requiera  agendar una  cita  médica lo  pueda realizar a través de internet, donde no le tome más de cinco (5) minutos el agendamiento.  Sera un sistema que le brindara confianza tanto al usuario principal como al centro médico (también stakeholder) ya que ambos serán notificados de cada gestión que se realice en sistema de información.  Funciones del producto - Seguridad, para acceder al sistema será necesario ingresar a través de un usuario y una contraseña. - Agendamiento: o Calendario, el usuario podrá consultar la disponibilidad (días y horas) del médico o profesional de la salud seleccionado. o Agendar, el usuario podrá reservar la hora seleccionada. o Modificar, el usuario podrá cambiar la hora seleccionada. o Confirmar, el usuario podrá ratificar que asistirá a la hora seleccionada. o Anular, el usuario podrá cancelar la hora seleccionada, notificándole así al centro médico que no asistirá y la hora quedará de nuevo disponible para otro usuario. - Comprobante, cada gestión que se realice generará un documento el cual será enviado al correo electrónico de los usuarios (personas que agendan la cita médica y centro médico donde se realizara la atención).  Características de los usuarios (stakeholders)   El sistema de información contara con tres (3) tipos de usuarios (stakeholders) que se relacionan a continuación y se nombran sus respectivas características: - Usuario administrador, aplica para el encargado del sistema de información, este tendrá la labor de poner a disposición y/o modificar el calendario para los demás usuarios,  podrá  crear,  modificar  y  eliminar  centros  médicos  y/o  doctores  o profesionales de la salud del sistema de información. - Usuario normal, aplica para las personas que requieren agendar horas médicas, estos podrán consultar el calendario, agendar, modificar y/o anular una cita médica. La creación del usuario normal es autogestionable. - Usuario  centro  médico,  aplica  para  los  centros  médicos  donde  se  realizará  la atención al usuario normal, este tipo de usuario podrá consultar el calendario y/o anular una cita médica. 
-
-5  Restricciones Entre las restricciones que se pueden presentar en el sistema de información de agenda para citas médicas tenemos: - Se debe contar con acceso a internet para poder hacer uso del sistema de información. - Se debe contar con un manejo básico de las herramientas de internet. - El sistema de información debe ser desarrollado en versión web, pues el acceso al sistema debe ser en línea y estar disponible para cualquier dispositivo con acceso a internet. - Es  obligatorio  acceder  al  sistema  de  información  a  través  de  un  usuario  y  una contraseña. - Para los usuarios es obligatorio tener un correo electrónico para todos los procesos.  Requisitos Funcionales El sistema debe permitir: - Validar el usuario y la contraseña del usuario que desea ingresar al sistema. - Crear el calendario con la agenda de los médicos y/o profesionales de la salud. - Crear centros médicos. - Crear médicos y/o profesionales de la salud. - Modificar centros médicos. - Modificar médicos y/o profesionales de la salud. - Eliminar centros médicos. - Eliminar médicos y/o profesionales de la salud. - Consultar la disponibilidad de los médicos y/o profesionales de la salud de acuerdo a su calendario. - Agendar la cita médica seleccionada. - Bloquear la hora medica seleccionada para que otro usuario no pueda seleccionar de nuevo la misma hora. - Modificar la cita médica seleccionada. - Anular o cancelar la cita médica seleccionada. - Confirmar la cita médica seleccionada. - Generar comprobantes de los registros realizados en el sistema. - Enviar a través de correo electrónico los comprobantes generados.  
-1. Objetivo General del Software (adaptado)
-Desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas. El sistema debe permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas.
-✅ 2. Alcance y Funcionalidades del Sistema (adaptado)
-Gestión de Usuarios: Registro de encuestadores, autenticación segura (doble factor), roles (administrador, supervisor, encuestador), y trazabilidad de actividades.
-Interfaz de Usuario Intuitiva: Adaptada para uso en campo, con diseño responsive, navegación offline, y tutoriales para encuestadores.
-Gestión de Categorías: Clasificación de datos por región, comunidad, grupo etario, etc.
-Captura de Datos en Campo: Formularios dinámicos, validación de datos, georreferenciación, carga de fotos/documentos, y sincronización automática cuando haya conexión.
-Gestión de Archivos: Almacenamiento seguro de formularios, fotos y documentos asociados a cada persona o familia censada.
-Análisis y Estadísticas: Dashboards con indicadores clave (población, acceso a servicios, etc.), generación de informes, y visualización geográfica.
-✅ 3. Requisitos No Funcionales (adaptados)
-Alta disponibilidad y funcionamiento offline para zonas sin conectividad.
-Escalabilidad para cubrir múltiples regiones y crecer en volumen de datos.
-Seguridad: Encriptación de datos personales, control de acceso, y cumplimiento de normativas de protección de datos.
-Usabilidad: Interfaz amigable para usuarios con bajo nivel de alfabetización digital.
-Compatibilidad: Funcionalidad en dispositivos móviles Android y navegadores web modernos.
-✅ 4. Metodología y Prototipado
-Metodología XP (Extreme Programming): Ideal para este tipo de proyectos, ya que permite entregas rápidas de módulos funcionales (por ejemplo, primero el módulo de captura de datos, luego el de análisis).
-Prototipado con Drawio: Puedes modelar los formularios de censo, flujos de usuario y arquitectura del sistema.
-informe analisis con listas de chequeo para validacion de artefactos
-
-- 6 -       Requisitos No funcionales  Los  requisitos  no  funcionales  para  un  software  son  aquellos  que  describen  las cualidades  o  características  que  el  sistema  debe  tener,  pero  que  no  están directamente  relacionadas  con  su  funcionalidad.  Estos  requisitos  suelen  estar relacionados con aspectos de rendimiento, seguridad, usabilidad, confiabilidad y otros aspectos  importantes  para  la  calidad  del  software.  Algunos  ejemplos  comunes  de requisitos no funcionales incluyen:  ✓  Rendimiento: Define cómo debe comportarse el sistema en términos de tiempo de respuesta, capacidad de procesamiento, uso de recursos (como memoria o CPU), y tolerancia a la carga.  ✓  Seguridad: Especifica los requisitos para proteger el sistema contra accesos no autorizados,  ataques  maliciosos,  pérdida  de  datos  y  otras  amenazas  de seguridad.  ✓  Usabilidad:  Describe  la  facilidad  de  uso  del  sistema,  incluida  la  interfaz  de usuario,  la  accesibilidad,  la  capacidad  de  aprendizaje  y  la  satisfacción  del usuario.  ✓  Disponibilidad:  Define  la  disponibilidad  del  sistema,  incluido  el  tiempo  de actividad esperado, la capacidad de recuperación ante fallos y los mecanismos de respaldo.  ✓  Mantenibilidad: Describe la facilidad con la que el sistema puede ser mantenido y modificado, incluida la claridad del código, la documentación y la facilidad de prueba.  ✓  Portabilidad:  Especifica  la  capacidad  del  sistema  para  ser  utilizado  en diferentes  entornos,  como  diferentes  sistemas  operativos,  plataformas  de hardware o configuraciones de red.  ✓  Confiabilidad:  Describe  la  capacidad  del  sistema  para  funcionar  de  manera consistente  y  predecible,  incluida  la  tolerancia  a  fallos  y  la  capacidad  de recuperación. 
-- 7 -    Documentos de listas de Chequeo   Las  listas  de  chequeo  consisten  en  un  formato  (analógico  o  digital)  para  realizar acciones  repetitivas  que  hay  que  verificar.  Con  la  ayuda  de  esta  lista  vamos  a comprobar de una forma ordenada y sistemática el cumplimiento de los requisitos que contiene la lista. Esta técnica de recogida de datos se prepara para que su uso sea fácil, e interfiera lo menos posible con la actividad de quien realiza el registro  PASOS PARA ELABORAR UNA LISTA DE CHEQUEO.  DETERMINAR EL ÁREA QUE SE QUIERE EVALUAR Los integrantes deben enfocar su atención hacia el análisis de las características del proceso,  además  deben  tener  claras  las  partes  del  proceso  a  observar  para  no perderse. Esta determinación es muy importante cuando una compañía cuenta con varias sedes o localizaciones. ✓  Diseñar el formato de verificación escribir las categorías o variables posibles establecer la escala de ocurrencias. diseñar la cuadrícula. Asegurarse de que todas  las  partes  del  checklist  estén  claramente  descritas.  Esta  herramienta busca quitar problemas y que tengamos un formato claro y fácil de usar.  ✓  Tomar nota de la información en el formato de la verificación registrarlo en una base de datos para su tratamiento estadístico y análisis de los resultados.  ✓  Asegúrate  de  que  se  dedique  el  tiempo  necesario  para  esta  actividad.  El encargado o encargada de recopilar los datos, debe tomarse su tiempo, a veces hay procesos que son un poco repetitivos y tediosos y pueden llegar a cansar
-
-
-Elaboracion de diagramas y plantillas para casos de uso del proyecto
-Elaboracion de historia de usuarios del proyecto
-Diagramas y documentaciopn de actividades del proyecto
-informe analisis con listas de chequeo para validacion de artefactos
-Elaboracion de diagramas y plantillas para casos de uso del proyecto
-Elaboracion de historia de usuarios del proyecto
-Diagramas y documentaciopn de actividades del proyecto
-informe analisis con listas de chequeo para validacion de artefactos
+/***
+Lista de chequeo
+Propuestas técnica y económica con ajustes de acuerdo con la
+negociación tecnológica. GA2-220501094-AA4-EV02.
+Criterios de evaluación:
+ Realiza la presentación de la propuesta según propósitos de la negociación.
+ Documenta las sugerencias del cliente según la necesidad del negocio.
+ Ajusta los parámetros técnicos de acuerdo con los resultados de la negociación.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. Elabora las propuestas técnica y económica con
+ajustes correspondientes.
+60%
+2. Documenta las sugerencias del cliente según la
+necesidad del negocio.
+20%
+3. Ajusta los parámetros técnicos de acuerdo con los
+resultados de la negociación.
+20%
+**/

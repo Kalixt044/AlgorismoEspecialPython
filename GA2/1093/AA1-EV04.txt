@@ -1,3 +1,29 @@
+/***
+lISTA DE CHEQUEO: 
+GA2-220501093-AA1 - Elaborar diagrama y documentación
+de casos de uso / historias de usuario de acuerdo con el
+refinamiento de requisitos.
+Evidencia de producto: Diagramas y documentación de actividades del proyecto.
+GA2-220501093-AA1-EV04.
+Criterios de evaluación:
+ Interpreta el informe de requisitos para modelar las funciones del software.
+ Elabora diagramas de casos de uso de acuerdo con los estándares actuales, mediante
+Lenguaje Unificado de Modelado (UML).
+ Genera plantillas extendidas de casos de uso expresando la intención de las acciones a
+desarrollar.
+ Realiza diagramas de actividades exponiendo detalles de los casos de uso.
+ Documenta las actividades de análisis a través de un informe.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. Identifica la metodología de desarrollo a seguir. 20%
+2. Identifica el conjunto de actividades a cumplir. 20%
+3. Maneja herramientas de software para construir los
+diagramas.
+30%
+4. Elabora documento de cronograma de trabajo del
+proyecto.
+**/
 Diagramas y documentaciopn de actividades del proyecto
 
 1. 🎯 Objetivo General de la Evidencia
@@ -78,3 +104,39 @@ distribuidora de consumo masivo llamada
 Perspectiva del producto   El sistema de información de agenda para citas médicas tiene como fin agilizar el proceso para tomar horas médicas; queremos brindar un sistema que sea autogestionable, donde el  usuario  principal (stakeholder)  que requiera  agendar una  cita  médica lo  pueda realizar a través de internet, donde no le tome más de cinco (5) minutos el agendamiento.  Sera un sistema que le brindara confianza tanto al usuario principal como al centro médico (también stakeholder) ya que ambos serán notificados de cada gestión que se realice en sistema de información.  Funciones del producto - Seguridad, para acceder al sistema será necesario ingresar a través de un usuario y una contraseña. - Agendamiento: o Calendario, el usuario podrá consultar la disponibilidad (días y horas) del médico o profesional de la salud seleccionado. o Agendar, el usuario podrá reservar la hora seleccionada. o Modificar, el usuario podrá cambiar la hora seleccionada. o Confirmar, el usuario podrá ratificar que asistirá a la hora seleccionada. o Anular, el usuario podrá cancelar la hora seleccionada, notificándole así al centro médico que no asistirá y la hora quedará de nuevo disponible para otro usuario. - Comprobante, cada gestión que se realice generará un documento el cual será enviado al correo electrónico de los usuarios (personas que agendan la cita médica y centro médico donde se realizara la atención).  Características de los usuarios (stakeholders)   El sistema de información contara con tres (3) tipos de usuarios (stakeholders) que se relacionan a continuación y se nombran sus respectivas características: - Usuario administrador, aplica para el encargado del sistema de información, este tendrá la labor de poner a disposición y/o modificar el calendario para los demás usuarios,  podrá  crear,  modificar  y  eliminar  centros  médicos  y/o  doctores  o profesionales de la salud del sistema de información. - Usuario normal, aplica para las personas que requieren agendar horas médicas, estos podrán consultar el calendario, agendar, modificar y/o anular una cita médica. La creación del usuario normal es autogestionable. - Usuario  centro  médico,  aplica  para  los  centros  médicos  donde  se  realizará  la atención al usuario normal, este tipo de usuario podrá consultar el calendario y/o anular una cita médica. 
 
 5  Restricciones Entre las restricciones que se pueden presentar en el sistema de información de agenda para citas médicas tenemos: - Se debe contar con acceso a internet para poder hacer uso del sistema de información. - Se debe contar con un manejo básico de las herramientas de internet. - El sistema de información debe ser desarrollado en versión web, pues el acceso al sistema debe ser en línea y estar disponible para cualquier dispositivo con acceso a internet. - Es  obligatorio  acceder  al  sistema  de  información  a  través  de  un  usuario  y  una contraseña. - Para los usuarios es obligatorio tener un correo electrónico para todos los procesos.  Requisitos Funcionales El sistema debe permitir: - Validar el usuario y la contraseña del usuario que desea ingresar al sistema. - Crear el calendario con la agenda de los médicos y/o profesionales de la salud. - Crear centros médicos. - Crear médicos y/o profesionales de la salud. - Modificar centros médicos. - Modificar médicos y/o profesionales de la salud. - Eliminar centros médicos. - Eliminar médicos y/o profesionales de la salud. - Consultar la disponibilidad de los médicos y/o profesionales de la salud de acuerdo a su calendario. - Agendar la cita médica seleccionada. - Bloquear la hora medica seleccionada para que otro usuario no pueda seleccionar de nuevo la misma hora. - Modificar la cita médica seleccionada. - Anular o cancelar la cita médica seleccionada. - Confirmar la cita médica seleccionada. - Generar comprobantes de los registros realizados en el sistema. - Enviar a través de correo electrónico los comprobantes generados.  
+/***
+Resumen Técnico y Práctico del Repositorio DBInterface
+
+El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
+
+Características Principales
+
+Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
+
+Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
+
+Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
+
+Estructura del Repositorio
+
+Archivos Clave:
+
+README.md: Documentación del proyecto.
+busca.py: Script para buscar datos en la base de datos.
+database.py: Manejo de la base de datos SQLite.
+genero.py: Funciones relacionadas con la gestión de datos.
+index.py: Archivo principal que ejecuta la aplicación.
+statisk.ipynb: Notebook de Jupyter para análisis de datos.
+Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
+
+Instalación y Uso
+
+Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
+
+Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
+
+Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
+
+Conclusión
+
+El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.**/
