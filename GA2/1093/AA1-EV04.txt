@@ -140,3 +140,105 @@ Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuar
 Conclusión
 
 El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.**/
+/***
+Guía para la Evidencia GA2-220501093-AA1-EV04: Diagramas y Documentación de Actividades del Proyecto
+(Contexto: Proyecto "Censo Rural")
+Esta evidencia tiene como propósito principal representar gráficamente y documentar las funciones clave del software "Censo Rural" mediante diagramas de actividades UML y un informe de análisis. Esto permitirá comprender el flujo de trabajo del sistema, facilitar la comunicación entre los involucrados y sentar las bases para una especificación formal del software.
+El proyecto "Censo Rural" busca desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [Conversación previa, 187, 207, 223]. El sistema debe permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [Conversación previa, 187, 207, 223].
+1. Objetivo General de la Evidencia
+El objetivo general es modelar las funciones del software de acuerdo con el informe de requisitos. Específicamente, se busca elaborar diagramas y documentación de casos de uso/historias de usuario de acuerdo con el refinamiento de requisitos.
+2. Parte 1: Elaboración de Diagramas de Actividades UML
+Los diagramas de actividades trazan los flujos de procesos de una manera sencilla de entender. Son considerados diagramas de comportamiento porque describen lo que debe suceder en el sistema.
+•
+¿Qué deben incluir? Para cada función principal del sistema, elaborará un diagrama de actividades que muestre:
+◦
+Inicio del proceso
+◦
+Acciones o actividades
+◦
+Decisiones (condiciones)
+◦
+Flujo alternativo (si aplica)
+◦
+Finalización del proceso Utilizará un conjunto de símbolos especializados para estos pasos, incluyendo los de inicio, finalización, fusión y recepción en el flujo.
+•
+Casos de Uso Sugeridos y Aplicación al "Censo Rural": Puede elegir entre los siguientes casos de uso para elaborar sus diagramas de actividades, adaptándolos a la especificidad del proyecto "Censo Rural":
+◦
+Registro y autenticación de usuarios: Esto incluye el flujo para que los encuestadores, supervisores y administradores puedan ingresar al sistema de forma segura. El sistema debe permitir la creación de cuentas con validación de correo electrónico, inicio de sesión seguro con autenticación de dos factores, y recuperación de contraseñas [Conversación previa, 25, 43, 223].
+◦
+Creación de cuentas: Detalle el proceso para generar nuevas cuentas de usuarios, especificando los datos obligatorios como nombre completo, documento de identidad, departamento y cargo.
+◦
+Recuperación de contraseñas: El diagrama debe ilustrar el mecanismo seguro para que un usuario restablezca su contraseña, por ejemplo, mediante el envío de un enlace al correo electrónico registrado.
+◦
+Registro de sesiones activas: Muestre cómo el sistema registra las sesiones y permite cerrarlas desde cualquier dispositivo.
+◦
+Captura de Datos en Campo: Este es un proceso central para el "Censo Rural". El diagrama debe detallar el flujo de la captura de información mediante formularios dinámicos en dispositivos móviles, incluyendo la validación de datos, la georreferenciación y la carga de fotos/documentos [Conversación previa, 224, 240, 251, 262, 271, 292, 303, 314, 323]. Este proceso es análogo al "Registro de llegada de mercancías" mencionado en los ejemplos generales.
+◦
+Sincronización de Datos (Offline a Online): Dada la naturaleza rural del proyecto, este diagrama es crucial. Debe mostrar cómo los datos capturados sin conexión son almacenados de forma segura y luego sincronizados automáticamente con la plataforma central cuando hay conexión [Conversación previa, 190, 225, 240, 251, 262, 271, 292, 303, 314, 323].
+◦
+Generación de Reportes y Análisis de Datos: Detalle cómo el sistema procesa los datos centralizados para generar dashboards con indicadores clave (KPIs), informes automatizados y visualización geográfica para la toma de decisiones en políticas públicas [Conversación previa, 29, 30, 225, 240, 251, 262, 271, 292, 303, 314, 323]. Esto se relaciona con la "Gestión de pagos a proveedores" como un flujo de gestión general.
+•
+Herramientas Recomendadas: Para la elaboración de estos diagramas, se recomiendan herramientas de software como Draw.io, Lucidchart, StarUML o Visual Paradigm. Se ha mencionado que Draw.io ha sido utilizado para el modelado de prototipos.
+3. Parte 2: Elaboración del Informe de Análisis
+El informe de análisis debe documentar las actividades de análisis y servir como una especificación formal del software.
+•
+Estructura Sugerida del Informe:
+◦
+I. Introducción:
+▪
+Breve descripción del proyecto "Censo Rural", incluyendo su objetivo de optimizar la recolección, gestión y análisis de datos personales en zonas rurales con conectividad limitada.
+▪
+Objetivo del informe: Documentar los diagramas de actividades y su contribución a la comprensión del sistema.
+◦
+II. Interpretación del Informe de Requisitos:
+▪
+Señale qué requerimientos funcionales y no funcionales del proyecto "Censo Rural" se están abordando en los diagramas.
+▪
+Requerimientos Funcionales: Incluyen la gestión de usuarios (roles como encuestadores, supervisores, administradores), la interfaz intuitiva adaptada para uso offline y en campo, la gestión de categorías (región, comunidad, datos demográficos), la captura de datos en campo (formularios digitales, georreferenciación, adjuntar fotos), la gestión de archivos (almacenamiento seguro y sincronización) y el análisis y estadísticas (dashboards e informes) [Conversación previa, 24, 25-30, 188, 208, 223-225].
+▪
+Requerimientos No Funcionales: Detalle aspectos como la alta disponibilidad (funcionamiento offline y sincronización), la escalabilidad (soporte para alto volumen de datos y múltiples regiones), la seguridad (encriptación de datos y protección de información personal, vital para un censo), la usabilidad (diseño accesible para usuarios con bajo nivel de alfabetización digital) y la compatibilidad (dispositivos móviles Android y navegadores web) [Conversación previa, 33-37, 40-41, 189, 208-209, 225-226, 227].
+◦
+III. Metodología de Desarrollo:
+▪
+Indique que se sigue la metodología XP (Extreme Programming).
+▪
+Explique cómo esta metodología es adecuada para el "Censo Rural", ya que se enfoca en entregas frecuentes de módulos funcionales independientes, los cuales se irán fusionando una vez superen los tests (por ejemplo, primero el módulo de captura de datos y luego el de análisis).
+◦
+IV. Descripción de los Diagramas:
+▪
+Para cada diagrama de actividad UML elaborado, incluya:
+•
+Nombre del proceso
+•
+Descripción del flujo
+•
+Relación con los requisitos funcionales específicos del "Censo Rural"
+•
+Justificación de decisiones tomadas en el modelado
+◦
+V. Conclusión:
+▪
+Resuma cómo estos diagramas y el análisis detallado contribuyen a una mejor comprensión del sistema del "Censo Rural".
+▪
+Destaque la importancia de esta documentación para futuras fases del desarrollo y para asegurar que la solución propuesta sea no solo técnicamente viable sino también organizacionalmente sostenible.
+4. Criterios de Evaluación
+Su evidencia será evaluada en función de los siguientes criterios:
+•
+Interpretación del informe de requisitos para modelar las funciones del software.
+•
+Elaboración de diagramas de casos de uso (si aplica) de acuerdo con los estándares actuales, mediante Lenguaje Unificado de Modelado (UML).
+•
+Generación de plantillas extendidas de casos de uso (si aplica) expresando la intención de las acciones a desarrollar.
+•
+Realización de diagramas de actividades exponiendo detalles de los casos de uso.
+•
+Documentación detallada y bien estructurada de las actividades de análisis a través de un informe.
+•
+Aplicación correcta del lenguaje UML.
+•
+Claridad en la representación de los procesos.
+•
+Coherencia entre los diagramas y los requisitos.
+•
+Uso de la metodología XP como base del análisis
+**/

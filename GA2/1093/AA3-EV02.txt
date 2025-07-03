@@ -93,3 +93,105 @@ Cubre el 80% de los casos de uso priorizados.
 
 VII. Conclusión
 La validación mediante listas de chequeo asegura que los artefactos cumplan con los estándares de calidad y las necesidades del Censo Rural. Las mejoras identificadas garantizarán una solución robusta y adaptable al contexto rural.
+
+
+
+
+/***
+
+Para abordar la evidencia GA2-220501093-AA3-EV02: Informe de Análisis con Listas de Chequeo para la Validación de Artefactos en el contexto de su proyecto "Censo Rural", se debe seguir una guía estructurada que asegure la calidad y el cumplimiento de los requisitos.
+El objetivo general de esta evidencia es evaluar el informe de análisis, considerando la calidad de los artefactos generados y su cumplimiento de los requisitos, y realizar mejoras a la documentación.
+El proyecto "Censo Rural" tiene como meta desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [conversación previa, 187, 207, 223, 236, 247, 258, 288, 299, 310]. Este sistema debe permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [conversación previa, 187, 207, 223, 236, 247, 258, 288, 299, 310].
+A continuación, se detalla una guía sobre cómo abordar esta evidencia, basándose en los criterios de evaluación y la información proporcionada en las fuentes:
+Guía para el Informe de Análisis con Listas de Chequeo para la Validación de Artefactos (GA2-220501093-AA3-EV02)
+1.
+Construye el documento de informe de artefactos entregados:
+◦
+Estructura del Informe:
+▪
+I. Introducción: Debe contener una breve descripción del proyecto "Censo Rural", detallando su objetivo de optimizar la recolección, gestión y análisis de datos personales en zonas rurales, el propósito del informe y la metodología de desarrollo.
+▪
+Metodología de desarrollo: Se debe indicar que el proyecto sigue la metodología XP (Extreme Programming), que prioriza la retroalimentación continua con los usuarios y la iteración rápida. Esta metodología es ideal para el "Censo Rural" porque permite entregas rápidas de módulos funcionales independientes, por ejemplo, primero el de captura de datos y luego el de análisis, los cuales se fusionarán una vez superen las pruebas.
+▪
+II. Interpretación del informe de requisitos: Describa los requisitos funcionales y no funcionales que el software del censo debe abordar.
+•
+Requisitos Funcionales para el "Censo Rural" incluyen:
+◦
+Gestión de usuarios: Con roles como encuestadores, supervisores y administradores.
+◦
+Interfaz de usuario intuitiva: Adaptada para uso offline y en campo.
+◦
+Gestión de categorías: Como región, comunidad, datos demográficos.
+◦
+Captura de datos en campo: Mediante formularios digitales, georreferenciación y adjuntar fotos/documentos.
+◦
+Gestión de archivos: Para almacenamiento seguro de formularios, fotos y documentos, con sincronización posterior.
+◦
+Análisis y estadísticas: Con dashboards e informes para la toma de decisiones.
+•
+Requisitos No Funcionales para el "Censo Rural" incluyen:
+◦
+Alta disponibilidad: Asegurando el funcionamiento offline y la sincronización cuando haya conexión.
+◦
+Escalabilidad: Para soportar un alto volumen de datos y múltiples regiones.
+◦
+Seguridad: Con encriptación de datos y protección de información personal (vital para un censo), y control de acceso.
+◦
+Usabilidad: Con un diseño accesible para usuarios con bajo nivel de alfabetización digital.
+◦
+Compatibilidad: Con dispositivos móviles Android y navegadores web.
+▪
+III. Descripción de los artefactos generados: Referencie y resuma los diagramas (casos de uso, actividades) y las historias de usuario elaborados para el proyecto, explicando su contribución a la comprensión del sistema del censo.
+▪
+IV. Validación de artefactos (Aplicación de listas de chequeo): Detalle la aplicación de las listas de chequeo a los artefactos. Presente los hallazgos, no conformidades y oportunidades de mejora identificadas. Un ejemplo de no conformidad podría ser que "algunos términos varían en historias de usuario".
+▪
+V. Mejoras propuestas: Basado en la validación, especifique las mejoras a realizar en la documentación de análisis. Por ejemplo, "revisar terminología en historias de usuario para uniformidad" o "ampliar descripción de flujos offline en diagramas".
+▪
+VI. Prototipo inicial del software: Describa el prototipo inicial del "Censo Rural" y cómo se alinea con los casos de uso y requisitos identificados. Por ejemplo, debe mostrar formularios de censo, geolocalización y modo offline, y cubrir el 80% de los casos de uso priorizados.
+▪
+VII. Conclusión: Resuma la importancia de la validación y cómo contribuye a una mejor comprensión y calidad del sistema.
+2.
+Identifica los procesos y usuarios interesados:
+◦
+Detalle los procesos clave del "Censo Rural" (ej., registro de encuestadores, despliegue de formularios, captura de datos offline, sincronización de datos, generación de reportes) y los usuarios (stakeholders) involucrados. Estos incluyen Encuestadores, Supervisores, Administradores del sistema, y posiblemente Analistas de datos o personal de entidades gubernamentales que usarán los informes para políticas públicas.
+3.
+Valida con los usuarios los requerimientos encontrados:
+◦
+Esta etapa es fundamental e implica confirmar los requisitos y procesos documentados con los usuarios reales o representantes de los usuarios del "Censo Rural".
+◦
+Esto se puede realizar mediante entrevistas de profundización o sesiones de revisión, donde se presenten los artefactos (diagramas, historias de usuario, prototipo) para obtener su retroalimentación.
+◦
+El objetivo es asegurar que el software en construcción se ajuste a sus necesidades diarias y a la realidad del censo en zonas rurales.
+4.
+Elabora el documento de lista de chequeo paso a paso:
+◦
+Se deben construir listas de chequeo específicas y detalladas para la validación de cada artefacto de análisis. Estas listas deben ser fáciles de usar y sistemáticas.
+◦
+Los pasos para elaborarlas son:
+1.
+Determinar el área a evaluar: Para cada artefacto (ej., informe de requisitos, casos de uso, prototipo del formulario del censo).
+2.
+Diseñar el formato de verificación: Con categorías o variables posibles, y una escala de ocurrencias (ej., Cumple/No Cumple/Parcialmente Cumple).
+3.
+Asegurarse de que todas las partes estén claramente descritas.
+4.
+Definir qué información se registrará para su análisis.
+◦
+Ejemplos de criterios en las listas de chequeo para el "Censo Rural" podrían ser:
+▪
+Completitud: ¿Están todos los campos de datos necesarios para el censo definidos?.
+▪
+Consistencia: ¿Los datos de usuario (encuestador) son consistentes en todas las funcionalidades?.
+▪
+Claridad: ¿Las descripciones de las funcionalidades son fáciles de entender para los encuestadores y administradores?.
+▪
+Correctitud: ¿Los flujos de captura de datos reflejan el proceso real del censo?.
+▪
+Trazabilidad: ¿Es posible rastrear un requisito de censo hasta su implementación en una historia de usuario o un diagrama?.
+▪
+Adherencia a estándares: ¿Los diagramas siguen las normas UML?.
+▪
+Seguridad y Privacidad: ¿Se consideran los aspectos de encriptación y protección de datos personales de los habitantes, conforme a la normativa?.
+Al seguir esta guía, podrá desarrollar un informe de análisis completo y riguroso, validando los artefactos generados y proponiendo mejoras para su proyecto "Censo Rural".
+
+**/
