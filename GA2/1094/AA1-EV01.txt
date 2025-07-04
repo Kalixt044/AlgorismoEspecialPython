@@ -1,5 +1,7 @@
-Foro temático: Licenciamiento de software. GA2-220501094-
-AA1-EV01
+
+
+
+Foro temático: Licenciamiento de software. GA2-220501094-AA1-EV01
 Criterios de evaluación:
 ● Dimensiona las licencias de software de acuerdo con las características de la solución y las
 necesidades de la empresa.
@@ -9,21 +11,14 @@ software y las necesidades de la empresa.
 No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
 SÍ NO
 1. Su concepto sobre las licencias de software es claro. 40%
-2. Da una opinión coherente a las respuestas de 3
-compañeros.
-30%
-3
-.
-.
-Cumple con todas las normas de ortografía al contestar
-el foro temático.
-10%
-4
-.
-Da respuesta correctamente a las 4 preguntas
+
+2. Da una opinión coherente a las respuestas de 3 compañeros. 30%
+
+3. Cumple con todas las normas de ortografía al contestar
+el foro temático.10%
+4.Da respuesta correctamente a las 4 preguntas
 propuestas para el foro, utilizando un lenguaje técnico
-y coherente con la temática.
-20%
+y coherente con la temática. 20%
 Estima condiciones técnicas y económicas de acuerdo con las características de la solución de 
 software y las necesidades de la empresa.
 
@@ -56,3 +51,69 @@ Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusu
 Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
 
 https://zajuna.sena.edu.co/zajuna/mod/forum/view.php?id=2251176 
+/***
+Entrada: 
+Me complace participar en este foro sobre el licenciamiento de software, un tema crucial en el desarrollo y la implementación de soluciones tecnológicas.
+
+Concepto sobre las licencias de software:
+
+Las licencias de software son contratos legales que establecen los términos y condiciones bajo los cuales un usuario puede utilizar, distribuir, modificar y acceder a un programa informático. Estas licencias definen los derechos y restricciones que el titular de los derechos de autor impone sobre su obra. Su propósito principal es proteger la propiedad intelectual del desarrollador, al mismo tiempo que regulan el uso del software para garantizar su correcta aplicación y evitar infracciones.
+
+Existen diversos tipos de licencias, desde las privativas (como las de Microsoft Windows o Adobe Photoshop, que restringen la modificación y redistribución) hasta las de código abierto (como GPL, MIT o Apache, que promueven la libertad de uso, modificación y distribución). La elección de la licencia adecuada impacta directamente en el modelo de negocio, la colaboración comunitaria y la flexibilidad de la solución.
+
+Análisis de licenciamiento para el proyecto "Software de Recolección de Datos":
+
+Considerando las características del proyecto que nos ocupa, el cual incluye una Interfaz Gráfica (Tkinter), Generación de Archivos CSV, Base de Datos SQLite y una estructura de repositorio bien definida (con README.md, busca.py, database.py, genero.py, index.py, statisk.ipynb), y que además, ya se ha especificado que la licencia es GPL-3.0, podemos dimensionar las implicaciones de esta elección:
+
+Dimensionamiento de la licencia (GPL-3.0) y sus características para la solución:
+
+La licencia GPL-3.0 (General Public License versión 3) es una de las licencias de software libre más utilizadas y restrictivas en cuanto a la libertad de "copiaizquierda" o "copyleft". Esto significa que cualquier trabajo derivado o modificado de nuestro software, si es distribuido, debe ser liberado bajo los mismos términos de la GPL-3.0.
+
+Libertad de uso y ejecución: Los usuarios finales tienen la libertad de ejecutar el software para cualquier propósito.
+
+Libertad de estudio y modificación: Los usuarios pueden acceder al código fuente, estudiarlo y modificarlo para adaptarlo a sus necesidades. Esto es un gran beneficio para la evolución del proyecto y para la empresa que lo implemente, ya que permite personalizaciones internas sin costo de licencia adicional.
+
+Libertad de redistribución: Los usuarios pueden redistribuir copias del software, ya sea en su forma original o modificada, siempre que se haga bajo los términos de la GPL-3.0. Esto fomenta la distribución y el uso de la solución.
+
+Libertad de distribuir versiones modificadas (con obligación de liberar el código fuente): Si la empresa decide modificar el software para sus necesidades internas y luego distribuir esta versión modificada (ya sea a otros departamentos, sucursales o incluso externamente), está obligada a poner a disposición el código fuente de esas modificaciones bajo la misma licencia GPL-3.0. Esto garantiza la transparencia y la contribución a la comunidad de software libre.
+
+Estimación de condiciones técnicas y económicas:
+
+Condiciones técnicas:
+
+Ventajas:
+
+Flexibilidad: La GPL-3.0 permite adaptar el software a las necesidades específicas de la empresa sin restricciones técnicas impuestas por el licenciamiento (más allá de la obligación de compartir modificaciones).
+
+Transparencia y Seguridad: Al tener acceso al código fuente, la empresa puede auditar el software para identificar posibles vulnerabilidades o errores, mejorando la seguridad y la confianza en la solución.
+
+Comunidad y Soporte: Aunque el proyecto es propio, al ser GPL-3.0, podría eventualmente beneficiarse de contribuciones o mejoras de una comunidad externa si se decide hacer público el repositorio, o internamente fomentar la colaboración entre desarrolladores.
+
+Independencia del proveedor: La empresa no depende de un único proveedor para el mantenimiento o desarrollo futuro del software, ya que el código es abierto y puede ser mantenido por cualquier desarrollador con las habilidades necesarias.
+
+Desafíos (a considerar):
+
+Compromiso con el copyleft: La obligación de liberar el código fuente de las modificaciones podría ser una consideración si la empresa tiene la intención de crear funcionalidades propietarias a partir de este software y distribuirlas sin compartir el código. Sin embargo, para una solución interna, este no suele ser un problema.
+
+Mantenimiento interno: Si no hay una comunidad activa fuera de la empresa, el mantenimiento y la evolución del software recaerán en el equipo interno, requiriendo personal capacitado en Python, Tkinter, SQLite, etc.
+
+Condiciones económicas:
+
+Costo de Licencia: La principal ventaja económica es que la GPL-3.0 es una licencia gratuita. No hay costos directos asociados con la adquisición o el uso del software en sí mismo.
+
+Costos Operativos: Los costos se centrarán en:
+
+Desarrollo y Personalización: Si bien el software base es gratuito, cualquier desarrollo adicional, personalización, integración con otros sistemas o nuevas funcionalidades requerirá la inversión en recursos humanos (desarrolladores) y tiempo.
+
+Mantenimiento y Soporte: Los costos estarán asociados con el mantenimiento continuo del software, la corrección de errores, las actualizaciones y el soporte técnico interno o contratado.
+
+Infraestructura: Costos asociados al hardware (servidores, estaciones de trabajo), sistemas operativos y otras herramientas necesarias para ejecutar la aplicación.
+
+Capacitación: Inversión en capacitar a los usuarios y al personal técnico en el uso y manejo del software.
+
+Retorno de la Inversión (ROI): Al eliminar los costos de licenciamiento, el ROI se maximiza al enfocar la inversión en la adaptación del software a las necesidades específicas del negocio y en la eficiencia operativa que la solución puede generar en la recolección y gestión de datos.
+
+En resumen, la elección de la licencia GPL-3.0 para este proyecto es coherente con una estrategia de bajo costo inicial de licenciamiento, alta flexibilidad técnica y la promoción de la colaboración, siempre y cuando la empresa esté consciente de las obligaciones de "copyleft" si decide distribuir versiones modificadas del software. Esta elección permite a la empresa enfocar sus recursos financieros en el desarrollo, personalización, mantenimiento y soporte interno, capitalizando las ventajas del software libre.
+
+Espero sus valiosas opiniones y comentarios.
+**/

@@ -1,0 +1,137 @@
+/***
+Lista de chequeo:
+Elaboración de los diagramas del modelo de dominio del
+proyecto GA2-220501093-AA2-EV01
+Criterios de evaluación:
+● Representa el negocio en términos de clases abstractas, generando un modelo de dominio
+consistente.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. Identifica el tipo de diagrama apropiado para modelar
+el dominio.
+20%
+2. Diagrama con UML los artefactos del sistema diagrama
+de clases y de paquetes.
+30%
+3. Maneja herramientas de software para apoyar la
+elaboración de los diagramas.
+20%
+4
+.
+.
+.
+Elabora documento plantilla de casos de uso con base
+en estándares de documentación.
+20%
+5
+.
+Sigue las instrucciones para la elaboración de un
+diagrama de dominio del proyecto y el modelo
+conceptual resultante se presenta ordenado y de fácil
+lectura.
+10%
+
+**/
+
+Presentación: Diagramas de Dominio del Proyecto "Censo Rural"
+
+Diagramas del modelo de dominio del proyecto GA2-220501093-AA2-EV01
+Repositorio DBInterface
+
+1. Introducción
+Objetivo:
+Modelar el dominio del sistema "Censo Rural" mediante diagramas UML para representar:
+
+Entidades clave (comunidades, habitantes, formularios).
+
+Relaciones y funcionalidades del sistema.
+
+Estructura modular del repositorio DBInterface.
+
+Herramientas:
+
+Draw.io / StarUML para diagramación.
+
+Metodología Ágil (entregas incrementales).
+
+2. Diagrama de Paquetes
+Organización modular del sistema:
+
+Diagram
+Code
+
+
+Paquetes Principales:
+
+Gestión de Datos: Procesamiento y validación de datos.
+
+Interfaz Gráfica: Tkinter para captura de información.
+
+Base de Datos: SQLite para almacenamiento local.
+
+3. Diagrama de Clases
+Entidades y Relaciones:
+
+Diagram
+Code
+
+
+Claves:
+
+Persona: Datos demográficos (atributos: cédula, etnia).
+
+FormularioCensal: Campos dinámicos + validación.
+
+ComunidadRural: Agrupación territorial.
+
+4. Casos de Uso
+4.1. Registrar Habitante
+Actor: Encuestador
+Flujo:
+
+Inicia sesión en DBInterface.
+
+Completa formulario con datos personales.
+
+Sistema valida y almacena en SQLite.
+
+Genera CSV para análisis.
+
+4.2. Generar Reporte
+Actor: Administrador
+Flujo:
+
+Ejecuta statisk.ipynb.
+
+Filtra datos por comunidad.
+
+Exporta reporte en PDF/Excel.
+
+5. Requisitos Cubiertos
+Requisito	Diagrama Relacionado
+Captura offline de datos	Clase FormularioCensal
+Almacenamiento seguro	Paquete Base de Datos
+Análisis estadístico	Caso de Uso "Generar Reporte"
+6. Tecnologías y Licencias
+Lenguaje: Python (Tkinter + SQLite).
+
+Licencia: GPL-3.0 (código abierto).
+
+Módulos Clave:
+
+database.py: Gestión de SQLite.
+
+index.py: Interfaz gráfica principal.
+
+7. Conclusiones
+Los diagramas reflejan la escalabilidad para censos en zonas rurales.
+
+DBInterface cumple con:
+
+Funcionamiento offline.
+
+Integridad de datos (SQLite + validaciones).
+
+Documentación clara para futuras iteraciones.
+

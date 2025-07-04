@@ -1,4 +1,5 @@
-Propuestas técnica y económica con ajustes de acuerdo a la negociación tecnológica. GA2-220501094-AA4-EV02
+Propuestas técnica y económica con ajustes de acuerdo a la negociación tecnológica. 
+GA2-220501094-AA4-EV02
 https://zajuna.sena.edu.co/zajuna/mod/assign/view.php?id=2251200 
 
 /***
@@ -58,4 +59,453 @@ Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuar
 Conclusión
 
 El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
+**/
+
+/***
+Propuestas técnica y económica con ajustes de acuerdo a la negociación tecnológica. GA2-220501094-AA4-EV02" en el contexto del proyecto "Censo Rural", es fundamental integrar la información recopilada en etapas previas, especialmente la elicitación y validación de requisitos con el cliente. El objetivo general del proyecto "Censo Rural" es desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas, buscando la captura eficiente de información mediante dispositivos móviles, la centralización de datos seguros y el análisis para la toma de decisiones en políticas públicas [Conversación previa, 173, 184, 195, 288, 299, 310]. La metodología de desarrollo es Extreme Programming (XP), que se centra en entregas frecuentes de módulos funcionales independientes que se fusionan tras superar las pruebas [Conversación previa, 110, 233, 239, 247, 278].
+A continuación, se presenta una guía detallada sobre cómo abordar esta evidencia, basándose en los criterios de evaluación y la lista de chequeo proporcionados por las fuentes:
+Guía para la Evidencia "Propuestas técnica y económica con ajustes de acuerdo a la negociación tecnológica. GA2-220501094-AA4-EV02"
+El propósito de esta evidencia es realizar la presentación de la propuesta (técnica y económica) con los ajustes resultantes de la negociación, documentando las sugerencias del cliente y adaptando los parámetros técnicos según lo acordado.
+1. Presentación del Documento
+•
+Asegúrese de que el documento cumple con las normas básicas de presentación de documentos escritos definidas.
+2. Elaboración de la Propuesta Técnica con Ajustes Esta sección debe detallar la solución de software propuesta, incluyendo los ajustes derivados de la negociación con el cliente. La propuesta técnica debe proporcionar una solución de software que resuelva el problema del negocio de forma automática y en diferentes formatos, dependiendo del proyecto y del objetivo previsto.
+•
+Fundamentación en el Informe de Requisitos y Modelado Conceptual Previo: La propuesta técnica ajustada debe basarse en la interpretación del informe de requisitos, los diagramas de casos de uso y actividades, y las historias de usuario.
+◦
+Requisitos Funcionales del Software "Censo Rural": Detalle las funciones y características específicas que el software debe tener, incorporando las sugerencias del cliente. Esto incluye:
+▪
+Gestión de Usuarios: Registro y autenticación de encuestadores, supervisores y administradores, con roles específicos y trazabilidad de actividades. El sistema debe permitir la creación de cuentas con datos obligatorios como nombre completo, documento de identidad, departamento y cargo, además de la recuperación de contraseñas de forma segura y el registro de sesiones activas.
+▪
+Interfaz de Usuario Intuitiva: Diseño responsive para adaptarse a diferentes dispositivos y tamaños de pantalla, optimización para móviles y tablets, navegación simplificada, menús intuitivos, barra de búsqueda global y accesos rápidos personalizables. Crucialmente, debe ser adaptada para uso en campo, con navegación offline y tutoriales para encuestadores, y accesible para usuarios con conocimientos básicos de informática.
+▪
+Gestión de Categorías: Clasificación de datos por región, comunidad, grupo etario, etc..
+▪
+Captura de Datos en Campo: Formularios dinámicos, validación de datos en campo, georreferenciación, carga de fotos/documentos, y sincronización automática cuando haya conexión, especialmente para zonas sin conectividad.
+▪
+Gestión de Archivos: Almacenamiento seguro de formularios, fotos y documentos asociados a cada persona o familia censada, con organización jerárquica y control de versiones.
+▪
+Análisis y Estadísticas: Dashboards con indicadores clave de desempeño (KPIs) (como población, acceso a servicios), generación de informes automatizados, y visualización geográfica.
+◦
+Requisitos No Funcionales del Software "Censo Rural": Establezca las expectativas sobre el rendimiento, la seguridad, la usabilidad y la escalabilidad del sistema, con los ajustes correspondientes:
+▪
+Alta disponibilidad y funcionamiento offline para zonas sin conectividad, con sincronización cuando haya conexión.
+▪
+Escalabilidad para cubrir múltiples regiones y crecer en volumen de datos (soporte para un crecimiento del 100% en datos en los próximos 3 años).
+▪
+Seguridad: Encriptación de datos personales, control de acceso, cumplimiento de normativas de protección de datos, y sesiones de usuario que expiren automáticamente.
+▪
+Usabilidad: Interfaz amigable para usuarios con bajo nivel de alfabetización digital.
+▪
+Rendimiento: Tiempos de carga de cada módulo que no superen los 2 segundos bajo condiciones normales de operación, soportando al menos 50 usuarios concurrentes.
+▪
+Compatibilidad: Funcionalidad en dispositivos móviles Android y navegadores web modernos (Google Chrome, Firefox, Microsoft Edge).
+◦
+Metodología de Desarrollo (XP): Reafirme que el proyecto sigue la metodología XP, enfocada en entregas frecuentes de módulos funcionales independientes que se fusionarán una vez superen las pruebas. Resalte cómo esta metodología es ideal para el "Censo Rural" al permitir entregas rápidas de módulos, como el de captura de datos antes que el de análisis [233, 239, 247, 278, conversación previa].
+◦
+Estrategia de Solución: Explique cómo la solución de software propuesta abordará el problema existente y se alineará con los objetivos estratégicos.
+3. Elaboración de la Propuesta Económica con Ajustes Esta parte debe estimar los costos de software y hardware de acuerdo con las características del negocio y las especificaciones de la solución de software.
+•
+Estimación de Costos:
+◦
+Realice un diseño de tablas comparativas sobre presupuestos de hardware y software.
+◦
+Asegúrese de que las variables presentadas en la tabla permitan determinar un valor que se aproxime lo más real posible a la problemática.
+◦
+Considere las implicaciones de operar el sistema en red local o en la nube, ya que esta decisión impacta directamente en la arquitectura del sistema, los requisitos de seguridad, la escalabilidad y los costos iniciales y de mantenimiento.
+4. Documentación de Sugerencias del Cliente y Ajuste de Parámetros Técnicos Este es el criterio central de la evidencia.
+•
+Documente las Sugerencias del Cliente: Incluya las retroalimentaciones y preferencias obtenidas durante las etapas de elicitación y validación de requisitos.
+◦
+Las entrevistas de profundización y los cuestionarios mixtos son las técnicas principales utilizadas para entender los requerimientos detalladamente y asegurar que el sistema se ajuste a las necesidades reales del usuario.
+◦
+Las "fichas técnicas para la recolección de la información" permiten recopilar datos fundamentales sobre el contexto y perfil del usuario, objetivos y necesidades, requisitos funcionales y no funcionales, interfaz de usuario, y restricciones/limitaciones.
+•
+Ajuste los Parámetros Técnicos: Explique cómo estas sugerencias y los resultados de la negociación han llevado a modificaciones específicas en los requisitos funcionales, no funcionales, la arquitectura o cualquier otro aspecto técnico de la solución.
+◦
+La validación con los usuarios es fundamental para asegurar que el software en construcción se ajuste a sus necesidades diarias y a la realidad del censo en zonas rurales. Las mejoras propuestas en la documentación de análisis deben ser el resultado de esta validación.
+◦
+Considere si el software debe funcionar de manera local en una red privada o ser desplegado en internet, ya que esta decisión tiene implicaciones técnicas.
+5. Presentación de la Propuesta
+•
+La presentación final de la propuesta técnica y económica debe realizarse según los propósitos de la negociación, demostrando cómo la solución propuesta se alinea con las necesidades y acuerdos del cliente.
+Al seguir estos pasos, se podrá generar una propuesta técnica y económica robusta y bien documentada, que refleje la comprensión profunda del proyecto "Censo Rural" y los acuerdos alcanzados con los interesados.
+**/
+
+
+/***
+Propuesta Técnica y Económica Ajustada: Proyecto "Censo Rural"
+Evidencia: GA2-220501094-AA4-EV02
+
+1. Introducción
+El presente documento detalla la propuesta técnica y económica ajustada para el desarrollo del software "Censo Rural", un sistema integral diseñado para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas de Colombia. Esta propuesta incorpora los resultados de la negociación tecnológica, documentando las sugerencias del cliente y ajustando los parámetros técnicos para garantizar una solución que no solo cumpla con las expectativas, sino que también optimice los recursos y se alinee con las necesidades del negocio.
+
+El objetivo principal es proporcionar una herramienta eficiente que permita la captura de información mediante dispositivos móviles, centralice los datos de manera segura y facilite su análisis para la toma de decisiones informadas en el diseño de políticas públicas. La metodología de desarrollo Extreme Programming (XP) continuará siendo el pilar de este proyecto, permitiendo entregas frecuentes de módulos funcionales y una adaptación ágil a los requerimientos cambiantes.
+
+2. Propuesta Técnica con Ajustes
+La solución técnica propuesta se basa en la adaptación y extensión del repositorio DBInterface, que utiliza Python, Tkinter y SQLite. Los ajustes se han realizado considerando las sugerencias del cliente y las validaciones de requisitos previas para ofrecer una solución robusta y orientada a la realidad del "Censo Rural".
+
+2.1. Fundamentación y Requisitos
+Esta propuesta técnica se fundamenta en el informe de requisitos, los diagramas de casos de uso y actividades, y las historias de usuario previamente definidas.
+
+2.1.1. Requisitos Funcionales del Software "Censo Rural" (Ajustes por Negociación)
+Se han incorporado las siguientes funcionalidades, con especial énfasis en la usabilidad en campo y la seguridad de la información:
+
+Gestión de Usuarios:
+
+Registro y autenticación segura para encuestadores, supervisores y administradores, con roles específicos y permisos detallados.
+
+Obligatoriedad de campos como nombre completo, documento de identidad, departamento y cargo en la creación de cuentas.
+
+Implementación de un proceso seguro de recuperación de contraseñas.
+
+Registro de sesiones activas para monitoreo y seguridad.
+
+Interfaz de Usuario Intuitiva y Adaptativa:
+
+Diseño responsive garantizado para adaptarse a diversos dispositivos y tamaños de pantalla (móviles y tablets, crucial para el trabajo en campo).
+
+Navegación simplificada y menús intuitivos para minimizar la curva de aprendizaje de los encuestadores.
+
+Inclusión de una barra de búsqueda global y accesos rápidos personalizables.
+
+Funcionalidad offline para la captura de datos sin conexión, con tutoriales integrados para guiar a usuarios con conocimientos básicos de informática.
+
+Gestión de Categorías:
+
+Clasificación dinámica y configurable de los datos por región, comunidad, grupo etario, entre otros criterios relevantes para el censo.
+
+Captura de Datos en Campo:
+
+Formularios dinámicos y personalizables que se ajustan a las necesidades del censo en tiempo real.
+
+Validación de datos en campo (ej. rangos numéricos, formatos de texto, valores obligatorios) para garantizar la calidad de la información.
+
+Integración de georreferenciación precisa para registrar la ubicación de cada registro.
+
+Capacidad de carga de fotos y documentos asociados a los registros, con optimización de tamaño para el envío.
+
+Sincronización automática y diferencial cuando haya conexión, priorizando la integridad de los datos, especialmente crítico para zonas con conectividad intermitente.
+
+Gestión de Archivos:
+
+Almacenamiento seguro de todos los formularios, fotos y documentos, con un sistema de organización jerárquica y control de versiones para facilitar la auditoría.
+
+Análisis y Estadísticas:
+
+Dashboards interactivos con Indicadores Clave de Desempeño (KPIs) como población censada, acceso a servicios básicos por región, distribución demográfica, etc.
+
+Generación de informes automatizados en diversos formatos (CSV, PDF, Excel) para diferentes audiencias.
+
+Visualización geográfica de los datos para identificar patrones y brechas en mapas.
+
+2.1.2. Requisitos No Funcionales del Software "Censo Rural" (Ajustes por Negociación)
+Se han ajustado los siguientes parámetros técnicos para responder a la negociación:
+
+Alta Disponibilidad y Resiliencia: El sistema garantizará un funcionamiento offline robusto para la recolección en zonas sin conectividad. La sincronización se optimizará para ser eficiente y con recuperación automática ante interrupciones.
+
+Escalabilidad: El diseño de la base de datos y la arquitectura del sistema soportarán un crecimiento de al menos el 100% en volumen de datos en los próximos 3 años, así como la incorporación de nuevas regiones y encuestadores.
+
+Seguridad:
+
+Encriptación de datos personales tanto en tránsito (SSL/TLS) como en reposo (cifrado de base de datos).
+
+Control de acceso riguroso basado en roles y mínimos privilegios.
+
+Cumplimiento estricto de la normativa colombiana de protección de datos personales.
+
+Sesiones de usuario con expiración automática y bloqueos por intentos fallidos de acceso.
+
+Usabilidad: La interfaz será sumamente amigable para usuarios con bajo nivel de alfabetización digital, con íconos claros, lenguaje sencillo y flujos de trabajo guiados.
+
+Rendimiento: Se garantiza que los tiempos de carga de cada módulo no superarán los 2 segundos bajo condiciones normales de operación. El sistema soportará al menos 50 usuarios concurrentes activos en la plataforma de gestión.
+
+Compatibilidad: El sistema será completamente funcional en dispositivos móviles Android (versiones 10 y superiores) y en los navegadores web modernos (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari).
+
+2.2. Metodología de Desarrollo: Extreme Programming (XP)
+Reafirmamos la adopción de Extreme Programming (XP) como metodología de desarrollo. XP nos permitirá realizar entregas frecuentes de módulos funcionales independientes, los cuales se integrarán una vez superen las pruebas rigurosas. Esta metodología es ideal para el "Censo Rural" porque facilita la adaptación continua a los requisitos, permitiendo la entrega temprana de módulos críticos como el de captura de datos en campo, que puede ser validado y utilizado mientras se desarrollan funcionalidades de análisis más complejas. Esto minimiza riesgos y asegura que el cliente vea progreso constante y funcional.
+
+2.3. Estrategia de Solución
+La estrategia de solución se centra en construir sobre la base del repositorio DBInterface, transformándolo en una aplicación robusta y específica para el censo.
+
+Base Tecnológica: Se utilizará Python, Tkinter para la interfaz de escritorio/tablet (con adaptaciones para responsive), y SQLite como motor de base de datos embebido para el funcionamiento offline en dispositivos, con una base de datos centralizada para la sincronización.
+
+Arquitectura Híbrida (Local y Nube):
+
+Para la captura de datos en campo, la aplicación funcionará de manera local en dispositivos móviles/tablets (Android, con la capa Tkinter adaptada o migración a Kivy si es necesario para una mejor experiencia móvil). La información se almacenará inicialmente en la base de datos SQLite del dispositivo.
+
+La centralización de datos y el módulo de análisis se desplegarán en una plataforma en la nube (se evaluarán opciones como AWS, Google Cloud o Azure para la escalabilidad, seguridad y disponibilidad). Esto permitirá el acceso a supervisores y administradores desde cualquier lugar con conexión a internet y garantizará la seguridad de la información.
+
+Mecanismo de Sincronización: Se desarrollará un módulo de sincronización inteligente que permitirá a los encuestadores enviar los datos recolectados desde sus dispositivos locales a la base de datos central en la nube una vez que tengan conexión. Este módulo gestionará conflictos y asegurará la integridad de los datos.
+
+Reportes y Visualización: El módulo de análisis generará reportes en CSV, PDF y Excel, y ofrecerá dashboards interactivos accesibles vía web, para diferentes niveles de detalle y tipos de usuarios.
+
+3. Propuesta Económica con Ajustes
+La propuesta económica ha sido ajustada para reflejar los alcances de la negociación y optimizar la relación costo-beneficio, considerando un modelo de licenciamiento de software libre y la infraestructura requerida.
+
+3.1. Estimación de Costos
+A continuación, se presenta un diseño de tablas comparativas y una estimación de costos basada en las necesidades y el alcance del proyecto.
+
+3.1.1. Tabla Comparativa de Opciones de Infraestructura
+Variable / Característica
+
+Opción 1: Servidor Local (On-Premise)
+
+Opción 2: Nube Pública (Cloud)
+
+Impacto / Observaciones
+
+Inversión Inicial Hardware
+
+Alta (servidores, redes, seguridad)
+
+Baja (sin compra de hardware)
+
+La opción en la nube elimina la necesidad de grandes desembolsos iniciales.
+
+Licencias de Software Base
+
+Media (S.O., bases de datos privativas, etc.)
+
+Baja (servicios PaaS/SaaS, S.O. Linux)
+
+Uso de Software Libre (Python, SQLite, Linux) minimiza costos en ambas opciones, pero la nube puede ofrecer servicios gestionados más económicos.
+
+Costos de Mantenimiento y Operación
+
+Altos (personal IT, energía, enfriamiento, actualizaciones)
+
+Medios (tarifas por uso, servicios gestionados)
+
+La nube reduce la carga de mantenimiento para el cliente.
+
+Escalabilidad
+
+Baja a Media (requiere compra e instalación de hardware adicional)
+
+Muy Alta (escalado automático bajo demanda)
+
+La nube es ideal para soportar el crecimiento de datos y usuarios.
+
+Seguridad Física y Lógica
+
+Requiere infraestructura y personal especializado
+
+Alta (proveedores de nube con certificaciones y equipos de seguridad)
+
+La seguridad en la nube es robusta, pero requiere configuración adecuada.
+
+Disponibilidad y Respaldo
+
+Requiere configuración manual y redundancia
+
+Muy Alta (redundancia geográfica, copias de seguridad automáticas)
+
+Mayor resiliencia en la nube ante fallos.
+
+Acceso y Conectividad
+
+Limitado (VPN, red corporativa)
+
+Global (acceso desde cualquier lugar con internet)
+
+La nube facilita el acceso para el personal en campo y administrativo.
+
+Flexibilidad de Pagos
+
+Inversión de capital (CAPEX)
+
+Gastos operativos (OPEX - pago por uso)
+
+Modelo OPEX en la nube ofrece mayor flexibilidad presupuestaria.
+
+
+Exportar a Hojas de cálculo
+Decisión Négociada: Tras la negociación y la evaluación de las necesidades de escalabilidad y acceso remoto en zonas rurales, se ha acordado optar por una arquitectura híbrida con un enfoque predominante en la nube para la centralización de datos y análisis, mientras que la recolección de datos en campo se realizará de manera local en los dispositivos con sincronización. Esta combinación ofrece lo mejor de ambos mundos: eficiencia en campo sin conectividad y escalabilidad centralizada.
+
+3.1.2. Presupuesto Detallado (Estimación)
+La siguiente tabla presenta una estimación de los costos del proyecto "Censo Rural", considerando un equipo de desarrollo y la infraestructura en la nube.
+
+Concepto de Costo
+
+Descripción Detallada
+
+Costo Estimado (COP)
+
+Observaciones / Ajustes por Negociación
+
+I. Desarrollo del Software
+
+Desarrollo Backend/API
+
+Desarrollo de la lógica de negocio, integración de base de datos centralizada (Python, FastAPI/Flask), módulo de sincronización.
+
+$25.000.000
+
+Incluye la adaptación del código existente y el desarrollo de nuevas funcionalidades robustas.
+
+Desarrollo Frontend/UI (App Móvil)
+
+Adaptación de Tkinter para móviles (o migración a Kivy/similar si es requerido para mejor UX), implementación de formularios dinámicos y navegación offline.
+
+$20.000.000
+
+Mayor énfasis en la usabilidad móvil y offline, como sugerido por la necesidad en campo.
+
+Desarrollo Frontend/UI (Plataforma Web)
+
+Desarrollo de la interfaz web para administración, supervisión, análisis (Dashboards y reportes).
+
+$18.000.000
+
+Desarrollo de dashboards e informes automatizados en diversos formatos (CSV, PDF, Excel).
+
+Módulo de Seguridad
+
+Implementación de encriptación, autenticación de doble factor, control de acceso basado en roles, auditoría.
+
+$10.000.000
+
+Fortalecimiento de la seguridad de datos personales, aspecto crítico para el cliente.
+
+Módulo de Georreferenciación
+
+Integración con APIs de mapas y geocodificación para la captura y visualización de ubicaciones.
+
+$5.000.000
+
+Incluido para satisfacer la necesidad de ubicación precisa en zonas rurales.
+
+Pruebas y Control de Calidad
+
+Pruebas unitarias, de integración, funcionales, de rendimiento y de seguridad.
+
+$12.000.000
+
+Pruebas de campo exhaustivas para la funcionalidad offline y usabilidad.
+
+Gestión de Proyecto
+
+Coordinación, planificación, seguimiento de tareas, comunicación con el cliente (metodología XP).
+
+$8.000.000
+
+Asegura la entrega ágil y adaptada a las necesidades cambiantes.
+
+Documentación Técnica y de Usuario
+
+Creación de manuales técnicos, guías de usuario y documentación de API.
+
+$5.000.000
+
+Manuales de usuario simplificados para encuestadores con bajo nivel de alfabetización digital.
+
+II. Infraestructura y Operación (Estimación Anual)
+
+Servicios de Nube (AWS/GCP/Azure)
+
+Bases de datos gestionadas, servidores virtuales, almacenamiento de objetos, servicios de red, respaldo.
+
+$12.000.000
+
+Pago por uso, escalable. Incluye costos de transferencia de datos y almacenamiento.
+
+Licencias de Software (Cero/Mínimas)
+
+Uso de GPL-3.0 y otras licencias de software libre (Python, SQLite, Linux, etc.).
+
+$0
+
+Ajuste clave: Maximización del uso de software libre para reducir costos de licenciamiento.
+
+Soporte y Mantenimiento (Post-Implementación)
+
+Soporte técnico, actualizaciones, corrección de errores, mejoras menores.
+
+$15.000.000
+
+Contrato de soporte anual (el costo puede variar según el nivel de servicio acordado).
+
+Dispositivos Móviles (Cliente)
+
+Compra de tablets o smartphones para encuestadores (costo asumido por el cliente).
+
+N/A
+
+El cliente proporcionará los dispositivos. La propuesta técnica asegura compatibilidad.
+
+Capacitación
+
+Talleres para encuestadores, supervisores y administradores sobre el uso del software.
+
+$7.000.000
+
+Enfoque práctico y didáctico para asegurar la adopción y el uso efectivo.
+
+III. Imprevistos
+
+Contingencia (10% del total)
+
+Fondo para cubrir cualquier eventualidad no prevista durante el desarrollo e implementación.
+
+$13.700.000
+
+TOTAL ESTIMADO DEL PROYECTO
+
+$151.700.000
+
+Valor estimado para un proyecto integral y robusto.
+
+
+Exportar a Hojas de cálculo
+3.2. Implicaciones de la Operación
+Red Local vs. Nube: La decisión de operar la centralización y análisis en la nube (con recolección offline en dispositivos) impacta directamente en:
+
+Arquitectura: Diseño de una API RESTful para la sincronización y una base de datos centralizada gestionada en la nube.
+
+Seguridad: Implementación de medidas de seguridad avanzadas ofrecidas por los proveedores de nube.
+
+Escalabilidad: Capacidad de escalar recursos de cómputo y almacenamiento según el crecimiento de los datos del censo.
+
+Costos: Modelo de pago por uso (OPEX), lo que permite una mayor flexibilidad y evita grandes inversiones iniciales en hardware.
+
+4. Documentación de Sugerencias del Cliente y Ajuste de Parámetros Técnicos
+Este es el pilar central de esta propuesta ajustada, reflejando el proceso de negociación y colaboración.
+
+4.1. Sugerencias del Cliente Documentadas
+Durante las etapas de elicitación y validación de requisitos, se han utilizado entrevistas de profundización y cuestionarios mixtos (como las "fichas técnicas para la recolección de la información") para comprender en detalle las necesidades del cliente. Las principales sugerencias y preferencias documentadas son:
+
+Necesidad crítica de funcionamiento offline: Dada la naturaleza rural y remota de las zonas a censar, la capacidad de recolectar datos sin conexión a internet y sincronizar posteriormente fue una prioridad absoluta.
+
+Facilidad de uso para encuestadores: El cliente enfatizó que la interfaz debe ser extremadamente intuitiva y amigable para usuarios con bajo nivel de alfabetización digital, incluyendo tutoriales y una navegación simplificada.
+
+Seguridad y privacidad de datos: Dada la sensibilidad de la información personal, el cliente solicitó garantías de encriptación, control de acceso estricto y cumplimiento de la normativa de protección de datos.
+
+Reportes y análisis claros: Se solicitó la capacidad de generar informes automatizados en diferentes formatos (PDF, Excel, CSV) y dashboards visuales que permitan a los tomadores de decisiones comprender rápidamente los resultados del censo.
+
+Georreferenciación de datos: La capacidad de ubicar geográficamente los datos recolectados es crucial para el análisis espacial y la planificación de políticas.
+
+Flexibilidad en la estructura del censo: La posibilidad de ajustar formularios y categorías de datos de forma dinámica fue una sugerencia para adaptarse a futuras necesidades censales.
+
+4.2. Ajustes de Parámetros Técnicos Resultado de la Negociación
+Las sugerencias del cliente y los resultados de la negociación han llevado a las siguientes modificaciones específicas en los parámetros técnicos:
+
+Priorización de la arquitectura offline-first: Se ha modificado el enfoque inicial para asegurar que la aplicación móvil opere de forma autónoma y robusta sin conexión, con una lógica de sincronización más sofisticada para cuando se disponga de red. Esto implica un mayor desarrollo en la persistencia local y la gestión de conflictos de datos.
+
+Diseño de UX/UI centrado en la simplicidad: Se dedicarán más horas al diseño de la experiencia de usuario (UX) y la interfaz de usuario (UI) de la aplicación móvil, simplificando los flujos de trabajo, reduciendo el texto y aumentando el uso de íconos y ayudas visuales. Se realizarán pruebas de usabilidad con usuarios prototipo del censo.
+
+Refuerzo de la seguridad a nivel de datos y acceso: Se ha presupuestado e incluido específicamente el desarrollo de módulos de encriptación de datos tanto en el dispositivo como en la nube, y se implementarán políticas de seguridad más estrictas para las sesiones de usuario y el control de acceso, incluso con autenticación de doble factor.
+
+Ampliación de funcionalidades de reportes: Se ha confirmado la inclusión de la generación de informes en PDF y Excel, además de CSV, para satisfacer las necesidades de diferentes niveles jerárquicos y analistas.
+
+Integración profunda de georreferenciación: Más allá de la simple captura, se explorarán opciones para visualizar los datos directamente en mapas dentro de la plataforma de análisis.
+
+Modularidad y configuración: La arquitectura del sistema se ha diseñado para permitir la fácil configuración de formularios y categorías a través de la plataforma de administración, lo que reduce la necesidad de modificaciones de código para futuros cambios en el censo.
+
+La validación continua con los usuarios reales es fundamental y se realizará a través de prototipos y versiones tempranas del software para asegurar que cada ajuste se alinee con las necesidades diarias y la realidad operativa del censo en zonas rurales.
+
+5. Presentación de la Propuesta Final
+Esta propuesta técnica y económica ha sido elaborada para presentar una solución integral y ajustada a las necesidades específicas del "Censo Rural" y los acuerdos alcanzados durante la negociación tecnológica. Refleja un entendimiento profundo de la problemática, un compromiso con la implementación de las sugerencias del cliente y una estimación de costos transparente y razonable para lograr los objetivos del proyecto.
+
+Confiamos en que la adopción de esta propuesta permitirá el desarrollo exitoso de un sistema que no solo optimice la recolección de datos en zonas rurales, sino que también proporcione una base sólida para la toma de decisiones informadas en beneficio de las comunidades.
 **/

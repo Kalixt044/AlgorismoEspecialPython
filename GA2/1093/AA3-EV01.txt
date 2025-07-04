@@ -190,6 +190,7 @@ La implementación de este marco asegurará que el prototipo inicial del softwar
 
 Guía para la Evidencia GA2-220501093-AA3-EV01: Mapa Conceptual sobre Validación de Documentos
 (Contexto: Proyecto "Censo Rural")
+
 Esta evidencia tiene como objetivo general verificar y mejorar los modelos de análisis, y elaborar un prototipo inicial del software, siendo el producto principal un mapa conceptual que represente el dominio del proyecto.
 El proyecto "Censo Rural" busca desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas. El sistema debe permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas.
 Para abordar esta evidencia de manera efectiva, siga los siguientes pasos, basados en los criterios de evaluación y las directrices proporcionadas:
@@ -214,53 +215,55 @@ Análisis: Dashboards, indicadores clave de desempeño (KPIs), informes automati
 ◦
 Documentos a validar: Especificaciones de requisitos, historias de usuario, casos de uso, diagramas (de actividades, de casos de uso), y los propios formularios o plantillas de recolección de datos que se usarán en el censo.
 3. Construcción de Formatos de Aceptación (Listas de Chequeo)
-•
-Debe diseñar formatos (listas de chequeo o criterios) que permitan aceptar la calidad y el cumplimiento de los documentos de análisis y del prototipo inicial.
-•
-Estos formatos deben basarse en los requisitos funcionales y no funcionales del software "Censo Rural".
-•
-Para los formularios del censo, podría verificar la claridad de las preguntas, los tipos de datos esperados y las reglas de validación.
-•
-Para el prototipo, se verificaría la usabilidad, el flujo de captura de datos y la alineación con los casos de uso definidos.
-•
-Los pasos para elaborar una lista de chequeo incluyen:
-1.
-Determinar el área a evaluar: Para cada artefacto (por ejemplo, informe de requisitos, casos de uso, prototipo del formulario del censo).
-2.
-Diseñar el formato de verificación: Estableciendo categorías o variables posibles, y una escala de ocurrencias (ej., Cumple/No Cumple/Parcialmente Cumple).
-3.
-Asegurarse de que todas las partes estén claramente descritas.
-4.
-Definir qué información se registrará para su análisis.
-•
-Ejemplos de criterios para las listas de chequeo en el "Censo Rural" incluyen:
-◦
-Completitud: ¿Están definidos todos los campos de datos necesarios para el censo?.
-◦
-Consistencia: ¿Los datos del usuario (encuestador) son consistentes en todas las funcionalidades?.
-◦
-Claridad: ¿Las descripciones de las funcionalidades son fáciles de entender para los encuestadores y administradores?.
-◦
-Correctitud: ¿Los flujos de captura de datos reflejan el proceso real del censo?.
-◦
-Trazabilidad: ¿Es posible rastrear un requisito del censo hasta su implementación en una historia de usuario o un diagrama?.
-◦
-Adherencia a estándares: ¿Los diagramas siguen las normas UML?.
-◦
-Seguridad y Privacidad: ¿Se consideran los aspectos de encriptación y protección de datos personales de los habitantes, conforme a la normativa? (esto es crucial para un censo).
+
+•Debe diseñar formatos (listas de chequeo o criterios) que permitan aceptar la calidad y el cumplimiento de los documentos de análisis y del prototipo inicial.
+
+•Estos formatos deben basarse en los requisitos funcionales y no funcionales del software "Censo Rural".
+
+•Para los formularios del censo, podría verificar la claridad de las preguntas, los tipos de datos esperados y las reglas de validación.
+
+•Para el prototipo, se verificaría la usabilidad, el flujo de captura de datos y la alineación con los casos de uso definidos.
+
+•Los pasos para elaborar una lista de chequeo incluyen:
+
+1.Determinar el área a evaluar: Para cada artefacto (por ejemplo, informe de requisitos, casos de uso, prototipo del formulario del censo).
+
+2.Diseñar el formato de verificación: Estableciendo categorías o variables posibles, y una escala de ocurrencias (ej., Cumple/No Cumple/Parcialmente Cumple).
+
+3.Asegurarse de que todas las partes estén claramente descritas.
+
+4.Definir qué información se registrará para su análisis.
+
+•Ejemplos de criterios para las listas de chequeo en el "Censo Rural" incluyen:
+
+◦Completitud: ¿Están definidos todos los campos de datos necesarios para el censo?.
+
+◦Consistencia: ¿Los datos del usuario (encuestador) son consistentes en todas las funcionalidades?.
+
+◦Claridad: ¿Las descripciones de las funcionalidades son fáciles de entender para los encuestadores y administradores?.
+
+◦Correctitud: ¿Los flujos de captura de datos reflejan el proceso real del censo?.
+
+◦Trazabilidad: ¿Es posible rastrear un requisito del censo hasta su implementación en una historia de usuario o un diagrama?.
+
+◦Adherencia a estándares: ¿Los diagramas siguen las normas UML?.
+
+◦Seguridad y Privacidad: ¿Se consideran los aspectos de encriptación y protección de datos personales de los habitantes, conforme a la normativa? (esto es crucial para un censo).
+
 4. Elaboración del Documento con Diagrama Conceptual (Mapa Conceptual)
-•
-Este será el Mapa Conceptual principal de la evidencia.
-•
-Debe representar visualmente los conceptos identificados en el punto 2, mostrando sus relaciones en un diagrama de dominio del proyecto.
-•
-Un ejemplo de cómo podría ilustrarse es: cómo los "Encuestadores" utilizan "Dispositivos Móviles" para la "Captura de Datos" de "Habitantes" en "Zonas Rurales", y cómo estos datos se relacionan con el "Análisis y Estadísticas" en una "Plataforma Central".
-•
-Herramienta recomendada: Puede utilizar Draw.io para este modelado.
+
+•Este será el Mapa Conceptual principal de la evidencia.
+
+•Debe representar visualmente los conceptos identificados en el punto 2, mostrando sus relaciones en un diagrama de dominio del proyecto.
+
+•Un ejemplo de cómo podría ilustrarse es: cómo los "Encuestadores" utilizan "Dispositivos Móviles" para la "Captura de Datos" de "Habitantes" en "Zonas Rurales", y cómo estos datos se relacionan con el "Análisis y Estadísticas" en una "Plataforma Central".
+
+•Herramienta recomendada: Puede utilizar Draw.io para este modelado.
 5. Asegurar Claridad y Fácil Lectura del Mapa Resultante
-•
-El mapa conceptual debe ser claro, coherente y fácil de interpretar.
-•
-Las conexiones entre los conceptos deben ser lógicas y las etiquetas precisas, facilitando la comprensión del dominio del "Censo Rural" por parte de todos los interesados.
+
+•El mapa conceptual debe ser claro, coherente y fácil de interpretar.
+
+•Las conexiones entre los conceptos deben ser lógicas y las etiquetas precisas, facilitando la comprensión del dominio del "Censo Rural" por parte de todos los interesados.
 Al seguir esta guía, podrá abordar eficazmente la evidencia, demostrando su comprensión de los requisitos del proyecto, el uso de herramientas de modelado y la aplicación de metodologías de desarrollo
+
 **/

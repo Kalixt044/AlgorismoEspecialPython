@@ -1,84 +1,85 @@
-Ficha técnica de los productos requeridos, los términos de referencia para el contrato y lista de chequeo para
-evaluación de proveedores.
-GA2-220501094-AA2-EV01
-https://zajuna.sena.edu.co/zajuna/mod/assign/view.php?id=2251187 
-..
-/***
-lista de chequeo:
-Elabora análisis comparativo de proveedores, considerando costos, cantidad y especificaciones
-técnicas definidas.
-2. Lista de chequeo
-No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
-SÍ NO
-1. El documento cumple con las normas básicas de
-presentación de documentos escritos definidas.
-10%
-2. Elabora la ficha técnica de los productos requeridos. 30%
-3. Elabora la lista de chequeo para evaluación de
-proveedores.
-40%
-4. La ficha técnica presentada contiene: descripción,
-características y funciones de un determinado
-producto, del cual se parte el desarrollo.
-**/
-Diseño de fichas técnicas para la recolección de la información se enmarca dentro del proyecto "Censo Rural". Este proyecto tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [conversación previa, 223]. El sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [conversación previa, 187, 207, 223].
-En este marco, las "fichas técnicas para la recolección de la información" se refieren a los instrumentos diseñados para la elicitación de requerimientos del propio software "Censo Rural". El propósito principal de esta elicitación es obtener conocimientos relevantes del problema para producir una especificación formal del software necesario para resolverlo.
-Para la elaboración de estas fichas, se utilizarán las encuestas y entrevistas como técnicas principales de elicitación de requisitos. Específicamente:
-•
-Se implementará un cuestionario mixto, que combinará preguntas abiertas para obtener información cualitativa y una mayor profundidad en las respuestas, con preguntas cerradas para recabar datos más específicos y cuantificables. Este cuestionario, idealmente de entre 8 y 10 preguntas para mantener la atención del encuestado, busca diagnosticar las necesidades tecnológicas y las posibles soluciones de software de los clientes, además de evaluar la madurez tecnológica actual, identificar necesidades de automatización y medir la disposición al cambio. Incluirá formatos como escalas Likert, preguntas dicotómicas y de opción múltiple.
-•
-Se complementará con entrevistas de profundización. El objetivo de estas entrevistas es entender en detalle los requerimientos para desarrollar un software que facilite el trabajo diario de los usuarios. Estas entrevistas son cruciales para asegurar que el sistema se ajuste a las necesidades reales del usuario.
-Las fichas técnicas resultantes, ya sean cuestionarios o guiones de entrevista, permitirán recopilar información fundamental sobre:
-•
-Contexto y perfil del usuario: Identificando a los usuarios que interactuarán con el software (como encuestadores, supervisores y administradores), sus roles, las tareas que realizan diariamente, las herramientas que usan actualmente y las limitaciones que enfrentan.
-•
-Objetivos y necesidades: Abordando el principal problema que el software debe resolver y las necesidades específicas que debe cubrir.
-•
-Requerimientos funcionales: Precisando las funciones y características específicas que el software debe tener (ej., formularios dinámicos, generación de reportes, almacenamiento de datos, notificaciones). Para el "Censo Rural", esto incluye la gestión de usuarios, la interfaz de usuario intuitiva (adaptada para uso offline y en campo), la gestión de categorías, la captura de datos en campo (con georreferenciación y adjunto de fotos), la gestión de archivos y el análisis de estadísticas.
-•
-Requerimientos no funcionales: Estableciendo las expectativas sobre el rendimiento (tiempos de respuesta), la seguridad y privacidad de los datos (lo cual es vital para la información personal del censo), la usabilidad (diseño, facilidad de uso, accesibilidad), y la escalabilidad del sistema. Es crucial considerar la alta disponibilidad y el funcionamiento offline para las zonas rurales con conectividad limitada.
-•
-Interfaz de usuario: Determinando preferencias de diseño y si habrá usuarios con discapacidades o necesidades especiales.
-•
-Restricciones y limitaciones: Identificando limitaciones técnicas, de presupuesto o de tiempo, así como políticas internas o requisitos legales relevantes (como normativas de protección de datos).
-En síntesis, estas "fichas técnicas para la recolección de la información" serán herramientas esenciales para diagnosticar el estado actual de los procesos, entender el cumplimiento normativo necesario y buscar oportunidades de mejora y optimización para el software del "Censo Rural"
+Documento Técnico: Fichas de Productos, Términos de Referencia y Evaluación de Proveedores Proyecto: "Censo Rural"
 
-Resumen Técnico y Práctico del Repositorio DBInterface
-
-El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
-
-Características Principales
-
-Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
-
-Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
-
-Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
-
-Estructura del Repositorio
-
-Archivos Clave:
-
-README.md: Documentación del proyecto.
-busca.py: Script para buscar datos en la base de datos.
-database.py: Manejo de la base de datos SQLite.
-genero.py: Funciones relacionadas con la gestión de datos.
-index.py: Archivo principal que ejecuta la aplicación.
-statisk.ipynb: Notebook de Jupyter para análisis de datos.
-Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
-
-Instalación y Uso
-
-Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
-
-Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
-
-Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
-
-Conclusión
-
-El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
+Evidencia: GA2-220501094-AA4-EV02 
 
 
 
+
+Isidro J Gallardo Navarro
+
+Ficha: 3070299
+ 2025  
+Tecnología en Análisis y Desarrollo de Software.
+ADSO
+
+
+Proyecto: "Censo Rural"
+Código: GA2-220501094-AA2-EV01
+
+Ficha técnica de los productos requeridos, los términos de referencia para el contrato y lista de chequeo para evaluación de proveedores. GA2-220501094-AA2-EV01" dentro del contexto del proyecto "Censo Rural", debes enfocarte en la documentación y evaluación de los elementos necesarios para desarrollar e implementar tu software, así como en la selección de posibles proveedores.
+El proyecto "Censo Rural" tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas. El sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas.
+A continuación, se detalla una guía para abordar esta evidencia, basándose en los criterios de evaluación y el contexto del proyecto:
+1. Elaboración de la Ficha Técnica de los Productos Requeridos
+La ficha técnica debe describir los productos específicos (hardware y/o software) que son esenciales para el desarrollo y funcionamiento del software "Censo Rural". Dado el contexto, estos "productos" podrían incluir:
+
+•Dispositivos móviles: Para la captura eficiente de información en campo. Es crucial considerar su compatibilidad con Android y su capacidad para funcionar offline.
+
+•Software base/herramientas de desarrollo: Podría ser el repositorio DBInterface, que se describe como un proyecto con una interfaz gráfica para la recolección de datos personales utilizando Tkinter de Python y una base de datos SQLite. Otros softwares necesarios podrían ser sistemas operativos (para servidores o dispositivos móviles), bases de datos (si se usa algo diferente a SQLite para la centralización), herramientas de análisis de datos o librerías específicas.
+
+•Servicios de infraestructura: Como el alojamiento en la nube (si el sistema se despliega en internet) o servidores locales (si funciona en red privada).
+Para cada producto, la ficha técnica debe contener:
+
+•Descripción del producto: ¿Qué es y para qué sirve en el proyecto "Censo Rural"?.
+
+•Características técnicas: Especificaciones detalladas (ej., para un móvil: RAM, almacenamiento, versión de Android; para un software: lenguajes de programación, dependencias, tipo de licencia, etc.). Por ejemplo, el repositorio DBInterface tiene licencia GPL-3.0 y usa Python, Tkinter y SQLite.
+
+•Funciones o uso dentro del proyecto: Cómo este producto contribuye a las funcionalidades del "Censo Rural" (ej., captura de datos, gestión de usuarios, análisis de estadísticas).
+
+•Cantidad requerida: Cuántas unidades de cada producto son necesarias.
+
+2. Definición de los Términos de Referencia para el Contrato
+Los términos de referencia establecen las condiciones bajo las cuales se realizará la adquisición de los productos o la contratación de servicios necesarios para el proyecto "Censo Rural". Esto es especialmente relevante si se planea adquirir hardware (como dispositivos móviles) o si se considera externalizar parte del desarrollo o la infraestructura.
+Deben incluir aspectos como:
+
+•Objeto del contrato: Descripción clara de lo que se busca adquirir o contratar.
+
+
+
+•Alcance: Qué se espera del proveedor, en línea con las funcionalidades y requisitos no funcionales del "Censo Rural" (ej., alta disponibilidad, seguridad de datos, escalabilidad).
+
+•Requisitos técnicos: Las especificaciones detalladas de los productos o servicios, obtenidas de las fichas técnicas.
+
+•Plazos de entrega/ejecución: Cronogramas esperados.
+
+•Presupuesto y condiciones económicas: Estimación de costos de software y hardware.
+
+•Garantías y soporte: Qué tipo de soporte post-venta se espera.
+
+•Condiciones legales y contractuales: Incluyendo aspectos de propiedad intelectual, protección de datos (vital para el "Censo Rural" que maneja información personal), y cumplimiento normativo relevante.
+
+3. Elaboración de la Lista de Chequeo para Evaluación de Proveedores
+Esta lista es una herramienta sistemática para evaluar y comparar posibles proveedores de los productos o servicios identificados. Los criterios de evaluación deben estar alineados con las necesidades específicas del proyecto "Censo Rural" y los términos de referencia.
+Algunos criterios clave a incluir en la lista de chequeo son:
+
+•Cumplimiento de especificaciones técnicas: ¿El producto/servicio del proveedor cumple con las características descritas en la ficha técnica (ej., un dispositivo móvil con las características necesarias para la captura de datos en campo, o un software que se integre bien con Tkinter y SQLite si se usa DBInterface)?.
+
+•Costo: Evaluar el precio en relación con la calidad y las funcionalidades ofrecidas.
+
+•Calidad del soporte y servicio post-venta: Esencial para asegurar la continuidad operativa del sistema de censo.
+
+•Experiencia y reputación del proveedor: ¿Han trabajado en proyectos similares o con tecnologías relevantes?
+
+•Plazos de entrega: Capacidad de cumplir con los tiempos definidos.
+
+•Condiciones contractuales: Flexibilidad, garantías, y cumplimiento de normativas.
+
+•Seguridad de la información: Especialmente importante si se trata de servicios de alojamiento o componentes que manejan datos sensibles del censo.
+Consideraciones Clave para el Proyecto "Censo Rural":
+
+•Enfoque en la eficiencia y robustez en entornos rurales: Los productos y proveedores deben ser seleccionados pensando en la conectividad limitada y la necesidad de funcionamiento offline en zonas rurales.
+
+•Seguridad y privacidad de datos: La protección de la información personal de los habitantes censados debe ser un criterio fundamental para cualquier hardware, software o servicio.
+
+•Usabilidad y accesibilidad: Si los productos (ej., dispositivos móviles) son para uso directo de encuestadores, deben ser fáciles de usar, incluso para personas con bajo nivel de alfabetización digital.
+Al elaborar esta evidencia, asegúrate de que el documento cumpla con las normas básicas de presentación de documentos escritos y que las descripciones sean claras y concisas. El análisis comparativo de proveedores debe ser evidente, considerando los costos, la cantidad y las especificaciones técnicas definidas
 

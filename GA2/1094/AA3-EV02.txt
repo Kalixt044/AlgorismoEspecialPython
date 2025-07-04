@@ -1,4 +1,5 @@
 Propuesta técnica y económica para la implementación del proyecto. GA2-220501094-AA3-EV02
+
 https://zajuna.sena.edu.co/zajuna/mod/assign/view.php?id=2251194
 
 
@@ -66,4 +67,682 @@ Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuar
 Conclusión
 
 El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.
+**/
+
+/***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*****
+
+
+
+
+
+
+
+
+
+
+
+
+**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+Propuesta técnica y económica para la implementación del proyecto 
+GA2-220501094-AA3-EV02" dentro del contexto del proyecto "Censo Rural",
+
+
+
+
+
+
+
+
+
+
+
+ es fundamental integrar la información de los requisitos del software, las características del repositorio existente y las necesidades específicas del entorno rural.
+
+El proyecto "Censo Rural" tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [conversación previa, 173, 184, 195, 207, 223, 288, 299, 310]. El sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [conversación previa, 173, 184, 195, 207, 223, 288, 299, 310].
+Esta evidencia se centra en la elaboración de una propuesta técnica y económica para la implementación del proyecto según especificaciones, asegurando que se detalle la estrategia que permitirá darle solución al problema existente por medio de una solución de software y en linealidad con todos los lineamientos generales de la evidencia a entregar. Además, el documento debe cumplir con las normas básicas de presentación de documentos escritos.
+A continuación, se presenta una guía detallada para abordar la evidencia:
+Guía para la Evidencia "Propuesta técnica y económica para la implementación del proyecto GA2-220501094-AA3-EV02"
+1. Objetivo de la Evidencia
+El propósito de esta evidencia es presentar una propuesta estructurada que detalle la viabilidad técnica y económica de implementar el software "Censo Rural". Deberás estimar los costos de software y hardware de acuerdo con las características del negocio y documentar la estrategia propuesta para la solución de software.
+2. Estructura General de la Propuesta
+Tu documento debe ser un informe formal que siga las normas básicas de presentación de documentos escritos. Se sugiere la siguiente estructura:
+•
+Título: Propuesta técnica y económica para la implementación del proyecto Censo Rural.
+•
+Información de los Autores/Ficha: (Según se ha visto en documentos previos, ej., Amín de Jesús Polanco Merado, Isidro J. Gallardo Navarro, etc., y Ficha 3070299, Noviembre 2024, Tecnología en Análisis y Desarrollo de Software).
+•
+Tabla de Contenido.
+•
+Introducción: Presenta brevemente el proyecto "Censo Rural", su objetivo, y el propósito de esta propuesta (detallar la solución y los costos).
+•
+Propuesta Técnica.
+•
+Propuesta Económica.
+•
+Conclusiones.
+3. Componentes Clave de la Propuesta
+3.1. Propuesta Técnica
+En esta sección, deberás detallar la estrategia y el diseño de la solución de software.
+•
+Descripción de la Solución de Software ("Censo Rural"):
+◦
+Reafirma el objetivo general del software: recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [conversación previa, 173, 184, 195, 207, 223, 288, 299, 310].
+◦
+Menciona la capacidad de captura eficiente de información mediante dispositivos móviles, centralización de datos en una plataforma segura y análisis para toma de decisiones en políticas públicas [conversación previa, 173, 184, 195, 207, 223, 288, 299, 310].
+•
+Requisitos Funcionales (RF): Detalla las funciones que el software realizará, basándote en la información recopilada previamente:
+◦
+Gestión de Usuarios: Registro de encuestadores, supervisores y administradores, con autenticación segura (posiblemente doble factor) y gestión de roles.
+◦
+Interfaz de Usuario Intuitiva: Adaptada para uso en campo, con diseño responsive, navegación simplificada y optimización para móviles y tabletas, incluyendo funcionalidades para uso offline.
+◦
+Gestión de Categorías: Clasificación de datos por región, comunidad, grupo etario, etc..
+◦
+Captura de Datos en Campo: Formularios dinámicos, validación de datos, georreferenciación, adjunto de fotos/documentos, y sincronización automática cuando haya conexión.
+◦
+Gestión de Archivos: Almacenamiento seguro de formularios, fotos y documentos asociados, con control de versiones y búsqueda avanzada.
+◦
+Análisis y Estadísticas: Dashboards personalizables con indicadores clave (KPIs), generación de informes automatizados y visualización de datos.
+◦
+Considera también la necesidad de notificaciones sobre niveles de inventario y fechas de pago si se considera parte de la gestión general del negocio, aunque el censo es distinto, los sistemas logísticos mencionados en otras fuentes sí las requieren.
+•
+Requisitos No Funcionales (RNF): Especifica las cualidades del sistema:
+◦
+Disponibilidad: Alta disponibilidad, incluyendo funcionamiento offline y sincronización cuando haya conexión, crucial para zonas rurales.
+◦
+Escalabilidad: Soporte para un gran volumen de datos (100% de crecimiento en 3 años) y múltiples regiones.
+◦
+Rendimiento: Tiempos de respuesta menores a 2 segundos por consulta.
+◦
+Seguridad: Encriptación de datos sensibles (personales), control de acceso y cumplimiento normativo de protección de datos.
+◦
+Usabilidad: Interfaz amigable e intuitiva, accesible para usuarios con conocimientos básicos de informática y bajo nivel de alfabetización digital.
+◦
+Compatibilidad: Accesible desde navegadores web modernos y compatible con dispositivos móviles Android.
+•
+Arquitectura Propuesta:
+◦
+Define si el sistema operará en red local o en la nube, ya que esta decisión impacta la arquitectura, seguridad, escalabilidad y costos. Para un censo rural, la nube podría ofrecer mejor accesibilidad y escalabilidad, mientras que un modelo híbrido con capacidades offline en dispositivos móviles sería ideal.
+•
+Tecnologías a Utilizar:
+◦
+Considera el repositorio DBInterface con Tkinter (GUI), Python y SQLite (base de datos).
+◦
+La licencia GPL-3.0 del repositorio implica que el software base es de código abierto, lo cual reduce los costos de licencia directos.
+◦
+Para la centralización de datos a gran escala y la seguridad de información personal sensible, podrías sugerir una base de datos más robusta y escalable que SQLite para el servidor central (ej. PostgreSQL, MySQL o una base de datos NoSQL si el volumen y la heterogeneidad de datos lo justifican), manteniendo SQLite en los dispositivos móviles para el funcionamiento offline.
+•
+Metodología de Desarrollo:
+◦
+El proyecto ya sigue la metodología XP (Extreme Programming), enfocada en entregas frecuentes de módulos funcionales independientes que se fusionan una vez superan las pruebas. Esto es ideal para el "Censo Rural" al permitir entregas rápidas de módulos (ej., captura de datos, luego análisis).
+•
+Consideraciones Específicas del Contexto Rural:
+◦
+Reiterar cómo la solución atiende las limitaciones de conectividad (funcionamiento offline).
+◦
+La robustez y durabilidad del hardware para el trabajo en campo [fuera de las fuentes, pero es una implicación lógica del "Censo Rural" en "zonas rurales apartadas"].
+◦
+La usabilidad para usuarios con bajo nivel de alfabetización digital.
+3.2. Propuesta Económica
+En esta sección, deberás presentar los presupuestos de hardware y software, aproximando los valores lo más real posible a la problemática. Es recomendable usar tablas comparativas, aunque la evidencia principal "GA2-220501094-AA3-EV01" es la que se enfoca en el "Diseño de tablas comparativas sobre presupuestos de hardware y software", aquí debes incluir los presupuestos de manera detallada.
+•
+Costos de Hardware:
+◦
+Dispositivos Móviles (para encuestadores):
+▪
+Tipo de dispositivo (ej. smartphone o tablet robusto).
+▪
+Cantidad necesaria (estimar en función del alcance del censo).
+▪
+Costo unitario y total.
+▪
+Justificación (ej. resistencia a caídas, duración de batería, capacidad de almacenamiento, compatibilidad Android).
+◦
+Servidores (para la plataforma central):
+▪
+Si es on-premise: Costo de adquisición de servidores (CPU, RAM, almacenamiento), equipos de red (routers, switches), sistemas de alimentación ininterrumpida (UPS).
+▪
+Si es en la nube: Costo estimado de servicios de cómputo (instancias virtuales), almacenamiento (ej. S3, EBS), bases de datos gestionadas (ej. RDS), y transferencia de datos (egress/ingress) de proveedores como AWS, Azure o Google Cloud. Considera la escalabilidad.
+•
+Costos de Software:
+◦
+Desarrollo y Personalización del Software "Censo Rural":
+▪
+Horas de desarrollo (estimar por módulos o funcionalidades clave).
+▪
+Costos de personalización del repositorio DBInterface para ajustarse a los requisitos específicos del censo (ej., formularios dinámicos, georreferenciación, adjunto de fotos, integración con una base de datos central más robusta).
+◦
+Licencias de Software:
+▪
+Sistema Operativo para Servidores: Si se usan servidores dedicados (ej. Windows Server o licencias de soporte para distribuciones Linux empresariales).
+▪
+Base de Datos Centralizada: Aunque DBInterface usa SQLite, para la centralización se podría requerir una DB como PostgreSQL (código abierto, pero puede tener costos de soporte) o SQL Server/Oracle (licencias comerciales).
+▪
+Herramientas de Análisis/Business Intelligence: Si se requieren herramientas adicionales para la generación de reportes y dashboards más allá de Jupyter Notebook (statisk.ipynb del repositorio DBInterface).
+▪
+Aunque el software base es GPL-3.0, dimensionar las licencias de software implica considerar si se necesitarán otros componentes licenciados o servicios asociados.
+•
+Costos de Servicios:
+◦
+Implementación y Configuración: Costos asociados a la puesta en marcha del sistema, configuración de servidores, despliegue del software.
+◦
+Mantenimiento y Soporte: Contratos de soporte para hardware y software, actualizaciones, monitoreo.
+◦
+Capacitación: El cuestionario ya preguntaba si se requiere de un programa de capacitaciones en línea para personal y trabajadores. Esto debe reflejarse en el presupuesto.
+◦
+Seguridad y Auditorías: Costos de implementación de medidas de seguridad, pruebas de penetración, auditorías de datos personales.
+◦
+Gestión de Proyectos: Costos asociados a la coordinación y seguimiento del proyecto.
+4. Justificación de la Aproximación del Valor (Realismo de la Problemática)
+Para asegurar que las variables presentadas en la tabla permitan determinar un valor lo más real posible a la problemática, deberás:
+•
+Vincular cada costo con un requisito o necesidad específica del "Censo Rural". Por ejemplo, un mayor costo en seguridad se justifica por la criticidad de los datos personales sensibles.
+•
+Considerar el número de habitantes a censar, la extensión de las zonas rurales, el número de encuestadores, y la frecuencia de los censos (si aplica) para dimensionar hardware y servicios en la nube.
+•
+Tomar en cuenta el presupuesto o limitaciones existentes mencionadas en las entrevistas de profundización.
+Al seguir esta guía, podrás elaborar una propuesta técnica y económica robusta y alineada con los requisitos y el contexto del proyecto "Censo Rural".
+**/
+
+
+
+
+
+/***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**/
+
+
+
+/***
+
+
+Propuesta técnica y económica para la implementación del proyecto GA2-220501094-AA3-EV02 dentro del contexto del proyecto "Censo Rural"
+
+Tabla de Contenido
+
+Introducción
+Propuesta Técnica
+Descripción de la Solución de Software ("Censo Rural")
+Requisitos Funcionales (RF)
+Requisitos No Funcionales (RNF)
+Arquitectura Propuesta
+Tecnologías a Utilizar
+Metodología de Desarrollo
+Consideraciones Específicas del Contexto Rural
+Propuesta Económica
+Costos de Hardware
+Costos de Software (Desarrollo y Licencias)
+Costos de Servicios
+Resumen y Justificación del Presupuesto
+Conclusiones
+
+1. Introducción
+El proyecto "Censo Rural" tiene como objetivo fundamental desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas de Colombia. Este sistema busca optimizar la captura eficiente de información a través de dispositivos móviles, garantizar la centralización de datos en una plataforma segura y facilitar un análisis robusto que sirva de base para la formulación de políticas públicas efectivas.
+
+La presente propuesta detalla la viabilidad técnica y económica para la implementación de esta solución. Abordaremos la estrategia de desarrollo del software, las tecnologías a emplear, la infraestructura necesaria y una estimación de costos asociada, todo ello enmarcado en las especificaciones y necesidades específicas de un censo en entornos rurales. Nuestro propósito es ofrecer una propuesta clara y estructurada que demuestre cómo el software "Censo Rural" resolverá el problema existente, alineándose con los lineamientos del proyecto.
+
+2. Propuesta Técnica
+En esta sección, delineamos la estrategia y el diseño detallado de la solución de software "Censo Rural", fundamentada en las características del repositorio DBInterface y adaptada a las particularidades del entorno rural.
+
+2.1. Descripción de la Solución de Software ("Censo Rural")
+El software "Censo Rural" será una herramienta digital robusta y fácil de usar que permitirá la recolección estructurada de datos personales directamente en campo, utilizando dispositivos móviles. La información recolectada se validará en el punto de captura y se sincronizará automáticamente con una plataforma centralizada una vez haya conexión a internet. Esta plataforma central no solo garantizará el almacenamiento seguro de los datos, sino que también ofrecerá potentes capacidades de análisis y generación de reportes, vitales para la toma de decisiones estratégicas en políticas públicas.
+
+La solución se construirá capitalizando las fortalezas del repositorio DBInterface, que ofrece una base sólida en interfaz gráfica (Tkinter), manejo de datos (SQLite) y generación de archivos CSV. Sin embargo, será significativamente extendida y adaptada para satisfacer las exigencias de un censo a gran escala.
+
+2.2. Requisitos Funcionales (RF)
+El software "Censo Rural" estará dotado de las siguientes funcionalidades clave:
+
+Gestión de Usuarios:
+
+Registro y autenticación segura de encuestadores, supervisores y administradores.
+Gestión de roles con permisos específicos para cada tipo de usuario.
+Posibilidad de implementar autenticación de doble factor para mayor seguridad.
+Interfaz de Usuario Intuitiva:
+
+Diseño responsive y optimizado para el uso en dispositivos móviles y tabletas en campo.
+Navegación simplificada y flujos de trabajo guiados para usuarios con bajo nivel de alfabetización digital.
+Capacidad de funcionamiento offline completo para la captura de datos en zonas sin conectividad.
+Gestión de Categorías:
+
+Funcionalidad para clasificar y organizar los datos del censo por criterios como región, comunidad, grupo etario, tipo de vivienda, entre otros.
+Captura de Datos en Campo:
+
+Formularios dinámicos y configurables para adaptarse a diferentes tipos de encuestas o preguntas.
+Validación de datos en tiempo real para asegurar la calidad.
+Integración de georreferenciación para registrar la ubicación exacta de cada punto de censo.
+Capacidad para adjuntar fotos y documentos directamente desde el dispositivo.
+Sincronización automática de los datos capturados cuando se detecte conexión a internet.
+Gestión de Archivos:
+
+Almacenamiento seguro de todos los formularios completados, fotos y documentos adjuntos.
+Control de versiones de formularios y datos, y funcionalidad de búsqueda avanzada para recuperación eficiente.
+Análisis y Estadísticas:
+
+Dashboards personalizables con Indicadores Clave de Desempeño (KPIs) relevantes para el censo.
+Generación de informes automatizados en diversos formatos para diferentes audiencias.
+Visualización de datos geográficamente para identificar patrones y necesidades.
+
+2.3. Requisitos No Funcionales (RNF)
+Las cualidades que garantizarán la robustez y eficiencia del sistema incluyen:
+
+Disponibilidad: Alta disponibilidad de la plataforma central y funcionamiento offline garantizado en los dispositivos de campo.
+Escalabilidad: El sistema debe soportar un crecimiento del 100% en el volumen de datos en los próximos 3 años.
+Rendimiento: Tiempos de respuesta para las consultas y cargas de módulos menores a 2 segundos bajo condiciones normales de operación.
+Seguridad: Implementación de encriptación de datos sensibles tanto en tránsito como en reposo.
+Usabilidad: Interfaz extremadamente amigable e intuitiva, diseñada para personas con conocimientos básicos de informática.
+Compatibilidad: Accesible desde navegadores web modernos y compatible con dispositivos móviles Android.
+2.4. Arquitectura Propuesta
+Para el "Censo Rural", proponemos una arquitectura híbrida que combine la robustez de un sistema centralizado en la nube con la flexibilidad de operación offline en campo.
+
+Aplicación de Campo (Dispositivos Móviles):
+
+Se desarrollará una aplicación nativa o multiplataforma para Android, garantizando la funcionalidad offline.
+Utilizará SQLite como base de datos local para el almacenamiento temporal de datos recolectados.
+Plataforma Central (Nube):
+
+Se desplegará en un proveedor de servicios en la nube para asegurar alta disponibilidad, escalabilidad y seguridad.
+Contendrá una base de datos relacional robusta y escalable para almacenar centralizadamente todos los datos del censo.
+Se desarrollará un API RESTful para gestionar la comunicación y sincronización entre los dispositivos de campo y la plataforma central.
+2.5. Tecnologías a Utilizar
+Frontend (Aplicación de Campo): Se evaluará la viabilidad de adaptar Tkinter (Python) o migrar a Kivy para garantizar una UX adecuada en Android.
+Backend (Plataforma Central y API): Python será el lenguaje principal, utilizando frameworks como FastAPI o Flask para el desarrollo del API RESTful.
+Bases de Datos: SQLite para el almacenamiento local y PostgreSQL o MySQL para la base de datos centralizada en la nube.
+Análisis y Visualización: Se extenderá la capacidad de Jupyter Notebook para crear dashboards interactivos y reportes automatizados.
+
+2.6. Metodología de Desarrollo
+El proyecto "Censo Rural" seguirá la metodología Extreme Programming (XP), que permite entregas rápidas de módulos funcionales y fomenta la retroalimentación continua del cliente.
+
+2.7. Consideraciones Específicas del Contexto Rural
+La solución ha sido diseñada teniendo en cuenta las particularidades de las zonas rurales apartadas, como limitaciones de conectividad y la necesidad de usabilidad para usuarios diversos.
+
+3. Propuesta Económica
+Esta sección presenta la estimación de costos de hardware, software y servicios para la implementación del proyecto "Censo Rural".
+
+3.1. Costos de Hardware
+Componente de Hardware
+
+Descripción Detallada
+
+Cantidad
+
+Costo Unitario Estimado (COP)
+
+Costo Total Estimado (COP)
+
+Justificación / Notas
+
+Dispositivos Móviles
+
+Tablets Android robustas
+
+50 unid.
+
+$1.500.000
+
+$75.000.000
+
+Necesarios para encuestadores en campo.
+
+Servidores en la Nube
+
+Instancias EC2/VMs
+
+1 año
+
+$8.000.000/año
+
+$8.000.000
+
+Para la base de datos centralizada.
+
+Bases de Datos Gestionadas
+
+Servicio de base de datos RDS
+
+1 año
+
+$5.000.000/año
+
+$5.000.000
+
+Costo anual estimado.
+
+Almacenamiento de Objetos
+
+S3/Blob Storage
+
+1 año
+
+$1.000.000/año
+
+$1.000.000
+
+Costo anual estimado.
+
+Transferencia de Datos
+
+Estimación de egreso/ingreso de datos
+
+1 año
+
+$500.000/año
+
+$500.000
+
+Costo anual estimado.
+
+Total Hardware Estimado
+
+$89.500.000
+
+3.2. Costos de Software (Desarrollo y Licencias)
+Componente de Software
+
+Descripción Detallada
+
+Horas Estimadas
+
+Tarifa Horaria (COP)
+
+Costo Total Estimado (COP)
+
+Justificación / Notas
+
+Desarrollo (Personalización DBInterface)
+
+Diseño y UX/UI
+
+320
+
+$50.000
+
+$16.000.000
+
+Mayor inversión en UX/UI para el contexto rural.
+
+Desarrollo App Móvil
+
+Implementación de formularios dinámicos
+
+640
+
+$50.000
+
+$32.000.000
+
+Adaptación y extensión de las funcionalidades base.
+
+Desarrollo Backend
+
+Lógica de negocio central
+
+480
+
+$60.000
+
+$28.800.000
+
+Desarrollo de la lógica central.
+
+Desarrollo Plataforma Web
+
+Dashboards interactivos
+
+400
+
+$60.000
+
+$24.000.000
+
+Creación de la interfaz para la gestión y análisis de datos.
+
+Módulo de Seguridad
+
+Implementación de cifrado
+
+160
+
+$65.000
+
+$10.400.000
+
+Crítico para datos sensibles.
+
+Total Software Estimado (Desarrollo)
+
+$111.200.000
+
+3.3. Costos de Servicios
+Componente de Servicio
+
+Descripción Detallada
+
+Duración / Alcance
+
+Costo Total Estimado (COP)
+
+Justificación / Notas
+
+Implementación y Configuración
+
+Puesta en marcha de la infraestructura
+
+1 mes
+
+$10.000.000
+
+Asegura un inicio de operaciones sin contratiempos.
+
+Mantenimiento y Soporte (1er Año)
+
+Soporte técnico
+
+12 meses
+
+$20.000.000
+
+Garantiza la continuidad operativa.
+
+Capacitación
+
+Programa de capacitación
+
+2 semanas
+
+$15.000.000
+
+Esencial para asegurar la adopción del software.
+
+Seguridad y Auditorías
+
+Pruebas de penetración
+
+Única vez
+
+$8.000.000
+
+Para verificar la robustez de las medidas de seguridad.
+
+Gestión de Proyectos
+
+Coordinación y seguimiento
+
+6 meses
+
+$15.000.000
+
+Crucial para el éxito del proyecto.
+
+Total Servicios Estimado
+
+$68.000.000
+
+3.4. Resumen y Justificación del Presupuesto
+Categoría
+
+Costo Total Estimado (COP)
+
+Hardware
+
+$89.500.000
+
+Software (Desarrollo)
+
+$111.200.000
+
+Servicios
+
+$68.000.000
+
+Contingencia (10% del total)
+
+$26.870.000
+
+GRAN TOTAL ESTIMADO DEL PROYECTO
+
+$295.570.000
+
+Justificación del Realismo del Valor:
+
+Vínculo con Requisitos: Cada costo está directamente vinculado a un requisito o necesidad específica del "Censo Rural".
+Dimensionamiento: Las estimaciones se basan en un censo a gran escala y la necesidad de procesar un volumen considerable de datos.
+Contexto Rural: Se ha considerado la necesidad de capacitación en sitio para encuestadores en zonas con posible bajo nivel de alfabetización digital.
+Optimización por Software Libre: La adopción de tecnologías de código abierto reduce drásticamente los costos de licenciamiento.
+Metodología Ágil (XP): Permite entregas incrementales y valida funcionalidades tempranamente, minimizando el riesgo de retrabajo costoso.
+
+4. Conclusiones
+La propuesta técnica y económica para el proyecto "Censo Rural" ha sido elaborada con un enfoque integral, buscando una solución de software que sea robusta, segura, usable y eficiente, al mismo tiempo que económicamente viable. Al basarse en el repositorio DBInterface y extender sus capacidades con tecnologías de código abierto, se logra una reducción significativa en los costos de licenciamiento, permitiendo una mayor inversión en el desarrollo de funcionalidades críticas y la adaptación al exigente contexto rural.
+
+La implementación de este sistema no solo optimizará la recolección, gestión y análisis de datos del censo, sino que también proporcionará una herramienta fundamental para la formulación de políticas públicas basadas en información precisa y actualizada, impactando positivamente en las comunidades rurales.
+
+
+
 **/

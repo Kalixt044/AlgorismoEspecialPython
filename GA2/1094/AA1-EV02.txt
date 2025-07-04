@@ -88,3 +88,62 @@ El repositorio DBInterface es una herramienta útil para la recolección y gesti
 
 
 
+/***
+Para abordar la evidencia Diseño de las fichas técnicas para la recolección de la información. GA2-220501094-AA1-EV02 en el contexto de su proyecto "Censo Rural", es fundamental comprender que estas "fichas técnicas" se refieren a los instrumentos diseñados para la elicitación de requisitos del propio software "Censo Rural" que se va a desarrollar. El propósito central de esta elicitación es obtener conocimientos relevantes del problema para producir una especificación formal del software necesario para resolverlo.
+El proyecto "Censo Rural" tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas [conversación previa, 173, 184, 195, 223, 275, 288, 299, 310]. Este sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas [conversación previa, 173, 184, 195, 275, 288, 299, 310].
+A continuación, se presenta una guía detallada para abordar esta evidencia:
+Guía para el Diseño de Fichas Técnicas para la Recolección de la Información (GA2-220501094-AA1-EV02)
+1.
+Definición de las Técnicas de Elicitación Principales En su proyecto, se utilizarán principalmente encuestas y entrevistas como técnicas de elicitación de requisitos. La encuesta se usará para determinar qué proceso demanda más urgencia para sistematizar, y las entrevistas para profundizar sobre ese proceso.
+2.
+Elaboración del Cuestionario a Aplicar (Encuesta) Se debe implementar un cuestionario mixto que combine preguntas abiertas para información cualitativa y preguntas cerradas para datos específicos y cuantificables.
+◦
+Objetivo: Observar, identificar y emitir un diagnóstico sobre las necesidades tecnológicas y posibles soluciones de software de los clientes. También busca evaluar la madurez tecnológica actual, identificar necesidades de automatización y medir la disposición al cambio.
+◦
+Estructura Sugerida: Proponer entre 8 y 10 preguntas para mantener la atención del encuestado.
+◦
+Tipos de Preguntas:
+▪
+Escala de Likert: Para medir el nivel de importancia (ej., "¿Qué importancia tienen los procesos logísticos dentro de su organización? Escala de 1 a 5").
+▪
+Cerradas Dicotómicas (Sí/No): Para evaluar percepciones o necesidades directas (ej., "¿Considera que implementar un software mejoraría la eficiencia...?", "¿se requiere un programa de capacitaciones en línea?").
+▪
+Cerradas de Opción Múltiple: Para conocer herramientas actuales (ej., "¿Qué herramientas... administran actualmente la logística?").
+▪
+Abiertas: Para obtener información cualitativa y de profundidad (ej., "¿Cuál es el sector económico con mayor control en la gestión logística?", "puntos críticos de control", "reportes importantes", "normatividad", "matrices de cumplimiento", "procesos beneficiados", "soluciones informáticas conocidas").
+◦
+Fines Estratégicos del Cuestionario: Evaluar viabilidad de nuevas soluciones, identificar resistencias al cambio, determinar necesidades de capacitación, establecer prioridades y comprender el contexto competitivo.
+◦
+Beneficios Esperados: Optimización de procesos, mejora de trazabilidad, reducción de costos, incremento de eficiencia y cumplimiento normativo efectivo.
+3.
+Preparación de la Entrevista de Profundización El objetivo de la entrevista es entender en detalle los requerimientos para desarrollar un software que facilite el trabajo diario de los usuarios, siendo crucial la opinión del usuario para asegurar que el sistema se ajuste a sus necesidades reales.
+◦
+Categorías de Preguntas para la Entrevista:
+▪
+Contexto y perfil del usuario: Identificar quiénes interactuarán con el software (como encuestadores, supervisores y administradores para el "Censo Rural"), sus roles, las tareas diarias que el software debería facilitar, herramientas o sistemas actuales y sus limitaciones.
+▪
+Objetivos y necesidades: Determinar el principal problema que el software debe resolver y las necesidades específicas que debe cubrir, incluyendo si alguna necesidad debe priorizarse.
+▪
+Requerimientos funcionales: Precisar las funciones y características específicas del software (ej., formularios dinámicos, generación de reportes, almacenamiento de datos, notificaciones). Para el "Censo Rural", esto incluye:
+•
+Gestión de usuarios: Con roles como encuestadores, supervisores y administradores.
+•
+Interfaz de usuario intuitiva: Adaptada para uso offline y en campo.
+•
+Gestión de categorías: Como región, comunidad, datos demográficos.
+•
+Captura de datos en campo: Mediante formularios digitales, georreferenciación y adjuntar fotos/documentos.
+•
+Gestión de archivos: Para almacenamiento seguro y sincronización posterior.
+•
+Análisis y estadísticas: Con dashboards e informes para la toma de decisiones.
+▪
+Requerimientos no funcionales: Establecer expectativas sobre rendimiento (tiempos de respuesta), seguridad y privacidad (crucial para datos personales del censo), usabilidad (diseño, facilidad de uso, accesibilidad para usuarios con bajo nivel de alfabetización digital), y escalabilidad (para un alto volumen de datos y usuarios futuros). Es importante considerar la alta disponibilidad y el funcionamiento offline para zonas con conectividad limitada.
+▪
+Interfaz de usuario: Preferencias de diseño, usuarios principales (incluyendo aquellos con discapacidades o necesidades especiales), y ejemplos de software intuitivo.
+▪
+Restricciones y limitaciones: Identificar limitaciones técnicas, de presupuesto o de tiempo, así como políticas internas o requisitos legales relevantes (ej., normativas de protección de datos, vitales para el censo).
+▪
+Cierre: Preguntar sobre otros stakeholders, agradecer el tiempo y explicar los próximos pasos.
+Las fichas técnicas resultantes (cuestionarios y guiones de entrevista) serán herramientas esenciales para diagnosticar el estado actual de los procesos, entender el cumplimiento normativo necesario y buscar oportunidades de mejora y optimización para el software del "Censo Rural
+**/

@@ -1,450 +1,99 @@
-
-
-
-/***
-Elaboración de los diagramas del modelo de dominio del
-proyecto GA2-220501093-AA2-EV01
-Criterios de evaluación:
-● Representa el negocio en términos de clases abstractas, generando un modelo de dominio
-consistente.
-2. Lista de chequeo
-No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
-SÍ NO
-
-1. Identifica el tipo de diagrama apropiado para modelar
-el dominio. 20%
-2. Diagrama con UML los artefactos del sistema diagrama
-de clases y de paquetes.30%
-3. Maneja herramientas de software para apoyar la
-elaboración de los diagramas.20%
-4.Elabora documento plantilla de casos de uso con base
-en estándares de documentación. 20%
-5.Sigue las instrucciones para la elaboración de un
-diagrama de dominio del proyecto y el modelo
-conceptual resultante se presenta ordenado y de fácil
-lectura.10%
-**/
-
-/***
-Diagramas y documentaciopn de actividades del proyecto
-
-1. 🎯 Objetivo General de la Evidencia
-El propósito de esta evidencia es representar gráficamente y documentar las funciones clave del software mediante diagramas de actividades UML y un informe de análisis. Esto permite comprender el flujo de trabajo del sistema, facilitar la comunicación entre los involucrados y sentar las bases para una especificación formal del software.
-2. 🧩 Parte 1: Diagramas de Actividades UML
-a. ¿Qué debes incluir?
-Para cada función principal del sistema, elabora un diagrama de actividades que muestre:
-Inicio del proceso
-Acciones o actividades
-Decisiones (condiciones)
-Flujo alternativo (si aplica)
-Finalización del proceso
-b. Casos de uso sugeridos:
-Puedes elegir entre los siguientes (o incluir otros relevantes al proyecto):
-Registro y autenticación de usuarios
-Creación de cuentas
-Recuperación de contraseñas
-Registro de sesiones activas
-Registro de llegada de mercancías
-Validación de pedidos
-Notificación al departamento de inventarios
-Gestión de pagos a proveedores
-c. Herramientas recomendadas:
-Draw.io
-Lucidchart
-StarUML
-Visual Paradigm
-
-3. 📝 Parte 2: Informe de Análisis
-a. Estructura sugerida del informe:
-I. Introducción
-Breve descripción del proyecto
-Objetivo del informe
-II. Interpretación del informe de requisitos
-¿Qué requerimientos funcionales y no funcionales se están abordando?
-Ejemplo: Gestión de usuarios, control de inventario, pagos, etc.
-III. Metodología de desarrollo
-Se sigue la metodología XP (Extreme Programming), enfocada en entregas frecuentes de módulos funcionales independientes.
-IV. Descripción de los diagramas
-Para cada diagrama, incluye:
-Nombre del proceso
-Descripción del flujo
-Relación con los requisitos funcionales
-Justificación de decisiones tomadas en el modelado
-V. Conclusión
-Cómo estos diagramas y el análisis contribuyen a una mejor comprensión del sistema
-Importancia de esta documentación para futuras fases del desarrollo
-4. ✅ Criterios de Evaluación que estás cumpliendo
-Aplicación correcta del lenguaje UML
-Claridad en la representación de los procesos
-Coherencia entre los diagramas y los requisitos
-Documentación detallada y bien estructurada
-Uso de metodología XP como base del análisis
-Los diagramas de actividades trazan flujos de procesos de 
-una forma que es sencilla de entender. El Lenguaje Unificado 
-de Modelado incluye varios subconjuntos de diagramas, 
-incluidos los diagramas de estructuras, los diagramas de 
-interacción y los diagramas de comportamiento. Los 
-diagramas de actividades, junto con los diagramas de casos de 
-uso y los diagramas de máquina de estados, son considerados 
-diagramas de comportamiento porque describen lo que debe 
-suceder en el sistema que se está modelando. Las partes 
-interesadas tienen muchos asuntos que manejar, por lo que es 
-importante una comunicación clara y concisa. Los diagramas 
-de actividades ayudan a que las personas en las áreas de 
-negocios y desarrollo de una organización se integren para 
-comprender el mismo proceso y comportamiento. Usarás un 
-conjunto de símbolos especializados —incluidos aquellos para 
-pasos de inicio, finalización, fusión y recepción en el flujo—
-para crear un diagrama de actividades, lo cual cubriremos con 
-más detalle dentro de esta guía de diagramas de actividades. 
-Teniendo en cuenta las actividades y el diagrama de 
-actividades desarrollados anteriormente, se realiza el diagrama 
-con actividades del proyecto, enfocada en las actividades de la
-distribuidora de consumo masivo llamada
-
-
-Perspectiva del producto   El sistema de información de agenda para citas médicas tiene como fin agilizar el proceso para tomar horas médicas; queremos brindar un sistema que sea autogestionable, donde el  usuario  principal (stakeholder)  que requiera  agendar una  cita  médica lo  pueda realizar a través de internet, donde no le tome más de cinco (5) minutos el agendamiento.  Sera un sistema que le brindara confianza tanto al usuario principal como al centro médico (también stakeholder) ya que ambos serán notificados de cada gestión que se realice en sistema de información.  Funciones del producto - Seguridad, para acceder al sistema será necesario ingresar a través de un usuario y una contraseña. - Agendamiento: o Calendario, el usuario podrá consultar la disponibilidad (días y horas) del médico o profesional de la salud seleccionado. o Agendar, el usuario podrá reservar la hora seleccionada. o Modificar, el usuario podrá cambiar la hora seleccionada. o Confirmar, el usuario podrá ratificar que asistirá a la hora seleccionada. o Anular, el usuario podrá cancelar la hora seleccionada, notificándole así al centro médico que no asistirá y la hora quedará de nuevo disponible para otro usuario. - Comprobante, cada gestión que se realice generará un documento el cual será enviado al correo electrónico de los usuarios (personas que agendan la cita médica y centro médico donde se realizara la atención).  Características de los usuarios (stakeholders)   El sistema de información contara con tres (3) tipos de usuarios (stakeholders) que se relacionan a continuación y se nombran sus respectivas características: - Usuario administrador, aplica para el encargado del sistema de información, este tendrá la labor de poner a disposición y/o modificar el calendario para los demás usuarios,  podrá  crear,  modificar  y  eliminar  centros  médicos  y/o  doctores  o profesionales de la salud del sistema de información. - Usuario normal, aplica para las personas que requieren agendar horas médicas, estos podrán consultar el calendario, agendar, modificar y/o anular una cita médica. La creación del usuario normal es autogestionable. - Usuario  centro  médico,  aplica  para  los  centros  médicos  donde  se  realizará  la atención al usuario normal, este tipo de usuario podrá consultar el calendario y/o anular una cita médica. 
-
-5  Restricciones Entre las restricciones que se pueden presentar en el sistema de información de agenda para citas médicas tenemos: - Se debe contar con acceso a internet para poder hacer uso del sistema de información. - Se debe contar con un manejo básico de las herramientas de internet. - El sistema de información debe ser desarrollado en versión web, pues el acceso al sistema debe ser en línea y estar disponible para cualquier dispositivo con acceso a internet. - Es  obligatorio  acceder  al  sistema  de  información  a  través  de  un  usuario  y  una contraseña. - Para los usuarios es obligatorio tener un correo electrónico para todos los procesos.  Requisitos Funcionales El sistema debe permitir: - Validar el usuario y la contraseña del usuario que desea ingresar al sistema. - Crear el calendario con la agenda de los médicos y/o profesionales de la salud. - Crear centros médicos. - Crear médicos y/o profesionales de la salud. - Modificar centros médicos. - Modificar médicos y/o profesionales de la salud. - Eliminar centros médicos. - Eliminar médicos y/o profesionales de la salud. - Consultar la disponibilidad de los médicos y/o profesionales de la salud de acuerdo a su calendario. - Agendar la cita médica seleccionada. - Bloquear la hora medica seleccionada para que otro usuario no pueda seleccionar de nuevo la misma hora. - Modificar la cita médica seleccionada. - Anular o cancelar la cita médica seleccionada. - Confirmar la cita médica seleccionada. - Generar comprobantes de los registros realizados en el sistema. - Enviar a través de correo electrónico los comprobantes generados.  
-/***
-Resumen Técnico y Práctico del Repositorio DBInterface
-
-El repositorio DBInterface es un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python. A continuación, se presenta un resumen de sus características y funcionalidades.
-
-Características Principales
-
-Interfaz Gráfica: Utiliza Tkinter para crear una interfaz amigable que permite a los usuarios ingresar datos de manera sencilla.
-
-Generación de Archivos CSV: Permite la creación de archivos CSV a partir de los datos ingresados, facilitando su exportación y análisis.
-
-Base de Datos SQLite: Los datos recolectados se almacenan en una base de datos SQLite, lo que permite una gestión eficiente de la información.
-
-Estructura del Repositorio
-
-Archivos Clave:
-
-README.md: Documentación del proyecto.
-busca.py: Script para buscar datos en la base de datos.
-database.py: Manejo de la base de datos SQLite.
-genero.py: Funciones relacionadas con la gestión de datos.
-index.py: Archivo principal que ejecuta la aplicación.
-statisk.ipynb: Notebook de Jupyter para análisis de datos.
-Licencia: GPL-3.0, lo que permite su uso y modificación bajo ciertas condiciones.
-
-Instalación y Uso
-
-Requisitos: Python y las bibliotecas necesarias deben estar instaladas.
-
-Instalación: Se puede instalar el proyecto utilizando npm (aunque esto es inusual para un proyecto de Python, puede referirse a un entorno de desarrollo específico).
-
-Ejecución: Al ejecutar index.py, se inicia la interfaz gráfica donde los usuarios pueden ingresar datos.
-
-Conclusión
-
-El repositorio DBInterface es una herramienta útil para la recolección y gestión de datos personales, con una interfaz gráfica accesible y la capacidad de exportar datos a CSV. Su integración con SQLite permite un manejo eficiente de la información recolectada.**/
-**/
-
-
-/***
-Elaboración de los Diagramas del Modelo de Dominio del Proyecto
-Proyecto: Sistema de Información de Agenda para Citas Médicas
-Evidencia: GA2-220501093-AA2-EV01
+Presentación: Diagramas de Dominio del Proyecto "Censo Rural"
+Repositorio DBInterface
 
 1. Introducción
-El presente informe tiene como objetivo representar gráficamente y documentar el modelo de dominio del sistema de información para la agenda de citas médicas. Este sistema busca agilizar el proceso de agendamiento de citas, brindando una plataforma autogestionable y confiable tanto para los usuarios finales como para los centros médicos. La representación del dominio se realizará a través de diagramas UML, específicamente diagramas de clases y de paquetes, los cuales facilitan la comprensión del flujo de trabajo y la comunicación entre los involucrados.
-
-2. Identificación del Tipo de Diagrama Apropiado para Modelar el Dominio
-Para modelar el dominio de un sistema y representar sus componentes en términos de clases abstractas y sus relaciones, el Diagrama de Clases UML es la herramienta más apropiada. Este diagrama permite una visión estática de la estructura del sistema, mostrando las clases del sistema, sus atributos, operaciones y las relaciones entre ellas (asociación, agregación, composición, herencia). Adicionalmente, el Diagrama de Paquetes UML será útil para organizar las clases en grupos lógicos, mejorando la modularidad y la legibilidad del modelo.
-
-3. Diagrama del Modelo de Dominio (Diagrama de Clases y de Paquetes UML)
-Se utilizará una herramienta de software como Draw.io para la elaboración de los diagramas, lo cual facilita el cumplimiento de los estándares UML y la legibilidad.
-
-3.1. Diagrama de Paquetes
-Este diagrama organiza las clases lógicas del sistema en paquetes, reflejando una estructura modular.
-
-Fragmento de código
-
-package "Sistema de Citas Médicas" {
-  package "Gestión de Usuarios" {
-    class Usuario
-    class Administrador
-    class UsuarioNormal
-    class CentroMedico
-  }
-  package "Gestión de Citas" {
-    class CitaMedica
-    class Calendario
-    class Medico
-  }
-  package "Comunicaciones" {
-    class Comprobante
-    class Notificacion
-  }
-}
-Descripción del Diagrama de Paquetes:
-
-Gestión de Usuarios: Contiene las clases relacionadas con los diferentes tipos de usuarios del sistema (Administrador, Usuario Normal, Centro Médico), que heredan o se relacionan con una clase base Usuario.
-
-Gestión de Citas: Agrupa las clases fundamentales para el agendamiento y manejo de citas, como CitaMedica, Calendario y Medico.
-
-Comunicaciones: Incluye las clases encargadas de generar y enviar las notificaciones y comprobantes (Comprobante, Notificacion).
-
-3.2. Diagrama de Clases
-Este diagrama representa las clases principales del dominio, sus atributos, métodos y las relaciones entre ellas.
-
-Fragmento de código
-
-classDiagram
-    direction LR
-
-    class Usuario {
-        +idUsuario: String
-        +nombre: String
-        +apellido: String
-        +correoElectronico: String
-        +contrasena: String
-        +autenticar(): Boolean
-        +recuperarContrasena(): Boolean
-        +registrarSesion(): void
-    }
-
-    class Administrador {
-        +departamento: String
-        +cargo: String
-        +crearCentroMedico(): void
-        +modificarCentroMedico(): void
-        +eliminarCentroMedico(): void
-        +crearMedico(): void
-        +modificarMedico(): void
-        +eliminarMedico(): void
-        +modificarCalendarioMedico(): void
-    }
-
-    class UsuarioNormal {
-        +crearCuenta(): Boolean
-        +consultarDisponibilidad(): List<CitaMedica>
-        +agendarCita(): Boolean
-        +modificarCita(): Boolean
-        +anularCita(): Boolean
-        +confirmarCita(): Boolean
-    }
-
-    class CentroMedico {
-        +idCentro: String
-        +nombre: String
-        +direccion: String
-        +telefono: String
-        +consultarCalendario(): List<CitaMedica>
-        +anularCita(): Boolean
-    }
-
-    class Medico {
-        +idMedico: String
-        +nombre: String
-        +especialidad: String
-        +consultorio: String
-        +disponibilidad: List<Calendario>
-    }
-
-    class Calendario {
-        +idCalendario: String
-        +fecha: Date
-        +horaInicio: Time
-        +horaFin: Time
-        +disponible: Boolean
-    }
+Objetivo:
+Modelar el dominio del sistema "Censo Rural" mediante diagramas UML para representar:
 
-    class CitaMedica {
-        +idCita: String
-        +fecha: Date
-        +hora: Time
-        +estado: String (Agendada, Modificada, Anulada, Confirmada)
-        +generarComprobante(): Comprobante
-        +enviarNotificacion(): void
-    }
+Entidades clave (comunidades, habitantes, formularios).
 
-    class Comprobante {
-        +idComprobante: String
-        +tipo: String (Agendamiento, Modificación, Anulación, Confirmación)
-        +fechaEmision: Date
-        +contenido: String
-        +enviarPorEmail(): Boolean
-    }
+Relaciones y funcionalidades del sistema.
 
-    Usuario <|-- Administrador : hereda
-    Usuario <|-- UsuarioNormal : hereda
-    Usuario <|-- CentroMedico : hereda
+Estructura modular del repositorio DBInterface.
 
-    UsuarioNormal "1" -- "N" CitaMedica : agenda
-    Medico "1" -- "N" Calendario : tiene
-    CitaMedica "1" -- "1" Medico : para
-    CitaMedica "1" -- "1" Calendario : ocupa
-    CitaMedica "1" -- "1" Comprobante : genera
-    CitaMedica "1" -- "N" Notificacion : envía
-    CentroMedico "1" -- "N" Medico : asociado a
-    Comprobante "1" -- "1" Notificacion : enviado por
+Herramientas:
 
-    class Notificacion {
-        +idNotificacion: String
-        +mensaje: String
-        +destinatario: String
-        +fechaEnvio: Date
-        +estadoEnvio: String
-    }
-Descripción del Diagrama de Clases:
+Draw.io / StarUML para diagramación.
 
-Usuario: Clase base que representa a cualquier usuario del sistema, con atributos comunes como idUsuario, nombre, correoElectronico y contrasena. Incluye operaciones para autenticar y recuperarContrasena.
+Metodología Ágil (entregas incrementales).
 
-Administrador, UsuarioNormal, CentroMedico: Heredan de Usuario y añaden atributos y operaciones específicas a sus roles.
+2. Diagrama de Paquetes
+Organización modular del sistema:
 
-Administrador: Gestiona CentroMedico y Medico, y modifica Calendario.
+Diagram
+Code
 
-UsuarioNormal: Realiza las acciones de agendamiento, modificación, anulación y confirmación de citas.
 
-CentroMedico: Puede consultarCalendario y anularCita.
+Paquetes Principales:
 
-Medico: Representa a los profesionales de la salud, con su especialidad y disponibilidad (relacionada con Calendario).
+Gestión de Datos: Procesamiento y validación de datos.
 
-Calendario: Detalla los bloques de tiempo disponibles para citas, incluyendo fecha, horaInicio, horaFin y un indicador de disponible.
+Interfaz Gráfica: Tkinter para captura de información.
 
-CitaMedica: La entidad central del sistema, que registra una cita específica entre un UsuarioNormal y un Medico en un Calendario determinado. Tiene un estado y puede generarComprobante y enviarNotificacion.
+Base de Datos: SQLite para almacenamiento local.
 
-Comprobante: Representa el documento generado por cada gestión de cita, con su tipo y contenido.
+3. Diagrama de Clases
+Entidades y Relaciones:
 
-Notificacion: Objeto que encapsula el mensaje y destinatario de las notificaciones, que pueden ser enviadas por Comprobante.
+Diagram
+Code
 
-4. Documento Plantilla de Casos de Uso con Base en Estándares de Documentación
-A continuación, se presenta una plantilla para documentar los casos de uso, siguiendo un estándar que facilita la comprensión y el desarrollo.
 
-Plantilla de Caso de Uso
+Claves:
 
-Nombre del Caso de Uso: [Nombre descriptivo de la función]
-ID del Caso de Uso: CU-[Número consecutivo]
-Actores: [Lista de los tipos de usuarios que interactúan con este caso de uso]
-Descripción: [Breve resumen de la funcionalidad que el caso de uso abarca.]
-Precondiciones: [Condiciones que deben cumplirse antes de que el caso de uso pueda iniciarse.]
-Postcondiciones: [Estado del sistema una vez que el caso de uso ha finalizado exitosamente.]
-Flujo Principal:
+Persona: Datos demográficos (atributos: cédula, etnia).
 
-[Paso 1 del actor]
+FormularioCensal: Campos dinámicos + validación.
 
-[Paso 2 del sistema]
+ComunidadRural: Agrupación territorial.
 
-[Paso 3 del actor]
-...
-N. [Último paso]
+4. Casos de Uso
+4.1. Registrar Habitante
+Actor: Encuestador
+Flujo:
 
-Flujos Alternativos:
+Inicia sesión en DBInterface.
 
-FA.1: [Condición del flujo alternativo]
+Completa formulario con datos personales.
 
-[Paso 1 del flujo alternativo]
+Sistema valida y almacena en SQLite.
 
-[Paso 2 del flujo alternativo]
-...
-[Retorna al paso X del flujo principal o finaliza.]
+Genera CSV para análisis.
 
-Excepciones:
+4.2. Generar Reporte
+Actor: Administrador
+Flujo:
 
-EX.1: [Condición de error o situación excepcional]
+Ejecuta statisk.ipynb.
 
-[Acción del sistema en caso de la excepción]
-...
-[Mensaje de error, finalización del caso de uso, etc.]
+Filtra datos por comunidad.
 
-Reglas de Negocio: [Cualquier regla específica del negocio que afecte este caso de uso.]
-Notas/Comentarios: [Información adicional relevante.]
+Exporta reporte en PDF/Excel.
 
-Ejemplo de Aplicación de la Plantilla:
+5. Requisitos Cubiertos
+Requisito	Diagrama Relacionado
+Captura offline de datos	Clase FormularioCensal
+Almacenamiento seguro	Paquete Base de Datos
+Análisis estadístico	Caso de Uso "Generar Reporte"
+6. Tecnologías y Licencias
+Lenguaje: Python (Tkinter + SQLite).
 
-Nombre del Caso de Uso: Agendar Cita Médica
-ID del Caso de Uso: CU-001
-Actores: Usuario Normal
-Descripción: Permite a un usuario con cuenta activa consultar la disponibilidad de los médicos y agendar una cita médica a través del sistema web.
-Precondiciones:
+Licencia: GPL-3.0 (código abierto).
 
-El usuario ha iniciado sesión en el sistema.
+Módulos Clave:
 
-Existen médicos y horarios disponibles en el calendario.
+database.py: Gestión de SQLite.
 
-El usuario tiene un correo electrónico válido registrado.
+index.py: Interfaz gráfica principal.
 
-Postcondiciones:
+7. Conclusiones
+Los diagramas reflejan la escalabilidad para censos en zonas rurales.
 
-La cita médica ha sido agendada y bloqueada en el calendario.
+DBInterface cumple con:
 
-Se ha generado un comprobante de agendamiento.
+Funcionamiento offline.
 
-Se ha enviado una notificación por correo electrónico al usuario normal y al centro médico.
+Integridad de datos (SQLite + validaciones).
 
-Flujo Principal:
-
-El Usuario Normal accede a la funcionalidad "Agendar Cita".
-
-El Sistema muestra un listado de especialidades médicas o médicos disponibles.
-
-El Usuario Normal selecciona una especialidad o un médico.
-
-El Sistema muestra el calendario de disponibilidad del médico seleccionado (días y horas).
-
-El Usuario Normal selecciona una fecha y hora disponible.
-
-El Sistema solicita confirmación de los detalles de la cita.
-
-El Usuario Normal confirma la cita.
-
-El Sistema verifica la disponibilidad final de la hora seleccionada.
-
-El Sistema registra la cita, la marca como "Agendada", y bloquea la hora en el calendario.
-
-El Sistema genera un comprobante de agendamiento.
-
-El Sistema envía el comprobante al correo electrónico del Usuario Normal y del Centro Médico.
-
-El Sistema muestra un mensaje de confirmación de agendamiento exitoso al Usuario Normal.
-
-Flujos Alternativos:
-
-FA.1: Horario no disponible (paso 8)
-
-Si la hora seleccionada ya no está disponible (ej. otro usuario la agendó simultáneamente), el Sistema informa al Usuario Normal que el horario no está disponible.
-
-El Sistema le ofrece opciones de horarios alternativos o le permite volver al calendario.
-
-[Retorna al paso 4 del flujo principal o finaliza.]
-
-Excepciones:
-
-EX.1: Error de conexión con el servicio de correo (paso 11)
-
-Si ocurre un error al enviar el correo electrónico, el Sistema registra el error internamente.
-
-El Sistema informa al Usuario Normal que la cita fue agendada pero que el comprobante se enviará cuando se restablezca el servicio de correo.
-
-Reglas de Negocio:
-
-Las citas solo pueden ser agendadas en horarios previamente definidos como disponibles por el administrador.
-
-Cada cita médica bloquea el horario seleccionado para evitar duplicidades.
-
-El agendamiento de una cita debe generar automáticamente un comprobante y notificaciones por correo electrónico.
-
-Notas/Comentarios:
-
-El sistema debe permitir que el Usuario Normal se cree su propia cuenta de forma autogestionable antes de poder agendar citas.
-
-5. Conclusión
-La elaboración de los diagramas de clases y de paquetes, junto con la documentación estructurada de los casos de uso, proporciona un modelo de dominio consistente y de fácil lectura para el proyecto del sistema de agenda de citas médicas. Estos artefactos son cruciales para:
-
-Representar el negocio en términos de clases abstractas: Permitiendo una comprensión clara de las entidades, sus atributos y sus interacciones.
-
-Facilitar la comunicación: Sirviendo como un lenguaje común entre los stakeholders (negocio, desarrollo, pruebas).
-
-Sentar las bases para la implementación: Proporcionando una guía detallada para la arquitectura y el desarrollo del software.
-
-Asegurar la coherencia: Los diagramas y casos de uso garantizan que los requisitos funcionales del cliente se traduzcan correctamente en el diseño del sistema.
-
-El uso de herramientas de software como Draw.io no solo agiliza el proceso de elaboración de los diagramas, sino que también asegura que sigan los estándares UML, contribuyendo a la claridad y profesionalismo de la documentación. Este modelo conceptual ordenado y la plantilla de casos de uso son pasos fundamentales para el éxito del proyecto, en línea con la metodología XP de entregas frecuentes y retroalimentación constante.
-**/
-
+Documentación clara para futuras iteraciones.
 

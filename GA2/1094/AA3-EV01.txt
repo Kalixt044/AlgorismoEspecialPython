@@ -1,7 +1,7 @@
 /***
 Lista de chequeo:
-Diseño de tablas comparativas sobre presupuestos de hardware
-y software GA2-220501094-AA3-EV01.
+Diseño de tablas comparativas sobre presupuestos de hardwarey software GA2-220501094-AA3-EV01.
+
 Criterios de evaluación:
 ● Estima costos de software y hardware de acuerdo con las características del negocio.
 ● Documenta la propuesta técnica según las especificaciones de la solución de software.
@@ -77,3 +77,234 @@ El repositorio DBInterface es una herramienta útil para la recolección y gesti
 
 
 
+/***
+Diseño de tablas comparativas sobre presupuestos de hardware y software GA2-220501094-AA3-EV01" dentro del contexto del proyecto "Censo Rural", es fundamental considerar los requisitos específicos del software a desarrollar y las particularidades del entorno en el que operará.
+El proyecto "Censo Rural" tiene como objetivo general desarrollar un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas. El sistema busca permitir la captura eficiente de información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas.
+Esta evidencia se centra en la estimación de costos de software y hardware de acuerdo con las características del negocio y la documentación de la propuesta técnica según las especificaciones de la solución de software. Además, el documento debe cumplir con las normas básicas de presentación de documentos escritos.
+A continuación, se detalla una guía para abordar la evidencia:
+1. Objetivo de la Evidencia "Diseño de tablas comparativas sobre presupuestos de hardware y software GA2-220501094-AA3-EV01"
+El propósito de esta evidencia es diseñar tablas comparativas de presupuestos de hardware y software que sean relevantes para el proyecto "Censo Rural". Esto implica estimar los costos de software y hardware basándose en las necesidades y características de la solución de software. Las variables presentadas en la tabla deben permitir determinar un valor que se aproxime lo más real posible a la problemática del proyecto.
+2. Componentes Clave de la Evidencia
+Para cumplir con la evidencia, deberás desarrollar los siguientes elementos:
+2.1. Identificación de los Productos Requeridos (Hardware y Software)
+Antes de presupuestar, es crucial identificar los productos específicos (hardware y software) que son esenciales para el desarrollo y funcionamiento del software "Censo Rural".
+•
+Hardware Requerido:
+◦
+Dispositivos móviles: Para la captura de datos en campo. Deben ser robustos y compatibles con un sistema que funcione offline. La interfaz de usuario debe ser intuitiva y adaptable a móviles y tabletas.
+◦
+Servidores: Necesarios para centralizar los datos y ejecutar la plataforma principal del censo. Se debe definir si operará en red local o en la nube, lo que impacta la arquitectura y los costos.
+◦
+Infraestructura de red: Para la conectividad y sincronización de datos, especialmente considerando zonas rurales con conectividad limitada.
+•
+Software Requerido:
+◦
+Software base/herramientas de desarrollo: El proyecto tiene un repositorio llamado DBInterface que utiliza Tkinter para la interfaz gráfica, Python y SQLite para la base de datos. Este repositorio tiene una licencia GPL-3.0.
+◦
+Sistemas Operativos: Para los servidores y los dispositivos móviles.
+◦
+Base de datos: Aunque DBInterface usa SQLite, para la centralización de datos a gran escala y seguridad de información personal sensible, podría requerirse una base de datos más robusta.
+◦
+Herramientas de análisis de datos: El repositorio DBInterface menciona un statisk.ipynb (Notebook de Jupyter) para análisis de datos, lo que sugiere la necesidad de herramientas para generar dashboards e informes.
+◦
+Software de seguridad: Para la encriptación y protección de datos personales.
+2.2. Diseño de Tablas Comparativas de Presupuestos
+Crea tablas detalladas que permitan comparar y estimar los costos. Para cada elemento, considera:
+•
+Estructura de la Tabla:
+◦
+Categoría: Hardware / Software / Servicios.
+◦
+Producto/Servicio: Nombre específico (ej. "Smartphone para encuestador", "Licencia de Base de Datos X", "Alojamiento en la nube").
+◦
+Descripción/Funcionalidad: Qué hace y cómo contribuye al "Censo Rural" (ej. "Captura de datos offline", "Almacenamiento seguro de datos").
+◦
+Especificaciones Técnicas Clave: Detalles técnicos relevantes (ej. RAM, almacenamiento, versión de Android, tipo de licencia, capacidad de usuarios concurrentes, tiempo de respuesta esperado, GB de almacenamiento).
+◦
+Cantidad Requerida: Número de unidades o licencias.
+◦
+Costo Unitario Estimado: Precio por una unidad/licencia/mes.
+◦
+Costo Total Estimado: Cantidad * Costo Unitario.
+◦
+Justificación/Notas: Por qué se elige ese producto/servicio, cómo se alinea con los requisitos (ej. Necesidad de funcionamiento offline, seguridad de datos), y las consideraciones para zonas rurales.
+•
+Variables Clave a Presupuestar:
+◦
+Costos de Hardware:
+▪
+Dispositivos móviles: Precio por unidad, accesorios (fundas, baterías externas). Considera la robustez y durabilidad para el uso en campo en zonas rurales.
+▪
+Servidores: Costo de adquisición o alquiler (si es on-premise), costo de infraestructura de red.
+◦
+Costos de Software:
+▪
+Licencias: Si se utilizan componentes de software comercial, considera los diferentes modelos de licenciamiento (por usuario, por servidor, por funcionalidad). Para el software base como DBInterface, su licencia GPL-3.0 significa que el software es de código abierto, lo que reduce costos de licencia, pero aún pueden existir costos de desarrollo, personalización e implementación.
+▪
+Bases de datos: Costos asociados a bases de datos si se requiere algo más allá de SQLite para la centralización (ej. licencias, soporte).
+▪
+Herramientas de análisis/reportes: Si no son de código abierto.
+◦
+Costos de Servicios:
+▪
+Alojamiento: Si el sistema opera en la nube, considera los costos de servicios de computación, almacenamiento y transferencia de datos (ej. AWS, Azure, Google Cloud).
+▪
+Mantenimiento y soporte: Tanto para hardware como para software.
+▪
+Capacitación: El cuestionario previo ya indica la posibilidad de requerir capacitación en línea para personal y trabajadores.
+▪
+Seguridad: Implementación de medidas de seguridad y auditorías.
+•
+Aproximación Real a la Problemática: Asegúrate de que los costos estimados reflejen la realidad del proyecto "Censo Rural". Por ejemplo:
+◦
+La necesidad de funcionamiento offline y la sincronización de datos cuando haya conexión debe influir en la elección de dispositivos y la arquitectura del software.
+◦
+La seguridad y privacidad de los datos personales recopilados es vital, lo que puede implicar mayores costos en sistemas de encriptación y protección.
+◦
+La escalabilidad para manejar un gran volumen de datos y múltiples regiones debe ser considerada.
+◦
+La usabilidad para usuarios con bajo nivel de alfabetización digital puede implicar un diseño más simple pero efectivo, lo cual puede impactar en el tiempo de desarrollo o en la necesidad de pruebas de usabilidad.
+2.3. Documentación de la Propuesta Técnica
+Aunque la evidencia se enfoca en las tablas, el criterio de evaluación menciona "Documenta la propuesta técnica según las especificaciones de la solución de software". Esto implica que el documento que contiene las tablas debe presentar un resumen ejecutivo o una introducción que:
+•
+Describa la estrategia propuesta para la implementación del software y cómo este presupuesto apoya esa estrategia.
+•
+Conecte los elementos del presupuesto con los requisitos funcionales y no funcionales del "Censo Rural" (ej. cómo los dispositivos móviles seleccionados permiten la captura de datos en campo y cumplen con la necesidad de funcionamiento offline).
+•
+Justifique las decisiones de tecnología y cómo estas resuelven el problema existente de la recolección, gestión y análisis de datos en zonas rurales.
+3. Criterios de Evaluación a Considerar
+Asegúrate de que tu documento cumpla con los siguientes criterios, tal como se especifican en la lista de chequeo de la evidencia:
+•
+El documento cumple con las normas básicas de presentación de documentos escritos definidas.
+•
+Elabora el diseño de tablas comparativas sobre presupuestos de hardware y software.
+•
+Las variables presentadas en la tabla permiten determinar un valor que se aproxima lo más real posible a la problemática.
+Al seguir esta guía, podrás generar una evidencia completa y coherente con el proyecto "Censo Rural" y los requisitos de la actividad
+**/
+
+
+
+
+/***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+********************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**/
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+Diseño de Tablas Comparativas sobre Presupuestos de Hardware y Software
+Proyecto: "Censo Rural"
+Código: GA2-220501094-AA3-EV01
+
+1. Introducción
+El presente documento detalla el presupuesto estimado para la implementación del proyecto "Censo Rural", enfocado en el desarrollo de un sistema integral para la recolección, gestión y análisis de datos en zonas rurales. Se incluyen tablas comparativas de hardware y software, considerando requisitos técnicos, seguridad, escalabilidad y usabilidad en entornos con conectividad limitada.
+
+Objetivos del Presupuesto
+Identificar costos realistas de hardware y software.
+
+Garantizar que las soluciones propuestas cumplan con los requisitos del proyecto (offline, seguridad, escalabilidad).
+
+Optimizar recursos sin comprometer la eficiencia del sistema.
+
+Estrategia de Implementación
+Dispositivos móviles robustos para trabajo en campo.
+
+Infraestructura híbrida (nube + servidores locales) para manejar datos sensibles.
+
+Software de código abierto (GPL-3.0) para reducir costos de licencias.
+
+Encriptación de datos para cumplir con normativas de privacidad.
+
+2. Tablas Comparativas de Presupuesto
+2.1. Hardware Requerido
+Categoría	Producto/Servicio	Descripción/Funcionalidad	Especificaciones Técnicas	Cantidad	Costo Unitario (USD)	Costo Total (USD)	Justificación
+Dispositivos móviles	Smartphone rugged	Captura de datos offline, resistente a polvo/agua.	Android 10+, 4GB RAM, 64GB almacenamiento.	50	$300	$15,000	Durabilidad en zonas rurales y soporte para apps offline.
+Servidores	Servidor local (on-premise)	Almacenamiento seguro de datos personales.	16GB RAM, 2TB HDD, Linux.	2	$2,500	$5,000	Control total de datos sensibles (requerimiento legal).
+Infraestructura	Router 4G	Sincronización de datos en áreas sin conexión estable.	Banda ancha 4G, Wi-Fi.	10	$150	$1,500	Garantiza conectividad intermitente en campo.
+Total Hardware						$21,500	
+2.2. Software Requerido
+Categoría	Producto/Servicio	Descripción/Funcionalidad	Especificaciones Técnicas	Cantidad	Costo Unitario (USD)	Costo Total (USD)	Justificación
+Sistema Operativo	Linux (Ubuntu Server)	SO para servidores.	Licencia open-source.	2	$0	$0	Bajo costo y alta seguridad.
+Base de Datos	PostgreSQL	Almacenamiento escalable de datos del censo.	Licencia BSD.	1	$0	$0	Más robusta que SQLite para grandes volúmenes.
+Herramientas de Análisis	Jupyter Notebook	Generación de informes y dashboards.	Incluido en Python.	1	$0	$0	Integrado en el repositorio DBInterface.
+Seguridad	Certificado SSL	Encriptación de datos en tránsito.	256-bit encryption.	1	$100/año	$100	Protección de datos personales (requisito legal).
+Total Software						$100	
+2.3. Servicios Adicionales
+Categoría	Producto/Servicio	Descripción	Costo Estimado (USD)	Justificación
+Alojamiento en la nube	AWS S3 (backup)	Respaldo seguro de datos.	$200/año	Redundancia para prevenir pérdida de información.
+Capacitación	Talleres en línea	Entrenamiento para encuestadores en uso de la app.	$1,500	Personal en zonas rurales requiere guía práctica.
+Mantenimiento	Soporte técnico anual	Actualizaciones y corrección de errores.	$3,000	Garantizar continuidad del sistema.
+Total Servicios			$4,700	
+3. Resumen de Costos Totales
+Componente	Costo Total (USD)
+Hardware	$21,500
+Software	$100
+Servicios	$4,700
+Total Estimado	$26,300
+4. Conclusiones
+El presupuesto prioriza durabilidad (hardware rugged) y seguridad (encriptación, servidores locales).
+
+Se minimizan costos de licencias con software open-source (GPL-3.0).
+
+La inversión en capacitación y mantenimiento asegura la sostenibilidad del proyecto.
+
+Nota: Los costos pueden variar según proveedores locales o escalamiento del proyecto.
+**/
