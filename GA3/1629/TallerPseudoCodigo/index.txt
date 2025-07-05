@@ -1,0 +1,46 @@
+Taller de resolución de problemas de algoritmos en pseudocódigo
+y diagramas de flujo.
+GA3-220501093-AA1-EV02
+Criterios de evaluación:
+Soluciona problemas de lógica proposicional incorporando habilidades propias en el oficio como
+programador.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+Sección 1
+1 Se identifican claramente los elementos de entrada y
+resultados esperados del problema 1.
+15%
+2 Se identifican claramente los elementos de entrada y
+resultados esperados del problema 2.
+15%
+3 Se identifican claramente los elementos de entrada y
+resultados esperados del problema 3.
+15%
+4 Se identifican claramente los elementos de entrada y
+resultados esperados del problema 4.
+15%
+Sección 2
+5 Se incluye una definición clara de diagrama de flujo. 5%
+6 Se incluye los símbolos representativos de un
+diagrama de flujo.
+5%
+7 Representa correctamente un algoritmo de los
+problemas de la sección 1 por medio del diagrama de
+flujo.
+20%
+8 Incluye referencias en formato APA. 5%
+9 El documento presenta normas básicas de
+presentación de un documento escrito (portada,
+contenido y referencias).
+5%
+
+
+Este ejemplo trata sobre la conversión de moneda colombiana (pesos) a euros. La fórmula para esta conversión es simple: Cantidad de euros = Cantidad de 
+pesos colombianos / Tasa de cambio. A continuación, se muestra el pseudocódigo y el diagrama de flujo para realizar esta conversión.
+Este ejemplo ilustra cómo calcular los ingredientes necesarios para preparar una ensalada para 
+un número específico de personas. En este caso, necesitamos una hoja de lechuga, un tomate y 
+media zanahoria por persona.
+Este ejemplo se centra en la planificación de un viaje a la playa, donde se calcula el tiempo necesario para 
+llegar a la playa, considerando la distancia y la velocidad del vehículo. Para ello, usamos la fórmula: 
+Tiempo de viaje = Distancia / Velocidad.

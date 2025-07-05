@@ -1,0 +1,729 @@
+Lista de chqueo:
+
+GA2-240201528-AA4 - Crear un algoritmo para sistematizar el
+cálculo de perímetros, áreas y volúmenes de figuras planas y
+sólidos regulares.
+Evidencia de desempeño: Algoritmo para el cálculo de áreas y volúmenes. GA2-
+240201528-AA4-EV01.
+Criterios de evaluación:
+ Selecciona las herramientas computacionales para la verificación de los resultados, de acuerdo
+con los requerimientos matemáticos.
+ Elabora una propuesta de solución alternativa a partir de los procedimientos matemáticos
+inicialmente planteados.
+ Calcula perímetros, áreas y volúmenes de acuerdo con los elementos de la figura geométrica.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1.
+Selecciona las herramientas computacionales para la
+verificación de la propuesta de algoritmo, así como
+los resultados, de acuerdo con los requerimientos
+matemáticos.
+Realiza una propuesta funcional, que puede ser
+replicada en una herramienta computacional.
+La propuesta de algoritmo cuenta con un sustento
+teórico y conceptual que define tanto el área como el
+volumen, según sea el caso.
+2.
+Elabora una propuesta de solución alternativa a partir
+de los procedimientos matemáticos inicialmente
+planteados.
+Entrega un algoritmo que cumple con todos los
+requisitos para el cálculo de área y volumen de un
+sólido irregular.
+Calcula perímetros, áreas y volúmenes de acuerdo
+con los elementos de la figura geométrica.
+INSTRUMENTO DE EVALUACIÓN
+Reconoce y aplica de forma correcta las fórmulas
+para el cálculo de área y volumen, además propone
+una solución para hallar el volumen de sólidos
+irregulares.
+3.
+El algoritmo posee elementos gráficos necesarios y
+recursos que brindan mayor soporte para una lectura
+e interpretación adecuada.
+El algoritmo posee un aspecto limpio, atractivo y está
+acorde con el material formativo.
+4. Presenta la actividad de forma adecuada, siguiendo
+las recomendaciones dadas en la guía
+
+
+
+
+<h2>Area y Perimetros de Figuras geometricas</h2>
+<h3>Cuadrado</h3>
+<code>area = L*L ;</code>
+
+def square(x):
+	return x * x
+
+
+print (square(18))
+
+  <h2>Perimetro</h2>
+    <h3 class="note">perimetro de cuadrado</h3>
+    <code> perimetro= L+L+L+L O L*4</code>
+
+
+def squarePe(x):
+	return x * 4
+
+
+print (squarePe(8))
+<h3>Area y Perimetro de Rectangulo</h3>
+<h4>Area</h4>
+<code>A=b*h/2 </code>
+
+def areaRec(b,h):
+	return b * h
+
+
+print (areaRec(8,22))
+
+<h3>Perimetro Rectangulo</h3>
+<code>P= b+b+h+h
+P=b*2+h*2</code>
+
+
+def perimRec(b,h):
+	return b * 2 + h * 2
+
+
+print (perimRec(8,22))
+<h2>Area y Perimetro de Triangulo</h2>
+<h3>Area</h3>
+<code>A=b*h/2
+P=L+L+L o L*3</code>
+
+def areaTri(b,h):
+	return b * h / 2
+
+
+print (areaRec(15,8))
+
+<h3>Perimetro Triangulo</h3>
+<code>P=L+L+L o L*3</code>
+def perimTri(l):
+	return l * 3
+
+
+print (perimTri(9))
+<h2>Area y Perimetro de Rombo</h2>
+<h3>Area</h3>
+<code>A=d1*d2/2 </code>
+
+def areaRombo(d1,d2):
+	return d1 * d2 / 2
+
+
+print (areaRombo(9,15))
+
+
+<h3>Perimetro</h3>
+<code>P= L+L+L+L </code>
+def periRombo(d1,d2):
+	return d1 * 2 + d2 * 2
+
+
+print (periRombo(9,15))
+
+ <h2>Area y perimetro de romboide</h2>
+    <h3>Area romboide</h3>
+    <code>area= b*h perimetro=b+b+h+h</code>
+    
+
+
+
+def AreaRomboide(b,h):
+	return b * h
+
+
+print (AreaRomboide(9,15))
+<h3>perimetro romboide</h3>
+    <code>perimetro=b+b+h+h</code>
+def PerimRomboide(b,h):
+	return b * 2 + h * 2
+
+
+print (PerimRomboide(9,15))
+completar la secuencia en texto plano para trapesio, esfera, cubo paralelepido, cilindro y cono
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+Lista de chqueo:
+
+GA2-240201528-AA4 - Crear un algoritmo para sistematizar el
+cálculo de perímetros, áreas y volúmenes de figuras planas y
+sólidos regulares.
+Evidencia de desempeño: Algoritmo para el cálculo de áreas y volúmenes. GA2-
+240201528-AA4-EV01.
+Criterios de evaluación:
+ Selecciona las herramientas computacionales para la verificación de los resultados, de acuerdo
+con los requerimientos matemáticos.
+ Elabora una propuesta de solución alternativa a partir de los procedimientos matemáticos
+inicialmente planteados.
+ Calcula perímetros, áreas y volúmenes de acuerdo con los elementos de la figura geométrica.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1.
+Selecciona las herramientas computacionales para la
+verificación de la propuesta de algoritmo, así como
+los resultados, de acuerdo con los requerimientos
+matemáticos.
+Realiza una propuesta funcional, que puede ser
+replicada en una herramienta computacional.
+La propuesta de algoritmo cuenta con un sustento
+teórico y conceptual que define tanto el área como el
+volumen, según sea el caso.
+2.
+Elabora una propuesta de solución alternativa a partir
+de los procedimientos matemáticos inicialmente
+planteados.
+Entrega un algoritmo que cumple con todos los
+requisitos para el cálculo de área y volumen de un
+sólido irregular.
+Calcula perímetros, áreas y volúmenes de acuerdo
+con los elementos de la figura geométrica.
+INSTRUMENTO DE EVALUACIÓN
+Reconoce y aplica de forma correcta las fórmulas
+para el cálculo de área y volumen, además propone
+una solución para hallar el volumen de sólidos
+irregulares.
+3.
+El algoritmo posee elementos gráficos necesarios y
+recursos que brindan mayor soporte para una lectura
+e interpretación adecuada.
+El algoritmo posee un aspecto limpio, atractivo y está
+acorde con el material formativo.
+4. Presenta la actividad de forma adecuada, siguiendo
+las recomendaciones dadas en la guía
+
+
+
+
+<h2>Area y Perimetros de Figuras geometricas</h2>
+<h3>Cuadrado</h3>
+<code>area = L*L ;</code>
+
+def square(x):
+	return x * x
+
+
+print (square(18))
+
+  <h2>Perimetro</h2>
+    <h3 class="note">perimetro de cuadrado</h3>
+    <code> perimetro= L+L+L+L O L*4</code>
+
+
+def squarePe(x):
+	return x * 4
+
+
+print (squarePe(8))
+<h3>Area y Perimetro de Rectangulo</h3>
+<h4>Area</h4>
+<code>A=b*h/2 </code>
+
+def areaRec(b,h):
+	return b * h
+
+
+print (areaRec(8,22))
+
+<h3>Perimetro Rectangulo</h3>
+<code>P= b+b+h+h
+P=b*2+h*2</code>
+
+
+def perimRec(b,h):
+	return b * 2 + h * 2
+
+
+print (perimRec(8,22))
+<h2>Area y Perimetro de Triangulo</h2>
+<h3>Area</h3>
+<code>A=b*h/2
+P=L+L+L o L*3</code>
+
+def areaTri(b,h):
+	return b * h / 2
+
+
+print (areaRec(15,8))
+
+<h3>Perimetro Triangulo</h3>
+<code>P=L+L+L o L*3</code>
+def perimTri(l):
+	return l * 3
+
+
+print (perimTri(9))
+<h2>Area y Perimetro de Rombo</h2>
+<h3>Area</h3>
+<code>A=d1*d2/2 </code>
+
+def areaRombo(d1,d2):
+	return d1 * d2 / 2
+
+
+print (areaRombo(9,15))
+
+
+<h3>Perimetro</h3>
+<code>P= L+L+L+L </code>
+def periRombo(d1,d2):
+	return d1 * 2 + d2 * 2
+
+
+print (periRombo(9,15))
+
+ <h2>Area y perimetro de romboide</h2>
+    <h3>Area romboide</h3>
+    <code>area= b*h perimetro=b+b+h+h</code>
+    
+
+
+
+def AreaRomboide(b,h):
+	return b * h
+
+
+print (AreaRomboide(9,15))
+<h3>perimetro romboide</h3>
+    <code>perimetro=b+b+h+h</code>
+def PerimRomboide(b,h):
+	return b * 2 + h * 2
+
+
+print (PerimRomboide(9,15))
+
+completar la secuencia en texto plano para trapesio, esfera, cubo paralelepido, cilindro y cono
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+<h1>Algoritmo para Cálculo de Perímetros, Áreas y Volúmenes</h1>
+    
+    <h2>Área y Perímetros de Figuras Geométricas</h2>
+    
+    <h3>Cuadrado</h3>
+    <code>area = L*L ;</code>
+    <pre>
+def square(x):
+    return x * x
+
+print(square(18))
+    </pre>
+    
+    <h2>Perímetro</h2>
+    <h3 class="note">Perímetro de cuadrado</h3>
+    <code>perimetro= L+L+L+L O L*4</code>
+    <pre>
+def squarePe(x):
+    return x * 4
+
+print(squarePe(8))
+    </pre>
+    
+    <h3>Área y Perímetro de Rectángulo</h3>
+    <h4>Área</h4>
+    <code>A=b*h</code>
+    <pre>
+def areaRec(b,h):
+    return b * h
+
+print(areaRec(8,22))
+    </pre>
+    
+    <h3>Perímetro Rectángulo</h3>
+    <code>P= b+b+h+h P=b*2+h*2</code>
+    <pre>
+def perimRec(b,h):
+    return b * 2 + h * 2
+
+print(perimRec(8,22))
+    </pre>
+    
+    <h2>Área y Perímetro de Triángulo</h2>
+    <h3>Área</h3>
+    <code>A=b*h/2</code>
+    <pre>
+def areaTri(b,h):
+    return b * h / 2
+
+print(areaTri(15,8))
+    </pre>
+    
+    <h3>Perímetro Triángulo</h3>
+    <code>P=L+L+L o L*3</code>
+    <pre>
+def perimTri(l):
+    return l * 3
+
+print(perimTri(9))
+    </pre>
+    
+    <h2>Área y Perímetro de Rombo</h2>
+    <h3>Área</h3>
+    <code>A=d1*d2/2</code>
+    <pre>
+def areaRombo(d1,d2):
+    return d1 * d2 / 2
+
+print(areaRombo(9,15))
+    </pre>
+    
+    <h3>Perímetro</h3>
+    <code>P= L+L+L+L</code>
+    <pre>
+def periRombo(l):
+    return l * 4
+
+print(periRombo(9))
+    </pre>
+    
+    <h2>Área y Perímetro de Romboide</h2>
+    <h3>Área romboide</h3>
+    <code>area= b*h</code>
+    <pre>
+def AreaRomboide(b,h):
+    return b * h
+
+print(AreaRomboide(9,15))
+    </pre>
+    
+    <h3>Perímetro romboide</h3>
+    <code>perimetro=b+b+h+h</code>
+    <pre>
+def PerimRomboide(b,h):
+    return b * 2 + h * 2
+
+print(PerimRomboide(9,15))
+    </pre>
+    
+    <h2>Área y Perímetro de Trapecio</h2>
+    <h3>Área</h3>
+    <code>A=(B+b)*h/2</code>
+    <pre>
+def areaTrapecio(B,b,h):
+    return (B + b) * h / 2
+
+print(areaTrapecio(12,8,6))
+    </pre>
+    
+    <h3>Perímetro Trapecio</h3>
+    <code>P=B+b+L1+L2</code>
+    <pre>
+def perimTrapecio(B,b,L1,L2):
+    return B + b + L1 + L2
+
+print(perimTrapecio(12,8,7,7))
+    </pre>
+    
+    <h2>Volúmenes de Sólidos Regulares</h2>
+    
+    <h3>Cubo</h3>
+    <h4>Volumen</h4>
+    <code>V=L*L*L o L³</code>
+    <pre>
+def volumenCubo(L):
+    return L * L * L
+
+print(volumenCubo(5))
+    </pre>
+    
+    <h4>Área Superficial</h4>
+    <code>As=6*L²</code>
+    <pre>
+def areaSupCubo(L):
+    return 6 * L * L
+
+print(areaSupCubo(5))
+    </pre>
+    
+    <h3>Paralelepípedo</h3>
+    <h4>Volumen</h4>
+    <code>V=L*A*H</code>
+    <pre>
+def volumenParalelepipedo(L,A,H):
+    return L * A * H
+
+print(volumenParalelepipedo(8,6,4))
+    </pre>
+    
+    <h4>Área Superficial</h4>
+    <code>As=2*(L*A+L*H+A*H)</code>
+    <pre>
+def areaSupParalelepipedo(L,A,H):
+    return 2 * (L*A + L*H + A*H)
+
+print(areaSupParalelepipedo(8,6,4))
+    </pre>
+    
+    <h3>Cilindro</h3>
+    <h4>Volumen</h4>
+    <code>V=π*r²*h</code>
+    <pre>
+import math
+
+def volumenCilindro(r,h):
+    return math.pi * r * r * h
+
+print(volumenCilindro(3,8))
+    </pre>
+    
+    <h4>Área Superficial</h4>
+    <code>As=2*π*r*(r+h)</code>
+    <pre>
+def areaSupCilindro(r,h):
+    return 2 * math.pi * r * (r + h)
+
+print(areaSupCilindro(3,8))
+    </pre>
+    
+    <h3>Cono</h3>
+    <h4>Volumen</h4>
+    <code>V=(π*r²*h)/3</code>
+    <pre>
+def volumenCono(r,h):
+    return (math.pi * r * r * h) / 3
+
+print(volumenCono(4,9))
+    </pre>
+    
+    <h4>Área Superficial</h4>
+    <code>As=π*r*(r+g) donde g=√(r²+h²)</code>
+    <pre>
+def areaSupCono(r,h):
+    g = math.sqrt(r*r + h*h)
+    return math.pi * r * (r + g)
+
+print(areaSupCono(4,9))
+    </pre>
+    
+    <h3>Esfera</h3>
+    <h4>Volumen</h4>
+    <code>V=(4*π*r³)/3</code>
+    <pre>
+def volumenEsfera(r):
+    return (4 * math.pi * r * r * r) / 3
+
+print(volumenEsfera(6))
+    </pre>
+    
+    <h4>Área Superficial</h4>
+    <code>As=4*π*r²</code>
+    <pre>
+def areaSupEsfera(r):
+    return 4 * math.pi * r * r
+
+print(areaSupEsfera(6))
+    </pre>
+**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**/
+
+

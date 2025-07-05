@@ -1,0 +1,59 @@
+Taller aplicando funciones y procedimientos en la solución de
+algoritmos.
+GA3-220501093-AA2-EV03
+Criterios de evaluación:
+Crea soluciones a problemas mediante algoritmos que incluyen estructuras secuenciales, condicionales
+y cíclicas.
+2. Lista de chequeo
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. Se presenta una solución coherente al problema 1 del
+anexo usando notación de diagrama de flujo.
+5%
+2. Se presenta una solución coherente al problema 1 del
+anexo usando pseudocódigo.
+5%
+3. Se presenta una solución coherente al problema 2 del
+anexo usando notación de diagrama de flujo.
+5%
+4. Se presenta una solución coherente al problema 2 del
+anexo usando pseudocódigo.
+5%
+5. Se presenta una solución coherente al problema 3 del
+anexo usando notación de diagrama de flujo.
+5%
+6. Se presenta una solución coherente al problema 3 del
+anexo usando pseudocódigo.
+5%
+7. Se presenta una solución coherente al problema 4 del
+anexo usando notación de diagrama de flujo.
+5%
+8. Se presenta una solución coherente al problema 4 del
+anexo usando pseudocódigo.
+5%
+9. Se presenta una solución coherente al problema 5 del
+anexo usando notación de diagrama de flujo.
+5%
+10. Se presenta una solución coherente al problema 5 del
+anexo usando pseudocódigo.
+5%
+11. Se presenta una solución coherente al problema 6 del
+anexo usando notación de diagrama de flujo.
+5%
+12. Se presenta una solución coherente al problema 6 del
+anexo usando pseudocódigo.
+5%
+13. Se presenta una solución coherente al problema 7 del
+anexo usando notación de diagrama de flujo
+ La aleación de un material contiene 5% de Cobre, en 4250 gramos ¿Cuántos gramos de Cu hay en dicha
+aleación?
+12. Para sacar el pedido de un cliente 25 operarios se demoran un mes ¿Cuántos operarios hay que aumentar
+para sacar el pedido en 15 días?
+13. En la producción de 120 piezas 5 salen defectuosas, ¿Cuántas piezas saldrán defectuosas en un lote de 500
+unidades?
+14. El porcentaje de piezas defectuosas de una máquina es de 5%, si la máquina produce 2500 piezas ¿Cuántas
+de ellas saldrán defectuosas?
+15. Calcule el porcentaje de descuento de un artículo cuyo precio era 145.000 pesos, pero solo se pagaron
+127.000 pesos.
+16. Calcule el precio final de un artículo que tiene un descuento del 15%, si su precio es de 85.000 pesos.
+17. Calcule la equivalencia en pulgadas de 17.78 cm. (utilice la equivalencia 1 pulgada = 2.54 cm)

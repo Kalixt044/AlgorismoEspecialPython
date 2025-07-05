@@ -1,0 +1,34 @@
+Fundamentos de programación estructurada y estructuras cíclicas.
+GA3-220501093-AA2-EV01
+Criterios de Evaluación:
+Crea soluciones a problemas mediante algoritmos que incluyen estructuras secuenciales, condicionales y
+cíclicas.
+2. LISTA DE CHEQUEO
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SI NO
+1. El documento entregado presenta el análisis para el
+primer algoritmo indicando entradas, salidas y proceso
+requerido para la solución.
+10%
+2. El documento entregado presenta el análisis para el
+segundo algoritmo indicando entradas, salidas y
+proceso requerido para la solución.
+10%
+3. El documento entregado presenta la implementación
+del primer algoritmo utilizando diagrama de flujo.
+20%
+4. El diagrama de flujo del primer algoritmo utiliza la
+simbología correctamente y presenta una solución
+coherente.
+20%
+5
+.
+El documento entregado presenta la implementación
+del segundo algoritmo utilizando diagrama de flujo.
+20%
+6
+.
+El diagrama de flujo del segundo algoritmo utiliza la
+simbología correctamente y presenta una solución
+coherente.
+20
