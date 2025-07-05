@@ -1,0 +1,68 @@
+/***
+
+Sabado Audio Entrega:
+
+https://zajuna.sena.edu.co/zajuna/mod/assign/view.php?id=2251305&action=editsubmission
+Hello!
+My Academic and Professional Journey"
+(Duration: ~5 minutes | Clear pronunciation, moderate pace)
+
+1. Introduction 
+(Confident tone, natural pauses)
+*"Hello, my name is Juan David Rodríguez. My ID number is 123456789, and I am a student at SENA in the program with Ficha 99. Today, I will share my academic
+ journey, career plans, and how I solve problems using English 
+(Short pause, background music fades in softly.)
+
+2. Academic & Work Background (30%)
+(Structured, uses past tense and conditionals)
+"I chose SENA to become a software developer. Before this, I worked as a customer service assistant. That job helped me improve my communication skills and teamwork. Now, I focus on learning programming and English because if I master these skills, I will get better job opportunities."
+
+(Transition: "Let me tell you about my goals...")
+
+3. Goals & Plans (Conditionals: First & Second)
+"In the future, I want to work for a tech company. If I study hard, I will achieve this dream. I also plan to study Systems Engineering at university. If I save money, I will pay for my degree. But if I don’t learn English now, I wouldn’t have the same chances. That’s why I practice every day."
+
+(Pause, tone shifts to problem-solving.)
+
+4. Problem-Solving & Decisions (Zero & Second Conditional)
+"When I face a problem, I stay calm and analyze solutions. For example, if I don’t understand a topic, I ask my instructors or classmates. If I were a leader, I would listen to my team and support them. Flexibility is key—if a project changes, I adapt quickly."
+
+(Transition: "In a job context...")
+
+5. Soft Skills in Work (Modals & Opinions)
+"At work, you must be punctual and responsible. If you arrive late, your boss will not be happy. I always try my best and meet deadlines. Leadership isn’t just giving orders—it’s about helping others. I believe teamwork and adaptability make a great professional."
+
+6. Closing (Cohesion & Vocabulary)
+"To sum up, success depends on good decisions, hard work, and adaptability. SENA is helping me build this path. Thank you for listening!"
+
+
+
+
+
+
+
+
+
+
+**/
+
+Sabado Foro Ingles:
+
+https://zajuna.sena.edu.co/zajuna/mod/forum/view.php?id=2251308
+
+240202501-03 - Discutir sobre posibles soluciones a problemas dentro de un rango variado de contextos sociales y laborales. 	Audio. 	Evidencia: Audio.
+(GA3-240202501-AA2-EV02 - Parte 2) 	10 	Viernes, 27 de junio de 2025 	Jueves, 03 de julio de 2025 	Paola Cuesta
+240202501-03 - Discutir sobre posibles soluciones a problemas dentro de un rango variado de contextos sociales y laborales. 	Foro. 	Evidencia: Foro.
+(GA3-240202501-AA2-EV03 - Parte 1) 	8 	Viernes, 27 de junio de 2025 	Jueves, 03 de julio de 2025 	Paola Cuesta
+
+Semana 3
+	240202501-03 - Discutir sobre posibles soluciones a problemas dentro de un rango variado de contextos sociales y laborales. 	Foro. 	Evidencia: Foro.(GA3-240202501-AA2-EV03 - Parte 2) 	10 	Viernes, 04 de julio de 2025 	Jueves, 10 de julio de 2025 	Paola Cuesta
+220501093-02 - Modelar las funciones del software de acuerdo con el informe de requisitos. 	Identificar entidades y relaciones planteadas en el caso de estudio. 	Evidencia: Identificar entidades y relaciones planteadas en el caso de estudio. (GA4-220501093-AA1-EV01) 	8 	Viernes, 04 de julio de 2025 	Jueves, 10 de julio de 2025 	John Niño
+
+220501095-02 - Estructurar el modelo de datos del software de acuerdo con las especificaciones del análisis.
+Diseñar el modelo conceptual y lógico de acuerdo al caso de estudio. 	Evidencia: Diseñar el modelo conceptual y lógico de acuerdo al caso de estudio. (GA4-220501095-AA1-EV01) 	4 	Viernes, 04 de julio de 2025 	Jueves, 10 de julio de 2025 	John Niño
+
+220501095-02 - Estructurar el modelo de datos del software de acuerdo con las especificaciones del análisis. 	Modelos conceptual y lógico para el proyecto de desarrollo de software. 	Evidencia: Modelos conceptual y lógico para el proyecto de desarrollo de software.
+(GA4-220501095-AA1-EV02) 	4 	Viernes, 04 de julio de 2025 	Jueves, 10 de julio de 2025 	John Niño
+
+220501095-01 - Elaborar los artefactos de diseño del software siguiendo las prácticas de la metodología seleccionada. 	Taller de conceptos y principios de programación orientada a objetos. 	Evidencia: Taller de conceptos y principios de programación orientada a objetos. (GA4-220501095-AA2-EV01) 	12 	Viernes, 04 de julio de 2025 	Jueves, 10 de julio de 2025 	John Niño
