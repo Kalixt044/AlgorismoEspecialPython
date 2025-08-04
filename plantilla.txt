@@ -1,0 +1,40 @@
+classDiagram
+    %% Definición de clases
+    class Diagrama {
+        +diagrama_de_clase Diagrama
+        +diagrama_de_paquete Diagrama
+        +diagrama_de_clase_de_un_sistema Diagrama
+        +crearDiagramaDeClase()
+        +crearDiagramaDePaquete()
+        +crearDiagramaDeClaseDeUnSistema()
+        +validarDiagrama()
+        +exportarDiagrama()
+        +compartirDiagrama()
+    }
+    
+    class Artefacto {
+        <<empty>>
+    }
+    
+    class Modelo {
+        <<empty>>
+    }
+    
+    class Paquete {
+        <<empty>>
+    }
+    
+    class Clase {
+        <<empty>>
+    }
+    
+    class Sistema {
+        <<empty>>
+    }
+
+    %% Relaciones
+    Artefacto "1" *-- "N" Diagrama : contiene
+    Modelo "1" *-- "N" Diagrama : contiene
+    Paquete "1" *-- "N" Diagrama : contiene
+    Clase "1" *-- "N" Diagrama : contiene
+    Sistema "1" *-- "N" Diagrama : contiene

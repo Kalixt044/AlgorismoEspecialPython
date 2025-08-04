@@ -1,0 +1,63 @@
+flowchart TD
+    %% 1. Acceso Encuestador
+    subgraph Acceso["1. Acceso Encuestador"]
+        direction TB
+        A1[Campos de Entrada] --> A11["Nombre de Usuario\n(correo corporativo) [44,45]"]
+        A1 --> A12["Contraseña [44,45]"]
+        B1[Botones] --> B11["Iniciar Sesión"]
+        B1 --> B12["¿Olvidó su contraseña? [44,46]"]
+    end
+
+    %% 2. Panel Principal
+    subgraph Panel["2. Panel Principal"]
+        direction TB
+        A2["Bienvenido, [Nombre]!\nEstado: Online/Offline [7,48,49]"]
+        B2[Formularios] --> B21["Censo Poblacional Rural 2025\n• Descripción: Datos demográficos\n• Progreso: 75% (Offline)"]
+        B2 --> B22["Encuesta de Vivienda Rural\n• Descripción: Infraestructura\n• Progreso: 20% (Online)"]
+        C2[Botones] --> C21["Sincronizar Datos [7,49]"]
+        C2 --> C22["⚙️ Configuración"]
+        C2 --> C23["🚪 Cerrar Sesión [50]"]
+    end
+
+    %% 3. Captura Offline
+    subgraph Captura["3. Captura Offline"]
+        direction TB
+        A3["Estado: Offline [7,48,49]"]
+        B3[Datos] --> B31["Nombre Completo: _______"]
+        B3 --> B32["Documento: _______"]
+        B3 --> B33["Edad: ___"]
+        B3 --> B34["Género: [ Masculino | Femenino | Otro ]"]
+        C3[Ubicación] --> C31["📍 Capturar GPS [7,8,42]"]
+        D3[Archivos] --> D31["📷 Tomar Foto [7,8,42]"]
+        D3 --> D32["📄 Adjuntar Doc [7,8,42]"]
+        E3[Botones] --> E31["💾 Guardar"]
+        E3 --> E32["❌ Cancelar"]
+    end
+
+    %% Flujo principal
+    Acceso -->|Credenciales válidas| Panel
+    Panel -->|Selecciona formulario| Captura
+    Captura -->|Guardar| Confirmación
+    Confirmación -->|Nuevo registro| Captura
+    Confirmación -->|Volver| Panel
+
+    %% 4. Confirmación
+    subgraph Confirmación["4. Confirmación"]
+        direction TB
+        A4["✅ ¡Datos guardados!\n• Registros pendientes: [X]\n• Sincronización automática"]
+        B4[Botones] --> B41["✨ Nuevo Registro"]
+        B4 --> B42["← Volver al Panel"]
+    end
+
+    %% 5. Sincronización
+    subgraph Sincro["5. Sincronización"]
+        direction TB
+        A5["Estado: Online\n⌛ Sincronizando (2/5)\n⏱️ Tiempo: X segundos"]
+        B5["✔️ Sincronización completa"]
+        C5[Botones] --> C51["📋 Ver Registros"]
+        C5 --> C52["← Volver al Panel"]
+    end
+
+    %% Conexiones adicionales
+    Panel -->|Sincronizar| Sincro
+    Sincro -->|Volver| Panel

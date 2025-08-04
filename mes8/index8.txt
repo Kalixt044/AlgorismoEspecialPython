@@ -1,0 +1,226 @@
+/***
+Mapa conceptual para Identificación y caracterización de los 
+componentes del ciclo de vida del software. GA4-220501095-AA3-EV01 
+
+Define la arquitectura del software dando cumplimiento a los requisitos funcionales y no 
+funcionales.
+
+1. En el mapa presentado se incluyen los conceptos más 
+importantes del ciclo de vida. 
+
+
+2. El mapa presentado contiene los procesos, 
+actividades y tareas relacionadas con el desarrollo y 
+mantenimiento de una solución de software.
+
+3. Los verbos utilizados para unir los conceptos en el 
+mapa tienen relación y son coherentes con la 
+información que se presenta
+
+
+Aquí se presenta la estructura para un diagrama del proyecto "Censo Rural", enfocada en los conceptos clave del ciclo de vida del software, así como en los procesos, actividades y tareas fundamentales para su desarrollo y mantenimiento:
+Estructura del Diagrama: Ciclo de Vida del Software para el "Censo Rural"
+• Proyecto Central: "Censo Rural" - Software Integral [conversación previa, index.txt 187, 207, 223]
+    ◦ Objetivo Principal: Optimizar la recolección, gestión y análisis de datos personales en zonas rurales apartadas [conversación previa, index.txt 187, 207, 223].
+    ◦ Propósito: Construir un software eficiente, seguro, flexible, escalable y adaptable a las condiciones rurales específicas [conversación previa].
+• Metodología de Desarrollo: Extreme Programming (XP) [conversación previa, index.txt 181, 201, 217]
+    ◦ Principios Clave:
+        ▪ Enfoque en entregas frecuentes de módulos funcionales independientes [conversación previa, index.txt 175, 181, 195, 201, 217, 226].
+        ▪ Fusión de módulos solo después de superar las pruebas [conversación previa, index.txt 175, 181, 195, 201, 217, 226].
+    ◦ Resultado Directo: Favorece una Arquitectura Modular o Basada en Componentes [conversación previa].
+• Fases Clave del Ciclo de Vida del Software:
+    ◦ 1. Elicitación y Análisis de Requisitos
+        ▪ Técnicas de Elicitación:
+            • Encuestas (Cuestionario Mixto):
+                ◦ Objetivo: Diagnosticar necesidades tecnológicas, evaluar madurez tecnológica, identificar necesidades de automatización y disposición al cambio.
+                ◦ Características: Combinación de preguntas abiertas (cualitativas) y cerradas (cuantificables).
+                ◦ Ejemplos de Preguntas: Escala de Likert (importancia procesos logísticos), abiertas (sector económico con mayor control logístico, herramientas actuales, puntos críticos, reportes importantes, normatividad, matrices de cumplimiento), dicotómicas (mejora eficiencia con software, necesidad de capacitación, auditorías internas, uso de estadísticas).
+            • Entrevistas de Profundización:
+                ◦ Objetivo: Entender en detalle los requerimientos para asegurar que el software se ajuste a las necesidades reales del usuario.
+                ◦ Áreas Cubiertas: Contexto y perfil del usuario, objetivos y necesidades, requerimientos funcionales, requerimientos no funcionales, interfaz de usuario, restricciones y limitaciones.
+        ▪ Documentación de Requisitos:
+            • Requisitos Funcionales (RF): Gestión de usuarios (roles: encuestadores, supervisores, administradores), interfaz intuitiva, gestión de categorías (región, comunidad), captura de datos en campo (formularios, georreferenciación, fotos), gestión de archivos, análisis y estadísticas (dashboards, informes).
+            • Requisitos No Funcionales (RNF): Alta disponibilidad (funcionamiento offline y sincronización), escalabilidad (alto volumen de datos), seguridad (encriptación, protección de datos personales), usabilidad (bajo nivel de alfabetización digital), compatibilidad (dispositivos móviles Android, navegadores web).
+    ◦ 2. Diseño del Software
+        ▪ Modelado con UML:
+            • Diagramas de Casos de Uso: Describen interacciones entre usuarios y el sistema (ej. registro, captura de datos).
+            • Diagramas de Actividades: Detallan flujos de procesos (ej. sincronización de datos offline).
+            • Diagramas del Modelo de Dominio: Representan visualmente los conceptos clave del proyecto (ej. Encuestadores, Habitantes, Zonas Rurales, Datos) y sus relaciones.
+        ▪ Prototipado:
+            • Herramientas: Draw.io.
+            • Alcance: Modelar formularios de censo, flujos de usuario y arquitectura del sistema. Incluir pantallas de confirmación post-sincronización.
+    ◦ 3. Desarrollo e Implementación
+        ▪ Arquitectura: Modular o Basada en Componentes (favorecida por XP) [conversación previa].
+        ▪ Componentes Independientes:
+            • Módulo de Recolección de Datos Personales (Ejemplo: Repositorio DBInterface) [conversación previa, index.txt 180, 191, 210, 221, 298, 309, 320]:
+                ◦ Interfaz Gráfica (Tkinter de Python): Amigable para ingreso de datos [conversación previa, index.txt 170, 232, 243, 254, 265, 273, 287, 298, 309, 320, 328].
+                ◦ Almacenamiento de Datos (SQLite): Gestión eficiente de la información recolectada [conversación previa, index.txt 170, 232, 244, 255, 266, 274, 287, 299, 310, 321, 329].
+                ◦ Generación de Archivos CSV: Para exportación y análisis de datos [conversación previa, index.txt 170, 232, 243, 254, 265, 273, 287, 298, 309, 320, 328].
+                ◦ Licencia: GPL-3.0 [conversación previa, index.txt 171, 233, 245, 256, 267, 275, 288, 300, 311, 322, 330].
+                ◦ Archivos Clave: README.md, busca.py, database.py, genero.py, index.py, statisk.ipynb [index.txt 170, 171, 232, 233, 244, 245, 255, 256, 266, 267, 274, 275, 287, 288, 299, 300, 310, 311, 321, 322, 329, 330].
+        ▪ Entorno Operacional: Definir si el sistema operará en red local o en la nube (afecta arquitectura, seguridad, escalabilidad y costos) [index.txt 35].
+    ◦ 4. Validación y Pruebas
+        ▪ Listas de Chequeo:
+            • Propósito: Aceptar la calidad y cumplimiento de documentos de análisis y prototipo inicial [index.txt 184, 204, 212, 213, 228].
+            • Criterios de Verificación: Completitud, consistencia, claridad, correctitud, trazabilidad, adherencia a estándares, seguridad y privacidad [index.txt 191, 213, 214].
+        ▪ Retroalimentación Continua: Con usuarios reales o representantes [index.txt 211].
+        ▪ Mejoras Propuestas: Basadas en la validación de artefactos [index.txt 191, 192, 209, 210].
+    ◦ 5. Despliegue y Mantenimiento
+        ▪ Alta Disponibilidad y Funcionamiento Offline: Esencial para zonas sin conectividad, con sincronización al restablecer la conexión [conversación previa, index.txt 189, 208, 241, 271, 296, 307, 318, 326].
+        ▪ Escalabilidad: Soporte para alto volumen de datos y múltiples regiones [conversación previa, index.txt 189, 208, 225, 227, 241, 271, 296, 307, 318, 326].
+        ▪ Compatibilidad: Dispositivos móviles Android y navegadores web modernos [conversación previa, index.txt 41, 48, 189, 208, 226].
+        ▪ Mantenibilidad: Facilidad para ser mantenido y modificado (claridad del código, documentación, facilidad de prueba) [index.txt 227].
+• Consideraciones Estratégicas y Características del Producto:
+    ◦ Seguridad: Encriptación de datos sensibles y protección de información personal del censo [conversación previa, index.txt 41, 47, 189, 208, 225, 227, 241, 263, 271, 296, 307, 318, 326].
+    ◦ Usabilidad: Interfaz amigable para usuarios con bajo nivel de alfabetización digital [conversación previa, index.txt 40, 46, 189, 208, 225, 227, 241, 263, 271, 296, 307, 318, 326].
+    ◦ Contexto Rural: Adaptabilidad a las condiciones específicas de las zonas rurales [conversación previa].
+
+**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+Desarrollar la arquitectura de software de acuerdo al patrón de 
+diseño seleccionado. 
+GA4-220501095-AA2-EV05 
+
+ Incorpora patrones de diseño propendiendo en mejores prácticas para la codificación y 
+mantenibilidad del software. 
+• Crea la vista de componentes para visualizar el software en fases avanzadas del ciclo de vida.
+• Crea la vista de despliegue del software para determinar condiciones de la implantación de la 
+solución informática.
+
+1.  Desarrolló la arquitectura de software. 
+
+2. Incorporó patrones de diseño propendiendo en mejores 
+prácticas para la codificación y mantenibilidad del 
+software. 
+
+
+3. Elaboró la vista de componentes para visualizar el 
+software en fases avanzadas del ciclo de vida.
+15%
+
+4. Elaboró la vista de despliegue del software para 
+determinar condiciones de la implantación de la solución 
+informática.
+---------------------------------------------------------------------------------------------------
+
+Para elaborar los artefactos de diseño del software, se seguirá la metodología de desarrollo **Programación Extrema (Extreme Programming - XP)**. Esta metodología se enfoca en **entregas frecuentes de módulos funcionales independientes** que se fusionarán una vez superen las pruebas. Para el proyecto "Censo Rural" o el sistema de gestión de bodega y proveedores, este enfoque es ideal porque permite entregas rápidas de módulos, por ejemplo, primero el de captura de datos y luego el de análisis.
+
+A continuación, se detallan los principales artefactos de diseño del software, siguiendo las prácticas de la metodología XP, según la información proporcionada en los documentos:
+
+### Artefactos de Diseño Clave
+
+1.  **Historias de Usuario**:
+    *   Son fundamentales para capturar los requisitos desde la perspectiva del usuario.
+    *   Describen las **funciones o características específicas** que el software debe tener.
+    *   Ejemplos incluyen: "quiero crear cuentas de usuario", "Quiero registrar la llegada de mercancías", "Registrar el pago de facturas". Para el "Censo Rural", un ejemplo sería: "Como encuestador, quiero guardar datos sin conexión para evitar pérdidas".
+    *   Deben especificar criterios de aceptación, como registrar datos completos del usuario o validar que el proveedor esté registrado.
+
+2.  **Casos de Uso y Diagramas de Casos de Uso**:
+    *   Modelan las funciones del software de acuerdo con el informe de requisitos.
+    *   Describen las interacciones entre los usuarios (actores) y el sistema, clarificando las **funcionalidades clave**.
+    *   Ejemplos de casos de uso incluyen "Inicio de Sesión" y "Registro de Mercancías Recibidas". Para el proyecto, se espera que los diagramas de casos de uso representen procesos como el registro de usuarios y la captura de datos.
+    *   Se utilizan plantillas extendidas de casos de uso para expresar la intención de las acciones a desarrollar.
+
+3.  **Diagramas de Actividades UML**:
+    *   Representan gráficamente y documentan las funciones clave del software, mostrando el flujo de trabajo del sistema de una forma sencilla de entender.
+    *   Incluyen elementos como el inicio y fin del proceso, acciones, decisiones y flujos alternativos.
+    *   Ayudan a optimizar procesos operativos, como la sincronización de datos offline para el "Censo Rural".
+    *   Las herramientas recomendadas para su elaboración incluyen Draw.io, Lucidchart, StarUML y Visual Paradigm.
+
+4.  **Especificación de Requisitos Funcionales y No Funcionales**:
+    *   Aunque son parte del análisis, su refinamiento es crucial para el diseño.
+    *   **Requisitos Funcionales**: Definen qué debe hacer el software. Para el proyecto de gestión de bodega y proveedores, incluyen la gestión de usuarios (registro, autenticación, roles, permisos), interfaz de usuario intuitiva (responsive, adaptable a dispositivos móviles), gestión de categorías, recepción de mercancías (registro, validación, control de inventario), gestión de pagos (procesamiento, facturación, seguridad financiera), gestión de archivos (almacenamiento, seguridad, colaboración) y gestión de estadísticas y análisis (dashboards, reportes). Para el "Censo Rural", se incluyen formularios dinámicos, georreferenciación y carga de fotos/documentos.
+    *   **Requisitos No Funcionales**: Describen las cualidades o características del sistema. Para el proyecto, se incluyen la **disponibilidad** (99.9% de tiempo operativo, funcionamiento offline para zonas sin conectividad, con sincronización cuando haya conexión), **escalabilidad** (soporte para un crecimiento del 100% en datos y manejo de múltiples regiones), **rendimiento** (tiempos de respuesta menores a 2 segundos), **seguridad** (encriptación de datos sensibles, protección de información personal, control de acceso), **usabilidad** (interfaz amigable e intuitiva, accesible para usuarios con bajo nivel de alfabetización digital), y **compatibilidad** (dispositivos móviles Android y navegadores web modernos).
+
+5.  **Prototipo Inicial del Software**:
+    *   Es una representación inicial del software que permite verificar y mejorar los modelos de análisis y asegurar la alineación con los casos de uso identificados.
+    *   Para el "Censo Rural", el prototipo mostrará formularios de censo, geolocalización y el modo offline, cubriendo una parte significativa de los casos de uso priorizados.
+    *   Draw.io se ha utilizado para el modelado del prototipo. Un ejemplo de proyecto con una interfaz gráfica para recolección de datos personales es el repositorio **DBInterface**, que utiliza Tkinter de Python y almacena datos en SQLite, permitiendo la generación de archivos CSV.
+
+6.  **Informe de Análisis con Listas de Chequeo para Validación de Artefactos**:
+    *   Este documento es crucial para evaluar la calidad de los artefactos generados durante el análisis de requisitos y validar su cumplimiento.
+    *   Incluye una interpretación de los requisitos, una descripción de los artefactos generados (diagramas, historias de usuario), la aplicación de listas de chequeo con hallazgos y no conformidades, oportunidades de mejora, y una descripción del prototipo inicial del software.
+
+7.  **Mapa Conceptual sobre Validación de Documentos (o Diagrama de Dominio)**:
+    *   Representa visualmente los conceptos clave del dominio del proyecto y sus relaciones, facilitando la comprensión del "Censo Rural" por parte de todos los interesados.
+    *   Ejemplos de conceptos incluyen "Sujetos del censo", "Recolección de datos", "Agentes de recolección", "Gestión de datos" y "Análisis". Se puede usar Draw.io para este modelado.
+
+La combinación de estos artefactos permite una comprensión integral del sistema, facilita la comunicación entre los involucrados y establece las bases para una especificación formal del software, todo ello bajo el enfoque iterativo y de entregas frecuentes de la Programación Extrema.
+
+
+**/
+
+
+
+
+
+
+
+
+
+
+/*** 
+Taller arquitectura de software. 
+GA4-220501095-AA2-EV06
+
+GA4-220501095-01 Elaborar los artefactos de diseño del software 
+siguiendo las prácticas de la metodología seleccionada.
+
+ Incorpora patrones de diseño propendiendo en mejores prácticas para la codificación y 
+mantenibilidad del software. 
+• Crea la vista de componentes para visualizar el software en fases avanzadas del ciclo de vida.
+• Crea la vista de despliegue del software para determinar condiciones de la implantación de la 
+solución informática.
+
+Elaboró el taller teniendo en cuenta las preguntas 
+orientadoras de la guía. 
+
+2. Se da respuesta clara a los cuestionamientos 
+propuestos para el taller.
+
+3. Presentó el trabajo con las normas básicas de 
+presentación de un documento escrito.
+--------------------------------------------------------------------------------
+
+Basándose en los fuentes proporcionadas, la elección de la arquitectura del software está intrínsecamente ligada a la **metodología de desarrollo seleccionada**, que es la **Programación Extrema (XP)**.
+
+Si bien los documentos no especifican un "patrón de diseño" tradicional (como MVC, o de comportamiento) que haya sido explícitamente "seleccionado" para la arquitectura general del sistema, la metodología XP dictamina el enfoque arquitectónico.
+
+**Arquitectura Sugerida según la Metodología XP:**
+La metodología XP se enfoca en "entregas frecuentes de módulos funcionales independientes" que se fusionan una vez superan las pruebas. Esto conduce naturalmente a una **arquitectura modular o basada en componentes**.
+
+Esta arquitectura se adapta mejor al software, especialmente al proyecto "Censo Rural" (un software integral para la recolección, gestión y análisis de datos personales en zonas rurales), debido a las siguientes razones y consideraciones:
+
+*   **Agilidad en el desarrollo y entregas rápidas**: La XP es ideal porque permite "entregas rápidas de módulos funcionales". Por ejemplo, primero se podría entregar el módulo de captura de datos y luego el de análisis.
+*   **Adaptación a entornos de conectividad limitada**: Para el "Censo Rural", es crucial la **alta disponibilidad y el funcionamiento offline** en zonas sin conectividad, con sincronización cuando la conexión esté disponible. Una arquitectura modular permite que los componentes de captura de datos funcionen de forma autónoma offline.
+*   **Escalabilidad**: El sistema debe soportar un "alto volumen de datos y múltiples regiones", lo cual es facilitado por una arquitectura modular que puede crecer añadiendo o mejorando componentes.
+*   **Seguridad**: La arquitectura debe asegurar la **encriptación de datos personales y la protección de información sensible**, lo cual es vital para la información del censo. Los módulos pueden ser diseñados con seguridad inherente.
+*   **Usabilidad y compatibilidad**: La interfaz debe ser "amigable para usuarios con bajo nivel de alfabetización digital" y ser compatible con "dispositivos móviles Android y navegadores web modernos". Los módulos de interfaz de usuario pueden ser desarrollados de forma independiente para diferentes plataformas.
+*   **Gestión de roles y permisos**: Se requiere una clara "definición precisa de roles de usuario y sus permisos correspondientes", lo que se integra bien con un diseño modular de gestión de usuarios.
+
+**Consideraciones de Implementación que impactan la arquitectura:**
+Una decisión fundamental que impacta la arquitectura general del sistema es si este operará en una **red local o en la nube**. Esta decisión afecta directamente:
+*   La arquitectura general del sistema.
+*   Los requisitos específicos de seguridad.
+*   La capacidad de escalabilidad.
+*   Los costos asociados tanto a la implementación inicial como al mantenimiento continuo.
+
+**Ejemplo de Componente:**
+El **repositorio DBInterface** es un ejemplo de un proyecto que proporciona una interfaz gráfica para la recolección de datos personales, utilizando la biblioteca Tkinter de Python y almacenando datos en una base de datos SQLite. Este tipo de componente podría formar parte de una arquitectura modular para la captura de datos en el proyecto "Censo Rural".
+**/

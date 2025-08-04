@@ -1,0 +1,302 @@
+Resumen
+El presente documento establece el marco metodológico y los criterios de validación para los artefactos del sistema del proyecto "Censo Rural", el cual tiene como objetivo desarrollar una solución tecnológica para la recolección, gestión y análisis de datos demográficos en zonas rurales apartadas de Colombia. La investigación se fundamenta en la metodología Extreme Programming (XP) y presenta un mapa conceptual integral que relaciona los elementos clave del dominio del proyecto, así como los formatos de aceptación necesarios para garantizar la calidad de los documentos de análisis y del prototipo inicial del sistema.
+Palabras clave: censo rural, validación de artefactos, Extreme Programming, análisis de sistemas, dominio del proyecto
+
+Tabla de Contenido
+
+Introducción
+Marco Metodológico
+Conceptos del Dominio del Proyecto
+Formatos de Aceptación
+Mapa Conceptual del Dominio
+Artefactos del Sistema
+Validación de Documentos
+Conclusiones
+Referencias
+Anexos
+
+
+1. Introducción
+El proyecto "Censo Rural" surge como respuesta a la necesidad de modernizar y optimizar los procesos de recolección de información demográfica en zonas rurales apartadas de Colombia, donde las limitaciones de conectividad y las condiciones geográficas presentan desafíos únicos para la captura y gestión de datos censales (Departamento Administrativo Nacional de Estadística [DANE], 2023).
+1.1 Planteamiento del Problema
+Las metodologías tradicionales de recolección censal en zonas rurales enfrentan múltiples obstáculos, incluyendo la falta de conectividad constante a internet, la dificultad de acceso a comunidades remotas, y la necesidad de garantizar la integridad y seguridad de los datos personales recolectados. Estos factores han motivado el desarrollo de una solución tecnológica integral que permita la captura offline de datos, su posterior sincronización y análisis centralizado.
+1.2 Objetivos
+1.2.1 Objetivo General
+Desarrollar y validar los artefactos del sistema para el proyecto "Censo Rural", estableciendo un marco conceptual que permita la recolección eficiente de datos demográficos en zonas rurales mediante una solución tecnológica adaptada a entornos con conectividad limitada.
+1.2.2 Objetivos Específicos
+
+Definir la metodología de desarrollo más apropiada para el contexto del proyecto
+Identificar y relacionar los conceptos clave del dominio del "Censo Rural"
+Construir formatos de aceptación para la validación de artefactos del sistema
+Elaborar un mapa conceptual que represente las relaciones entre los elementos del dominio
+Validar la coherencia y completitud de los documentos de análisis del sistema
+
+1.3 Justificación
+La validación sistemática de artefactos del sistema es fundamental para garantizar que la solución tecnológica desarrollada cumpla con los requisitos funcionales y no funcionales establecidos, particularmente en un contexto tan específico como el de las zonas rurales colombianas, donde las condiciones operativas presentan características únicas que deben ser consideradas desde las fases iniciales del desarrollo del software (Sommerville, 2016).
+
+2. Marco Metodológico
+2.1 Metodología de Desarrollo: Extreme Programming (XP)
+Para el desarrollo del proyecto "Censo Rural" se ha seleccionado la metodología Extreme Programming (XP), una metodología ágil que se caracteriza por su enfoque en entregas frecuentes de módulos funcionales independientes que se integran una vez superan las pruebas correspondientes (Beck, 2000).
+2.1.1 Justificación de la Selección de XP
+La elección de XP para el proyecto "Censo Rural" se fundamenta en las siguientes características que se alinean perfectamente con los requerimientos del proyecto:
+
+Entregas Incrementales: XP permite el desarrollo y entrega de funcionalidades en iteraciones cortas, lo que es crucial para un proyecto que requiere validación temprana con usuarios finales en campo (encuestadores rurales).
+Adaptabilidad: La naturaleza cambiante de los requisitos en proyectos gubernamentales y la necesidad de adaptarse a condiciones específicas de diferentes regiones rurales hace que la flexibilidad de XP sea una ventaja significativa.
+Enfoque en el Usuario: XP prioriza la satisfacción del cliente y la entrega de valor, aspectos fundamentales cuando se trabaja con comunidades rurales y sus necesidades específicas.
+Pruebas Continuas: La metodología enfatiza las pruebas constantes, lo cual es esencial para garantizar la funcionalidad offline del sistema en condiciones adversas.
+
+2.1.2 Aplicación de XP en el Contexto Rural
+Para el proyecto "Censo Rural", la implementación de XP seguirá un enfoque modular específico:
+Fase 1 - Módulo de Captura de Datos:
+
+Desarrollo prioritario de funcionalidades offline
+Formularios dinámicos para recolección de información
+Validación de datos en tiempo real
+Georreferenciación automática
+
+Fase 2 - Módulo de Sincronización:
+
+Funcionalidades de transmisión de datos
+Resolución de conflictos
+Backup y recuperación de información
+
+Fase 3 - Módulo de Análisis:
+
+Dashboards y reportes
+Indicadores clave de desempeño (KPIs)
+Visualización geográfica de datos
+
+2.2 Marco Conceptual de Validación
+La validación de artefactos en el contexto del proyecto "Censo Rural" se basa en los principios establecidos por el Project Management Institute (PMI, 2021) y las mejores prácticas de ingeniería de software propuestas por el Institute of Electrical and Electronics Engineers (IEEE, 2017).
+2.2.1 Criterios de Validación
+Los criterios de validación aplicados incluyen:
+
+Completitud: Verificación de que todos los elementos requeridos estén presentes
+Consistencia: Coherencia entre diferentes artefactos y documentos
+Correctitud: Alineación con los requisitos establecidos
+Trazabilidad: Capacidad de rastrear elementos desde requisitos hasta implementación
+Verificabilidad: Posibilidad de comprobar objetivamente los criterios establecidos
+
+
+3. Conceptos del Dominio del Proyecto
+3.1 Identificación de Conceptos Clave
+El análisis del dominio del proyecto "Censo Rural" ha permitido identificar los siguientes conceptos fundamentales que constituyen la base conceptual del sistema:
+3.1.1 Sujetos del Censo
+Los sujetos del censo representan el objeto de estudio principal del sistema, comprendiendo:
+
+Habitantes: Individuos residentes en zonas rurales apartadas, caracterizados por su ubicación geográfica, condiciones socioeconómicas particulares y, frecuentemente, limitaciones de acceso a servicios básicos y tecnología.
+Familias: Unidades familiares que constituyen la estructura social básica en las comunidades rurales, con dinámicas específicas que difieren de las urbanas.
+Comunidades: Agrupaciones sociales más amplias que comparten características geográficas, culturales y económicas similares.
+
+3.1.2 Recolección de Datos
+El proceso de recolección de datos engloba todas las actividades relacionadas con la captura de información censal:
+
+Formularios Dinámicos: Instrumentos digitales adaptativos que se ajustan según las características específicas de cada hogar o individuo encuestado.
+Preguntas del Censo: Conjunto estructurado de interrogantes diseñadas para capturar información demográfica, socioeconómica y de condiciones de vida.
+Validación de Datos en Campo: Procesos automáticos y manuales para verificar la integridad y coherencia de la información capturada.
+Georreferenciación: Asignación de coordenadas geográficas precisas a cada punto de recolección de datos.
+Carga de Fotos/Documentos: Funcionalidad para adjuntar evidencia fotográfica y documentos de soporte a los registros censales.
+
+3.1.3 Agentes de Recolección
+Los agentes de recolección son los actores humanos responsables del proceso de captura de datos:
+
+Encuestadores: Personal capacitado para realizar el trabajo de campo, equipados con dispositivos móviles y conocimiento específico de las comunidades rurales.
+Roles y Responsabilidades: Definición clara de las funciones, permisos y limitaciones de cada tipo de usuario del sistema.
+Trazabilidad de Actividades: Sistema de seguimiento y registro de todas las acciones realizadas por los encuestadores para garantizar la transparencia y accountability del proceso.
+
+3.1.4 Gestión de Datos
+La gestión de datos abarca todos los aspectos relacionados con el manejo de la información recolectada:
+
+Almacenamiento Seguro: Infraestructura tecnológica que garantiza la protección de datos personales mediante encriptación y controles de acceso.
+Centralización en Plataforma: Sistema unificado que consolida toda la información recolectada desde diferentes puntos geográficos.
+Organización por Categorías: Estructuración de datos según criterios específicos como región, comunidad, grupo etario, entre otros.
+
+3.1.5 Análisis
+El componente de análisis proporciona las herramientas necesarias para la interpretación y presentación de los datos recolectados:
+
+Dashboards: Interfaces visuales que presentan información consolidada de manera intuitiva y accesible.
+Indicadores Clave de Desempeño (KPIs): Métricas específicas que permiten evaluar el progreso y efectividad del proceso censal.
+Informes Automatizados: Generación automática de reportes estandardizados y personalizados.
+Visualización Geográfica: Representación cartográfica de datos que facilita el análisis espacial de la información demográfica.
+
+3.1.6 Documentos a Validar
+Los documentos a validar constituyen los artefactos técnicos que requieren verificación sistemática:
+
+Especificaciones de Requisitos: Documentos que detallan las funcionalidades y características que debe cumplir el sistema.
+Historias de Usuario: Descripciones narrativas de funcionalidades desde la perspectiva del usuario final.
+Casos de Uso: Especificaciones detalladas de interacciones entre actores y sistema.
+Diagramas: Representaciones gráficas de la estructura y comportamiento del sistema (diagramas de actividades, casos de uso, clases, etc.).
+Formularios y Plantillas: Instrumentos de recolección de datos que se utilizarán en el censo.
+
+3.2 Relaciones entre Conceptos
+Las relaciones entre los conceptos identificados forman una red compleja de interdependencias que define la arquitectura conceptual del sistema:
+
+Los Encuestadores utilizan Dispositivos Móviles para realizar la Captura de Datos de Habitantes en Zonas Rurales
+Los Formularios Dinámicos se adaptan según las características de los Sujetos del Censo
+La Validación de Datos se ejecuta tanto en campo como durante el proceso de Sincronización
+Los datos recolectados alimentan el Análisis y Estadísticas en la Plataforma Central
+La Georreferenciación vincula los datos demográficos con la Visualización Geográfica
+
+
+4. Formatos de Aceptación
+4.1 Marco Conceptual para Formatos de Aceptación
+Los formatos de aceptación constituyen herramientas sistemáticas diseñadas para evaluar la calidad y el cumplimiento de los documentos de análisis y del prototipo inicial del sistema "Censo Rural". Estos formatos se fundamentan en los principios de verificación y validación establecidos por el IEEE Standard 1012-2016 (IEEE, 2016).
+
+5. Mapa Conceptual del Dominio
+5.1 Diseño del Mapa Conceptual
+El mapa conceptual del proyecto "Censo Rural" ha sido diseñado siguiendo los principios de modelado de dominio propuestos por Evans (2003) en su obra "Domain-Driven Design". Este diagrama conceptual representa visualmente las entidades principales, sus atributos y las relaciones que existen entre ellas dentro del contexto específico del censo rural.
+5.2 Metodología de Construcción
+Para la construcción del mapa conceptual se utilizó la herramienta Draw.io (ahora Diagrams.net), siguiendo los estándares UML 2.5 para diagramas de dominio. La metodología aplicada incluye:
+
+Identificación de Entidades: Reconocimiento de los objetos principales del dominio
+Definición de Atributos: Especificación de las propiedades características de cada entidad
+Establecimiento de Relaciones: Determinación de las asociaciones, composiciones y agregaciones entre entidades
+Validación Conceptual: Verificación de la coherencia y completitud del modelo
+
+5.3 Descripción de Entidades Principales
+5.3.1 Zona Rural
+
+Descripción: Área geográfica caracterizada por baja densidad poblacional y actividades económicas principalmente agropecuarias
+Atributos: nombre, coordenadas_geograficas, nivel_conectividad, poblacion_estimada
+Relaciones: contiene múltiples Comunidades
+
+5.3.2 Comunidad
+
+Descripción: Agrupación social dentro de una zona rural con características culturales y económicas similares
+Atributos: nombre, tipo_comunidad, lider_comunitario, caracteristicas_especiales
+Relaciones: pertenece a una Zona Rural, incluye múltiples Familias
+
+5.3.3 Familia
+
+Descripción: Unidad básica social que agrupa individuos con vínculos familiares
+Atributos: identificador_familia, numero_miembros, jefe_hogar, tipo_vivienda
+Relaciones: reside en una Comunidad, compuesta por múltiples Habitantes
+
+5.3.4 Habitante
+
+Descripción: Individuo que reside permanentemente en la zona rural objeto del censo
+Atributos: nombres, apellidos, documento_identidad, edad, genero, nivel_educativo, ocupacion
+Relaciones: pertenece a una Familia, es objeto de Encuesta
+
+5.3.5 Encuestador
+
+Descripción: Persona capacitada responsable de recolectar información censal en campo
+Atributos: nombre, cedula, zona_asignada, experiencia, dispositivo_asignado
+Relaciones: realiza múltiples Encuestas, utiliza Dispositivo Móvil, es supervisado por Supervisor
+
+5.3.6 Dispositivo Móvil
+
+Descripción: Herramienta tecnológica utilizada para la captura de datos en campo
+Atributos: modelo, sistema_operativo, capacidad_almacenamiento, estado_bateria, conectividad
+Relaciones: es utilizado por Encuestador, almacena Formularios
+
+5.3.7 Encuesta
+
+Descripción: Proceso de recolección de información específica sobre habitantes y familias
+Atributos: fecha_realizacion, coordenadas_gps, estado_encuesta, observaciones
+Relaciones: es realizada por Encuestador, dirigida a Habitante/Familia, contiene múltiples Formularios
+
+5.3.8 Formulario
+
+Descripción: Instrumento estructurado para la captura de información específica
+Atributos: tipo_formulario, version, campos_obligatorios, reglas_validacion
+Relaciones: forma parte de Encuesta, contiene múltiples Preguntas
+
+5.3.9 Pregunta
+
+Descripción: Interrogante específica diseñada para obtener información particular
+Atributos: texto_pregunta, tipo_respuesta, obligatoria, opciones_respuesta
+Relaciones: pertenece a Formulario, genera Respuesta
+
+5.3.10 Plataforma Central
+
+Descripción: Sistema centralizado que consolida y procesa toda la información recolectada
+Atributos: capacidad_almacenamiento, nivel_seguridad, tiempo_respuesta
+Relaciones: recibe datos de múltiples Dispositivos Móviles, genera Análisis y Reportes
+
+5.4 Representación Gráfica del Mapa Conceptual
+[ESPACIO RESERVADO PARA INSERTAR EL MAPA CONCEPTUAL CREADO EN DRAW.IO]
+El mapa conceptual presenta las siguientes características de diseño:
+
+Código de Colores:
+
+Azul: Entidades relacionadas con actores humanos
+Verde: Entidades tecnológicas
+Amarillo: Entidades de proceso
+Naranja: Entidades de información
+
+
+Tipos de Relaciones:
+
+Líneas sólidas: Asociaciones fuertes
+Líneas punteadas: Dependencias
+Líneas con diamantes: Composición/Agregación
+
+
+
+5.5 Validación del Mapa Conceptual
+El mapa conceptual ha sido validado según los siguientes criterios:
+5.5.1 Completitud
+
+ Incluye todas las entidades principales identificadas en el análisis del dominio
+ Representa las relaciones fundamentales entre entidades
+ Cubre los procesos críticos del censo rural
+
+5.5.2 Coherencia
+
+ Las relaciones son lógicas y reflejan la realidad del dominio
+ No existen contradicciones entre las asociaciones establecidas
+ La multiplicidad de las relaciones es correcta
+
+5.5.3 Claridad
+
+ Las etiquetas son precisas y comprensibles
+ El diagrama es fácil de interpretar por stakeholders técnicos y no técnicos
+ La disposición visual facilita la comprensión de las relaciones
+
+
+6. Artefactos del Sistema
+6.1 Introducción a los Artefactos
+Los artefactos del sistema constituyen las representaciones técnicas formales que describen la estructura, comportamiento y organización del software del proyecto "Censo Rural". Estos artefactos han sido desarrollados siguiendo los estándares UML 2.5 y las mejores prácticas de ingeniería de software establecidas por el Object Management Group (OMG, 2017).
+6.2 Diagrama de Clases
+El diagrama de clases representa la estructura estática del sistema, mostrando las clases, sus atributos, métodos y las relaciones entre ellas. Para el proyecto "Censo Rural", este diagrama es fundamental para comprender la organización de los datos y la lógica de negocio del sistema.
+6.2.1 Propósito del Diagrama de Clases
+El diagrama de clases del sistema "Censo Rural" tiene como propósito:
+
+Definir la estructura de datos del sistema de manera clara y precisa
+Establecer las relaciones de herencia, asociación y dependencia entre clases
+Servir como base para la implementación del código fuente
+Facilitar la comunicación entre desarrolladores y stakeholders técnicos
+Proporcionar una referencia para el diseño de la base de datos
+
+6.2.2 Metodología de Desarrollo del Diagrama
+El diagrama de clases ha sido desarrollado siguiendo un enfoque iterativo que incluye:
+
+Análisis de Requisitos: Identificación de entidades a partir de historias de usuario y casos de uso
+Modelado Conceptual: Traducción de conceptos del dominio a clases del sistema
+Refinamiento Técnico: Adición de métodos y atributos técnicos necesarios para la implementación
+Validación: Verificación de coherencia con otros artefactos del sistema
+
+[ESPACIO RESERVADO PARA INSERTAR EL DIAGRAMA DE CLASES]
+6.2.3 Descripción de Clases Principales
+Las clases principales identificadas en el diagrama incluyen:
+
+Usuario: Clase abstracta que define la estructura común para todos los tipos de usuarios del sistema
+Encuestador: Especialización de Usuario con funcionalidades específicas para trabajo de campo
+Supervisor: Especialización de Usuario con capacidades de gestión y monitoreo
+Encuesta: Clase que encapsula el proceso completo de recolección de datos
+Formulario: Representación de los instrumentos de captura de información
+DatosPersonales: Clase que maneja la información demográfica de los habitantes
+DispositivoMovil: Abstracción del hardware utilizado para la captura de datos
+SistemaAlmacenamiento: Clase responsable de la persistencia de datos local y remota
+
+6.3 Diagrama de Paquetes
+El diagrama de paquetes organiza las clases del sistema en grupos lógicos, facilitando la comprensión de la arquitectura general y las dependencias entre diferentes módulos del sistema.
+6.3.1 Propósito del Diagrama de Paquetes
+Este diagrama tiene como objetivos:
+
+Organizar las clases en módulos cohesivos con bajo acoplamiento
+Visualizar las dependencias entre diferentes componentes del sistema
+Facilitar el desarrollo paralelo por diferentes equipos
+Establecer una arquitectura escalable y mantenible
+Guiar la estructura de directorios en el código fuente

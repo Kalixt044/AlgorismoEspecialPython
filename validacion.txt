@@ -1,0 +1,67 @@
+graph TD
+    %% Núcleo Central
+    A["Censo Rural\nValidación Documental"] --> B[Metodología XP]
+    A --> C[Sujetos del Censo]
+    A --> D[Recolección]
+    A --> E[Agentes]
+    A --> F[Gestión]
+    A --> G[Análisis]
+
+    %% Metodología XP (20%)
+    B --> B1[Entregas Incrementales]
+    B --> B2[Pruebas Automatizadas]
+    B --> B3[Iteraciones Cortas]
+    B --> B4[Feedback Continuo]
+    B1 -->|Primero| B11[Módulo Captura]
+    B1 -->|Luego| B12[Módulo Análisis]
+
+    %% Sujetos y Documentos (20%)
+    C --> C1[Habitantes Rurales]
+    C --> C2[Familias]
+    C1 -->|Requieren| C11[Formularios Validados]
+    C2 -->|Generan| C21[Datos Jerarquizados]
+
+    %% Recolección y Validación
+    D --> D1[Formularios Dinámicos]
+    D --> D2[Georreferenciación]
+    D --> D3[Carga Multimedia]
+    D1 -->|Reglas de| D11[Validación en Campo]
+    D3 --> D31[📷 Foto Domicilio]
+    D3 --> D32[📄 Escaneos DNI]
+
+    %% Agentes y Trazabilidad
+    E --> E1[Encuestadores]
+    E --> E2[Supervisores]
+    E1 -->|Usa| E11[Dispositivos Móviles]
+    E2 -->|Audita| E21[Logs de Actividad]
+
+    %% Gestión de Datos (20%)
+    F --> F1[Almacenamiento Seguro]
+    F --> F2[Plataforma Central]
+    F --> F3[Clasificación]
+    F3 --> F31[📍 Región]
+    F3 --> F32[👨👩👧👦 Comunidad]
+    F3 --> F33[👴 Grupo Etario]
+
+    %% Análisis (30%)
+    G --> G1[Dashboards]
+    G --> G2[KPI Claves]
+    G --> G3[Informes Automatizados]
+    G --> G4[Mapas Temáticos]
+    G2 --> G21[📶 Cobertura]
+    G2 --> G22[⏱️ Tiempo Respuesta]
+
+    %% Formatos de Aceptación
+    H[[Formatos Validación]] --> H1[Listas de Chequeo]
+    H --> H2[Criterios QA]
+    H1 --> H11[Requisitos Funcionales]
+    H1 --> H12[Requisitos No-Funcionales]
+    H2 --> H21[Usabilidad]
+    H2 --> H22[Flujo Captura]
+
+    %% Relaciones Cruzadas
+    D11 --> H
+    B2 --> H
+    C11 --> D1
+    E21 --> F1
+    G4 --> F31

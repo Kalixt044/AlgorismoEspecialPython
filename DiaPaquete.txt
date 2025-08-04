@@ -1,0 +1,31 @@
+classDiagram
+    %% Definición de Paquetes como Namespaces
+    class P1_Gestión_de_Usuarios {
+        <<Package>>
+    }
+    class P2_Recolección_de_Datos {
+        <<Package>>
+    }
+    class P3_Gestión_de_Archivos {
+        <<Package>>
+    }
+    class P4_Análisis_y_Estadísticas {
+        <<Package>>
+    }
+    class P5_Interfaz_de_Usuario {
+        <<Package>>
+    }
+    class P6_Servicios_Comunes {
+        <<Package>>
+    }
+
+    %% Dependencias entre paquetes
+    P5_Interfaz_de_Usuario --> P1_Gestión_de_Usuarios : Autenticación\nGestión de Roles
+    P2_Recolección_de_Datos --> P5_Interfaz_de_Usuario : Ingreso de Datos
+    P2_Recolección_de_Datos --> P3_Gestión_de_Archivos : Almacena\nFotos/Documentos
+    P2_Recolección_de_Datos --> P6_Servicios_Comunes : Sincronización\n(Offline)
+    P3_Gestión_de_Archivos --> P6_Servicios_Comunes : Almacenamiento\nSeguro (BD)
+    P4_Análisis_y_Estadísticas --> P6_Servicios_Comunes : Consulta y\nProcesamiento
+    P4_Análisis_y_Estadísticas --> P3_Gestión_de_Archivos : Acceso a\nDocumentos/Informes
+    P1_Gestión_de_Usuarios --> P6_Servicios_Comunes : Gestión\nde Perfiles
+    P5_Interfaz_de_Usuario --> P6_Servicios_Comunes : Interacción\nGeneral

@@ -1,0 +1,202 @@
+ Documento de Validación de Historias de Usuario
+ Proyecto Censo Rural
+
+Código: GA2-220501093-AA1-EV03  
+Responsable: Isidro Jesús Gallardo Navarro  
+Fecha: 03 de Agosto de 2025  
+Programa: Tecnólogo en Análisis y Desarrollo de Software  
+Fase: Análisis  
+
+
+
+ 1. Identificación de la Metodología de Desarrollo
+
+ 1.1 Metodología Seleccionada: Programación Extrema (XP)
+
+La metodología de Programación Extrema (XP) ha sido seleccionada para el desarrollo del proyecto Censo Rural debido a las siguientes características que se alinean perfectamente con los objetivos del proyecto:
+
+Características Clave de XP:
+- Entregas frecuentes de módulos funcionales independientes
+- Desarrollo iterativo con ciclos cortos de retroalimentación
+- Fusión de módulos una vez superadas las pruebas
+- Enfoque en el usuario y sus necesidades reales
+- Adaptabilidad a cambios en los requisitos
+
+Justificación para el Proyecto Censo Rural:
+- Permite desarrollar primero el módulo de captura de datos (crítico para trabajo en campo)
+- Posteriormente se integra el módulo de análisis (para procesamiento centralizado)
+- Facilita la validación temprana con usuarios finales (encuestadores rurales)
+- Se adapta a las condiciones cambiantes del entorno rural
+- Permite entregas rápidas de funcionalidad crítica
+
+ 1.2 Fases de Desarrollo XP para Censo Rural
+
+1. Planificación: Definición de historias de usuario con stakeholders rurales
+2. Diseño: Arquitectura simple y adaptable para entornos con conectividad limitada
+3. Codificación: Desarrollo de módulos independientes con pruebas unitarias
+4. Pruebas: Validación en campo con encuestadores reales
+5. Entrega: Despliegue incremental por regiones
+
+
+
+ 2. Identificación de Requerimientos del Sistema
+
+ 2.1 Requerimientos Funcionales Principales
+
+RF01 - Gestión de Usuarios Rurales:
+- Creación de cuentas para encuestadores, supervisores y administradores
+- Autenticación segura adaptada a entornos rurales
+- Gestión de roles específicos para censo rural
+- Recuperación de contraseñas sin dependencia de conectividad constante
+
+RF02 - Captura de Datos en Campo:
+- Formularios digitales adaptados a la realidad rural
+- Funcionamiento offline obligatorio
+- Georreferenciación automática de viviendas
+- Captura de fotografías como evidencia
+- Validación de datos en tiempo real
+
+RF03 - Gestión de Información Censal:
+- Almacenamiento seguro de datos personales
+- Sincronización automática cuando hay conectividad
+- Backup local de información crítica
+- Clasificación por regiones y comunidades
+
+RF04 - Análisis y Reportes:
+- Dashboards con indicadores demográficos
+- Generación de informes por región
+- Visualización de datos georreferenciados
+- Exportación de datos para análisis estadístico
+
+ 2.2 Requerimientos No Funcionales Críticos
+
+RNF01 - Disponibilidad y Confiabilidad:
+- Funcionamiento offline del 100% de funciones críticas
+- Tiempo de actividad del 99.5% en modo conectado
+- Recuperación automática ante fallos
+- Sincronización garantizada de datos
+
+RNF02 - Seguridad y Privacidad:
+- Encriptación AES-256 para datos personales
+- Cumplimiento GDPR y normativas locales
+- Control de acceso granular por roles
+- Auditoría completa de acciones
+
+RNF03 - Usabilidad Rural:
+- Interfaz adaptada a usuarios con baja alfabetización digital
+- Tiempo de aprendizaje máximo de 1 hora
+- Soporte para múltiples idiomas locales
+- Navegación intuitiva con iconografía clara
+
+RNF04 - Rendimiento en Campo:
+- Tiempo de respuesta < 2 segundos en operaciones locales
+- Arranque de aplicación < 10 segundos
+- Consumo optimizado de batería
+- Funcionamiento en dispositivos de gama media-baja
+
+
+
+ 3. Herramientas de Software Utilizadas
+
+ 3.1 Herramientas de Modelado y Documentación
+
+Draw.io (Diagrams.net):
+- Propósito: Creación de diagramas UML y casos de uso
+- Ventajas: Integración con Google Drive, gratuito, estándares UML
+- Uso en el proyecto: Diagramas de casos de uso, diagramas de actividades
+
+Google Workspace:
+- Google Docs: Documentación de historias de usuario
+- Google Sheets: Matrices de trazabilidad y criterios de aceptación
+- Google Drive: Almacenamiento colaborativo de documentos
+
+ 3.2 Herramientas de Gestión de Proyecto
+
+Trello/Jira:
+- Gestión de backlog de historias de usuario
+- Seguimiento de sprints y entregas
+- Colaboración con stakeholders rurales
+
+GitHub:
+- Control de versiones de documentación
+- Gestión de issues y historias de usuario técnicas
+
+
+
+ 4. Historias de Usuario - Componente Funcional
+
+ 4.1 Historia de Usuario Funcional: HU-RF001
+
+Como encuestador rural  
+Quiero guardar datos de censo sin conexión a internet  
+Para evitar pérdida de información durante el trabajo en campo
+
+ Criterios de Aceptación:
+
+Escenario 1: Captura offline exitosa
+- DADO que soy un encuestador en zona sin conectividad
+- CUANDO completo un formulario de censo
+- ENTONCES el sistema debe guardar todos los datos localmente
+- Y mostrar confirmación visual de guardado exitoso
+- Y permitir continuar con el siguiente formulario
+
+Escenario 2: Validación de datos offline
+- DADO que estoy capturando datos sin conexión
+- CUANDO ingreso información en los campos obligatorios
+- ENTONCES el sistema debe validar formato y completitud
+- Y mostrar errores específicos si hay campos inválidos
+- Y no permitir guardar hasta corregir errores
+
+Escenario 3: Indicador de estado de conectividad
+- DADO que trabajo alternando entre zonas con y sin conexión
+- CUANDO el estado de conectividad cambia
+- ENTONCES el sistema debe mostrar claramente el estado actual
+- Y indicar cuántos registros están pendientes de sincronizar
+
+ Definición de Terminado (DoD):
+- [ ] Formulario funciona 100% offline
+- [ ] Validaciones implementadas y probadas
+- [ ] Datos se almacenan en base local SQLite
+- [ ] Interfaz muestra estado de conectividad
+- [ ] Probado en dispositivos Android de gama media
+- [ ] Documentación de usuario completada
+
+ Estimación: 8 Story Points
+
+ Dependencias: 
+- Diseño de base de datos local
+- Definición de campos obligatorios del censo
+
+
+
+ 5. Historia de Usuario - Componente No Funcional
+
+ 5.1 Historia de Usuario No Funcional: HU-RNF001
+
+Como supervisor de censo rural  
+Quiero que el sistema responda en menos de 2 segundos en operaciones críticas  
+Para mantener la productividad durante jornadas extensas de trabajo en campo
+
+ Criterios de Aceptación:
+
+Escenario 1: Tiempo de respuesta en consultas
+- DADO que estoy consultando registros guardados localmente
+- CUANDO realizo búsquedas o filtros de información
+- ENTONCES el sistema debe mostrar resultados en máximo 2 segundos
+- Y mantener este rendimiento con hasta 1000 registros locales
+
+Escenario 2: Tiempo de arranque de aplicación
+- DADO que inicio la aplicación en un dispositivo móvil
+- CUANDO presiono el icono de la aplicación
+- ENTONCES debe cargar completamente en máximo 10 segundos
+- Y mostrar la pantalla principal lista para usar
+
+Escenario 3: Rendimiento durante sincronización
+- DADO que tengo conectividad y datos pendientes por sincronizar
+- CUANDO inicio el proceso de sincronización
+- ENTONCES el sistema debe mantener responsividad para otras operaciones
+- Y permitir continuar capturando datos durante la sincronización
+- Y completar sincronización de 100 registros en máximo 5 minutos
+
+ Métricas de Aceptación:
+- Tiempo de respuesta promedio: < 1.5 segundos
