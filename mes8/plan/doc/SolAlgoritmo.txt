@@ -1,0 +1,323 @@
+# Taller de Funciones y Procedimientos
+## Solución de Algoritmos con PSeInt y Diagramas de Flujo
+
+### Programa de Formación
+**Evidencia:** GA3-220501093-AA2-EV03  
+**Objetivo:** Aplicar conocimientos en pseudocódigo y diagramas de flujo para la solución de problemas algorítmicos
+
+---
+
+## 1. Introducción
+
+Este documento presenta la implementación de cuatro algoritmos fundamentales utilizando la notación de PSeInt, acompañados de sus respectivos diagramas de flujo. Los algoritmos cubren cálculos matemáticos básicos, conversiones de unidades y procesamiento de datos múltiples, demostrando la aplicación práctica de estructuras algorítmicas en la resolución de problemas cotidianos.
+
+Cada algoritmo se presenta con su pseudocódigo correspondiente y diagrama de flujo, siguiendo las convenciones establecidas para facilitar la comprensión y posterior implementación en entornos de desarrollo.
+
+---
+
+## 2. Algoritmo 1: Cálculo del Tiempo Medio por Kilómetro
+
+### 2.1 Descripción del Problema
+
+Un ciclista ha recorrido una distancia total de 15 kilómetros en un tiempo de 40 minutos. Se requiere calcular el tiempo promedio que necesita para recorrer cada kilómetro.
+
+### 2.2 Pseudocódigo en PSeInt
+
+```pseint
+Algoritmo TiempoMedioKilometro
+    // Declaración de variables
+    Definir distancia, tiempo, tiempo_medio Como Real
+    
+    // Asignación de valores conocidos
+    distancia <- 15
+    tiempo <- 40
+    
+    // Cálculo del tiempo medio
+    tiempo_medio <- tiempo / distancia
+    
+    // Mostrar resultado
+    Escribir "El tiempo medio por kilómetro es: ", tiempo_medio, " minutos"
+    
+FinAlgoritmo
+```
+
+### 2.3 Diagrama de Flujo
+
+```
+    [INICIO]
+        |
+    [distancia = 15]
+        |
+    [tiempo = 40]
+        |
+    [tiempo_medio = tiempo / distancia]
+        |
+    [Mostrar tiempo_medio]
+        |
+    [FIN]
+```
+
+---
+
+## 3. Algoritmo 2: Conversión de Grados Centígrados a Kelvin
+
+### 3.1 Descripción del Problema
+
+Convertir una temperatura dada en grados Centígrados a la escala Kelvin utilizando la fórmula: K = C + 273.15
+
+### 3.2 Pseudocódigo en PSeInt
+
+```pseint
+Algoritmo ConversionCelsiusKelvin
+    // Declaración de variables
+    Definir celsius, kelvin Como Real
+    
+    // Entrada de datos
+    Escribir "Ingrese la temperatura en grados Centígrados: "
+    Leer celsius
+    
+    // Proceso de conversión
+    kelvin <- celsius + 273.15
+    
+    // Salida de resultados
+    Escribir "La temperatura en Kelvin es: ", kelvin, " K"
+    
+FinAlgoritmo
+```
+
+### 3.3 Diagrama de Flujo
+
+```
+    [INICIO]
+        |
+    [Leer celsius]
+        |
+    [kelvin = celsius + 273.15]
+        |
+    [Mostrar kelvin]
+        |
+    [FIN]
+```
+
+---
+
+## 4. Algoritmo 3: Cálculo de Nota Final
+
+### 4.1 Descripción del Problema
+
+Calcular la nota final de un estudiante considerando dos prácticas (40% del total) y un examen final (60% del total).
+
+### 4.2 Pseudocódigo en PSeInt
+
+```pseint
+Algoritmo CalculoNotaFinal
+    // Declaración de variables
+    Definir practica1, practica2, examen, promedio_practicas, nota_final Como Real
+    
+    // Entrada de datos
+    Escribir "Ingrese la nota de la primera práctica: "
+    Leer practica1
+    Escribir "Ingrese la nota de la segunda práctica: "
+    Leer practica2
+    Escribir "Ingrese la nota del examen final: "
+    Leer examen
+    
+    // Proceso de cálculo
+    promedio_practicas <- (practica1 + practica2) / 2
+    nota_final <- (promedio_practicas * 0.4) + (examen * 0.6)
+    
+    // Salida de resultados
+    Escribir "El promedio de prácticas es: ", promedio_practicas
+    Escribir "La nota final es: ", nota_final
+    
+    // Evaluación adicional
+    Si nota_final >= 3.0 Entonces
+        Escribir "APROBADO"
+    Sino
+        Escribir "REPROBADO"
+    FinSi
+    
+FinAlgoritmo
+```
+
+### 4.3 Diagrama de Flujo
+
+```
+         [INICIO]
+             |
+    [Leer practica1, practica2, examen]
+             |
+    [promedio_practicas = (practica1 + practica2) / 2]
+             |
+    [nota_final = (promedio_practicas * 0.4) + (examen * 0.6)]
+             |
+        [Mostrar nota_final]
+             |
+        [nota_final >= 3.0?]
+           /        \
+        [Sí]      [No]
+          |         |
+    [APROBADO]  [REPROBADO]
+          |         |
+          \        /
+             |
+           [FIN]
+```
+
+---
+
+## 5. Algoritmo 4: Conversión de Dólares a Euros
+
+### 5.1 Descripción del Problema
+
+Sumar los precios de 7 artículos expresados en dólares y convertir el total a euros utilizando una tasa de cambio específica.
+
+### 5.2 Pseudocódigo en PSeInt
+
+```pseint
+Algoritmo ConversionDolaresEuros
+    // Declaración de variables
+    Definir tasa_cambio, total_dolares, total_euros Como Real
+    Definir precio Como Real
+    Definir i Como Entero
+    
+    // Inicialización
+    total_dolares <- 0
+    
+    // Entrada de la tasa de cambio
+    Escribir "Ingrese la tasa de cambio (1 USD = ? EUR): "
+    Leer tasa_cambio
+    
+    // Entrada de precios de los 7 artículos
+    Para i <- 1 Hasta 7 Con Paso 1 Hacer
+        Escribir "Ingrese el precio del artículo ", i, " en dólares: "
+        Leer precio
+        total_dolares <- total_dolares + precio
+    FinPara
+    
+    // Proceso de conversión
+    total_euros <- total_dolares * tasa_cambio
+    
+    // Salida de resultados
+    Escribir "Total en dólares: $", total_dolares
+    Escribir "Total en euros: €", total_euros
+    
+FinAlgoritmo
+```
+
+### 5.3 Diagrama de Flujo
+
+```
+         [INICIO]
+             |
+    [total_dolares = 0, i = 1]
+             |
+      [Leer tasa_cambio]
+             |
+         [i <= 7?]
+           /    \
+        [Sí]    [No]
+          |       |
+    [Leer precio] |
+          |       |
+[total_dolares =  |
+total_dolares +   |
+    precio]       |
+          |       |
+      [i = i + 1] |
+          |       |
+          \      /
+             |
+    [total_euros = total_dolares * tasa_cambio]
+             |
+    [Mostrar total_dolares, total_euros]
+             |
+           [FIN]
+```
+
+---
+
+## 6. Funciones y Procedimientos Complementarios
+
+### 6.1 Función para Validación de Datos
+
+```pseint
+Funcion resultado <- ValidarNumero(numero)
+    Si numero >= 0 Entonces
+        resultado <- Verdadero
+    Sino
+        resultado <- Falso
+    FinSi
+FinFuncion
+```
+
+### 6.2 Procedimiento para Mostrar Menú
+
+```pseint
+SubProceso MostrarMenu
+    Escribir "=== MENÚ DE ALGORITMOS ==="
+    Escribir "1. Tiempo Medio por Kilómetro"
+    Escribir "2. Conversión Celsius a Kelvin"
+    Escribir "3. Cálculo de Nota Final"
+    Escribir "4. Conversión Dólares a Euros"
+    Escribir "5. Salir"
+    Escribir "Seleccione una opción: "
+FinSubProceso
+```
+
+### 6.3 Algoritmo Principal Integrado
+
+```pseint
+Algoritmo MenuPrincipal
+    Definir opcion Como Entero
+    Definir continuar Como Logico
+    
+    continuar <- Verdadero
+    
+    Mientras continuar Hacer
+        MostrarMenu
+        Leer opcion
+        
+        Segun opcion Hacer
+            1: TiempoMedioKilometro
+            2: ConversionCelsiusKelvin
+            3: CalculoNotaFinal
+            4: ConversionDolaresEuros
+            5: continuar <- Falso
+            De Otro Modo:
+                Escribir "Opción no válida"
+        FinSegun
+    FinMientras
+    
+    Escribir "Programa finalizado"
+FinAlgoritmo
+```
+
+---
+
+## 7. Análisis de Complejidad y Eficiencia
+
+### 7.1 Complejidad Temporal
+
+- **Algoritmos 1, 2, 3:** O(1) - Tiempo constante
+- **Algoritmo 4:** O(n) - Tiempo lineal donde n = 7 (número de artículos)
+
+### 7.2 Complejidad Espacial
+
+Todos los algoritmos presentan una complejidad espacial de O(1), utilizando un número fijo de variables independientemente del tamaño de entrada.
+
+### 7.3 Optimizaciones Posibles
+
+1. **Validación de entrada:** Implementar verificaciones para evitar errores de ejecución
+2. **Manejo de excepciones:** Considerar casos especiales como división por cero
+3. **Formato de salida:** Mejorar la presentación de resultados con redondeo apropiado
+
+---
+
+## 8. Conclusiones
+
+Los algoritmos presentados demuestran la aplicación efectiva de estructuras básicas de programación en la resolución de problemas matemáticos y de conversión. La implementación en PSeInt facilita la comprensión de la lógica algorítmica antes de proceder a lenguajes de programación específicos.
+
+La utilización de diagramas de flujo complementa la documentación del pseudocódigo, proporcionando una representación visual clara del flujo de control y la secuencia de operaciones. Esta metodología dual favorece tanto el aprendizaje como la verificación de la correctitud de los algoritmos desarrollados.
+
+**Herramientas utilizadas:** PSeInt para pseudocódigo y diagramas de flujo, siguiendo las convenciones estándar para algoritmos estructurados.
