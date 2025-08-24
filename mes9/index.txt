@@ -1,0 +1,143 @@
+--------------------------------
+/***
+teniendo en cuenta las fuentes suministrada genera un esquema para abordar la  Evidencia de conocimiento: Taller sobre validación de documentos
+(GA4-220501095-AA4-EV01) dando respuesta a las preguntas orientadoras
+**/
+
+Evidencia de conocimiento: Taller sobre validación de documentos
+(GA4-220501095-AA4-EV01)
+
+1. Realizó el taller de manera adecuada. 
+
+2. Se da respuesta a todas las preguntas orientadoras descritas en la guía.
+
+3. Las formas de evaluación de los artefactos y su relación con uno o más proyectos es acorde con la problemática.
+
+4. Se aplicaron correctamente las normas básicas de presentación de un documento escrito.
+
+Preguntas orientadoras: 
+1. Que es un artefacto?
+2. tipos de artefacto
+3. Que es la evaluacion de artefacto?
+4. Como se realiza la evaluacion de artefactos?
+5. Que instrumentos se utilizan?
+6. Que resultados se obtienen?
+
+
+
+Investigacion: 
+
+Contenido del Taller Sobre Validación de Documentos
+
+Objetivo del Taller
+El taller tiene como objetivo principal enseñar a los participantes sobre la validación de documentos, enfatizando su relevancia en el desarrollo de software.
+
+Artefactos en el Desarrollo
+Se define qué son los artefactos, que son productos generados durante el proceso de desarrollo, y se discute su papel en la gestión de proyectos.
+
+Métodos de Validación
+Se presentan diferentes métodos para realizar la validación de documentos, incluyendo la revisión y el análisis de los artefactos generados.
+
+Importancia de la Validación
+Se destaca la importancia de validar los documentos para garantizar que cumplan con los estándares requeridos y que sean útiles para el equipo de desarrollo.
+
+Ejemplos Prácticos
+El taller incluye ejemplos prácticos que ilustran cómo se lleva a cabo la validación de documentos en situaciones reales, proporcionando a los participantes una comprensión más profunda del proceso.
+
+-------------------------------------------- 
+Evidencia de desempeño: Diseño de instrumentos para verificación de artefactos
+(GA4-220501095-AA4-EV02)
+
+1. Los instrumentos de verificación diseñados permiten la validación de los componentes de los artefactos. 50%
+
+2. Se aplican todos los aspectos a tener en cuenta para la evidencia propuestos en la guía. 40%
+
+3. Los instrumentos están redactados en un lenguaje sencillo, comprensible y con buena ortografía
+
+Investigacion:
+
+Contenido del GA4-220501095-AA4-EV02
+
+Objetivos del Documento
+Se establecen los objetivos principales, que incluyen la mejora de la calidad del software a través de la verificación de artefactos y la implementación de buenas prácticas en el desarrollo.
+
+Diseño de Instrumentos
+Se describen los diferentes instrumentos diseñados para la verificación de artefactos, incluyendo plantillas y guías que facilitan la evaluación de la calidad del software.
+
+Metodologías de Evaluación
+Se presentan diversas metodologías que se pueden aplicar para evaluar la efectividad de los artefactos, asegurando que cumplan con los estándares requeridos.
+
+Casos de Uso
+Se incluyen ejemplos de casos de uso que ilustran cómo aplicar los instrumentos y metodologías en situaciones reales, proporcionando un contexto práctico para su implementación.
+
+Conclusiones y Recomendaciones
+Se ofrecen conclusiones sobre la importancia de la verificación de artefactos y recomendaciones para su aplicación en proyectos de desarrollo de software, enfatizando la necesidad de un enfoque sistemático
+
+------------------------------------------------
+Evidencia de producto: Listas de chequeo para validación de documentación de diseño
+(GA4-220501095-AA4-EV03)
+
+1. Elabora la lista de chequeo de manera siguiendo los elementos a tener en cuenta de la guía de aprendizaje. 50%
+
+2. Los instrumentos contienen toda la información que se requiere. 40%
+
+3. Los instrumentos están redactados en un lenguaje sencillo, comprensible y con buena ortografía
+
+referencia tablas: https://www.scribd.com/document/613722124/GA4-220501095-AA4-EV03-Listas-de-chequeo 
+
+Investigacion:
+Objetivo Principal
+El objetivo de este documento es proporcionar una herramienta que facilite la validación de documentos de diseño, asegurando que se cumplan los criterios necesarios para la calidad del software.
+
+Ítems de la Lista de Chequeo
+La lista de chequeo incluye siete ítems clave que deben ser revisados, tales como:
+
+Claridad en la presentación de la información.
+Cumplimiento de los requisitos funcionales.
+Adecuación de la documentación técnica.
+Consistencia en el uso de terminología.
+Verificación de la trazabilidad de los requisitos.
+Evaluación de la usabilidad del diseño.
+Revisión de la conformidad con estándares de calidad.
+Importancia de la Validación
+Se destaca la importancia de la validación de documentos de diseño como un paso crítico en el proceso de desarrollo de software, ya que ayuda a identificar y corregir errores antes de la implementación.
+
+Recomendaciones para su Uso
+Se sugieren prácticas para utilizar la lista de chequeo de manera efectiva, incluyendo la realización de revisiones periódicas y la colaboración entre equipos para asegurar una evaluación exhaustiva.
+
+Conclusiones
+El documento concluye enfatizando que el uso de listas de chequeo puede mejorar significativamente la calidad de los documentos de diseño y, por ende, la calidad del software desarrollado.
+
+----------------------------------------------
+Evidencia de producto: Informe de evaluación a los artefactos de diseño del software 
+(GA4-220501095-AA4-EV04)
+
+1. El informe presentado incluye una serie de procesos de acuerdo a los requerimientos y objetivos a alcanzar. 40%
+
+2. Se realiza un análisis exhaustivo del sistema que se desea desarrollar y el rendimiento de los procesos
+logrando influir directamente en la toma de decisiones. 30%
+
+3. El informe es claro y contiene toda la información necesaria. 20%
+
+4. Los instrumentos están redactados en un lenguaje sencillo, comprensible y con buena ortografía.
+
+
+Investigacion: 
+Propuesta de Desarrollo...  Censo rural 
+Objetivos del Proyecto
+Se establecen varios objetivos, entre los que se destacan:
+
+Facilitar la gestión de reservas.
+Mejorar la experiencia del usuario.
+Optimizar el proceso de búsqueda y selección de alojamientos.
+Evaluación de Artefactos de Diseño
+Se evalúan los artefactos generados durante la fase de análisis del proyecto, incluyendo documentos que describen la arquitectura del software, diagramas de flujo y especificaciones funcionales.
+
+Metodología Utilizada
+El informe menciona la metodología ágil como enfoque para el desarrollo, permitiendo adaptaciones rápidas y una mejor respuesta a los cambios en los requisitos del cliente.
+
+Resultados Esperados
+Se espera que la implementación de la aplicación web mejore la eficiencia operativa de la empresa, reduzca costos y tiempos, y maximice la rentabilidad.
+
+Conclusiones
+El informe concluye que la evaluación de los artefactos de diseño es fundamental para asegurar que el desarrollo del software cumpla con los estándares de calidad y funcionalidad requeridos.

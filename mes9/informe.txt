@@ -1,0 +1,44 @@
+Informe de Evaluación a los Artefactos de Diseño del Software (GA4-220501095-AA4-EV04)
+1. Introducción
+• Propósito del Informe: Este documento tiene como finalidad evaluar los artefactos generados durante la fase de análisis y diseño del proyecto, asegurando que el desarrollo del software cumpla con los estándares de calidad y funcionalidad requeridos.
+• Contexto del Proyecto: El proyecto central es el "Censo Rural", un software integral para la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas. El sistema busca capturar eficientemente información mediante dispositivos móviles, centralizar los datos en una plataforma segura y facilitar su análisis para la toma de decisiones en políticas públicas.
+• Metodología de Desarrollo: La metodología empleada es la Programación Extrema (XP), la cual se enfoca en entregas frecuentes de módulos funcionales independientes que se fusionan una vez superan las pruebas.
+2. Objetivos de la Evaluación El informe presentado deberá incluir una serie de procesos de acuerdo con los requerimientos y objetivos a alcanzar.
+• Verificar la calidad y cumplimiento de los artefactos de diseño con los requisitos funcionales y no funcionales identificados.
+• Realizar un análisis exhaustivo del sistema a desarrollar y el rendimiento de los procesos, influyendo directamente en la toma de decisiones.
+• Identificar no conformidades y oportunidades de mejora en la documentación y diseño.
+• Asegurar la alineación entre el diseño propuesto y las necesidades reales del "Censo Rural".
+3. Metodología de Evaluación de Artefactos de Diseño La evaluación de los artefactos se realizará siguiendo un enfoque ágil, que permite adaptaciones rápidas y una mejor respuesta a los cambios en los requisitos del cliente. Se utilizarán listas de chequeo para validar la documentación.
+• Revisión Documental: Análisis de los artefactos generados en las fases previas, incluyendo documentos que describen la arquitectura del software, diagramas de flujo y especificaciones funcionales.
+• Aplicación de Listas de Chequeo: Utilización de instrumentos diseñados para verificar la calidad y el cumplimiento de los componentes de los artefactos. Estos deben ser sencillos, comprensibles y con buena ortografía.
+• Validación con Usuarios: Se debe validar con los usuarios los requerimientos encontrados a través de entrevistas de profundización o sesiones de revisión, para asegurar que el software se ajuste a sus necesidades.
+4. Artefactos de Diseño Evaluados Se evaluarán los artefactos generados durante la fase de análisis del proyecto.
+• Historias de Usuario: Evaluando su claridad, completitud y que reflejen las funciones o características específicas del software desde la perspectiva del usuario. Ejemplos: "Como encuestador, quiero guardar datos sin conexión para evitar pérdidas".
+• Casos de Uso y Diagramas de Casos de Uso: Verificando que modelen las funciones del software de acuerdo con el informe de requisitos y describan las interacciones entre usuarios y el sistema.
+• Diagramas de Actividades UML: Analizando su capacidad para representar gráficamente los flujos de trabajo del sistema (e.g., sincronización de datos offline) de forma sencilla y comprensible.
+• Especificación de Requisitos Funcionales (RF) y No Funcionales (RNF):
+    ◦ RF: Gestión de usuarios, interfaz intuitiva, gestión de categorías, captura de datos en campo (formularios dinámicos, georreferenciación, carga de fotos), gestión de archivos, análisis y estadísticas.
+    ◦ RNF: Alta disponibilidad (funcionamiento offline y sincronización), escalabilidad (alto volumen de datos, múltiples regiones), seguridad (encriptación de datos personales, control de acceso), usabilidad (interfaz amigable para usuarios con bajo nivel de alfabetización digital), compatibilidad (dispositivos móviles Android, navegadores web modernos).
+• Prototipo Inicial del Software: Evaluando cómo esta representación inicial del software verifica y mejora los modelos de análisis y se alinea con los casos de uso identificados. Se puede usar Draw.io para su modelado.
+• Mapa Conceptual / Diagrama de Dominio: Asegurando que represente visualmente los conceptos clave del proyecto (e.g., Sujetos del censo, Recolección de datos, Agentes de recolección, Gestión de datos, Análisis) y sus relaciones, facilitando la comprensión del "Censo Rural".
+• Documentación Arquitectónica: Revisando componentes como Architecture Overview, Component Specifications, Interface Definitions, Deployment Guide, Operation Manual y Decision Records.
+5. Análisis y Hallazgos de la Evaluación Esta sección detallará la aplicación de las listas de chequeo a los artefactos, presentando hallazgos, no conformidades y oportunidades de mejora identificadas.
+• Claridad en la presentación de la información: ¿Los documentos son sencillos y comprensibles para todos los interesados, incluyendo usuarios no técnicos?.
+• Completitud: ¿Están todos los requisitos funcionales y no funcionales, así como los campos de datos necesarios para el censo, definidos y documentados?.
+• Consistencia en el uso de terminología: ¿La terminología y los datos de usuario son consistentes en todos los artefactos?.
+• Correctitud: ¿Los flujos de captura de datos o las funcionalidades reflejan el proceso real del censo/logística?.
+• Trazabilidad de los requisitos: ¿Es posible rastrear un requisito desde su origen hasta su implementación en una historia de usuario, un diagrama o un componente de diseño?.
+• Adecuación de la documentación técnica: ¿Es apropiada para el nivel de detalle y las necesidades del proyecto?.
+• Conformidad con estándares de calidad/Adherencia a estándares: ¿Los diagramas siguen las normas UML?.
+• Evaluación de la usabilidad del diseño: ¿La interfaz es amigable e intuitiva para los usuarios (especialmente encuestadores con bajo nivel de alfabetización digital)?.
+• Seguridad y Privacidad: ¿Se consideran aspectos de encriptación y protección de datos personales de los habitantes, conforme a la normativa?.
+• Influencia en la Toma de Decisiones: Análisis de cómo los hallazgos y el rendimiento de los procesos influirán en las decisiones futuras del proyecto.
+6. Mejoras Propuestas Basado en la validación, se especificarán las mejoras a realizar en la documentación de análisis.
+• Ajustes de Terminología: Unificar el glosario de términos en los requisitos y artefactos para asegurar consistencia.
+• Detalle de Flujos: Ampliar la descripción de flujos complejos (e.g., sincronización offline) en los diagramas.
+• Refinamiento de Prototipos: Incluir pantallas de confirmación post-sincronización y otros elementos identificados para mejorar la experiencia del usuario.
+• Actualización de Artefactos: Realizar mejoras a la documentación de análisis de acuerdo con los resultados de la evaluación.
+7. Conclusiones
+• Resumen de Resultados: El informe debe ser claro y contener toda la información necesaria. Se resumirán los principales hallazgos y el estado general de los artefactos de diseño.
+• Importancia de la Evaluación: Reafirmar que la evaluación de los artefactos de diseño es fundamental para asegurar que el desarrollo del software cumpla con los estándares de calidad y funcionalidad requeridos.
+• Sostenibilidad y Éxito del Proyecto: Concluir cómo la validación mediante listas de chequeo y las mejoras implementadas garantizan una solución robusta, eficiente, adaptable y organizacionalmente sostenible para el "Censo Rural"
