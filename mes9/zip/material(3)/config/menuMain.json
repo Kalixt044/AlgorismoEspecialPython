@@ -1,0 +1,74 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  {
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "comunicacion",
+    "title": "1. Comunicación",    
+    "path": "pages/tema-1.html",
+    "submenu": [       
+      {
+        "icon": "fa fa-play-circle",
+        "slug": "comunicacion",
+        "title": "1.1 Naturaleza de la comunicación",
+        "anchor": "tema1_1"
+      },  
+      {
+        "icon": "fa fa-file-text",
+        "slug": "comunicacion",
+        "title": "1.2 Procesos de la comunicación",
+        "anchor": "tema1_2"
+      }, 
+      {
+        "icon": "fa fa-file-text",
+        "slug": "comunicacion",
+        "title": "1.3 Contextos comunicativos y actitudes frente a la comunicación",
+        "anchor": "tema1_3"
+      }
+    ]    
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "comunicacion_verbal_no_verbal",
+    "title": "2. Comunicación verbal y no verbal",    
+    "path": "pages/tema-2.html",
+    "submenu": [       
+      {
+        "icon": "fa fa-file-text",
+        "slug": "comunicacion_verbal_no_verbal",
+        "title": "2.1 Comunicación no verbal kinésica y proxémica",
+        "anchor": "tema2_1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "comunicacion_verbal_no_verbal",
+        "title": "2.2 La expresión y la voz como herramienta",
+        "anchor": "tema2_2"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "comunicacion_verbal_no_verbal",
+        "title": "2.3 Escuchar con los sentidos",
+        "anchor": "tema2_3"
+      },
+      {
+        "icon": "fa fa-play-circle",
+        "slug": "comunicacion_verbal_no_verbal",
+        "title": "2.4 Importancia del discurso oral - Características de una charla y exposición",
+        "anchor": "tema2_4"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "comunicacion_verbal_no_verbal",
+        "title": "2.5 Habilidades de un comunicador eficaz",
+        "anchor": "tema2_5"
+      }
+    ]   
+  }  
+]

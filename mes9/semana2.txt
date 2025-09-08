@@ -1,0 +1,36 @@
+ingles
+
+Blog en el que consolide y presente las evidencias de vídeo,
+audio y texto que ha elaborado en inglés. GA4-240202501-AA1-EV03
+
+Criterios de evaluación:
+● Hace uso de vocabulario relacionado con familia, aficiones e intereses, trabajo, viajes y hechos
+de actualidad, en textos orales y escritos.
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+tecnico: GA5-220501095-AA1-EV01:
+Evidencia de
+conocimiento:
+Taller sobre construcción del prototipo del software de acuerdo al análisis de las características funcionales y de calidad.
+
+
+*******
+GA5-220501095-AA1-EV02
+Evidencia de conocimiento:
+Nociones de reglas de usabilidad y accesibilidad en aplicaciones independientes, web
+
+Determinar las características técnicas de la interfaz gráfica del software adoptando estándares
+
+******************************
+GA5-220501095-AA1-EV03
+Elaboración de interfaz gráfica y mapa de navegación cumpliendo con reglas de usabilidad y accesibilidad.
+Determinar las características técnicas de la interfaz gráfica del software adoptando estándares.
+
+
+
+
+
+
+
