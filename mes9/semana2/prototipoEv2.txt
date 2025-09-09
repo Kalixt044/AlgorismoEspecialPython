@@ -1,330 +1,330 @@
-# Guía para el Desarrollo de la Evidencia: GA5-220501095-AA1
-## Nociones de reglas de usabilidad y accesibilidad en aplicaciones independientes y web
+ Guía para el Desarrollo de la Evidencia: GA5-220501095-AA1
+ Nociones de reglas de usabilidad y accesibilidad en aplicaciones independientes y web
 
----
 
-## 1. Introducción a la Evidencia
+
+ 1. Introducción a la Evidencia
 
 Esta evidencia tiene como objetivo fundamental que el aprendiz demuestre su comprensión y aplicación de los conceptos de usabilidad y accesibilidad en el diseño de interfaces gráficas para diferentes tipos de aplicaciones. Se centra en cómo estas nociones son cruciales para garantizar que el software sea efectivo, eficiente y satisfactorio para los usuarios, especialmente en el contexto de proyectos como el "Censo Rural", que involucra una diversidad de usuarios y condiciones de uso.
 
 La usabilidad y accesibilidad no son características opcionales en el desarrollo de software moderno; constituyen elementos fundamentales que determinan el éxito o fracaso de una aplicación. En proyectos de gran impacto social como el "Censo Rural", donde los usuarios pueden tener diferentes niveles de alfabetización digital y operar en condiciones adversas, estos principios se vuelven aún más críticos.
 
----
 
-## 2. Objetivo de la Evidencia
+
+ 2. Objetivo de la Evidencia
 
 El objetivo principal de esta actividad es proponer la interfaz gráfica de usuario y construir el mapa de navegación, cumpliendo con las reglas de usabilidad y accesibilidad tanto para aplicaciones independientes (stand-alone) como para aplicaciones web. Además, se busca:
 
-• **Determinar las características técnicas** de la interfaz gráfica del software adoptando estándares reconocidos internacionalmente.
+• Determinar las características técnicas de la interfaz gráfica del software adoptando estándares reconocidos internacionalmente.
 
-• **Identificar y explicar claramente** las reglas de usabilidad y accesibilidad aplicables al contexto del proyecto.
+• Identificar y explicar claramente las reglas de usabilidad y accesibilidad aplicables al contexto del proyecto.
 
-• **Identificar y diferenciar** claramente entre lo que significa una aplicación independiente y una aplicación web, comprendiendo sus implicaciones para el diseño de interfaces.
+• Identificar y diferenciar claramente entre lo que significa una aplicación independiente y una aplicación web, comprendiendo sus implicaciones para el diseño de interfaces.
 
-• **Aplicar conocimientos prácticos** en el diseño de interfaces que respondan a las necesidades específicas del proyecto "Censo Rural".
+• Aplicar conocimientos prácticos en el diseño de interfaces que respondan a las necesidades específicas del proyecto "Censo Rural".
 
-• **Desarrollar competencias** para evaluar y mejorar la experiencia de usuario en diferentes tipos de aplicaciones.
+• Desarrollar competencias para evaluar y mejorar la experiencia de usuario en diferentes tipos de aplicaciones.
 
----
 
-## 3. Conceptos Fundamentales
+
+ 3. Conceptos Fundamentales
 
 Para el desarrollo exitoso de esta evidencia, es crucial dominar los siguientes conceptos:
 
-### 3.1 Calidad de Software
+ 3.1 Calidad de Software
 La calidad de software se refiere al grado en que un producto de software cumple con los requisitos especificados y satisface las expectativas del usuario. Incluye aspectos como funcionalidad, confiabilidad, usabilidad, eficiencia, mantenibilidad y portabilidad. En el contexto moderno, la calidad se mide no solo por la ausencia de defectos, sino por la capacidad del software para proporcionar valor al usuario y adaptarse a sus necesidades cambiantes.
 
 La arquitectura de software debe optimizar atributos de calidad como el rendimiento, la seguridad, la disponibilidad y la confiabilidad, estableciendo un equilibrio adecuado entre estos aspectos según las prioridades del proyecto.
 
-### 3.2 Usabilidad de Software
+ 3.2 Usabilidad de Software
 La usabilidad se define como la facilidad de uso del sistema, incluyendo la interfaz de usuario, la accesibilidad, la capacidad de aprendizaje y la satisfacción del usuario. Una interfaz usable debe ser intuitiva para usuarios no técnicos y tener un tiempo de aprendizaje corto para operaciones básicas.
 
 Los componentes clave de la usabilidad incluyen:
-- **Eficacia**: Capacidad del usuario para completar tareas
-- **Eficiencia**: Recursos necesarios para completar las tareas
-- **Satisfacción**: Comodidad y actitud positiva del usuario hacia el sistema
-- **Facilidad de aprendizaje**: Rapidez con la que los usuarios pueden realizar tareas básicas
-- **Memorabilidad**: Facilidad para recordar cómo usar el sistema después de un período sin usarlo
+- Eficacia: Capacidad del usuario para completar tareas
+- Eficiencia: Recursos necesarios para completar las tareas
+- Satisfacción: Comodidad y actitud positiva del usuario hacia el sistema
+- Facilidad de aprendizaje: Rapidez con la que los usuarios pueden realizar tareas básicas
+- Memorabilidad: Facilidad para recordar cómo usar el sistema después de un período sin usarlo
 
-### 3.3 Estándares de Calidad de Software
+ 3.3 Estándares de Calidad de Software
 Los estándares proporcionan marcos de referencia para asegurar la calidad consistente. Los más relevantes incluyen:
 
-- **ISO/IEC 25010**: Modelo de calidad de sistemas y software
-- **ISO 9241**: Ergonomía de la interacción hombre-sistema
-- **WCAG 2.1**: Pautas de Accesibilidad para el Contenido Web
-- **ISO/IEC 12207**: Procesos del ciclo de vida del software
-- **IEEE 730**: Estándar para planes de aseguramiento de calidad de software
+- ISO/IEC 25010: Modelo de calidad de sistemas y software
+- ISO 9241: Ergonomía de la interacción hombre-sistema
+- WCAG 2.1: Pautas de Accesibilidad para el Contenido Web
+- ISO/IEC 12207: Procesos del ciclo de vida del software
+- IEEE 730: Estándar para planes de aseguramiento de calidad de software
 
-### 3.4 Tecnologías de Implementación de Calidad
+ 3.4 Tecnologías de Implementación de Calidad
 Las tecnologías y prácticas que contribuyen a la implementación de calidad incluyen:
 
-- **Frameworks de desarrollo** que promueven buenas prácticas (React, Angular, Vue.js)
-- **Herramientas de pruebas automatizadas** (Jest, Selenium, Cypress)
-- **Principios de Clean Code** y patrones de diseño
-- **Sistemas de integración continua** (CI/CD)
-- **Herramientas de análisis estático de código**
-- **Metodologías ágiles** que incluyen retroalimentación continua del usuario
+- Frameworks de desarrollo que promueven buenas prácticas (React, Angular, Vue.js)
+- Herramientas de pruebas automatizadas (Jest, Selenium, Cypress)
+- Principios de Clean Code y patrones de diseño
+- Sistemas de integración continua (CI/CD)
+- Herramientas de análisis estático de código
+- Metodologías ágiles que incluyen retroalimentación continua del usuario
 
----
 
-## 4. Requisitos de Usabilidad y Accesibilidad en el Proyecto "Censo Rural"
+
+ 4. Requisitos de Usabilidad y Accesibilidad en el Proyecto "Censo Rural"
 
 El proyecto "Censo Rural" presenta necesidades específicas que resaltan la importancia crítica de la usabilidad y la accesibilidad:
 
-### 4.1 Perfil de Usuarios
-- **Usuarios principales**: Encuestadores de campo, supervisores regionales y administradores del sistema
-- **Características**: La interfaz debe ser especialmente amigable para usuarios con bajo nivel de alfabetización digital
-- **Diversidad**: Usuarios de diferentes edades, niveles educativos y experiencia tecnológica
-- **Necesidades especiales**: Posibles usuarios con discapacidades visuales, auditivas o motoras
+ 4.1 Perfil de Usuarios
+- Usuarios principales: Encuestadores de campo, supervisores regionales y administradores del sistema
+- Características: La interfaz debe ser especialmente amigable para usuarios con bajo nivel de alfabetización digital
+- Diversidad: Usuarios de diferentes edades, niveles educativos y experiencia tecnológica
+- Necesidades especiales: Posibles usuarios con discapacidades visuales, auditivas o motoras
 
-### 4.2 Contexto de Uso
-- **Ambiente operativo**: Zonas rurales con conectividad limitada o intermitente
-- **Condiciones físicas**: Uso en exteriores, bajo diferentes condiciones climáticas y de iluminación
-- **Equipos**: Dispositivos móviles con capacidades de procesamiento y almacenamiento variables
-- **Conectividad**: Funcionamiento crítico offline con sincronización efectiva cuando hay conexión
+ 4.2 Contexto de Uso
+- Ambiente operativo: Zonas rurales con conectividad limitada o intermitente
+- Condiciones físicas: Uso en exteriores, bajo diferentes condiciones climáticas y de iluminación
+- Equipos: Dispositivos móviles con capacidades de procesamiento y almacenamiento variables
+- Conectividad: Funcionamiento crítico offline con sincronización efectiva cuando hay conexión
 
-### 4.3 Tipos de Aplicación
+ 4.3 Tipos de Aplicación
 El proyecto contempla dos tipos principales de interfaces:
 
-**Aplicación Móvil Android** (Aplicación Independiente):
+Aplicación Móvil Android (Aplicación Independiente):
 - Para encuestadores de campo
 - Funcionamiento offline prioritario
 - Interfaz optimizada para pantallas táctiles pequeñas
 - Acceso directo a cámara, GPS y almacenamiento local
 
-**Aplicación Web** (Navegadores modernos):
+Aplicación Web (Navegadores modernos):
 - Para supervisores y administradores
 - Acceso a reportes y análisis en tiempo real
 - Gestión centralizada de datos y usuarios
 - Interfaz responsive para diferentes dispositivos
 
-### 4.4 Consideraciones de Diseño
+ 4.4 Consideraciones de Diseño
 
-#### Interfaz Intuitiva
-- **Diseño responsive** optimizado para móviles y tablets
-- **Navegación simplificada** con jerarquía clara
-- **Menús intuitivos** con iconografía universalmente reconocible
-- **Barras de búsqueda global** para acceso rápido a funciones
-- **Tooltips y ayudas contextuales** para guiar al usuario
-- **Mensajes claros** de confirmación y error con lenguaje sencillo
+ Interfaz Intuitiva
+- Diseño responsive optimizado para móviles y tablets
+- Navegación simplificada con jerarquía clara
+- Menús intuitivos con iconografía universalmente reconocible
+- Barras de búsqueda global para acceso rápido a funciones
+- Tooltips y ayudas contextuales para guiar al usuario
+- Mensajes claros de confirmación y error con lenguaje sencillo
 
-#### Accesibilidad Universal
-- **Cumplimiento WCAG 2.1** nivel AA como mínimo
-- **Contraste de colores** adecuado para diferentes condiciones de luz
-- **Tamaño de fuente** ajustable para usuarios con dificultades visuales
-- **Navegación por teclado** para usuarios con limitaciones motoras
-- **Compatibilidad** con tecnologías de asistencia
+ Accesibilidad Universal
+- Cumplimiento WCAG 2.1 nivel AA como mínimo
+- Contraste de colores adecuado para diferentes condiciones de luz
+- Tamaño de fuente ajustable para usuarios con dificultades visuales
+- Navegación por teclado para usuarios con limitaciones motoras
+- Compatibilidad con tecnologías de asistencia
 
----
 
-## 5. Guía Paso a Paso para el Desarrollo de la Evidencia
+
+ 5. Guía Paso a Paso para el Desarrollo de la Evidencia
 
 Para desarrollar la evidencia de manera sistemática y completa, siga los siguientes pasos, integrando siempre los requisitos específicos del proyecto "Censo Rural":
 
-### Paso 1: Investigación y Definición de Conceptos (Sección 2 del Checklist EV01)
+ Paso 1: Investigación y Definición de Conceptos (Sección 2 del Checklist EV01)
 
-#### 1.1 Definición de Calidad de Software
+ 1.1 Definición de Calidad de Software
 Investigue y presente una definición clara y concisa de calidad de software en el contexto del desarrollo actual. Incluya:
 - Definición formal del concepto
 - Atributos de calidad más relevantes
 - Impacto en la experiencia del usuario
 - Métricas para evaluar la calidad
 
-#### 1.2 Definición de Usabilidad de Software
+ 1.2 Definición de Usabilidad de Software
 Defina claramente el concepto de usabilidad, destacando:
 - Componentes principales (eficacia, eficiencia, satisfacción)
 - Importancia en la interacción usuario-sistema
 - Diferencia entre usabilidad y funcionalidad
 - Métodos de evaluación de usabilidad
 
-#### 1.3 Estándares de Calidad de Software
+ 1.3 Estándares de Calidad de Software
 Identifique y describa los estándares más relevantes:
-- **ISO 9241** para usabilidad de interfaces
-- **WCAG 2.1** para accesibilidad web
-- **ISO/IEC 25010** para calidad de producto software
+- ISO 9241 para usabilidad de interfaces
+- WCAG 2.1 para accesibilidad web
+- ISO/IEC 25010 para calidad de producto software
 - Aplicabilidad específica al proyecto "Censo Rural"
 
-#### 1.4 Tecnologías de Implementación de Calidad
+ 1.4 Tecnologías de Implementación de Calidad
 Nombre y explique tecnologías o prácticas que contribuyen a la calidad:
 - Frameworks de desarrollo multiplataforma
 - Herramientas de testing automatizado
 - Sistemas de gestión de versiones
 - Metodologías de desarrollo centradas en el usuario
 
-### Paso 2: Diferenciación entre Aplicaciones Independientes y Web (Checklist EV02)
+ Paso 2: Diferenciación entre Aplicaciones Independientes y Web (Checklist EV02)
 
-#### 2.1 Aplicaciones Independientes (Stand-alone)
-**Definición**: Aplicación que se instala y ejecuta localmente en el dispositivo del usuario, sin requerir conexión constante a internet para su funcionamiento básico.
+ 2.1 Aplicaciones Independientes (Stand-alone)
+Definición: Aplicación que se instala y ejecuta localmente en el dispositivo del usuario, sin requerir conexión constante a internet para su funcionamiento básico.
 
-**Características principales**:
+Características principales:
 - Instalación local en el dispositivo
 - Acceso directo a recursos del hardware (cámara, GPS, sensores)
 - Funcionamiento offline completo
 - Mayor control sobre el rendimiento
 - Actualización a través de tiendas de aplicaciones
 
-**Ejemplo en "Censo Rural"**: La aplicación móvil Android para encuestadores, diseñada para funcionar sin conexión en zonas rurales remotas.
+Ejemplo en "Censo Rural": La aplicación móvil Android para encuestadores, diseñada para funcionar sin conexión en zonas rurales remotas.
 
-#### 2.2 Aplicaciones Web
-**Definición**: Aplicación que se ejecuta en un navegador web, accediendo a funcionalidades a través de internet y utilizando tecnologías web estándar.
+ 2.2 Aplicaciones Web
+Definición: Aplicación que se ejecuta en un navegador web, accediendo a funcionalidades a través de internet y utilizando tecnologías web estándar.
 
-**Características principales**:
+Características principales:
 - Acceso vía navegador web
 - Independencia del sistema operativo del cliente
 - Actualización automática y centralizada
 - Menor uso de almacenamiento local
 - Dependencia de conectividad a internet
 
-**Ejemplo en "Censo Rural"**: Portal web para supervisores y administradores, que permite gestión centralizada, generación de reportes y monitoreo en tiempo real.
+Ejemplo en "Censo Rural": Portal web para supervisores y administradores, que permite gestión centralizada, generación de reportes y monitoreo en tiempo real.
 
-#### 2.3 Contraste y Diferencias Clave
+ 2.3 Contraste y Diferencias Clave
 Compare ambos tipos en términos de:
-- **Despliegue**: Instalación local vs. acceso web
-- **Conectividad**: Offline vs. online dependency
-- **Actualizaciones**: Manual vs. automática
-- **Acceso al hardware**: Directo vs. limitado
-- **Rendimiento**: Nativo vs. interpretado
+- Despliegue: Instalación local vs. acceso web
+- Conectividad: Offline vs. online dependency
+- Actualizaciones: Manual vs. automática
+- Acceso al hardware: Directo vs. limitado
+- Rendimiento: Nativo vs. interpretado
 
-### Paso 3: Identificación y Explicación de Reglas de Usabilidad y Accesibilidad (Checklist EV02)
+ Paso 3: Identificación y Explicación de Reglas de Usabilidad y Accesibilidad (Checklist EV02)
 
-#### 3.1 Reglas de Usabilidad
+ 3.1 Reglas de Usabilidad
 Identifique y explique las reglas fundamentales aplicables al "Censo Rural":
 
-**Simplicidad y Consistencia**:
+Simplicidad y Consistencia:
 - Interfaz uniforme en todas las secciones
 - Elementos de navegación coherentes
 - Terminología consistente throughout la aplicación
 
-**Visibilidad del Estado del Sistema**:
+Visibilidad del Estado del Sistema:
 - Indicadores de progreso para sincronización
 - Estados de conexión claramente mostrados
 - Retroalimentación inmediata en acciones del usuario
 
-**Control del Usuario y Libertad**:
+Control del Usuario y Libertad:
 - Funciones de deshacer disponibles
 - Navegación hacia atrás intuitiva
 - Salida fácil de procesos complejos
 
-**Prevención de Errores**:
+Prevención de Errores:
 - Validación de datos en tiempo real
 - Confirmaciones para acciones críticas
 - Mensajes de error constructivos y específicos
 
-**Flexibilidad y Eficiencia de Uso**:
+Flexibilidad y Eficiencia de Uso:
 - Atajos para usuarios experimentados
 - Configuración personalizable
 - Múltiples formas de realizar tareas comunes
 
-**Estética y Diseño Minimalista**:
+Estética y Diseño Minimalista:
 - Información relevante prominente
 - Eliminación de elementos distractores
 - Jerarquía visual clara
 
-**Reconocimiento antes que Recuerdo**:
+Reconocimiento antes que Recuerdo:
 - Opciones visibles en lugar de memorizables
 - Iconografía intuitiva y universal
 - Etiquetas descriptivas claras
 
-**Ayuda y Documentación**:
+Ayuda y Documentación:
 - Tutoriales interactivos integrados
 - Ayuda contextual disponible
 - Documentación en lenguaje sencillo
 
-#### 3.2 Reglas de Accesibilidad (WCAG 2.1)
+ 3.2 Reglas de Accesibilidad (WCAG 2.1)
 Aplique los cuatro principios fundamentales:
 
-**Perceptible**:
+Perceptible:
 - Texto alternativo para todas las imágenes
 - Contraste de color suficiente (ratio mínimo 4.5:1)
 - Contenido adaptable a diferentes presentaciones
 - Contenido distinguible sin dependencia del color
 
-**Operable**:
+Operable:
 - Funcionalidad accesible por teclado
 - Control sobre contenido con límites de tiempo
 - Prevención de contenido que cause convulsiones
 - Ayuda para la navegación y localización de contenido
 
-**Comprensible**:
+Comprensible:
 - Texto legible y comprensible
 - Contenido predecible en su funcionamiento
 - Asistencia para evitar y corregir errores
 - Etiquetas claras en formularios
 
-**Robusto**:
+Robusto:
 - Compatibilidad con tecnologías de asistencia
 - Código semánticamente correcto
 - Validación según estándares web
 - Funcionalidad mantenida en diferentes navegadores
 
-### Paso 4: Propuesta de Interfaz Gráfica y Mapa de Navegación (Checklist EV01)
+ Paso 4: Propuesta de Interfaz Gráfica y Mapa de Navegación (Checklist EV01)
 
-#### 4.1 Elementos de Pantalla por Funcionalidad
+ 4.1 Elementos de Pantalla por Funcionalidad
 Para las tres funcionalidades principales del "Censo Rural":
 
-**Funcionalidad 1: Registro de Encuestadores**
+Funcionalidad 1: Registro de Encuestadores
 - Formulario con campos claramente etiquetados
 - Validación en tiempo real
 - Indicadores de progreso
 - Botones de acción prominentes y descriptivos
 
-**Funcionalidad 2: Captura de Datos en Campo**
+Funcionalidad 2: Captura de Datos en Campo
 - Interfaz optimizada para uso con una mano
 - Campos grandes para facilitar entrada táctil
 - Navegación secuencial lógica
 - Función de guardado automático
 
-**Funcionalidad 3: Visualización de Reportes**
+Funcionalidad 3: Visualización de Reportes
 - Dashboard con métricas clave destacadas
 - Filtros intuitivos y fáciles de usar
 - Gráficos accesibles con texto alternativo
 - Opciones de exportación claras
 
-#### 4.2 Paleta de Colores
+ 4.2 Paleta de Colores
 Diseñe una paleta considerando:
 
-**Colores Primarios**:
-- Azul institucional (#2E5C8A) para elementos principales
-- Verde (#28A745) para confirmaciones y estados positivos
-- Rojo (#DC3545) para errores y alertas
+Colores Primarios:
+- Azul institucional (2E5C8A) para elementos principales
+- Verde (28A745) para confirmaciones y estados positivos
+- Rojo (DC3545) para errores y alertas
 
-**Colores Secundarios**:
-- Gris claro (#F8F9FA) para fondos
-- Gris medio (#6C757D) para texto secundario
-- Blanco (#FFFFFF) para contenido principal
+Colores Secundarios:
+- Gris claro (F8F9FA) para fondos
+- Gris medio (6C757D) para texto secundario
+- Blanco (FFFFFF) para contenido principal
 
-**Justificación**:
+Justificación:
 - Contraste adecuado para accesibilidad
 - Coherencia con identidad institucional
 - Legibilidad en diferentes condiciones de luz
 
-#### 4.3 Mapa de Navegación
+ 4.3 Mapa de Navegación
 Construya un diagrama que muestre:
 
-**Estructura Jerárquica**:
+Estructura Jerárquica:
 - Pantalla de inicio/dashboard como nodo central
 - Secciones principales claramente diferenciadas
 - Subsecciones organizadas lógicamente
 
-**Flujos de Usuario**:
+Flujos de Usuario:
 - Rutas principales optimizadas
 - Rutas alternativas para diferentes perfiles
 - Puntos de salida y retorno claros
 
-**Consideraciones Especiales**:
+Consideraciones Especiales:
 - Navegación offline para aplicación móvil
 - Sincronización de datos cuando hay conexión
 - Acceso rápido a funciones críticas
 
----
 
-## 6. Formato de Entrega
+
+ 6. Formato de Entrega
 
 El producto a entregar debe seguir las normas académicas de presentación, estructurado de la siguiente manera:
 
-### 6.1 Estructura del Documento
+ 6.1 Estructura del Documento
 
-**Portada**
+Portada
 - Título de la evidencia
 - Nombre del programa y ficha
 - Nombre completo del aprendiz
@@ -332,119 +332,119 @@ El producto a entregar debe seguir las normas académicas de presentación, estr
 - Fecha de entrega
 - Logo institucional
 
-**Tabla de Contenido**
+Tabla de Contenido
 - Índice numerado con páginas correspondientes
 - Lista de figuras y tablas (si aplica)
 
-**Introducción**
+Introducción
 - Contextualización de la evidencia
 - Importancia del proyecto "Censo Rural"
 - Relevancia de usabilidad y accesibilidad
 - Objetivos del documento
 
-### 6.2 Desarrollo del Contenido
+ 6.2 Desarrollo del Contenido
 
-**Sección 1: Marco Conceptual**
+Sección 1: Marco Conceptual
 - Definiciones técnicas claras
 - Estándares de calidad relevantes
 - Tecnologías de implementación
 - Referencias bibliográficas apropiadas
 
-**Sección 2: Análisis Comparativo**
+Sección 2: Análisis Comparativo
 - Diferencias entre aplicaciones independientes y web
 - Ejemplos específicos del "Censo Rural"
 - Ventajas y desventajas de cada tipo
 - Justificación de elección tecnológica
 
-**Sección 3: Reglas de Usabilidad y Accesibilidad**
+Sección 3: Reglas de Usabilidad y Accesibilidad
 - Descripción detallada de principios aplicados
 - Ejemplos concretos de implementación
 - Justificación basada en el contexto del proyecto
 - Casos de uso específicos
 
-**Sección 4: Propuesta de Diseño**
+Sección 4: Propuesta de Diseño
 - Elementos de interfaz detallados
 - Wireframes o mockups (si es posible)
 - Justificación de decisiones de diseño
 - Mapa de navegación completo
 
-**Conclusiones**
+Conclusiones
 - Síntesis de aprendizajes clave
 - Impacto esperado en el proyecto
 - Recomendaciones futuras
 - Reflexión personal sobre la experiencia
 
-### 6.3 Criterios de Calidad
+ 6.3 Criterios de Calidad
 
-**Contenido**:
+Contenido:
 - Información técnicamente correcta
 - Aplicación práctica de conceptos
 - Coherencia entre teoría y propuesta
 - Originalidad en las soluciones propuestas
 
-**Presentación**:
+Presentación:
 - Ortografía y gramática impecables
 - Formato consistente y profesional
 - Uso apropiado de elementos gráficos
 - Citación correcta de fuentes
 
-**Extensión Recomendada**:
+Extensión Recomendada:
 - 15-20 páginas de contenido principal
 - Anexos según sea necesario
 - Bibliografía mínima de 8-10 fuentes actualizadas
 
----
 
-## 7. Criterios de Evaluación
 
-### 7.1 Comprensión Conceptual (25%)
+ 7. Criterios de Evaluación
+
+ 7.1 Comprensión Conceptual (25%)
 - Dominio de definiciones técnicas
 - Comprensión de estándares de calidad
 - Conocimiento de tecnologías actuales
 - Capacidad de síntesis y análisis
 
-### 7.2 Aplicación Práctica (35%)
+ 7.2 Aplicación Práctica (35%)
 - Propuestas de diseño coherentes
 - Aplicación correcta de principios de usabilidad
 - Implementación de reglas de accesibilidad
 - Adaptación al contexto del proyecto
 
-### 7.3 Diferenciación Técnica (20%)
+ 7.3 Diferenciación Técnica (20%)
 - Clara distinción entre tipos de aplicaciones
 - Justificación de decisiones tecnológicas
 - Comprensión de implicaciones de cada tipo
 - Ejemplos apropiados y contextualizados
 
-### 7.4 Presentación y Comunicación (20%)
+ 7.4 Presentación y Comunicación (20%)
 - Calidad de redacción y ortografía
 - Organización lógica del contenido
 - Uso efectivo de elementos visuales
 - Cumplimiento de normas de presentación
 
----
 
-## 8. Recursos de Apoyo
 
-### 8.1 Bibliografía Recomendada
+ 8. Recursos de Apoyo
+
+ 8.1 Bibliografía Recomendada
 - Nielsen, J. & Molich, R. (2020). "Heuristic evaluation of user interfaces"
 - Krug, S. (2019). "Don't Make Me Think: A Common Sense Approach to Web Usability"
 - W3C. (2021). "Web Content Accessibility Guidelines (WCAG) 2.1"
 - ISO/IEC 25010:2011 "Systems and software Quality Requirements and Evaluation"
 
-### 8.2 Herramientas Útiles
-- **Wireframing**: Figma, Adobe XD, Sketch
-- **Prototipado**: InVision, Marvel, Proto.io
-- **Evaluación de accesibilidad**: WAVE, axe, Lighthouse
-- **Análisis de contraste**: WebAIM Contrast Checker
+ 8.2 Herramientas Útiles
+- Wireframing: Figma, Adobe XD, Sketch
+- Prototipado: InVision, Marvel, Proto.io
+- Evaluación de accesibilidad: WAVE, axe, Lighthouse
+- Análisis de contraste: WebAIM Contrast Checker
 
-### 8.3 Sitios Web de Referencia
+ 8.3 Sitios Web de Referencia
 - W3C Web Accessibility Initiative (WAI)
 - Nielsen Norman Group
 - Material Design Guidelines
 - Human Interface Guidelines (Apple)
 
----
 
-**Nota Final**: Recuerde que esta evidencia no solo evalúa conocimientos teóricos, sino la capacidad de aplicarlos en un contexto real y significativo. El éxito del proyecto "Censo Rural" depende en gran medida de que las interfaces diseñadas sean verdaderamente usables y accesibles para todos los usuarios, especialmente aquellos con menores recursos tecnológicos o necesidades especiales.
+
+Nota Final: Recuerde que esta evidencia no solo evalúa conocimientos teóricos, sino la capacidad de aplicarlos en un contexto real y significativo. El éxito del proyecto "Censo Rural" depende en gran medida de que las interfaces diseñadas sean verdaderamente usables y accesibles para todos los usuarios, especialmente aquellos con menores recursos tecnológicos o necesidades especiales.
 
 La calidad de su propuesta se medirá no solo por la corrección técnica, sino por su viabilidad práctica y su potencial impacto positivo en la experiencia de los usuarios finales del sistema.

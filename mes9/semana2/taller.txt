@@ -1,12 +1,12 @@
-# TALLER SOBRE CONSTRUCCIÓN DEL PROTOTIPO DEL SOFTWARE DE ACUERDO AL ANÁLISIS DE LAS CARACTERÍSTICAS FUNCIONALES Y DE CALIDAD
+ TALLER SOBRE CONSTRUCCIÓN DEL PROTOTIPO DEL SOFTWARE DE ACUERDO AL ANÁLISIS DE LAS CARACTERÍSTICAS FUNCIONALES Y DE CALIDAD
 
-**Evidencia:** GA5-220501095-AA1-EV01  
-**Proyecto:** Sistema de Censo Rural  
-**Metodología:** Extreme Programming (XP)  
+Evidencia: GA5-220501095-AA1-EV01  
+Proyecto: Sistema de Censo Rural  
+Metodología: Extreme Programming (XP)  
 
----
 
-## INTRODUCCIÓN
+
+ INTRODUCCIÓN
 
 El presente taller tiene como propósito fundamental la construcción de un prototipo del software para el proyecto "Censo Rural", integrando el análisis exhaustivo de las características funcionales y de calidad previamente identificadas. Este trabajo busca materializar la propuesta de interfaz gráfica de usuario y el mapa de navegación correspondiente, asegurando el cumplimiento riguroso de las reglas de usabilidad y accesibilidad establecidas para aplicaciones tanto independientes (stand-alone) como web.
 
@@ -16,207 +16,207 @@ La metodología de desarrollo seleccionada es Extreme Programming (XP), la cual 
 
 La importancia del prototipado en este contexto radica en su capacidad para validar tempranamente los conceptos de diseño, identificar posibles problemas de usabilidad y garantizar que la solución final sea verdaderamente funcional para los usuarios objetivo: encuestadores, supervisores y administradores que operarán el sistema en condiciones de campo desafiantes.
 
----
 
-## SECCIÓN 1: DISEÑO DEL PROTOTIPO VISUAL
 
-### 1.1 Elementos de Pantalla para Funcionalidad 1: Captura de Datos en Campo
+ SECCIÓN 1: DISEÑO DEL PROTOTIPO VISUAL
+
+ 1.1 Elementos de Pantalla para Funcionalidad 1: Captura de Datos en Campo
 
 La funcionalidad de captura de datos en campo representa el núcleo operativo del Sistema de Censo Rural. Esta interfaz debe ser especialmente robusta e intuitiva, considerando que será utilizada por encuestadores con diversos niveles de competencia tecnológica en condiciones de campo variables.
 
-**Descripción de Elementos de Interfaz:**
+Descripción de Elementos de Interfaz:
 
 La pantalla principal de captura presenta una estructura modular compuesta por los siguientes elementos esenciales:
 
-- **Encabezado de Contexto:** Muestra información crítica como el nombre del encuestador, la fecha y hora actual, el estado de conectividad (online/offline) y la ubicación GPS actual. Este elemento utiliza iconografía intuitiva con indicadores de color para el estado de conexión (verde para online, naranja para offline).
+- Encabezado de Contexto: Muestra información crítica como el nombre del encuestador, la fecha y hora actual, el estado de conectividad (online/offline) y la ubicación GPS actual. Este elemento utiliza iconografía intuitiva con indicadores de color para el estado de conexión (verde para online, naranja para offline).
 
-- **Panel de Identificación del Hogar:** Formulario dinámico que incluye campos para número de vivienda, dirección aproximada, coordenadas GPS automáticas y un botón de "Verificar Ubicación" que permite ajustar manualmente las coordenadas si es necesario.
+- Panel de Identificación del Hogar: Formulario dinámico que incluye campos para número de vivienda, dirección aproximada, coordenadas GPS automáticas y un botón de "Verificar Ubicación" que permite ajustar manualmente las coordenadas si es necesario.
 
-- **Sección de Datos del Responsable del Hogar:** Campos para nombre completo, documento de identidad, edad, género, nivel educativo y ocupación principal. Cada campo incluye validación en tiempo real con mensajes de error claros y constructivos.
+- Sección de Datos del Responsable del Hogar: Campos para nombre completo, documento de identidad, edad, género, nivel educativo y ocupación principal. Cada campo incluye validación en tiempo real con mensajes de error claros y constructivos.
 
-- **Módulo de Composición Familiar:** Interface dinámica que permite agregar y editar información de cada miembro del hogar, con campos específicos para relación de parentesco, edad, estado civil y condiciones especiales (discapacidades, enfermedades crónicas).
+- Módulo de Composición Familiar: Interface dinámica que permite agregar y editar información de cada miembro del hogar, con campos específicos para relación de parentesco, edad, estado civil y condiciones especiales (discapacidades, enfermedades crónicas).
 
-- **Panel de Servicios Básicos:** Checklist interactivo para servicios como agua potable, electricidad, saneamiento, internet y telefonía, con opciones de "Sí", "No" y "Parcial" para mayor precisión.
+- Panel de Servicios Básicos: Checklist interactivo para servicios como agua potable, electricidad, saneamiento, internet y telefonía, con opciones de "Sí", "No" y "Parcial" para mayor precisión.
 
-- **Sección de Adjuntos Multimedia:** Funcionalidad para capturar y adjuntar fotografías de la vivienda, documentos de identidad y cualquier evidencia adicional relevante. Incluye previsualización de imágenes y compresión automática para optimizar el almacenamiento.
+- Sección de Adjuntos Multimedia: Funcionalidad para capturar y adjuntar fotografías de la vivienda, documentos de identidad y cualquier evidencia adicional relevante. Incluye previsualización de imágenes y compresión automática para optimizar el almacenamiento.
 
-- **Panel de Navegación Inferior:** Botones grandes y claramente etiquetados para "Guardar Borrador", "Validar Datos", "Siguiente Hogar" y "Sincronizar Pendientes". El diseño prioriza la accesibilidad táctil en dispositivos móviles.
+- Panel de Navegación Inferior: Botones grandes y claramente etiquetados para "Guardar Borrador", "Validar Datos", "Siguiente Hogar" y "Sincronizar Pendientes". El diseño prioriza la accesibilidad táctil en dispositivos móviles.
 
-**Consideraciones de Usabilidad:**
+Consideraciones de Usabilidad:
 
 La interfaz implementa un sistema de navegación paso a paso que reduce la carga cognitiva del usuario, permitiendo completar el censo de manera progresiva y validando la información en cada etapa. Los campos obligatorios están claramente marcados con asteriscos rojos, mientras que la información adicional aparece en texto más pequeño y color gris.
 
-### 1.2 Elementos de Pantalla para Funcionalidad 2: Gestión de Usuarios y Roles
+ 1.2 Elementos de Pantalla para Funcionalidad 2: Gestión de Usuarios y Roles
 
 La gestión segura de usuarios y roles constituye un elemento fundamental para mantener la integridad y confidencialidad de la información censal. Esta funcionalidad debe balancear la seguridad robusta con la facilidad de uso para administradores y supervisores.
 
-**Descripción de Elementos de Interfaz:**
+Descripción de Elementos de Interfaz:
 
-- **Dashboard de Administración:** Pantalla principal que presenta métricas de usuarios activos, encuestas completadas por equipo, alertas de seguridad y accesos rápidos a las funciones más utilizadas. Utiliza widgets informativos con gráficos simples y colores distintivos.
+- Dashboard de Administración: Pantalla principal que presenta métricas de usuarios activos, encuestas completadas por equipo, alertas de seguridad y accesos rápidos a las funciones más utilizadas. Utiliza widgets informativos con gráficos simples y colores distintivos.
 
-- **Formulario de Registro de Usuario:** Interface estructurada que incluye campos para datos personales básicos, asignación de rol (encuestador, supervisor, administrador), zona geográfica de responsabilidad y credenciales de acceso. Incorpora un generador de contraseñas seguras y validación de fortaleza en tiempo real.
+- Formulario de Registro de Usuario: Interface estructurada que incluye campos para datos personales básicos, asignación de rol (encuestador, supervisor, administrador), zona geográfica de responsabilidad y credenciales de acceso. Incorpora un generador de contraseñas seguras y validación de fortaleza en tiempo real.
 
-- **Panel de Autenticación:** Pantalla de inicio de sesión que incluye campos para usuario y contraseña, opción de "Recordar sesión" para dispositivos personales, recuperación de contraseña mediante SMS o email, y mensajes de error específicos sin comprometer la seguridad.
+- Panel de Autenticación: Pantalla de inicio de sesión que incluye campos para usuario y contraseña, opción de "Recordar sesión" para dispositivos personales, recuperación de contraseña mediante SMS o email, y mensajes de error específicos sin comprometer la seguridad.
 
-- **Matriz de Permisos:** Interface tabular que permite asignar y modificar permisos específicos por rol y funcionalidad. Utiliza un sistema de checkboxes organizados jerárquicamente con colores diferenciados para lectura, escritura y administración.
+- Matriz de Permisos: Interface tabular que permite asignar y modificar permisos específicos por rol y funcionalidad. Utiliza un sistema de checkboxes organizados jerárquicamente con colores diferenciados para lectura, escritura y administración.
 
-- **Módulo de Auditoría:** Panel que muestra el historial de accesos, modificaciones realizadas por cada usuario y alertas de actividad sospechosa. Incluye filtros por fecha, usuario y tipo de acción para facilitar la investigación.
+- Módulo de Auditoría: Panel que muestra el historial de accesos, modificaciones realizadas por cada usuario y alertas de actividad sospechosa. Incluye filtros por fecha, usuario y tipo de acción para facilitar la investigación.
 
-- **Configuración de Seguridad:** Sección que permite establecer políticas de contraseñas, tiempo de sesión inactiva, intentos máximos de ingreso fallidos y configuración de notificaciones de seguridad.
+- Configuración de Seguridad: Sección que permite establecer políticas de contraseñas, tiempo de sesión inactiva, intentos máximos de ingreso fallidos y configuración de notificaciones de seguridad.
 
-**Consideraciones de Seguridad:**
+Consideraciones de Seguridad:
 
 La interfaz implementa principios de seguridad por diseño, ocultando información sensible por defecto, utilizando conexiones encriptadas para todas las comunicaciones y proporcionando feedback claro sobre el estado de seguridad de las credenciales del usuario.
 
-### 1.3 Elementos de Pantalla para Funcionalidad 3: Análisis y Reportes
+ 1.3 Elementos de Pantalla para Funcionalidad 3: Análisis y Reportes
 
 El módulo de análisis y reportes transforma los datos recopilados en información útil para la toma de decisiones en políticas públicas. Esta funcionalidad debe ser intuitiva para usuarios con diferentes niveles de experiencia en análisis de datos.
 
-**Descripción de Elementos de Interfaz:**
+Descripción de Elementos de Interfaz:
 
-- **Dashboard Ejecutivo:** Pantalla principal que presenta indicadores clave de población, distribución demográfica, cobertura de servicios básicos y tendencias temporales mediante gráficos interactivos. Utiliza visualizaciones claras como gráficos de barras, tortas y mapas de calor.
+- Dashboard Ejecutivo: Pantalla principal que presenta indicadores clave de población, distribución demográfica, cobertura de servicios básicos y tendencias temporales mediante gráficos interactivos. Utiliza visualizaciones claras como gráficos de barras, tortas y mapas de calor.
 
-- **Constructor de Consultas:** Interface visual que permite crear reportes personalizados mediante selección de variables, filtros geográficos y temporales, y criterios de agrupación. Utiliza elementos de arrastrar y soltar para facilitar la construcción de consultas complejas.
+- Constructor de Consultas: Interface visual que permite crear reportes personalizados mediante selección de variables, filtros geográficos y temporales, y criterios de agrupación. Utiliza elementos de arrastrar y soltar para facilitar la construcción de consultas complejas.
 
-- **Visualizador de Mapas:** Integración con mapas interactivos que muestran la distribución geográfica de variables demográficas, densidad poblacional y cobertura de servicios. Incluye controles de zoom, capas temáticas y herramientas de medición.
+- Visualizador de Mapas: Integración con mapas interactivos que muestran la distribución geográfica de variables demográficas, densidad poblacional y cobertura de servicios. Incluye controles de zoom, capas temáticas y herramientas de medición.
 
-- **Generador de Estadísticas:** Panel que calcula automáticamente estadísticas descriptivas (medias, medianas, percentiles, desviaciones estándar) para variables numéricas seleccionadas. Presenta los resultados en tablas formateadas y gráficos explicativos.
+- Generador de Estadísticas: Panel que calcula automáticamente estadísticas descriptivas (medias, medianas, percentiles, desviaciones estándar) para variables numéricas seleccionadas. Presenta los resultados en tablas formateadas y gráficos explicativos.
 
-- **Exportador de Datos:** Funcionalidad que permite generar reportes en múltiples formatos (PDF, Excel, CSV, XML) con opciones de personalización de diseño, inclusión de gráficos y configuración de metadatos.
+- Exportador de Datos: Funcionalidad que permite generar reportes en múltiples formatos (PDF, Excel, CSV, XML) con opciones de personalización de diseño, inclusión de gráficos y configuración de metadatos.
 
-- **Programador de Reportes:** Interface que permite automatizar la generación y distribución de reportes periódicos, configurando destinatarios, frecuencia de envío y criterios de contenido dinámico.
+- Programador de Reportes: Interface que permite automatizar la generación y distribución de reportes periódicos, configurando destinatarios, frecuencia de envío y criterios de contenido dinámico.
 
-**Consideraciones de Compatibilidad:**
+Consideraciones de Compatibilidad:
 
 La interfaz está optimizada para navegadores web modernos, utilizando tecnologías estándar que garantizan compatibilidad con Chrome, Firefox, Safari y Edge. Implementa diseño responsivo para adaptarse a diferentes tamaños de pantalla y resoluciones.
 
-### 1.4 Propuesta de Paleta de Colores
+ 1.4 Propuesta de Paleta de Colores
 
 La selección de la paleta de colores para el Sistema de Censo Rural se basa en principios científicos de psicología del color, accesibilidad universal y usabilidad en condiciones de campo variables.
 
-**Colores Primarios:**
+Colores Primarios:
 
-- **Azul Institucional (#2C5F7C):** Color principal que transmite confianza, profesionalismo y estabilidad. Utilizado para encabezados, elementos de navegación principal y botones de acción primaria.
+- Azul Institucional (2C5F7C): Color principal que transmite confianza, profesionalismo y estabilidad. Utilizado para encabezados, elementos de navegación principal y botones de acción primaria.
 
-- **Verde Éxito (#28A745):** Empleado para indicadores positivos, confirmaciones de guardado, estados online y elementos de validación exitosa. Su asociación universal con "correcto" facilita la comprensión intuitiva.
+- Verde Éxito (28A745): Empleado para indicadores positivos, confirmaciones de guardado, estados online y elementos de validación exitosa. Su asociación universal con "correcto" facilita la comprensión intuitiva.
 
-- **Naranja Advertencia (#FD7E14):** Utilizado para alertas, estados offline, campos con validación pendiente y notificaciones que requieren atención del usuario sin ser críticas.
+- Naranja Advertencia (FD7E14): Utilizado para alertas, estados offline, campos con validación pendiente y notificaciones que requieren atención del usuario sin ser críticas.
 
-**Colores Secundarios:**
+Colores Secundarios:
 
-- **Gris Neutro (#6C757D):** Para texto secundario, bordes, elementos de interfaz inactivos y información complementaria. Proporciona contraste suave sin competir con el contenido principal.
+- Gris Neutro (6C757D): Para texto secundario, bordes, elementos de interfaz inactivos y información complementaria. Proporciona contraste suave sin competir con el contenido principal.
 
-- **Blanco Puro (#FFFFFF):** Fondo principal que maximiza la legibilidad y reduce la fatiga visual durante sesiones extensas de trabajo de campo.
+- Blanco Puro (FFFFFF): Fondo principal que maximiza la legibilidad y reduce la fatiga visual durante sesiones extensas de trabajo de campo.
 
-- **Rojo Crítico (#DC3545):** Reservado exclusivamente para errores críticos, validaciones fallidas y alertas de seguridad que requieren acción inmediata.
+- Rojo Crítico (DC3545): Reservado exclusivamente para errores críticos, validaciones fallidas y alertas de seguridad que requieren acción inmediata.
 
-**Justificación de la Elección:**
+Justificación de la Elección:
 
 Esta paleta de colores ha sido diseñada específicamente considerando los siguientes criterios técnicos y de usabilidad:
 
-**Contraste y Legibilidad:** Todos los colores cumplen con los estándares WCAG 2.1 nivel AA para contraste, garantizando legibilidad en condiciones de luz variable típicas del trabajo de campo rural. Las combinaciones de colores seleccionadas mantienen un contraste mínimo de 4.5:1 entre texto y fondo.
+Contraste y Legibilidad: Todos los colores cumplen con los estándares WCAG 2.1 nivel AA para contraste, garantizando legibilidad en condiciones de luz variable típicas del trabajo de campo rural. Las combinaciones de colores seleccionadas mantienen un contraste mínimo de 4.5:1 entre texto y fondo.
 
-**Coherencia Institucional:** Los tonos azules y verdes evocan naturaleza y confiabilidad, apropiados para una herramienta gubernamental de censo rural. La paleta evita colores excesivamente vibrantes que podrían distraer o generar fatiga visual.
+Coherencia Institucional: Los tonos azules y verdes evocan naturaleza y confiabilidad, apropiados para una herramienta gubernamental de censo rural. La paleta evita colores excesivamente vibrantes que podrían distraer o generar fatiga visual.
 
-**Accesibilidad Universal:** La selección considera usuarios con daltonismo, utilizando diferencias de brillo y saturación adicionales al matiz para distinguir estados. Se evitan combinaciones problemáticas como rojo-verde para información crítica.
+Accesibilidad Universal: La selección considera usuarios con daltonismo, utilizando diferencias de brillo y saturación adicionales al matiz para distinguir estados. Se evitan combinaciones problemáticas como rojo-verde para información crítica.
 
-**Funcionalidad en Campo:** Los colores seleccionados mantienen su distintividad en pantallas con brillo reducido para conservar batería y en condiciones de iluminación ambiental variable, común en entornos rurales.
+Funcionalidad en Campo: Los colores seleccionados mantienen su distintividad en pantallas con brillo reducido para conservar batería y en condiciones de iluminación ambiental variable, común en entornos rurales.
 
----
 
-## SECCIÓN 2: FUNDAMENTOS TEÓRICOS DE CALIDAD
 
-### 2.1 Definición de Calidad de Software
+ SECCIÓN 2: FUNDAMENTOS TEÓRICOS DE CALIDAD
+
+ 2.1 Definición de Calidad de Software
 
 La calidad de software en el contexto del desarrollo contemporáneo se define como el grado en que un sistema, componente o proceso cumple con los requisitos especificados y satisface las necesidades y expectativas del usuario final. Esta definición multidimensional abarca aspectos técnicos, funcionales y experienciales que determinan el éxito de una solución tecnológica.
 
 En el marco del Sistema de Censo Rural, la calidad de software adquiere dimensiones específicas críticas para el éxito operativo. La arquitectura del sistema debe optimizar prioritariamente los siguientes atributos:
 
-**Rendimiento:** El sistema debe mantener tiempos de respuesta óptimos incluso con conectividad limitada o intermitente. Esto implica optimización de consultas, caching inteligente de datos frecuentemente accedidos y compresión eficiente de información multimedia.
+Rendimiento: El sistema debe mantener tiempos de respuesta óptimos incluso con conectividad limitada o intermitente. Esto implica optimización de consultas, caching inteligente de datos frecuentemente accedidos y compresión eficiente de información multimedia.
 
-**Seguridad:** Considerando la naturaleza sensible de los datos personales recopilados, la arquitectura debe implementar encriptación end-to-end, autenticación robusta, autorización granular y auditoría completa de todas las transacciones.
+Seguridad: Considerando la naturaleza sensible de los datos personales recopilados, la arquitectura debe implementar encriptación end-to-end, autenticación robusta, autorización granular y auditoría completa de todas las transacciones.
 
-**Disponibilidad:** El sistema debe mantener operatividad continua con disponibilidad objetivo del 99.5%, implementando redundancia de componentes críticos, recuperación automática ante fallos y mecanismos de fallback para operación offline.
+Disponibilidad: El sistema debe mantener operatividad continua con disponibilidad objetivo del 99.5%, implementando redundancia de componentes críticos, recuperación automática ante fallos y mecanismos de fallback para operación offline.
 
-**Confiabilidad:** Para el Censo Rural, la confiabilidad se traduce en una pérdida de datos menor al 0.01%, backup automático cada 15 minutos, y capacidad de recuperación ante desastres en tiempo máximo de 4 horas.
+Confiabilidad: Para el Censo Rural, la confiabilidad se traduce en una pérdida de datos menor al 0.01%, backup automático cada 15 minutos, y capacidad de recuperación ante desastres en tiempo máximo de 4 horas.
 
-### 2.2 Definición de Usabilidad de Software
+ 2.2 Definición de Usabilidad de Software
 
 La usabilidad de software se conceptualiza como la medida en que un producto puede ser usado por usuarios específicos para alcanzar objetivos definidos con efectividad, eficiencia y satisfacción en un contexto de uso determinado. Esta definición, basada en el estándar ISO 9241-11, se descompone en componentes medibles y optimizables.
 
 Para el Sistema de Censo Rural, la usabilidad adquiere características especializadas derivadas del perfil de usuario y contexto operativo:
 
-**Facilidad de Aprendizaje:** La interfaz debe ser suficientemente intuitiva para que un encuestador nuevo pueda realizar operaciones básicas en menos de 30 minutos de capacitación, considerando que muchos usuarios pueden tener limitada experiencia previa con tecnología digital.
+Facilidad de Aprendizaje: La interfaz debe ser suficientemente intuitiva para que un encuestador nuevo pueda realizar operaciones básicas en menos de 30 minutos de capacitación, considerando que muchos usuarios pueden tener limitada experiencia previa con tecnología digital.
 
-**Eficiencia de Uso:** Los usuarios experimentados deben poder completar un censo familiar promedio en menos de 15 minutos, minimizando el número de toques de pantalla y optimizando los flujos de navegación más frecuentes.
+Eficiencia de Uso: Los usuarios experimentados deben poder completar un censo familiar promedio en menos de 15 minutos, minimizando el número de toques de pantalla y optimizando los flujos de navegación más frecuentes.
 
-**Memorabilidad:** Después de una semana sin usar el sistema, los usuarios deben poder retomar las tareas principales sin necesidad de re-entrenamiento, utilizando patrones de navegación consistentes y terminología familiar.
+Memorabilidad: Después de una semana sin usar el sistema, los usuarios deben poder retomar las tareas principales sin necesidad de re-entrenamiento, utilizando patrones de navegación consistentes y terminología familiar.
 
-**Prevención y Gestión de Errores:** El sistema debe minimizar la posibilidad de errores del usuario mediante validación en tiempo real, y cuando los errores ocurran, debe proporcionar mensajes claros y constructivos para su resolución.
+Prevención y Gestión de Errores: El sistema debe minimizar la posibilidad de errores del usuario mediante validación en tiempo real, y cuando los errores ocurran, debe proporcionar mensajes claros y constructivos para su resolución.
 
-**Satisfacción Subjetiva:** Los usuarios deben reportar una experiencia positiva de uso, sintiendo que el sistema les ayuda a realizar su trabajo de manera más eficiente y con menor estrés.
+Satisfacción Subjetiva: Los usuarios deben reportar una experiencia positiva de uso, sintiendo que el sistema les ayuda a realizar su trabajo de manera más eficiente y con menor estrés.
 
-### 2.3 Estándares de Calidad de Software
+ 2.3 Estándares de Calidad de Software
 
 Los estándares de calidad de software proporcionan frameworks estructurados para evaluar, medir y mejorar las características de calidad de los sistemas informáticos. En el contexto del Sistema de Censo Rural, se han identificado estándares específicamente relevantes:
 
-**WCAG 2.1 (Web Content Accessibility Guidelines):** Este estándar internacional define criterios específicos para hacer el contenido web accesible a personas con discapacidades. Para el Censo Rural, la implementación de WCAG 2.1 nivel AA garantiza:
+WCAG 2.1 (Web Content Accessibility Guidelines): Este estándar internacional define criterios específicos para hacer el contenido web accesible a personas con discapacidades. Para el Censo Rural, la implementación de WCAG 2.1 nivel AA garantiza:
 
-- **Perceptibilidad:** Toda la información debe ser presentable en formas que los usuarios puedan percibir, incluyendo texto alternativo para imágenes, contraste adecuado de colores y opciones de escalamiento de texto.
+- Perceptibilidad: Toda la información debe ser presentable en formas que los usuarios puedan percibir, incluyendo texto alternativo para imágenes, contraste adecuado de colores y opciones de escalamiento de texto.
 
-- **Operabilidad:** Los componentes de la interfaz deben ser operables por todos los usuarios, implementando navegación por teclado, tiempos de respuesta ajustables y mecanismos para evitar convulsiones fotosensitivas.
+- Operabilidad: Los componentes de la interfaz deben ser operables por todos los usuarios, implementando navegación por teclado, tiempos de respuesta ajustables y mecanismos para evitar convulsiones fotosensitivas.
 
-- **Comprensibilidad:** La información y operación de la interfaz usuario debe ser comprensible, utilizando lenguaje claro, comportamiento predecible y ayuda contextual cuando sea necesaria.
+- Comprensibilidad: La información y operación de la interfaz usuario debe ser comprensible, utilizando lenguaje claro, comportamiento predecible y ayuda contextual cuando sea necesaria.
 
-- **Robustez:** El contenido debe ser suficientemente robusto para ser interpretado confiablemente por una amplia variedad de tecnologías asistivas y navegadores.
+- Robustez: El contenido debe ser suficientemente robusto para ser interpretado confiablemente por una amplia variedad de tecnologías asistivas y navegadores.
 
-**ISO 25010 (System and Software Quality Requirements and Evaluation):** Este estándar define un modelo de calidad comprehensivo con características principales aplicables al Censo Rural: funcionalidad, confiabilidad, usabilidad, eficiencia de rendimiento, seguridad, compatibilidad, mantenibilidad y portabilidad.
+ISO 25010 (System and Software Quality Requirements and Evaluation): Este estándar define un modelo de calidad comprehensivo con características principales aplicables al Censo Rural: funcionalidad, confiabilidad, usabilidad, eficiencia de rendimiento, seguridad, compatibilidad, mantenibilidad y portabilidad.
 
-### 2.4 Tecnologías y Prácticas para la Implementación de Calidad
+ 2.4 Tecnologías y Prácticas para la Implementación de Calidad
 
 La implementación efectiva de calidad en el Sistema de Censo Rural requiere la integración de tecnologías específicas y prácticas de desarrollo que soporten los objetivos de confiabilidad, rendimiento y usabilidad.
 
-**Stack Tecnológico Backend:**
+Stack Tecnológico Backend:
 
-- **Python/Django:** Framework que facilita desarrollo rápido y seguro, con funcionalidades integradas para autenticación, autorización y protección contra vulnerabilidades comunes (XSS, CSRF, injection attacks).
+- Python/Django: Framework que facilita desarrollo rápido y seguro, con funcionalidades integradas para autenticación, autorización y protección contra vulnerabilidades comunes (XSS, CSRF, injection attacks).
 
-- **PostgreSQL:** Sistema de gestión de base de datos que proporciona transacciones ACID, replicación avanzada y capacidades de análisis geoespacial esenciales para el componente de georreferenciación.
+- PostgreSQL: Sistema de gestión de base de datos que proporciona transacciones ACID, replicación avanzada y capacidades de análisis geoespacial esenciales para el componente de georreferenciación.
 
-**Desarrollo Móvil Cross-Platform:**
+Desarrollo Móvil Cross-Platform:
 
-- **Flutter:** Framework que permite desarrollo unificado para Android y iOS con rendimiento nativo, reduciendo inconsistencias entre plataformas y acelerando el ciclo de desarrollo bajo metodología XP.
+- Flutter: Framework que permite desarrollo unificado para Android y iOS con rendimiento nativo, reduciendo inconsistencias entre plataformas y acelerando el ciclo de desarrollo bajo metodología XP.
 
-**Arquitectura de Sincronización:**
+Arquitectura de Sincronización:
 
-- **Event Sourcing con Apache Kafka:** Patrón arquitectónico que garantiza integridad de datos y permite reconstrucción del estado del sistema, crítico para operación offline/online del censo rural.
+- Event Sourcing con Apache Kafka: Patrón arquitectónico que garantiza integridad de datos y permite reconstrucción del estado del sistema, crítico para operación offline/online del censo rural.
 
-- **Redis:** Sistema de caché en memoria que mejora significativamente los tiempos de respuesta para consultas frecuentes y reduce la carga en la base de datos principal.
+- Redis: Sistema de caché en memoria que mejora significativamente los tiempos de respuesta para consultas frecuentes y reduce la carga en la base de datos principal.
 
-**Orquestación y Escalabilidad:**
+Orquestación y Escalabilidad:
 
-- **Docker + Kubernetes:** Containerización que garantiza consistencia entre entornos de desarrollo, pruebas y producción, facilitando escalamiento horizontal según demanda.
+- Docker + Kubernetes: Containerización que garantiza consistencia entre entornos de desarrollo, pruebas y producción, facilitando escalamiento horizontal según demanda.
 
-**Patrones de Diseño para Calidad:**
+Patrones de Diseño para Calidad:
 
-- **Repository Pattern:** Abstrae el acceso a datos facilitando testing unitario y permitiendo cambios en la capa de persistencia sin afectar la lógica de negocio.
+- Repository Pattern: Abstrae el acceso a datos facilitando testing unitario y permitiendo cambios en la capa de persistencia sin afectar la lógica de negocio.
 
-- **Observer Pattern:** Implementa notificaciones automáticas entre componentes, esencial para sincronización de datos y actualizaciones de interfaz en tiempo real.
+- Observer Pattern: Implementa notificaciones automáticas entre componentes, esencial para sincronización de datos y actualizaciones de interfaz en tiempo real.
 
-- **Strategy Pattern:** Permite intercambiar algoritmos dinámicamente, útil para adaptar comportamientos según conectividad disponible (online vs offline).
+- Strategy Pattern: Permite intercambiar algoritmos dinámicamente, útil para adaptar comportamientos según conectividad disponible (online vs offline).
 
-- **Factory Method:** Facilita creación de objetos complejos y mejora la testabilidad del código, crítico para la metodología XP que requiere testing automatizado extensivo.
+- Factory Method: Facilita creación de objetos complejos y mejora la testabilidad del código, crítico para la metodología XP que requiere testing automatizado extensivo.
 
 Estas tecnologías y patrones trabajan sinérgicamente para crear un sistema que no solo cumple con los requisitos funcionales del censo rural, sino que mantiene altos estándares de calidad, mantenibilidad y extensibilidad necesarios para evolución continua bajo metodología ágil.
 
----
 
-## SECCIÓN 3: MAPA DE NAVEGACIÓN
 
-### 3.1 Diseño del Diagrama de Flujo de Navegación
+ SECCIÓN 3: MAPA DE NAVEGACIÓN
+
+ 3.1 Diseño del Diagrama de Flujo de Navegación
 
 El mapa de navegación del Sistema de Censo Rural ha sido diseñado siguiendo principios de usabilidad centrada en el usuario, minimizando la carga cognitiva y optimizando los flujos de trabajo más frecuentes. El diseño considera tres perfiles de usuario principales con necesidades de navegación diferenciadas:
 
-**Flujo de Navegación para Encuestadores:**
+Flujo de Navegación para Encuestadores:
 
 ```
 Inicio de Sesión → Dashboard Principal → Selección de Zona
@@ -228,7 +228,7 @@ Vista Previa ← Lista de Pendientes ← Estado de Conectividad
 Siguiente Hogar → Fin de Jornada → Resumen de Actividad → Cierre de Sesión
 ```
 
-**Flujo de Navegación para Supervisores:**
+Flujo de Navegación para Supervisores:
 
 ```
 Inicio de Sesión → Dashboard Supervisión → Vista de Equipos
@@ -240,7 +240,7 @@ Validación de Datos → Generación de Alertas → Comunicación con Equipo
 Aprobación Final → Exportación de Datos → Archivo del Período
 ```
 
-**Flujo de Navegación para Administradores:**
+Flujo de Navegación para Administradores:
 
 ```
 Inicio de Sesión → Dashboard Ejecutivo → Gestión de Usuarios
@@ -252,70 +252,70 @@ Respaldos y Seguridad ← Auditoría del Sistema → Reportes Institucionales
 Configuración de Políticas → Mantenimiento → Cierre de Sesión
 ```
 
-### 3.2 Consideraciones de Usabilidad y Accesibilidad en la Navegación
+ 3.2 Consideraciones de Usabilidad y Accesibilidad en la Navegación
 
-**Claridad y Coherencia:**
+Claridad y Coherencia:
 
 El mapa de navegación implementa una estructura jerárquica clara con un máximo de tres niveles de profundidad, evitando la desorientación del usuario. Cada pantalla incluye indicadores de ubicación (breadcrumbs) y opciones de retorno intuitivas.
 
-**Minimización de Carga Cognitiva:**
+Minimización de Carga Cognitiva:
 
 Los flujos de navegación principales requieren un máximo de cuatro toques/clics para completarse, siguiendo la regla de los "tres clics" adaptada para dispositivos móviles. Las tareas más frecuentes (captura de datos, sincronización) están disponibles directamente desde el dashboard principal.
 
-**Adaptación a Condiciones de Campo:**
+Adaptación a Condiciones de Campo:
 
 El diseño considera específicamente los desafíos de operación en campo:
 
-- **Modo Offline:** Cuando no hay conectividad, el sistema automáticamente oculta opciones dependientes de red y destaca funcionalidades offline disponibles.
-- **Navegación de Emergencia:** Botones de acceso rápido para funciones críticas como "Guardar y Salir" y "Solicitar Ayuda" están siempre visibles.
-- **Recuperación de Sesión:** El sistema recuerda automáticamente el punto de navegación anterior para facilitar la continuación del trabajo tras interrupciones.
+- Modo Offline: Cuando no hay conectividad, el sistema automáticamente oculta opciones dependientes de red y destaca funcionalidades offline disponibles.
+- Navegación de Emergencia: Botones de acceso rápido para funciones críticas como "Guardar y Salir" y "Solicitar Ayuda" están siempre visibles.
+- Recuperación de Sesión: El sistema recuerda automáticamente el punto de navegación anterior para facilitar la continuación del trabajo tras interrupciones.
 
-**Accesibilidad Universal:**
+Accesibilidad Universal:
 
 La navegación cumple con principios WCAG 2.1:
 
-- **Navegación por Teclado:** Todos los elementos interactivos son accesibles mediante navegación secuencial con tecla Tab.
-- **Indicadores Visuales:** Estados activos, visitados y disponibles se distinguen por color, forma y texto simultáneamente.
-- **Tiempo Ajustable:** Los usuarios pueden configurar tiempos de sesión según sus necesidades específicas.
-- **Consistencia de Interacción:** Patrones de navegación idénticos se mantienen en toda la aplicación para facilitar el aprendizaje y memorización.
+- Navegación por Teclado: Todos los elementos interactivos son accesibles mediante navegación secuencial con tecla Tab.
+- Indicadores Visuales: Estados activos, visitados y disponibles se distinguen por color, forma y texto simultáneamente.
+- Tiempo Ajustable: Los usuarios pueden configurar tiempos de sesión según sus necesidades específicas.
+- Consistencia de Interacción: Patrones de navegación idénticos se mantienen en toda la aplicación para facilitar el aprendizaje y memorización.
 
-**Optimización para Sincronización:**
+Optimización para Sincronización:
 
 El mapa contempla flujos alternativos específicos para la sincronización de datos:
 
-- **Sincronización Automática:** Cuando hay conectividad estable, la sincronización ocurre transparentemente sin interrumpir el flujo de trabajo.
-- **Sincronización Manual:** En conectividad intermitente, el usuario puede iniciar sincronización selectiva de datos prioritarios.
-- **Resolución de Conflictos:** Flujo especializado para manejar discrepancias entre datos locales y del servidor, presentando opciones claras de resolución.
+- Sincronización Automática: Cuando hay conectividad estable, la sincronización ocurre transparentemente sin interrumpir el flujo de trabajo.
+- Sincronización Manual: En conectividad intermitente, el usuario puede iniciar sincronización selectiva de datos prioritarios.
+- Resolución de Conflictos: Flujo especializado para manejar discrepancias entre datos locales y del servidor, presentando opciones claras de resolución.
 
 Este diseño de navegación garantiza que el Sistema de Censo Rural sea verdaderamente funcional en las condiciones desafiantes del trabajo de campo rural, manteniendo altos estándares de usabilidad y accesibilidad que permiten a todos los usuarios completar sus tareas eficientemente, independientemente de su nivel de experiencia tecnológica o las condiciones ambientales de operación.
 
----
 
-## CONCLUSIONES
+
+ CONCLUSIONES
 
 El desarrollo de este taller ha permitido consolidar una propuesta integral de prototipo para el Sistema de Censo Rural que efectivamente aborda los desafíos específicos del contexto rural mediante la aplicación rigurosa de principios de usabilidad, accesibilidad y calidad de software.
 
-**Aprendizajes Clave sobre Diseño de Prototipos:**
+Aprendizajes Clave sobre Diseño de Prototipos:
 
 La construcción del prototipo ha demostrado que el diseño centrado en el usuario requiere un entendimiento profundo del contexto operativo. Para el Censo Rural, esto significa reconocer que la tecnología debe adaptarse a las limitaciones de conectividad, diversidad en competencias digitales y condiciones ambientales variables, en lugar de esperar que los usuarios se adapten completamente a la tecnología.
 
-**Integración de Requisitos Funcionales y de Calidad:**
+Integración de Requisitos Funcionales y de Calidad:
 
 El proyecto ha evidenciado que los atributos de calidad no son características agregadas posteriormente, sino que deben estar integrados desde el diseño inicial de la interfaz y la arquitectura. La confiabilidad del 99.99% en la preservación de datos, por ejemplo, se manifiesta tanto en patrones de arquitectura de software como en elementos específicos de la interfaz de usuario que confirman visualmente el estado de sincronización.
 
-**Importancia de la Metodología XP en Proyectos de Impacto Social:**
+Importancia de la Metodología XP en Proyectos de Impacto Social:
 
 La metodología Extreme Programming se revela especialmente apropiada para proyectos como el Censo Rural, donde los requisitos pueden evolucionar basándose en retroalimentación directa de usuarios en campo. La capacidad de entregar módulos funcionales incrementales permite validación temprana y ajustes rápidos que son críticos cuando se trabaja con poblaciones vulnerables cuyas necesidades deben ser prioritarias.
 
-**Estándares de Accesibilidad como Factor de Inclusión:**
+Estándares de Accesibilidad como Factor de Inclusión:
 
 La implementación de estándares WCAG 2.1 trasciende el cumplimiento normativo para convertirse en un elemento de inclusión social real. En el contexto rural, donde pueden existir usuarios con diferentes capacidades y niveles de alfabetización, la accesibilidad universal garantiza que el censo verdaderamente represente a toda la población, sin exclusiones tecnológicas inadvertidas.
 
-**Sostenibilidad y Escalabilidad del Diseño:**
+Sostenibilidad y Escalabilidad del Diseño:
 
 El stack tecnológico propuesto y los patrones de diseño implementados no solo resuelven las necesidades inmediatas del censo rural, sino que establecen una base sólida para evolución futura. La arquitectura modular facilita la incorporación de nuevas funcionalidades según evolucionen las políticas públicas y las necesidades de las comunidades rurales.
 
-**Reflexión Final:**
+Reflexión Final:
 
 Este taller demuestra que el desarrollo de software para impacto social requiere un equilibrio sofisticado entre rigor técnico y sensibilidad humana. El prototipo resultante no es simplemente una herramienta tecnológica, sino un instrumento de inclusión que permite que las voces de las comunidades rurales sean escuchadas y consideradas en la formulación de políticas públicas que afectan directamente sus vidas.
 
