@@ -1,0 +1,8 @@
+
+1.  **Identificar entidades y relaciones planteadas en el caso de estudio GA4-220501093-AA1-EV01** (D)
+2.  **Resolución a problemas algorítmicos aplicando estructuras de almacenamiento GA3-220501093-AA3-EV02** (D)
+3.  **Prueba de Conocimiento: Cuestionario GA3-220201501-AA1-EV01** (D)
+4.  **Video-expositivo sobre experimento de aplicación GA3-220201501-AA2-EV01** (NP)
+5.  **Video-expositivo sobre experimento de aplicación GA3-220201501-AA4-EV01** (NP)
+6.  **Video sustentación. GA2-240201528-AA3-EV01** (NP)
+7.  **Bitácora de procesos desarrollados en la competencia GA3-220201501-AA4-EV02** (NP)
