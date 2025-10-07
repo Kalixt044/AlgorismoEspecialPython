@@ -1,0 +1,500 @@
+Esquema de Resolución de Evidencia
+GA3-220501093-AA3-EV02
+I. Identificación y Requisitos Generales
+Componente
+	
+Detalle
+	
+Referencia
+Nombre de la Evidencia
+	
+Resolución a problemas algorítmicos aplicando estructuras de almacenamiento
+	
+Tipo de Evidencia
+	
+Desempeño
+	
+Objetivo
+	
+Aplicar conocimientos sobre estructuras de control y estructuras de almacenamiento (arreglos, vectores) para dar solución a problemas algorítmicos
+.
+	
+Lenguaje de Programación
+	
+JavaScript
+	
+Estructuras Requeridas
+	
+Uso de todas las estructuras de control requeridas y estructuras de almacenamiento (vectores y matrices)
+.
+	
+Formato de Entrega
+	
+Un único archivo comprimido (formato ZIP) que contenga las soluciones de todos los problemas
+.
+	
+II. Estructura del Desarrollo (Problemas Propuestos)
+El desarrollo debe incluir cuatro programas independientes, cada uno resolviendo un problema específico
+.
+1. Problema 1: Cálculo de Área o Perímetro de Figuras Planas
+Objetivo: Desarrollar un programa que permita calcular el área o el perímetro de figuras planas
+.
+Figuras a Incluir (Tabla 1)
+	
+Requerimientos Funcionales
+Triángulo
+	
+Implementar la lógica para calcular tanto el área como el perímetro de un triángulo
+.
+Rectángulo
+	
+Implementar la lógica para calcular tanto el área como el perímetro de un rectángulo
+.
+Cuadrado
+	
+Implementar la lógica para calcular tanto el área como el perímetro de un cuadrado
+.
+Círculo
+	
+Implementar la lógica para calcular tanto el área como el perímetro de un círculo
+.
+Consideraciones
+	
+Se requiere una interfaz o menú que permita al usuario seleccionar la figura y la operación a realizar (área o perímetro)
+.
+2. Problema 2: Análisis Estadístico de Edades
+Objetivo: Desarrollar un programa que almacene y analice las edades de 10 personas utilizando un vector de enteros
+.
+Requerimientos de Funcionalidad y Almacenamiento
+	
+Estructuras y Lógica
+Almacenamiento
+	
+Utilizar un vector de enteros para almacenar las edades de un grupo de 10 personas
+.
+Cálculos Requeridos
+	
+Determinar la cantidad de personas: menores de edad, mayores de edad, y adultos mayores (edad igual o superior a 60)
+.
+Estadísticas Adicionales
+	
+Determinar la edad más baja, la edad más alta y el promedio de edades ingresadas
+.
+Validación de Entrada
+	
+Se debe validar que cada valor ingresado para la edad esté en un rango entre 1 y 120 años
+. En caso de error, el programa debe notificar y solicitar un nuevo valor
+.
+3. Problema 3: Mezcla y Ordenación de Vectores
+Objetivo: Escribir un programa que lea dos vectores de números enteros ordenados ascendentemente y produzca una lista ordenada de la mezcla de ambos
+.
+Requerimientos Específicos
+	
+Estructuras y Lógica
+Almacenamiento
+	
+Leer y utilizar dos vectores de números enteros
+.
+Límite de Tamaño
+	
+Limitar los vectores a un tamaño de 5 elementos cada uno
+.
+Condición Inicial
+	
+Los números en ambos vectores deben estar ordenados ascendentemente
+.
+Validación de Entrada
+	
+Se debe validar en cada ingreso que los datos se estén ingresando de forma ascendente
+.
+Resultado Esperado
+	
+Producir una lista ordenada que contenga la mezcla de los elementos de los dos vectores
+.
+4. Problema 4: Sistema de Registro de Gustos Musicales (Emisora)
+Objetivo: Desarrollar una solución para una emisora que desea registrar los gustos musicales y datos personales de 6 personas, con el fin de conocer el rating de canciones y cantantes más escuchados
+.
+Requerimientos de Almacenamiento y Funcionalidad
+	
+Detalles Específicos
+Almacenamiento Principal
+	
+El sistema debe registrar datos de 6 personas
+. El uso de un vector (arreglo) será necesario para almacenar estas estructuras de datos de las personas
+.
+Datos Personales por Persona
+	
+Nombre, número de identificación (cédula), fecha de nacimiento, correo electrónico, ciudad de residencia, ciudad de origen
+.
+Datos Musicales
+	
+Almacenar el artista y el título de hasta 3 canciones favoritas por cada persona
+.
+Opciones del Menú (Requeridas)
+	
+La solución debe mostrar un menú con las siguientes opciones
+:
+Opción a
+	
+Agregar una persona con todos los datos personales y musicales listados anteriormente
+.
+Opción b
+	
+Mostrar la información personal de una persona particular por medio de su posición en el vector
+.
+III. Criterios de Evaluación
+La solución será evaluada según la coherencia y el funcionamiento correcto de la implementación en JavaScript para cada uno de los cuatro problemas propuestos
+:
+1. Solución coherente al problema 1 usando el lenguaje JavaScript (25%)
+.
+2. Solución coherente al problema 2 usando el lenguaje JavaScript (25%)
+.
+3. Solución coherente al problema 3 usando el lenguaje JavaScript (25%)
+.
+4. Solución coherente al problema 4 usando el lenguaje JavaScript (25%)
+. Además, se espera que el aprendiz manipule arreglos en diferentes dimensiones para dar solución a problemas reales.
+
+
+Propuesta de Código en JavaScript
+1. Problema 1: Cálculo de Área o Perímetro de Figuras Planas
+Este programa utiliza estructuras de control condicionales (switch o if/else) para manejar la selección de la figura (Triángulo, Rectángulo, Cuadrado, Círculo) y la operación (Área o Perímetro)
+.
+
+// Constante para Pi (necesaria para el círculo)
+const PI = 3.14159;
+
+function calcularGeometria() {
+    let figura;
+    let operacion;
+
+    console.log("--- CALCULADORA DE FIGURAS PLANAS ---");
+
+    // Menú de selección de figura
+    figura = prompt("Seleccione la figura (1: Triángulo, 2: Rectángulo, 3: Cuadrado, 4: Círculo):");
+    figura = parseInt(figura);
+
+    if (figura >= 1 && figura <= 4) {
+        // Menú de selección de operación
+        operacion = prompt("¿Desea calcular (A)rea o (P)erímetro?").toUpperCase();
+
+        switch (figura) {
+            case 1: // Triángulo
+                let base_t = parseFloat(prompt("Ingrese la base del triángulo:"));
+                let altura_t = parseFloat(prompt("Ingrese la altura del triángulo:"));
+                let lado1_t = parseFloat(prompt("Ingrese lado 1:"));
+                let lado2_t = parseFloat(prompt("Ingrese lado 2:"));
+                let lado3_t = parseFloat(prompt("Ingrese lado 3:"));
+                
+                if (operacion === 'A') {
+                    let area = (base_t * altura_t) / 2;
+                    console.log(`El área del Triángulo es: ${area}`);
+                } else if (operacion === 'P') {
+                    let perimetro = lado1_t + lado2_t + lado3_t;
+                    console.log(`El perímetro del Triángulo es: ${perimetro}`);
+                }
+                break;
+
+            case 2: // Rectángulo
+                let largo_r = parseFloat(prompt("Ingrese el largo del rectángulo:"));
+                let ancho_r = parseFloat(prompt("Ingrese el ancho del rectángulo:"));
+                
+                if (operacion === 'A') {
+                    let area = largo_r * ancho_r;
+                    console.log(`El área del Rectángulo es: ${area}`);
+                } else if (operacion === 'P') {
+                    let perimetro = 2 * (largo_r + ancho_r);
+                    console.log(`El perímetro del Rectángulo es: ${perimetro}`);
+                }
+                break;
+
+            case 3: // Cuadrado
+                let lado_c = parseFloat(prompt("Ingrese el lado del cuadrado:"));
+
+                if (operacion === 'A') {
+                    let area = lado_c * lado_c;
+                    console.log(`El área del Cuadrado es: ${area}`);
+                } else if (operacion === 'P') {
+                    let perimetro = 4 * lado_c;
+                    console.log(`El perímetro del Cuadrado es: ${perimetro}`);
+                }
+                break;
+
+            case 4: // Círculo
+                let radio_ci = parseFloat(prompt("Ingrese el radio del círculo:"));
+
+                if (operacion === 'A') {
+                    let area = PI * radio_ci * radio_ci;
+                    console.log(`El área del Círculo es: ${area}`);
+                } else if (operacion === 'P') {
+                    // Perímetro del círculo es 2 * PI * radio (circunferencia)
+                    let perimetro = 2 * PI * radio_ci; 
+                    console.log(`El perímetro del Círculo es: ${perimetro}`);
+                }
+                break;
+        }
+    } else {
+        console.log("Figura no válida.");
+    }
+}
+
+// Para ejecutar: calcularGeometria();
+
+2. Problema 2: Análisis Estadístico de Edades
+Este programa utiliza un vector (arreglo) para almacenar 10 edades y un bucle (while o for) para la entrada de datos, incluyendo la validación requerida de que la edad esté entre 1 y 120 años
+.
+
+function analizarEdades() {
+    const MAX_PERSONAS = 10;
+    let edades = []; // Vector de enteros para 10 personas [2, 6, 8]
+    
+    let menores = 0;
+    let mayores = 0;
+    let adultosMayores = 0; // Edad >= 60 [2, 6, 8]
+    let sumaEdades = 0;
+    let edadMinima = 121; // Inicializada alto para encontrar el mínimo
+    let edadMaxima = 0;   // Inicializada bajo para encontrar el máximo
+
+    console.log(`--- INGRESO DE EDADES (${MAX_PERSONAS} personas) ---`);
+
+    for (let i = 0; i < MAX_PERSONAS; i++) {
+        let edad;
+        let esValida = false;
+
+        // Bucle para la validación de entrada [2, 6, 8]
+        while (!esValida) {
+            edad = parseInt(prompt(`Ingrese la edad de la persona ${i + 1} (entre 1 y 120):`));
+
+            // Validación de rango [2, 6, 8]
+            if (edad >= 1 && edad <= 120) {
+                edades.push(edad);
+                esValida = true;
+            } else {
+                console.log("ERROR: La edad debe estar en el rango de 1 a 120 años. Intente de nuevo."); [2, 6, 8]
+            }
+        }
+    }
+    
+    // Análisis de las edades almacenadas en el vector
+    for (let edad of edades) {
+        sumaEdades += edad;
+
+        // Contadores
+        if (edad < 18) {
+            menores++;
+        } else {
+            mayores++;
+        }
+        
+        // Adultos mayores (>= 60) [2, 6, 8]
+        if (edad >= 60) {
+            adultosMayores++;
+        }
+
+        // Mínima y Máxima
+        if (edad < edadMinima) {
+            edadMinima = edad; // Edad más baja [2, 6, 8]
+        }
+        if (edad > edadMaxima) {
+            edadMaxima = edad; // Edad más alta [2, 6, 8]
+        }
+    }
+
+    // Cálculo del promedio
+    let promedio = sumaEdades / MAX_PERSONAS; // Promedio de edades ingresadas [2, 6, 8]
+
+    console.log("\n--- RESULTADOS ESTADÍSTICOS ---");
+    console.log(`Total de personas encuestadas: ${MAX_PERSONAS}`);
+    console.log(`Menores de edad: ${menores}`);
+    console.log(`Mayores de edad: ${mayores}`);
+    console.log(`Adultos mayores (>= 60 años): ${adultosMayores}`);
+    console.log(`Edad más baja: ${edadMinima}`);
+    console.log(`Edad más alta: ${edadMaxima}`);
+    console.log(`Promedio de edades: ${promedio.toFixed(2)}`);
+}
+
+// Para ejecutar: analizarEdades();
+
+3. Problema 3: Mezcla y Ordenación de Vectores
+Este programa lee dos vectores de tamaño 5, validando que el ingreso sea ascendente en cada uno. Luego, los mezcla y produce una lista ordenada final
+.
+Nota: La solución implementa el algoritmo de mezcla (Merge) directamente, aprovechando que los vectores de entrada ya están ordenados, lo cual es más eficiente que concatenar y luego ordenar.
+
+// Función genérica para leer y validar un vector de tamaño N (5) [3, 9, 10]
+function leerVectorOrdenado(nombreVector, tamaño) {
+    let vector = [];
+    let valorAnterior = -Infinity;
+
+    console.log(`\n--- INGRESO DEL ${nombreVector} (Tamaño ${tamaño}) ---`);
+    
+    for (let i = 0; i < tamaño; i++) {
+        let esValido = false;
+        let nuevoValor;
+
+        // Bucle de validación para asegurar el orden ascendente [3, 9, 10]
+        while (!esValido) {
+            nuevoValor = parseInt(prompt(`Ingrese el elemento ${i + 1} para ${nombreVector} (Debe ser >= ${valorAnterior}):`));
+
+            if (isNaN(nuevoValor)) {
+                console.log("ERROR: Ingrese un número entero.");
+            } else if (nuevoValor >= valorAnterior) {
+                vector.push(nuevoValor);
+                valorAnterior = nuevoValor;
+                esValido = true;
+            } else {
+                console.log("ERROR: El número debe ser ingresado de forma ascendente. Intente de nuevo."); [3, 9, 10]
+            }
+        }
+    }
+    return vector;
+}
+
+function mezclarVectores() {
+    const TAMANO_VECTOR = 5; // Límite de 5 elementos por vector [3, 9, 10]
+    
+    // Lectura y validación de los dos vectores [3, 9, 10]
+    let vectorA = leerVectorOrdenado("Vector A", TAMANO_VECTOR);
+    let vectorB = leerVectorOrdenado("Vector B", TAMANO_VECTOR);
+    
+    let vectorMezclado = [];
+    let i = 0; // Índice para Vector A
+    let j = 0; // Índice para Vector B
+
+    // Algoritmo de mezcla (Merge)
+    while (i < vectorA.length || j < vectorB.length) {
+        if (i < vectorA.length && (j >= vectorB.length || vectorA[i] <= vectorB[j])) {
+            vectorMezclado.push(vectorA[i]);
+            i++;
+        } else if (j < vectorB.length) {
+            vectorMezclado.push(vectorB[j]);
+            j++;
+        }
+    }
+
+    console.log("\n--- RESULTADOS DE LA MEZCLA ---");
+    console.log(`Vector A: [${vectorA.join(', ')}]`);
+    console.log(`Vector B: [${vectorB.join(', ')}]`);
+    console.log(`Lista ordenada resultante: [${vectorMezclado.join(', ')}]`); // Produce la lista ordenada [3, 9, 10]
+    // Ejemplo esperado: 1 2 3 4 6 9 10 17 17
+}
+
+// Para ejecutar: mezclarVectores();
+
+4. Problema 4: Sistema de Registro de Gustos Musicales (Emisora)
+Este programa gestiona un vector de objetos (estructuras de datos) para almacenar la información de 6 personas y sus gustos musicales (hasta 3 canciones favoritas)
+.
+
+// Vector para almacenar los datos de las 6 personas [3, 9, 12]
+let encuestados = [];
+const MAX_ENCUESTADOS = 6; 
+
+// Estructura de la Persona (Objeto)
+/* 
+{
+    nombre: String,
+    cedula: String,
+    fechaNacimiento: String,
+    correo: String,
+    ciudadResidencia: String,
+    ciudadOrigen: String,
+    cancionesFavoritas: [{ artista: String, titulo: String }, ...] // Hasta 3 canciones [3, 9, 12]
+}
+*/
+
+function agregarPersona() {
+    if (encuestados.length >= MAX_ENCUESTADOS) {
+        console.log("El límite de 6 personas encuestadas ha sido alcanzado.");
+        return;
+    }
+    
+    console.log("\n--- AGREGAR NUEVA PERSONA ---");
+
+    let nuevaPersona = {};
+    
+    // Recolección de datos personales [3, 9, 12]
+    nuevaPersona.nombre = prompt("Nombre:");
+    nuevaPersona.cedula = prompt("Número de identificación (Cédula):");
+    nuevaPersona.fechaNacimiento = prompt("Fecha de nacimiento (DD/MM/AAAA):");
+    nuevaPersona.correo = prompt("Correo electrónico:");
+    nuevaPersona.ciudadResidencia = prompt("Ciudad de residencia:");
+    nuevaPersona.ciudadOrigen = prompt("Ciudad de origen:");
+
+    // Recolección de hasta 3 canciones favoritas [3, 9, 12]
+    nuevaPersona.cancionesFavoritas = [];
+    for (let i = 0; i < 3; i++) {
+        let respuesta = prompt(`¿Desea agregar la canción favorita #${i + 1}? (Sí/No)`).toUpperCase();
+        if (respuesta === 'SI' || respuesta === 'SÍ') {
+            let artista = prompt(`Artista de la canción #${i + 1}:`);
+            let titulo = prompt(`Título de la canción #${i + 1}:`);
+            nuevaPersona.cancionesFavoritas.push({ artista: artista, titulo: titulo });
+        } else {
+            break; 
+        }
+    }
+
+    encuestados.push(nuevaPersona);
+    console.log(`\n¡Persona ${nuevaPersona.nombre} agregada con éxito! Posición en el vector: ${encuestados.length - 1}`);
+} // Opción a del menú [5, 12]
+
+function mostrarInformacionPorPosicion() {
+    console.log("\n--- MOSTRAR INFORMACIÓN PERSONAL ---");
+    let posicion = parseInt(prompt(`Ingrese la posición (índice 0 a ${encuestados.length - 1}) de la persona a consultar:`));
+    
+    // Validación de la posición en el vector
+    if (posicion >= 0 && posicion < encuestados.length) {
+        let persona = encuestados[posicion];
+        console.log(`\nInformación de la persona en la posición ${posicion}:`);
+        console.log(`Nombre: ${persona.nombre}`);
+        console.log(`Cédula: ${persona.cedula}`);
+        console.log(`Fecha de Nacimiento: ${persona.fechaNacimiento}`);
+        console.log(`Correo: ${persona.correo}`);
+        console.log(`Ciudad de Residencia: ${persona.ciudadResidencia}`);
+        console.log(`Ciudad de Origen: ${persona.ciudadOrigen}`);
+
+        console.log("\nCanciones Favoritas:");
+        if (persona.cancionesFavoritas.length === 0) {
+            console.log("No se registraron canciones.");
+        } else {
+            persona.cancionesFavoritas.forEach((cancion, index) => {
+                console.log(`  ${index + 1}. Título: ${cancion.titulo}, Artista: ${cancion.artista}`);
+            });
+        }
+    } else {
+        console.log("ERROR: Posición no válida o fuera del rango de encuestados.");
+    }
+} // Opción b del menú [5, 12]
+
+
+function menuPrincipalEmisora() {
+    let opcion;
+    do {
+        console.log("\n--- MENÚ PRINCIPAL EMISORA ---");
+        console.log(`Personas registradas: ${encuestados.length} de ${MAX_ENCUESTADOS}`);
+        console.log("a. Agregar una persona."); // [5, 12]
+        console.log("b. Mostrar información personal por posición."); // [5, 12]
+        console.log("s. Salir.");
+        
+        opcion = prompt("Seleccione una opción:").toLowerCase();
+
+        switch (opcion) {
+            case 'a':
+                agregarPersona();
+                break;
+            case 'b':
+                mostrarInformacionPorPosicion();
+                break;
+            case 's':
+                console.log("Saliendo del sistema. ¡Gracias por usar la app de la emisora!");
+                break;
+            default:
+                console.log("Opción no válida. Intente de nuevo.");
+        }
+
+    } while (opcion !== 's');
+}
+
+// Para ejecutar: menuPrincipalEmisora();
+
+
+/**
+ajusta el siguiente codigo a las criterios de evaluacion  Para esta evidencia, las instrucciones pedían resolver cuatro ejercicios específicos (cálculo de área/perímetro de figuras, análisis de edades, mezcla de vectores, y encuesta musical) usando solo JavaScript básico, con variables, condicionales (if, else), bucles (for o while), y entrada/salida por consola (prompt, console.log), sin funciones ni métodos avanzados tu entrega incluye ejercicios no solicitados (como la hipotenusa y el radio de una esfera) y está incompleta, ya que faltan los ejercicios 1, 2 y 4. Tambien recordarte que la entrega es un trabajo escrito bien estructurada portada, introducción, conclusion :
+***/

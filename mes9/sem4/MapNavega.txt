@@ -1,0 +1,194 @@
+ GA5-220501095-AA1-EV05: Mapa de Navegación con Tkinter para el Proyecto "Censo Rural"
+
+ Resumen
+
+El presente documento desarrolla la evidencia GA5-220501095-AA1-EV05, consistente en la elaboración de un mapa de navegación para la aplicación Tkinter del proyecto "Censo Rural". Este mapa constituye una representación visual y estructural que facilita la comprensión del flujo de interacción del usuario con el sistema, asegurando el cumplimiento de principios de usabilidad y accesibilidad específicos para aplicaciones de escritorio que operan en contextos rurales con limitaciones de conectividad y usuarios con diversos niveles de alfabetización digital.
+
+**Palabras clave:** mapa de navegación, usabilidad, accesibilidad, Tkinter, censo rural, aplicaciones stand-alone.
+
+ I. Introducción a la Evidencia y Contexto del Proyecto
+
+ Nombre de la Evidencia y Objetivo General
+
+La presente evidencia, denominada "Mapa de navegación GA5-220501095-AA1-EV05", se inscribe dentro de la actividad de aprendizaje "Elaborar el prototipo navegable del software aplicando estándares de usabilidad y accesibilidad (GA5-220501095-AA1)". El propósito fundamental consiste en presentar una estructura jerárquica comprehensiva del sistema que permita visualizar de manera clara y sistemática la arquitectura informacional del mismo, facilitando tanto su comprensión conceptual como su futura implementación técnica.
+
+La navegación propuesta debe constituir un sistema de guía paso a paso que oriente al usuario a través de las funcionalidades clave del sistema, minimizando la ocurrencia de errores operacionales y optimizando la experiencia de uso mediante la aplicación de principios ergonómicos y de diseño centrado en el usuario.
+
+ Contexto del Proyecto "Censo Rural"
+
+El proyecto "Censo Rural" tiene como objetivo principal optimizar los procesos de recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas. El sistema busca la captura eficiente de información mediante dispositivos móviles y de escritorio, centralizando los datos recolectados en una plataforma segura y facilitando su posterior análisis para la formulación de políticas públicas fundamentadas en evidencia empírica.
+
+La metodología de desarrollo adoptada es Extreme Programming (XP), caracterizada por su enfoque en entregas frecuentes de módulos funcionales independientes que se integran progresivamente una vez que superan las pruebas de calidad establecidas. Esta aproximación iterativa e incremental permite una adaptación continua a los requerimientos cambiantes y una validación temprana de las funcionalidades implementadas.
+
+Los usuarios objetivo del sistema incluyen encuestadores de campo, supervisores de zona y administradores del sistema. La interfaz debe ser particularmente amigable para usuarios con niveles bajos de alfabetización digital, considerando que muchos encuestadores pueden carecer de experiencia previa con sistemas informáticos complejos.
+
+El entorno operacional se caracteriza por la operación en zonas rurales con conectividad limitada o intermitente, lo que hace crítica la implementación de alta disponibilidad y funcionamiento offline con capacidades de sincronización automática cuando la conexión esté disponible. Esta restricción técnica influye significativamente en las decisiones de diseño arquitectónico y de experiencia de usuario.
+
+La tecnología base utilizada incluye Tkinter de Python para la creación de interfaces gráficas de usuario amigables y intuitivas, complementado con SQLite para el almacenamiento local de datos, asegurando así la persistencia de información incluso en ausencia de conectividad de red.
+
+ Criterios de Evaluación y Estándares Adoptados
+
+El criterio fundamental de evaluación consiste en construir el mapa de navegación cumpliendo rigurosamente con las reglas de usabilidad y accesibilidad establecidas por estándares internacionales, adaptados específicamente para el contexto de aplicaciones stand-alone desarrolladas con Tkinter.
+
+ II. Conceptualización del Mapa de Navegación y Principios de Calidad
+
+ Definición de Mapa de Navegación
+
+Un mapa de navegación constituye un proceso sistemático de estructuración de las pantallas o ventanas de una aplicación de escritorio, ilustrando de manera visual y lógica cómo el usuario se desplazará a través de las diferentes interfaces y funcionalidades del sistema. Este artefacto técnico sirve como blueprint conceptual que guía tanto el desarrollo como la evaluación de la experiencia de usuario.
+
+En el contexto específico de aplicaciones Tkinter, el mapa de navegación representa la interconexión entre diferentes frames, ventanas y widgets, estableciendo los flujos de datos y control que determinan la experiencia interactiva del usuario final.
+
+ Tipo de Mapa a Realizar
+
+Se elaborará un modelo conceptual del mapa de navegación que represente visualmente los conceptos clave del dominio del proyecto "Censo Rural" y sus relaciones funcionales. Este modelo adoptará una perspectiva jerárquica que refleje tanto la estructura organizacional de los datos como los patrones de uso típicos de los diferentes roles de usuario.
+
+ Principios de Usabilidad y Accesibilidad en la Navegación
+
+ Consistencia Estructural y Visual
+
+El principio de consistencia requiere mantener encabezados, estilos tipográficos y disposición de elementos coherentes en todas las ventanas de Tkinter. Esta uniformidad visual y funcional reduce la carga cognitiva del usuario al crear patrones de interacción predecibles y transferibles entre diferentes secciones del sistema.
+
+ Accesibilidad Universal
+
+La implementación de accesibilidad incluye la utilización de colores con contraste adecuado según estándares WCAG 2.1, dimensionamiento apropiado de elementos interactivos (botones, campos de entrada) para facilitar la interacción, especialmente considerando usuarios con posibles deficiencias visuales o niveles bajos de alfabetización digital. Los elementos interactivos deben mantener un tamaño mínimo de 44x44 píxeles para asegurar accesibilidad táctil.
+
+ Jerarquía Informacional Clara
+
+El usuario debe poseer conocimiento contextual continuo sobre su ubicación actual dentro del proceso y la funcionalidad que está utilizando. Esto se logra mediante breadcrumbs visuales, títulos descriptivos y indicadores de progreso cuando sea aplicable.
+
+ Navegación Simplificada
+
+La minimización de la profundidad de navegación, idealmente limitada a no más de dos niveles jerárquicos, reduce significativamente la carga cognitiva y previene la desorientación del usuario. Esta restricción es particularmente importante para usuarios con limitada experiencia tecnológica.
+
+ Tiempo de Aprendizaje Optimizado
+
+La interfaz debe ser intuitivamente comprensible para usuarios no técnicos, requiriendo un tiempo de aprendizaje mínimo para las operaciones básicas. Esto se logra mediante el uso de metáforas familiares, iconografía universalmente reconocida y flujos de trabajo que reflejen procesos del mundo real.
+
+ Conformidad con Estándares WCAG 2.1
+
+La aplicación de los principios de perceptibilidad, operabilidad, comprensibilidad y robustez de WCAG 2.1, adaptados al contexto de aplicaciones GUI de escritorio, asegura la accesibilidad universal del sistema.
+
+ Mejores Prácticas de Navegación de Usuario
+
+El diseño de caminos cortos y lógicos para las tareas frecuentes constituye una prioridad fundamental, minimizando errores operacionales y optimizando la experiencia de uso mediante la reducción de pasos innecesarios y la provisión de atajos para usuarios expertos.
+
+ III. Elaboración del Mapa de Navegación para la Aplicación Tkinter "Censo Rural"
+
+ Estructura Jerárquica de la Información
+
+La construcción del árbol jerárquico de importancia de la información revela cómo las funcionalidades se agrupan conceptualmente y se accede a ellas dentro de la aplicación Tkinter. Esta estructura refleja tanto las necesidades operacionales de los usuarios como las restricciones técnicas del entorno de ejecución.
+
+La jerarquía propuesta establece tres niveles principales:
+
+**Nivel 1: Acceso y Autenticación**
+- Ventana de inicio de sesión
+- Gestión de credenciales
+- Recuperación de contraseñas
+
+**Nivel 2: Funcionalidades Principales por Rol**
+- Módulo de Encuestador (captura de datos)
+- Módulo de Supervisor (revisión y validación)
+- Módulo de Administrador (gestión y reportes)
+
+**Nivel 3: Funcionalidades Específicas**
+- Formularios de captura
+- Herramientas de validación
+- Interfaces de sincronización
+- Generación de reportes
+
+ Modelo Conceptual del Mapa de Navegación
+
+La representación visual de la interconexión entre las distintas ventanas y módulos de Tkinter utiliza herramientas especializadas como Draw.io, Lucidchart o Visual Paradigm para asegurar claridad, coherencia y facilidad de comprensión. El mapa resultante debe ser técnicamente preciso pero visualmente accesible para stakeholders no técnicos.
+
+ Flujos de Navegación por Funcionalidad
+
+ Inicio de Sesión y Gestión de Usuarios
+
+El flujo de autenticación inicia con una ventana de inicio de sesión que solicita credenciales de usuario (nombre de usuario y contraseña). El sistema incorpora un flujo alternativo para recuperación de contraseñas que opera mediante preguntas de seguridad predefinidas, manteniendo la funcionalidad offline.
+
+Una vez autenticado, el usuario accede a la ventana principal correspondiente a su rol específico (Encuestador, Supervisor o Administrador), cada una con interfaces y funcionalidades adaptadas a las responsabilidades del rol.
+
+ Captura de Datos en Campo (Encuestadores)
+
+La ventana principal del encuestador presenta opciones claramente diferenciadas para "Iniciar Nuevo Censo" y "Continuar Censo Offline", permitiendo flexibilidad operacional en entornos con conectividad intermitente.
+
+La navegación procede hacia formularios dinámicos que incluyen campos para datos personales estructurados: nombres (con capitalización automática), domicilio, fecha de nacimiento (con validación de formato), sexo (mediante selección múltiple), número de celular (con validación numérica), dirección completa, barrio de residencia y dirección de correo electrónico (con validación de formato).
+
+El sistema implementa validación de datos en tiempo real, proporcionando retroalimentación inmediata sobre errores de formato o campos faltantes. Los flujos de almacenamiento permiten guardar datos localmente en SQLite para operación offline, con sincronización automática posterior cuando se detecte conectividad de red.
+
+Los mensajes de confirmación post-guardado y post-sincronización proporcionan retroalimentación clara sobre el estado de los datos, asegurando confianza del usuario en la integridad del proceso.
+
+ Gestión de Datos y Categorías (Administradores/Supervisores)
+
+La ventana de "Gestión de Habitantes" proporciona funcionalidades completas de CRUD (crear, leer, actualizar, eliminar) para registros de censo, con interfaces optimizadas para búsqueda, filtrado y edición eficientes.
+
+La ventana de "Gestión de Categorías" permite la organización jerárquica de datos por región geográfica, comunidad específica y grupos etarios, facilitando análisis demográficos posteriores.
+
+ Análisis y Reportes (Administradores/Supervisores)
+
+La ventana de "Reportes y Estadísticas" integra capacidades de generación de archivos CSV y visualización de datos estadísticos básicos. La integración con módulos de análisis estadístico (como los implementados en statisk.ipynb) permite generar insights demográficos relevantes para la toma de decisiones.
+
+ Concepto de Plantillas de Ventanas
+
+La adaptación del concepto de plantillas web a "plantillas de ventanas/frames" de Tkinter asegura un diseño consistente y reutilizable para las diferentes secciones de la aplicación. Estas plantillas estandarizan elementos como barras de navegación, áreas de contenido, botones de acción y mensajes de estado, creando una experiencia de usuario cohesiva.
+
+ IV. Justificación de Usabilidad y Accesibilidad en el Mapa de Navegación
+
+ Alineación con Principios de Usabilidad
+
+El diseño del mapa de navegación se alinea estratégicamente con los principios de usabilidad mediante la implementación de flujos lógicos y intuitivos que reflejan los procesos mentales naturales de los usuarios del "Censo Rural". La estructura jerárquica reduce la complejidad aparente del sistema, presentando únicamente las opciones relevantes para cada contexto específico.
+
+ Facilitación para Usuarios con Baja Alfabetización Digital
+
+La sencillez y claridad de los flujos de navegación se optimizan específicamente para usuarios con limitada experiencia tecnológica. Esto se logra mediante la eliminación de opciones redundantes, el uso de terminología familiar y la provisión de ayuda contextual en puntos críticos de decisión.
+
+ Soporte para Operación Offline
+
+El mapa de navegación incorpora rutas claras para la gestión de datos desconectados, incluyendo indicadores visuales del estado de conectividad, opciones de sincronización manual y automática, y resolución de conflictos de datos. Estos flujos son fundamentales para el éxito operacional en el contexto rural objetivo.
+
+ Contribuciones Directas a la Accesibilidad
+
+La consistencia en el diseño, implementada mediante el uso sistemático de contrastes cromáticos adecuados y dimensionamiento apropiado de elementos interactivos, contribuye directamente a la accesibilidad del mapa. Los elementos de navegación mantienen ratios de contraste mínimo de 4.5:1 y tamaños que facilitan la interacción tanto con mouse como con dispositivos de entrada alternativos.
+
+ V. Validación del Mapa de Navegación
+
+ Validación con Personal Interesado
+
+La validación del mapa conceptual se realizará mediante sesiones estructuradas con los stakeholders relevantes, incluyendo encuestadores de campo, supervisores de zona y administradores del sistema. Estas sesiones utilizarán técnicas de card sorting y walk-through cognitivo para identificar inconsistencias o áreas de mejora en los flujos propuestos.
+
+ Documentación mediante Actas
+
+La validación se documentará formalmente a través de actas detalladas que registren la retroalimentación específica, los acuerdos alcanzados y las modificaciones propuestas. Esta documentación constituye un registro histórico de las decisiones de diseño y proporciona trazabilidad para futuras iteraciones.
+
+ Importancia de la Retroalimentación
+
+La retroalimentación de usuarios reales asegura que el mapa de navegación se ajuste a las necesidades operacionales concretas y optimice la experiencia de uso en condiciones reales de campo. Esta validación empírica es fundamental para el éxito del proyecto en su contexto operacional específico.
+
+ VI. Conclusión
+
+El mapa de navegación propuesto para el sistema "Censo Rural" desarrollado con Tkinter constituye un artefacto técnico fundamental que facilita la comprensión conceptual y el uso eficiente del sistema. La estructura jerárquica implementada reduce la complejidad operacional mientras mantiene acceso completo a todas las funcionalidades requeridas.
+
+La importancia de la usabilidad y la accesibilidad en la navegación trasciende consideraciones técnicas, constituyendo factores críticos para el éxito del proyecto en un contexto rural caracterizado por desafíos específicos de conectividad limitada y diversidad en los niveles de alfabetización digital de los usuarios objetivo.
+
+Este artefacto contribuye significativamente a la visión modular y de entregas frecuentes característica de la metodología Extreme Programming, sentando una base conceptual sólida para el desarrollo futuro de la aplicación. La validación continua con usuarios reales asegurará que el sistema evolucione de manera responsiva a las necesidades cambiantes del contexto operacional.
+
+La implementación exitosa de este mapa de navegación representará un avance significativo hacia la digitalización efectiva de procesos de censo rural, contribuyendo a la generación de datos demográficos de calidad para la formulación de políticas públicas basadas en evidencia.
+
+ Referencias
+
+American Psychological Association. (2020). *Publication manual of the American Psychological Association* (7th ed.).
+
+Cooper, A., Reimann, R., & Cronin, D. (2007). *About face 3: The essentials of interaction design*. Wiley Publishing.
+
+Garrett, J. J. (2010). *The elements of user experience: User-centered design for the web and beyond* (2nd ed.). New Riders.
+
+ISO 9241-11:2018. (2018). *Ergonomics of human-system interaction — Part 11: Usability: Definitions and concepts*. International Organization for Standardization.
+
+Krug, S. (2014). *Don't make me think: A common sense approach to web usability* (3rd ed.). New Riders.
+
+Nielsen, J. (1994). *Usability engineering*. Morgan Kaufmann Publishers.
+
+Norman, D. A. (2013). *The design of everyday things: Revised and expanded edition*. Basic Books.
+
+W3C Web Accessibility Initiative. (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium.
+

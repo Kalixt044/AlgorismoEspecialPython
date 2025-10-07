@@ -1,0 +1,251 @@
+ GA5-220501095-AA1-EV03: Elaboración de Interfaz Gráfica y Mapa de Navegación Cumpliendo con Reglas de Usabilidad y Accesibilidad
+
+ Resumen
+
+El presente documento desarrolla la evidencia GA5-220501095-AA1-EV03, enfocándose en la elaboración de interfaces gráficas y mapas de navegación que cumplan rigurosamente con estándares internacionales de usabilidad y accesibilidad para el proyecto "Censo Rural". La propuesta integra conceptos fundamentales de calidad de software, diferenciación entre aplicaciones independientes y web, y la aplicación práctica de reglas de diseño centrado en el usuario. El diseño resultante considera las necesidades específicas de usuarios con diversos niveles de alfabetización digital operando en contextos rurales con restricciones de conectividad, asegurando una experiencia inclusiva y eficiente mediante la implementación de estándares WCAG 2.1 y principios de usabilidad reconocidos internacionalmente.
+
+**Palabras clave:** interfaz gráfica, usabilidad, accesibilidad, aplicaciones independientes, aplicaciones web, censo rural, WCAG 2.1, diseño inclusivo.
+
+ I. Introducción
+
+ Contextualización del Documento
+
+La presente evidencia GA5-220501095-AA1-EV03 tiene como objetivo fundamental determinar las características técnicas de la interfaz gráfica mediante la adopción rigurosa de estándares internacionales de calidad, usabilidad y accesibilidad. Esta determinación técnica se alinea estratégicamente con el proyecto "Censo Rural", cuyo diseño busca proporcionar una experiencia eficiente, intuitiva e inclusiva para todos los usuarios, independientemente de sus capacidades tecnológicas o físicas.
+
+El desarrollo de esta evidencia responde a la necesidad crítica de establecer fundamentos teóricos sólidos que sustenten las decisiones de diseño e implementación, asegurando que el sistema resultante no solo cumpla con requisitos funcionales, sino que también alcance estándares excepcionales de experiencia de usuario y accesibilidad universal.
+
+La contextualización del proyecto "Censo Rural" dentro de un marco de calidad de software contemporáneo requiere consideración exhaustiva de factores como la diversidad de usuarios, las limitaciones de infraestructura tecnológica en contextos rurales, y la necesidad de operación confiable en condiciones adversas de conectividad.
+
+ Propósito de la Interfaz
+
+El diseño propuesto debe materializar de manera tangible la propuesta de interfaz gráfica de usuario y el mapa de navegación correspondiente, asegurando el cumplimiento estricto de las reglas de usabilidad y accesibilidad establecidas por organismos internacionales de estandarización. Esta materialización trasciende la mera implementación técnica, constituyendo una manifestación práctica de principios de diseño centrado en el usuario y accesibilidad universal.
+
+El sistema debe demostrar compatibilidad integral con dispositivos móviles Android, funcionando como aplicación independiente para operaciones de campo, y con navegadores web modernos para funcionalidades administrativas y de análisis. Esta dualidad tecnológica requiere consideraciones específicas de diseño que aseguren consistencia de experiencia mientras aprovechan las capacidades únicas de cada plataforma.
+
+La interfaz debe servir como puente efectivo entre la complejidad técnica del sistema y la simplicidad operacional requerida por usuarios con diversos niveles de competencia digital, garantizando que la tecnología facilite rather than complique los procesos de recolección de datos demográficos en contextos rurales.
+
+ II. Desarrollo: Conceptualización y Fundamentos de Calidad
+
+ Definición de Calidad de Software
+
+La calidad de software en el contexto del desarrollo contemporáneo se define como el grado en que un sistema software cumple con requisitos específicos y satisface las necesidades y expectativas de los usuarios finales, considerando factores como funcionalidad, confiabilidad, usabilidad, eficiencia, mantenibilidad y portabilidad (ISO/IEC 25010:2011).
+
+En el marco específico del proyecto "Censo Rural", la arquitectura modular implementada mediante la metodología Extreme Programming (XP) debe optimizar sistemáticamente atributos críticos de calidad incluyendo rendimiento bajo condiciones de recursos limitados, seguridad robusta para protección de datos personales sensibles, disponibilidad continua independiente de conectividad de red, y confiabilidad operacional en entornos rurales desafiantes.
+
+La confiabilidad constituye un atributo particularmente crítico para el "Censo Rural", manifestándose a través de tolerancia a fallos que permita operación continua ante interrupciones de sistema, capacidades de respaldo automático que aseguren preservación de datos recolectados, y mecanismos de recuperación que permitan restauración rápida de operaciones tras eventos disruptivos.
+
+La implementación de calidad de software trasciende consideraciones técnicas, abarcando aspectos organizacionales como procesos de desarrollo, gestión de configuración, control de versiones, y metodologías de testing que aseguren entrega consistente de software que cumpla con estándares establecidos.
+
+ Definición Clara del Concepto de Usabilidad de Software
+
+La usabilidad de software se conceptualiza como la medida en que un sistema puede ser utilizado por usuarios específicos para alcanzar objetivos determinados con efectividad, eficiencia y satisfacción en contextos de uso particulares (ISO 9241-11:2018). Esta definición abarca múltiples dimensiones incluyendo la facilidad de aprendizaje, eficiencia de uso, memorabilidad de interfaces, prevención y manejo de errores, y satisfacción subjetiva del usuario.
+
+Para el proyecto "Censo Rural", la usabilidad adquiere significado específico considerando que la interfaz debe ser inmediatamente intuitiva para usuarios no técnicos, muchos de los cuales pueden tener experiencia limitada con sistemas informáticos. El tiempo de aprendizaje para operaciones básicas debe minimizarse, idealmente permitiendo competencia operacional en menos de cuatro horas de entrenamiento inicial.
+
+Los principios de usabilidad aplicados incluyen simplicidad conceptual que reduzca carga cognitiva, consistencia visual y funcional que permita transferencia de aprendizaje entre diferentes secciones del sistema, retroalimentación inmediata que confirme acciones del usuario, y prevención de errores mediante diseño que haga acciones incorrectas imposibles o difíciles de ejecutar accidentalmente.
+
+La usabilidad en el contexto rural requiere consideración adicional de factores ambientales como variaciones en iluminación, ruido ambiental, interrupciones frecuentes, y uso potencial con guantes o en condiciones climáticas adversas que puedan afectar la interacción precisa con interfaces táctiles.
+
+ Definición Clara del Concepto de Accesibilidad de Software
+
+La accesibilidad de software se define como la capacidad del sistema para ser percibido, comprendido, navegado y utilizado efectivamente por personas con diversas capacidades, incluyendo aquellas con discapacidades temporales o permanentes de naturaleza visual, auditiva, motora o cognitiva (W3C WCAG 2.1).
+
+Esta conceptualización reconoce que la accesibilidad beneficia no solamente a usuarios con discapacidades específicas, sino que mejora la experiencia general para todos los usuarios mediante principios de diseño universal que consideran la diversidad humana como factor fundamental en las decisiones de diseño.
+
+Los estándares Web Content Accessibility Guidelines (WCAG) 2.1 constituyen la referencia internacional primaria para guiar el diseño de interfaces accesibles, organizándose en cuatro principios fundamentales: perceptibilidad (información presentable de múltiples maneras), operabilidad (componentes navegables con diversos métodos de entrada), comprensibilidad (información y operación de interfaz comprensibles), y robustez (contenido interpretable por diversas tecnologías asistivas).
+
+Para el "Censo Rural", la accesibilidad incluye consideraciones específicas como contraste cromático adecuado para usuarios con deficiencias visuales o condiciones de poca luz frecuentes en entornos rurales, tamaño apropiado de elementos interactivos para usuarios con limitaciones motoras, y simplicidad conceptual que facilite comprensión para usuarios con diversos niveles de alfabetización digital.
+
+ III. Desarrollo: Diferenciación de Aplicaciones
+
+ Aplicación Independiente (Stand-alone)
+
+Una aplicación independiente se caracteriza por su capacidad de ejecutarse nativamente en el sistema operativo del dispositivo anfitrión, operando de manera autónoma sin requerir navegadores web o conectividad continua a internet para su funcionamiento básico. Esta arquitectura proporciona acceso directo a recursos de hardware, APIs del sistema operativo, y capacidades de almacenamiento local que son fundamentales para operación en contextos con conectividad limitada.
+
+En el proyecto "Censo Rural", la aplicación independiente para dispositivos móviles Android cumple el rol crítico de permitir la captura de datos en campo por parte de encuestadores operando en zonas rurales donde la conectividad de red puede ser intermitente, lenta o completamente ausente durante períodos extendidos.
+
+La implicación primaria en el diseño es la necesidad de implementar un enfoque offline-first, asegurando que todos los componentes de captura de datos funcionen de manera completamente autónoma sin dependencia de conectividad de red. Esta autonomía incluye validación de datos en tiempo real, almacenamiento seguro en bases de datos locales SQLite, y capacidades de sincronización diferida que operen automáticamente cuando la conectividad se restablezca.
+
+El diseño de aplicación independiente requiere consideración especial de factores como gestión de memoria limitada, conservación de batería, optimización para procesadores de menor potencia típicos en dispositivos móviles rurales, y interfaces optimizadas para pantallas táctiles que puedan operar efectivamente en condiciones de iluminación variable.
+
+ Aplicación Web
+
+Una aplicación web se caracteriza por su arquitectura distribuida cliente-servidor, donde la funcionalidad principal reside en servidores remotos y se accede mediante navegadores web que actúan como clientes ligeros. Esta arquitectura requiere conectividad continua a internet para operación normal y proporciona ventajas como actualizaciones centralizadas, acceso universal desde múltiples dispositivos, y capacidades de colaboración en tiempo real.
+
+Para el proyecto "Censo Rural", la aplicación web cumple el rol fundamental de proporcionar a supervisores y administradores acceso a funcionalidades de gestión de usuarios, análisis de datos recolectados, generación de reportes estadísticos, y administración general del sistema desde ubicaciones con conectividad confiable.
+
+La implicación crítica en el diseño es la necesidad de asegurar compatibilidad robusta con navegadores web modernos, incluyendo Chrome, Firefox, Safari y Edge, así como la implementación de dashboards interactivos que permitan visualización efectiva de grandes volúmenes de datos demográficos mediante gráficos, tablas dinámicas y herramientas de filtrado avanzado.
+
+El diseño de aplicación web debe considerar factores como latencia de red variable, optimización de transferencia de datos para minimizar tiempos de carga, interfaces responsivas que funcionen efectivamente en dispositivos de diversos tamaños, y arquitectura escalable que pueda manejar cargas de trabajo crecientes a medida que el proyecto se expande.
+
+ IV. Desarrollo: Aplicación Práctica de Reglas al Proyecto "Censo Rural"
+
+ Reglas de Usabilidad Aplicadas
+
+ Simplicidad y Consistencia
+
+La implementación de simplicidad se manifiesta mediante diseño amigable que elimina complejidad innecesaria, utilizando terminología familiar para usuarios rurales, organizando información en agrupaciones lógicas que reflejen procesos mentales naturales, y proporcionando navegación simplificada que minimice el número de pasos requeridos para completar tareas frecuentes.
+
+La consistencia se asegura mediante la aplicación sistemática de patrones de diseño estandarizados a través de todas las interfaces, incluyendo ubicación predecible de elementos de navegación, uso coherente de colores y tipografía, y comportamiento uniforme de elementos interactivos como botones, campos de entrada y menús.
+
+ Ayuda Contextual
+
+La implementación de ayuda contextual incluye tooltips informativos que proporcionan explicaciones inmediatas sin interrumpir el flujo de trabajo, tutoriales interactivos específicamente diseñados para encuestadores con baja alfabetización digital, y mensajes de ayuda progresivos que se adapten al nivel de experiencia demostrado por cada usuario.
+
+Los tutoriales interactivos utilizan demostraciones visuales paso a paso, lenguaje simple sin jerga técnica, y práctica guiada que permita a los usuarios desarrollar confianza mediante experiencia práctica en entorno seguro antes de realizar operaciones reales de captura de datos.
+
+ Visibilidad del Estado del Sistema
+
+La visibilidad del estado se implementa mediante mensajes claros de confirmación que informen sobre el éxito de operaciones completadas, mensajes de error constructivos que proporcionen orientación específica para resolución de problemas, y indicadores de progreso de sincronización que mantengan a los usuarios informados sobre el estado de transferencia de datos entre dispositivos locales y sistemas centrales.
+
+Los indicadores de estado incluyen representación visual del progreso de guardado local, confirmación de sincronización exitosa con códigos de verificación, y alertas proactivas sobre problemas potenciales como espacio de almacenamiento insuficiente o problemas de conectividad detectados.
+
+ Diseño Responsivo
+
+La implementación de diseño responsivo asegura adaptabilidad óptima para uso en dispositivos móviles, tabletas y computadoras de escritorio, con interfaces que se ajusten dinámicamente a diferentes tamaños de pantalla manteniendo funcionalidad completa y legibilidad en todos los contextos de uso.
+
+El diseño responsivo incluye consideración de orientación de pantalla (vertical y horizontal), densidad de píxeles variable, y métodos de entrada diversos (táctil, mouse, teclado) asegurando que todas las funcionalidades sean accesibles independientemente del dispositivo utilizado.
+
+ Reglas de Accesibilidad Aplicadas
+
+ Perceptibilidad
+
+La implementación de perceptibilidad incluye provisión de texto alternativo comprehensivo para todas las imágenes, gráficos e elementos visuales, asegurando que usuarios con deficiencias visuales puedan acceder a toda la información mediante tecnologías asistivas como lectores de pantalla.
+
+La información se presenta de múltiples maneras complementarias, incluyendo representación textual, visual y auditiva cuando sea apropiado, permitiendo que usuarios con diferentes capacidades perceptivas accedan al mismo contenido mediante el canal sensorial más efectivo para sus necesidades específicas.
+
+ Contraste y Legibilidad
+
+La paleta de colores implementada asegura ratios de contraste que exceden los requisitos mínimos WCAG 2.1, con contraste de al menos 4.5:1 para texto normal y 3:1 para texto grande, considerando especialmente las condiciones de poca luz frecuentes en entornos rurales donde la iluminación artificial puede ser limitada.
+
+La legibilidad se optimiza mediante selección tipográfica que priorice claridad sobre decoración, tamaños de fuente que permanezcan legibles en dispositivos de diversas resoluciones, y espaciado adecuado entre elementos que facilite identificación y selección precisa de componentes interactivos.
+
+ Operabilidad
+
+Los componentes interactivos como botones y enlaces se diseñan para ser fácilmente identificables mediante indicadores visuales claros, tamaño adecuado para selección precisa (mínimo 44x44 píxeles), y comportamiento consistente que permita operación efectiva mediante mouse, teclado o entrada táctil.
+
+La consideración especial para usuarios con discapacidades motoras incluye tiempos de respuesta ajustables, prevención de acciones accidentales mediante confirmaciones para operaciones críticas, y provisión de métodos alternativos de navegación que no dependan exclusivamente de movimientos precisos de mouse o gestos táctiles complejos.
+
+ V. Diseño de la Interfaz y Mapa de Navegación
+
+ Propuesta de Interfaz Gráfica: Captura de Datos en Campo
+
+La interfaz para captura de datos en campo constituye la funcionalidad más crítica del sistema "Censo Rural", diseñada específicamente para optimizar eficiencia y precisión en la recolección de información demográfica por parte de encuestadores operando en condiciones rurales desafiantes.
+
+ Elementos de Pantalla Principales
+
+**Formularios Dinámicos Adaptativos**
+
+Los formularios se organizan en secciones lógicas que corresponden a categorías de información demográfica: datos personales básicos (nombres, apellidos, documento de identidad), información demográfica (edad, sexo, estado civil), datos de contacto (teléfono, dirección, correo electrónico), y información socioeconómica específica del contexto rural.
+
+La implementación dinámica permite que campos se muestren o oculten según respuestas previas, reduciendo complejidad visual y cognitiva. Por ejemplo, campos específicos de ocupación agrícola se muestran únicamente cuando el respondente indica actividad en sector primario.
+
+**Validación en Tiempo Real**
+
+El sistema implementa validación continua durante la entrada de datos, proporcionando retroalimentación inmediata sobre errores de formato, inconsistencias lógicas o campos faltantes. La validación incluye verificación de formato de documentos de identidad según estándares colombianos, validación de fechas con rangos lógicos, y verificación de formato de números telefónicos.
+
+Los mensajes de validación utilizan lenguaje simple y constructivo, proporcionando orientación específica para corrección rather than simplemente indicando errores. Por ejemplo, "La fecha debe estar en formato DD/MM/AAAA" en lugar de "Error de formato".
+
+**Georreferenciación Integrada**
+
+La interfaz incluye capacidades de captura automática de coordenadas GPS cuando están disponibles, con opción de entrada manual para casos donde la señal satelital es insuficiente. Las coordenadas se validan contra rangos geográficos esperados para detectar errores obvios de ubicación.
+
+La representación visual de ubicación incluye mapas simplificados cuando la conectividad permite descarga de datos cartográficos, con alternativas textuales que describan la ubicación en términos familiares para usuarios locales (por ejemplo, distancia y dirección desde puntos de referencia conocidos).
+
+ Justificación de Cumplimiento con Usabilidad y Seguridad
+
+**Usabilidad para Baja Alfabetización Digital**
+
+El diseño prioriza simplicidad conceptual mediante uso de iconografía universalmente reconocida, organización visual que refleje procesos mentales naturales de recolección de información demográfica, y progresión lógica que guíe a los usuarios paso a paso sin requerir conocimiento técnico previo.
+
+Las ayudas contextuales incluyen ejemplos específicos para cada campo, descripciones en lenguaje simple, y demostraciones visuales de formato requerido. Los usuarios pueden acceder a ayuda detallada sin perder progreso en el formulario actual.
+
+**Seguridad y Encriptación**
+
+La implementación de seguridad incluye encriptación automática de todos los datos personales sensibles antes del almacenamiento local, utilizando algoritmos AES-256 con claves generadas dinámicamente para cada sesión de captura.
+
+Los datos se almacenan en contenedores encriptados que requieren autenticación para acceso, y se implementan mecanismos de limpieza automática que eliminan datos locales después de sincronización exitosa con sistemas centrales, minimizando exposición a compromiso de dispositivos físicos.
+
+ Mapa de Navegación
+
+ Diseño del Diagrama de Flujo
+
+El mapa de navegación se estructura como diagrama de flujo jerárquico que ilustra todas las rutas posibles que los usuarios pueden seguir a través del sistema, organizadas según roles de usuario (Encuestador, Supervisor, Administrador) y tipos de tareas (Captura, Revisión, Análisis, Administración).
+
+**Flujo Principal de Encuestador:**
+1. Autenticación → Dashboard Principal → Selección de Área de Censo → Inicio de Formulario → Captura de Datos → Validación → Guardado Local → Confirmación
+
+**Flujo de Sincronización:**
+1. Detección de Conectividad → Verificación de Datos Pendientes → Upload Encriptado → Confirmación de Recepción → Limpieza Local → Notificación de Éxito
+
+**Flujos Alternativos:**
+- Recuperación de sesión interrumpida
+- Manejo de errores de validación
+- Operación offline extendida
+- Resolución de conflictos de sincronización
+
+ Características de Claridad y Coherencia
+
+El mapa utiliza convenciones visuales estándar con rectángulos para pantallas, rombos para decisiones, y flechas para flujos direccionales. Los colores se utilizan sistemáticamente para diferenciar tipos de operaciones: verde para confirmación, rojo para errores, azul para navegación estándar.
+
+La coherencia se mantiene mediante patrones consistentes de nomenclatura, agrupación lógica de funcionalidades relacionadas, y jerarquía visual que refleje la importancia relativa de diferentes operaciones.
+
+ Caminos Lógicos y Tareas Frecuentes
+
+El diseño prioriza eficiencia para tareas frecuentes mediante rutas directas que minimizan el número de pasos requeridos. Las tareas más comunes (inicio de nuevo censo, continuación de censo interrumpido, verificación de estado de sincronización) son accesibles directamente desde el dashboard principal.
+
+Los caminos alternativos proporcionan flexibilidad sin complicar la navegación principal, utilizando patrones de diseño que hacen opciones avanzadas disponibles pero no prominentes para usuarios que no las necesitan.
+
+ Consideración del Flujo de Datos Offline/Online
+
+La representación visual distingue claramente entre operaciones que funcionan offline (indicadas con iconografía específica) y aquellas que requieren conectividad. Los puntos de transición entre modos offline y online se marcan prominentemente con indicadores de estado y opciones de usuario para control manual de sincronización cuando sea necesario.
+
+El manejo de conflictos de datos se representa mediante flujos de decisión que guían a los usuarios a través de procesos de resolución, proporcionando información suficiente para tomar decisiones informadas sobre preservación o sobrescritura de datos conflictivos.
+
+ VI. Conclusiones
+
+ Recapitulación de Logros
+
+La aplicación sistemática de reglas de usabilidad y accesibilidad, complementada con la diferenciación clara entre aplicaciones web e independientes, ha resultado en un diseño técnico integral y robusto para el proyecto "Censo Rural" que cumple con estándares internacionales mientras aborda necesidades específicas del contexto rural colombiano.
+
+Los logros principales incluyen la conceptualización de interfaces que facilitan operación efectiva por usuarios con diversos niveles de alfabetización digital, implementación de principios de accesibilidad universal que aseguran inclusión de usuarios con diversas capacidades, y desarrollo de arquitectura híbrida que optimiza tanto operación offline como funcionalidades online según requisitos operacionales específicos.
+
+La integración de consideraciones de usabilidad y accesibilidad desde las fases conceptuales tempranas asegura que estas características no sean adiciones superficiales sino elementos fundamentales que inform todas las decisiones de diseño e implementación subsequentes.
+
+ Sostenibilidad y Viabilidad Organizacional
+
+El diseño propuesto, alineado con la metodología Extreme Programming mediante entregas incrementales y arquitectura modular, garantiza que las mejoras implementadas sean no solamente técnicamente viables sino también organizacionalmente sostenibles a largo plazo.
+
+La sostenibilidad se asegura mediante documentación comprehensiva de decisiones de diseño, implementación de patrones estandarizados que faciliten mantenimiento futuro, y arquitectura flexible que permita evolución continua según necesidades cambiantes del proyecto y avances en tecnología disponible.
+
+La viabilidad organizacional se optimiza mediante consideración explícita de recursos disponibles, capacidades de personal técnico, y restricciones operacionales del contexto gubernamental, asegurando que el sistema pueda ser efectivamente implementado, mantenido y evolucionado dentro de las limitaciones prácticas de la organización responsable.
+
+La metodología XP proporciona framework ideal para implementación sostenible mediante ciclos cortos de desarrollo que permiten validación continua con usuarios reales, adaptación rápida a feedback operacional, y entrega incremental de valor que justifique inversión continua en mejoras del sistema.
+
+El compromiso con estándares internacionales de usabilidad y accesibilidad asegura que el sistema mantenga relevancia y efectividad a medida que evolucionen las expectativas de usuarios y los requisitos regulatorios, proporcionando foundation sólida para crecimiento y adaptación futura del proyecto "Censo Rural".
+
+ Referencias
+
+American Psychological Association. (2020). *Publication manual of the American Psychological Association* (7th ed.). American Psychological Association.
+
+Cooper, A., Reimann, R., Cronin, D., & Noessel, C. (2014). *About face: The essentials of interaction design* (4th ed.). John Wiley & Sons.
+
+ISO 9241-11:2018. (2018). *Ergonomics of human-system interaction — Part 11: Usability: Definitions and concepts*. International Organization for Standardization.
+
+ISO/IEC 25010:2011. (2011). *Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. International Organization for Standardization.
+
+Krug, S. (2014). *Don't make me think: A common sense approach to web usability* (3rd ed.). New Riders.
+
+Nielsen, J. (1994). *Usability engineering*. Morgan Kaufmann Publishers.
+
+Nielsen, J., & Budiu, R. (2012). *Mobile usability*. New Riders.
+
+Norman, D. A. (2013). *The design of everyday things: Revised and expanded edition*. Basic Books.
+
+Shneiderman, B., Plaisant, C., Cohen, M., Jacobs, S., Elmqvist, N., & Diakopoulos, N. (2016). *Designing the user interface: Strategies for effective human-computer interaction* (6th ed.). Pearson.
+
+W3C Web Accessibility Initiative. (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium. https://www.w3.org/WAI/WCAG21/quickref/
+
+---
+
+*Documento elaborado en conformidad con las normas de la American Psychological Association (APA) 7ª edición para la evidencia GA5-220501095-AA1-EV03: Elaboración de interfaz gráfica y mapa de navegación cumpliendo con reglas de usabilidad y accesibilidad.*

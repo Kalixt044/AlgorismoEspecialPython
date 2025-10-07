@@ -1,0 +1,156 @@
+// Importar readline para entrada de datos en Node.js
+const readline = require('readline');
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+console.log("=== MEZCLA DE DOS VECTORES ORDENADOS ===");
+
+// Variables para los vectores
+let TAMANO_VECTOR = 5;
+let vectorA = [];
+let vectorB = [];
+let vectorMezclado = [];
+
+// Variables de control
+let contadorA = 0;
+let contadorB = 0;
+let valorAnteriorA = -999999; // Valor muy bajo para empezar
+let valorAnteriorB = -999999;
+
+console.log("Ingrese " + TAMANO_VECTOR + " elementos para cada vector EN ORDEN ASCENDENTE");
+console.log("\n--- INGRESO DEL VECTOR A ---");
+
+function pedirElementoVectorA() {
+    if (contadorA < TAMANO_VECTOR) {
+        rl.question("Ingrese el elemento " + (contadorA + 1) + " del Vector A (debe ser >= " + valorAnteriorA + "): ", function(input) {
+            let valor = parseInt(input);
+            
+            // Validar que sea número y esté en orden
+            if (isNaN(valor)) {
+                console.log("ERROR: Ingrese un número entero válido.");
+                pedirElementoVectorA();
+            } else if (valor >= valorAnteriorA) {
+                vectorA[contadorA] = valor;
+                valorAnteriorA = valor;
+                console.log("Elemento registrado: " + valor);
+                contadorA = contadorA + 1;
+                pedirElementoVectorA();
+            } else {
+                console.log("ERROR: El número debe ser mayor o igual al anterior para mantener orden ascendente.");
+                pedirElementoVectorA();
+            }
+        });
+    } else {
+        console.log("\n--- INGRESO DEL VECTOR B ---");
+        pedirElementoVectorB();
+    }
+}
+
+function pedirElementoVectorB() {
+    if (contadorB < TAMANO_VECTOR) {
+        rl.question("Ingrese el elemento " + (contadorB + 1) + " del Vector B (debe ser >= " + valorAnteriorB + "): ", function(input) {
+            let valor = parseInt(input);
+            
+            // Validar que sea número y esté en orden
+            if (isNaN(valor)) {
+                console.log("ERROR: Ingrese un número entero válido.");
+                pedirElementoVectorB();
+            } else if (valor >= valorAnteriorB) {
+                vectorB[contadorB] = valor;
+                valorAnteriorB = valor;
+                console.log("Elemento registrado: " + valor);
+                contadorB = contadorB + 1;
+                pedirElementoVectorB();
+            } else {
+                console.log("ERROR: El número debe ser mayor o igual al anterior para mantener orden ascendente.");
+                pedirElementoVectorB();
+            }
+        });
+    } else {
+        realizarMezcla();
+    }
+}
+
+function realizarMezcla() {
+    console.log("\n--- PROCESO DE MEZCLA ---");
+    
+    // Variables para el algoritmo de mezcla
+    let i = 0; // Índice para Vector A
+    let j = 0; // Índice para Vector B
+    let k = 0; // Índice para Vector Mezclado
+    
+    // Algoritmo de mezcla usando while
+    while (i < TAMANO_VECTOR || j < TAMANO_VECTOR) {
+        if (i < TAMANO_VECTOR && j < TAMANO_VECTOR) {
+            // Ambos vectores tienen elementos
+            if (vectorA[i] <= vectorB[j]) {
+                vectorMezclado[k] = vectorA[i];
+                console.log("Agregando " + vectorA[i] + " del Vector A");
+                i = i + 1;
+            } else {
+                vectorMezclado[k] = vectorB[j];
+                console.log("Agregando " + vectorB[j] + " del Vector B");
+                j = j + 1;
+            }
+        } else if (i < TAMANO_VECTOR) {
+            // Solo quedan elementos en Vector A
+            vectorMezclado[k] = vectorA[i];
+            console.log("Agregando " + vectorA[i] + " del Vector A (restante)");
+            i = i + 1;
+        } else if (j < TAMANO_VECTOR) {
+            // Solo quedan elementos en Vector B
+            vectorMezclado[k] = vectorB[j];
+            console.log("Agregando " + vectorB[j] + " del Vector B (restante)");
+            j = j + 1;
+        }
+        k = k + 1;
+    }
+    
+    mostrarResultados();
+}
+
+function mostrarResultados() {
+    console.log("\n=== RESULTADOS DE LA MEZCLA ===");
+    
+    // Mostrar Vector A
+    let textoVectorA = "";
+    for (let x = 0; x < TAMANO_VECTOR; x++) {
+        if (x === 0) {
+            textoVectorA = vectorA[x];
+        } else {
+            textoVectorA = textoVectorA + ", " + vectorA[x];
+        }
+    }
+    console.log("Vector A: [" + textoVectorA + "]");
+    
+    // Mostrar Vector B
+    let textoVectorB = "";
+    for (let y = 0; y < TAMANO_VECTOR; y++) {
+        if (y === 0) {
+            textoVectorB = vectorB[y];
+        } else {
+            textoVectorB = textoVectorB + ", " + vectorB[y];
+        }
+    }
+    console.log("Vector B: [" + textoVectorB + "]");
+    
+    // Mostrar Vector Mezclado
+    let textoVectorMezclado = "";
+    let tamanoMezcla = TAMANO_VECTOR * 2;
+    for (let z = 0; z < tamanoMezcla; z++) {
+        if (z === 0) {
+            textoVectorMezclado = vectorMezclado[z];
+        } else {
+            textoVectorMezclado = textoVectorMezclado + ", " + vectorMezclado[z];
+        }
+    }
+    console.log("Vector Mezclado Ordenado: [" + textoVectorMezclado + "]");
+    
+    rl.close();
+}
+
+// Iniciar el proceso
+pedirElementoVectorA();

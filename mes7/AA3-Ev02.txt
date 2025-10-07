@@ -1,0 +1,15 @@
+IE-GA3-220501093-AA3-EV02
+
+Se nota tu interés en explorar conceptos de programación, especialmente en el ejercicio de combinar
+listas, donde intentaste implementar una lógica para ordenar los elementos.
+Esto demuestra que tienes un gran potencial para aprender y mejorar en JavaScript.
+
+Para esta evidencia, las instrucciones pedían resolver cuatro ejercicios específicos 
+(cálculo de área/perímetro de figuras, análisis de edades, mezcla de vectores, y encuesta musical)
+usando
+solo JavaScript básico, con variables, condicionales (if, else), bucles (for o while), 
+y entrada/salida por consola (prompt, console.log), sin funciones ni métodos avanzados  tu entrega 
+incluye ejercicios no solicitados (como la hipotenusa y el radio de una esfera) y está incompleta,
+ya que faltan los ejercicios 1, 2 y 4. 
+Tambien recordarte que la entrega es un trabajo escrito bien estructurada portada, introducción,
+conclusions.

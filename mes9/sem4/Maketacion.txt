@@ -1,0 +1,258 @@
+ GA5-220501095-AA1-EV04: Maquetación de la Interfaz Gráfica con Tkinter para el Proyecto "Censo Rural"
+
+Resumen
+
+El presente documento desarrolla la evidencia GA5-220501095-AA1-EV04, consistente en la maquetación de la interfaz gráfica para el proyecto "Censo Rural" utilizando Tkinter de Python como tecnología base. Esta adaptación de los principios tradicionales de maquetación web HTML/CSS al entorno de aplicaciones de escritorio responde a las necesidades específicas de operación offline en contextos rurales con conectividad limitada. La propuesta integra principios de usabilidad y accesibilidad adaptados para interfaces gráficas de escritorio, considerando usuarios con diversos niveles de alfabetización digital y las restricciones operacionales del entorno rural.
+
+**Palabras clave:** maquetación, interfaz gráfica, Tkinter, usabilidad, accesibilidad, aplicaciones offline, censo rural.
+
+I. Introducción a la Evidencia y Contexto del Proyecto
+
+ Nombre de la Evidencia y Objetivo General
+
+La presente evidencia, denominada "Maquetación de la interfaz gráfica en HTML GA5-220501095-AA1-EV04" adaptada a Tkinter, se enmarca dentro de la actividad de aprendizaje "Elaborar el prototipo navegable del software aplicando estándares de usabilidad y accesibilidad (GA5-220501095-AA1)". El propósito fundamental consiste en presentar la maquetación inicial de la interfaz gráfica diseñada en prototipos anteriores, transformándola en una implementación funcional utilizando Python y la biblioteca Tkinter.
+
+Esta transición de conceptos web tradicionales hacia aplicaciones de escritorio representa una adaptación metodológica significativa que mantiene los principios fundamentales de diseño centrado en el usuario mientras aprovecha las capacidades específicas de las aplicaciones stand-alone para el contexto operacional rural.
+
+ Contexto del Proyecto "Censo Rural"
+
+El proyecto "Censo Rural" tiene como objetivo principal optimizar los procesos integrales de recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas. El sistema está diseñado para permitir la captura eficiente de información demográfica y socioeconómica mediante dispositivos móviles y de escritorio, centralizando los datos recolectados en una plataforma segura que facilite su posterior análisis para la formulación de políticas públicas fundamentadas en evidencia empírica.
+
+La metodología de desarrollo adoptada es Extreme Programming (XP), caracterizada por su enfoque en entregas frecuentes de módulos funcionales independientes que se integran progresivamente una vez que superan las pruebas de calidad establecidas. Esta aproximación iterativa favorece una arquitectura modular basada en componentes que permite adaptación continua a los requerimientos cambiantes del proyecto.
+
+Los usuarios objetivo incluyen tres categorías principales: encuestadores de campo, supervisores de zona y administradores del sistema. La interfaz debe ser particularmente amigable para usuarios con niveles bajos de alfabetización digital, reconociendo que muchos operadores pueden carecer de experiencia previa con sistemas informáticos complejos.
+
+El entorno operacional se caracteriza por la operación en zonas rurales con conectividad limitada o intermitente, lo que hace crítica la implementación de alta disponibilidad y funcionamiento offline con capacidades de sincronización automática cuando la conexión esté disponible. Esta restricción técnica influye fundamentalmente en las decisiones arquitectónicas y de diseño de experiencia de usuario.
+
+La seguridad constituye un aspecto crucial, requiriendo la implementación de encriptación robusta para datos personales y protección integral de información sensible del censo, cumpliendo con estándares de protección de datos personales y confidencialidad gubernamental.
+
+II. Conceptualización y Fundamentos de la Maquetación Gráfica con Tkinter
+
+ Definición de Maquetación de Interfaz con Tkinter
+
+La maquetación de interfaz con Tkinter constituye un proceso sistemático de estructuración de elementos visuales de una aplicación de escritorio utilizando la biblioteca Tkinter de Python. Este proceso implica la transformación de prototipos o diseños visuales conceptuales en aplicaciones de escritorio completamente funcionales que integren lógica de negocio, interfaz de usuario y gestión de datos de manera cohesiva.
+
+A diferencia de la maquetación web tradicional que utiliza HTML para estructura y CSS para presentación, Tkinter requiere un enfoque programático donde los elementos visuales se crean, configuran y gestionan mediante código Python, proporcionando mayor control sobre el comportamiento dinámico pero requiriendo consideraciones específicas para la experiencia de usuario.
+
+ Conocimiento de Fundamentos de Programación con Python y Tkinter
+
+Python como Base Tecnológica
+
+Python sirve como el lenguaje fundamental para la implementación de la lógica de negocio y la orchestación de la interacción con la interfaz gráfica de usuario. Su sintaxis clara y bibliotecas extensivas lo convierten en una opción ideal para el desarrollo de aplicaciones con requerimientos complejos de procesamiento de datos como los del censo rural.
+
+Tkinter para Construcción de Interfaz Gráfica
+
+Tkinter, incluido en la distribución estándar de Python, proporciona un conjunto comprehensivo de widgets y herramientas para la construcción de interfaces gráficas multiplataforma. Su capacidad nativa y estabilidad lo hacen apropiado para aplicaciones que requieren funcionamiento confiable en diversos entornos de hardware y sistema operativo.
+
+SQLite para Persistencia de Datos
+
+SQLite se integra como motor de base de datos embebido, proporcionando capacidades robustas de almacenamiento local crucial para el funcionamiento offline. Esta integración permite operación continua independientemente de la conectividad de red, con capacidades de sincronización posterior cuando la conectividad se restablezca.
+
+ Principios de Usabilidad y Accesibilidad Adaptados a GUI de Escritorio
+
+Usabilidad para Interfaces de Escritorio
+
+La usabilidad en aplicaciones Tkinter requiere interfaces intuitivas específicamente diseñadas para usuarios no técnicos, con tiempos de aprendizaje minimizados para operaciones básicas. El diseño debe ser conceptualmente sencillo y funcionalmente directo, evitando complejidad innecesaria que pueda impedir la adopción por parte de usuarios con limitada experiencia tecnológica.
+
+Los principios de usabilidad incluyen consistencia visual y funcional entre diferentes ventanas, retroalimentación inmediata para acciones del usuario, prevención de errores mediante validación proactiva, y recuperación eficiente cuando los errores ocurran inevitablemente.
+
+Accesibilidad en Aplicaciones de Escritorio
+
+Las consideraciones de accesibilidad para aplicaciones Tkinter incluyen implementación de contraste adecuado entre texto y fondo, dimensionamiento apropiado de elementos interactivos para facilitar la selección precisa, y estructura lógica de navegación que funcione efectivamente tanto con mouse como con teclado.
+
+La conformidad con principios WCAG 2.1, adaptados al contexto de aplicaciones GUI de escritorio, asegura accesibilidad para usuarios con diversas capacidades, incluyendo aquellos con deficiencias visuales o limitaciones motoras que puedan afectar la interacción con interfaces tradicionales.
+
+Diseño Modular y Mantenible
+
+La estructura de la interfaz debe ser inherentemente modular, implementando funciones y clases claramente definidas para la gestión de conexiones de base de datos, procesamiento de consultas y orquestación de interacciones de usuario. Esta modularidad facilita mantenimiento, testing y expansión futura del sistema.
+
+III. Maquetación de la Interfaz Gráfica con Tkinter
+
+ Identificación de Requerimientos Específicos del "Censo Rural"
+
+La comprensión clara de las necesidades para recolección, gestión y análisis de datos personales en zonas rurales constituye el fundamento para todas las decisiones de diseño e implementación. Estos requerimientos incluyen captura eficiente de datos demográficos, validación en tiempo real, almacenamiento seguro offline, y sincronización confiable cuando la conectividad esté disponible.
+
+Los requerimientos específicos abarcan manejo de información personal sensible, georreferenciación de ubicaciones rurales, captura de documentos e imágenes asociadas, y generación de reportes estadísticos básicos para supervisión y análisis preliminar.
+
+ Elaboración de la Interfaz con Tkinter por Funcionalidad
+
+Arquitectura Técnica con Tkinter y Python
+
+La implementación utiliza Tkinter y Python siguiendo una arquitectura modular con separación clara entre lógica de presentación, lógica de negocio y capa de datos. Esta separación facilita mantenimiento, testing independiente de componentes y escalabilidad futura del sistema.
+
+La estructura modular incluye clases especializadas para gestión de formularios, validación de datos, interacción con base de datos, y orchestación de sincronización, cada una con responsabilidades claramente definidas y interfaces bien documentadas.
+
+Funcionalidad Clave 1: Captura de Datos en Campo
+
+**Formularios Dinámicos y Adaptativos**
+
+La implementación de formularios utiliza widgets Tkinter especializados incluyendo Entry para campos de entrada de texto, Label para etiquetas descriptivas, Button para acciones de usuario, y frames organizacionales para agrupación lógica de elementos relacionados.
+
+Los formularios se adaptan dinámicamente al contexto del usuario y al progreso del censo, mostrando únicamente campos relevantes para cada situación específica y proporcionando navegación intuitiva entre secciones relacionadas.
+
+**Campos de Datos Demográficos**
+
+La interfaz incluye campos específicamente diseñados para datos del censo rural:
+
+- Primer Nombre y Segundo Nombre con validación de formato alfabético
+- Primer Apellido y Segundo Apellido con capitalización automática
+- Tipo de Documento (Tarjeta de Identidad/Cédula de Ciudadanía) mediante selección
+- Número de Identificación con validación numérica específica por tipo
+- Domicilio con conversión automática a mayúsculas para consistencia
+- Fecha de Nacimiento con formato estricto DD/MM/AAAA y validación de rango
+- Sexo mediante opciones de selección múltiple (M/F/Otro)
+- Número Celular con validación de formato telefónico colombiano
+- Dirección completa con normalización de formato
+- Barrio de residencia con autocompletado cuando sea posible
+- Email con validación de formato y verificación opcional
+
+**Validación de Datos en Tiempo Real**
+
+El sistema implementa validación continua durante la entrada de datos, proporcionando retroalimentación inmediata sobre errores de formato, campos faltantes o inconsistencias lógicas. Esta validación incluye verificación de formato de fecha, capitalización automática de nombres, conversión a mayúsculas de domicilios y direcciones, y validación de formato de email.
+
+La validación en tiempo real reduce errores de captura y mejora la confianza del usuario en la integridad de los datos registrados, minimizando necesidad de correcciones posteriores que pueden ser costosas en términos de tiempo y recursos.
+
+**Integración de Georreferenciación**
+
+Aunque Tkinter no proporciona capacidades directas de GPS, la interfaz incluye campos para entrada manual de coordenadas geográficas y botones para integración futura con servicios de geolocalización externos cuando la conectividad esté disponible.
+
+La captura de información georreferenciada es fundamental para análisis espacial posterior y para asegurar cobertura comprehensiva del territorio rural objetivo.
+
+**Gestión de Archivos Adjuntos**
+
+La interfaz incluye botones especializados que abren selectores de archivo del sistema operativo, permitiendo adjuntar fotografías de documentos de identidad, imágenes del domicilio, y otros documentos relevantes para el censo. La lógica de gestión de archivos en el backend maneja compresión, nomenclatura consistente y almacenamiento seguro.
+
+**Operación Offline Integral**
+
+La interfaz está específicamente diseñada para permitir guardado continuo de datos localmente en SQLite durante períodos de desconectividad. Esto incluye indicadores visuales del estado de conectividad, colas de sincronización para datos pendientes, y resolución de conflictos cuando múltiples dispositivos hayan modificado registros relacionados.
+
+Funcionalidad Clave 2: Gestión de Usuarios y Roles
+
+**Autenticación y Registro de Usuario**
+
+La interfaz de autenticación utiliza Entry widgets para captura segura de credenciales de usuario y contraseña, con Button widgets para acciones de login y registro. La implementación incluye hash seguro de contraseñas y gestión de sesiones para mantener estado de autenticación durante operación extendida.
+
+**Recuperación de Contraseñas**
+
+El sistema incluye funcionalidad de recuperación de contraseñas mediante preguntas de seguridad predefinidas, manteniendo operación offline completa sin dependencia de servicios externos de email o SMS que pueden no estar disponibles en contextos rurales.
+
+**Asignación y Gestión de Roles**
+
+La interfaz administrativa permite asignación de roles (Encuestador, Supervisor, Administrador) con permisos granulares específicos para cada categoría. Esta funcionalidad incluye interfaces para modificación de permisos, auditoría de accesos y gestión de rotación de personal.
+
+**Manejo Robusto de Errores**
+
+La implementación incluye manejo comprehensivo de errores y excepciones, proporcionando mensajes informativos que guíen al usuario hacia resolución exitosa de problemas sin requerir conocimiento técnico avanzado.
+
+Funcionalidad Clave 3: Análisis y Reportes
+
+**Visualización de Estadísticas Básicas**
+
+La interfaz incluye elementos para visualización de estadísticas descriptivas simples directamente dentro de la aplicación, proporcionando insights inmediatos sobre progreso del censo y distribución demográfica básica.
+
+**Generación de Reportes CSV**
+
+Botones especializados permiten generación de archivos CSV para análisis estadístico avanzado en herramientas externas, incluyendo exportación de datasets completos y subconjuntos filtrados según criterios específicos.
+
+**Integración con Jupyter Notebook**
+
+La interfaz proporciona enlaces directos para abrir análisis avanzados en Jupyter Notebook (statisk.ipynb), facilitando transición fluida entre captura de datos básica y análisis estadístico sofisticado.
+
+ Elaboración de Plantillas de Ventanas/Formularios de Tkinter
+
+Diseño de Ventanas Reutilizables
+
+El sistema implementa plantillas de ventanas estandarizadas que aseguran consistencia visual y funcional a través de diferentes secciones de la aplicación. Estas plantillas incluyen layouts estándar, paletas de colores consistentes, y patrones de navegación predecibles.
+
+Funciones Utilitarias Especializadas
+
+La implementación incluye funciones utilitarias como `capitalize_fields()` para formateo automático de texto, `clear_form()` para limpieza eficiente de campos, `validate_input()` para verificación comprehensiva de datos, y `save_offline()` para persistencia local confiable.
+
+IV. Justificación de Paleta de Colores y Diseño General con Tkinter
+
+ Propuesta de Paleta de Colores
+
+La selección de colores para la interfaz Tkinter considera las limitaciones inherentes de personalización visual comparado con CSS, priorizando combinaciones que contribuyan a una interfaz intuitiva y visualmente agradable dentro de las capacidades nativas de Tkinter.
+
+La paleta propuesta utiliza tonos neutros para elementos de fondo (#F0F0F0), azul corporativo para elementos de acción (#2E86C1), verde para confirmaciones (#28B463), rojo suave para alertas (#E74C3C), y gris oscuro para texto principal (#2C3E50). Esta combinación asegura legibilidad óptima y reduce fatiga visual durante sesiones extendidas de uso.
+
+ Justificación del Contraste y Legibilidad
+
+Los colores seleccionados proporcionan ratios de contraste que exceden los mínimos establecidos por WCAG 2.1, asegurando legibilidad para usuarios con deficiencias visuales y en condiciones de iluminación adversas típicas del entorno rural.
+
+El contraste entre texto y fondo mantiene un ratio mínimo de 4.5:1 para texto normal y 3:1 para texto grande, con consideración especial para elementos interactivos que requieren identificación clara y operación precisa.
+
+ Coherencia e Intuitividad del Diseño
+
+El diseño general contribuye sistemáticamente a la facilidad de uso y comprensión del sistema mediante consistencia visual, agrupación lógica de elementos relacionados, y jerarquía informacional clara que guíe la atención del usuario hacia acciones apropiadas.
+
+La interfaz mantiene simplicidad conceptual y directividad funcional, con manejo de errores que proporciona mensajes constructivos y orientación específica para resolución de problemas comunes.
+
+V. Construcción del Mapa de Navegación para la Aplicación Tkinter
+
+ Diseño del Mapa de Navegación
+
+El mapa de navegación constituye un diagrama de flujo comprehensivo que ilustra el recorrido completo del usuario a través de las funcionalidades implementadas con Tkinter. Este mapa integra ventanas principales, diálogos modales, flujos de datos y puntos de decisión críticos que determinan la experiencia de usuario.
+
+La representación visual utiliza convenciones estándar de diagramas de flujo, con rectángulos para pantallas/ventanas, rombos para puntos de decisión, círculos para puntos de inicio/fin, y flechas direccionales para flujos de navegación.
+
+ Claridad, Coherencia y Comprensibilidad
+
+El mapa se diseña para ser inmediatamente comprensible por stakeholders técnicos y no técnicos, minimizando la carga cognitiva requerida para entender los flujos operacionales del sistema.
+
+La organización jerárquica refleja la estructura lógica de operaciones del censo, agrupando funcionalidades relacionadas y minimizando saltos conceptuales entre diferentes áreas del sistema.
+
+ Flujos Alternativos y Operación Offline
+
+La representación incluye explícitamente flujos alternativos para operaciones offline, mostrando cómo el sistema maneja almacenamiento local, sincronización diferida y resolución de conflictos cuando la conectividad se restablece.
+
+Estos flujos alternativos son fundamentales para el éxito operacional en el contexto rural, donde la conectividad intermitente es la norma rather than la excepción.
+
+ Garantía de Usabilidad y Accesibilidad
+
+El mapa de navegación demuestra adherencia a principios de usabilidad mediante rutas lógicas y cortas para tareas frecuentes, mantenimiento de jerarquía informacional clara, y provisión de múltiples caminos para alcanzar objetivos comunes.
+
+La accesibilidad se refleja en la simplicidad de flujos, minimización de profundidad de navegación, y provisión de puntos de escape claros cuando los usuarios necesiten cancelar operaciones o corregir errores.
+
+ Herramientas de Modelado
+
+La elaboración del mapa utiliza Draw.io como herramienta principal, aprovechando sus capacidades de colaboración, versionado, y exportación a múltiples formatos para facilitar comunicación con diferentes audiencias de stakeholders.
+
+VI. Conclusión
+
+La maquetación de la interfaz gráfica con Tkinter para el proyecto "Censo Rural" representa una adaptación exitosa de principios de diseño web tradicionales hacia el contexto específico de aplicaciones de escritorio para entornos rurales con restricciones operacionales significativas.
+
+Los elementos clave de esta maquetación incluyen la transformación de conceptos HTML/CSS hacia implementación programática con Tkinter, manteniendo principios fundamentales de usabilidad y accesibilidad mientras aprovechando capacidades específicas de aplicaciones stand-alone como operación offline robusta, integración directa con hardware local, y control granular sobre experiencia de usuario.
+
+La adherencia rigurosa a principios de usabilidad, accesibilidad y la metodología Extreme Programming es fundamental para el éxito del sistema en el contexto rural, donde factores como alfabetización digital limitada, conectividad intermitente, y variabilidad de hardware requieren consideraciones de diseño especializadas.
+
+La operación offline integral y la seguridad robusta de datos constituyen diferenciadores críticos que justifican la selección de Tkinter sobre alternativas web, proporcionando confiabilidad operacional independiente de infraestructura de red externa.
+
+Esta maquetación inicial establece las bases arquitectónicas y de experiencia de usuario para futuras etapas de desarrollo y mejora del software, validando el diseño funcional y los requisitos de calidad mediante implementación tangible que puede ser evaluada y refinada iterativamente según los principios de XP.
+
+La integración exitosa de todos estos elementos - desde consideraciones técnicas hasta factores humanos - posiciona el proyecto "Censo Rural" para generar impacto significativo en la calidad y eficiencia de recolección de datos demográficos en contextos rurales, contribuyendo ultimately a la formulación de políticas públicas más informadas y efectivas.
+
+Referencias
+
+American Psychological Association. (2020). *Publication manual of the American Psychological Association* (7th ed.). American Psychological Association.
+
+Beck, K. (2004). *Extreme programming explained: Embrace change* (2nd ed.). Addison-Wesley Professional.
+
+Cooper, A., Reimann, R., Cronin, D., & Noessel, C. (2014). *About face: The essentials of interaction design* (4th ed.). John Wiley & Sons.
+
+Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design patterns: Elements of reusable object-oriented software*. Addison-Wesley Professional.
+
+ISO 9241-11:2018. (2018). *Ergonomics of human-system interaction — Part 11: Usability: Definitions and concepts*. International Organization for Standardization.
+
+Krug, S. (2014). *Don't make me think: A common sense approach to web usability* (3rd ed.). New Riders.
+
+Lutz, M. (2013). *Learning Python: Powerful object-oriented programming* (5th ed.). O'Reilly Media.
+
+Nielsen, J. (1994). *Usability engineering*. Morgan Kaufmann Publishers.
+
+Norman, D. A. (2013). *The design of everyday things: Revised and expanded edition*. Basic Books.
+
+Shipman, J. W. (2013). *Tkinter 8.5 reference: A GUI for Python*. New Mexico Tech Computer Center.
+
+W3C Web Accessibility Initiative. (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium.
+

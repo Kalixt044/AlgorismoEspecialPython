@@ -1,0 +1,148 @@
+ Nociones de Reglas de Usabilidad y Accesibilidad
+
+Evidencia: GA5-220501095-AA1-EV06  
+Resultado de Aprendizaje Asociado: 220501095-03 – Determinar las características técnicas de la interfaz gráfica del software adoptando estándares  
+Objetivo de la Evidencia: Proponer la interfaz gráfica de usuario y construir el prototipo cumpliendo con las reglas de usabilidad y accesibilidad para aplicaciones móviles
+
+
+
+ I. Introducción y Contextualización del Diseño
+
+ 1. Propósito del Documento
+
+El presente documento tiene como finalidad establecer y presentar las nociones teóricas fundamentales, así como la aplicación práctica de las reglas de usabilidad y accesibilidad en el desarrollo de software. Estos principios son esenciales para garantizar que las aplicaciones, particularmente aquellas destinadas a proyectos de impacto social como el "Censo Rural", sean eficientes, intuitivas e inclusivas para todos sus usuarios potenciales.
+
+La correcta implementación de estas reglas no solo mejora la experiencia del usuario, sino que también contribuye significativamente al éxito y adopción de la aplicación en contextos reales donde la diversidad de usuarios y sus capacidades técnicas pueden variar considerablemente.
+
+ 2. Requisitos de Diseño Clave
+
+Para el desarrollo del proyecto "Censo Rural", es fundamental que el diseño esté especialmente optimizado para usuarios no técnicos o con bajo nivel de alfabetización digital. Esta consideración implica la necesidad de crear interfaces altamente intuitivas que no requieran conocimientos técnicos previos para su uso efectivo.
+
+Adicionalmente, el diseño debe contemplar la inclusión de usuarios con diversas capacidades y necesidades especiales, garantizando que la aplicación sea verdaderamente accesible para toda la población objetivo del censo rural.
+
+
+
+ II. Sección 1: Reglas de Usabilidad y Accesibilidad (35%)
+
+ 1. Definición y Reglas de Usabilidad (Facilidad de Uso)
+
+ Concepto de Usabilidad
+
+La usabilidad se define como la medida en que un producto puede ser utilizado por usuarios específicos para alcanzar objetivos específicos con efectividad, eficiencia y satisfacción en un contexto de uso determinado. En el ámbito del desarrollo de software, la usabilidad abarca múltiples dimensiones que incluyen la interfaz de usuario, la accesibilidad, la capacidad de aprendizaje y el nivel de satisfacción que experimenta el usuario durante la interacción con el sistema.
+
+ Principios Fundamentales de Usabilidad
+
+Interfaz Intuitiva: El diseño debe caracterizarse por su claridad y facilidad de comprensión, especialmente considerando que los usuarios finales pueden ser personas no técnicas que requieren una curva de aprendizaje mínima. La interfaz debe seguir convenciones establecidas y utilizar elementos familiares que permitan a los usuarios comprender rápidamente la funcionalidad disponible.
+
+Tiempo de Aprendizaje Reducido: Para las operaciones básicas del sistema, se establece como meta un tiempo de aprendizaje inferior a 4 horas. Este objetivo asegura que los encuestadores puedan comenzar a utilizar la aplicación de manera productiva en un período muy corto, minimizando los costos de capacitación y maximizando la eficiencia operativa.
+
+Diseño Responsive y Navegación Simplificada: La aplicación debe adaptarse automáticamente a diferentes tamaños de pantalla y tipos de dispositivos, incluyendo móviles y tablets. El sistema de navegación debe ser simplificado e intuitivo, incorporando tooltips o ayudas contextuales que guíen al usuario a través de las diferentes funcionalidades sin sobrecargar la interfaz.
+
+Visibilidad del Estado del Sistema: Es crucial mantener al usuario informado sobre el estado actual del sistema en todo momento. Esto incluye mostrar el progreso de operaciones como la sincronización de datos en modo offline, el estado de conectividad, y cualquier proceso que esté ejecutándose en segundo plano.
+
+Consistencia: Todos los elementos de la interfaz y los patrones de interacción deben mantener uniformidad a lo largo de toda la aplicación, creando una experiencia cohesiva que reduzca la carga cognitiva del usuario.
+
+ 2. Definición y Estándares de Accesibilidad
+
+ Concepto de Accesibilidad
+
+La accesibilidad en software se refiere a la capacidad de una aplicación para ser utilizada efectivamente por personas con diversas capacidades físicas, cognitivas y tecnológicas. Esto incluye específicamente a personas con discapacidades visuales, auditivas, motoras o cognitivas, así como a usuarios que pueden tener limitaciones tecnológicas o de conectividad.
+
+ Estándares y Principios de Accesibilidad
+
+Estándares WCAG 2.1: Las Web Content Accessibility Guidelines (WCAG) 2.1 constituyen la referencia internacional más importante para el diseño de interfaces accesibles. Estos estándares establecen criterios específicos organizados en cuatro principios fundamentales: perceptibilidad, operabilidad, comprensibilidad y robustez.
+
+Perceptibilidad: La información y los componentes de la interfaz deben ser presentados de manera que los usuarios puedan percibirlos. Esto incluye proporcionar alternativas textuales para contenido no textual, ofrecer subtítulos para contenido multimedia, y asegurar que el contenido pueda ser presentado de diferentes maneras sin perder significado.
+
+Operabilidad: Los componentes de la interfaz y la navegación deben ser operables para todos los usuarios. Esto implica que toda la funcionalidad debe estar disponible mediante el teclado, proporcionar tiempo suficiente para leer el contenido, y evitar diseños que puedan causar convulsiones o reacciones físicas.
+
+Contraste y Legibilidad: La paleta de colores debe asegurar un contraste mínimo de 4.5:1 para texto normal y 3:1 para texto de gran tamaño, facilitando la lectura especialmente para usuarios con deficiencias visuales o en condiciones de iluminación desfavorable.
+
+Elementos Interactivos Claros: Botones, enlaces y formularios deben ser fácilmente identificables y operables tanto visualmente como a través de tecnologías de asistencia como lectores de pantalla. Los elementos interactivos deben tener un tamaño mínimo de toque de 44x44 píxeles en dispositivos móviles.
+
+
+
+ III. Sección 2: Aplicaciones Móviles y Ecosistemas (65%)
+
+ 1. Identificación y Diferenciación de Aplicaciones
+
+ Aplicación Independiente (Stand-alone)
+
+Una aplicación independiente se define como un software que se instala y ejecuta directamente en un dispositivo específico, como un smartphone o tablet, con la capacidad de operar sin requerir conexión constante a Internet. Esta característica offline-first es fundamental para garantizar la continuidad operativa en entornos con conectividad limitada o intermitente.
+
+Rol en el Proyecto Censo Rural: En el contexto del proyecto "Censo Rural", la aplicación móvil utilizada por los encuestadores constituye una aplicación independiente. Esta característica es crucial para asegurar alta disponibilidad y funcionamiento confiable en zonas rurales donde la conectividad a Internet puede ser limitada, intermitente o completamente inexistente durante períodos prolongados.
+
+La aplicación independiente debe incorporar mecanismos robustos de almacenamiento local que permitan:
+- Recolección y almacenamiento de datos del censo sin conexión
+- Validación de datos en tiempo real
+- Sincronización automática cuando se restablezca la conectividad
+- Manejo de conflictos de datos durante la sincronización
+
+ Aplicación Móvil
+
+El concepto de aplicación móvil se refiere específicamente al desarrollo de software diseñado y optimizado para operar en plataformas de dispositivos móviles. En el contexto del proyecto, esta aplicación móvil implementa y materializa la funcionalidad stand-alone requerida, adaptándose a las características específicas de los dispositivos móviles como pantallas táctiles, sensores, y limitaciones de hardware.
+
+ 2. Ecosistemas y Tecnologías de Desarrollo Móvil
+
+ Definición de Ecosistemas Móviles
+
+Los ecosistemas móviles se refieren a las plataformas integrales donde se distribuyen, ejecutan y mantienen las aplicaciones móviles. Los dos ecosistemas principales son Android (desarrollado por Google) e iOS (desarrollado por Apple), cada uno con sus propias características, tiendas de aplicaciones, y requisitos técnicos específicos.
+
+ Plataforma de Desarrollo Propuesta: React Native
+
+Tecnología Seleccionada: Para el desarrollo del proyecto "Censo Rural", se ha seleccionado React Native como la tecnología de desarrollo móvil principal.
+
+Justificación Técnica: React Native es un framework de desarrollo cross-platform que permite crear una única base de código que se compila y ejecuta nativamente en ambos ecosistemas principales (Android e iOS). Esta característica satisface directamente el requisito de compatibilidad con dispositivos móviles Android, mientras que mantiene la flexibilidad para una futura expansión a iOS si fuera necesaria.
+
+Ventajas Específicas para el Proyecto:
+- Desarrollo más eficiente al mantener una sola base de código
+- Rendimiento nativo en ambas plataformas
+- Amplia comunidad de desarrolladores y abundante documentación
+- Capacidad de integración con APIs nativas cuando sea necesario
+- Soporte robusto para funcionalidades offline
+
+ Alineación con Arquitectura del Sistema
+
+React Native se utiliza específicamente para construir la Capa de Presentación del sistema. Esta capa debe mantener un desacoplamiento estricto con la Capa de Lógica de Negocio y la Capa de Acceso a Datos, facilitando así la modularidad característica de la metodología XP (Extreme Programming) adoptada para el proyecto.
+
+ 3. Requisitos Técnicos Específicos
+
+ Compatibilidad de Plataforma
+
+Sistema Operativo Mínimo: La aplicación debe ser compatible con Android 8.0 (API level 26) o superior. Esta versión garantiza acceso a características de seguridad modernas y un amplio soporte en dispositivos actualmente en uso en áreas rurales.
+
+Optimización de Hardware: La aplicación debe estar optimizada para funcionar eficientemente en dispositivos con especificaciones modestas, considerando que en áreas rurales es común encontrar dispositivos de gama media o baja.
+
+ Arquitectura Offline-First
+
+Priorización de Funcionamiento Sin Conexión: La arquitectura del sistema debe priorizar el funcionamiento offline como modo principal de operación, utilizando almacenamiento local robusto (como SQLite) para garantizar la integridad y persistencia de los datos recolectados.
+
+Mecanismos de Sincronización: El sistema debe implementar algoritmos inteligentes de sincronización que se activen automáticamente cuando se detecte conectividad (3G mínima), manejando eficientemente la transferencia de datos y la resolución de conflictos.
+
+ Requisitos de Seguridad
+
+Encriptación End-to-End: La aplicación debe implementar encriptación end-to-end para todos los datos sensibles del censo, incluyendo información personal de los encuestados. Esta encriptación debe mantenerse tanto durante la transmisión como durante el almacenamiento local.
+
+Protección de Datos Locales: Los datos almacenados localmente deben estar protegidos mediante técnicas de encriptación que impidan el acceso no autorizado, incluso en caso de pérdida o robo del dispositivo.
+
+Autenticación y Autorización: El sistema debe implementar mecanismos robustos de autenticación para los encuestadores y controles de autorización que limiten el acceso a funcionalidades específicas según el rol del usuario.
+
+
+
+ Conclusiones
+
+La implementación exitosa de las reglas de usabilidad y accesibilidad en el desarrollo de aplicaciones móviles, particularmente para proyectos de impacto social como el "Censo Rural", requiere un enfoque integral que considere tanto los aspectos técnicos como las necesidades específicas de los usuarios finales.
+
+La adopción de estándares internacionales como WCAG 2.1, combinada con principios sólidos de usabilidad y una arquitectura técnica robusta basada en React Native, proporciona la base necesaria para crear una aplicación que sea verdaderamente inclusiva, eficiente y confiable en entornos desafiantes.
+
+El éxito del proyecto dependerá en gran medida de la correcta implementación de estos principios, asegurando que la tecnología sirva efectivamente a las necesidades de la población rural y contribuya al éxito de los objetivos del censo nacional.
+
+
+
+ Referencias
+
+- Web Content Accessibility Guidelines (WCAG) 2.1, W3C Recommendation
+- Nielsen, J. (1994). Usability Engineering. Academic Press
+- React Native Documentation. Facebook Inc.
+- ISO 9241-11:2018 Ergonomics of human-system interaction
+- Android Developer Guidelines. Google Inc.

@@ -1,0 +1,13 @@
+IE-GA4-220501093-AA1-EV01.
+
+
+ modelo debería incluir más detalles sobre las relaciones entre las entidades y los tipos de claves. Es importante que en futuras entregas te enfoques más en los elementos del modelo entidad relación y cómo se relacionan entre sí
+
+Elaboró el modelo entidad relación de acuerdo con los
+requisitos del software. 50%
+
+2. Utiliza los elementos a tener en cuenta en el modelo
+entidad relación. 40%
+
+3. Realizó el trabajo con las normas básicas de
+presentación de un documento escrito

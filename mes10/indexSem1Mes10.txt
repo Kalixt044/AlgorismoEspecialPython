@@ -1,0 +1,332 @@
+
+Nociones de reglas de usabilidad y accesibilidad en aplicaciones independientes, móviles
+GA5-220501095-AA1-EV06
+
+1. Identifica y explica claramente las reglas de usabilidad y accesibilidad. 35%
+
+2. entifica y diferencia claramente entrelo que significauna aplicación independiente y una aplicación móvil. 35%
+
+3. Identifica   y   describe   claramente   los   ecosistemas existentes para dispositivos móviles. 30%
+
+
+
+
+**************************************____________****************************************
+
+Elaboración de interfaz gráfica y mapa de navegación cumpliendo con   reglas   de   usabilidad   y   accesibilidad   app móvil
+GA5-220501095-AA1-EV07
+
+1. Identifican claramente las funcionalidades del sistema.20%
+
+2. Elabora de manera adecuada las interfacesde usuario  de  acuerdo  con  las  funcionalidades  del  sistema paradispositivos móviles. 30%
+
+3. Aplica y describe claramente las reglas de usabilidad y accesibilidad   en   las   interfaces   para   dispositivos móviles. 30%
+
+4. Describe    claramente   el    concepto    de    mapa   de navegación 20%
+
+
+******************************___________________________*****************************************************
+Maquetación  de  la interfazgráfica  en  XML -AndroidGA5-220501095-AA1-EV08
+
+
+1. Identifica claramente los requerimientos del cliente. 10%
+
+2. Conoce el concepto de maquetación gráfica. 10%
+
+3. Conoce el concepto de responsabilidad. 10% 
+
+4. Conoce los fundamentos de programación en lenguaje XML.15%
+
+5. Identifica el concepto de layouts para la elaboración de los componentes en android. 15%
+
+6. Conoce los fundamentos de programación en lenguaje HTML, CSS y JavaScript.5Implementa claramente conceptos de diseño gráfico. 10%
+
+7. Elabora las maquetas de cada funcionalidad de manera adecuada.20%7Elabora las plantillas de los componentes móviles. 10%
+
+
+************************************************________________________________*************************************
+
+Mapa mental -Características socioeconómicas, tecnológicas, políticas y culturales del contexto productivo inmediato
+GA5-240201064-AA1-EV01-EV06
+
+
+
+
+El mapa plantea las características socioeconómicas, tecnológicas, políticas y culturales del contexto productivo inmediato, identificando sus necesidades y problemáticas
+
+Los conceptos estándispuestos en un orden lógico y la forma en que son presentados mantiene el interés del lector.
+
+Las bifurcaciones, ramas y líneas claramente demuestran cómo están conectadas las ideas. Se presta para la lectura en el sentido de las manecillas del reloj
+
+En su totalidad el mapa mental está compuesto por imágenes representativas del temadestacando de forma visual la información
+
+El aprendiz no comete errores de gramática u ortografía que distraigan al lector del contenido.
+
+/**
+Interfaz grafica censo rural desarrollada en react native:
+
+import { Image } from 'expo-image';
+import { Platform, StyleSheet, TextInput, View } from 'react-native';
+// CORRECCIÓN 1: Importaciones corregidas (sin .tsx y rutas correctas)
+import AlertOk from '@/components/AlertOk'; // default export
+import CustomButton from '@/components/CustomButton'; // default export
+
+import { HelloWave } from '@/components/hello-wave';
+import ParallaxScrollView from '@/components/parallax-scroll-view';
+import { ThemedText } from '@/components/themed-text';
+import { ThemedView } from '@/components/themed-view';
+import { Link } from 'expo-router';
+
+export default function HomeScreen() {
+  // CORRECCIÓN 2: Agregar la función handlePress
+  const handlePress = () => {
+    console.log('Botón presionado');
+    alert('Formulario enviado correctamente');
+  };
+
+  return (
+    <ParallaxScrollView
+      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
+      headerImage={
+        <Image
+          source={require('@/assets/images/MinInterior.png')}
+          style={{ width: '100%', height: 200, resizeMode: 'contain' }}
+        />
+      }>
+      <ThemedView style={styles.titleContainer}>
+        <ThemedText type="title">Censo Rural!</ThemedText> 
+        <HelloWave />
+      </ThemedView>
+      
+      {/* Formulario de Nombre y Apellido */}
+      <ThemedView style={styles.formContainer}>
+        <ThemedText type="subtitle">Datos Personales</ThemedText>
+        
+        <View style={styles.inputContainer}>
+          <ThemedText style={styles.label}>1Nombre:</ThemedText>
+          <TextInput
+            style={styles.input}
+            placeholder="Primer nombre"
+            placeholderTextColor="#999"
+          />
+        </View>
+        
+        <View style={styles.inputContainer}>
+          <ThemedText style={styles.label}>2Nombre:</ThemedText>
+          <TextInput
+            style={styles.input}
+            placeholder="Segundo nombre"
+            placeholderTextColor="#999"
+          />
+        </View>
+
+        <View style={styles.inputContainer}>
+          <ThemedText style={styles.label}>1Apellido:</ThemedText>
+          <TextInput
+            style={styles.input}
+            placeholder="Primer apellido"
+            placeholderTextColor="#999"
+          />
+        </View>
+        
+        <View style={styles.inputContainer}>
+          <ThemedText style={styles.label}>2Apellido:</ThemedText>
+          <TextInput
+            style={styles.input}
+            placeholder="Segundo apellido"
+            placeholderTextColor="#999"
+          />
+        </View>
+        
+        <View style={styles.inputContainer}>
+          <ThemedText style={styles.label}>Documento:</ThemedText>
+          <TextInput
+            style={styles.input}
+            placeholder="TI/CC"
+            placeholderTextColor="#999"
+          />
+        </View>
+        
+        <View style={styles.inputContainer}>
+          <ThemedText style={styles.label}>Numero de Documento:</ThemedText>
+          <TextInput
+            style={styles.input}
+            placeholder="Num. Documento"
+            placeholderTextColor="#999"
+          />
+        </View>
+        
+        <View style={styles.inputContainer}>
+          <ThemedText style={styles.label}>Fecha De Nacimiento (DD/MM/AA):</ThemedText>
+          <TextInput
+            style={styles.input}
+            placeholder="(DD/MM/AA)"
+            placeholderTextColor="#999"
+          />
+        </View>
+        
+        <View style={styles.inputContainer}>
+          <ThemedText style={styles.label}>Sexo (M/F):</ThemedText>
+          <TextInput
+            style={styles.input}
+            placeholder="Sexo"
+            placeholderTextColor="#999"
+          />
+        </View>
+        
+        <View style={styles.inputContainer}>
+          <ThemedText style={styles.label}>Numero De Telefono:</ThemedText>
+          <TextInput
+            style={styles.input}
+            placeholder="Numero de Telefono"
+            placeholderTextColor="#999"
+          />
+        </View>
+        
+        <View style={styles.inputContainer}>
+          <ThemedText style={styles.label}>Direccion:</ThemedText>
+          <TextInput
+            style={styles.input}
+            placeholder="Direccion"
+            placeholderTextColor="#999"
+          />
+        </View>
+        
+        <View style={styles.inputContainer}>
+          <ThemedText style={styles.label}>Barrio:</ThemedText>
+          <TextInput
+            style={styles.input}
+            placeholder="(Barrio)"
+            placeholderTextColor="#999"
+          />
+        </View>
+        
+        <View style={styles.inputContainer}>
+          <ThemedText style={styles.label}>Email:</ThemedText>
+          <TextInput
+            style={styles.input}
+            placeholder="Correo Electronico"
+            placeholderTextColor="#999"
+          />
+        </View>
+        
+        {/* CORRECCIÓN 3: Botón con sintaxis correcta */}
+        <View style={styles.buttonContainer}>
+          <CustomButton 
+            title="Enviar Formulario" 
+            onPress={handlePress} 
+            variant="primary"
+          />
+        </View>
+        
+      </ThemedView>
+     
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Step 1: Diligenciar formulario en minucuslas</ThemedText>
+        <ThemedText>
+           <ThemedText type="defaultSemiBold">Verificar los nombres y apellidos esten en su lugar adecuado</ThemedText> 
+          <ThemedText type="defaultSemiBold">
+            
+          </ThemedText>
+        </ThemedText>
+      </ThemedView>
+      
+      <ThemedView style={styles.stepContainer}>
+        <Link href="/modal">
+          <Link.Trigger>
+            <ThemedText type="subtitle">Step 2: Verificar</ThemedText>
+          </Link.Trigger>
+          <Link.Preview />
+          <Link.Menu>
+            <Link.MenuAction title="Action" icon="cube" onPress={() => alert('Action pressed')} />
+            <Link.MenuAction
+              title="Share"
+              icon="square.and.arrow.up"
+              onPress={() => alert('Share pressed')}
+            />
+            <Link.Menu title="More" icon="ellipsis">
+              <Link.MenuAction
+                title="Delete"
+                icon="trash"
+                destructive
+                onPress={() => alert('Delete pressed')}
+              />
+            </Link.Menu>
+          </Link.Menu>
+        </Link>
+
+        <ThemedText>
+          {`verifica que no hayan simbolos en los campos diligenciados`}
+        </ThemedText>
+      </ThemedView>
+      
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Step 3: mantenga una sola ventana abierta al Diligenciar</ThemedText>
+        <ThemedText>
+          {`When you're ready, run `}
+          <ThemedText type="defaultSemiBold">Diligenciar formulario en minusculas</ThemedText> to get a fresh{' '}
+          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
+          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
+          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+        </ThemedText>
+      </ThemedView>
+    </ParallaxScrollView>
+  );
+}
+
+const styles = StyleSheet.create({
+  titleContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  stepContainer: {
+    gap: 8,
+    marginBottom: 8,
+  },
+  formContainer: {
+    gap: 16,
+    marginBottom: 16,
+    padding: 16,
+    backgroundColor: '#f5f5f5',
+    borderRadius: 8,
+  },
+  inputContainer: {
+    gap: 4,
+  },
+  buttonContainer: {
+    marginTop: 16,
+    alignItems: 'center',
+  },
+  label: {
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: '#ddd',
+    borderRadius: 4,
+    padding: 12,
+    fontSize: 16,
+    backgroundColor: 'white',
+  },
+  reactLogo: {
+    height: 178,
+    width: 290,
+    bottom: 0,
+    left: 0,
+    position: 'absolute',
+  },
+});
+
+
+
+
+
+
+
+
+
+
+
+**/
