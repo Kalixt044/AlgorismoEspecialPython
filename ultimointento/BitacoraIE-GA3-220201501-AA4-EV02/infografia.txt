@@ -1,0 +1,113 @@
+1. El Experimento: Movimiento en una Rampa
+
+(Incluir una imagen o diagrama del montaje: un cartón inclinado sobre un libro, con un carrito en la parte superior. 
+Señalar la altura (h) y la longitud (L) de la rampa).
+
+Materiales:
+
+    Carrito o pelota (masa en kg).
+
+    Lámina de cartón (rampa).
+
+    Libro (para crear la inclinación).
+
+    Regla o cinta métrica.
+
+    Cronómetro.
+
+Procedimiento:
+
+    Mide la Masa: Pesa el objeto y registra su masa en kilogramos (kg). Ejemplo: "Mi carrito tiene una masa de 0.5 kg."
+
+    Construye la Rampa: Apoya el cartón sobre el libro a una altura h. Mide h y la longitud de la rampa L.
+
+    Libera y Cronometra: Suelta el carrito desde lo alto y mide el tiempo t que tarda en llegar abajo.
+
+    Observa el Movimiento: Nota cómo acelera hacia abajo y luego se detiene en la base.
+
+2. Las Tres Leyes Explicadas con el Experimento
+
+(Usar iconos y flechas para hacerlo visual).
+
+Ley I: Ley de Inercia
+
+    "Un cuerpo permanece en reposo o en movimiento rectilíneo uniforme a menos que una fuerza neta actúe sobre él."
+
+¿Dónde la vemos?
+
+    Al inicio: El carrito está en reposo en tu mano. Permanece así porque la fuerza de tu dedo (hacia arriba) equilibra exactamente 
+    la fuerza de la gravedad (hacia abajo). La fuerza neta es cero.
+
+    Al final: El carrito se detiene en la base. Esto no es "natural" (inercia), sino que una fuerza de fricción con el suelo lo 
+ frena.
+
+(Icono: un carrito quieto con flechas de fuerzas equilibradas).
+
+Ley II: Ley Fundamental de la Dinámica
+
+    "La aceleración de un objeto es directamente proporcional a la fuerza neta aplicada e inversamente proporcional a su masa."
+    (F = m · a)
+
+¿Dónde la vemos?
+
+    En la rampa: Al soltarlo, la fuerza de la gravedad 
+    (componente paralela a la rampa) actúa sobre el carrito. Esta fuerza neta 
+    no equilibrada lo acelera hacia abajo.
+
+    La relación Masa-Aceleración: Si usaras un carrito con el doble de masa, la fuerza de gravedad sería mayor (F = m·g), pero como 
+    la masa también es mayor, la aceleración sería la misma (a = F/m). ¡La aceleración en caída libre o en una rampa sin fricción 
+    es independiente de la masa!
+
+(Icono: el carrito bajando la rampa con una gran flecha (F) apuntando hacia abajo por la pendiente y una flecha más pequeña (a) en
+la misma dirección).
+
+Ley III: Ley de Acción-Reacción
+
+    "Cuando un objeto ejerce una fuerza sobre otro, este segundo ejerce una fuerza igual y opuesta sobre el primero."
+
+¿Dónde la vemos?
+
+    El carrito sobre la rampa: El carrito ejerce una fuerza hacia abajo sobre la rampa (Acción).
+     Al mismo tiempo, la rampa empuja 
+    al carrito hacia arriba con una fuerza de igual magnitud, llamada fuerza normal (Reacción).
+
+    La Tierra y el carrito: La Tierra atrae al carrito con la fuerza de la gravedad (Acción).
+    El carrito atrae a la Tierra con una 
+    fuerza igual y opuesta (Reacción). 
+    (No notamos que la Tierra se mueva porque su masa es enormemente mayor).
+
+(Icono: dos pares de flechas acción-reacción: una entre el carrito y la rampa,
+ y otra entre el carrito y el planeta Tierra).
+
+3. Conceptos Clave Medidos
+
+Masa (m): Cantidad de materia del objeto (kg). 
+Es resistencia a cambiar su estado de movimiento (Inercia).
+
+Fuerza (F): Un empujón o tirón que puede cambiar el movimiento. En este caso, la causante es la 
+gravedad.
+
+Aceleración (a): El cambio de velocidad en el tiempo. En la rampa, el carrito acelera porque la 
+fuerza de gravedad supera a la fricción.
+
+Conclusión:
+Con un simple experimento casero hemos visto cómo las Leyes de Newton explican desde por qué un 
+objeto se queda quieto, hasta cómo
+acelera y cómo interactúa con todo lo que lo rodea. ¡La física está en todas partes!
+
+(Incluir un código QR que enlace a un video corto del experimento o a una simulación PhET de las leyes de Newton).
+
+
+https://hipertextual.com/ciencia/efecto-suelo/ 
+
+https://www.youtube.com/watch?v=MX4Hh42RDwg&pp=ygUPZWZlY3RvIHN1ZWxvIGYx
+
+https://www.youtube.com/watch?v=ubc25nMV3bE 
+
+https://www.youtube.com/watch?v=r2SDmTryelU  The 2022 F1 Porpoising Effect Hits Different With Music 
+
+https://www.youtube.com/watch?v=cZs8qJ-IRis 
+
+https://www.mundodeportivo.com/motor/f1/20231023/1002092338/f1-llevan-madera-fondo.html 
+
+https://elotroladodelascarreras.blog/2020/03/16/retro-f1-el-efecto-suelo-y-la-guerra-de-las-faldas/
