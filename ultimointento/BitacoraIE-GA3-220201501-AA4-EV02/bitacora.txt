@@ -1,0 +1,56 @@
+basado en el esperimento desarrollado con los datos suministrados requiero hallar el angulo 
+de la rampa, calcular la velocidad del juguete y el tiempo de recorrido teniendo en cuenta 
+los tiempos capturados en el mundo real que van desde 1.13 segundos a 1.28 segundos
+
+Este esquema integra los requerimientos formales de la bitácora con el contenido sustancial de un informe de análisis y diseño de software (como el informe de análisis con listas de chequeo GA2-220501093-AA3-EV02 o la Especificación de Requerimientos GA1-220501092-AA4-EV02).
+
+
+ Esquema de Desarrollo del Documento
+ documento debe seguir las normas básicas de presentación de un escrito, incluyendo la portada, introducción y conclusiones.
+
+
+
+ Lista de Tablas y Gráficas: Si se incluyen diagramas UML, diagramas de flujo (mapa de navegación) o tablas comparativas.
+   Resumen Ejecutivo: Descripción sintetizada del objetivo principal del software (por ejemplo, optimizar la recolección, gestión y análisis de datos personales en zonas rurales, o la gestión de facturas y control de inventarios).
+
+. Cuerpo de la Bitácora (Estructura Principal)
+ 3.1. Introducción (Breve descripción del proyecto)
+   Definición del propósito de la elicitación de requerimientos: ganar conocimientos relevantes del problema para producir una especificación formal del software.
+ Contextualización de la metodología utilizada, generalmente la Programación Extrema (XP), la cual se enfoca en entregas frecuentes de módulos funcionales independientes.
+ 3.2. Objetivos y el alcance del proyecto
+   Objetivo General de la solución de software (por ejemplo, automatizar y centralizar la información de inventario y cuentas por pagar o permitir la captura eficiente de información mediante dispositivos móviles).
+   Alcance: Explicar lo que el sistema hará y lo que no hará. Las técnicas de elicitación usadas (entrevistas y encuestas) deben ser mencionadas como fuentes primarias de información.
+
+# 3.3. Justificación (Las razones por las que se hace el proyecto)
+   Razones para la implementación del software, enfocadas en la mejora y optimización (por ejemplo, reducir costos operacionales, incrementar la eficiencia general y asegurar un cumplimiento normativo más efectivo en procesos logísticos).
+ Mención del enfoque integral del instrumento de recolección, buscando evaluar la factibilidad técnica y organizacional y anticipar obstáculos en la implementación.
+4. Desarrollo Detallado del Análisis y Diseño (Contenido según Listas de Chequeo y Artefactos)
+
+ta sección incorpora el material relevante de los artefactos de análisis y diseño para validar los requisitos y el modelo conceptual.
+ 4. Recopilación y Validación de Requerimientos
+   Tnicas de Elicitación: Descripción de cómo se utilizó el cuestionario mixto para el diagnóstico actual (estado de procesos, herramientas tecnológicas) y el cumplimiento normativo.
+ Requerimientos Normativos: Listado de la normatividad importante, decretos, resoluciones, guías y normas técnicas colombianas del área logística, o las matrices de obligatorio cumplimiento que deben actualizarse cada año (preguntas abiertas del cuestionario).
+ 4. pecificacn de Reqsitos Funcionales y No Funcionales (RF y RNF)  Ruitos Funcionales (RF):    stión de Usuios/Roles: Definición precisa de roles (Administrador, Recepcionista de Mercancías, Encuestador, etc.) y permisos correspondientes.
+       Funciones Clave: Registrar la llegada de mercancías, registrar el pago de facturas, o la captura de datos en campo (formularios dinámicos, georreferenciación, carga de fotos).
+       Identificación de Puntos Críticos: Identificar el cuello de botella en los procesos logísticos actuales (pregunta abierta del cuestionario).
+ Requisitos No Funcionales (RNF): (Atributos del Sistema)
+     Seguridad: Encriptación de datos sensibles y protección de información personal (ej. pérdida de datos < 0.01%).
+     Usabilidad: Interfaz amigable para usuarios con bajo nivel de alfabetización digital e intuitiva.
+     Disponibilidad/Conectividad: Funcionamiento offline con sincronización automática cuando hay conectividad (crítico para el "Censo Rural").
+     Escalabilidad: Debe soportar alto volumen de datos y múltiples regiones.
+ 4.3. Modelado de Artefactos y Validación
+   Diagramas de Comportamiento: Referencia a los Diagramas de Casos de Uso (modelan las funciones del software) y Diagramas de Actividades UML (detallan los flujos de procesos como el registro o la sincronización offline).
+ Modelo Conceptual (Mapa Conceptual/Diagrama de Dominio): Representación visual de los conceptos clave del proyecto y sus relaciones (ej. Encuestadores, Habitantes, Recolección de datos, Análisis). Debe ser ordenado y de fácil lectura.
+ Instrumentos de Verificación (Listas de Chequeo):
+     Propósito: Detallar cómo se elaboraron las listas de chequeo para aceptar la calidad y el cumplimiento de los artefactos de análisis.
+       Criterios aplicados: Mención de los criterios de validación clave (Completitud, Consistencia, Claridad, Correctitud, Trazabilidad, Adherencia a estándares UML, Seguridad y Privacidad).
+       Hallazgos y Mejoras: Presentación de no conformidades (ej. Flujos de sincronización poco detallados, variación de términos) y las mejoras propuestas (ej. Unificar glosario, ampliar descripción de flujos).
+4.4. Prototipo y Arquitectura (Visión de Diseño)
+ Prototipo Inicial: Descripción del prototipo inicial (ej. formularios de censo, geolocalización, modo offline) y su alineación con los casos de uso.
+   Mapa de Navegación: Diseño de un diagrama de flujo de pantallas que muestre el recorrido del usuario, asegurando que el mapa refleje un diseño usable y accesible.
+   Decisión Crítica: Discusión sobre la decisión de implementar el sistema en red local o en la nube, y cómo esta elección impacta la arquitectura, la seguridad, la escalabilidad y los costos.
+
+ 5. Conclusión (Según Bitácora.txt)
+   Recapitulación de cómo el enfoque integral del cuestionario y la validación de artefactos garantizan que la solución tecnológica propuesta sea técnica y organizacionalmente sostenible.
+   Énfasis en cómo el análisis y los diagramas contribuyen a una mejor comprensión y calidad del sistema en desarrollo.
+   Mención del uso de la información recolectada en el proceso de desarrollo.
