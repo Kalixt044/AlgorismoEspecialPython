@@ -1,0 +1,509 @@
+ PROPUESTA DE INVESTIGACIÓN FORMATIVA
+ PROYECTO CENSO RURAL
+
+ Sistema de Recolección y Gestión de Datos Personales en Comunidades Rurales mediante Tecnologías Open Source
+
+
+
+Evidencia: GA5240201064AA2EV01  
+Elaborado por: [Nombre del Estudiante]  
+Ficha: [Número de Ficha]  
+Programa: [Nombre del Programa de Formación]  
+Instructor: [Nombre del Instructor]  
+Fecha: Octubre 16, 2025  
+Institución: [Nombre de la Institución Educativa]
+
+
+
+ TABLA DE CONTENIDO
+
+I. ETAPA 1: DEFINICIÓN Y ESTRUCTURACIÓN DE LA INVESTIGACIÓN
+1. Aspectos Generales y Planteamiento del Problema
+    1.1 Título del Proyecto
+    1.2 Planteamiento del Problema
+    1.3 Formulación del Problema (Pregunta de Investigación)
+    1.4 Objetivos de la Investigación
+    1.5 Enfoque Metodológico de la Investigación
+
+2. Justificación y Alcance
+    2.1 Justificación del Proyecto
+    2.2 Propuesta Tecnológica
+    2.3 Alcance del Proyecto
+    2.4 Beneficios Esperados
+
+3. Marco Teórico y Conceptual
+    3.1 Antecedentes y Estado del Arte
+    3.2 Bases Teóricas
+    3.3 Marco Conceptual del Dominio
+    3.4 Marco Tecnológico
+    3.5 Marco Normativo
+
+4. Metodología y Población
+    4.1 Tipo y Diseño de Investigación
+    4.2 Población y Muestra
+    4.3 Variables de Estudio
+
+II. ETAPA 2: EJECUCIÓN Y RECOLECCIÓN DE INFORMACIÓN
+5. Registro de Búsqueda y Documentación
+    5.1 Estrategia de Búsqueda Bibliográfica
+    5.2 Bases de Datos Consultadas
+    5.3 Criterios de Inclusión y Exclusión
+
+6. Técnicas e Instrumentos de Recolección de Datos
+    6.1 Encuestas Estructuradas
+    6.2 Entrevistas de Profundización
+    6.3 Observación Participante
+    6.4 Análisis Documental
+
+III. ETAPA 3: PROCESAMIENTO Y ANÁLISIS DE DATOS
+7. Análisis de la Información Recolectada
+    7.1 Procesamiento de Datos Cuantitativos
+    7.2 Análisis de Datos Cualitativos
+    7.3 Triangulación de Resultados
+
+8. Análisis de Requisitos del Sistema
+    8.1 Requisitos Funcionales
+    8.2 Requisitos No Funcionales
+    8.3 Modelado del Sistema
+
+IV. ETAPA 4: PRESENTACIÓN DE RESULTADOS E INTERPRETACIÓN
+9. Resultados de la Investigación
+    9.1 Diagnóstico de la Situación Actual
+    9.2 Necesidades Tecnológicas Identificadas
+    9.3 Validación de la Solución Propuesta
+
+10. Conclusiones y Recomendaciones
+     10.1 Conclusiones
+     10.2 Recomendaciones
+     10.3 Limitaciones del Estudio
+     10.4 Trabajos Futuros
+
+11. Referencias Bibliográficas
+
+12. Anexos
+
+
+
+ I. ETAPA 1: DEFINICIÓN Y ESTRUCTURACIÓN DE LA INVESTIGACIÓN
+
+ 1. ASPECTOS GENERALES Y PLANTEAMIENTO DEL PROBLEMA
+
+ 1.1 Título del Proyecto
+
+"Desarrollo de un Sistema de Recolección y Gestión de Datos Personales en Comunidades Rurales mediante Tecnologías Open Source: Caso Censo Rural"
+
+Línea de Investigación: Tecnologías de la Información y Comunicación Aplicadas al Desarrollo Social
+
+Área de Conocimiento: Ingeniería de Sistemas, Desarrollo de Software, Sistemas de Información
+
+ 1.2 Planteamiento del Problema
+
+ 1.2.1 Descripción de la Situación Problemática
+
+En Colombia, las comunidades rurales representan aproximadamente el 23% de la población nacional (DANE, 2023), distribuyéndose en zonas geográficamente dispersas con características socioeconómicas particulares que demandan atención gubernamental focalizada. La recolección sistemática y actualizada de información censal en estos territorios constituye un insumo fundamental para el diseño, implementación y evaluación de políticas públicas orientadas al desarrollo rural integral.
+
+Sin embargo, los procesos tradicionales de levantamiento censal en áreas rurales enfrentan múltiples desafíos estructurales que comprometen la calidad, oportunidad y costoefectividad de los datos obtenidos:
+
+Problemática Operacional:
+
+1. Ineficiencia en la Captura de Datos: Los métodos actuales basados en formularios físicos impresos presentan tiempos de ejecución prolongados, con ciclos que pueden extenderse de 6 a 12 meses desde el inicio del levantamiento hasta la disponibilidad de datos procesados (Ministerio de Agricultura, 2022).
+
+2. Baja Calidad de Información: Se estima que entre el 8% y el 15% de los datos capturados manualmente contienen errores de transcripción, omisiones o inconsistencias que comprometen la confiabilidad de los análisis posteriores (estudio piloto departamental, 2023).
+
+3. Limitaciones Tecnológicas del Contexto Rural:
+    Conectividad intermitente o inexistente: Aproximadamente el 78% de las veredas rurales en Colombia carecen de acceso confiable a internet (MinTIC, 2024)
+    Infraestructura eléctrica deficiente: Muchas zonas experimentan cortes frecuentes o carecen completamente de electrificación
+    Condiciones ambientales adversas: Humedad, polvo y temperatura extrema que deterioran material físico y equipos no robustecidos
+
+4. Altos Costos Operacionales: El costo promedio de captura, transporte, digitación y procesamiento de un formulario censal físico se estima en $15,000$25,000 COP, considerando logística, personal y materiales (presupuesto piloto departamental, 2023).
+
+5. Demoras en Disponibilidad de Información: El lapso entre la captura de datos en campo y su disponibilidad para análisis puede exceder los 46 meses, limitando severamente la capacidad de respuesta gubernamental a necesidades emergentes.
+
+6. Dificultades de Trazabilidad: Los procesos manuales dificultan identificar responsables de errores, rastrear el origen de inconsistencias y verificar la autenticidad de los datos recopilados.
+
+Impacto en Políticas Públicas:
+
+La deficiencia en la recolección de datos rurales tiene consecuencias directas en la efectividad de la acción estatal:
+
+ Asignación ineficiente de recursos: Presupuestos distribuidos sin base empírica actualizada
+ Programas sociales mal focalizados: Subsidios y ayudas que no alcanzan a la población objetivo o benefician a no elegibles
+ Imposibilidad de monitoreo de impacto: Carencia de líneas base confiables para evaluar efectividad de intervenciones
+ Desconfianza ciudadana: Comunidades que perciben que sus necesidades no son atendidas por falta de visibilización en datos oficiales
+
+Brecha Tecnológica:
+
+Aunque existen soluciones tecnológicas para digitalización de censos, la mayoría presenta limitaciones críticas para el contexto rural colombiano:
+
+ Dependencia de conectividad: Sistemas que requieren internet permanente son inviables en zonas rurales
+ Costos prohibitivos: Soluciones propietarias con licenciamiento costoso que exceden presupuestos de entidades territoriales pequeñas
+ Complejidad de uso: Interfaces diseñadas para usuarios técnicos, inadecuadas para encuestadores con baja alfabetización digital
+ Falta de adaptabilidad: Sistemas rígidos que no permiten configurar formularios según particularidades regionales
+
+ 1.2.2 Causas del Problema
+
+Causas Primarias:
+
+1. Ausencia de soluciones tecnológicas apropiadas para contexto rural:
+    Falta de sistemas diseñados específicamente para funcionamiento offlinefirst
+    Carencia de herramientas robustas que soporten condiciones ambientales adversas
+    Inexistencia de plataformas de bajo costo accesibles para municipios con presupuestos limitados
+
+2. Limitaciones de infraestructura tecnológica en zonas rurales:
+    Cobertura de telecomunicaciones deficiente o nula
+    Falta de electrificación rural generalizada
+    Ausencia de soporte técnico local para equipos tecnológicos
+
+3. Baja madurez digital de actores involucrados:
+    Encuestadores con poca experiencia en uso de tecnología móvil
+    Personal administrativo habituado a procesos manuales tradicionales
+    Resistencia al cambio organizacional por parte de instituciones públicas
+
+4. Restricciones presupuestarias:
+    Presupuestos municipales limitados que no permiten inversión en soluciones propietarias costosas
+    Costos de licenciamiento recurrentes que impiden sostenibilidad de soluciones comerciales
+
+Causas Secundarias:
+
+ Falta de capacitación especializada en herramientas digitales para personal de censo
+ Ausencia de estándares nacionales para recolección digital de datos rurales
+ Limitada articulación interinstitucional para compartir experiencias tecnológicas exitosas
+ Carencia de incentivos para adopción de innovación tecnológica en entidades territoriales
+
+ 1.2.3 Consecuencias del Problema
+
+Consecuencias Directas:
+
+1. Información desactualizada para toma de decisiones: Políticas diseñadas con datos de años anteriores que no reflejan realidad actual
+2. Inequidad en distribución de recursos: Zonas con mayor necesidad que no reciben atención prioritaria por invisibilidad en datos
+3. Duplicidad de esfuerzos: Múltiples entidades levantando información similar sin coordinación
+4. Desconfianza institucional: Comunidades que perciben censistas como intrusivos sin ver beneficios tangibles
+
+Consecuencias Indirectas:
+
+ Perpetuación de brechas urbanorurales
+ Limitación de capacidades de respuesta ante emergencias (desastres naturales, crisis sanitarias)
+ Dificultad para atraer inversión privada por falta de datos confiables sobre mercados rurales
+ Obstaculización de investigación académica sobre desarrollo rural
+
+ 1.3 Formulación del Problema (Pregunta de Investigación)
+
+Pregunta Central:
+
+¿Por qué es importante mantener actualizado el censo de comunidades rurales en Colombia y cómo puede un sistema de información basado en tecnologías open source contribuir a optimizar la recolección, gestión y análisis de datos personales en contextos de conectividad limitada?
+
+Preguntas Específicas:
+
+1. ¿Cuáles son las principales limitaciones de los métodos tradicionales de recolección censal en zonas rurales de Colombia y cómo afectan la calidad y oportunidad de los datos obtenidos?
+
+2. ¿Qué características técnicas y funcionales debe tener un sistema de información para ser efectivo en contextos rurales con conectividad intermitente o inexistente?
+
+3. ¿Cómo pueden las tecnologías open source reducir costos de desarrollo y operación de sistemas censales, liberando recursos para inversión en capital humano y seguridad de datos?
+
+4. ¿Qué requisitos de usabilidad y accesibilidad son necesarios para que encuestadores con bajo nivel de alfabetización digital puedan utilizar efectivamente herramientas digitales de captura de datos?
+
+5. ¿Cómo puede garantizarse la seguridad y privacidad de datos personales sensibles en un sistema que opera offline en dispositivos móviles y posteriormente sincroniza con servidores centrales?
+
+6. ¿Qué beneficios tangibles en términos de eficiencia operativa, reducción de costos y mejora en calidad de datos pueden esperarse de la implementación de un sistema digital de censo rural?
+
+ 1.4 Objetivos de la Investigación
+
+ 1.4.1 Objetivo General
+
+Desarrollar e implementar un sistema de información basado en tecnologías open source para la recolección, gestión y análisis de datos censales en comunidades rurales, optimizando procesos mediante funcionamiento offlinefirst, reduciendo costos operacionales y garantizando seguridad de datos personales, todo ello con el propósito de facilitar información actualizada y confiable para el diseño de políticas públicas orientadas al desarrollo rural integral.
+
+ 1.4.2 Objetivos Específicos
+
+Objetivo Específico 1: Diagnóstico de la Situación Actual
+
+Realizar un diagnóstico exhaustivo de los procesos actuales de recolección censal en zonas rurales, identificando brechas tecnológicas, limitaciones operacionales y necesidades específicas de los actores involucrados (encuestadores, supervisores, administradores y habitantes censados).
+
+Resultados esperados:
+ Caracterización detallada del proceso de censo tradicional
+ Identificación de puntos críticos de falla y pérdida de calidad
+ Cuantificación de costos y tiempos asociados al método actual
+ Mapeo de competencias digitales de usuarios potenciales
+
+Objetivo Específico 2: Diseño de Arquitectura Tecnológica Apropiada
+
+Diseñar una arquitectura de sistema que garantice funcionamiento offlinefirst en dispositivos Android/Linux, con sincronización inteligente de datos cuando haya conectividad disponible, utilizando exclusivamente tecnologías open source para minimizar costos de licenciamiento.
+
+Resultados esperados:
+ Arquitectura de software modular basada en componentes
+ Especificación de stack tecnológico open source (React Native, SQLite, Node.js, PostgreSQL)
+ Diseño de protocolo de sincronización con manejo de conflictos
+ Estrategia de almacenamiento local robusto
+
+Objetivo Específico 3: Desarrollo de Requisitos Funcionales y No Funcionales
+
+Especificar de manera formal y completa los requisitos funcionales (captura de datos, georreferenciación, gestión de usuarios) y no funcionales (seguridad, usabilidad, disponibilidad) del sistema, con particular énfasis en requisitos críticos para el contexto rural.
+
+Resultados esperados:
+ Documento de especificación de requisitos (SRS) completo
+ Casos de uso detallados con flujos alternativos
+ Matriz de trazabilidad requisitoscomponentes
+ Especificación de criterios de aceptación medibles
+
+Objetivo Específico 4: Implementación de Prototipo Funcional
+
+Desarrollar un prototipo funcional del módulo de captura de datos con capacidad offline completa, validando viabilidad técnica de la propuesta mediante pruebas en condiciones reales de campo con usuarios representativos.
+
+Resultados esperados:
+ Aplicación móvil Android funcional con formularios dinámicos
+ Integración con GPS y cámara para georreferenciación y evidencia fotográfica
+ Sincronización automática con servidor central
+ Reportes de pruebas de usabilidad con encuestadores reales
+
+Objetivo Específico 5: Evaluación de Impacto y Sostenibilidad
+
+Evaluar el impacto de la solución tecnológica propuesta en términos de reducción de costos operacionales, mejora en calidad de datos, disminución de tiempos de procesamiento y viabilidad de adopción por parte de entidades gubernamentales.
+
+Resultados esperados:
+ Análisis comparativo de costos: método tradicional vs digital
+ Medición de reducción de errores de captura
+ Evaluación de tiempos de ciclo completo (captura → datos disponibles)
+ Análisis de sostenibilidad financiera y organizacional
+
+Objetivo Específico 6: Generación de Recomendaciones para Escalamiento
+
+Formular recomendaciones prácticas para el escalamiento de la solución a nivel departamental y nacional, incluyendo aspectos tecnológicos, organizacionales, normativos y de capacitación.
+
+Resultados esperados:
+ Roadmap de implementación por fases
+ Plan de capacitación para diferentes perfiles de usuario
+ Análisis de riesgos y estrategias de mitigación
+ Propuesta de política pública para adopción de soluciones digitales en censos rurales
+
+ 1.5 Enfoque Metodológico de la Investigación
+
+La presente investigación adopta un enfoque mixto con predominancia cualitativa, combinando elementos de investigación aplicada y desarrollo tecnológico. Esta elección metodológica se fundamenta en la naturaleza multidimensional del problema, que requiere tanto comprensión profunda de contextos sociales rurales (cualitativo) como medición de impactos operacionales (cuantitativo).
+
+ 1.5.1 Paradigma de Investigación
+
+Paradigma Pragmático
+
+Se adopta el paradigma pragmático que prioriza la utilidad práctica del conocimiento generado sobre consideraciones epistemológicas abstractas. Este enfoque es particularmente apropiado para investigación en ingeniería de software y sistemas de información, donde el valor se mide por la capacidad de resolver problemas reales.
+
+Características del enfoque pragmático aplicado:
+ Orientación a la acción: Enfoque en desarrollar soluciones implementables
+ Pluralismo metodológico: Uso de métodos cualitativos y cuantitativos según necesidad
+ Contextualización: Reconocimiento de que soluciones efectivas deben adaptarse a contextos específicos
+ Validación empírica: Pruebas en condiciones reales como criterio de validez
+
+ 1.5.2 Tipo de Investigación
+
+La investigación se clasifica como:
+
+1. Según su Finalidad: Investigación Aplicada
+
+Se busca generar conocimiento con aplicación directa e inmediata a la solución del problema de recolección censal rural, desarrollando un artefacto tecnológico funcional (sistema de información).
+
+2. Según su Alcance Temporal: Investigación Transversal con Elementos Longitudinales
+
+ Componente transversal: Diagnóstico de situación actual mediante corte en un momento específico
+ Componente longitudinal: Seguimiento de implementación del prototipo a lo largo de ciclo piloto (6 meses)
+
+3. Según su Profundidad: Investigación DescriptivaExplicativa
+
+ Descriptiva: Caracterización detallada de procesos actuales y necesidades identificadas
+ Explicativa: Identificación de relaciones causales entre deficiencias del método tradicional y problemas en calidad/oportunidad de datos
+
+4. Según su Carácter: Investigación de Campo
+
+El estudio se desarrolla directamente en zonas rurales donde opera el censo, interactuando con actores reales en sus contextos naturales de trabajo.
+
+ 1.5.3 Diseño de Investigación
+
+Diseño Mixto Concurrente de Triangulación (DEXPLIS)
+
+Se recolectan simultáneamente datos cualitativos y cuantitativos, posteriormente se integran en fase de análisis para proporcionar comprensión holística del fenómeno.
+
+Componente Cualitativo (Predominante  70%):
+
+Técnicas principales:
+ Entrevistas semiestructuradas en profundidad con stakeholders clave
+ Grupos focales con encuestadores
+ Observación participante durante jornadas de censo
+ Análisis documental de normatividad y procedimientos
+
+Propósito:
+ Comprender experiencias, percepciones y necesidades de usuarios
+ Identificar barreras culturales y organizacionales para adopción tecnológica
+ Explorar contextos particulares de comunidades rurales
+
+Componente Cuantitativo (Complementario  30%):
+
+Técnicas principales:
+ Encuestas estructuradas a muestra representativa de encuestadores
+ Medición de tiempos y costos en proceso actual vs prototipo
+ Análisis estadístico de tasas de error en captura de datos
+ Métricas de usabilidad del sistema (System Usability Scale  SUS)
+
+Propósito:
+ Cuantificar magnitud de problemas identificados
+ Medir impacto de solución propuesta
+ Validar estadísticamente hipótesis sobre mejoras
+
+ 1.5.4 Método de Desarrollo de Software
+
+Programación Extrema (eXtreme Programming  XP)
+
+Se adopta XP como metodología ágil de desarrollo, alineada con las características del proyecto:
+
+Prácticas XP aplicadas:
+ Entregas frecuentes: Releases funcionales cada 2 semanas para validación temprana
+ Desarrollo iterativo: Construcción incremental de funcionalidades priorizadas
+ Programación en pares: Desarrollo colaborativo para componentes críticos
+ Testing continuo: Pruebas unitarias y de integración automatizadas
+ Diseño simple: Arquitectura modular que evita complejidad innecesaria
+ Refactorización constante: Mejora continua de código sin cambiar funcionalidad
+ Propiedad colectiva: Todo el equipo puede modificar cualquier parte del código
+ Cliente en sitio: Participación de usuarios representativos durante desarrollo
+
+Justificación de XP:
+ Requisitos iniciales son inciertos y evolucionarán con feedback de usuarios
+ Necesidad de prototipos rápidos para validación de usabilidad
+ Equipo pequeño distribuido que requiere prácticas de calidad estrictas
+ Contexto de recursos limitados que demanda eficiencia máxima
+
+
+
+ 2. JUSTIFICACIÓN Y ALCANCE
+
+ 2.1 Justificación del Proyecto
+
+ 2.1.1 Justificación Social
+
+Reducción de Brechas de Información para Equidad Rural
+
+La invisibilidad estadística de comunidades rurales perpetúa inequidades estructurales en la asignación de recursos públicos. Aproximadamente 11.5 millones de colombianos habitan en zonas rurales dispersas (DANE, 2023), pero la deficiencia en datos actualizados sobre sus condiciones de vida limita severamente la capacidad del Estado para diseñar políticas focalizadas efectivas.
+
+Impactos sociales esperados:
+
+1. Mejor focalización de programas sociales: Identificación precisa de beneficiarios elegibles para subsidios, ayudas económicas y programas de vivienda rural
+
+2. Planificación de infraestructura basada en evidencia: Decisiones sobre ubicación de centros de salud, escuelas y vías rurales fundamentadas en datos demográficos actualizados
+
+3. Visibilización de comunidades marginadas: Poblaciones indígenas, afrocolombianas y campesinas con datos que respalden sus demandas de atención gubernamental
+
+4. Empoderamiento comunitario: Acceso de las propias comunidades a información sobre su situación para participación informada en procesos de planeación participativa
+
+5. Reducción de clientelismo: Criterios técnicos objetivos para asignación de recursos que minimicen manipulación política
+
+ 2.1.2 Justificación Económica
+
+Optimización de Inversión Pública mediante Reducción de Costos Operacionales
+
+El método tradicional de censo manual presenta costos directos e indirectos significativos que comprometen la sostenibilidad de levantamientos frecuentes:
+
+Análisis de costos comparativo (proyección para censo de 10,000 hogares rurales):
+
+| Concepto | Método Tradicional | Método Digital Propuesto | Ahorro |
+
+| Materiales (formularios, mapas) | $45,000,000 COP | $2,000,000 COP (tablets usadas) | 96% |
+| Digitación y procesamiento | $35,000,000 COP | $0 COP (automático) | 100% |
+| Transporte de formularios | $8,000,000 COP | $500,000 COP (sincronización) | 94% |
+| Corrección de errores | $12,000,000 COP | $1,500,000 COP | 88% |
+| Almacenamiento físico | $3,000,000 COP | $200,000 COP (nube) | 93% |
+| Licencias software | N/A | $0 COP (open source) | N/A |
+| TOTAL OPERACIONAL | $103,000,000 COP | $4,200,000 COP | 96% |
+
+Inversión inicial única:
+ Desarrollo del sistema: $80,000,000 COP (se recupera en 1 censo)
+ Capacitación: $15,000,000 COP
+ Infraestructura servidor: $10,000,000 COP
+
+Retorno de inversión (ROI):
+ Breakeven: Después del primer censo completo
+ Ahorro acumulado 5 años: $410,000,000 COP (suponiendo 1 censo/año)
+
+Beneficios económicos adicionales:
+
+ Reducción de tiempos: De 6 meses a 2 semanas para disponibilidad de datos → decisiones más oportunas
+ Reutilización de infraestructura: Sistema adaptable para otros levantamientos (salud, educación, seguridad alimentaria)
+ Generación de empleo calificado: Desarrolladores y administradores de sistemas locales vs trabajo manual repetitivo
+
+ 2.1.3 Justificación Tecnológica
+
+Aprovechamiento de Tecnologías Open Source para Soberanía Digital
+
+La adopción de tecnologías de código abierto presenta ventajas estratégicas para entidades públicas colombianas:
+
+Ventajas del enfoque open source:
+
+1. Independencia de proveedores: Evita vendor lockin y dependencia de empresas extranjeras
+2. Adaptabilidad: Código fuente accesible permite personalización según necesidades específicas
+3. Transparencia: Auditoría de seguridad y cumplimiento por parte de terceros
+4. Sostenibilidad: Sin costos recurrentes de licenciamiento que comprometan presupuestos futuros
+5. Construcción de capacidad local: Desarrollo de conocimiento técnico en comunidades de desarrolladores nacionales
+6. Interoperabilidad: Estándares abiertos facilitan integración con otros sistemas gubernamentales
+
+Alineación con políticas nacionales:
+
+ Política de Gobierno Digital (Decreto 1008 de 2018): Promueve uso de estándares abiertos y software libre
+ Estrategia de Gobierno Abierto: Transparencia y participación ciudadana facilitadas por tecnologías abiertas
+ Plan Nacional de Desarrollo 20222026: Prioriza transformación digital con enfoque de equidad territorial
+
+Innovación en contextos de conectividad limitada:
+
+El diseño offlinefirst representa innovación técnica significativa:
+ Mayoría de soluciones comerciales asumen conectividad permanente (inaplicable en rural)
+ Sincronización inteligente con manejo de conflictos es desafío técnico relevante
+ Optimización de consumo de batería y almacenamiento local para dispositivos de gama baja
+
+ 2.1.4 Justificación Académica
+
+Contribución al Conocimiento en Desarrollo de Software para Contextos de Escasez
+
+La investigación genera aportes académicos en áreas poco exploradas:
+
+Contribuciones teóricometodológicas:
+
+1. Modelo de diseño de sistemas para contextos de conectividad limitada: Framework replicable para desarrollo de aplicaciones offlinefirst
+
+2. Adaptación de metodologías ágiles a restricciones de recursos: Aplicación de XP en contexto de desarrollo con financiamiento limitado
+
+3. Diseño centrado en usuario con baja alfabetización digital: Principios de UX/UI específicos para poblaciones rurales
+
+Contribuciones empíricas:
+
+ Datos sobre efectividad de soluciones tecnológicas en mejora de calidad de levantamientos censales
+ Evidencia sobre factores de adopción tecnológica en contextos rurales colombianos
+ Análisis costobeneficio de digitalización de procesos gubernamentales descentralizados
+
+Transferencia de conocimiento:
+
+ Publicaciones académicas en conferencias de ingeniería de software y sistemas de información
+ Material pedagógico para formación de desarrolladores en tecnologías móviles y aplicaciones sociales
+ Caso de estudio para programas académicos de ingeniería de sistemas y desarrollo social
+
+ 2.2 Propuesta Tecnológica
+
+ 2.2.1 Arquitectura General del Sistema
+
+Arquitectura de Tres Capas con Enfoque OfflineFirst
+
+El sistema se estructura en tres capas principales diseñadas para máxima autonomía del componente móvil:
+
+```
+┌─────────────────────────────────────────────────┐
+│         CAPA DE PRESENTACIÓN (Móvil)            │
+│  ┌─────────────────────────────────────────┐   │
+│  │   Aplicación Android/Linux               │   │
+│  │    React Native (UI)                    │   │
+│  │    Redux (Estado)                       │   │
+│  │    React Navigation (Navegación)        │   │
+│  └─────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────┘
+                       ↕
+┌─────────────────────────────────────────────────┐
+│           CAPA DE LÓGICA DE NEGOCIO             │
+│  ┌─────────────────────────────────────────┐   │
+│  │   Almacenamiento Local (Offline)         │   │
+│  │    SQLite (Base de datos embebida)      │   │
+│  │    AsyncStorage (Configuración)         │   │
+│  │    FileSystem (Fotos/archivos)          │   │
+│  ├─────────────────────────────────────────┤   │
+│  │   Sincronización Inteligente             │   │
+│  │    Detección de conectividad            │   │
+│  │    Cola de sincronización               │   │
+│  │    Resolución de conflictos             │

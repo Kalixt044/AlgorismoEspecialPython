@@ -1,0 +1,81 @@
+Evidencia de conocimiento: GA5-240202501-AA1-EV01 - Diagrama de flujo sobre las instrucciones de un
+proceso relacionado con su quehacer laboral: 
+
+Es importante tener en cuenta que un diagrama de flujo de procesos es una de las herramientas gráficas tradicionales utilizadas 
+y se desarrolla con el debido cuidado por lo que se deberá crear un diagrama que trace un proceso del quehacer laboral del aprendiz 
+o a fin al programa de formación en el que se pueda identificar y analizar
+un proceso administrativo, de producto o académico.
+Para dibujar el diagrama de flujo, identifique las tareas y decisiones durante el proceso y escríbalas en orden, luego, organice
+estos pasos a través de un diagrama de flujo, usando los símbolos apropiados y de acuerdo al documento anexo 
+“Guía para elaborar diagramas de flujo”.
+Finalmente, verifique su diagrama de flujo para asegurarse que representa con precisión el proceso y que muestra la forma más 
+eficiente de hacer el trabajo.
+GFPI-F-135 V01
+
+A continuación, puede ver algunos ejemplos de algunos diagramas de flujo que pueden guiar para la construcción
+propia
+
+Descripcion:
+Diagrama de flujo que describe las formas de identificar los diferentes componentes de una muestra de material para guiar
+la creación de componentes moleculare
+
+Diagrama de flujo que muestra el proceso de nombramiento de los magistrados de la Corte Suprema de los Estados Unidos.
+
+Este diagrama de flujo representa el proceso de desarrollo e implementación en uso por Wikimedia Lineamientos para la entrega 
+de la evidencia:
+
+● Producto a entregar: diagrama de flujo que representa las instrucciones de un proceso relacionado con su quehacer laboral
+o programa de formación.
+
+Elabora el diagrama de flujo en el idioma inglés con un proceso definido y utilizando un léxico adecuado, convenciones, 
+redacción y estructura correcta. 30%
+
+Muestra un buen control gramatical e intenta hacer uso de estructuras propuestas en el material estudio sobre el buen uso 
+de inglés para la comunicación internacional. 15%
+
+Muestra el vocabulario sobre el quehacer laboral o académico que le permite hacer descripciones claras de cada
+una de las tareas que se detallan en el diagrama. 15%
+
+Aplica estrategias para la redacción de textos sencillos en inglés durante todo el esquema. 5%
+
+La información está claramente diferenciada con los tiempos verbales y vocabulario técnico. 10%
+
+Se construyen mensajes claros y concisos 15%
+
+
+Descripcion del trabajo diario: 
+
+El fujo de trabajo diario como desarrollador full-stack peakU
+
+El dia empieza por la Ma~ana, recibiso el correo electronico, repondo primero los mas urgentes, verifico las reuniones diarias y 
+si una reunion solicitada se cruza con una ya agendada debo responder solicitando un nuevo horario para agendar, sino agendo directamente,
+la primer reunion del dia o dealy pues trabajamos com Scrum es a rededor de las 8:30 en donde vemos las tareas que se nos han sido 
+asignadas y como pensamos solucionarlas, tambien mostramos las tareas en donde hemos estado trabajando; antes de esa reunion
+hemos debido lanzar el Front-end y el Back-end en nuestro etorno local, haber hecho migraciones de bases de datos y verificar que al hacer 
+pull al repositorio principal no hayan errores en nuestro entorno local de ser asi se reporta en el dealy. una vez acabada la primer reunion 
+del dia abordamos las tareas asignadas y quedamos atentos a las reuniones que tengamos agendadas que generalmente son de formacion
+u acompa~amiento a otros modulos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

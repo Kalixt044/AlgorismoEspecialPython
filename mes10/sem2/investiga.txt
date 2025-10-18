@@ -1,0 +1,39 @@
+Propuesta de investigación formativa - GA5-240201064-AA2-EV01.
+
+Identifica las necesidades del contexto social y productivo.
+
+Título de proyecto: Censo Rural
+
+INSTRUMENTO DE EVALUACIÓN
+
+Pregunta de investigación.
+Por que es importante mantener actualizado el censo de comunidades rurales?
+
+Objetivo general.
+Desarrollar un programa que use tegnologia open source para reducir el precio de desarrollo y poder usar ese dinero para salarios de desarrolladores y 
+seguridad de los datos, por la naturaleza del programa open source, esta enfocado a ser ejecutado en Linux u android, el aplicativo web es de segundo plano 
+pues en las comunidades en donde se va a realizar el censo generalmente no hay acceso a internet, por lo cual los programas deben ser  ejecutados
+en local y luego sincronizar los datos en la base de datos.
+
+Enfoque de investigación:
+mixto - Cualitativo
+
+Justificación.
+
+Marco teórico.
+
+Método de investigación.
+
+Metodología.
+
+Determina población muestra.
+
+Etapa 2 Elabora el registro de búsqueda.
+
+Presenta la información recolectada.
+
+Etapa 3 Presenta análisis de datos.
+
+Etapa 4 Presenta resultados e interpretación de los mismos.
+
+Etapa 5 Presenta conclusiones
