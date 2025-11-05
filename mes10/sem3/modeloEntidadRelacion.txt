@@ -1,0 +1,409 @@
+Modelo Entidad-Relación del Proyecto "Censo Rural"
+
+**Evidencia:** GA6-220501096-AA1-EV02  
+**Objetivo:** Crear modelo entidad-relación cumpliendo con los requerimientos dados, estableciendo correctamente las relaciones y utilizando herramientas adecuadas
+
+
+
+Resumen Ejecutivo
+
+El proyecto "Censo Rural" tiene como objetivo principal optimizar la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas. El repositorio de referencia sugiere que la base de datos será SQLite3 para una gestión eficiente de la información. Este documento presenta el Modelo Entidad-Relación (MER) conceptual del sistema, cumpliendo con los requisitos de la evidencia establecida.
+
+
+
+1. Identificación de Entidades Principales
+
+Las entidades representan los conceptos fundamentales del dominio del negocio. Para el proyecto "Censo Rural", se han identificado las siguientes entidades clave que manejan los datos del censo y los actores que los recolectan y gestionan:
+
+Tabla 1. Entidades del Sistema Censo Rural
+
+| Nombre de la Entidad | Definición en el Contexto del Censo Rural | Tipo de Entidad |
+|-|-|--|
+| Usuario | Entidad genérica para cualquier persona que interactúa con el sistema, permitiendo centralizar la gestión de autenticación | Fuerte |
+| Encuestador | Usuario especializado responsable de la captura de datos en campo | Especialización de Usuario |
+| HabitanteCensado | Persona residente en la zona rural, de la cual se recolectan los datos. Entidad central que almacena los datos personales | Fuerte |
+| RegistroCenso | Instancia concreta de datos capturados por un Encuestador (una encuesta completada) | Fuerte |
+| FormularioCenso | Plantilla que define la estructura y las preguntas de un censo específico | Fuerte |
+| ZonaGeografica | Delimitación territorial asignada a los Encuestadores para organizar la cobertura | Fuerte |
+| Archivo | Documento digital o fotografía adjunto a un registro de censo como evidencia | Fuerte |
+
+
+
+2. Definición de Atributos Clave y Campos Requeridos
+
+El modelo incorpora los campos de datos personales solicitados, asociándolos principalmente con la entidad **HabitanteCensado** y la entidad **RegistroCenso** para metadatos de captura.
+
+2.1 Entidad: HabitanteCensado
+
+**Descripción:** Almacena la información personal completa de cada habitante censado en las zonas rurales.
+
+**Atributos:**
+
+- **idHabitante** (PK): Identificador único del habitante
+- **numeroDocumento**: Número de documento de identidad (índice único, clave candidata)
+- **tipoDocumento**: Tipo de documento (CC, TI, CE, etc.)
+- **primerNombre**: Primer nombre del habitante (obligatorio)
+- **segundoNombre**: Segundo nombre del habitante (opcional, permite NULL)
+- **primerApellido**: Primer apellido del habitante (obligatorio)
+- **segundoApellido**: Segundo apellido del habitante (opcional, permite NULL)
+- **fechaNacimiento**: Fecha de nacimiento (DATE)
+- **sexo**: Sexo biológico o género del habitante
+- **email**: Correo electrónico de contacto
+- **domicilio**: Dirección de residencia completa
+
+2.2 Entidad: RegistroCenso
+
+**Descripción:** Representa cada instancia de captura de datos realizada por un encuestador, vinculando al habitante con el formulario aplicado.
+
+**Atributos:**
+
+- **idRegistro** (PK): Identificador único del registro
+- **idEncuestador** (FK): Referencia al encuestador que realizó la captura
+- **idFormulario** (FK): Referencia al formulario utilizado
+- **idHabitante** (FK): Referencia al habitante censado
+- **fechaHoraCaptura**: Timestamp de cuando se realizó la captura
+- **latitud**: Coordenada GPS de latitud
+- **longitud**: Coordenada GPS de longitud
+- **estadoSincronizacion**: Estado del registro (offline/sincronizado)
+
+2.3 Entidad: Encuestador
+
+**Descripción:** Usuario especializado que captura datos en campo, con asignaciones territoriales específicas.
+
+**Atributos:**
+
+- **idUsuario** (PK, FK): Identificador heredado de Usuario
+- **idZonaAsignada** (FK): Zona geográfica asignada
+- **metaDiaria**: Meta de registros diarios
+- **certificacionVigente**: Indica si el encuestador tiene certificación válida
+
+2.4 Entidad: Usuario
+
+**Descripción:** Entidad base para la gestión de autenticación y acceso al sistema.
+
+**Atributos:**
+
+- **idUsuario** (PK): Identificador único del usuario
+- **nombreCompleto**: Nombre completo del usuario
+- **email**: Correo electrónico institucional
+- **contrasenaHash**: Contraseña cifrada con algoritmo seguro (bcrypt/SHA-256)
+- **rol**: Tipo de usuario (Encuestador, Supervisor, Administrador)
+
+2.5 Entidad: FormularioCenso
+
+**Descripción:** Define la estructura y preguntas de cada censo aplicado.
+
+**Atributos:**
+
+- **idFormulario** (PK): Identificador único del formulario
+- **nombreFormulario**: Nombre descriptivo del formulario
+- **version**: Versión del formulario
+- **fechaCreacion**: Fecha de creación del formulario
+- **activo**: Indica si el formulario está activo
+
+2.6 Entidad: ZonaGeografica
+
+**Descripción:** Delimitación territorial para organizar la cobertura del censo.
+
+**Atributos:**
+
+- **idZona** (PK): Identificador único de la zona
+- **nombreZona**: Nombre descriptivo de la zona
+- **departamento**: Departamento al que pertenece
+- **municipio**: Municipio al que pertenece
+- **limiteGeografico**: Coordenadas que delimitan la zona (GeoJSON o similar)
+
+2.7 Entidad: Archivo
+
+**Descripción:** Almacena documentos digitales o fotografías adjuntas como evidencia de los registros.
+
+**Atributos:**
+
+- **idArchivo** (PK): Identificador único del archivo
+- **idRegistro** (FK): Registro al que pertenece el archivo
+- **nombreArchivo**: Nombre del archivo
+- **tipoArchivo**: Extensión o tipo MIME (jpg, pdf, png)
+- **rutaArchivo**: Ruta de almacenamiento del archivo
+- **esEncriptado**: Indica si el archivo está encriptado
+- **fechaSubida**: Fecha y hora de carga del archivo
+
+
+
+3. Establecimiento de Relaciones y Cardinalidades
+
+Las relaciones se definen según las reglas de negocio del censo rural, reflejando cómo interactúan las entidades para la recolección de datos.
+
+Tabla 2. Relaciones del Modelo Entidad-Relación
+
+| Relación | Entidad Origen | Cardinalidad Origen | Entidad Destino | Cardinalidad Destino | Justificación (Regla de Negocio) |
+|-|||-||-|
+| Captura | Encuestador | 1 | RegistroCenso | N | Un encuestador captura múltiples registros de censo a lo largo de su trabajo en campo |
+| AsociadoA | HabitanteCensado | 1 | RegistroCenso | N | Un habitante puede tener múltiples registros de censo (censos de seguimiento), pero cada registro pertenece a un solo habitante |
+| DefineEstructura | FormularioCenso | 1 | RegistroCenso | N | Un formulario define la estructura para múltiples registros de censo que utilizan esa plantilla |
+| Incluye | RegistroCenso | 1 | Archivo | N | Un registro de censo puede incluir cero o múltiples archivos como evidencia (fotografías, documentos escaneados) |
+| AsignadaA | ZonaGeografica | 1 | Encuestador | N | Una zona geográfica puede ser asignada a uno o múltiples encuestadores para completar la cobertura territorial |
+| EsTipoDe | Usuario | 1 | Encuestador | 1 | Encuestador es una especialización de Usuario (modelo de herencia), heredando atributos de autenticación |
+
+3.1 Descripción Detallada de Relaciones
+
+**Relación Captura (Encuestador - RegistroCenso):**  
+Esta relación de uno a muchos establece que cada registro de censo es capturado por un único encuestador, pero un encuestador puede realizar múltiples capturas. La integridad referencial garantiza la trazabilidad de quién recolectó cada dato, fundamental para auditorías y control de calidad.
+
+**Relación AsociadoA (HabitanteCensado - RegistroCenso):**  
+Permite que un mismo habitante tenga múltiples registros en el tiempo (censos de actualización o seguimiento), pero cada registro específico corresponde a un único habitante. Esta relación es crítica para evitar duplicación de personas y mantener historiales.
+
+**Relación DefineEstructura (FormularioCenso - RegistroCenso):**  
+Vincula cada registro con el formulario específico utilizado, permitiendo manejar diferentes versiones de censos y garantizando que la estructura de datos sea consistente con el formulario aplicado.
+
+**Relación Incluye (RegistroCenso - Archivo):**  
+Relación opcional que permite adjuntar evidencia documental o fotográfica a cada registro. Un registro puede existir sin archivos adjuntos, pero cada archivo debe estar vinculado a un registro específico.
+
+**Relación AsignadaA (ZonaGeografica - Encuestador):**  
+Organiza la distribución territorial del trabajo de campo. Una zona puede tener múltiples encuestadores (trabajo en equipo o relevos), y esta relación facilita la planificación logística y el monitoreo de cobertura.
+
+**Relación EsTipoDe (Usuario - Encuestador):**  
+Implementa un patrón de herencia donde Encuestador especializa a Usuario, heredando atributos de autenticación y añadiendo atributos específicos del rol de campo (zona asignada, metas, certificación).
+
+
+
+4. Herramientas para el Modelado
+
+Para la creación del Modelo Entidad-Relación, se recomienda utilizar herramientas de modelado visual que faciliten la comunicación y validación del diseño. En el contexto del proyecto "Censo Rural", se sugieren las siguientes herramientas:
+
+4.1 Draw.io / Diagrams.net
+
+Herramienta recomendada para el modelado de diagramas UML y prototipos iniciales del software "Censo Rural". Permite crear diagramas de entidad-relación con notación Chen o Crow's Foot, exportar en múltiples formatos y colaborar en línea.
+
+**Ventajas:**
+- Interfaz intuitiva y accesible vía web
+- Plantillas predefinidas para diagramas ER
+- Exportación a PNG, PDF, SVG
+- Integración con Google Drive y OneDrive
+
+4.2 Diagramas UML
+
+El diagrama Entidad-Relación es la base para el modelado de la Vista de Información, uno de los componentes de la documentación arquitectónica del proyecto. Se recomienda seguir el estándar UML para diagramas de clases con estereotipos <<Entity>>, lo que facilita la transición hacia el diseño de la base de datos relacional.
+
+4.3 Herramientas Complementarias
+
+- **MySQL Workbench:** Para generar el modelo físico de la base de datos a partir del MER conceptual
+- **Lucidchart:** Alternativa en la nube con colaboración en tiempo real
+- **ERDPlus:** Herramienta web especializada en diagramas ER con generación automática de SQL
+
+
+
+5. Esquemas de Seguridad e Integridad de la Información
+
+La evidencia GA6-220501096-AA1-EV02 y la relacionada GA4-220501093-AA1-EV01 enfatizan la necesidad de definir esquemas de seguridad en la base de datos para mantener la integridad de la información. Dado que el proyecto maneja datos personales sensibles de habitantes rurales, la seguridad es un requisito no funcional crítico.
+
+5.1 Integridad Referencial
+
+**Implementación:** Se garantiza mediante el uso de claves primarias (PK) y claves foráneas (FK) en todas las relaciones del modelo.
+
+**Ejemplo de aplicación:**
+- Un **RegistroCenso** siempre debe estar vinculado a un **Encuestador** existente (FK: idEncuestador)
+- Un **RegistroCenso** siempre debe referenciar un **FormularioCenso** válido (FK: idFormulario)
+- Un **RegistroCenso** siempre debe estar asociado a un **HabitanteCensado** (FK: idHabitante)
+
+**Beneficio:** Previene registros huérfanos y mantiene la consistencia de los datos, asegurando que no existan registros de censo sin encuestador asignado o sin habitante asociado.
+
+5.2 Unicidad de Datos
+
+**Implementación:** El atributo **numeroDocumento** en la tabla **HabitanteCensado** debe configurarse como índice único (Unique Constraint).
+
+**Justificación:** Previene la duplicación de personas censadas, garantizando que cada habitante aparezca una sola vez en el sistema, independientemente de cuántos registros de censo tenga asociados.
+
+**Validación adicional:** Se recomienda implementar validación a nivel de aplicación que combine numeroDocumento y tipoDocumento para manejar casos excepcionales (documentos temporales, extranjeros, etc.).
+
+5.3 Seguridad de Acceso
+
+**Control de Acceso Basado en Roles (RBAC):**
+
+La gestión de roles asegura el control de acceso basado en permisos, decidiendo qué usuario puede modificar o consultar datos:
+
+- **Administrador:** Acceso completo al sistema, gestión de usuarios y configuración
+- **Supervisor:** Consulta de datos, generación de reportes, asignación de zonas
+- **Encuestador:** Captura de datos en campo, consulta limitada a sus propios registros
+
+**Autenticación Segura:**
+- El atributo **contrasenaHash** almacena contraseñas cifradas con algoritmos robustos (bcrypt, SHA-256 con salt)
+- Implementación de tokens de sesión con expiración
+- Registro de auditoría de accesos y modificaciones
+
+5.4 Seguridad y Privacidad de Datos Personales
+
+**Encriptación de Datos Sensibles:**
+
+El atributo **esEncriptado** en la entidad **Archivo** sugiere la implementación de encriptación para archivos sensibles. Se recomienda extender esta protección a:
+
+- **Datos personales en HabitanteCensado:** Encriptar campos como numeroDocumento, email y domicilio
+- **Archivos adjuntos:** Aplicar encriptación AES-256 a documentos y fotografías
+- **Transmisión de datos:** Uso de HTTPS/TLS para la comunicación entre dispositivos móviles y el servidor
+
+**Cumplimiento Normativo:**
+- Alineación con la Ley 1581 de 2012 (Protección de Datos Personales en Colombia)
+- Políticas de retención y eliminación de datos según normativa vigente
+- Consentimiento informado del habitante para la captura y almacenamiento de datos
+
+5.5 Auditoría y Trazabilidad
+
+**Registros de Auditoría:**
+- Timestamp de creación y modificación en todas las entidades principales
+- Registro de acciones de usuarios (log de operaciones CRUD)
+- Identificación del usuario que realizó cada operación
+
+**Respaldo y Recuperación:**
+- Backups automáticos diarios de la base de datos SQLite3
+- Sincronización bidireccional para dispositivos offline
+- Plan de recuperación ante desastres con RPO y RTO definidos
+
+
+
+6. Diagrama Conceptual del Modelo Entidad-Relación
+
+A continuación se describe la representación visual del MER en notación Crow's Foot:
+
+```
+┌─────────────────┐
+│    Usuario      │
+├─────────────────┤
+│ idUsuario (PK)  │
+│ nombreCompleto  │
+│ email           │
+│ contrasenaHash  │
+│ rol             │
+└─────────────────┘
+         △
+         │ EsTipoDe (Herencia)
+         │ 1:1
+         ▽
+┌─────────────────────┐       ┌──────────────────┐
+│   Encuestador       │◄──────│ ZonaGeografica   │
+├─────────────────────┤ N:1   ├──────────────────┤
+│ idUsuario (PK,FK)   │AsignadoA idZona (PK)     │
+│ idZonaAsignada (FK) │       │ nombreZona       │
+│ metaDiaria          │       │ departamento     │
+│ certificacionVig.   │       │ municipio        │
+└─────────────────────┘       │ limiteGeografico │
+         │                    └──────────────────┘
+         │ Captura
+         │ 1:N
+         ▽
+┌─────────────────────┐
+│  RegistroCenso      │
+├─────────────────────┤
+│ idRegistro (PK)     │
+│ idEncuestador (FK)  │───────┐
+│ idFormulario (FK)   │───┐   │
+│ idHabitante (FK)    │─┐ │   │
+│ fechaHoraCaptura    │ │ │   │
+│ latitud             │ │ │   │
+│ longitud            │ │ │   │
+│ estadoSincronizacion│ │ │   │
+└─────────────────────┘ │ │   │
+         │              │ │   │
+         │ Incluye      │ │   │
+         │ 1:N          │ │   │
+         ▽              │ │   │
+┌─────────────────────┐ │ │   │
+│     Archivo         │ │ │   │
+├─────────────────────┤ │ │   │
+│ idArchivo (PK)      │ │ │   │
+│ idRegistro (FK)     │ │ │   │
+│ nombreArchivo       │ │ │   │
+│ tipoArchivo         │ │ │   │
+│ rutaArchivo         │ │ │   │
+│ esEncriptado        │ │ │   │
+│ fechaSubida         │ │ │   │
+└─────────────────────┘ │ │   │
+                        │ │   │
+                  AsociadoA│   │DefineEstructura
+                      N:1 │   │ N:1
+                        ▽ │   ▽
+┌─────────────────────┐   │   ┌──────────────────┐
+│ HabitanteCensado    │   │   │ FormularioCenso  │
+├─────────────────────┤   │   ├──────────────────┤
+│ idHabitante (PK)    │◄──┘   │ idFormulario(PK) │◄─┘
+│ numeroDocumento(UK) │       │ nombreFormulario │
+│ tipoDocumento       │       │ version          │
+│ primerNombre        │       │ fechaCreacion    │
+│ segundoNombre       │       │ activo           │
+│ primerApellido      │       └──────────────────┘
+│ segundoApellido     │
+│ fechaNacimiento     │
+│ sexo                │
+│ email               │
+│ domicilio           │
+└─────────────────────┘
+```
+
+**Leyenda:**
+- PK: Primary Key (Clave Primaria)
+- FK: Foreign Key (Clave Foránea)
+- UK: Unique Key (Clave Única)
+- 1:N: Relación uno a muchos
+- N:1: Relación muchos a uno
+- 1:1: Relación uno a uno
+
+
+
+7. Normalización del Modelo
+
+El modelo propuesto cumple con la Tercera Forma Normal (3FN):
+
+**Primera Forma Normal (1FN):** Todos los atributos contienen valores atómicos, sin grupos repetitivos.
+
+**Segunda Forma Normal (2FN):** Todos los atributos no-clave dependen completamente de la clave primaria.
+
+**Tercera Forma Normal (3FN):** No existen dependencias transitivas; todos los atributos no-clave dependen únicamente de la clave primaria.
+
+**Ejemplo de normalización aplicada:**
+- Los datos del encuestador (metaDiaria, certificación) están en la entidad Encuestador, no en RegistroCenso
+- Los datos de ubicación GPS están en RegistroCenso porque son específicos de cada captura, no del habitante
+- Los datos del formulario están separados de RegistroCenso para evitar redundancia
+
+
+
+8. Consideraciones de Implementación en SQLite3
+
+Dado que el repositorio sugiere SQLite3 como motor de base de datos, se deben considerar las siguientes particularidades:
+
+**Restricciones de Integridad:**
+- SQLite3 soporta claves foráneas, pero deben activarse explícitamente: `PRAGMA foreign_keys = ON;`
+- Implementar índices únicos para numeroDocumento: `CREATE UNIQUE INDEX idx_documento ON HabitanteCensado(numeroDocumento);`
+
+**Tipos de Datos:**
+- Usar TEXT para fechas en formato ISO 8601: 'YYYY-MM-DD HH:MM:SS'
+- REAL para coordenadas GPS (latitud, longitud)
+- INTEGER para claves primarias con autoincremento: `INTEGER PRIMARY KEY AUTOINCREMENT`
+
+**Optimización:**
+- Crear índices para claves foráneas frecuentemente consultadas
+- Usar transacciones para operaciones de sincronización masiva
+- Implementar WAL mode para mejorar concurrencia: `PRAGMA journal_mode=WAL;`
+
+
+
+9. Conclusiones
+
+El Modelo Entidad-Relación presentado cumple con los requisitos de la evidencia GA6-220501096-AA1-EV02:
+
+1. **Creación del modelo cumpliendo los requisitos:** Se han identificado siete entidades principales que cubren todos los aspectos del dominio del Censo Rural, incluyendo la gestión de usuarios, recolección de datos, zonificación territorial y almacenamiento de evidencias.
+
+2. **Relaciones correctamente establecidas:** Se definieron seis relaciones con cardinalidades apropiadas que reflejan las reglas de negocio del proyecto, garantizando la integridad referencial y la trazabilidad de los datos.
+
+3. **Utilización de herramientas adecuadas:** Se recomendaron herramientas profesionales de modelado (Draw.io, MySQL Workbench, UML) que facilitan la documentación, comunicación y posterior implementación del modelo.
+
+4. **Esquemas de seguridad e integridad:** Se definieron mecanismos de integridad referencial, unicidad de datos, control de acceso basado en roles y encriptación de datos sensibles, cumpliendo con normativas de protección de datos personales.
+
+El modelo está preparado para su implementación en SQLite3, considerando las particularidades técnicas de este motor de base de datos y los requerimientos de funcionamiento offline característicos de aplicaciones de censo en zonas rurales apartadas.
+
+
+
+Referencias
+
+American Psychological Association. (2020). *Publication manual of the American Psychological Association* (7th ed.). https://doi.org/10.1037/0000165-000
+
+Elmasri, R., & Navathe, S. B. (2015). *Fundamentals of database systems* (7th ed.). Pearson.
+
+Silberschatz, A., Korth, H. F., & Sudarshan, S. (2019). *Database system concepts* (7th ed.). McGraw-Hill Education.
