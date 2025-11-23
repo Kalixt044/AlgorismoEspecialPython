@@ -1,0 +1,70 @@
+La siguiente es una estructura detallada para el desarrollo de la evidencia Destrezas y conocimientos en el manejo de sentencias DDL y DML de SQL (GA6-220501096-AA2-EV01), diseñada para cumplir con los criterios de evaluación y tomando como contexto la estructura de base de datos propuesta para el proyecto "Censo Rural".
+
+El criterio de evaluación principal para esta evidencia es que el aprendiz implemente restricciones en la base de datos de acuerdo con las reglas de diseño.
+
+Estructura Propuesta para la Evidencia GA6-220501096-AA2-EV01
+
+ I. Introducción y Contextualización
+
+1.  Portada
+2.  Introducción
+       Presentación de la evidencia y su objetivo: demostrar el manejo de sentencias DDL (Data Definition Language) y DML (Data Manipulation Language) de SQL.
+       Contextualización del proyecto "Censo Rural": Mencionar que este software integral busca optimizar la recolección, gestión y análisis de datos personales en zonas rurales apartadas.
+       Justificación del diseño de la base de datos: La arquitectura modular del sistema "Censo Rural" (bajo metodología XP) requiere una base de datos robusta, que puede incluir tecnologías como PostgreSQL o SQLite (para el funcionamiento offline en campo).
+
+ II. Aplicación del Lenguaje DDL (Data Definition Language)
+
+Esta sección aborda el Ítem 2 de la lista de chequeo: Aplica el lenguaje DDL según el caso propuesto (30%) y el criterio de implementar restricciones.
+
+El DDL se utilizará para crear las tablas basadas en las entidades clave identificadas en el Modelo Entidad-Relación (MER) del proyecto "Censo Rural".
+
+1.  Creación de Tablas y Definición de Estructura (`CREATE TABLE`)
+       Definir sentencias DDL para crear al menos dos o tres tablas clave del dominio del censo:
+
+    | Entidad del Censo Rural | Propósito y Campos Clave |
+    | :--- | :--- |
+    | 1. Usuario (Base para roles) | PK: `idUsuario` (INT, PK, AUTOINCREMENT). Campos: `correoElectronico` (VARCHAR, UNIQUE, para login), `nombreCompleto`. |
+    | 2. HabitanteCensado (Datos personales) | PK: `idHabitante` (INT, PK). Campos: `documentoIdentidadHabitante` (VARCHAR, UNIQUE), `primerNombre`, `primerApellido`, `fechaNacimiento`. |
+    | 3. RegistroCenso (Instancia de encuesta) | PK: `idRegistro` (INT, PK). FK: `idEncuestador` (referencia a Usuario), `idHabitante`. Campos: `ubicacionGPS`, `estadoSincronizacion`. |
+
+2.  Implementación de Restricciones (`CONSTRAINT`)
+       Las restricciones deben implementarse de acuerdo con las reglas de diseño para garantizar la integridad, confidencialidad y disponibilidad de los datos.
+
+       Claves Primarias (PK): Definición de `PRIMARY KEY` en las tablas principales (`Usuario`, `HabitanteCensado`, `RegistroCenso`).
+       Claves Foráneas (FK): Definición de `FOREIGN KEY` en `RegistroCenso` para asegurar la trazabilidad, vinculando el registro a un `Usuario` (Encuestador) y a un `HabitanteCensado`.
+       Restricciones de Unicidad (`UNIQUE`): Aplicación de `UNIQUE` al campo `documentoIdentidad` (o `numero_documento`) del Habitante y al `correoElectronico` del Usuario.
+       Restricciones de No Nulos (`NOT NULL`): Aplicación de `NOT NULL` a campos obligatorios (ej., `primerNombre`, `primerApellido`, `tipo_documento`).
+       Restricciones de Dominio (`CHECK`/`ENUM`): Aplicación de restricciones `CHECK` o `ENUM` para validar datos (ej., para el campo `sexo` o `genero`: `'M', 'F', 'Otro'`, o validar la edad en un rango específico para la entrada de datos).
+
+ III. Aplicación del Lenguaje DML (Data Manipulation Language)
+
+Esta sección aborda el Ítem 3 de la lista de chequeo: Aplica el lenguaje DML según el caso propuesto (30%).
+
+1.  Inserción de Datos (`INSERT`)
+       Demostrar la inserción de al menos tres registros de prueba en cada tabla, respetando las restricciones de unicidad y las claves foráneas definidas en la sección DDL.
+           Ejemplo: Insertar un `Usuario` (Encuestador) y luego insertar un `HabitanteCensado` y un `RegistroCenso` vinculado al Encuestador.
+
+2.  Consulta de Datos (`SELECT`)
+       Demostrar consultas DML complejas esenciales para la funcionalidad del proyecto "Censo Rural":
+           Consulta simple: Seleccionar todos los `HabitantesCensados` de un `barrio` o región geográfica específica.
+           Consulta con `JOIN`: Recuperar el nombre completo del Encuestador y los datos del `HabitanteCensado` para un `RegistroCenso` específico (demostrando trazabilidad).
+           Consulta con agregación (`GROUP BY`): Calcular el promedio de edad o la cantidad de habitantes por `sexo` o `categoria`.
+
+3.  Modificación de Datos (`UPDATE`)
+       Demostrar la actualización de un registro, lo cual es vital para los flujos de trabajo del censo:
+           Ejemplo: Actualizar el `estadoSincronizacion` de un `RegistroCenso` de 'offline' a 'sincronizado'.
+           Ejemplo: Actualizar el flag `verificado` de un `HabitanteCensado` a 1, una vez que el supervisor aprueba la calidad del dato.
+
+4.  Eliminación de Datos (`DELETE`)
+       Demostrar la eliminación de un registro de prueba, asegurando que la sentencia respete las restricciones de integridad referencial (e.g., eliminando un registro que no tiene dependencias).
+
+ IV. Conclusiones y Cumplimiento
+
+Esta sección aborda el Ítem 1 y 4 de la lista de chequeo: Realiza todos los puntos propuestos en el taller (30%) y El documento cumple con los requerimientos básicos según lo requerido (10%).
+
+1.  Conclusiones:
+       Resumen del trabajo realizado, destacando cómo las sentencias DDL permitieron estructurar la base de datos del Censo Rural.
+       Mencionar la importancia de las sentencias DML para la operación diaria del sistema (captura, análisis y gestión de datos).
+       Confirmar que las restricciones implementadas cumplen con las reglas de diseño del proyecto, asegurando la unicidad del `numero_documento` y la trazabilidad de los registros.
+2.  Referencias (si aplica).
+3.  Anexos de Código (para demostrar la ejecución correcta de las sentencias DDL y DML).

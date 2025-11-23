@@ -1,0 +1,30 @@
+Mi estructura condicional seleccionada para esta entrada es el "if-else" anidado, esta instruccion
+es util para situaciones en donde las condiciones dependen una de otras
+
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+int score = 75;
+bool hasBonus = true;
+
+if (score >= 70) {
+    cout << "aprobaste el examen.\n";
+    
+    if (hasBonus) {
+        cout << "Tienes un bono de puntos!\n";
+    } else {
+        cout << "No tienes bono de puntos \n";
+    }
+} else {
+    cout << "No aprobaste el examen";
+}
+return 0;
+}
+
+El anterior codigo evalua si el puntaje de un examen es suficiente para aprobar; si es asi tiene un bono en la nota final, sino 
+el puntaje no aprueba el examen. 
+
+https://www-w3schools-com.translate.goog/cpp/cpp_conditions_nested.asp?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc

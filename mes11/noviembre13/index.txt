@@ -1,0 +1,57 @@
+GA6-220501096-AA3-Crear interfaces gráficas de usuario en
+aplicaciones de escritorio, web y móviles.
+Evidencia de Conocimiento: Selección herramientas para prototipado. GA6-220501096-
+AA3-EV01
+
+Criterios de Evaluación:
+Crea interfaces de usuario aplicando buenas prácticas de usabilidad y accesibilidad.
+2. LISTA DE CHEQUEO
+
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. Selecciona y configura herramienta para creación de
+prototipos. 30%
+
+2. Realiza ejemplos para la aplicación de la herramienta. 30%
+3. Maneja elementos de la herramienta para prototipado. 30%
+4. Cumple con los requerimientos básicos de la
+presentación del documento
+
+**********************************************************
+GA6-220501096-AA3-Crear interfaces gráficas de usuario en
+aplicaciones de escritorio, web y móviles.
+Evidencia de Producto:
+Crear el diseño del sitio web y/o móviles utilizando sus
+componentes y tecnologías respectivas GA6-220501096-AA3-
+EV02
+Criterios de Evaluación:
+Crea interfaces de usuario aplicando buenas prácticas de usabilidad y accesibilidad.
+2. LISTA DE CHEQUEO
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+1. Realiza los mockups según requerimientos del software
+a desarrollar. 30%
+2. Los mockups cuentan con navegación entre interfaces. 30%
+3. Las interfaces están de acuerdo con los requerimientos
+del software a desarrollar. 30%
+4. Los mockups están creados en una herramienta vista
+en los componentes formativos. 10%
+
+*************************************************
+Interfaces gráficas según requerimientos del proyecto GA6-
+220501096-AA3-EV03
+Criterios de Evaluación:
+Crea interfaces de usuario aplicando buenas prácticas de usabilidad y accesibilidad.
+2. LISTA DE CHEQUEO
+No. VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones
+SÍ NO
+
+1. Las interfaces presentadas muestran un diseño usable. 30%
+
+2. Las interfaces presentadas manejan buena composición de color. 30%
+
+3. Las interfaces están relacionadas con los mockups
+presentados anteriormente. 30%
+
+4. Las interfaces presentadas cumplen con los
+requerimientos del software a desarrollar. 10%

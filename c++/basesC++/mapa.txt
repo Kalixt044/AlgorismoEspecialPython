@@ -1,0 +1,43 @@
+LENGUAJE C++
+│
+├── BIBLIOTECAS
+│   ├── iostream (E/S)
+│   ├── vector (vectores)
+│   ├── string (cadenas)
+│   └── algorithm (algoritmos)
+│
+├── TIPOS DE DATOS
+│   ├── Primitivos (int, float, char, bool)
+│   ├── Modificadores (short, long)
+│   └── Compuestos (array, struct, class)
+│
+├── OPERADORES
+│   ├── Aritméticos (+, -, *, /, %)
+│   ├── Relacionales (==, !=, >, <)
+│   ├── Lógicos (&&, ||, !)
+│   ├── Asignación (=, +=, -=)
+│   └── Bits (&, |, ^, ~)
+│
+├── ESTRUCTURAS CONTROL
+│   ├── Condicionales
+│   │   ├── if/else
+│   │   └── switch
+│   └── Ciclos
+│       ├── for
+│       ├── while
+│       └── do-while
+│
+├── FUNCIONES
+│   ├── Definición
+│   ├── Parámetros
+│   └── Retorno
+│
+├── ESTRUCTURAS DATOS
+│   ├── Arrays
+│   ├── Vectores
+│   ├── Structs
+│   └── Classes
+│
+└── MEMORIA
+    ├── new (asignar)
+    └── delete (liberar)

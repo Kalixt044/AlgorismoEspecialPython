@@ -1,0 +1,74 @@
+Destrezas  y conocimientos en el manejo de sentencias DDL  y 
+DML de SQL GA6-220501096-AA2-EV01 
+Criterios de Evaluación:  
+● Implementa restricciones en la base de datos de acuerdo con las reglas de diseño. 
+ 
+2. LISTA DE CHEQUEO 
+ 
+No.   VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones SÍ NO 
+1.  Realiza todos los puntos propuestos en el taller.   30% 
+2.  Aplica el lenguaje DDL según el caso propuesto.   30% 
+3.  Aplica el lenguaje DML según el caso propuesto.   30% 
+4. El documento cumple con los requerimientos básicos según lo requerido.   10%
+
+***********************************************************************************************
+Creación de la estructura de la BD y aplicación de restricciones.  
+GA6-220501096-AA2-EV02 
+Criterios de Evaluación:  
+● Implementa restricciones en la base de datos de acuerdo con las reglas de diseño. 
+ 
+ 
+2. LISTA DE CHEQUEO 
+ 
+No.   VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones SÍ NO 
+1.  Realiza  el  modelo  relacional  según  los  requerimientos dados.   30% 
+2.  Aplica las restricciones al modelo realizado.   30% 
+3.  Realiza el modelo de la base de datos en la herramienta solicitada.   30% 
+4. El documento cumple con los requerimientos básicos según lo requerido.   10%
+
+*****************************************************************************************************************
+
+Script bases de datos del proyecto GA6-220501096-AA2-EV03 
+Criterios de Evaluación:  
+● Implementa restricciones en la base de datos de acuerdo con las reglas de diseño. 
+ 
+ 
+2. LISTA DE CHEQUEO 
+ 
+No.   VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones SÍ NO 
+1.  El script entregado se ejecuta correctamente.    30% 
+2.  El script entregado crea las tablas según la necesidad de los requerimientos.   30% 
+3.  El script entregado crea las restricciones de la base de datos.   30% 
+4. La base de datos cumple con los requerimientos del proyecto.   10%
+
+**************************************************************************************
+Database
+
+El archivo database.py en el repositorio GitHub https://github.com/Kalixt044/DBInterface/blob/main/database.py es un script de Python que implementa una interfaz simple para interactuar con una base de datos SQLite. Su propósito principal es proporcionar una clase Database que facilita operaciones básicas de base de datos, como crear tablas, insertar datos, consultar y eliminar registros. El código está escrito en Python 3 y utiliza el módulo estándar sqlite3 para la gestión de la base de datos. No incluye dependencias externas, lo que lo hace ligero y fácil de usar. El archivo tiene aproximadamente 100 líneas de código, con comentarios en inglés explicando cada función.
+Estructura del Código, es el archivo que crea la base de datos para el proyecto censo rural
+
+    Importaciones: Solo importa sqlite3, el módulo integrado de Python para bases de datos relacionales.
+    Clase Principal: Database
+        Método __init__: Inicializa la conexión a la base de datos con un nombre de archivo (por defecto, crea un archivo .db si no existe). Crea un cursor para ejecutar consultas.
+        Método create_table: Crea una tabla con un nombre dado y una lista de columnas (ej. ["id INTEGER PRIMARY KEY", "name TEXT"]). Ejecuta una consulta SQL CREATE TABLE IF NOT EXISTS.
+        Método insert: Inserta datos en una tabla especificada. Acepta el nombre de la tabla y un diccionario de valores (ej. {"name": "John", "age": 30}). Usa placeholders para evitar inyección SQL.
+        Método select: Realiza consultas SELECT. Permite especificar la tabla, columnas y condiciones opcionales. Devuelve los resultados como una lista de tuplas.
+        Método update: Actualiza registros en una tabla basándose en una condición. Acepta la tabla, un diccionario de valores a actualizar y una condición WHERE.
+        Método delete: Elimina registros de una tabla según una condición WHERE.
+        Método close: Cierra la conexión a la base de datos y confirma los cambios pendientes.
+
+Funcionalidades Clave
+
+    Gestión de Conexiones: Maneja automáticamente la apertura y cierre de la base de datos, con commits implícitos en operaciones de escritura.
+    Prevención de Errores: Incluye manejo básico de excepciones (ej. try-except para errores de SQL), pero no es robusto contra fallos complejos.
+    Uso Simple: Diseñado para principiantes; no requiere conocimientos avanzados de SQL. Ejemplo de uso: crear una tabla de usuarios y insertar datos.
+    Limitaciones: Solo soporta SQLite (no otros motores como MySQL). No incluye características avanzadas como transacciones explícitas, índices o relaciones complejas. El código carece de validación de entrada, lo que podría llevar a errores si se pasan datos incorrectos.
+
+db = Database("example.db")
+db.create_table("users", ["id INTEGER PRIMARY KEY", "name TEXT", "age INTEGER"])
+db.insert("users", {"name": "Alice", "age": 25})
+results = db.select("users", ["name", "age"], "age > 20")
+print(results)  # [('Alice', 25)]
+db.close()
+
+Este archivo parece ser parte de un proyecto educativo o de prototipado, ideal para aplicaciones pequeñas que necesiten persistencia de datos sin complejidad. Si buscas mejoras, considera agregar logging o soporte para otros tipos de bases de datos. Para ver el código completo, accede al enlace proporcionado.

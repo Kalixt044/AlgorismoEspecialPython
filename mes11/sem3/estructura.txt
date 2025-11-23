@@ -1,0 +1,76 @@
+ GA6-220501096-AA2-EV02: Creación de la estructura de la BD y aplicación de restricciones, tomando como base el diseño de la base de datos para el proyecto "Censo Rural"
+
+El criterio principal que debe cubrirse es la implementación de restricciones en la base de datos de acuerdo con las reglas de diseño
+
+
+--------------------------------------------------------------------------------
+Estructura para la Evidencia GA6-220501096-AA2-EV02
+I Introducción y Contextualización
+1 Portada y Datos Generales
+
+2 Introducción
+ Presentación del objetivo de la evidencia: desarrollar la estructura de la base de datos y aplicar restricciones para garantizar la integridad y coherencia de los datos
+
+ Contextualización del proyecto "Censo Rural": Mencionar que el sistema busca optimizar la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas
+
+ Justificación: La importancia de las restricciones y el modelado relacional para asegurar la seguridad, integridad y trazabilidad de la información sensible del censo
+
+II Modelo Relacional y Definición de Restricciones (Checklist #1 y #2)
+Esta sección aborda la realización del modelo relacional según los requerimientos dados (30%) y la aplicación de las restricciones al modelo (30%)
+
+1 Definición del Modelo Lógico/Relacional
+ Describir la transformación del Modelo Entidad-Relación (MER) previamente diseñado en un modelo relacional, especificando las tablas resultantes
+ Identificación de Entidades Clave (Tablas): Basándose en los requisitos del proyecto "Censo Rural" y el modelado de dominio, incluir al menos las siguientes entidades que reflejan los conceptos fundamentales del sistema
+
+        ▪ Usuario (Genérica, para autenticación y roles)
+
+        ▪ Encuestador (Especialización de Usuario)
+
+        ▪ HabitanteCensado (Entidad central de datos personales)
+
+        ▪ FormularioCenso (Plantilla de preguntas)
+
+        ▪ RegistroCenso (Instancia de encuesta capturada en campo)
+
+        ▪ ZonaGeografica
+
+2 Aplicación de Restricciones y Reglas de Diseño
+ Detallar las restricciones aplicadas a cada tabla para garantizar la integridad de los datos, citando la razón de diseño
+
+ Claves Primarias (PK): Definir la clave primaria para cada tabla (ej, idHabitante en HabitanteCensado, idRegistro en RegistroCenso)
+ Claves Foráneas (FK) y Cardinalidad: Explicitar las relaciones entre tablas (ej, Uno a Muchos) y definir las claves foráneas (FK) que aseguran la integridad referencial
+
+        ▪ Ejemplo: En RegistroCenso, la FK a Encuestador (trazabilidad de quién capturó el dato) y la FK a HabitanteCensado (dato objetivo del censo)
+
+ Restricciones de Unicidad (UNIQUE): Aplicar restricciones a campos que deben ser únicos para evitar duplicados en el sistema
+
+        ▪ Ejemplo: El atributo numero_documento (o documentoIdentidadHabitante) debe ser UNIQUE para evitar duplicar habitantes en el censo
+
+ Restricciones de No Nulos (NOT NULL): Aplicar a campos obligatorios para asegurar la completitud de la información
+
+        ▪ Ejemplo: Campos sensibles y obligatorios como primerNombre, primerApellido, fechaNacimiento en la entidad HabitanteCensado
+
+ Restricciones de Dominio (CHECK/ENUM): Aplicar para limitar los valores posibles en ciertos campos
+        ▪ Ejemplo: Restricciones de tipo ENUM para el campo genero o estadoCivil
+
+ Restricciones de Seguridad: Mencionar cómo la estructura apoya los requisitos de seguridad (ej, encriptación de datos sensibles), lo cual es crucial dado que el proyecto maneja datos personales de los habitantes censados
+
+III Modelado en Herramienta (Checklist #3)
+Esta sección se centra en realizar el modelo de la base de datos en la herramienta solicitada (30%)
+
+1 Selección de la Herramienta:
+ Mencionar la herramienta utilizada para generar el diagrama (En el contexto del proyecto "Censo Rural", a menudo se recomiendan herramientas de diagramación como Drawio para modelado conceptual y lógico
+, o un software específico de bases de datos si se requiere el modelo físico)
+2 Inclusión del Diagrama:
+ Presentar el diagrama del modelo relacional o esquema de la base de datos generado por la herramienta, donde se visualicen claramente las tablas, atributos, claves primarias y foráneas, y las relaciones con sus cardinalidades
+3 Justificación de la Tecnología de Persistencia:
+ Mencionar la tecnología de base de datos objetivo, como SQLite3 (ideal para la operación offline y recolección de datos en campo) o PostgreSQL (para la base de datos principal consolidada)
+
+IV Conclusiones y Cumplimiento Documental (Checklist #4)
+1 Conclusiones
+ Resumir cómo el modelo relacional diseñado satisface los requisitos funcionales y no funcionales (seguridad, integridad) del proyecto "Censo Rural"
+
+ Destacar que la aplicación correcta de restricciones (PK, FK, UNIQUE, NOT NULL) garantiza la coherencia y la calidad de los datos sensibles recolectados
+
+2 Cumplimiento del Documento
+ Verificar que el documento cumple con los requerimientos básicos solicitados (portada, introducción, conclusiones y el desarrollo detallado)

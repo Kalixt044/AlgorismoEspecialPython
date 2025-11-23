@@ -1,0 +1,65 @@
+estructura detallada para el desarrollo de la evidencia Script bases de datos del proyecto GA6-220501096-AA2-EV03, basándose en el criterio de evaluación principal, que es implementar restricciones en la base de datos de acuerdo con las reglas de diseño, y el contexto de la base de datos para el proyecto "Censo Rural"
+.
+Estructura Propuesta para la Evidencia GA6-220501096-AA2-EV03
+El entregable principal de esta evidencia debe ser el script ejecutable que define la base de datos, incluyendo toda la lógica de validación de datos (restricciones) para el proyecto "Censo Rural".
+I. Introducción y Contextualización del Proyecto
+1. Portada y Datos de Identificación.
+2. Introducción
+    ◦ Objetivo de la Evidencia: Presentar el script completo y ejecutable (DDL y DML) para la base de datos del proyecto "Censo Rural", enfocándose en la implementación rigurosa de restricciones para garantizar la integridad y seguridad de la información
+.
+    ◦ Contexto del Proyecto "Censo Rural": Recordar que el sistema busca optimizar la recolección, gestión y análisis de datos personales en zonas rurales apartadas
+.
+    ◦ Justificación Tecnológica: Mencionar la tecnología de persistencia seleccionada (por ejemplo, SQLite para la operación offline en dispositivos de campo o PostgreSQL para la plataforma central consolidada)
+. La arquitectura modular del sistema "Censo Rural" favorece el uso de bases de datos que soporten un enfoque Offline-First
+.
+II. Definición de la Estructura de la Base de Datos
+Esta sección se enfoca en la justificación de las tablas seleccionadas y sus restricciones, cumpliendo con el criterio de diseño.
+1. Identificación de Entidades Clave (Esquema del Censo Rural)
+    ◦ Nombrar las entidades fundamentales que serán creadas por el script (por ejemplo, Usuario, HabitanteCensado, RegistroCenso, ZonaGeografica)
+.
+2. Análisis de Requisitos de Integridad y Seguridad
+    ◦ Explicar la necesidad de las restricciones debido a que el sistema maneja datos personales sensibles
+. Los requisitos no funcionales del "Censo Rural" enfatizan la seguridad (encriptación de datos sensibles y control de acceso) y la escalabilidad (alto volumen de datos)
+.
+III. Script SQL (DDL): Creación de Tablas y Aplicación de Restricciones
+Esta es la sección central que demuestra el cumplimiento del criterio de evaluación de implementar restricciones
+. El código debe ser claro y comentado.
+1. Sentencias de Creación del Esquema (CREATE DATABASE, USE / Conexión).
+2. Creación de la Tabla Usuario (Gestión de Roles)
+    ◦ Definir la sentencia CREATE TABLE Usuario incluyendo:
+        ▪ Clave Primaria (PK): idUsuario.
+        ▪ Restricciones de Unicidad (UNIQUE): Aplicar a campos de autenticación (ej. correoElectronico o nombreUsuario)
+.
+        ▪ Restricciones de No Nulos (NOT NULL): Aplicar a campos obligatorios (ej. contrasenaHash, rol)
+.
+3. Creación de la Tabla HabitanteCensado (Datos Personales)
+    ◦ Definir la sentencia CREATE TABLE HabitanteCensado incluyendo:
+        ▪ Clave Primaria (PK): idHabitante.
+        ▪ Restricciones de Unicidad (UNIQUE): Fundamental para el censo, aplicar a numero_documento para evitar duplicados en la población censada
+.
+        ▪ Restricciones de No Nulos (NOT NULL): Aplicar a campos esenciales (ej. primer_nombre, primer_apellido, fecha_nacimiento)
+.
+        ▪ Restricciones de Dominio (CHECK): Por ejemplo, validar que el sexo o genero pertenezca a un conjunto predefinido de valores
+.
+4. Creación de la Tabla RegistroCenso (Datos Transaccionales)
+    ◦ Definir la sentencia CREATE TABLE RegistroCenso incluyendo:
+        ▪ Clave Primaria (PK): idRegistro.
+        ▪ Claves Foráneas (FK): Implementar FOREIGN KEY para establecer la trazabilidad completa del proceso, vinculando:
+            • idEncuestador (FK a Usuario/Encuestador)
+.
+            • idHabitante (FK a HabitanteCensado)
+.
+        ▪ Restricciones de No Nulos (NOT NULL): Asegurar que la fecha/hora de captura y el estado de sincronización (offline/sincronizado) sean obligatorios
+.
+5. Creación de Tablas de Soporte (Ej. ZonaGeografica o LogAuditoria).
+IV. Script SQL (DML): Inserción de Datos de Prueba
+Esta sección debe demostrar que el esquema creado es funcional y que las restricciones definidas se respetan.
+1. Inserción de Datos de Prueba en Tablas Principales (INSERT INTO)
+    ◦ Ejemplos de inserción de 5 a 10 registros por tabla (Usuario, HabitanteCensado, RegistroCenso).
+    ◦ Incluir al menos un intento de inserción fallido (pero comentado en el informe) que demuestre la funcionalidad de una restricción clave (ej., intentar insertar dos registros con el mismo numero_documento o un idEncuestador inexistente) para validar la integridad referencial.
+2. Consultas de Verificación (SELECT)
+    ◦ Incluir consultas simples para mostrar el contenido de las tablas.
+V. Conclusiones y Anexos
+1. Conclusiones
+    ◦ Resumir la efectividad del script creado para definir la estructura del sistema "Censo Rural".
+    ◦ Reafirmar que la implementación de restricciones (PK, FK, UNIQUE, NOT NULL) asegura la integridad, confidencialidad y unicidad de los datos personales de los habitantes censados
