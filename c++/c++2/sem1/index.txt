@@ -1,0 +1,23 @@
+Para efectuar el desarrollo de aplicaciones se requiere inicialmente identificar qué es con exactitud lo que se
+desea que estas realicen; con esta finalidad se efectúa un proceso denominado identificación de
+requerimientos, que se ejecuta de acuerdo con ciertas técnicas existentes.
+Con la apropiación de los conocimientos sobre los temas desarrollados en el material de formación
+Conceptos de programación orientada a objetos y las respectivas consultas, realice el informe atendiendo
+a lo siguiente:
+1. Se necesita efectuar el proceso de compra de productos en un almacén que recientemente
+implementó el autopago en varios puntos de pago especiales dispuestos para ello. La dinámica de
+funcionamiento es la siguiente:
+a. El cliente se acerca al punto de pago y elige el idioma deseado.
+b. El cliente escanea el código de barras del primer producto.
+c. El sistema busca el producto en la base de datos y si no existe se bloquea. Luego un empleado
+debe registrarlo y el cliente podrá continuar pasando los productos que desea comprar.
+d. Una vez registrados todos los productos, el cliente debe efectuar el pago, que puede ser en efectivo
+o con tarjeta de crédito. En caso de ser en efectivo, el sistema indica que solo se reciben billetes.
+e. Luego de que el pago es confirmado, el cliente recibe su cambio y se genera la impresión del
+tiquete de compra
+
+Identifique cuáles deberían ser las clases a implementar para programar la aplicación. Analice además
+los atributos y métodos que estas podrían incluir y diligencie con dicha información la 
+siguiente tabla:
+
+Calse, Atributo, Metodos

@@ -1,0 +1,22 @@
+En una empresa local de comercialización de artículos tecnológicos solicitan crear un módulo de clientes
+y uno de empleados para la generación de una lista de compras y un cálculo de venta por unidad,
+respectivamente.
+2. El módulo de clientes debe preguntar al usuario cuántos productos desea agregar a la lista de compra y
+posteriormente, de acuerdo con su respuesta, debe solicitar por pantalla el ingreso de cada uno de los
+nombres de dichos productos; una vez el cliente haya ingresado la totalidad de estos, el sistema debe
+comportarse así:
+• Mostrar en pantalla la lista de productos ingresados por el cliente.
+• Preguntar al cliente si se encuentra satisfecho con la lista realizada o si desea una nueva.
+• En caso de que el cliente indique que se encuentra satisfecho, emitir un mensaje de despedida.
+• En caso de que la respuesta del cliente sea que desea generar una nueva lista, se debe preguntar
+cuántos productos agregar y repetir el proceso antes mencionado.
+
+3. El módulo de empleados debe preguntar al usuario cuántos productos desea calcular y posteriormente,
+de acuerdo con su respuesta, debe solicitar por pantalla el ingreso de la cantidad, el valor unitario y el
+porcentaje de descuento para cada uno de los productos; una vez el empleado haya ingresado la totalidad
+de esta información, el sistema debe comportarse así:
+• Mostrar en pantalla la información ingresada por el usuario.
+• Preguntar al usuario cuál de las siguientes acciones desea realizar:
+* Calcular el valor total de cada uno de los productos ingresados (valor unitario por cantidad menos
+descuento) y mostrarlo en pantalla.
+* Regresar al paso anterior y generar una nueva lista de productos

@@ -1,0 +1,55 @@
+Escribe un documento escrito sobre la declaración 
+personal  (personal  statement)  e  incluye  la  descripción 
+de  quién  es,  fortalezas  y  experiencia  laboral  utilizando 
+un léxico adecuado, convenciones ortográficas, de 
+puntuación y formato correctos y bien estructurados.30%
+ 
+Muestra  un  buen  control  gramatical  y  hace  uso  de 
+estructuras  gramaticales  en  inglés  de  acuerdo  a  lo 
+propuesto en el material de estudio. 15% 
+
+Muestra  el  vocabulario  abordado  que  permite  hacer 
+descripciones  claras  y  expresar  puntos  de  vista  sobre 
+las fortalezas y habilidades de acuerdo al programa de 
+formación. 15%
+ 
+Aplica  estrategias  de  producción  para  la  redacción  de 
+textos de acuerdo al MCERL B1.2+.   5% 
+El documento escrito contempla las características 
+generales y preguntas orientadoras con excelente 
+redacción y gramática de la lengua inglesa. 
+  
+10% El documento escrito contiene entre 500 y 700 palabras 
+con el tipo y fuente sugeridas.
+ 
+Perfil profesional: soy un tenico en ventas con esperiencia en servicio al cliente y networking, he
+trabajado con una compa~ia que maneja base de datos por a~os lo cual me ha llevado a acercarme
+al mundo de los datos, desde el 2021 estoy estudiando lo relacionado con lenguajes de programacion
+lo teorico relacionado con java, tambien node.js tanto en el back como el frontend, tambien vi 
+python y manejo de datos, actualmente estoy a mitad del tecnologo en Analisis y Desarrollo de Software,
+me gusta mucho el desarrollo en Linux y actualmente estoy estudiando C++, espero especializarme 
+en un lenguaje multiplataforma y dominar el paradigma POO programacion orientada a objetos, busco 
+una oportunidad laboral que me permita ganar experiencia en programacion preferiblemente en 
+Backend o arquitectura de software aunque mi experiencia en atencion al cliente creo que 
+me da una ventaja en lisitacion de requerimientos y comunicacion de equipo de trabajo, ya que en
+mi etapa formativa he gestionado y liderado espacios de aprendizaje para mis compa~eros
+
+*************************************************************************
+PERSONAL STATEMENT
+Who I Am
+I am a dedicated sales technician with a strong background in customer service and networking, currently transitioning into the software development field. My journey began in the commercial sector, where I spent several years working with a database management company. This experience sparked my interest in the world of data and technology, leading me to pursue a career in software development. Since 2021, I have been actively studying programming languages and software development principles, and I am currently halfway through my Technology degree in Software Analysis and Development.
+Professional Background and Experience
+My professional experience in sales and customer service has provided me with valuable skills that extend beyond the commercial field. Working extensively with databases for years has given me a solid understanding of data management and the importance of structured information systems. This hands-on experience with real-world data has been instrumental in my transition to software development, as it helped me understand the practical applications of programming and database management.
+Throughout my years in customer service, I developed strong communication skills and the ability to understand client needs effectively. I have extensive experience in networking, which has taught me the value of building professional relationships and collaborating effectively with diverse teams. These skills, combined with my technical knowledge, make me particularly well-suited for roles that require both technical expertise and interpersonal communication.
+Technical Skills and Knowledge
+My technical journey began in 2021 when I started studying programming languages systematically. I have acquired theoretical and practical knowledge in Java, exploring its fundamental concepts and object-oriented programming principles. Additionally, I have worked with Node.js, gaining experience in both backend and frontend development, which has given me a comprehensive understanding of full-stack development processes.
+I have also studied Python and data management, which complements my previous experience with databases. Currently, I am focused on learning C++, a language I find particularly exciting due to its power and versatility. I am passionate about Linux development and prefer working in this environment for its flexibility and robustness.
+Strengths and Capabilities
+One of my key strengths is my ability to bridge the gap between technical development and client communication. My background in customer service has equipped me with excellent requirement elicitation skills, allowing me to understand what clients truly need and translate those needs into technical specifications. This is a crucial advantage in software development, where understanding user requirements accurately can make the difference between a successful project and a failed one.
+I am a natural leader and mentor. During my training period, I have actively managed and led learning spaces for my classmates, helping them understand complex concepts and overcome technical challenges. This experience has strengthened my teamwork and leadership abilities, which I believe are essential in collaborative development environments.
+My analytical mindset, developed through years of working with data and databases, allows me to approach problems systematically and find effective solutions. I am detail-oriented and committed to writing clean, maintainable code that follows best practices and industry standards.
+Career Goals and Aspirations
+My primary goal is to specialize in a cross-platform programming language and master Object-Oriented Programming (OOP) paradigm. I am particularly interested in backend development and software architecture, as I find the challenge of designing scalable and efficient systems deeply rewarding. However, I remain open to opportunities that allow me to leverage my diverse skill set.
+I am actively seeking a professional opportunity that will allow me to gain hands-on programming experience, preferably in backend development or software architecture roles. I believe my combination of technical skills, customer service experience, and leadership abilities makes me a valuable asset to any development team. My experience in client communication gives me a unique advantage in understanding project requirements and ensuring that the final product meets user expectations.
+Conclusion
+I am a motivated professional with a unique blend of commercial experience and growing technical expertise. My transition from sales to software development demonstrates my adaptability, commitment to continuous learning, and passion for technology. I bring strong communication skills, leadership experience, and a solid foundation in multiple programming languages and development environments. I am ready to contribute to innovative projects and continue growing as a software developer in a dynamic and challenging environment.

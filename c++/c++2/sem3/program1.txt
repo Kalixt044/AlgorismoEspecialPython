@@ -1,0 +1,13 @@
+1. Usted ha sido contratado en el grupo de programadores de una importante compañía de software y su
+primera labor dentro del equipo de trabajo consiste en crear dos programas solicitados por uno de los
+clientes más fieles de la empresa.
+Programa 1: se requiere manejar, por medio de un software, el proceso para generar el pago de nómina
+de los empleados de una empresa; el sistema debe permitir las siguientes acciones:
+a. Diligenciar la información básica de los empleados (cédula, nombres, teléfono, cargo y salario
+básico).
+b. Diligenciar la información por labor de los empleados (horas extras laboradas, descuentos por
+préstamos, ahorro voluntario, descuentos por seguridad social).
+c. Calcular el valor a pagar para cada empleado, por separado.
+d. Mostrar la información necesaria para el pago de cada empleado por separado.
+e. Cada acción del sistema debe ser programada dentro de una función
+

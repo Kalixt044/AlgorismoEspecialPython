@@ -1,0 +1,12 @@
+se requiere un software que permita calcular el área y el perímetro de las figuras
+geométricas.
+El programa debe ser escrito aplicando funciones con declaración de variables globales y locales y el
+cálculo debe poder efectuarse para al menos cuatro figuras diferentes.
+Además de las funciones de cálculo de cada figura, debe haber una función que muestre el resultado.
+2. Ambos programas deben ser desarrollados en archivos independientes y es necesario que entregue
+tanto el archivo .cpp como el archivo ejecutable .exe; por lo tanto, los archivos a entregar para la solución
+de los programas serían cuatro.
+3. Responda las preguntas planteadas en la actividad Reflexionar sobre la utilidad de las variables
+globales y locales en las funciones e inclúyalas en un documento de Word.
+4. Entregue en una carpeta comprimida los cinco archivos que dan solución a la presente evidencia de
+aprendizaje.
