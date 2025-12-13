@@ -1,0 +1,14 @@
+genera el siguiente codigo en c++
+
+
+Aplicación de parámetros por referencia: se requiere un programa que permita
+calcular el valor que un empleado recibirá como salario mensual el próximo año. Los cálculos
+respectivos deben ser realizados teniendo en cuenta las siguientes indicaciones:
+a. Se debe pedir al usuario el salario anual devengado actualmente.
+b. El aumento para el siguiente año dependerá de la antigüedad del empleado.
+c. Se debe pedir al usuario dicha antigüedad en años.
+d. Para los empleados que llevan entre 0 y 5 años en la empresa, el aumento será del 6 %.
+e. Para los empleados que llevan entre 5 y 10 años en la empresa, el aumento será del 8 %.
+f. Para los empleados que llevan más de 10 años en la empresa, el aumento será del 10 %.
+g. Se debe mostrar en pantalla el salario actual del empleado.
+h. Se debe mostrar en pantalla el salario que devengará el año siguiente, según el aumento aplicado

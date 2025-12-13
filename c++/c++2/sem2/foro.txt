@@ -1,2 +1,27 @@
 https://cienciayt.com/programacion/cpp/cpp-arreglos/
 https://www-w3schools-com.translate.goog/cpp/cpp_arrays.asp?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
+
+Los arreglos son variables que permiten almacenar varios datos del mismo tipo en posiciones
+consecutivas de memoria; cada posición del arreglo guarda un dato diferente y se accede a este 
+a través de su índice, que está definido por números en orden ascendente, comenzando desde 
+el cero hasta la cantidad de elementos totales (n) menos uno (n-1).
+
+Tipos:
+
+
+Existen dos tipos de arreglos: unidimensional y multidimensional. El más sencillo es el arreglo
+unidimensional o también denominado vector, que puede estar compuesto por n elementos del mismo tipo,
+organizados de forma secuencial; le sigue en complejidad el arreglo multidimensional, 
+que puede tener dos o más dimensiones.
+
+Es una estructura de datos estática y de un mismo tipo de datos, y de longitud fija que almacena datos
+de forma matricial. De igual forma que los arreglos unidimensionales, el almacenamiento de los datos
+en la memoria se realiza de forma secuencial y son accedidos mediante índices. Los arreglos
+multidimensionales son también conocidos como matrices. Por lo tanto se llama matriz de orden
+"m×n" a un conjunto rectangular de elementos dispuestos en filas "m" y en columnas "n", siendo m y n
+números naturales. Las matrices se denotan con letras mayúsculas: A, B, C, ... y los elementos de las
+mismas con letras minúsculas y subíndices que indican el lugar ocupado: a, b, c, ... Un elemento
+genérico que ocupe la fila i y la columna j se escribe i,j. Si el elemento genérico aparece entre
+paréntesis también representa a toda la matriz: A (i,j)
+
+

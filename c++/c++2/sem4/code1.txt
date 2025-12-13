@@ -1,0 +1,11 @@
+genera el siguiente codigo en c++
+Aplicación de parámetros por valor: crear un programa que calcule y muestre en
+pantalla el costo de envío de productos, teniendo en cuenta el peso de estos en kilogramos. El
+programa debe funcionar de acuerdo con las siguientes indicaciones:
+a. Se solicita al usuario el peso del paquete que será enviado.
+b. Para paquetes cuyo peso se encuentre entre 0 y 10 kilos, el cargo fijo de envío es $28.000.
+c. Para paquetes cuyo peso se encuentre entre 10 y 30 kilos, el cargo fijo es de $34.000, más un valor
+adicional de $1.600 por cada kilo superior a 10.
+d. Para paquetes cuyo peso sea igual o superior a 50 kilos, el cargo fijo es de $60.000, más un valor
+adicional de $1.900 por cada kilo superior a 50.
+e. El programa debe mostrar en pantalla el costo total del envío

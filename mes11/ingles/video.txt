@@ -1,0 +1,131 @@
+https://support.google.com/accounts/answer/13548313?hl=es-419 
+
+https://intrix-com-au.translate.goog/articles/the-future-of-passwords-moving-beyond-traditional-authentication/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
+
+https://mobiletime.la/colunistas/16/05/2025/el-futuro-de-las-contrasenas/
+
+
+
+
+
+
+https://www.staysafeonline.org/es/articles/are-passwords-going-away-what-you-need-to-know-about-passkeys
+
+https://www.xatakandroid.com/seguridad/android-nos-prometia-futuro-contrasenas-realidad-esta-siendo-mucho-complicada
+
+https://support.google.com/accounts/answer/185839?hl=es-419&co=GENIE.Platform%3DDesktop
+
+***************************************************************
+THE END OF PASSWORDS: A JOURNEY INTO THE FUTURE
+Video Script (5 minutes)
+
+INTRODUCTION (0:00 - 0:45)
+[Opening shot: Person frustrated typing passwords]
+NARRATOR:
+"It takes 20 years to build a reputation and only five minutes to ruin it." Warren Buffett said this, and today, this quote has become the premise of cybersecurity. But here's a question: What will have happened to passwords by 2030? Will we still be typing complex combinations of letters and numbers?
+[Transition to futuristic graphics]
+By the end of this decade, passwords will have disappeared completely. Companies like Mastercard and Mitek Systems will have been working for years to make this vision a reality. Today, we'll explore how authentication will have evolved and what technologies will have replaced the passwords we've been using for decades.
+
+PART 1: THE CURRENT CRISIS (0:45 - 1:45)
+[Show statistics on screen]
+NARRATOR:
+Right now, we are living in a cybersecurity crisis. Companies like Mastercard are experiencing approximately 200,000 attack attempts every day. According to Verizon's Data Breach Investigations Report, 81% of security breaches are related to weak or stolen passwords.
+[Show graphs and data visualization]
+The situation is alarming. Personal data is being exposed in 52% of cyberattacks, and attacks using common passwords will have increased by 400% in recent years, according to Microsoft's Digital Defense Report.
+[Cut to person using simple password "123456"]
+But here's the ironic part: While 91% of people know that reusing passwords is risky, 59% are still doing it. Even more concerning, one in four people is using passwords like "123456" or "password."
+[Serious tone]
+By 2025, these statistics will have motivated the tech industry to take drastic action. The question isn't whether passwords will disappear—it's when.
+
+PART 2: THE TRANSITION PERIOD (1:45 - 2:45)
+[Show timeline graphic: 2024-2030]
+NARRATOR:
+So, how will this transformation be happening? The change won't occur overnight. Instead, we will have been experiencing a gradual transition that will have started with multi-factor authentication.
+[Show 2FA examples]
+MULTI-FACTOR AUTHENTICATION
+By 2026, most major platforms will have implemented mandatory two-factor authentication. Users will have been receiving one-time passwords through SMS, email, or authenticator apps like Google Authenticator or Microsoft Authenticator. These temporary codes will have been adding an extra layer of security that hackers won't be able to bypass easily.
+[Show push notification example]
+Push-based authentication will also have become commonplace. Instead of typing codes, users will have been simply tapping notifications on their smartphones to confirm their identity.
+[Transition to biometric visuals]
+But these will only have been intermediate steps. The real revolution will have been happening with biometric authentication.
+
+PART 3: THE BIOMETRIC REVOLUTION (2:45 - 3:45)
+[Show facial recognition, fingerprint scanning]
+NARRATOR:
+By 2028, biometric authentication will have transformed how we access our digital lives. Think about it: biometry is humanity's oldest form of identification—looking at someone's face. Now, we'll have been using secure technology to do exactly that digitally.
+[Show different biometric methods]
+FINGERPRINT SCANNING
+Your fingerprint will have become your universal password. Banks, smartphones, and even ATMs will have been using this technology for years.
+[Show iris scanning]
+IRIS AND RETINAL SCANNING
+More secure facilities will have implemented iris scanning, which will have proven to be one of the most accurate biometric methods available.
+[Show facial recognition on phone]
+FACIAL RECOGNITION
+By 2029, you will have been unlocking your devices, authorizing payments, and accessing buildings simply by looking at a camera. Companies like Apple and Samsung will have perfected this technology to the point where it will be working flawlessly even in low light conditions.
+[Important security note]
+Here's something crucial: Companies won't be storing your actual face or fingerprint. Instead, they will have been converting your biometric data into irreversible alphanumeric codes. This means that even if hackers breach a database, they won't have been able to reconstruct your biometric information.
+
+PART 4: ADVANCED TECHNOLOGIES (3:45 - 4:30)
+[Show futuristic interface]
+NARRATOR:
+But the innovation won't have stopped there. By 2030, we will have been experiencing even more sophisticated authentication methods.
+[Show behavioral biometrics visualization]
+BEHAVIORAL BIOMETRICS
+Your device will have been learning how you type, how fast you move your cursor, and even the rhythm of your voice. Alberto López from Mastercard explains it perfectly: "It's like when you ring a family member's doorbell and say it's you. How can they know? By the cadence of your voice, the number of times you ring, or the time you usually arrive home."
+[Show typing pattern animation]
+By 2030, your computer will have been continuously verifying that you are really you based on these unique behavioral patterns. If someone else tries to use your device, the system will have detected the difference immediately.
+[Show FIDO2 logo and explanation]
+PASSKEYS AND FIDO2
+The most revolutionary technology will have been passkeys, based on the FIDO2 open standard. Companies like Microsoft, Apple, Intel, and Google will have been promoting this technology for years.
+[Technical explanation with graphics]
+Passkeys use cryptographic keys. You'll have been storing a private key securely on your device, while the service you're accessing will have been holding a public key. Even if hackers intercept the public key, they won't have been able to access your account without your private key.
+This system will have eliminated phishing attacks completely because there won't be any passwords to steal.
+
+PART 5: THE ROLE OF AI (4:30 - 4:50)
+[Show AI visualization]
+NARRATOR:
+Artificial Intelligence will have been playing a dual role in this transformation. On one hand, cybercriminals will have been using AI to create sophisticated attacks, including synthetic faces and deepfakes.
+[Show security shield graphic]
+On the other hand, companies like Mastercard and Mitek will have been using AI to defend against these threats. With almost 5,000 transactions per second, AI will have been identifying fraudulent patterns that humans never could have detected.
+[Show document verification]
+AI systems will also have been implementing "document liveness detection," analyzing files to determine whether they're real or artificially created by examining their digital characteristics.
+
+CONCLUSION (4:50 - 5:00)
+[Futuristic city scene]
+NARRATOR:
+By 2030, passwords will have become a relic of the past—something we'll tell younger generations about with nostalgia. We will have been living in a world where your smile, your fingerprint, or simply the way you type will have been your key to the digital world.
+[Show smiling person making contactless payment]
+You will have been paying for your coffee just by smiling at a camera. You will have been accessing your bank account by looking at your phone. And you will have been doing all of this more securely than ever before.
+[Final message on screen]
+The future won't have been about remembering complex passwords—it will have been about being authentically you.
+[Fade to black]
+
+KEY GRAMMAR STRUCTURES USED:
+Future Perfect:
+
+"Will have disappeared"
+"Will have been working"
+"Will have evolved"
+"Will have increased"
+"Will have implemented"
+
+Future Perfect Continuous:
+
+"Will have been experiencing"
+"Will have been receiving"
+"Will have been using"
+"Will have been learning"
+"Will have been promoting"
+
+VOCABULARY HIGHLIGHTS:
+
+Biometric authentication
+Two-factor authentication (2FA)
+Authenticator apps
+Passkeys
+FIDO2 standard
+Behavioral biometrics
+Cryptographic keys
+Phishing attacks
+One-time passwords (OTP)
+Document liveness detection

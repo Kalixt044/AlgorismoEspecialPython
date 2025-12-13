@@ -1,0 +1,10 @@
+genera el siguiente codigo en c++
+
+
+se requiere un programa que contenga una
+función que reciba como parámetro un arreglo y permita realizar lo siguiente:
+a. Preguntar al usuario la cantidad de elementos que desea que contenga el arreglo.
+b. Permitir que el usuario ingrese dichos elementos al arreglo.
+c. Mostrar en pantalla el arreglo ingresado.
+d. Devolver como resultado el arreglo con todos sus elementos elevados al cubo.
+e. En todas las partes del programa donde sea aplicable, se deben utilizar funciones
