@@ -1,0 +1,18 @@
+Evidencia de conocimiento: Selección de herramientas para prototipado
+(GA6-220501096-AA3-EV01)
+
+1. Selecciona y configura herramienta para creación de
+prototipos. 30%
+2. Realiza ejemplos para la aplicación de la herramienta. 30%
+3. Maneja elementos de la herramienta para prototipado. 30%
+4. Cumple con los requerimientos básicos de la presentación del documento.10%
+
+
+
+🔸 Evidencia de desempeño: Crear el diseño del sitio web y/o móviles utilizando sus componentes y tecnologías respectivas
+(GA6-220501096-AA3-EV02)
+
+1. Realiza los mockups según requerimientos del software a desarrollar. 30%
+2. Los mockups cuentan con navegación entre interfaces. 30%
+3. Las interfaces están de acuerdo con los requerimientos del software a desarrollar. 30%
+4. Los mockups están creados en una herramienta vista en los componentes formativos. 10%
