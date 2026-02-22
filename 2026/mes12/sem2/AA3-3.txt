@@ -1,0 +1,54 @@
+Este esquema ha sido diseñado para cumplir con los lineamientos de la **Guía de Aprendizaje 6**, integrando los elementos técnicos de **code.txt** y la lógica de implementación detallada en las fuentes para la evidencia **GA6-220501096-AA3-EV03: Interfaces gráficas según requerimientos del proyecto**.
+
+El objetivo es materializar los mockups realizados en la evidencia anterior (EV02) en un diseño funcional (web o móvil) que aplique componentes de alta fidelidad, estilos institucionales y estándares de usabilidad.
+
+---
+
+### Esquema para el Desarrollo de la Evidencia GA6-220501096-AA3-EV03
+
+#### I. Introducción y Justificación Tecnológica
+1.  **Portada**: Cumpliendo con los requerimientos básicos de presentación.
+2.  **Introducción**:
+    *   Presentación del diseño final de la interfaz para el proyecto **"Censo Rural"**.
+    *   Justificación de la tecnología: Uso de **React Native** para el módulo móvil (por su rendimiento nativo y arquitectura modular) y **HTML/CSS/JS** para la plataforma administrativa web.
+3.  **Metodología XP**: Resaltar cómo el diseño por componentes facilita las entregas frecuentes y el testing independiente de módulos.
+
+#### II. Sistema de Diseño y Estilos (Basado en code.txt)
+Esta sección aborda el requerimiento de definir colores y estilos.
+1.  **Paleta de Colores y Variables**: Implementación del esquema definido en las fuentes:
+    *   `--primary`: #60a5fa (Acciones principales).
+    *   `--bg`: #0b0f17 (Fondo oscuro para reducir fatiga visual).
+    *   `--surface`: #0f172a (Contenedores de formularios).
+2.  **Componentes Reutilizables**:
+    *   **Navbar**: Con efecto de desenfoque y navegación a Inicio, Formulario y Repositorio.
+    *   **Footer**: Incluyendo avisos legales y selector de **Modo Oscuro**.
+    *   **Tarjetas (Cards)**: Para la visualización de datos resumidos de los censos.
+
+#### III. Implementación de la Interfaz de Captura (Funcionalidad RF-01)
+Desarrollo detallado del formulario de recolección de datos personales.
+1.  **Campos de Datos del Censo**: Siguiendo la estructura unificada en las fuentes:
+    *   **Identificación**: Tipo de documento (CC, TI) y número de documento (único para evitar duplicados).
+    *   **Nombres y Apellidos**: Primer y segundo nombre, primer y segundo apellido.
+    *   **Demografía y Contacto**: Fecha de nacimiento, sexo (M, F, Otro), celular y email.
+    *   **Ubicación**: Domicilio (municipio), dirección exacta y barrio.
+2.  **Validaciones en Tiempo Real**: Implementación de mensajes de error claros y validación de formatos (ej. números en celular, estructura de email).
+
+#### IV. Componentes de Valor Agregado (Georreferenciación y Multimedia)
+1.  **Módulo GPS (RF-02)**: Botón para captura de coordenadas (latitud/longitud) con indicador visual de precisión.
+2.  **Gestión de Archivos (RF-03)**: Interfaz para adjuntar y previsualizar fotografías del habitante o su vivienda.
+3.  **Manejo de Estados**: Indicadores visuales para el modo **Offline-First** (datos guardados localmente en SQLite3) y estado de sincronización.
+
+#### V. Usabilidad y Accesibilidad (Checklist #2)
+1.  **Estándares WCAG 2.1**:
+    *   **Contraste**: Ratio mínimo de 4.5:1 para legibilidad óptima.
+    *   **Áreas de Toque**: Botones con un tamaño mínimo de **48dp** para facilitar el uso en dispositivos móviles en campo.
+2.  **Navegación Intuitiva**: Implementación de una lista de pasos clara (Planifica, Diseña, Implementa, Lanza) para guiar al encuestador.
+
+#### VI. Conclusiones y Entregables
+1.  **Conclusiones**: Resumen de cómo la interfaz cumple con las necesidades del cliente y garantiza una recolección de datos íntegra y segura.
+2.  **Carpeta ZIP**:
+    *   Documento con pantallazos y descripción de interfaces.
+    *   Archivos de código fuente (JSX/TSX para móvil o HTML/CSS/JS para web).
+
+---
+**Nota de Evaluación**: Esta estructura garantiza el cumplimiento de los indicadores: creación de interfaz (30%), aplicación de usabilidad/accesibilidad (30%), cumplimiento de requerimientos (30%) y presentación del documento (10%).

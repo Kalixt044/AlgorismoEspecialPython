@@ -1,0 +1,53 @@
+Este esquema está diseñado para cumplir con los lineamientos de la **Guía de Aprendizaje 6** y la descripción específica del documento **mes12.txt** para la evidencia **GA6-220501096-AA3-EV01: Selección de herramientas para prototipado**, enfocada en el proyecto "Censo Rural".
+
+El objetivo principal es seleccionar una herramienta de prototipado, probar sus funcionalidades y crear una interfaz de ejemplo que aplique buenas prácticas de usabilidad y accesibilidad.
+
+---
+
+ Esquema para la Evidencia GA6-220501096-AA3-EV01
+
+ I. Introducción y Contextualización
+1.  **Portada**: Cumpliendo con las normas básicas de presentación.
+2.  **Introducción**: 
+    *   Contextualizar la importancia del prototipado en el desarrollo ágil bajo la metodología **Extreme Programming (XP)** del proyecto "Censo Rural".
+    *   Definir el propósito de la evidencia: Validar la herramienta seleccionada para materializar la interfaz de usuario (GUI).
+3.  **Objetivo**: Demostrar destrezas en el manejo de herramientas de diseño de interfaces, asegurando que los componentes cumplan con requisitos funcionales y de calidad.
+
+ II. Selección y Justificación de la Herramienta (Checklist #1)
+1.  **Herramienta Seleccionada**: **Draw.io**.
+2.  **Justificación de la Elección**:
+    *   Mencionar su versatilidad, gratuidad y facilidad de uso (experiencia previa del equipo).
+    *   Integración con almacenamiento en la nube (Google Drive) y capacidad para modelar diagramas UML y mockups de alta fidelidad.
+
+ III. Configuración y Manejo de Funcionalidades (Checklist #1 y #3)
+1.  **Configuración Inicial**: Mostrar pantallazos del entorno de trabajo configurado para el diseño de interfaces (e.g., activación de librerías de "Mockups" o "Android").
+2.  **Exploración de Librerías**:
+    *   Explicar el uso de formas y librerías de modelado que facilitan la creación de prototipos detallados.
+    *   Descripción de elementos disponibles: Botones, campos de texto, menús desplegables y contenedores.
+
+ IV. Desarrollo del Prototipo de Ejemplo (Checklist #2)
+Siguiendo lo establecido en **mes12.txt**, se deben desarrollar vistas para los siguientes elementos del "Censo Rural":
+
+1.  **Barra de Navegación (Navbar)**: Diseño que permita el acceso a las funciones principales (Inicio, Formulario, Repositorio).
+2.  **Pie de Página (Footer)**: Inclusión de información institucional y de contacto.
+3.  **Modelo de Carta (Card)**: Para presentar información resumida de regiones o censos realizados.
+4.  **Formulario de Captura de Datos**:
+    *   Debe incluir los campos clave identificados para el habitante rural: **Primer nombre, segundo nombre, apellidos, tipo y número de documento, domicilio, fecha de nacimiento, sexo, celular, dirección, barrio y email**.
+    *   Incluir botones de acción como "Enviar Formulario" o "Capturar GPS".
+
+ V. Aplicación de Estándares de Usabilidad y Accesibilidad
+1.  **Usabilidad**:
+    *   Diseño **intuitivo** para encuestadores con bajo nivel de alfabetización digital.
+    *   Navegación simplificada para entornos rurales.
+2.  **Accesibilidad**:
+    *   Garantizar contraste de color adecuado y legibilidad del texto según estándares **WCAG 2.1**.
+    *   Elementos táctiles de tamaño apropiado (mínimo 48dp) para dispositivos móviles Android.
+
+ VI. Conclusiones y Entregables
+1.  **Conclusiones**: Resumen de cómo la herramienta Draw.io permite agilizar las entregas frecuentes de módulos funcionales independientes propias de XP.
+2.  **Entregable Final**: Carpeta comprimida (**ZIP**) que contenga:
+    *   El documento técnico en PDF o Word con los pantallazos de las funciones y el ejemplo desarrollado.
+    *   El archivo original de la herramienta (archivo `.drawio` o exportación compatible).
+
+---
+**Nota de verificación**: Esta estructura asegura que se cubran los 4 indicadores de logro: Selección/configuración (30%), Ejemplos aplicados (30%), Manejo de elementos (30%) y Presentación básica (10%).

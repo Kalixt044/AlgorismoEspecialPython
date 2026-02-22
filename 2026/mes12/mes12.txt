@@ -1,0 +1,157 @@
+🔸 Evidencia de conocimiento: Selección de herramientas para prototipado
+(GA6-220501096-AA3-EV01)
+
+1. Selecciona y configura herramienta para creación de
+prototipos. 30%
+2. Realiza ejemplos para la aplicación de la herramienta. 30%
+3. Maneja elementos de la herramienta para prototipado. 30%
+4. Cumple con los requerimientos básicos de la presentación del documento.10%
+
+La herramienta para el desarrollo del prototipo sera la que se viene utilizando Drawio ya 
+que presta versatilidad  y ya contamos con esperiencia en el uso de la misma.
+
+2. se desarrollara las vista de los elementos navbar, footer, una carta, y
+el formulario a desarrollar
+
+3. se explica el uso de de las formas librerias de modelados que nos facilita
+La combinacion de varios y detallar fielmente el dise~o a desarrollar que en concreto seran 
+las vistas de los elementos antes mencionados de 
+
+
+
+
+
+
+
+
+🔸 Evidencia de desempeño: Crear el diseño del sitio web y/o móviles utilizando sus componentes y tecnologías respectivas
+(GA6-220501096-AA3-EV02)
+
+1. Realiza los mockups según requerimientos del software a desarrollar. 30%
+Se realiza las vistas de los elementos principales de nuestro software
+
+2. Los mockups cuentan con navegación entre interfaces. 30%
+Por el momento desde la pagina principal se puede ir a diligenciar formulario, pero tambien se 
+a~adira otros tipos de formularios y el repositorio del proyecto.
+
+3. Las interfaces están de acuerdo con los requerimientos del software a desarrollar. 30%
+explicar la navegabilidad de la pagina principal a diligenciar formularios, y los otros elementos como 
+el modelo de carta, footer, navbar.
+4. Los mockups están creados en una herramienta vista en los componentes formativos. 10%
+ Evidencia de producto: Interfaces gráficas según requerimientos del proyecto (GA6-220501096-AA3-EV03)
+
+Crea interfaces de usuario aplicando buenas prácticas de usabilidad y accesibilidad.
+
+1. Las interfaces presentadas muestran un diseño usable. 30%
+Se desarrollo la interfaz grafica para la version web del proyecto censo rural, la cual integra una pagina 
+principal con la informacion y precentacion del proyecto y los tipos de formularios que se pueden diligenciar.
+
+2. Las interfaces presentadas manejan buena composición de color. 30%
+exponer los colores en codigo rgb
+
+3. Las interfaces están relacionadas con los mockups presentados anteriormente. 30%
+Se desarrolla fidelmente las interfaces maquetadas en la evidencia "GA6-220501096-AA3-
+EV02"
+
+4. Las interfaces presentadas cumplen con los requerimientos del software a desarrollar. 10%
+
+-----------------------------------------------------------------------------------------------------------------
+Interfaces  gráficas  según  requerimientos  del  proyecto  GA6-
+220501096-AA3-EV03 
+Criterios de Evaluación:  
+Crea interfaces de usuario aplicando buenas prácticas de usabilidad y accesibilidad. 
+ 
+ 
+2. LISTA DE CHEQUEO 
+ 
+No.   VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones SÍ NO 
+
+1.  Las interfaces presentadas muestran un diseño usable.     30% 
+
+2.  Las interfaces presentadas manejan buena composición de color.   30% 
+
+3.  Las interfaces están relacionadas con los mockups presentados anteriormente.   30% 
+
+4. Las interfaces presentadas cumplen con los requerimientos del software a desarrollar.   10%
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+🔸 Evidencia de conocimiento: Fundamentos en la implementación de componentes frontend, 
+HTML, CSS y JavaScript (GA6-220501096-AA4-EV01)
+
+- Genera plantillas y estilos de acuerdo con el diseño establecido.
+
+1. Soluciona el problema propuesto aplicando los componentes frontend.30%
+Se presentan los elementos de nuestro proyecto. 
+
+2. El contenido se enlaza con la página correspondiente con imagen, título y descripción. 30%
+Explicar como se enlaza la pagina principal con formularios y cual seria el proceso para integrar los otros 
+formularios que hacen falta
+
+3. Aplica estilos CSS. 30%
+
+4. Emplea listas ordenadas. 10%
+
+reducir el codigo html y css a emmet para mejor manejo y explicacion del codigo.
+
+
+
+
+
+Establecer los componentes frontend de la aplicación web GA6-220501096-AA4-EV02 
+Criterios de Evaluación:  
+Genera plantillas y estilos de acuerdo con el diseño establecido. 
+ 
+ 
+2. LISTA DE CHEQUEO 
+ 
+No.   VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones SÍ NO 
+
+1.  Establece componentes para la aplicación del frontend en el proyecto formativo.    30% 
+Explica la existencia de los elementos de la web
+
+2.  Incluye componentes principales de HTML y CSS.   30% 
+
+
+Basado en el codigo emmet describe el html y css del proceso
+3.  Describe con claridad los componentes a utilizar.    30% 
+Describe la usabilidad y la integracion de los elementos presentes en el codigo
+
+4. Cumple con las normas básicas de presentación de 
+documentos.
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------
+Diseño frontend que cumpla con los requerimientos del proyecto GA6-220501096-AA4-EV03 
+Criterios de Evaluación:  
+Genera plantillas y estilos de acuerdo con el diseño establecido. 
+ 
+ 
+2. LISTA DE CHEQUEO 
+ 
+No.   VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones SÍ NO
+ 
+1.  Crea el diseño frontend según requerimientos del proyecto.    30% 
+
+2.  Aplica los componentes seleccionados en la Evidencia   30% 
+
+3.  El diseño frontend es usable.    30% 
+
+4. Aplica el diseño de interfaz realizado anteriormente.   10% 
+basado en las evidencias anteriores presenta los elementos y particularidades del proyecto
+
+
+teniendo en cuenta el proyecto censo rural lo lineamientos en la guia de aprendizaje 6 y la 
+descripcion de evidenncias en el documento mes12.txt, desarrolla un esquema para abordar la 
+siguiente evidencia:

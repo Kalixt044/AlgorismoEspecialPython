@@ -1,0 +1,44 @@
+ Evidencia de producto: Interfaces gráficas según requerimientos del proyecto (GA6-220501096-AA3-EV03)
+
+Crea interfaces de usuario aplicando buenas prácticas de usabilidad y accesibilidad.
+
+1. Las interfaces presentadas muestran un diseño usable. 30%
+Se desarrollo la interfaz grafica para la version web del proyecto censo rural, la cual integra una pagina 
+principal con la informacion y precentacion del proyecto y los tipos de formularios que se pueden diligenciar.
+
+2. Las interfaces presentadas manejan buena composición de color. 30%
+exponer los colores en codigo rgb
+
+3. Las interfaces están relacionadas con los mockups presentados anteriormente. 30%
+Se desarrolla fidelmente las interfaces maquetadas en la evidencia "GA6-220501096-AA3-
+EV02"
+
+4. Las interfaces presentadas cumplen con los requerimientos del software a desarrollar. 10%
+
+
+
+
+
+
+
+
+🔸 Evidencia de conocimiento: Fundamentos en la implementación de componentes frontend, 
+HTML, CSS y JavaScript (GA6-220501096-AA4-EV01)
+
+- Genera plantillas y estilos de acuerdo con el diseño establecido.
+
+1. Soluciona el problema propuesto aplicando los componentes frontend.30%
+Se presentan los elementos de nuestro proyecto. 
+
+2. El contenido se enlaza con la página correspondiente con imagen, título y descripción. 30%
+Explicar como se enlaza la pagina principal con formularios y cual seria el proceso para integrar los otros 
+formularios que hacen falta
+
+3. Aplica estilos CSS. 30%
+
+4. Emplea listas ordenadas. 10%
+
+reducir el codigo html y css a emmet para mejor manejo y explicacion del codigo.
+
+
+

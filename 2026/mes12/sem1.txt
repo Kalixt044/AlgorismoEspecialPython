@@ -1,4 +1,4 @@
-Evidencia de conocimiento: Selección de herramientas para prototipado
+🔸 Evidencia de conocimiento: Selección de herramientas para prototipado
 (GA6-220501096-AA3-EV01)
 
 1. Selecciona y configura herramienta para creación de
@@ -7,12 +7,34 @@ prototipos. 30%
 3. Maneja elementos de la herramienta para prototipado. 30%
 4. Cumple con los requerimientos básicos de la presentación del documento.10%
 
+La herramienta para el desarrollo del prototipo sera la que se viene utilizando Drawio ya 
+que presta versatilidad  y ya contamos con esperiencia en el uso de la misma.
+
+2. se desarrollara las vista de los elementos navbar, footer, una carta, y
+el formulario a desarrollar
+
+3. se explica el uso de de las formas librerias de modelados que nos facilita
+La combinacion de varios y detallar fielmente el dise~o a desarrollar que en concreto seran 
+las vistas de los elementos antes mencionados de 
+
+
+
+
+
+
 
 
 🔸 Evidencia de desempeño: Crear el diseño del sitio web y/o móviles utilizando sus componentes y tecnologías respectivas
 (GA6-220501096-AA3-EV02)
 
 1. Realiza los mockups según requerimientos del software a desarrollar. 30%
+Se realiza las vistas de los elementos principales de nuestro software
+
 2. Los mockups cuentan con navegación entre interfaces. 30%
+Por el momento desde la pagina principal se puede ir a diligenciar formulario, pero tambien se 
+a~adira otros tipos de formularios y el repositorio del proyecto.
+
 3. Las interfaces están de acuerdo con los requerimientos del software a desarrollar. 30%
+explicar la navegabilidad de la pagina principal a diligenciar formularios, y los otros elementos como 
+el modelo de carta, footer, navbar.
 4. Los mockups están creados en una herramienta vista en los componentes formativos. 10%

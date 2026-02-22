@@ -1,0 +1,61 @@
+Este esquema ha sido diseñado para cumplir con los lineamientos de la 
+**Guía de Aprendizaje 6**, la descripción de la evidencia en **mes12.txt** y la estructura técnica
+ proporcionada en **code.txt** para el proyecto **"Censo Rural"**.
+
+desarrolla el siguient
+El objetivo de la evidencia **GA6-220501096-AA3-EV02** es crear los **mockups de navegación**
+de la aplicación (web o móvil), asegurando que las interfaces sigan los requerimientos del 
+software y permitan una interacción fluida.
+
+
+
+Esquema para la Evidencia GA6-220501096-AA3-EV02
+
+ I. Introducción y Contextualización
+1.  **Portada**: Datos institucionales y del proyecto.
+2.  **Introducción**: 
+    *   Definir el propósito de los mockups: visualizar la disposición de los componentes y el flujo de navegación antes de la codificación final.
+    *   Contexto del **Censo Rural**: Mencionar la importancia de una interfaz amigable para encuestadores en zonas rurales con conectividad limitada.
+3.  **Objetivo**: Desarrollar el diseño visual de los elementos principales del software, garantizando que la navegación sea intuitiva y cumpla con los requerimientos funcionales.
+
+ II. Definición de Componentes Base (Basado en code.txt)
+Siguiendo los patrones reutilizables definidos en las fuentes, los mockups deben integrar los siguientes elementos estructurales:
+1.  **Barra de Navegación (Navbar)**: Enlaces a Inicio, Formulario, Precios (opcional) y Contáctanos.
+2.  **Pie de Página (Footer)**: Información de recursos, avisos legales, suscripción al boletín y opción de **Modo Oscuro**.
+3.  **Modelos de Tarjetas (Cards)**: Para la visualización resumida de la información en la página principal, incluyendo imagen, título y descripción breve.
+4.  **Lista Ordenada de Pasos**: Representación visual de las etapas del proceso (Planifica, Diseña, Implementa, Lanza) para guiar al usuario.
+
+ III. Diseño del Formulario de Captura (Funcionalidad Crítica)
+El mockup del formulario debe ser detallado e incluir los campos obligatorios identificados en la lógica del negocio:
+*   **Identificación**: Tipo de documento (CC, TI) y Número de identificación.
+*   **Datos Personales**: Primer nombre, segundo nombre, primer apellido y segundo apellido.
+*   **Ubicación y Contacto**: Domicilio (Dirección, Barrio), Número Celular y Email.
+*   **Información Demográfica**: Fecha de nacimiento y Sexo (Femenino, Masculino, Otro).
+*   **Controles de Acción**: Botones para "Enviar" y "Limpiar".
+
+ IV. Flujo de Navegación e Interactividad (Checklist #2)
+Esta sección debe explicar cómo el usuario se desplaza entre las pantallas:
+1.  **Página de Inicio (Home)**: Vista principal con el Navbar y Cards descriptivas del proyecto.
+2.  **Acceso al Formulario**: Botón de acción (CTA) en el Navbar o en las Cards que redirija a la interfaz de captura de datos.
+3.  **Estados de Interacción**:
+    *   Visualización de mensajes de éxito o error al enviar el formulario.
+    *   Simulación de la navegación hacia el **Repositorio del proyecto** y otros formularios adicionales.
+
+ V. Herramientas y Estándares de Diseño (Checklist #3 y #4)
+1.  **Herramienta de Modelado**: Uso de **Draw.io** (u otra herramienta vista en la formación) por su versatilidad y capacidad para detallar fielmente el diseño.
+2.  **Usabilidad y Accesibilidad**:
+    *   **Diseño Responsivo**: Adaptación a dispositivos móviles Android y laptops.
+    *   **Composición de Color**: Definir una paleta (basada en el código CSS de `code.txt`) que garantice contraste y legibilidad.
+
+ VI. Conclusiones y Entregables
+1.  **Conclusiones**: Resumen de cómo los mockups materializan los requerimientos del cliente y facilitan la fase de desarrollo frontend bajo la metodología XP.
+2.  **Carpeta ZIP para Entrega**:
+    *   Documento técnico con los pantallazos de los mockups y descripción de cada interfaz.
+    *   Archivo fuente del prototipo (ej. `.drawio`).
+
+
+**Indicadores de Logro a cubrir**: 
+* Realización de mockups (30%).
+* Navegación funcional (30%).
+* Cumplimiento de requerimientos (30%).
+* Uso de herramienta TIC adecuada (10%).

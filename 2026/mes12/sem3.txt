@@ -1,0 +1,51 @@
+
+
+Establecer los componentes frontend de la aplicación web GA6-220501096-AA4-EV02 
+Criterios de Evaluación:  
+Genera plantillas y estilos de acuerdo con el diseño establecido. 
+ 
+ 
+2. LISTA DE CHEQUEO 
+ 
+No.   VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones SÍ NO 
+
+1.  Establece componentes para la aplicación del frontend en el proyecto formativo.    30% 
+Explica la existencia de los elementos de la web
+
+2.  Incluye componentes principales de HTML y CSS.   30% 
+
+
+Basado en el codigo emmet describe el html y css del proceso
+3.  Describe con claridad los componentes a utilizar.    30% 
+Describe la usabilidad y la integracion de los elementos presentes en el codigo
+
+4. Cumple con las normas básicas de presentación de 
+documentos.
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------
+Diseño frontend que cumpla con los requerimientos del proyecto GA6-220501096-AA4-EV03 
+Criterios de Evaluación:  
+Genera plantillas y estilos de acuerdo con el diseño establecido. 
+ 
+ 
+2. LISTA DE CHEQUEO 
+ 
+No.   VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones SÍ NO
+ 
+1.  Crea el diseño frontend según requerimientos del proyecto.    30% 
+
+2.  Aplica los componentes seleccionados en la Evidencia   30% 
+
+3.  El diseño frontend es usable.    30% 
+
+4. Aplica el diseño de interfaz realizado anteriormente.   10% 
+basado en las evidencias anteriores presenta los elementos y particularidades del proyecto
