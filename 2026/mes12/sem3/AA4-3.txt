@@ -1,55 +1,150 @@
-Toma el siguiente esquema y desarrolla un documento breve respetando las normas appa con una extencion maxima de 
-6 hojas, la imagenes seran anexadas posterior mente por lo cual solo dejar los espacios disponibles:
+GA6-220501096-AA4-EV03: Diseño frontend que cumpla con los requerimientos del proyecto “Censo Rural”
+I. Introducción y marco metodológico
+Portada
 
-Este esquema está diseñado para cumplir con los lineamientos de la **Guía de Aprendizaje 6**, integrando la lógica técnica de **code.txt** y los criterios de evaluación del documento **mes12.txt** para la evidencia **GA6-220501096-AA4-EV03: Diseño frontend que cumpla con los requerimientos del proyecto**.
+[Espacio reservado para portada]
+Institución: (Nombre)
+Aprendiz: (Nombre y documento)
+Formación/Competencia: (Nombre)
+Proyecto: Censo Rural
+Fecha: (dd/mes/aaaa)
 
-El objetivo es materializar el diseño frontend completo (HTML, CSS y JS) del proyecto **"Censo Rural"**, aplicando los componentes establecidos en la fase de análisis y diseño previo.
+Introducción
+El sistema Censo Rural requiere una interfaz frontend que soporte la captura eficiente de datos en campo y la gestión segura de la información asociada a los hogares y territorios censados. La presente evidencia documenta la materialización del diseño frontend completo (HTML, CSS y JS), alineado con los lineamientos de la Guía de Aprendizaje 6, la lógica técnica de code.txt y los criterios de mes12.txt, priorizando accesibilidad, usabilidad y consistencia visual con los prototipos previamente validados.
+Metodología Extreme Programming (XP)
+Se adopta XP por su énfasis en entregas pequeñas y frecuentes, feedback continuo, diseño simple y calidad técnica, lo que permite desarrollar y probar componentes independientes (navbar, cards, formulario, lista de pasos) en iteraciones cortas, reduciendo riesgos y facilitando el mantenimiento. Estos principios —comunicación, simplicidad, feedback, coraje y respeto— sustentan la arquitectura basada en componentes y el testing continuo de módulos. [bing.com]
 
----
+II. Sistema de diseño y estilos globales (basado en code.txt)
 
-### Esquema para el Desarrollo de la Evidencia GA6-220501096-AA4-EV03
+Objetivo: Unificar la identidad visual y garantizar legibilidad en entornos de campo (móviles Android y navegadores modernos).
 
-#### I. Introducción y Marco Metodológico
-1.  **Portada**: Datos institucionales y del aprendiz, siguiendo normas básicas de presentación.
-2.  **Introducción**: Contextualizar el desarrollo del frontend para el sistema **"Censo Rural"**, enfocado en la captura eficiente de datos en campo y la gestión segura de información.
-3.  **Metodología Extreme Programming (XP)**: Justificar el uso de una arquitectura basada en componentes que permite el desarrollo iterativo y el testing continuo de módulos independientes.
+Variables de raíz (:root)
 
-#### II. Sistema de Diseño y Estilos Globales (Basado en code.txt)
-Implementación del núcleo visual utilizando las variables y reglas de estilo proporcionadas en las fuentes técnicas:
-1.  **Variables de Raíz (`:root`)**:
-    *   `--primary`: #60a5fa (Acciones principales).
-    *   `--bg`: #0b0f17 (Fondo oscuro para legibilidad).
-    *   `--surface`: #0f172a (Contenedores).
-    *   `--radius`: 12px (Bordes redondeados uniformes).
-2.  **Layout Responsivo**: Uso de **CSS Grid** para la estructura principal y media queries (mínimo 768px) para garantizar la adaptabilidad en dispositivos móviles Android y navegadores web modernos.
+--primary: #60a5fa (acciones principales)
+--bg: #0b0f17 (fondo oscuro para legibilidad)
+--surface: #0f172a (contenedores)
+--radius: 12px (borde redondeado uniforme)
 
-#### III. Implementación de Componentes Frontend (Checklist #2)
-Desarrollo de los componentes funcionales seleccionados en la evidencia AA4-EV02:
-1.  **Módulo de Captura (Formulario)**:
-    *   Estructura semántica para los campos obligatorios: **Nombres, apellidos, tipo y número de documento, domicilio, fecha de nacimiento, sexo, número celular, dirección, barrio y email**.
-    *   Inclusión de etiquetas claras (`<label>`) y textos de ayuda descriptivos (`.help`).
-2.  **Navegación y Guía**:
-    *   **Navbar**: Con efecto de desenfoque (*backdrop-filter*) y enlaces a las secciones de Inicio, Formulario y Repositorio.
-    *   **Steps (Lista de Pasos)**: Visualización del proceso de censo (Planifica, Diseña, Implementa, Lanza) para guiar al usuario.
-3.  **Visualización y Cierre**:
-    *   **Cards (Tarjetas)**: Para mostrar información resumida de los censos o tipos de formularios.
-    *   **Footer**: Información legal, institucional y selector de **Modo Oscuro**.
 
-#### IV. Usabilidad, Accesibilidad e Interactividad (Checklist #3)
-Garantizar que el diseño sea intuitivo para usuarios con bajo nivel de alfabetización digital:
-1.  **Accesibilidad (WCAG 2.1)**:
-    *   Contraste de color mínimo de 4.5:1.
-    *   Tamaño de elementos táctiles de al menos **48x48dp** para facilitar el uso en campo.
-2.  **Interactividad con JS**:
-    *   Validación visual de campos en tiempo real (feedback inmediato sobre errores de formato).
-    *   Manejo de eventos para el envío de formularios y visualización de mensajes de éxito/error.
-    *   Simulación de estados para la operación **Offline-First** y sincronización diferida.
+[Espacio para imagen: “Paleta y tokens del sistema de diseño”]
 
-#### V. Conclusiones y Entregables
-1.  **Conclusiones**: Resumen de cómo la integración de HTML, CSS y JS satisface los requerimientos del proyecto y materializa los mockups diseñados anteriormente.
-2.  **Paquete de Entrega (Archivo ZIP)**:
-    *   Documento técnico explicativo.
-    *   Carpeta con archivos de código fuente (`index.html`, `style.css`, scripts de JS) y recursos multimedia.
+Recomendaciones:
 
----
-**Nota de Evaluación**: Esta estructura asegura cubrir el 100% de los indicadores de logro: Diseño según requerimientos (30%), aplicación de componentes previos (30%), usabilidad comprobada (30%) y alineación con interfaces anteriores (10%).
+Tipografía base ≥ 16 px y altura de línea ≥ 1.5 para lectura cómoda.
+Mantener contraste adecuado (ver Sección IV). Para texto normal, ≥ 4.5:1; para texto grande y componentes/UI, ≥ 3:1 (WCAG 2.1, nivel AA). [bing.com], [bing.com]
+
+Layout responsivo
+
+CSS Grid como base estructural (cabecera, contenido principal, pie).
+Media queries (punto de quiebre sugerido: min-width: 768 px) para reorganizar columnas y densidad de información.
+Objetivos táctiles y espaciado adecuados para interacción móvil (ver Sección IV).
+
+
+[Espacio para imagen: “Wireframe del layout en móvil y tablet/escritorio”]
+
+
+III. Implementación de componentes frontend (Checklist #2)
+
+Nota: Los siguientes componentes se implementan con HTML semántico, clases reutilizables y JS ligero. Los textos e indicadores visuales se alinean con los prototipos validados en AA4-EV02.
+
+1. Módulo de captura (formulario)
+Estructura semántica con campos obligatorios y ayudas contextuales:
+
+Campos: Nombres, Apellidos, Tipo y Número de documento, Domicilio, Fecha de nacimiento, Sexo, Número celular, Dirección, Barrio, Email.
+Cada control con su <label> explícita, texto de ayuda (.help) bajo el campo y mensaje de error cercano al control.
+Agrupación por secciones (Identificación / Ubicación / Contacto) para reducir carga cognitiva.
+
+
+[Espacio para imagen: “Vista del formulario con ayudas y validaciones”]
+
+Esqueleto HTML abreviado (referencial):
+HTMLShow more lines
+2. Navegación y guía
+
+Navbar: fija/pegajosa, con desenfoque (backdrop-filter) y fondo semitransparente sobre --bg. Estados hover/active y enfoque :focus-visible.
+Steps (lista de pasos): “Planifica → Diseña → Implementa → Lanza”, usando <ol> con contadores CSS y círculos numerados para orientar el flujo.
+
+
+[Espacio para imagen: “Navbar con ítem activo y lista de pasos”]
+
+3. Visualización y cierre
+
+Cards (tarjetas): resumen de censos o tipos de formularios; cada .card incluye título, breve descripción y acción (“Ver detalle”).
+Footer: información institucional/legal y selector de Modo Oscuro (ver interactividad en Sección IV).
+
+
+[Espacio para imagen: “Grid de cards y pie con selector de tema”]
+
+
+IV. Usabilidad, accesibilidad e interactividad (Checklist #3)
+1. Accesibilidad (WCAG 2.1)
+
+Contraste:
+
+Texto normal ≥ 4.5:1; texto grande y componentes/gráficos ≥ 3:1 (nivel AA). Validar con herramientas como WebAIM Contrast Checker. [bing.com], [bing.com]
+
+
+Tamaño de objetivos táctiles:
+
+Áreas activas ≥ 48 × 48 dp (≈ 9 mm), incluso si el ícono es menor; separaciones suficientes para evitar toques accidentales (recomendación Android/Material). [bing.com], [bing.com]
+
+
+Navegación y foco:
+
+Orden lógico, foco visible, roles ARIA cuando correspondan y uso de HTML semántico para mejorar lectura por tecnologías de apoyo. (Buenas prácticas de accesibilidad general). [bing.com]
+
+
+
+2. Interactividad con JavaScript
+
+Validación en tiempo real:
+
+Escuchar eventos input/change para formato de email, teléfono, campos requeridos; mostrar mensajes inmediatos (aria-live) y estilo de error en el control.
+
+
+Envío del formulario:
+
+Prevent default, validaciones finales, feedback de éxito/error no intrusivo (toast / barra de estado).
+
+
+Modo Oscuro (selector en Footer):
+
+Alternar atributo en <html> (p. ej., data-theme="dark"), persistir con localStorage, respetar prefers-color-scheme.
+
+
+Simulación Offline-First:
+
+Simular indisponibilidad de red y cola de sincronización diferida; almacenar temporalmente en localStorage o stub de IndexedDB para la evidencia.
+
+
+
+
+[Espacio para imagen: “Toast de éxito / estado offline y sincronización”]
+
+
+V. Conclusiones y entregables
+Conclusiones
+La integración de HTML semántico, CSS con variables de sistema y JS ligero materializa los mockups previos y satisface los requerimientos del proyecto Censo Rural. La arquitectura por componentes reutilizables (navbar, cards, formulario, pasos) facilita iteraciones cortas, pruebas continuas y alineación visual en todos los módulos, en coherencia con XP y las pautas de accesibilidad exigidas (contraste, foco, objetivos táctiles). [bing.com], [bing.com], [bing.com]
+Paquete de entrega (archivo ZIP)
+
+Documento técnico explicativo (este documento con capturas anexadas).
+Código fuente:
+
+index.html (estructura semántica, secciones y componentes)
+style.css (variables :root, layout con CSS Grid, clases .card, .steps, navbar con backdrop-filter)
+script.js (validación en tiempo real, toasts, modo oscuro, simulación offline-first)
+
+
+/img/ (carpeta con las imágenes a integrar posteriormente)
+
+
+[Espacio para imagen: “Estructura de carpetas del ZIP”]
+
+
+Referencias (formato APA 7.ª ed.)
+Agile Alliance. (s. f.). What is Extreme Programming (XP)? https://www.agilealliance.org/glossary/xp/ [bing.com]
+Android Accessibility Help. (s. f.). Touch target size. https://support.google.com/accessibility/android/answer/7101858 [bing.com]
+Material Design. (s. f.). Touch target (MDC Web). https://m2.material.io/develop/web/supporting/touch-target [bing.com]
+WebAIM. (s. f.). Contrast Checker. https://webaim.org/resources/contrastchecker/ [bing.com]
+W3C/WAI. (2018). Understanding Success Criterion 1.4.3: Contrast (Minimum). https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html [bing.com]
+Material Design 3. (s. f.). Accessibility — Designing (Structure). https://m3.material.io/foundations/designing/structure
