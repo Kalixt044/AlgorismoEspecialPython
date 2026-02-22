@@ -79,6 +79,9 @@ No.   VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones SÍ NO
 
 -----------------------------------------------------------------------------------------------------------------
 
+Toma el siguiente esquema y desarrolla un documento breve respetando las normas appa con una extencion maxima de 
+6 hojas, la imagenes seran anexadas posterior mente por lo cual solo dejar los espacios disponibles:
+
 🔸 Evidencia de conocimiento: Fundamentos en la implementación de componentes frontend, 
 HTML, CSS y JavaScript (GA6-220501096-AA4-EV01)
 
@@ -133,6 +136,10 @@ documentos.
 
 
 -----------------------------------------------------------------
+Toma el siguiente esquema y desarrolla un documento breve respetando las normas appa con una extencion 
+maxima de 6 hojas, la imagenes seran anexadas posterior mente por lo cual solo dejar los espacios 
+disponibles:
+
 Diseño frontend que cumpla con los requerimientos del proyecto GA6-220501096-AA4-EV03 
 Criterios de Evaluación:  
 Genera plantillas y estilos de acuerdo con el diseño establecido. 
@@ -152,6 +159,3 @@ No.   VARIABLES/INDICADORES DE LOGRO CUMPLE Observaciones SÍ NO
 basado en las evidencias anteriores presenta los elementos y particularidades del proyecto
 
 
-teniendo en cuenta el proyecto censo rural lo lineamientos en la guia de aprendizaje 6 y la 
-descripcion de evidenncias en el documento mes12.txt, desarrolla un esquema para abordar la 
-siguiente evidencia:

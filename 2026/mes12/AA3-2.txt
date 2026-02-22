@@ -2,7 +2,9 @@ Este esquema ha sido diseñado para cumplir con los lineamientos de la
 **Guía de Aprendizaje 6**, la descripción de la evidencia en **mes12.txt** y la estructura técnica
  proporcionada en **code.txt** para el proyecto **"Censo Rural"**.
 
-desarrolla el siguient
+Toma el siguiente esquema y desarrolla un documento breve respetando las normas appa con una extencion maxima de 
+6 hojas, la imagenes seran anexadas posterior mente por lo cual solo dejar los espacios disponibles: 
+
 El objetivo de la evidencia **GA6-220501096-AA3-EV02** es crear los **mockups de navegación**
 de la aplicación (web o móvil), asegurando que las interfaces sigan los requerimientos del 
 software y permitan una interacción fluida.

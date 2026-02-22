@@ -1,0 +1,55 @@
+Toma el siguiente esquema y desarrolla un documento breve respetando las normas appa con una extencion maxima de 
+6 hojas, la imagenes seran anexadas posterior mente por lo cual solo dejar los espacios disponibles:
+
+Este esquema está diseñado para cumplir con los lineamientos de la **Guía de Aprendizaje 6**, integrando la lógica técnica de **code.txt** y los criterios de evaluación del documento **mes12.txt** para la evidencia **GA6-220501096-AA4-EV03: Diseño frontend que cumpla con los requerimientos del proyecto**.
+
+El objetivo es materializar el diseño frontend completo (HTML, CSS y JS) del proyecto **"Censo Rural"**, aplicando los componentes establecidos en la fase de análisis y diseño previo.
+
+---
+
+### Esquema para el Desarrollo de la Evidencia GA6-220501096-AA4-EV03
+
+#### I. Introducción y Marco Metodológico
+1.  **Portada**: Datos institucionales y del aprendiz, siguiendo normas básicas de presentación.
+2.  **Introducción**: Contextualizar el desarrollo del frontend para el sistema **"Censo Rural"**, enfocado en la captura eficiente de datos en campo y la gestión segura de información.
+3.  **Metodología Extreme Programming (XP)**: Justificar el uso de una arquitectura basada en componentes que permite el desarrollo iterativo y el testing continuo de módulos independientes.
+
+#### II. Sistema de Diseño y Estilos Globales (Basado en code.txt)
+Implementación del núcleo visual utilizando las variables y reglas de estilo proporcionadas en las fuentes técnicas:
+1.  **Variables de Raíz (`:root`)**:
+    *   `--primary`: #60a5fa (Acciones principales).
+    *   `--bg`: #0b0f17 (Fondo oscuro para legibilidad).
+    *   `--surface`: #0f172a (Contenedores).
+    *   `--radius`: 12px (Bordes redondeados uniformes).
+2.  **Layout Responsivo**: Uso de **CSS Grid** para la estructura principal y media queries (mínimo 768px) para garantizar la adaptabilidad en dispositivos móviles Android y navegadores web modernos.
+
+#### III. Implementación de Componentes Frontend (Checklist #2)
+Desarrollo de los componentes funcionales seleccionados en la evidencia AA4-EV02:
+1.  **Módulo de Captura (Formulario)**:
+    *   Estructura semántica para los campos obligatorios: **Nombres, apellidos, tipo y número de documento, domicilio, fecha de nacimiento, sexo, número celular, dirección, barrio y email**.
+    *   Inclusión de etiquetas claras (`<label>`) y textos de ayuda descriptivos (`.help`).
+2.  **Navegación y Guía**:
+    *   **Navbar**: Con efecto de desenfoque (*backdrop-filter*) y enlaces a las secciones de Inicio, Formulario y Repositorio.
+    *   **Steps (Lista de Pasos)**: Visualización del proceso de censo (Planifica, Diseña, Implementa, Lanza) para guiar al usuario.
+3.  **Visualización y Cierre**:
+    *   **Cards (Tarjetas)**: Para mostrar información resumida de los censos o tipos de formularios.
+    *   **Footer**: Información legal, institucional y selector de **Modo Oscuro**.
+
+#### IV. Usabilidad, Accesibilidad e Interactividad (Checklist #3)
+Garantizar que el diseño sea intuitivo para usuarios con bajo nivel de alfabetización digital:
+1.  **Accesibilidad (WCAG 2.1)**:
+    *   Contraste de color mínimo de 4.5:1.
+    *   Tamaño de elementos táctiles de al menos **48x48dp** para facilitar el uso en campo.
+2.  **Interactividad con JS**:
+    *   Validación visual de campos en tiempo real (feedback inmediato sobre errores de formato).
+    *   Manejo de eventos para el envío de formularios y visualización de mensajes de éxito/error.
+    *   Simulación de estados para la operación **Offline-First** y sincronización diferida.
+
+#### V. Conclusiones y Entregables
+1.  **Conclusiones**: Resumen de cómo la integración de HTML, CSS y JS satisface los requerimientos del proyecto y materializa los mockups diseñados anteriormente.
+2.  **Paquete de Entrega (Archivo ZIP)**:
+    *   Documento técnico explicativo.
+    *   Carpeta con archivos de código fuente (`index.html`, `style.css`, scripts de JS) y recursos multimedia.
+
+---
+**Nota de Evaluación**: Esta estructura asegura cubrir el 100% de los indicadores de logro: Diseño según requerimientos (30%), aplicación de componentes previos (30%), usabilidad comprobada (30%) y alineación con interfaces anteriores (10%).

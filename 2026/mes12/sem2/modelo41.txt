@@ -1,0 +1,49 @@
+Este esquema está diseñado para cumplir con los requerimientos de la **Guía de Aprendizaje 6**, integrando los elementos técnicos de **code.txt** y la descripción de la evidencia **GA6-220501096-AA4-EV01: Fundamentos en la implementación de componentes frontend, HTML, CSS, JS**.
+
+El objetivo es desarrollar una página web que funcione como un tutorial, aplicando los estándares de diseño y usabilidad definidos para el proyecto **"Censo Rural"**.
+
+
+
+Esquema para la Evidencia GA6-220501096-AA4-EV01
+
+ I. Introducción y Selección del Tema
+1.  **Portada**: Datos del aprendiz y del proyecto "Censo Rural".
+2.  **Introducción**: Explicar la importancia del desarrollo *frontend* bajo la metodología **Extreme Programming (XP)**, la cual permite entregas frecuentes de módulos funcionales independientes.
+3.  **Selección del Tema del Tutorial**: Se sugiere un tema relacionado con el proyecto para mantener la coherencia, por ejemplo: *"Manual de uso de la aplicación de captura Censo Rural"* o *"Buenas prácticas para encuestadores en campo"*.
+
+ II. Estructura del Documento HTML (Esqueleto)
+Siguiendo las instrucciones de la guía, la página debe contener:
+1.  **Encabezado (`<header>`)**: Título principal del tutorial (ej. "Guía de Capacitación Digital Censo Rural").
+2.  **Lista Ordenada (`<ol>`)**: Un índice de conceptos que el usuario aprenderá en el tutorial.
+3.  **Enlaces Internos (`<a>`)**: Cada elemento de la lista debe vincularse a su respectiva sección dentro de la misma página.
+4.  **Secciones de Contenido (`<section>`)**: Para cada concepto, incluir:
+    *   **Título del subtema**.
+    *   **Imagen descriptiva**: Siguiendo los patrones del repositorio (ej. previsualización de la interfaz).
+    *   **Descripción detallada**: Explicación clara y concisa del concepto.
+
+ III. Diseño y Estilos CSS (Basado en code.txt)
+Para cumplir con el criterio de "generar plantillas y estilos según el diseño establecido", se deben utilizar las variables y clases definidas en las fuentes técnicas:
+1.  **Variables del Sistema de Diseño**: Implementar el esquema de colores institucional:
+    *   `--primary`: #60a5fa (Azul de acción).
+    *   `--bg`: #0b0f17 (Fondo oscuro para legibilidad).
+    *   `--surface`: #0f172a (Contenedores).
+2.  **Componentes Reutilizables**:
+    *   **Navbar**: Implementar la barra de navegación con efectos de desenfoque (*backdrop-filter*) y estados activos.
+    *   **Cards (Tarjetas)**: Usar la clase `.card` para presentar los subtemas del tutorial, incluyendo bordes redondeados (`--radius: 12px`) y sombras.
+    *   **Estilos de Lista**: Aplicar la clase `.steps` para que la lista ordenada de pasos sea visualmente atractiva con círculos numerados.
+3.  **Accesibilidad y Usabilidad**: Garantizar un contraste mínimo de 4.5:1 y fuentes legibles (mínimo 16sp) para usuarios con bajo nivel de alfabetización digital.
+
+ IV. Funcionalidad Básica con JavaScript
+1.  **Interactividad simple**:
+    *   Implementar un script básico para el manejo de estados, como el **Modo Oscuro** mencionado en el diseño del *footer*.
+    *   Manejo de eventos para los botones de navegación o alertas de confirmación al terminar una sección del tutorial.
+
+ V. Conclusiones y Entregables
+1.  **Conclusiones**: Resumen de cómo la maquetación programática con HTML y CSS facilita el mantenimiento y la escalabilidad del sistema "Censo Rural".
+2.  **Entregable Final**: Carpeta comprimida (**ZIP**) que contenga:
+    *   Archivo `index.html`.
+    *   Archivo `style.css` (con las variables y componentes de `code.txt`).
+    *   Carpeta de imágenes utilizadas en el tutorial.
+
+---
+**Nota de Evaluación**: Esta estructura asegura que se cubran los criterios de la guía: incluir elementos vistos en el componente (30%), uso de estilos CSS (30%) y cumplimiento de requerimientos básicos de presentación (10%).

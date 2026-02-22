@@ -1,0 +1,47 @@
+Toma el siguiente esquema y desarrolla un documento breve respetando las normas appa con una extencion maxima de 
+6 hojas, la imagenes seran anexadas posterior mente por lo cual solo dejar los espacios disponibles:
+Este esquema está diseñado para cumplir con los lineamientos de la **Guía de Aprendizaje 6**, integrando la información técnica de los documentos **code.txt** y **mes12.txt** para la evidencia **GA6-220501096-AA4-EV02: Establecer los componentes frontend de la aplicación web**.
+
+El objetivo de esta evidencia es **especificar la estructura de componentes** que se utilizarán para cumplir con las necesidades del software "Censo Rural", definiendo los elementos HTML y estilos CSS bajo un enfoque de diseño modular.
+
+---
+
+### Esquema para el Desarrollo de la Evidencia GA6-220501096-AA4-EV02
+
+#### I. Introducción y Propósito del Documento
+1.  **Portada**: Cumpliendo con las normas básicas de presentación.
+2.  **Introducción**: Contextualizar el desarrollo del *frontend* del proyecto **"Censo Rural"**, el cual busca optimizar la captura de datos en zonas rurales.
+3.  **Objetivo**: Definir los componentes reutilizables y la estructura semántica de la aplicación web, garantizando **usabilidad y accesibilidad** para usuarios con bajo nivel de alfabetización digital.
+
+#### II. Arquitectura de Componentes Frontend (Checklist #1)
+Esta sección establece los bloques fundamentales de la aplicación basados en los requerimientos funcionales.
+1.  **Estructura Modular (Metodología XP)**: Explicar cómo la arquitectura se divide en componentes independientes para facilitar entregas frecuentes y mantenimiento.
+2.  **Identificación de Componentes Clave**:
+    *   **Componente de Navegación (Navbar)**: Enlaces a Inicio, Formulario y Repositorio con efectos de desenfoque (*backdrop-filter*).
+    *   **Componente de Registro (Formulario)**: Módulo central para la captura de datos del habitante (nombres, documento, domicilio, contacto).
+    *   **Componentes de Visualización (Cards)**: Tarjetas para presentar información resumida o tipos de formularios disponibles.
+    *   **Componente de Guía (Steps)**: Lista ordenada visual para orientar al encuestador en el proceso (Planifica, Diseña, Implementa, Lanza).
+    *   **Componente de Cierre (Footer)**: Información institucional, avisos legales y selector de **Modo Oscuro**.
+
+#### III. Especificación Técnica de Elementos HTML y CSS (Checklist #2 y #3)
+Descripción detallada de la implementación técnica utilizando el sistema de diseño propuesto.
+1.  **Definición de Elementos HTML (Basado en código Emmet)**:
+    *   **Estructura Semántica**: Uso de etiquetas `<header>`, `<main>`, `<section>` y `<footer>` para mejorar el SEO y la accesibilidad.
+    *   **Campos de Formulario**: Especificar el uso de `<input>` de tipo texto, numérico (para celular e identificación) y `<select>` para tipo de documento y sexo.
+2.  **Sistema de Estilos y Variables CSS (Basado en code.txt)**:
+    *   **Variables de Raíz (`:root`)**: Implementar el esquema de colores institucional: `--bg: #0b0f17` (fondo), `--primary: #60a5fa` (acciones) y `--surface: #0f172a` (contenedores).
+    *   **Layout y Responsividad**: Uso de **CSS Grid** para formularios (`display: grid`) con columnas adaptativas para pantallas de más de 768px (`repeat(2, 1fr)`).
+    *   **Estética de Componentes**: Definir bordes redondeados (`--radius: 12px`), sombras (`--shadow`) y tipografía legible con tamaño base de 16sp.
+
+#### IV. Análisis de Usabilidad e Integración
+1.  **Usabilidad**: Describir cómo el diseño de los componentes facilita la interacción:
+    *   Áreas de toque con tamaño mínimo de **48dp** en botones y selectores.
+    *   Mensajes de ayuda contextual (`.help`) y etiquetas claras (`<label>`).
+2.  **Integración**: Explicar la conexión entre la página principal y los diferentes formularios, asegurando la coherencia visual en todo el flujo.
+
+#### V. Conclusiones y Cumplimiento
+1.  **Resumen**: Cómo el establecimiento de estos componentes frontend garantiza una interfaz robusta y escalable para el "Censo Rural".
+2.  **Entregable**: Documento técnico en PDF que detalle la estructura de componentes, el código Emmet/HTML de referencia y la justificación de los estilos aplicados.
+
+---
+**Nota de Evaluación**: Esta estructura asegura cubrir los indicadores de logro: establecimiento de componentes (30%), inclusión de HTML/CSS principal (30%), claridad descriptiva (30%) y presentación documental (10%).
