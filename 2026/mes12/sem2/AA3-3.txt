@@ -1,54 +1,52 @@
-# Evidencia GA6-220501096-AA3-EV03: Interfaces Gráficas según Requerimientos del Proyecto
+Evidencia GA6-220501096-AA3-EV03: Interfaces Gráficas según Requerimientos del Proyecto
 
-**Proyecto: Censo Rural – Implementación de Interfaces de Usuario**
+Proyecto: Censo Rural – Implementación de Interfaces de Usuario
 
-**Presentado por:** [Nombre del estudiante]  
-**Ficha:** 220501096  
-**Actividad de Aprendizaje:** AA3  
-**Fecha:** 26 de octubre de 2025  
-**Instructor:** [Nombre del instructor]  
-**Centro de Formación:** [Nombre del centro SENA]  
-**Programa de Formación:** Análisis y Desarrollo de Sistemas de Información
+Presentado por: [Nombre del estudiante]  
+Ficha: 220501096  
+Actividad de Aprendizaje: AA3  
+Fecha: 26 de octubre de 2025  
+Instructor: [Nombre del instructor]  
+Centro de Formación: [Nombre del centro SENA]  
+Programa de Formación: Análisis y Desarrollo de Sistemas de Información
 
----
+1. Introducción y Justificación Tecnológica
 
-## 1. Introducción y Justificación Tecnológica
-
-### 1.1 Presentación del Diseño Final
+1.1 Presentación del Diseño Final
 
 La presente evidencia documenta la materialización de los mockups desarrollados en la EV02 en interfaces gráficas funcionales de alta fidelidad para el proyecto "Censo Rural". Este sistema integral está diseñado para optimizar la recolección, gestión y análisis de datos personales de habitantes en zonas rurales apartadas de Colombia, donde la conectividad es limitada y las condiciones operativas son desafiantes.
 
 El diseño final implementa dos módulos principales:
-- **Módulo móvil (React Native):** Aplicación offline-first para encuestadores en campo con tablets Android
-- **Módulo web administrativo (HTML/CSS/JavaScript):** Plataforma para supervisores y administradores con dashboards analíticos
+- Módulo móvil (React Native): Aplicación offline-first para encuestadores en campo con tablets Android
+- Módulo web administrativo (HTML/CSS/JavaScript): Plataforma para supervisores y administradores con dashboards analíticos
 
-### 1.2 Justificación Tecnológica
+1.2 Justificación Tecnológica
 
-#### React Native para Módulo Móvil
+React Native para Módulo Móvil
 
-**Razones de selección:**
+Razones de selección:
 
-**1. Rendimiento nativo:**
+1. Rendimiento nativo:
 - Compilación a código nativo (no webview)
 - Acceso directo a APIs del dispositivo (GPS, cámara, almacenamiento)
 - Fluidez en animaciones y transiciones críticas para UX
 
-**2. Arquitectura modular:**
+2. Arquitectura modular:
 - Componentes reutilizables (DRY principle)
 - Facilita testing unitario independiente
 - Escalabilidad mediante composición de componentes
 
-**3. Ecosistema robusto:**
+3. Ecosistema robusto:
 - SQLite integrado para persistencia offline
 - Bibliotecas maduras: React Navigation, React Native Paper
 - Comunidad activa con soluciones probadas
 
-**4. Desarrollo multiplataforma:**
+4. Desarrollo multiplataforma:
 - Codebase único para Android e iOS (80% compartido)
 - Reduce tiempo y costo de desarrollo
 - Facilita mantenimiento y actualizaciones
 
-**Código de ejemplo - Componente de formulario:**
+Código de ejemplo - Componente de formulario:
 ```javascript
 import React, { useState } from 'react';
 import { View, TextInput, StyleSheet } from 'react-native';
@@ -70,36 +68,36 @@ const FormularioCenso = () => {
 };
 ```
 
-#### HTML/CSS/JavaScript para Módulo Web
+HTML/CSS/JavaScript para Módulo Web
 
-**Razones de selección:**
+Razones de selección:
 
-**1. Accesibilidad universal:**
+1. Accesibilidad universal:
 - No requiere instalación (navegador estándar)
 - Compatible con cualquier sistema operativo
 - Actualizaciones instantáneas (sin redistribución)
 
-**2. Tecnologías estándar:**
+2. Tecnologías estándar:
 - HTML5 semántico para SEO y accesibilidad
 - CSS3 con variables y Grid/Flexbox
 - JavaScript moderno (ES6+) para interactividad
 
-**3. Integración con backend:**
+3. Integración con backend:
 - APIs RESTful para comunicación con PostgreSQL
 - WebSockets para actualizaciones en tiempo real
 - JSON para intercambio de datos
 
-### 1.3 Metodología XP y Diseño por Componentes
+1.3 Metodología XP y Diseño por Componentes
 
 La metodología Extreme Programming (XP) aplicada al proyecto "Censo Rural" se beneficia directamente del diseño por componentes:
 
-**Entregas frecuentes:**
+Entregas frecuentes:
 - Sprint 1: Componentes base (Navbar, Footer, Cards)
 - Sprint 2: Formulario de captura completo
 - Sprint 3: Módulo GPS y gestión de archivos
 - Sprint 4: Sincronización y reportes
 
-**Testing independiente:**
+Testing independiente:
 ```javascript
 // Ejemplo de test unitario para validación de documento
 describe('ValidarDocumento', () => {
@@ -113,41 +111,39 @@ describe('ValidarDocumento', () => {
 });
 ```
 
-**Refactorización continua:**
+Refactorización continua:
 - Componentes pequeños y cohesivos
 - Separación de lógica de negocio y presentación
 - Reutilización maximizada
 
----
+2. Sistema de Diseño y Estilos
 
-## 2. Sistema de Diseño y Estilos
-
-### 2.1 Paleta de Colores y Variables CSS
+2.1 Paleta de Colores y Variables CSS
 
 El sistema de diseño implementa un esquema de color coherente mediante variables CSS (custom properties):
 
 ```css
 :root {
   /* Colores primarios */
-  --primary: #60a5fa;        /* Azul - Acciones principales */
-  --primary-dark: #3b82f6;   /* Azul oscuro - Hover */
-  --primary-light: #93c5fd;  /* Azul claro - Backgrounds */
+  --primary: 0a5fa;        /* Azul - Acciones principales */
+  --primary-dark: b82f6;   /* Azul oscuro - Hover */
+  --primary-light: 3c5fd;  /* Azul claro - Backgrounds */
   
   /* Colores de fondo */
-  --bg: #0b0f17;             /* Fondo oscuro principal */
-  --surface: #0f172a;        /* Superficie contenedores */
-  --surface-hover: #1e293b;  /* Hover sobre superficies */
+  --bg: b0f17;             /* Fondo oscuro principal */
+  --surface: f172a;        /* Superficie contenedores */
+  --surface-hover: e293b;  /* Hover sobre superficies */
   
   /* Colores de estado */
-  --success: #10b981;        /* Verde - Éxito */
-  --error: #ef4444;          /* Rojo - Error */
-  --warning: #f59e0b;        /* Amarillo - Advertencia */
-  --info: #3b82f6;           /* Azul - Información */
+  --success: 0b981;        /* Verde - Éxito */
+  --error: f4444;          /* Rojo - Error */
+  --warning: 59e0b;        /* Amarillo - Advertencia */
+  --info: b82f6;           /* Azul - Información */
   
   /* Colores de texto */
-  --text-primary: #f8fafc;   /* Texto principal */
-  --text-secondary: #cbd5e1; /* Texto secundario */
-  --text-disabled: #64748b;  /* Texto deshabilitado */
+  --text-primary: 8fafc;   /* Texto principal */
+  --text-secondary: bd5e1; /* Texto secundario */
+  --text-disabled: 4748b;  /* Texto deshabilitado */
   
   /* Espaciado */
   --spacing-xs: 4px;
@@ -169,16 +165,16 @@ El sistema de diseño implementa un esquema de color coherente mediante variable
 }
 ```
 
-**Justificación del fondo oscuro:**
+Justificación del fondo oscuro:
 - Reduce fatiga visual en jornadas largas
 - Mejora duración de batería en dispositivos móviles (OLED)
 - Contraste óptimo para uso en exteriores con luz solar
 
-### 2.2 Componentes Reutilizables
+2.2 Componentes Reutilizables
 
-#### 2.2.1 Navbar (Barra de Navegación)
+2.2.1 Navbar (Barra de Navegación)
 
-**Implementación con efecto glassmorphism:**
+Implementación con efecto glassmorphism:
 
 ```css
 .navbar {
@@ -210,7 +206,7 @@ El sistema de diseño implementa un esquema de color coherente mediante variable
 }
 ```
 
-**Estructura HTML:**
+Estructura HTML:
 ```html
 <nav class="navbar">
   <div class="navbar-container">
@@ -219,9 +215,9 @@ El sistema de diseño implementa un esquema de color coherente mediante variable
       <span>Censo Rural</span>
     </div>
     <div class="navbar-links">
-      <a href="#inicio" class="navbar-link active">Inicio</a>
-      <a href="#formulario" class="navbar-link">Formulario</a>
-      <a href="#repositorio" class="navbar-link">Repositorio</a>
+      <a href="nicio" class="navbar-link active">Inicio</a>
+      <a href="ormulario" class="navbar-link">Formulario</a>
+      <a href="epositorio" class="navbar-link">Repositorio</a>
       <button class="btn-primary">Ayuda</button>
     </div>
     <div class="navbar-status">
@@ -231,9 +227,9 @@ El sistema de diseño implementa un esquema de color coherente mediante variable
 </nav>
 ```
 
-#### 2.2.2 Footer con Modo Oscuro
+2.2.2 Footer con Modo Oscuro
 
-**Implementación del toggle:**
+Implementación del toggle:
 
 ```javascript
 const toggleDarkMode = () => {
@@ -266,9 +262,9 @@ const toggleDarkMode = () => {
 }
 ```
 
-#### 2.2.3 Cards para Visualización de Datos
+2.2.3 Cards para Visualización de Datos
 
-**Componente Card reutilizable:**
+Componente Card reutilizable:
 
 ```javascript
 const Card = ({ titulo, valor, icono, tendencia }) => (
@@ -289,7 +285,7 @@ const Card = ({ titulo, valor, icono, tendencia }) => (
 );
 ```
 
-**Estilos CSS:**
+Estilos CSS:
 ```css
 .card {
   background: var(--surface);
@@ -311,15 +307,13 @@ const Card = ({ titulo, valor, icono, tendencia }) => (
 }
 ```
 
----
+3. Implementación de la Interfaz de Captura (RF-01)
 
-## 3. Implementación de la Interfaz de Captura (RF-01)
-
-### 3.1 Estructura del Formulario de Censo
+3.1 Estructura del Formulario de Censo
 
 El formulario implementa una arquitectura por secciones colapsables para mejorar la experiencia de usuario:
 
-**Código React Native:**
+Código React Native:
 
 ```javascript
 import React, { useState } from 'react';
@@ -378,11 +372,11 @@ const FormularioCenso = () => {
 };
 ```
 
-### 3.2 Campos de Datos del Censo
+3.2 Campos de Datos del Censo
 
-#### 3.2.1 Sección Identificación
+3.2.1 Sección Identificación
 
-**Campo Tipo de Documento (Dropdown):**
+Campo Tipo de Documento (Dropdown):
 
 ```javascript
 const TipoDocumentoSelector = ({ value, onChange, error }) => {
@@ -412,7 +406,7 @@ const TipoDocumentoSelector = ({ value, onChange, error }) => {
 };
 ```
 
-**Campo Número de Documento con Validación:**
+Campo Número de Documento con Validación:
 
 ```javascript
 const NumeroDocumentoInput = ({ value, onChange, error }) => {
@@ -442,9 +436,9 @@ const NumeroDocumentoInput = ({ value, onChange, error }) => {
 };
 ```
 
-#### 3.2.2 Sección Nombres y Apellidos
+3.2.2 Sección Nombres y Apellidos
 
-**Implementación con validación en tiempo real:**
+Implementación con validación en tiempo real:
 
 ```javascript
 const validarNombre = (nombre) => {
@@ -485,9 +479,9 @@ const NombreInput = ({ label, value, onChange, obligatorio = false }) => {
 };
 ```
 
-#### 3.2.3 Sección Demografía y Contacto
+3.2.3 Sección Demografía y Contacto
 
-**Selector de Fecha de Nacimiento:**
+Selector de Fecha de Nacimiento:
 
 ```javascript
 import DateTimePicker from '@react-native-community/datetimepicker';
@@ -541,7 +535,7 @@ const FechaNacimientoSelector = ({ value, onChange }) => {
 };
 ```
 
-**Campo de Email con Validación:**
+Campo de Email con Validación:
 
 ```javascript
 const EmailInput = ({ value, onChange }) => {
@@ -578,9 +572,9 @@ const EmailInput = ({ value, onChange }) => {
 };
 ```
 
-### 3.3 Validaciones en Tiempo Real
+3.3 Validaciones en Tiempo Real
 
-**Sistema centralizado de validación:**
+Sistema centralizado de validación:
 
 ```javascript
 const validarFormulario = (data) => {
@@ -627,13 +621,11 @@ const validarFormulario = (data) => {
 };
 ```
 
----
+4. Componentes de Valor Agregado
 
-## 4. Componentes de Valor Agregado
+4.1 Módulo GPS (RF-02)
 
-### 4.1 Módulo GPS (RF-02)
-
-**Implementación de captura de coordenadas:**
+Implementación de captura de coordenadas:
 
 ```javascript
 import Geolocation from '@react-native-community/geolocation';
@@ -717,9 +709,9 @@ const ModuloGPS = ({ onCoordenadas }) => {
 };
 ```
 
-### 4.2 Gestión de Archivos (RF-03)
+4.2 Gestión de Archivos (RF-03)
 
-**Módulo de captura y previsualización de imágenes:**
+Módulo de captura y previsualización de imágenes:
 
 ```javascript
 import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
@@ -790,9 +782,9 @@ const GestionArchivos = ({ onImagenSeleccionada }) => {
 };
 ```
 
-### 4.3 Manejo de Estados Offline-First
+4.3 Manejo de Estados Offline-First
 
-**Indicador visual de conectividad:**
+Indicador visual de conectividad:
 
 ```javascript
 import NetInfo from '@react-native-community/netinfo';
@@ -832,13 +824,11 @@ const EstadoConectividad = () => {
 };
 ```
 
----
+5. Usabilidad y Accesibilidad
 
-## 5. Usabilidad y Accesibilidad
+5.1 Estándares WCAG 2.1
 
-### 5.1 Estándares WCAG 2.1
-
-**Contraste de colores (Nivel AA):**
+Contraste de colores (Nivel AA):
 
 ```javascript
 // Función para calcular contraste
@@ -857,14 +847,14 @@ const calcularContraste = (color1, color2) => {
 
 // Paleta verificada WCAG AA (ratio 4.5:1)
 const colores = {
-  textoPrimario: '#f8fafc',    // Sobre fondo oscuro: 15.4:1 ✓
-  textoSecundario: '#cbd5e1',  // Sobre fondo oscuro: 10.8:1 ✓
-  primario: '#60a5fa',         // Sobre fondo oscuro: 6.2:1 ✓
-  error: '#ef4444'             // Sobre fondo oscuro: 5.1:1 ✓
+  textoPrimario: '8fafc',    // Sobre fondo oscuro: 15.4:1 ✓
+  textoSecundario: 'bd5e1',  // Sobre fondo oscuro: 10.8:1 ✓
+  primario: '0a5fa',         // Sobre fondo oscuro: 6.2:1 ✓
+  error: 'f4444'             // Sobre fondo oscuro: 5.1:1 ✓
 };
 ```
 
-**Áreas de toque mínimas (48dp):**
+Áreas de toque mínimas (48dp):
 
 ```javascript
 const styles = StyleSheet.create({
@@ -885,9 +875,9 @@ const styles = StyleSheet.create({
 });
 ```
 
-### 5.2 Navegación Intuitiva
+5.2 Navegación Intuitiva
 
-**Implementación de Progress Stepper:**
+Implementación de Progress Stepper:
 
 ```javascript
 const ProgressStepper = ({ pasoActual }) => {
@@ -925,76 +915,72 @@ const ProgressStepper = ({ pasoActual }) => {
 };
 ```
 
----
+6. Conclusiones y Entregables
 
-## 6. Conclusiones y Entregables
-
-### 6.1 Conclusiones
+6.1 Conclusiones
 
 La implementación de las interfaces gráficas para el proyecto "Censo Rural" cumple exitosamente con los requerimientos del cliente y garantiza una recolección de datos íntegra y segura mediante:
 
-**1. Diseño centrado en el usuario:**
+1. Diseño centrado en el usuario:
 - Interfaz intuitiva adaptada a encuestadores con formación técnica básica
 - Validaciones en tiempo real que previenen errores de captura
 - Feedback visual claro en todos los estados de interacción
 
-**2. Arquitectura modular escalable:**
+2. Arquitectura modular escalable:
 - Componentes reutilizables que facilitan mantenimiento
 - Separación clara entre lógica de negocio y presentación
 - Testing unitario independiente por componente
 
-**3. Funcionalidad offline-first robusta:**
+3. Funcionalidad offline-first robusta:
 - Captura de datos sin requerir conectividad
 - Sincronización automática cuando hay red disponible
 - Indicadores visuales claros del estado de conexión
 
-**4. Cumplimiento de estándares:**
+4. Cumplimiento de estándares:
 - WCAG 2.1 Nivel AA para accesibilidad
 - Contraste mínimo 4.5:1 en todos los textos
 - Áreas de toque mínimas de 48dp
 
-**5. Tecnología apropiada:**
+5. Tecnología apropiada:
 - React Native para rendimiento nativo en móviles
 - HTML/CSS/JS para plataforma web administrativa
 - SQLite3 para persistencia local confiable
 
-### 6.2 Impacto en la Operación del Censo
+6.2 Impacto en la Operación del Censo
 
 Las interfaces desarrolladas optimizan el proceso de censo rural mediante:
 
-**Eficiencia de captura:**
+Eficiencia de captura:
 - Tiempo promedio por registro: 8-12 minutos (vs 15-20 manual)
 - Reducción de errores de transcripción: 95%
 - Productividad: 15-25 registros por encuestador/día
 
-**Calidad de datos:**
+Calidad de datos:
 - Validaciones previenen documentos duplicados
 - Campos obligatorios garantizan completitud
 - Geolocalización GPS asegura ubicación precisa
 
-**Experiencia de usuario:**
+Experiencia de usuario:
 - Curva de aprendizaje: <2 horas de capacitación
 - Satisfacción de encuestadores: Alta (interfaz intuitiva)
 - Menor fatiga visual (modo oscuro optimizado)
 
-### 6.3 Entregables del Proyecto
+6.3 Entregables del Proyecto
 
-**Código fuente:**
+Código fuente:
 - `/mobile` - Aplicación React Native para Android/iOS
 - `/web` - Plataforma administrativa HTML/CSS/JS
 - `/shared` - Componentes y utilidades compartidas
 
-**Documentación:**
+Documentación:
 - Manual de usuario para encuestadores
 - Guía de estilo (design system)
 - Documentación técnica de componentes
 
-**Assets:**
+Assets:
 - Paleta de colores y variables CSS
 - Iconografía y recursos gráficos
 - Tipografía (Inter, Roboto)
 
----
-
-**Páginas:** 6  
-**Fecha de entrega:** 26 de octubre de 2025
+Páginas: 6  
+Fecha de entrega: 26 de octubre de 2025

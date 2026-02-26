@@ -1,63 +1,170 @@
-Este esquema ha sido diseñado para cumplir con los lineamientos de la 
-**Guía de Aprendizaje 6**, la descripción de la evidencia en **mes12.txt** y la estructura técnica
- proporcionada en **code.txt** para el proyecto **"Censo Rural"**.
+Selección de herramientas para prototipado (GA6-220501096-AA3-EV01) — Proyecto “Censo Rural”
+Introducción y contextualización
+El prototipado es una práctica clave en el desarrollo ágil porque permite validar tempranamente decisiones de diseño con usuarios y reducir el riesgo antes de construir software. En la metodología Extreme Programming (XP), los entregables frecuentes, el feedback continuo y el enfoque en simplicidad y calidad técnica demandan que las interfaces se materialicen pronto para facilitar la conversación con el cliente y el equipo (valores: comunicación, simplicidad, feedback, coraje y respeto). (Agile Alliance, s. f.) [agilealliance.org]
+El presente documento constituye la evidencia GA6-220501096-AA3-EV01 para el proyecto “Censo Rural” y describe la selección, configuración y uso de una herramienta de prototipado, además del desarrollo de un ejemplo de interfaz con buenas prácticas de usabilidad y accesibilidad.
+Objetivo
+Demostrar destrezas en el manejo de herramientas de diseño de interfaces, asegurando que los componentes cumplan con los requisitos funcionales y criterios de calidad de usabilidad y accesibilidad definidos para el proyecto “Censo Rural”.
 
-Toma el siguiente esquema y desarrolla un documento breve respetando las normas appa con una extencion maxima de 
-6 hojas, la imagenes seran anexadas posterior mente por lo cual solo dejar los espacios disponibles: 
+II. Selección y justificación de la herramienta (Checklist #1)
+Herramienta seleccionada: Draw.io (diagrams.net)
+Justificación de la elección
 
-El objetivo de la evidencia **GA6-220501096-AA3-EV02** es crear los **mockups de navegación**
-de la aplicación (web o móvil), asegurando que las interfaces sigan los requerimientos del 
-software y permitan una interacción fluida.
-
-
-
-Esquema para la Evidencia GA6-220501096-AA3-EV02
-
- I. Introducción y Contextualización
-1.  **Portada**: Datos institucionales y del proyecto.
-2.  **Introducción**: 
-    *   Definir el propósito de los mockups: visualizar la disposición de los componentes y el flujo de navegación antes de la codificación final.
-    *   Contexto del **Censo Rural**: Mencionar la importancia de una interfaz amigable para encuestadores en zonas rurales con conectividad limitada.
-3.  **Objetivo**: Desarrollar el diseño visual de los elementos principales del software, garantizando que la navegación sea intuitiva y cumpla con los requerimientos funcionales.
-
- II. Definición de Componentes Base (Basado en code.txt)
-Siguiendo los patrones reutilizables definidos en las fuentes, los mockups deben integrar los siguientes elementos estructurales:
-1.  **Barra de Navegación (Navbar)**: Enlaces a Inicio, Formulario, Precios (opcional) y Contáctanos.
-2.  **Pie de Página (Footer)**: Información de recursos, avisos legales, suscripción al boletín y opción de **Modo Oscuro**.
-3.  **Modelos de Tarjetas (Cards)**: Para la visualización resumida de la información en la página principal, incluyendo imagen, título y descripción breve.
-4.  **Lista Ordenada de Pasos**: Representación visual de las etapas del proceso (Planifica, Diseña, Implementa, Lanza) para guiar al usuario.
-
- III. Diseño del Formulario de Captura (Funcionalidad Crítica)
-El mockup del formulario debe ser detallado e incluir los campos obligatorios identificados en la lógica del negocio:
-*   **Identificación**: Tipo de documento (CC, TI) y Número de identificación.
-*   **Datos Personales**: Primer nombre, segundo nombre, primer apellido y segundo apellido.
-*   **Ubicación y Contacto**: Domicilio (Dirección, Barrio), Número Celular y Email.
-*   **Información Demográfica**: Fecha de nacimiento y Sexo (Femenino, Masculino, Otro).
-*   **Controles de Acción**: Botones para "Enviar" y "Limpiar".
-
- IV. Flujo de Navegación e Interactividad (Checklist #2)
-Esta sección debe explicar cómo el usuario se desplaza entre las pantallas:
-1.  **Página de Inicio (Home)**: Vista principal con el Navbar y Cards descriptivas del proyecto.
-2.  **Acceso al Formulario**: Botón de acción (CTA) en el Navbar o en las Cards que redirija a la interfaz de captura de datos.
-3.  **Estados de Interacción**:
-    *   Visualización de mensajes de éxito o error al enviar el formulario.
-    *   Simulación de la navegación hacia el **Repositorio del proyecto** y otros formularios adicionales.
-
- V. Herramientas y Estándares de Diseño (Checklist #3 y #4)
-1.  **Herramienta de Modelado**: Uso de **Draw.io** (u otra herramienta vista en la formación) por su versatilidad y capacidad para detallar fielmente el diseño.
-2.  **Usabilidad y Accesibilidad**:
-    *   **Diseño Responsivo**: Adaptación a dispositivos móviles Android y laptops.
-    *   **Composición de Color**: Definir una paleta (basada en el código CSS de `code.txt`) que garantice contraste y legibilidad.
-
- VI. Conclusiones y Entregables
-1.  **Conclusiones**: Resumen de cómo los mockups materializan los requerimientos del cliente y facilitan la fase de desarrollo frontend bajo la metodología XP.
-2.  **Carpeta ZIP para Entrega**:
-    *   Documento técnico con los pantallazos de los mockups y descripción de cada interfaz.
-    *   Archivo fuente del prototipo (ej. `.drawio`).
+Versatilidad y gratuidad: Draw.io (diagrams.net) es un editor gratuito de diagramas con amplias bibliotecas y plantillas para UML, wireframes y mockups. El catálogo oficial muestra ejemplos y plantillas de UML y mockups/wireframes listos para usar. [drawio.com]
+Facilidad de uso y experiencia previa del equipo: La curva de aprendizaje es baja; la activación de librerías de Mockups y plantillas permite armar pantallas rápidamente (véase cómo habilitar Mockups y iOS desde “More shapes…”). [drawio-app.com]
+Integración con la nube (Google Drive): Permite guardar, versionar y compartir diagramas directamente en Google Drive, con add-on para Google Docs/Slides/Sheets y guardado automático. [drawio.com], [workspace.google.com], [drawio-app.com]
+Cobertura de modelado: Ofrece bibliotecas para UML y decenas de dominios (software, infraestructura, procesos), incluyendo repositorios comunitarios de librerías reutilizables. [drawio.com], [github.com], [github.com]
 
 
-**Indicadores de Logro a cubrir**: 
-* Realización de mockups (30%).
-* Navegación funcional (30%).
-* Cumplimiento de requerimientos (30%).
-* Uso de herramienta TIC adecuada (10%).
+Conclusión de selección (Checklist #1): Por costo, cobertura funcional, bibliotecas de UI y colaboración en Drive, Draw.io es adecuado para prototipos de media/alta fidelidad del “Censo Rural”, alineado con la necesidad de entregas frecuentes de XP. [drawio.com], [drawio-app.com], [agilealliance.org]
+
+
+III. Configuración y manejo de funcionalidades (Checklist #1 y #3)
+1) Configuración inicial del entorno
+
+Abre app.diagrams.net y elige Google Drive como almacenamiento. Autoriza el acceso para guardar y versionar el archivo .drawio. [Inserte captura: Selección de almacenamiento y autorización]. [drawio.com]
+En el panel izquierdo, pulsa “+ More shapes…” y activa las librerías Mockups (y, si se requiere, iOS o Android). [Inserte captura: Diálogo “More shapes…” con Mockups habilitado]. [drawio-app.com]
+Crea un archivo CensoRural.drawio y guarda en la carpeta del proyecto. [Inserte captura: Archivo nuevo con nombre y plantilla en blanco].
+
+2) Exploración de librerías y elementos disponibles
+
+Contenedores y páginas: Usa “Mockup Containers” para marcos de pantallas y vistas. [Inserte captura: Mockup Containers en el panel de formas]. [thomasventurini.com]
+Componentes de UI: Arrastra botones, campos de texto, menús, tabs, cards, listas y iconos desde Mockups y otras librerías (Wireframes, General, UML). [Inserte captura: Biblioteca Mockups con botones, inputs y menús]. [drawio-app.com]
+Plantillas: Alternativamente, inserta plantillas de wireframes para acelerar el armado inicial. [Inserte captura: Plantilla de wireframe aplicada]. [drawio.com]
+
+
+Tip: Trabaja con páginas (Pages) para cada vista y usa alineación y “snap” para precisión. Duplica marcos para mantener coherencia visual entre pantallas. (Basado en guía de mockups con Draw.io). [drawio-app.com]
+
+
+IV. Desarrollo del prototipo de ejemplo (Checklist #2)
+Siguiendo lo establecido en mes12.txt, se desarrollan cuatro vistas para el “Censo Rural”: Navbar, Footer, Card y Formulario de captura.
+1) Barra de navegación (Navbar)
+
+Objetivo: Acceso directo a Inicio, Formulario, Repositorio.
+Diseño propuesto:
+
+Ubicación superior fija (sticky), íconos + etiquetas para reducir ambigüedad.
+Estados activo/hover visibles; contraste AA (ver sección de accesibilidad).
+[Inserte captura: Navbar con tres ítems y estado activo].
+
+
+
+2) Pie de página (Footer)
+
+Contenido: Información institucional (nombre del programa), enlaces de contacto (correo, WhatsApp institucional), términos/privacidad.
+Diseño propuesto:
+
+Tipografía pequeña pero legible con contraste AA.
+[Inserte captura: Footer con enlaces y datos de contacto].
+
+
+
+3) Modelo de Carta (Card)
+
+Uso: Resumen de regiones o censos realizados.
+Estructura: Imagen (opcional), título de región, KPIs (hogares encuestados, fecha última visita), botón “Ver detalle”.
+[Inserte captura: Grid de 2×2 cards con botón de acción].
+
+4) Formulario de captura de datos
+
+Campos obligatorios (alineados en 1 o 2 columnas según ancho):
+
+Primer nombre, Segundo nombre, Apellidos
+Tipo y número de documento
+Domicilio, Fecha de nacimiento, Sexo
+Celular, Dirección, Barrio, Email
+
+
+Acciones: Enviar formulario, Capturar GPS (botón secundario).
+Diseño propuesto:
+
+Agrupa campos por secciones (Identificación / Ubicación / Contacto).
+Validaciones: formato de documento y email, requeridos visibles; mensajes de error claros y cercanos al campo.
+Controles móviles: Fecha con date picker, select para tipo de documento/sexo; botones con área táctil ≥ 48 dp (ver accesibilidad). [Inserte captura: Formulario completo con secciones y botones].
+Confirmación: Snackbar/banner “Registro enviado” y opción “Ver registro”.
+
+
+
+
+V. Aplicación de estándares de usabilidad y accesibilidad
+1) Usabilidad (orientada a encuestadores con baja alfabetización digital)
+
+Lenguaje claro y etiquetas explícitas (“Primer nombre”/“Apellidos”), evitando tecnicismos.
+Navegación simplificada: máximo 3 opciones primarias (Inicio/Formulario/Repositorio) y flujo lineal.
+Reconocimiento sobre recuerdo: íconos + texto; autorrelleno de campos repetitivos cuando sea posible.
+Acciones prominentes: “Enviar formulario” (primaria) y “Capturar GPS” (secundaria).
+
+
+Estas directrices se alinean con el principio de simplicidad y feedback frecuente de XP para sostener iteraciones cortas y validación continua con usuarios finales. (Agile Alliance, s. f.) [agilealliance.org]
+
+2) Accesibilidad
+
+Contraste de color y legibilidad (WCAG 2.1)
+
+Asegurar contraste mínimo 4.5:1 para texto normal y 3:1 para texto grande; para componentes y gráficos, 3:1 (AA). Recomendado AAA cuando sea posible. Usa herramientas como WebAIM Contrast Checker para verificar combinaciones. (W3C/WAI, 2018; WebAIM, s. f.; MDN, 2025). [w3.org], [webaim.org], [developer....ozilla.org]
+Marcador en el prototipo: añade una nota bajo la paleta con los radios de contraste verificados. [Inserte captura: Paleta con resultados AA/AAA].
+
+
+Tamaño de objetivos táctiles (Android)
+
+Garantizar áreas táctiles ≥ 48 dp × 48 dp (≈ 9 mm), incluso si el icono visual es menor; Material Design y la ayuda de Android recomiendan este mínimo y separación suficiente entre controles. (Google Material, s. f.; Android Accessibility Help, s. f.). [m2.material.io], [support.google.com]
+Marcador en el prototipo: dibuja un cuadro de 48 dp alrededor de cada botón/ícono para verificar. [Inserte captura: Overlays de 48 dp en botones].
+
+
+Estructura y jerarquía
+
+Usa encabezados y landmarks claros; navegación con orden lógico y foco visible, en línea con la guía de accesibilidad de Material 3. (Material Design 3, s. f.). [m3.material.io]
+
+
+
+
+VI. Conclusiones y entregables
+1) Conclusiones
+Draw.io demostró ser una herramienta eficiente para prototipado de interfaces del “Censo Rural” por su rapidez de armado con bibliotecas de Mockups, su integración con Google Drive (versionado y colaboración) y su capacidad para crear diagramas UML y wireframes dentro del mismo entorno. Esto favorece las entregas frecuentes de módulos funcionales y el feedback continuo que promueve XP, reduciendo el tiempo entre idea, prueba y mejora. [drawio-app.com], [drawio.com], [drawio.com], [agilealliance.org]
+2) Entregable final (ZIP)
+Incluye:
+
+Documento técnico (PDF o Word) con:
+
+Descripción y pantallazos de configuración (More shapes…, bibliotecas) y del prototipo (Navbar, Footer, Card, Formulario).
+
+
+Archivo fuente del prototipo: CensoRural.drawio (o exportación compatible: PNG/SVG con XML).
+Estructura sugerida del ZIP:
+/GA6-220501096-AA3-EV01_CensoRural/
+├─ documento/
+│  └─ GA6-AA3-EV01_CensoRural.pdf (o .docx)
+├─ prototipo/
+│  ├─ CensoRural.drawio
+│  └─ exportaciones/ (PNG/SVG/PDF)
+└─ evidencias/
+   └─ capturas_configuracion_y_vistas/
+
+
+
+
+Apéndice A — Lista de “pantallazos” requeridos (para insertar en el documento)
+
+Almacenamiento en Google Drive y autorización (Draw.io). [CAPTURA A1]. [drawio.com]
+Activación de librerías Mockups/iOS/Android (More shapes…). [CAPTURA A2]. [drawio-app.com]
+Panel de formas mostrando botones, inputs, menús. [CAPTURA A3]. [drawio-app.com]
+Navbar con Inicio/Formulario/Repositorio y estado activo. [CAPTURA A4].
+Footer con datos institucionales y contacto. [CAPTURA A5].
+Cards de regiones/censos con KPIs y CTA. [CAPTURA A6].
+Formulario completo con validaciones y botones (incl. overlay 48 dp). [CAPTURA A7]. [m2.material.io], [support.google.com]
+Paleta de colores y verificación con Contrast Checker (AA/AAA). [CAPTURA A8]. [webaim.org]
+
+
+Referencias (formato APA 7.ª ed.)
+Agile Alliance. (s. f.). What is Extreme Programming (XP)? https://www.agilealliance.org/glossary/xp/ [agilealliance.org]
+Android Accessibility Help. (s. f.). Touch target size. https://support.google.com/accessibility/android/answer/7101858 [support.google.com]
+draw.io. (s. f.). Use draw.io with Google Drive. https://www.drawio.com/doc/faq/google-drive-diagrams [drawio.com]
+draw.io. (2017, 29 diciembre). Use draw.io to mockup your mobile apps. https://drawio-app.com/blog/use-draw-io-to-mockup-your-mobile-apps/ [drawio-app.com]
+draw.io. (s. f.). Example draw.io diagrams and templates. https://www.drawio.com/example-diagrams [drawio.com]
+Google Workspace Marketplace. (2024, 7 marzo). draw.io. https://workspace.google.com/marketplace/app/drawio/224440279306 [workspace.google.com]
+Material Design. (s. f.). Touch target (MDC Web). https://m2.material.io/develop/web/supporting/touch-target [m2.material.io]
+Material Design 3. (s. f.). Accessibility — Designing (Structure). https://m3.material.io/foundations/designing/structure [m3.material.io]
+MDN Web Docs. (2025, 23 junio). Color contrast. https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable/Color_contrast [developer....ozilla.org]
+WebAIM. (s. f.). Contrast Checker. https://webaim.org/resources/contrastchecker/ [webaim.org]
+W3C/WAI. (2018). Understanding Success Criterion 1.4.3: Contrast (Minimum). https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html [w3.org]
+APA Style. (s. f.). Headings. https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings [apastyle.apa.org]
+APA Style. (2025, 8 octubre). Student Paper Setup Guide (PDF). https://apastyle.apa.org/instructional-aids/student-paper-setup-guide.pdf
